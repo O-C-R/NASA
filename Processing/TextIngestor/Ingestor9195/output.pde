@@ -1,11 +1,8 @@
 //
-void outputStories() {
+void outputStories(int thisYear) {
   JSONObject output = new JSONObject();
-  /*
-  // use the file title to determine the year
-  // assume that it is just the year with .txt
-  String thisYear = splitTokens(fileToLookAt, "/.")[(splitTokens(fileToLookAt, "/.")).length - 2];
-  output.setInt("year", Integer.parseInt(thisYear));
+  output.setInt("year", thisYear);
+  output.setInt("totalStories", stories.size());
   JSONArray ar = new JSONArray();
   
   for (int i = 0; i < stories.size(); i++) {
@@ -13,8 +10,7 @@ void outputStories() {
     ar.setJSONObject(i, storyJSON);
   }
   output.setJSONArray("stories", ar);
-  saveJSONObject(output, "output/" + thisYear + ".json");
-  */
+  saveJSONObject(output, outputLocation + thisYear + ".json");
 } // end outputStories
 
 //

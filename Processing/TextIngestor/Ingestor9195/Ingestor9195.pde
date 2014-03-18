@@ -1,55 +1,62 @@
 //String fileLocation = "/Users/nyounse/Desktop/Chron92TXT.txt";
-String fileLocation = "/Users/nyounse/Desktop/chronology/Chron91.doc";
-String outputLocation = "/output/";
+String fileLocation = "../../../Data/Docs/chronology9195/Chron";
+String outputLocation = "output/";
+
+int[] years = {
+  1991, 
+  1992, 
+  1993, 
+  1994, 
+  1995
+};
 
 String currentMonth = "";
 int currentDay = 0;
-
-String fileToLookAt = "";
+int currentYear = 0;
 
 HashMap<String, Integer> months = new HashMap<String, Integer>();
 
-ArrayList<Story> stories = new ArrayList<Story>();
+ArrayList<Story> stories;
 
 void setup() {
   months = getMonths(); // make the month HM
 
-
-  String[] test = loadStrings(fileLocation);
-  for (int i = 0; i < test.length; i++) {
-    test[i] = test[i].trim();
-    //println(i + " ---- " + test[i]);
-    String[] broken = splitTokens(test[i], " ");
-    boolean madeNewDay = false;
-    if (broken.length > 1) {
-      String monthCheck = broken[0].trim();
-      String dayCheck = broken[1].trim();
-      if (isMonth(monthCheck)) {
-        try {
-          currentDay = Integer.parseInt(dayCheck.replace(":", ""));
-          currentMonth = monthCheck;
-          println("found new month/day pairing: " + currentMonth + " " + currentDay);
-          madeNewDay = true;
+  for (int year : years) {
+    currentYear = year;
+    stories = new ArrayList<Story>();
+    String[] test = loadStrings(fileLocation + (currentYear - 1900) + ".doc");
+    for (int i = 0; i < test.length; i++) {
+      test[i] = test[i].trim();
+      //println(i + " ---- " + test[i]);
+      String[] broken = splitTokens(test[i], " ");
+      boolean madeNewDay = false;
+      if (broken.length > 1) {
+        String monthCheck = broken[0].trim();
+        String dayCheck = broken[1].trim();
+        if (isMonth(monthCheck)) {
+          try {
+            currentDay = Integer.parseInt(dayCheck.replace(":", ""));
+            currentMonth = monthCheck;
+            //println("found new month/day pairing: " + currentMonth + " " + currentDay);
+            madeNewDay = true;
+          }
+          catch (Exception e) {
+          }
         }
-        catch (Exception e) {
+        if (broken[0].charAt(0) == '*' || madeNewDay) {
+          // make a new story
+          Story newStory = new Story(currentMonth, currentDay);
+          newStory.setText(test[i], madeNewDay);
+          if (currentMonth.equals("December") && currentDay >= 25) {
+            if (test[i].contains("Index")) break; // because for some reason the last line is crappified
+          }
+          stories.add(newStory);
         }
-      }
-      if (broken[0].charAt(0) == '*' || madeNewDay) {
-        // make a new story
-        Story newStory = new Story(currentMonth, currentDay);
-        newStory.setText(test[i], madeNewDay);
-        if (currentMonth.equals("December") && currentDay >= 25) {
-         if (test[i].contains("Index")) break; // because for some reason the last line is crappified 
-        }
-        stories.add(newStory);
       }
     }
+    println("made: " + stories.size() + " new stories");
+    outputStories(currentYear);
   }
-  println("made: " + stories.size() + " new stories");
-  for (int i = stories.size() - 1; i >= stories.size() - 10; i--) {
-    println(stories.get(i));
-  }
-
-  exit();  
+  exit();
 } // end setup
 
