@@ -24,9 +24,9 @@ Story currentStory;
 //String stopText = "APPENDIX A: TABLE OF ABBREVIATIONS";
 
 // 2007
-//String fileName = "2007.txt";
-//String heading = "Aeronautics and Astronautics: A Chronology"; 
-//String stopText = "APPENDIX A: TABLE OF ABBREVIATIONS";
+String fileName = "2007.txt";
+String heading = "Aeronautics and Astronautics: A Chronology"; 
+String stopText = "APPENDIX A: TABLE OF ABBREVIATIONS";
 
 // 2008
 //String fileName = "2008.txt";
@@ -34,9 +34,9 @@ Story currentStory;
 //String stopText = "APPENDIX A: TABLE OF ABBREVIATIONS";
 
 // 2009
-String fileName = "2009.txt";
-String heading = "Aeronautics and Astronautics: A Chronology"; 
-String stopText = "APPENDIX A: TABLE OF ABBREVIATIONS";
+//String fileName = "2009.txt";
+//String heading = "Aeronautics and Astronautics: A Chronology"; 
+//String stopText = "APPENDIX A: TABLE OF ABBREVIATIONS";
 
 
 boolean lastLineWasHeading = false;
