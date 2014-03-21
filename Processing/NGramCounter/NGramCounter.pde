@@ -20,14 +20,58 @@ int threshold = 3;
 
 void setup() {
   size(1280,720);
-  loadCorpus(dataPath + masterFile);
-  for (int i = 1; i < 5; i++) {
-  saveGrams(countGrams(i),i + "grams.txt");
+  //loadCorpus(dataPath + masterFile);
+  /*
+  for (int i = 5; i < 8; i++) {
+   saveGrams(countGrams(i),i + "grams.txt");
+  }
+  */
+  
+  for (int i = 1; i < 8; i++) {
+    countSaveGramsYears(n, n + "grams_series.txt");
   }
 }
 
 void draw() {
   background(0);
+}
+
+void countSaveGramsYears(int n, String url) {
+  
+  PrintWriter writer = createWriter(outPath + url);
+  
+  println("MASTER");
+  //Get the master list
+  loadCorpus(dataPath + masterFile);
+  IntDict counter = countGrams(n);
+  println("YEARS");
+  //Get the other years
+  IntDict[] yearCounters = new IntDict[endYear - startYear];
+  for (int i = 0;i < yearCounters.length; i++) {
+   int y = startYear + i;
+   println(y);
+   loadCorpus(dataPath + y + ".txt");
+   yearCounters[i] = countGrams(n);
+  }
+  
+  
+  println("TIME SERIES");
+  //Make time series for the most popular words
+  for (String k:counter.keys()) {
+     int c = counter.get(k);
+     if (c > threshold) {
+       String[] outs = new String[(endYear - startYear) + 1];
+       outs[0] = k;
+       for (int i = 1; i < outs.length; i++) {
+        outs[i] = str(yearCounters[i - 1].get(k));
+       }
+       writer.println(join(outs, ","));
+     }
+     
+   }
+   
+   writer.flush();
+   writer.close();
 }
 
 void saveGrams(IntDict counter, String url) {
