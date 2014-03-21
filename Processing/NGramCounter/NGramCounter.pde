@@ -28,7 +28,7 @@ void setup() {
   */
   
   for (int i = 1; i < 8; i++) {
-    countSaveGramsYears(n, n + "grams_series.txt");
+    countSaveGramsYears(i, i + "grams_series.txt");
   }
 }
 
@@ -60,10 +60,11 @@ void countSaveGramsYears(int n, String url) {
   for (String k:counter.keys()) {
      int c = counter.get(k);
      if (c > threshold) {
-       String[] outs = new String[(endYear - startYear) + 1];
+       String[] outs = new String[(endYear - startYear) + 2];
        outs[0] = k;
-       for (int i = 1; i < outs.length; i++) {
-        outs[i] = str(yearCounters[i - 1].get(k));
+       outs[1] = c;
+       for (int i = 2; i < outs.length; i++) {
+        outs[i] = str(yearCounters[i - 2].get(k));
        }
        writer.println(join(outs, ","));
      }
