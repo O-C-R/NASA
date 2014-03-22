@@ -27,9 +27,12 @@ void setup() {
    }
    */
 
-  
-   countSavePosYears("an amazing thing", "_series.txt");
-   countSavePosYears("the best year of the decade", "_series.txt");
+  countSavePosYears("positioning systems", "_series.txt");
+  countSavePosYears("positioning system", "_series.txt");
+   //countSavePosYears("two years", "_series.txt");
+   //countSavePosYears("two crazy years", "_series.txt");
+   //countSavePosYears("an amazing thing", "_series.txt");
+   //countSavePosYears("sophisticated instruments", "_series.txt");
   
   
 }
