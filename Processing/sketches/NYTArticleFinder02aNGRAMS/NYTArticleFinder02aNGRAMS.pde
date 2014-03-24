@@ -10,10 +10,30 @@ String nytArticleKey = ""; // loaded in loadKeys()
 String searchOutputDirectory = "output/";
 HashMap<String, Integer> existingSearches = new HashMap<String, Integer>(); // .. so that searches need not be done twice
 
+// ngram data
+String ngramFile = "../../../Data/grams/vbg nns_series.txt";
+String startWord = "braking rockets";
+String endWord = "carrying astronauts";
+
 void setup() {
   OCRUtils.begin(this);
   loadKeys();
-  doBigSearch("planet", 1850, 2014, false);
+  // search through ngrams
+  boolean started = false;
+  String[] ngrams = loadStrings(ngramFile);
+  for (int i = 0; i < ngrams.length; i++) {
+    String ngram = split(ngrams[i], ",")[0];
+    if (!started) {
+      if (ngram.equals(startWord)) started = true;
+    }
+    if (started) {
+      println(i + " searching for: " + ngram);
+      doBigSearch(ngram, 1850, 2014, false);
+      println(":^)");
+    }
+    if (started && ngram.equals(endWord)) break;
+  }
+  println("\ndone");
   exit();
 } // end setup
 
@@ -50,17 +70,17 @@ ArrayList<Result> doSearch(String searchTerm, int targetYear, int targetMonth) {
     if (getCalFromDataTime(beginDate).getTimeInMillis() > Calendar.getInstance().getTimeInMillis()) pastTime = true;
   }
 
-// reset the targetMonth
+  // reset the targetMonth
   if (endOfYear) targetMonth = 12;
   else targetMonth--;
 
-  println(beginDate + " to " + endDate);
+  //println(beginDate + " to " + endDate);
   Search newSearch = new Search(searchTerm, beginDate, endDate, targetYear, targetMonth);
   if (!pastTime) {
     newSearch.makeResults();
-    //newSearch.output();
-    //println("done with " + searchTerm + " for year: " + targetYear + " with " + newSearch.results.size() + " results");
-    println("done with " + searchTerm + " for year: " + targetYear + " with " + newSearch.hits + " hits");
+    //println("done with " + searchTerm + " for year: " + targetYear + " with " + newSearch.hits + " hits");
+    if (targetYear % 10 == 0) print(targetYear); 
+    else print(".");
   }
   return newSearch.results;
 } // end doSearch

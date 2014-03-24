@@ -19,7 +19,7 @@ class Search {
     this.endDate = endDate;
     this.year = year;
     this.month = month;
-    println("NEW SEARCH for dates: " + beginDate + " " + endDate + " year " + year + " month: " + month);
+    //println("NEW SEARCH for dates: " + beginDate + " " + endDate + " year " + year + " month: " + month);
     makeQuery();
   } // end constructor
 
@@ -40,8 +40,8 @@ class Search {
 
   //
   void makeResults() {
-    println("in makeResults for " + searchTerm + " between " + beginDate + " and " + endDate);
-
+    boolean problem = false;
+    int problemCount = 0;
     int pageCounter = 0;
     while (true) {
       anyt.page = pageCounter;
@@ -50,29 +50,20 @@ class Search {
         JSONObject result = anyt.getQuery();
         JSONObject response = result.getJSONObject("response");
         newResults = response.getJSONArray("docs");
-        if (pageCounter == 0) {
-          JSONObject meta = response.getJSONObject("meta");
-          hits = meta.getInt("hits");
-          println("  total results: " + hits);
-          results.add(new Result(year, month, hits));
-        }
-        print(".");
+
+        JSONObject meta = response.getJSONObject("meta");
+        hits = meta.getInt("hits");
+        results.add(new Result(year, month, hits));
+        problem = false;
       }
       catch (Exception e) {
-      } 
-      /*
-      pageCounter++;
-       if (newResults != null) {
-       for (int i = 0; i < newResults.size(); i++) {
-       results.add(newResults.getJSONObject(i));
-       }
-       }
-       if ((limit > 0 && pageCounter >= limit || pageCounter == 100) || newResults.size() == 0) break; // page cannot go beyond 100
-       */
-      break;
+        problem = true;
+        print("x");
+        problemCount++;
+        delay(1000);
+      }
+      if (!problem || problemCount > 4) break;
     }
-    println("__");
-    //println("end of makeResults with total results as: " + results.size());
   } // end makeResults
 
   //
@@ -98,7 +89,7 @@ class Search {
     return makeJSONArrayFromResultList(yearlyResults);
   } // end makeYearlyTotals
 
-  // 
+    // 
   JSONArray makeMonthlyTotals() {
     return makeJSONArrayFromResultList(results);
   } // end makeMonthlyTotals

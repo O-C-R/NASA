@@ -2,7 +2,7 @@
 void loadKeys() {
   String keyLocation = "../../../Private/keys.json";
   JSONObject keys = loadJSONObject(keyLocation);
-  JSONObject nytKey = keys.getJSONObject("nyt4");
+  JSONObject nytKey = keys.getJSONObject("nyt");
   nytArticleKey = nytKey.getString("article_search");
   //println("XX " + nytArticleKey);
 } // end loadKeys

@@ -39,9 +39,9 @@ class NYT {
     JSONObject result = null;
     try {
       makeQueryString();
-      println(queryString);
+      //println(queryString);
       result = loadJSONObject(queryString);
-      delay(350); // to not exceed the qps
+      delay(390); // to not exceed the qps
     }
     catch (Exception e) {
       println("problem with query: " + queryString);
@@ -53,8 +53,6 @@ class NYT {
 
 // 
 class ArticleNYT extends NYT {
-
-
   //
   ArticleNYT() {
     baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch";
