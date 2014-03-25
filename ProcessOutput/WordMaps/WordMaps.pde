@@ -18,11 +18,12 @@ void setup() {
 void draw() {
   background(0);
   //Years
-  stroke(#FF9900, 50);
+  
   colorMode(HSB);
   for (int i= startYear; i <= endYear; i++) {
     float x = map(i, startYear, endYear, 100, width - 100); 
     float c = map(i, startYear, endYear, 0, 200);
+    stroke(c,255,255, 50);
     line(x, 0, x, height);
     textSize(18);
     fill(c,255,255,150);
