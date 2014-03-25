@@ -11,8 +11,8 @@ import rita.*;
  */
 
 int startYear = 1961;
-int endYear = 1977;
-String dataPath = "../../Data/PDFsAsText/textEdited/";
+int endYear = 1985;
+String dataPath = "../../Data/PDFsAsText/testFromOCR/";
 String outPath = "../../Data/grams/";
 String masterFile = "allYears.txt";
 String[] sentences;
@@ -20,21 +20,28 @@ int threshold = 3;
 
 void setup() {
   size(1280, 720);
-  
-  /*
-  for (int i = 5; i < 8; i++) {
-   saveGrams(countGrams(i),i + "grams.txt");
-   }
-   */
 
+  loadCorpus(dataPath + masterFile);
+
+  for (int i = 1; i < 8; i++) {
+    //saveGrams(countGrams(i), i + "grams.txt");
+  }
+  
+  for (int i = 1; i < 8; i++) {
+    countSaveGramsYears(i, i + "year_grams.txt");
+  }
+
+  
+  countSavePosYears("lunar landing gear", "_series.txt");
+  countSavePosYears("main sounding systems", "_series.txt");
+  /*
   countSavePosYears("positioning systems", "_series.txt");
   countSavePosYears("positioning system", "_series.txt");
-   //countSavePosYears("two years", "_series.txt");
-   //countSavePosYears("two crazy years", "_series.txt");
-   //countSavePosYears("an amazing thing", "_series.txt");
-   //countSavePosYears("sophisticated instruments", "_series.txt");
-  
-  
+  countSavePosYears("two years", "_series.txt");
+  countSavePosYears("two crazy years", "_series.txt");
+  countSavePosYears("an amazing thing", "_series.txt");
+  countSavePosYears("sophisticated instruments", "_series.txt");
+  */
 }
 
 void draw() {
@@ -80,7 +87,7 @@ void countSaveGramsYears(int n, String url) {
 }
 
 void countSavePosYears(String pos, String url) {
-  
+
   String[] matchList = RiTa.getPosTags(pos);
   String match = join(matchList, " ");
 

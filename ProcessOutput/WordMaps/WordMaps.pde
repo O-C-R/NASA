@@ -2,17 +2,22 @@ ArrayList<Word> words = new ArrayList();
 PFont label;
 
 int startYear = 1961;
-int endYear = 1977;
+int endYear = 1985;
+
+String dataPath = "../../Data/grams/";
 
 void setup() {
   size(2480, 720);
   label = createFont("Helvetica", 100);
   textFont(label);
+  
   loadMap("jj nns_series.txt");
   loadMap("dt jj nn_series.txt");
   loadMap("cd jj nns_series.txt");
   loadMap("vbg nns_series.txt");
-  //loadMap("vbg nn_series.txt");
+  loadMap("vbg nn_series.txt");
+  
+  //loadMap("2year_grams.txt");
 }
 
 void draw() {
@@ -40,13 +45,13 @@ void draw() {
 }
 
 void loadMap(String url) {
-  String[] rows = loadStrings(url);
+  String[] rows = loadStrings(dataPath + url);
   for (String r:rows) {
     String[] cols = split(r, ",");
     Word w = new Word();
     w.w = cols[0];
     w.count = int(cols[1]);
-    w.wsize = (pow(w.count, 0.8) * 0.5) + 5;
+    w.wsize = (pow(w.count, 0.7) * 0.3) + 5;
 
     //calculate weighted average
     int t = 0;
