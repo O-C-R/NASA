@@ -22,7 +22,9 @@ String fq = ""; // blank means no fq
 //String searchTerm = "NASA";
 //String searchTerm = "Apollo";
 //String searchTerm = "\"NATIONAL AERONAUTICS AND SPACE ADMINISTRATION\"";
-String searchTerm = "\"JET PROPULSION LABORATORY\"";
+//String searchTerm = "\"JET PROPULSION LABORATORY\"";
+//String searchTerm = "\"Astronaut\"";
+String searchTerm = "\"Cosmonaut\"";
 
 //
 void setup() {

@@ -15,7 +15,7 @@ String[] gramPosPhrases = {
 };
 
 int pageCutoff = 200; // to determine an important story the nytStory printPage must be this or less
-int occuranceMinimum = 2; // to be a similar story there must be at least this many similar grams
+int occuranceMinimum = 1; // to be a similar story there must be at least this many similar grams
 
 
 
