@@ -103,6 +103,11 @@ class NYTStory {
     builder += " page: " + printPage + "   wordCount: " + wordCount + "   pubDate: " + pubDateString;
     return builder;
   } // end toString
+  
+  //
+  JSONObject getJSON() {
+    return json;
+  } // end getJSON
 } // end class NYTStory
 
 //

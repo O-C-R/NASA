@@ -32,14 +32,14 @@ class HistoryStory {
   } // end toString
 
   //
-  JSONObject getJSONObject() {
+  JSONObject getJSON() {
     JSONObject output = new JSONObject();
     output.setString("month", month);
     output.setInt("day", day);
     output.setInt("monthNumber", monthNumber);
     output.setString("story", story);
     return output;
-  } // end getJSONObject
+  } // end getJSON
 } // end class HistoryStory
 
 

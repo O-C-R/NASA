@@ -30,7 +30,7 @@ class Year {
     //
   String toString() {
     String builder = "";
-    builder += "Year: " + year + " with hisotry story count: " + historyStories.size() + "\n";
+    builder += "Year: " + year + " with history story count: " + historyStories.size() + "\n";
     builder += "                and nyt story count: " + nytStories.size() + "\n";
     String historyStoryMonthString = " historyStories by month: ";
     for (int i = 0; i < historyStoriesByMonth.size(); i++) historyStoryMonthString += " " + i + "-" + historyStoriesByMonth.get(i).size();

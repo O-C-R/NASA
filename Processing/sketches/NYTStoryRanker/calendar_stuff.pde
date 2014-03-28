@@ -34,6 +34,34 @@ String getNicePubDateString(Calendar c) {
 
 
 //
+HashMap<String, Integer> getMonths() {
+  HashMap<String, Integer> newMonths = new HashMap<String, Integer>();
+  newMonths.put("january", 0);
+  newMonths.put("february", 1);
+  newMonths.put("march", 2);
+  newMonths.put("april", 3);
+  newMonths.put("may", 4);
+  newMonths.put("june", 5);
+  newMonths.put("july", 6);
+  newMonths.put("august", 7);
+  newMonths.put("september", 8);
+  newMonths.put("october", 9);
+  newMonths.put("november", 10);
+  newMonths.put("december", 11);
+  return newMonths;
+} // end getMonths
+
+//
+HashMap<Integer, String>getMonthsByNumber(HashMap<String, Integer> monthsByStringIn) {
+  HashMap<Integer, String> newMonths = new HashMap<Integer, String>();
+  for (Map.Entry me : monthsByStringIn.entrySet()) {
+    newMonths.put((Integer)me.getValue(), (String)me.getKey());
+  }
+  return newMonths;
+} // end getMonthsByNumber
+
+
+//
 //
 //
 //

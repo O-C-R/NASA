@@ -17,7 +17,8 @@ void loadNYTStories(int[] yearRangeIn) {
         String[] tmp = split(file, "/");
         String yearString = tmp[tmp.length - 1].substring(0, 4);
         boolean withinYearRange = false;
-        for (int yr : yearRangeIn) {
+        //for (int yr : yearRangeIn) {
+        for (int yr = yearRangeIn[0]; yr <= yearRangeIn[1]; yr++) {
           if (yearString.equals(yr + "")) {
             withinYearRange = true;
             break;
@@ -118,7 +119,9 @@ String[] getFileNames (String fileDirectory) {
 
 //
 void loadYears(int[] yearRangeIn) {
-  for (int i = yearRangeIn[0]; i <= yearRangeIn[1]; i++) {
+  // note that it will load 1 previous year so that when checking backwards from the nyt stories it can
+  //   check stories that happened in the previous n months
+  for (int i = yearRangeIn[0] - 1; i <= yearRangeIn[1]; i++) {
     try {
       JSONObject yrJSON = loadJSONObject(jsonDirectory + i + ".json");
       loadStoriesFromYear(yrJSON);
@@ -144,6 +147,17 @@ void loadStoriesFromYear(JSONObject yrJSON) {
     println("problem loading yrJSON");
   }
 } // end loadStoriesFromYear
+
+
+
+
+
+//
+void loadCommonWords() {
+  String commonWordsFile = "commonWords.csv";
+  String[] commonWordsStringArray = loadStrings(commonWordsFile);
+  for (String s : commonWordsStringArray) commonWords.add(split(s, ",")[0].toLowerCase().trim());
+} // end loadCommonWords
 
 //
 //
