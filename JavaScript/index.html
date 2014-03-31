@@ -1,0 +1,175 @@
+<html>
+<head>
+<style type="text/css">
+  #container {
+    max-width: 1400px;
+    height: 100%;
+    margin: auto;
+  }
+</style>
+</head>
+<body>
+<div id="container"></div>
+<script src="sigma.min.js"></script>
+<script src="sigma.parsers.json.min.js"></script>
+<script src="sigma.layout.forceAtlas2.min.js"></script>
+<script serc="sigma.plugins.animate.min.js"></script>
+<script>
+
+// Add a method to the graph model that returns an
+  // object with every neighbors of a node inside:
+  sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+    var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
+
+    for (k in index)
+      neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
+  });
+
+    var i,
+    s,
+    o,
+    N = 15,
+    E = 52,
+    C = 5,
+    d = 0.5,
+    cs = [],
+    g = {
+      nodes: [],
+      edges: []
+    };
+
+// Generate the graph:
+
+for (i = 0; i < C; i++)
+  cs.push({
+    id: i,
+    nodes: [],
+    color: '#' + (
+      Math.floor(Math.random() * 16777215).toString(16) + '000000'
+    ).substr(0, 6)
+  });
+
+for (i = 0; i < N; i++) {
+  o = cs[(Math.random() * C) | 0];
+  g.nodes.push({
+    id: 'n' + i,
+    label: 'Node' + i,
+    x: Math.cos(2 * i * Math.PI / N),
+    y: Math.sin(2 * i * Math.PI / N),
+    size: Math.random(),
+    color: o.color
+  });
+  o.nodes.push('n' + i);
+}
+
+for (i = 0; i < E; i++) {
+  if (Math.random() < 1 - d)
+    g.edges.push({
+      id: 'e' + i,
+      source: 'n' + ((Math.random() * N) | 0),
+      target: 'n' + ((Math.random() * N) | 0)
+    });
+  else {
+    o = cs[(Math.random() * C) | 0]
+    g.edges.push({
+      id: 'e' + i,
+      source: o.nodes[(Math.random() * o.nodes.length) | 0],
+      target: o.nodes[(Math.random() * o.nodes.length) | 0]
+    });
+  }
+}
+
+
+    s = new sigma({
+      graph: g,
+      container: 'container',
+      settings: {
+        defaultNodeColor: 'rgba(250,0,250)',
+        drawEdges: false,
+        drawLabels: true,
+        labelThreshold: 5
+      }
+    });
+  
+  sigma.parsers.json(
+  'nn12.json',
+  s,
+  function(s) {
+      // We first need to save the original colors of our
+      // nodes and edges, like this:
+      s.graph.nodes().forEach(function(n) {
+        n.originalColor = n.color;
+        n.originalLabel = n.label;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.originalColor = e.color;
+      });
+
+      // When a node is clicked, we check for each node
+      // if it is a neighbor of the clicked one. If not,
+      // we set its color as grey, and else, it takes its
+      // original color.
+      // We do the same for the edges, and we only keep
+      // edges that have both extremities colored.
+      s.bind('clickNode', function(e) {
+        var nodeId = e.data.node.id,
+            toKeep = s.graph.neighbors(nodeId);
+        toKeep[nodeId] = e.data.node;
+
+
+        s.graph.nodes().forEach(function(n) {
+          if (toKeep[n.id]) {
+            n.color = n.originalColor;
+            n.label = n.originalLabel;
+            n.forceLabel = true;
+          } 
+          else {
+            n.color = '#ccc';
+            n.label = "";
+          }
+
+        });
+
+        s.graph.edges().forEach(function(e) {
+          if (toKeep[e.source] && toKeep[e.target])
+            e.color = e.originalColor;
+          else
+            e.color = '#ccc';
+        });
+
+        // Since the data has been modified, we need to
+        // call the refresh method to make the colors
+        // update effective.
+        s.refresh();
+      });
+
+      // When the stage is clicked, we just color each
+      // node and edge with its original color.
+      s.bind('clickStage', function(e) {
+
+        
+
+        s.graph.nodes().forEach(function(n) {
+          n.color = n.originalColor;
+          n.label = n.originalLabel;
+          n.forceLabel = false;
+        });
+
+        s.graph.edges().forEach(function(e) {
+          e.color = e.originalColor;
+        });
+
+        // Same as in the previous event:
+        s.refresh();
+      });
+    }
+);
+  console.log(s);
+  s.startForceAtlas2();
+</script>
+</body>
+</html>
