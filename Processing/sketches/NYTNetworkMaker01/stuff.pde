@@ -3,14 +3,15 @@ String[] gramPosPhrases = {
   "orbiting beyond Neptune", 
   "be awarded planethood", 
   "mission to the moon", 
-  //"energy fluctuations", 
+  "energy fluctuations", 
   "set in motion", 
-  //"sound waves", 
+  //"sound waves",
+  "sound wave", 
   "gathered the data", 
   //"microscopic processes", 
   "examining the early universe", 
   "light and sound", 
-  //"circumnavigated Antarctica", 
+  "circumnavigated Antarctica", 
   "discovery of the sound", 
   "fall to earth"
 };

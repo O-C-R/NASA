@@ -1,6 +1,6 @@
 //
 void outputStories() {
-  int minStoriesForPhraseOutput = 3; // phrase must at least have n stories to be considered
+  int minStoriesForPhraseOutput = 2; // phrase must at least have n stories to be considered
 
   String outputLocation = "output/" + yearRange[0] + "-" + yearRange[1] + "_" + timeStamp + ".json";
   JSONObject json = new JSONObject();

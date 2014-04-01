@@ -35,6 +35,7 @@ void loadPhraseReferences(int[] yearRangeIn) {
   }
   
   phraseKeeperAll = OCRUtils.sortObjectArrayListSimple(phraseKeeperAll, "storyCount");
+  phraseKeeperAll = OCRUtils.reverseArrayList(phraseKeeperAll);
   
   for (PhraseReference pr : phraseKeeperAll) pr.stories = OCRUtils.sortObjectArrayListSimple(pr.stories, "pubDateString");
   

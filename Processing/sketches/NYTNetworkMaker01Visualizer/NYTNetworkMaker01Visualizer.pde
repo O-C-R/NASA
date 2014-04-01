@@ -34,7 +34,9 @@ void setup() {
   
   //for (PhraseReference pr : phraseKeeperAll) println(pr);
   
-  outputPhrases();
+  //outputPhrases();
+  
+  outputPhraseCounts();
   
   println("done");
   exit();

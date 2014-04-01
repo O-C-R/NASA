@@ -10,7 +10,8 @@ void loadNYTStories(int[] yearRangeIn) {
   int breakCounter = 0;
   int storyCounter = 0; // right now the total story count is 36168
   for (String file : files) {
-    if (file.contains(".json")) {
+    //if (file.contains(".json") && !file.contains("search")) { // if only looking through fq files
+      if (file.contains(".json")) {
       try {
 
         // make sure it is part of the target years
