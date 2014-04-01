@@ -4,6 +4,7 @@ class Phrase {
   int phraseWordCount = 0;
   HashMap<HistoryStory, Integer> historyStories = new HashMap<HistoryStory, Integer>();
   int totalMentions = 0;
+  int totalStories = 0;
   
   PVector centerLoc = new PVector();
 
@@ -18,6 +19,8 @@ class Phrase {
   void addHistoryStory(HistoryStory hs, int count) {
     historyStories.put(hs, count);
   } // end addHistoryStory 
+
+  
 
   //
   int getMentions() {
@@ -41,7 +44,7 @@ class Phrase {
 
   //
   String toString() {
-    return "PHRASE: " + phrase + " _nytCount: " + nytCount + " _historyStories.size(): " + historyStories.size();
+    return "PHRASE: " + phrase + " _nytCount: " + nytCount + " _historyStories.size(): " + historyStories.size() + " _mentions: " + totalMentions;
   } // end toString
 } // end class Phrase
 

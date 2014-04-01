@@ -15,8 +15,8 @@ String baseKeyWordsFile = "../../../StudyOutput/NYTNetworkMaker01Visualizer/1950
 String jsonDirectory = "../../../Data/PDFsAsJSON/"; // location of the jsons
 
 int[] yearRange = {
-  1987, 2009
-  //1994, 2001
+  //1987, 2009
+  1994, 2001
 };
 
 ArrayList<HistoryStory> historyStoriesAll = new ArrayList<HistoryStory>();
@@ -32,20 +32,21 @@ void setup() {
   OCRUtils.begin(this);
   size(1000, 1000);
   randomSeed(1866);
-  
+
   monthsByString = getMonths(); // make the month HM
   monthsByNumber = getMonthsByNumber(monthsByString);
   timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2);
-  
+
   loadStories(yearRange);
   loadPhrases();
   populatePhrases(); // puts history stories into phrases and phrases into history stories
-  
 
-  
-  makeCircularDiagram();
-  
-  //exit();
+    printMostPopularPhrases();
+
+  //makeCircularDiagram();
+
+  println("done");
+  exit();
 } // end setup
 
 //
