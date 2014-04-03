@@ -74,6 +74,17 @@ void outputPhrases() {
 } // end ouptutPhrases
 
 //
+void outputPhraseCounts() {
+  PrintWriter output = createWriter("output/" + yearRange[0] + "-" + yearRange[1] + "_" + phraseKeeperAll.size() + "_" + nytStoriesHM.size() + ".txt");
+  for (int i = 0; i < phraseKeeperAll.size(); i++) {
+   output.println("\"" + phraseKeeperAll.get(i).phrase + "\"," + phraseKeeperAll.get(i).stories.size());
+  }
+  output.flush();
+  output.close();
+} // end outputPhraseCounts
+
+
+//
 //
 //
 //
