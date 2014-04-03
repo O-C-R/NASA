@@ -37,7 +37,7 @@ void setup() {
     //countSaveGramsYears(i, i + "year_grams.txt");
   }
   
-  countSavePosYears("scared", "_series.txt");
+  countSavePosYears("Russia", "_series.txt");
   //countSavePosYears("landing", "_series.txt");
   //countSavePosYears("moon", "_series.txt");
   //countSavePosYears("the moon", "_series.txt");
