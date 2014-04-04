@@ -39,6 +39,7 @@ void draw() {
   //Years
   
   colorMode(HSB);
+  /*
   for (int i= startYear; i <= endYear; i++) {
     float x = map(i, startYear, endYear, 100, width - 100); 
     float c = map(i, startYear, endYear, 0, 200);
@@ -52,6 +53,7 @@ void draw() {
       text(i, 25, 0);
     popMatrix();
   }
+  */
   for (Word w:words) {
     w.update();
     w.render();
@@ -78,8 +80,11 @@ void loadMap(String url) {
     }
 
     float wa = t / c;
-
-    w.pos.set(map(wa - 1, 2, cols.length, 100, width-100), random(50, height-50));
+  
+    float x = map(wa - 1, 2, cols.length, 100, width-100);
+    float yoff = map(x,100,width - 100, 300,50);
+    float y = (random(100) < 50) ? random(50,height/2 - yoff):random(height/2 + yoff, height - 50);
+    w.pos.set(x, y);
     if (w.count > thresh) words.add(w);
   }
   

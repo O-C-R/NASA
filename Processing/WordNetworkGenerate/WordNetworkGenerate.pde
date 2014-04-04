@@ -164,7 +164,7 @@ void generateNetwork(String pos) {
   //Clean out small edges
   ArrayList<WordEdge> tempEdges = new ArrayList();
   for (WordEdge we:allEdges) {
-    if (we.weight > 100 && checkStop(we.w1.word) && checkStop(we.w2.word)) {
+    if (we.weight > 50 && checkStop(we.w1.word) && checkStop(we.w2.word)) {
       tempEdges.add(we);
     }
   }
