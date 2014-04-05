@@ -12,6 +12,10 @@ class Label {
   Spline aboveSpline = null;
   Spline belowSpline = null;
   float splinePercent = .5f; // where the text should be .. either left, center, or right
+  float startDistance = 0f; // keep track of where this label starts and stops
+  float endDistance = 0f;
+  
+  
 
 
   //
@@ -36,6 +40,7 @@ class Label {
     // assume for now that the text will fit on the line...
     switch(labelAlign) {
     case LABEL_ALIGN_LEFT:
+      startDistance = distanceMarker;
       for (int i = 0; i < baseText.length(); i++) {
         newPoint = spline.getPointByDistance(distanceMarker);
         defaultFontSize = noise(.5 * i) * 30;
@@ -44,6 +49,7 @@ class Label {
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
         distanceMarker += newLetter.getLetterWidth();
+        endDistance = distanceMarker;
       }
       break;
     case LABEL_ALIGN_CENTER:
@@ -58,6 +64,7 @@ class Label {
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
         distanceMarker += newLetter.getLetterWidth();
+        endDistance = distanceMarker;
       }
       distanceMarker = splinePercent * totalLength;
       Letter spacerLetter = new Letter(leftHalf.charAt(leftHalf.length() - 1) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), labelAlign);
@@ -69,10 +76,11 @@ class Label {
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
         distanceMarker -= newLetter.getLetterWidth();
+        startDistance = distanceMarker;
       }
-
       break;
     case LABEL_ALIGN_RIGHT:
+      endDistance = distanceMarker;
       for (int i = baseText.length() - 1; i >= 0; i--) {
         newPoint = spline.getPointByDistance(distanceMarker);
         Letter newLetter = new Letter(baseText.charAt(i) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), labelAlign);
@@ -80,6 +88,7 @@ class Label {
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
         distanceMarker -= newLetter.getLetterWidth();
+        startDistance = distanceMarker;
       }
       break;
     } // end switch
@@ -88,6 +97,12 @@ class Label {
   //
   void display(PGraphics pg) {
     for (Letter l : letters) l.display(pg);
+    
+    PVector pt = spline.getPointByDistance(startDistance).get(0);
+    pg.ellipse(pt.x, pt.y, 3, 3);
+    pt = spline.getPointByDistance(endDistance).get(0);
+    pg.ellipse(pt.x, pt.y, 3, 3);
+    
   } // end display
 } // end class Label
 

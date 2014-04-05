@@ -14,15 +14,12 @@ class Spline {
   int divisionAmount = 1;
   boolean flipUp = false;
 
-
-
   boolean facetsMade = false;
 
   //
   // in this version the curvepoints will actually not try to double up,
   //  but instead will try to work backwards to establish the 'correct' first and last points
   void addCurvePoint(PVector p) {
-
     if (curvePoints.size() == 2) {
       // add first point after two have already been established
       PVector startingPoint = makeExtensionPoint(p, curvePoints.get(1), curvePoints.get(0));
@@ -325,55 +322,44 @@ class Spline {
   //
   ArrayList<PVector> getPointByAxis(String axisIn, PVector ptIn) {
     float targetPercent = getPercentByAxis(axisIn, ptIn);
-    /*
+    return getPointAlongSpline(targetPercent);
+  } // end getPointByAxis
+
+  //
+  ArrayList<PVector> getPointByIntersection(PVector startLine, PVector endLine) {
     float targetPercent = 0f;
     if (!facetsMade) return null;
-    // assume it will just get the first point along the spline facets
-    PVector a, b;
-    boolean foundSpot = false;
-    float low, high, dist, distA, diff, addition, newDist;
-    float percentHigh, percentLow;
+    // slow and thoughtless but should work
+    PVector closestPt = null;
+    float thisDist = 0f;
+    float closestDist = 0f;
+    PVector thisPt, a, b, intersectPoint;
     for (int i = 0; i < facetPoints.length - 1; i++) {
       a = facetPoints[i];
       b = facetPoints[i + 1];
-      if (axisIn.equals("x")) {
-        if (ptIn.x >= a.x && ptIn.x <= b.x) {
-          low = runningDistances[i];
-          high = runningDistances[i + 1];
-          diff = high - low;
-          dist = abs(a.x - b.x);
-          distA = abs(ptIn.x - a.x);
-          addition = diff * distA / dist;
-          newDist = low + addition;
-          targetPercent = newDist / totalDistance;
-          foundSpot = true;
-          break;
-        }
-      }
-      else {
-        if (ptIn.y >= a.y && ptIn.y <= b.y) {
-          low = runningDistances[i];
-          high = runningDistances[i + 1];
-          diff = high - low;
-          dist = abs(a.y - b.y);
-          distA = abs(ptIn.y - a.y);
-          addition = diff * distA / dist;
-          newDist = low + addition;
-          targetPercent = newDist / totalDistance;
-          foundSpot = true;
-          break;
+      thisPt = OCR3D.find2DRaySegmentIntersection(startLine, endLine, a, b);
+      if (thisPt != null) {
+        thisDist = startLine.dist(thisPt); 
+        if (thisDist < closestDist || closestPt == null) {
+          closestDist = thisDist;
+          closestPt = thisPt;
+          float distA = thisPt.dist(a);
+          float distTotal = a.dist(b);
+          float percentA = distA / distTotal;
+          float targetDist = runningDistances[i] + percentA * distTotal;
+          targetPercent = targetDist / totalDistance;
         }
       }
     }
-    if (!foundSpot) {
-      return null;
-    }
-    else {
-      return getPointAlongSpline(targetPercent);
-    }
-    */
-      return getPointAlongSpline(targetPercent);
-  } // end getPointByAxis
+
+    if (closestPt == null) return null;
+
+    noFill();
+    stroke(255, 0, 255);
+    ellipse(closestPt.x, closestPt.y, 10, 10);
+
+    return getPointAlongSpline(targetPercent);
+  } // end getPointByIntersection
 
   //
   ArrayList<PVector> getPointByClosestPoint(PVector ptIn) {
@@ -395,13 +381,14 @@ class Spline {
       if (thisDist < closestDist || i == 0) {
         closestDist = thisDist;
         closestPt = modifiedPt;
+
+        float distA = modifiedPt.dist(a);
+        float distTotal = a.dist(b);
+        float percentA = distA / distTotal;
+        float targetDist = runningDistances[i] + percentA * distTotal;
+        targetPercent = targetDist / totalDistance;
       }
     }
-
-    noFill();
-    stroke(255, 0, 0);
-    ellipse(closestPt.x, closestPt.y, 10, 10);
-
     return getPointAlongSpline(targetPercent);
   } // end getPointByClosestPoint
 
@@ -785,8 +772,8 @@ class Spline {
       pg.stroke(0);
       pg.noFill();
       pg.ellipse(curvePoints.get(i).x, curvePoints.get(i).y, rad, rad);
-      pg.fill(0);
-      pg.text(i, curvePoints.get(i).x, curvePoints.get(i).y);
+      //pg.fill(0);
+      //pg.text(i, curvePoints.get(i).x, curvePoints.get(i).y);
     }
   } // end drawPoints
 
