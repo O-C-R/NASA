@@ -41,9 +41,9 @@ class Story {
     //
   void setText(String s, boolean hasDate) {
     if (!hasDate) {
-      if (s.charAt(0) == '*') {
+      //if (s.charAt(0) == '*') {
         rawLines = (String[])append(rawLines, s.substring(1).trim());
-      }
+      //}
     }
     else {
       for (int c = 0; c < s.length(); c++) {
