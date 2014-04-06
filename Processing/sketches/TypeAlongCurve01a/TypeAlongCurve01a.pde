@@ -1,3 +1,5 @@
+import rita.*;
+
 import ocrUtils.maths.*;
 import ocrUtils.*;
 import ocrUtils.ocr3D.*;
@@ -30,7 +32,7 @@ PFont font;
 
 //
 void setup() {
-  size(1700, 500);
+  size(1300, 500);
   OCRUtils.begin(this);
   background(255);
   randomSeed(1667);
@@ -42,7 +44,34 @@ void setup() {
 
   makeMasterSpLabels(g);
 
-  splitMasterSpLabels(20, 30); // maxHeight, spline cp distance
+  splitMasterSpLabels(30, 30); // maxHeight, spline cp distance
+
+  assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
+
+    //
+  for (int j = 0; j < splabels.size(); j++) {
+    splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(30, 300), 0f, splabels.get(j).topSpline);
+    for (int i = 0; i < splabels.get(j).middleSplines.size(); i++) {
+      splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).middleSplines.get(i));
+      // add more until the last label has an endDistance that is 100% of the distance... 
+      while (true) {
+        float spacer = 10; // between labels?
+        float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+        if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).middleSplines.get(i));
+        }
+        lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+        if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          splabels.get(j).labels.remove(splabels.get(j).labels.size() - 1);
+          break;
+        }
+      }
+    }
+    if (j == splabels.size() - 1) splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(30, 300), 0f, splabels.get(j).bottomSpline);
+  }
+
+
+
 
   /*
   float y = 100;
@@ -112,7 +141,10 @@ void draw() {
   }
 
   for (SpLabel sp : splabels) {
-    sp.displaySplines(g);
+    fill(0);
+    sp.display(g);
+
+    //sp.displaySplines(g);
   }
 
 
@@ -200,6 +232,19 @@ void keyReleased() {
 //
 void mouseReleased() {
 } // end mouseReleased
+
+//
+String makeRandomPhrase() {
+  String newPhrase = "";
+  RiLexicon ril = new RiLexicon();
+  String basis = "Shark flying at midnight";
+  String[] posArray = RiTa.getPosTags(RiTa.stripPunctuation(basis.toLowerCase()));
+  for (int i = 0; i < posArray.length; i++) {
+    newPhrase += ril.randomWord(posArray[i]);
+    if (i < posArray.length - 1) newPhrase += " ";
+  }
+  return newPhrase;
+} // end makeRandomPhrase
 
 //
 //

@@ -14,8 +14,8 @@ class Label {
   float splinePercent = .5f; // where the text should be .. either left, center, or right
   float startDistance = 0f; // keep track of where this label starts and stops
   float endDistance = 0f;
-  
-  
+
+
 
 
   //
@@ -24,13 +24,16 @@ class Label {
   } // end constructor
 
   //
-  void assignSplineAndLocation(Spline spline, float splinePercent) {
+  void assignSplineAndLocation(Spline spline, Spline aboveSpline, Spline belowSpline, float splinePercent) {
     this.spline = spline;
+    this.aboveSpline = aboveSpline;
+    this.belowSpline = belowSpline;
     this.splinePercent = splinePercent;
   } // end assignSplineAndLocation
 
   //
-  void makeLetters() {
+  // pass in -1 for letterHeight if the characters will take on the spline height
+  void makeLetters(float letterHeight) {
     letters = new ArrayList<Letter>();
     splinePercent = constrain(splinePercent, 0, 1);
     ArrayList<PVector> newPoint = new ArrayList<PVector>();
@@ -43,8 +46,7 @@ class Label {
       startDistance = distanceMarker;
       for (int i = 0; i < baseText.length(); i++) {
         newPoint = spline.getPointByDistance(distanceMarker);
-        defaultFontSize = noise(.5 * i) * 30;
-        Letter newLetter = new Letter(baseText.charAt(i) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), labelAlign);
+        Letter newLetter = new Letter(baseText.charAt(i) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), labelAlign);
         letters.add(newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -59,7 +61,7 @@ class Label {
       // essentially a copy of the left and right code
       for (int i = 0; i < rightHalf.length(); i++) {
         newPoint = spline.getPointByDistance(distanceMarker);
-        Letter newLetter = new Letter(rightHalf.charAt(i) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), LABEL_ALIGN_LEFT);
+        Letter newLetter = new Letter(rightHalf.charAt(i) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), LABEL_ALIGN_LEFT);
         letters.add(newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -67,11 +69,11 @@ class Label {
         endDistance = distanceMarker;
       }
       distanceMarker = splinePercent * totalLength;
-      Letter spacerLetter = new Letter(leftHalf.charAt(leftHalf.length() - 1) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), labelAlign);
+      Letter spacerLetter = new Letter(leftHalf.charAt(leftHalf.length() - 1) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), labelAlign);
       distanceMarker -= spacerLetter.getLetterWidth() / 4;
       for (int i = leftHalf.length() - 1; i >= 0; i--) {
         newPoint = spline.getPointByDistance(distanceMarker);
-        Letter newLetter = new Letter(leftHalf.charAt(i) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), LABEL_ALIGN_RIGHT);
+        Letter newLetter = new Letter(leftHalf.charAt(i) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), LABEL_ALIGN_RIGHT);
         letters.add(newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -83,7 +85,7 @@ class Label {
       endDistance = distanceMarker;
       for (int i = baseText.length() - 1; i >= 0; i--) {
         newPoint = spline.getPointByDistance(distanceMarker);
-        Letter newLetter = new Letter(baseText.charAt(i) + "", defaultFontSize, newPoint.get(0), newPoint.get(1), labelAlign);
+        Letter newLetter = new Letter(baseText.charAt(i) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), labelAlign);
         letters.add(newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -95,14 +97,54 @@ class Label {
   } // end makeLetters
 
   //
+  // spline stuff only occurs when letterHeightIn < 0
+  float getLetterHeight(float letterHeightIn, ArrayList<PVector> splineComponents) {
+    if (letterHeightIn >= 0) return letterHeightIn;
+    else {
+      // go find the intersection heights
+      float topIntersectionHeight = -1;
+      float bottomIntersectionHeight = -1; // skip this for now.. and just assume that it is looking up
+      ArrayList<PVector>  intersection = null;
+      PVector lineStart = null;
+      PVector lineEnd = null;
+      if (splineComponents.get(0) != null && splineComponents.get(1) != null) {
+        lineStart = splineComponents.get(0);
+        lineEnd = lineStart.get();
+        lineEnd.add(splineComponents.get(1));
+        if (aboveSpline != null && lineStart != null && lineEnd != null) {
+          intersection = (aboveSpline.getPointByIntersection(lineStart, lineEnd)); 
+          if (intersection != null) topIntersectionHeight = intersection.get(0).dist(lineStart);
+        }
+        /*
+        if (belowSpline != null) {
+         intersection = (belowSpline.getPointByIntersection(lineStart, lineEnd)).get(0);
+         if (intersection != null) bottomIntersectionHeight = intersection.dist(lineStart);
+         }
+         */
+      }
+
+      // adjust ..
+      /*
+      if (topIntersectionHeight > 0 && bottomIntersectionHeight == -1) bottomIntersectionHeight = topIntersectionHeight;
+       else if (topIntersectionHeight == -1 && bottomIntersectionHeight > 0) topIntersectionHeight = bottomIntersectionHeight;
+       else if (topIntersectionHeight == -1 && bottomIntersectionHeight == -1) topIntersectionHeight = bottomIntersectionHeight = defaultFontSize / 2f;
+       */
+      if (topIntersectionHeight == -1) topIntersectionHeight = defaultFontSize;
+
+      // add the two up and make that the resultant size
+      //return (topIntersectionHeight + bottomIntersectionHeight) / 2; // DIVIDE BY TWO!!
+      return topIntersectionHeight;
+    }
+  } // end getLetterHeight
+
+    //
   void display(PGraphics pg) {
     for (Letter l : letters) l.display(pg);
-    
+
     PVector pt = spline.getPointByDistance(startDistance).get(0);
     pg.ellipse(pt.x, pt.y, 3, 3);
     pt = spline.getPointByDistance(endDistance).get(0);
     pg.ellipse(pt.x, pt.y, 3, 3);
-    
   } // end display
 } // end class Label
 
