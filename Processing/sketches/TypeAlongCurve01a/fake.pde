@@ -5,6 +5,7 @@ void makeFakeBucketData(int pointsToMake) {
     float seed = random(100);
     for (int j = 0; j < pointsToMake; j++) {
       fakeBucketData[i][j] = (int)(300 * noise(j * .1 + seed));
+      //fakeBucketData[i][j] = 100; // for simple debug
     }
   }
   println("generated " + fakeBucketData.length + " new fake buckets of data");
@@ -20,7 +21,8 @@ void makeFakeBucketData(int pointsToMake) {
 void makeMasterSpLabels(PGraphics pg) {
   if (fakeBucketWords.length <= 1) return;
   float[] padding = {
-    50f, 250f, 50f, 200f
+    //150f, 350f, 150f, 350f
+    40f, 100f, 40f, 100f
   };
 
   // first find the max sum of data assuming they all have same number of points
@@ -61,8 +63,13 @@ void makeMasterSpLabels(PGraphics pg) {
         x += widthPerDataPoint;
       }      
 
-      top.makeFacetPoints(.15f, 10f, 120, true);
+
+      top.makeFacetPoints(.15f, 10f, 120, true); // lower resolution but still good
       bottom.makeFacetPoints(.15f, 10f, 120, true);
+      //top.makeFacetPoints(.02f, 3f, 280, true); // super high resolution
+      //bottom.makeFacetPoints(.02f, 3f, 280, true);
+
+      
       sp.topSpline = top;
       sp.bottomSpline = bottom;
       sp.isOnTop = true;
@@ -148,6 +155,13 @@ ArrayList<SpLabel> orderSpLabels(ArrayList<SpLabel> topList, ArrayList<SpLabel> 
   for (int i = 0; i < ordered.size(); i++) ordered.get(i).tempNumericalId = i;
   return ordered;
 } // end orderSpLabels
+
+//
+void makeVariationSplines() {
+  for (SpLabel sp : splabels) {
+    sp.makeVariationSpline();
+  }
+} // endmakeVariationSplines
 
 
 //

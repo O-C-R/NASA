@@ -7,6 +7,13 @@ class SpLabel {
   Spline bottomSpline = null; // bottom masterSpline
   Spline topNeighborSpline = null; // if there is a SpLabel above it, this will be the first spline above the topSpline
   Spline bottomNeighborSpline = null; // same for the bottom
+
+  Spline variationSpline = null; // this is the one that sort of bounces within the top and bottom splines.  used to distribute the spacing of the middleSplines
+  float minimumVariation = .1; // will not go within this % of the edge
+  float variationNumber = .1; // control the noise variation.. arbitrary, needs testing
+  float randomNumber = random(100); // used as a sort of seed
+
+
   int[] data = new int[0];
   ArrayList<Spline> middleSplines = new ArrayList<Spline>();
 
@@ -32,9 +39,32 @@ class SpLabel {
 
   //
   void blendSplines(int count, float splineCPDistance) {
-    middleSplines = blendSplinesByDistance(topSpline, bottomSpline, count, splineCPDistance);
+    if (variationSpline == null) middleSplines = blendSplinesByDistance(topSpline, bottomSpline, count, splineCPDistance);
+    else middleSplines = blendSplinesByDistanceWithWeight(topSpline, bottomSpline, count, splineCPDistance, variationSpline);
   } // end blendSplines
 
+  //
+  // this is the one that wiggles between the top and bottom
+  void makeVariationSpline() {
+    int topCurvePoints = topSpline.curvePoints.size();
+    int bottomCurvePoints = bottomSpline.curvePoints.size();
+    int curvePointsToUse = (int)(1 * (bottomCurvePoints < topCurvePoints ? bottomCurvePoints : topCurvePoints)); // make it twice as dense as the spline with the least curve points
+    variationSpline = new Spline();
+    for (int i = 0; i < curvePointsToUse; i++) {
+      float percent = map(i, 0, curvePointsToUse - 1, 0, 1);
+      PVector topPt = topSpline.getPointAlongSpline(percent).get(0).get();
+      PVector bottomPt = bottomSpline.getPointAlongSpline(percent).get(0).get();
+
+      float targetPercent = map(noise(i * variationNumber + randomNumber), 0, 1, minimumVariation, 1 - minimumVariation); // this is what actually controls the variation
+      
+      topPt.mult(targetPercent);
+      bottomPt.mult(1 - targetPercent);
+
+      PVector newPoint = PVector.add(topPt, bottomPt);
+      variationSpline.addCurvePoint(newPoint);
+    }
+    variationSpline.makeFacetPoints(topSpline.minAngleInDegrees, topSpline.minDistance, topSpline.divisionAmount, topSpline.flipUp);
+  } // end makeVariationSpline
 
 
   // TO DO FUNCTIONS
@@ -88,7 +118,7 @@ class SpLabel {
     }
 
 
-  boolean validLabel = false;
+    boolean validLabel = false;
     // then go through and find the maximum or minimum heights to use if !varySize
     if (!varySize) {
     }
@@ -98,15 +128,15 @@ class SpLabel {
       newLabel.makeLetters(-1); // -1 for variable sizing
       validLabel = true;
     }
-    
+
     if (validLabel) labels.add(newLabel);
   } // end makeLabel
 
 
-  //
+    //
   void display(PGraphics pg) {
     for (Label l : labels) {
-     l.display(pg); 
+      l.display(pg);
     }
   } // end display
 
@@ -124,16 +154,24 @@ class SpLabel {
     pg.textAlign(LEFT);
     if (isOnTop) pg.text(bucketName + "-" + data[data.length - 1] + " maxH: " + (int)maxHeight + " id: " + tempNumericalId, topSpline.curvePoints.get(topSpline.curvePoints.size() - 1).x, topSpline.curvePoints.get(topSpline.curvePoints.size() - 1).y);
     if (isOnBottom) pg.text(bucketName + "-" + data[data.length - 1] + " maxH: " + (int)maxHeight + " id: " + tempNumericalId, bottomSpline.curvePoints.get(bottomSpline.curvePoints.size() - 1).x, bottomSpline.curvePoints.get(bottomSpline.curvePoints.size() - 1).y);
-
-    /*
-    if (topNeighborSpline != null) {
-     pg.line(middleSplines.get(0).curvePoints.get(1).x, middleSplines.get(0).curvePoints.get(1).y, topNeighborSpline.curvePoints.get(5).x, topNeighborSpline.curvePoints.get(5).y);  
-     }
-     if (bottomNeighborSpline != null) {
-     pg.line(middleSplines.get(middleSplines.size() - 1).curvePoints.get(1).x, middleSplines.get(middleSplines.size() - 1).curvePoints.get(1).y, bottomNeighborSpline.curvePoints.get(5).x, bottomNeighborSpline.curvePoints.get(5).y);
-     }
-     */
   } // end displaySplines
+
+  //
+  void displayVariationSpline(PGraphics pg) {
+    pg.noFill();
+    pg.stroke(255, 0, 0, 50);
+    pg.strokeWeight(1);
+    if (variationSpline != null) variationSpline.display(pg);
+  } // end displayVariationSpline
+
+  //
+  void displayFacetPoints(PGraphics pg) {
+    pg.stroke(0, 50);
+    pg.strokeWeight(1);
+    if (isOnTop) topSpline.displayFacetPoints(pg);
+    if (isOnBottom) bottomSpline.displayFacetPoints(pg);
+    for (Spline s : middleSplines) s.displayFacetPoints(pg);
+  } // end displayFacetPoints
 
   //
   void makeNewLabel() {

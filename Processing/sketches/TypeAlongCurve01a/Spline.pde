@@ -785,13 +785,25 @@ class Spline {
       pg.line(  facetPoints[i].x, facetPoints[i].y, facetPoints[i + 1].x, facetPoints[i + 1].y);
     }
 
+
     for (int i = 0; i < facetPoints.length; i++) {
+      /*
+      pg.pushMatrix();
+      pg.translate(facetPoints[i].x, facetPoints[i].y);
+        pg.rotate(PI/8);
+      PVector up = facetUps[i].get();
+      up.mult(30);
+      pg.line(0, 0, up.x, up.y);
+      pg.popMatrix();
+      */
+      
       pg.stroke(0, 100);
       PVector up = facetUps[i].get();
       up.mult(30);
       up.add(facetPoints[i]);
-      pg.line(facetPoints[i].x, facetPoints[i].y, up.x, up.y);
+      pg.line(facetPoints[i].x, facetPoints[i].y, up.x, up.y);      
     }
+    
   } // end displayFacetPoints
 } // end class Spline
 

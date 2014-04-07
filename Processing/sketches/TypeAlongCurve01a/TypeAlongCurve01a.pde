@@ -8,15 +8,21 @@ import ocrUtils.ocr3D.*;
 // assume this is in order already or whatever
 String[] fakeBucketWords = {
   "alphabet", 
+
   "belt buckle", 
+
   "charlie", 
-
+ /* 
   "doodlebug", 
-
+ 
   "eeg machine", 
-  /*  
-   "facebook",
-   "gamora"
+
+  "facebook", 
+  "gamora",
+  "hippo man",
+  "indian river",
+  "jack and the peaman"
+
    */
 };
 int[][] fakeBucketData = new int[fakeBucketWords.length][0];
@@ -32,7 +38,7 @@ PFont font;
 
 //
 void setup() {
-  size(1300, 500);
+  size(1400, 500);
   OCRUtils.begin(this);
   background(255);
   randomSeed(1667);
@@ -44,13 +50,32 @@ void setup() {
 
   makeMasterSpLabels(g);
 
+  makeVariationSplines(); // this will make it so that the middle lines of a splabel are uneven
+
   splitMasterSpLabels(30, 30); // maxHeight, spline cp distance
 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
     //
+
   for (int j = 0; j < splabels.size(); j++) {
-    splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(30, 300), 0f, splabels.get(j).topSpline);
+    // top one
+
+    splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).topSpline);
+    while (true) {
+      float spacer = 10; // between labels?
+      float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+      if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+        splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).topSpline);
+      }
+      lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+      if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+        splabels.get(j).labels.remove(splabels.get(j).labels.size() - 1);
+        break;
+      }
+    }
+
+    // middle ones
     for (int i = 0; i < splabels.get(j).middleSplines.size(); i++) {
       splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).middleSplines.get(i));
       // add more until the last label has an endDistance that is 100% of the distance... 
@@ -67,7 +92,23 @@ void setup() {
         }
       }
     }
-    if (j == splabels.size() - 1) splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(30, 300), 0f, splabels.get(j).bottomSpline);
+
+    // bottom one
+    if (j == splabels.size() - 1) {
+      splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).bottomSpline);
+      while (true) {
+        float spacer = 10; // between labels?
+        float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+        if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).bottomSpline);
+        }
+        lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+        if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          splabels.get(j).labels.remove(splabels.get(j).labels.size() - 1);
+          break;
+        }
+      }
+    }
   }
 
 
@@ -126,6 +167,7 @@ void setup() {
 void draw() {
 
   background(255);
+  background(0);
 
   for (Spline s : splines) {
     noFill();
@@ -137,14 +179,17 @@ void draw() {
     noFill();
     strokeWeight(1);
     stroke(0, 0, 255);
-    //s.displayFacetPoints(g);
+    s.displayFacetPoints(g);
   }
 
   for (SpLabel sp : splabels) {
-    fill(0);
+    fill(sp.c);
     sp.display(g);
 
     //sp.displaySplines(g);
+    //sp.displayFacetPoints(g);
+
+    //sp.displayVariationSpline(g);
   }
 
 
