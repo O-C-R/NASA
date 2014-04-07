@@ -1,8 +1,8 @@
-String fileLocation = "../../../Data/PDFsAsText/Best as of April 4/Trimmed and no headers but No Correction/";
+String fileLocation = "../../../Data/PDFsAsText/Best as of April 4/April 4 Corrections/";
 String outputLocation = "output/";
 
 int[] years = {
-  1980
+  1985
 };
 
 String currentMonth = "";
@@ -31,7 +31,7 @@ void setup() {
     currentYear = year;
     stories = new ArrayList<Story>();
 
-    String[] allLines = loadStrings(fileLocation + currentYear + " no headers.txt");
+    String[] allLines = loadStrings(fileLocation + "April 4 " + currentYear + ".txt");
     for (int i = 0; i < allLines.length; i++) {
      // allLines[i] = cleaner(allLines[i]);
     }
@@ -67,7 +67,8 @@ void setup() {
         if (isStory(broken[0]) || madeNewDay) {
           // make a new story
           Story newStory = new Story(currentMonth, currentDay);
-          newStory.setText(stripStoryStuff(broken, madeNewDay), madeNewDay);
+          //newStory.setText(stripStoryStuff(broken, madeNewDay), madeNewDay);
+          newStory.setText(join(broken, " "), madeNewDay);
           stories.add(newStory);
           currentStory = newStory;
         }
@@ -81,7 +82,7 @@ void setup() {
     for (Story st : stories) st.makeCleanString();
     println("made: " + stories.size() + " new stories");
     //println(stories.get(stories.size() - 1));
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 10; i++) {
       println(stories.get(i));
     }
     outputStories(currentYear);

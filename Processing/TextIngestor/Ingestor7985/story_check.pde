@@ -10,7 +10,8 @@ boolean isStory(String s) {
   // check for a dot: •
   if (s.contains("•")) isStory = true;
   if (s.charAt(0) == '*') isStory = true;
-  if (s.contains("ï")) isStory = true; // 1980 has a weird ï mark instead of a dot.. ?
+  if (s.charAt(0) == '-') isStory = true;
+  if (s.charAt(0) == '–') isStory = true;
   return isStory;
 } // end isStory
 

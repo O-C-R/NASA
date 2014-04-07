@@ -22,10 +22,10 @@ class Story {
     boolean fixDash = false;
     for (String s : rawLines) {
       s = s.trim();
-      
+
       boolean endsInDash = false;
       if (s.length() > 0) endsInDash = s.charAt(s.length() - 1) == '-';
-      
+
       String[] broken = splitTokens(s, " ");
       for (int i = 0; i < broken.length; i++) {
         if (!fixDash || i > 0) cleanString += " ";
@@ -42,7 +42,7 @@ class Story {
   void setText(String s, boolean hasDate) {
     if (!hasDate) {
       //if (s.charAt(0) == '*') {
-        rawLines = (String[])append(rawLines, s.substring(1).trim());
+      rawLines = (String[])append(rawLines, s.substring(1).trim());
       //}
     }
     else {
