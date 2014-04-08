@@ -1,31 +1,74 @@
 //
 boolean isStory(String s) {
-  // for 1961 the story line will start with a series of odd characters
+  // for 1964 the story line will start with a series of odd characters
   boolean isStory = false;
   int oddCharCount = 0;
+  int dashCount = 0;
   for (int i = 0; i < s.length(); i++) {
     if (isOddChar(s.charAt(i))) oddCharCount++;
+    if (i < 20 && (s.charAt(i) == '-' || s.charAt(i) == '‒' || s.charAt(i) == '–' || s.charAt(i) == '_' || s.charAt(i) == '—' || s.charAt(i) == '―')) dashCount++; // if the line essentially begins with a dash of some kind
   }
   if (oddCharCount > (float)s.length() / 2) isStory = true;
+  // check for a dot: •
+  if (s.contains("•")) isStory = true;
+  if (dashCount > 2) isStory = true;
+  
   return isStory;
 } // end isStory
 
 //
 String stripStoryStuff(String[] broken, boolean isDateStory) {
   String cleanStoryString = "";
+  String joined = join(broken, " ");
   if (!isDateStory) {
-    for (int i = 1; i < broken.length; i++) {
-      cleanStoryString += broken[i] + " ";
+    // clean away all odd characters, then add that substring
+    int cleanIndex = 0;
+    for (int i = 1; i < joined.length(); i++) {
+      if (isNormalChar(joined.charAt(i))) {
+        cleanIndex = i - 1;
+        break;
+      }
+    }
+    try {
+      cleanStoryString += joined.substring(cleanIndex) + " ";
+    }
+    catch (Exception e) {
     }
   }
   else {
-    for (int j = 1; j < broken.length - 1; j++) {
-      if (!stringContainsNumber(broken[j])) {
-        for (int i = j; i < broken.length; i++) {
-          cleanStoryString += broken[i] + " ";
+    int cleanIndex = 0;
+    for (int j = 0; j < broken.length - 1; j++) {
+      boolean foundNumber = false;
+      boolean foundMonth = false;
+      String a = broken[j].toLowerCase().trim();
+      String b = broken[j + 1].toLowerCase().trim();
+      if (isMonth(a)) {
+        foundMonth = true;
+        try {
+          int dayCheck = Integer.parseInt(b);
+          if (dayCheck >= 1 && dayCheck <= 32) foundNumber = true;
         }
+        catch (Exception e) {
+        }
+      }
+      else if (isMonth(b)) {
+        foundMonth = true;
+        try {
+          int dayCheck = Integer.parseInt(b);
+          if (dayCheck >= 1 && dayCheck <= 32) foundNumber = true;
+        }
+        catch (Exception e) {
+        }
+      }
+      if (foundMonth && foundNumber) {
+        cleanIndex = j + 2;
         break;
       }
+    }
+
+
+    for (int j = cleanIndex; j < broken.length; j++) {
+      cleanStoryString += broken[j] + " ";
     }
   }
   return cleanStoryString;

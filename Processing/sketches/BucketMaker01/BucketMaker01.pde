@@ -24,7 +24,8 @@ ArrayList<Bucket> bucketsAll = new ArrayList<Bucket>();
 HashMap<String, Bucket> bucketsHM = new HashMap<String, Bucket>();
 
 int[] yearRange = {
-  1987, 2009
+  1961, 2009
+  //1987, 2009
   //2001, 2001
 };
 

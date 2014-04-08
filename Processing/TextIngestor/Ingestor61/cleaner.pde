@@ -32,9 +32,16 @@ boolean isOddChar(char c) {
 } // end isOddChar
 
 //
+boolean isNormalChar(char c) {
+  int value = c;
+  if (value >= 34 && value <= 122) return true; // from ! to z, skipping space 
+  return false;
+} // end isOddChar
+
+//
 boolean isRestrictedOddChar(char c) {
   int value = c;
-  if (value >= 48 && value <= 122) return false;
+  if (value >= 48 && value <= 122) return false; // from 0 to z
   return true;
 } // end isRestrictedOddChar
 

@@ -41,9 +41,17 @@ class Story {
     //
   void setText(String s, boolean hasDate) {
     if (!hasDate) {
-      if (s.charAt(0) == '*') {
-        rawLines = (String[])append(rawLines, s.substring(1).trim());
+      int startOfGoodText = 1;
+      for (int i = 1; i < s.length() - 1; i++) {
+       if (!isRestrictedOddChar(s.charAt(i)) && !isRestrictedOddChar(s.charAt(i + 1))) {
+        startOfGoodText = i;
+        break;
+       } 
       }
+      
+      //if (s.charAt(0) == '*') {
+        rawLines = (String[])append(rawLines, s.substring(startOfGoodText).trim());
+      //}
     }
     else {
       for (int c = 0; c < s.length(); c++) {
