@@ -16,7 +16,8 @@ String jsonDirectory = "../../../Data/PDFsAsJSON/"; // location of the jsons
 
 int[] yearRange = {
   //1987, 2009
-  1994, 2001
+  //1994, 2001
+  1961, 2009
 };
 
 ArrayList<HistoryStory> historyStoriesAll = new ArrayList<HistoryStory>();

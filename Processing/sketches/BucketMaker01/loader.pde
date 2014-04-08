@@ -1,7 +1,7 @@
 //
 void loadStories(int[] yearRangeIn) {
   int currentYear = 0;
-  for (int i = yearRangeIn[0] - 1; i <= yearRangeIn[1]; i++) {
+  for (int i = yearRangeIn[0]; i <= yearRangeIn[1]; i++) {
     try {
       JSONObject json = loadJSONObject(jsonDirectory + i + ".json");
       currentYear = json.getInt("year");
