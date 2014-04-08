@@ -56,8 +56,8 @@ class SpLabel {
       PVector bottomPt = bottomSpline.getPointAlongSpline(percent).get(0).get();
 
       float targetPercent = map(noise(i * variationNumber + randomNumber), 0, 1, minimumVariation, 1 - minimumVariation); // this is what actually controls the variation
-      
-      topPt.mult(targetPercent);
+
+        topPt.mult(targetPercent);
       bottomPt.mult(1 - targetPercent);
 
       PVector newPoint = PVector.add(topPt, bottomPt);
@@ -69,18 +69,19 @@ class SpLabel {
 
   // TO DO FUNCTIONS
   //
-  public void makeCharLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
-    makeLabel(label, textAlign, targetDistance, wiggleRoom, s, false, true);
+  public Label makeCharLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(label, textAlign, targetDistance, wiggleRoom, s, false, true);
   } // end makeCharLabel
 
   //
-  public void makeStraightLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
-    makeLabel(label, textAlign, targetDistance, wiggleRoom, s, true, false);
+  // unfinished
+  public Label makeStraightLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(label, textAlign, targetDistance, wiggleRoom, s, true, false);
   } // end makeStrighLabel 
 
   //
-  private void makeLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
-    Label newLabel = new Label(label);
+  private Label makeLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+    Label newLabel = new Label(label, textAlign);
 
     // first determine which splines are above and below the given one
     Spline buddySplineTop = null;
@@ -117,7 +118,6 @@ class SpLabel {
       }
     }
 
-
     boolean validLabel = false;
     // then go through and find the maximum or minimum heights to use if !varySize
     if (!varySize) {
@@ -129,9 +129,60 @@ class SpLabel {
       validLabel = true;
     }
 
-    if (validLabel) labels.add(newLabel);
+    //if (validLabel) labels.add(newLabel);
+    if (validLabel) return newLabel;
+    else return null;
   } // end makeLabel
+  
+  //
+  public void addLabel(Label labelIn) {
+    labels.add(labelIn);
+  } // end addLabel
 
+
+    //
+  // this will check whether or not a starting distance and ending distance are free for population
+  boolean spacingIsOpen(Spline targetSpline, float startDistance, float endDistance) {
+    if (startDistance < 0) return false;
+    if (endDistance > targetSpline.totalDistance) return false;
+    for (Label l : labels) if (l.spline == targetSpline && ((l.startDistance >= startDistance && l.startDistance <= endDistance) || (l.endDistance >= startDistance && l.endDistance <= endDistance))) return false; 
+    return true;
+  } // end spacingIsOpen
+
+  //
+  // try to get the label closest to a distance based on left or right
+  Label getClosestLabel(Spline targetSpline, float targetDistance, boolean rightSide) {
+    Label closestLabel = null;
+    ArrayList<Label> options = new ArrayList<Label>();
+    for (Label l : labels) {
+      if (l.spline == targetSpline) {
+        if (rightSide) {
+          if (l.startDistance > targetDistance) options.add(l);
+        }
+        else {
+          if (l.endDistance < targetDistance) options.add(l);
+        }
+      }
+    }
+
+    if (options.size() == 0) return null;
+
+    float lastClosestDistance = 0f;
+    for (int i = 0; i < options.size(); i++) {
+      if (i == 0) {
+        closestLabel = options.get(i);
+        lastClosestDistance = abs((rightSide ? options.get(i).startDistance : options.get(i).endDistance) - targetDistance);
+      }
+      else {
+        float thisDistance = abs((rightSide ? options.get(i).startDistance : options.get(i).endDistance) - targetDistance);
+        if (thisDistance < lastClosestDistance) {
+          closestLabel = options.get(i);
+          lastClosestDistance = thisDistance;
+        }
+      }
+    }
+    return closestLabel;
+  } // end getClosestLabel
 
     //
   void display(PGraphics pg) {
