@@ -17,10 +17,11 @@ float[] padding = { // essentially the bounds to work in... note: the program wi
 };
 
 float minLabelSpacing = 10f; // the minimum spacing between labels along a spline
+float wiggleRoom = 18f; // how much the word can move around instead of being precisely on the x point
 
 // when divding up the splabels into the middlesplines
 float maxSplineHeight = 30f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-float splineCurvePointDistance = 30f; // the approx distance between curve points
+float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 
 
@@ -31,13 +32,14 @@ String[] fakeBucketWords = {
   "belt buckle", 
 
   "charlie", 
+
+  "doodlebug", 
+
+  "eeg machine", 
+
+  "facebook", 
+  "gamora", 
   /*  
-   "doodlebug", 
-   
-   "eeg machine", 
-   
-   "facebook", 
-   "gamora",
    "hippo man",
    "indian river",
    "jack and the peaman"
@@ -59,8 +61,8 @@ boolean variationOn = false;
 
 //
 void setup() {
-  //size(1000, 300);
-  size(1600, 700);
+  size(2000, 800);
+  //size(3600, 1200);
   OCRUtils.begin(this);
   background(255);
   randomSeed(1667);
@@ -110,37 +112,44 @@ void keyReleased() {
   if (keyCode == UP || keyCode == DOWN) {
   }
   if (key == ' ') {
-    // boolean populateBiggestSpaceAlongX(float x, SpLabel splabel, String text, float spacing, float wiggleRoom) {
-    boolean didPlace = populateBiggestSpaceAlongX(mouseX, splabels.get(0), "hello world", 10f, 18f);
-    //println("was successful in placing new label: " + didPlace);
-  }
-  
-  if (key == 'f') facetsOn = !facetsOn;
-  if (key == 's') splinesOn = !splinesOn;
-  if (key == 'v') variationOn = !variationOn;
-} // end keyReleased
+    //boolean didPlace = populateBiggestSpaceAlongX(mouseX, splabels.get((random(1) > .5 ? 1 :0)), makeRandomPhrase(), minLabelSpacing, wiggleRoom);
+    for (int i = 0; i < 800; i++) {
+      //boolean didPlace = populateBiggestSpaceAlongX(mouseX, splabels.get(0), makeRandomPhrase(), minLabelSpacing, wiggleRoom);
+      boolean didPlace = populateBiggestSpaceAlongX(random(padding[3], width - padding[1]), splabels.get((int)random(splabels.size())), makeRandomPhrase(), minLabelSpacing, wiggleRoom);
+      print(i + (didPlace ? "-" : "x"));
+      }
+    }
+
+    if (key == 'f') facetsOn = !facetsOn;
+    if (key == 's') splinesOn = !splinesOn;
+    if (key == 'v') variationOn = !variationOn;
+  } // end keyReleased
 
 
-//
-void mouseReleased() {
-} // end mouseReleased
+  //
+  void mouseReleased() {
+  } // end mouseReleased
 
 
-//
-String makeRandomPhrase() {
-  String newPhrase = "";
-  RiLexicon ril = new RiLexicon();
-  String basis = "Shark flying at midnight";
-  String[] posArray = RiTa.getPosTags(RiTa.stripPunctuation(basis.toLowerCase()));
-  for (int i = 0; i < posArray.length; i++) {
-    newPhrase += ril.randomWord(posArray[i]);
-    if (i < posArray.length - 1) newPhrase += " ";
-  }
-  return newPhrase;
-} // end makeRandomPhrase
+    //
+  String makeRandomPhrase() {
+    String newPhrase = "";
+    RiLexicon ril = new RiLexicon();
+    String[] basis = {
+      "Shark flying at midnight", 
+      "Enjoying life", 
+      "Cheddar soup"
+    };
+    String[] posArray = RiTa.getPosTags(RiTa.stripPunctuation(basis[(int)random(basis.length)].toLowerCase()));
+    for (int i = 0; i < posArray.length; i++) {
+      newPhrase += ril.randomWord(posArray[i]);
+      if (i < posArray.length - 1) newPhrase += " ";
+    }
+    return newPhrase;
+  } // end makeRandomPhrase
 
-//
-//
-//
-//
+    //
+  //
+  //
+  //
 

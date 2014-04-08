@@ -90,6 +90,9 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
 
 
   for (int i = 0; i < splabel.middleSplines.size() + 2; i++) {
+    // skip the top one if it is not the top splabel!
+    if (i == 0 && splabel.topNeighborSpline != null) continue;
+    
     Spline splineToUse = null;
     if (i == 0) splineToUse = splabel.topSpline;
     else if (i == splabel.middleSplines.size() + 1) splineToUse = splabel.bottomSpline;

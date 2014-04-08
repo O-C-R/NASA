@@ -4,7 +4,7 @@ void makeFakeBucketData(int pointsToMake) {
     //int[] dataPoints = new int[pointsToMake];
     float seed = random(100);
     for (int j = 0; j < pointsToMake; j++) {
-      fakeBucketData[i][j] = (int)(300 * noise(j * .1 + seed));
+      fakeBucketData[i][j] = (int)(100 * noise(j * .1 + seed));
       //fakeBucketData[i][j] = 100; // for simple debug
     }
   }

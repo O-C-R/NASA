@@ -145,7 +145,12 @@ class SpLabel {
   boolean spacingIsOpen(Spline targetSpline, float startDistance, float endDistance) {
     if (startDistance < 0) return false;
     if (endDistance > targetSpline.totalDistance) return false;
-    for (Label l : labels) if (l.spline == targetSpline && ((l.startDistance >= startDistance && l.startDistance <= endDistance) || (l.endDistance >= startDistance && l.endDistance <= endDistance))) return false; 
+    for (Label l : labels) {
+      if (l.spline == targetSpline) {
+       if ((l.startDistance >= startDistance && l.startDistance <= endDistance) || (l.endDistance >= startDistance && l.endDistance <= endDistance)) return false;
+       if ((l.startDistance <= startDistance && l.endDistance >= endDistance)) return false;
+      }
+    } 
     return true;
   } // end spacingIsOpen
 
