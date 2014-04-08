@@ -19,7 +19,7 @@ String outPath = "../../Data/BucketGramsUnique/";
 String subBucket = "/uniqueBucketStories/";
 String masterFile = "allYears.txt";
 String[] sentences;
-int threshold = 3;
+int threshold = 2;
 int wc;
 
 String buckets = "administrative,astronaut,mars,moon,people,politics,research_and_development,rockets,russia,satellites,space_shuttle,spacecraft,us";
@@ -28,7 +28,7 @@ String currentBucket = "rockets";
 HashMap<String, String> stopList = new HashMap();
 
 void setup() {
-  size(1280, 720);
+  size(1280, 1280);
 
   //loadStopList("../../Data/stoplist.txt");
   //loadCorpus(dataPath + masterFile);
