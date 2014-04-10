@@ -19,8 +19,9 @@ class Label {
 
 
   //
-  Label(String baseText) {
+  Label(String baseText, int labelAlign) {
     this.baseText = baseText;
+    this.labelAlign = labelAlign;
   } // end constructor
 
   //
@@ -81,7 +82,7 @@ class Label {
       for (int i = leftHalf.length() - 1; i >= 0; i--) {
         newPoint = spline.getPointByDistance(distanceMarker);
         float letterHt = getLetterHeight(letterHeight, newPoint);
-      textSize(letterHt);
+        textSize(letterHt);
         PVector forwardRotation = spline.getPointByDistance(distanceMarker - thinkAheadRotationDistance * textWidth(baseText.charAt(i) + "")).get(1);
         Letter newLetter = new Letter(leftHalf.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, LABEL_ALIGN_RIGHT);
         letters.add(0, newLetter);
@@ -134,6 +135,14 @@ class Label {
           intersection = (aboveSpline.getPointByIntersection(lineStart, lineEnd)); 
           if (intersection != null) topIntersectionHeight = intersection.get(0).dist(lineStart);
         }
+
+        // if the aboveSpline is null, then use the bottom spline but slightly smaller
+        else if (aboveSpline == null && lineStart != null && lineEnd != null) {
+          float slightlySmallerFactor = .6;  
+          intersection = (belowSpline.getPointByIntersection(lineStart, lineEnd)); 
+          if (intersection != null) topIntersectionHeight = intersection.get(0).dist(lineStart) * slightlySmallerFactor;
+        }
+
         /*
         if (belowSpline != null) {
          intersection = (belowSpline.getPointByIntersection(lineStart, lineEnd)).get(0);
@@ -155,6 +164,21 @@ class Label {
       return topIntersectionHeight;
     }
   } // end getLetterHeight
+
+    //
+  // this will return the height of the letter closest to the given point.  useful to measure how tall a Label option is at a given point
+  float getApproxLetterHeightAtPoint(PVector ptIn) {
+    float ht = defaultFontSize;
+    float lastClosestDist = 0f;
+    for (int i = 0; i < letters.size(); i++) {
+      float thisDist = letters.get(i).pos.dist(ptIn);
+      if (thisDist < lastClosestDist || i == 0) {
+        lastClosestDist = letters.get(i).pos.dist(ptIn);
+        ht = letters.get(i).size;
+      }
+    }
+    return ht;
+  } // getApproxLetterHeightAtPoint
 
     //
   void display(PGraphics pg) {

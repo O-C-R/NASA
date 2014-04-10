@@ -4,7 +4,7 @@ void makeFakeBucketData(int pointsToMake) {
     //int[] dataPoints = new int[pointsToMake];
     float seed = random(100);
     for (int j = 0; j < pointsToMake; j++) {
-      fakeBucketData[i][j] = (int)(300 * noise(j * .1 + seed));
+      fakeBucketData[i][j] = (int)(100 * noise(j * .1 + seed));
       //fakeBucketData[i][j] = 100; // for simple debug
     }
   }
@@ -20,10 +20,6 @@ void makeFakeBucketData(int pointsToMake) {
 //
 void makeMasterSpLabels(PGraphics pg) {
   if (fakeBucketWords.length <= 1) return;
-  float[] padding = {
-    //150f, 350f, 150f, 350f
-    40f, 100f, 40f, 100f
-  };
 
   // first find the max sum of data assuming they all have same number of points
   float maxDataSum = 0;
@@ -64,12 +60,18 @@ void makeMasterSpLabels(PGraphics pg) {
       }      
 
 
-      top.makeFacetPoints(.15f, 10f, 120, true); // lower resolution but still good
-      bottom.makeFacetPoints(.15f, 10f, 120, true);
+
+      // ****** //
+      top.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
+      bottom.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
+      //top.makeFacetPoints(.15f, 10f, 120, true); // lower resolution but still good
+      //bottom.makeFacetPoints(.15f, 10f, 120, true);
       //top.makeFacetPoints(.02f, 3f, 280, true); // super high resolution
       //bottom.makeFacetPoints(.02f, 3f, 280, true);
+      // ****** //
 
-      
+
+
       sp.topSpline = top;
       sp.bottomSpline = bottom;
       sp.isOnTop = true;

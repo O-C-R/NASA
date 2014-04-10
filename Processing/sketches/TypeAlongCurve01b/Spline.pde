@@ -354,9 +354,9 @@ class Spline {
 
     if (closestPt == null) return null;
 
-    noFill();
-    stroke(255, 0, 255);
-    ellipse(closestPt.x, closestPt.y, 10, 10);
+    //noFill();
+    //stroke(255, 0, 255);
+    //ellipse(closestPt.x, closestPt.y, 10, 10);
 
     return getPointAlongSpline(targetPercent);
   } // end getPointByIntersection
@@ -769,7 +769,7 @@ class Spline {
   void displayCurvePoints(PGraphics pg) {
     float rad = 5;
     for (int i = 0; i < curvePoints.size(); i++) {
-      pg.stroke(0);
+      pg.stroke(255, 20);
       pg.noFill();
       pg.ellipse(curvePoints.get(i).x, curvePoints.get(i).y, rad, rad);
       //pg.fill(0);
@@ -784,26 +784,14 @@ class Spline {
     for (int i = 0; i < facetPoints.length - 1; i++) {
       pg.line(  facetPoints[i].x, facetPoints[i].y, facetPoints[i + 1].x, facetPoints[i + 1].y);
     }
-
-
+    
     for (int i = 0; i < facetPoints.length; i++) {
-      /*
-      pg.pushMatrix();
-      pg.translate(facetPoints[i].x, facetPoints[i].y);
-        pg.rotate(PI/8);
-      PVector up = facetUps[i].get();
-      up.mult(30);
-      pg.line(0, 0, up.x, up.y);
-      pg.popMatrix();
-      */
-      
-      pg.stroke(0, 100);
+      pg.stroke(255, 20);
       PVector up = facetUps[i].get();
       up.mult(30);
       up.add(facetPoints[i]);
       pg.line(facetPoints[i].x, facetPoints[i].y, up.x, up.y);      
-    }
-    
+    }    
   } // end displayFacetPoints
 } // end class Spline
 
