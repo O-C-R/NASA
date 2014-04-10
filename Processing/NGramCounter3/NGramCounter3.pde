@@ -12,7 +12,7 @@ import rita.*;
 
 //This version uses a stop list
 
-int startYear = 1987;
+int startYear = 1961;
 int endYear = 2009;
 String dataPath = "../../Data/BucketText/";
 String outPath = "../../Data/BucketGramsUnique/";

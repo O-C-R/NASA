@@ -2,7 +2,7 @@ ArrayList<Word> words = new ArrayList();
 ArrayList<Word> currentWords = new ArrayList();
 PFont label;
 
-int startYear = 1987;
+int startYear = 1961;
 int endYear = 2009;
 
 float minCount = 0;
@@ -12,7 +12,7 @@ int thresh = 0;
 
 String pattern = "";
 
-String dataPath = "../../Data/BucketGramsAll/";
+String dataPath = "../../Data/BucketGramsUnique/";
 String buckets = "administrative,astronaut,mars,moon,people,politics,research_and_development,rockets,russia,satellites,space_shuttle,spacecraft,us";
 String currentBucket = "rockets";
 
@@ -134,7 +134,7 @@ void positionWords(float ytop, float ybot, color c) {
     w.a = map(w.count, minCount, maxCount, 100, 255);
     w.col = c;
     w.pos.y = random(ytop, ybot);
-    w.pos.x = map(findexOf(max(w.counts), w.counts), 0, w.counts.length, 50, width - 50); 
+    w.pos.x = (w.pos.x + (2 * map(findexOf(max(w.counts), w.counts), 0, w.counts.length, 50, width - 50))) / 3; 
     w.lineY = ybot;
   }
 }
