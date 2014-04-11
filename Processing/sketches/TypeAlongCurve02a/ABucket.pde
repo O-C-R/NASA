@@ -22,6 +22,11 @@ class Bucket {
   float[] seriesSum = null;
 
   //
+  HashMap<String, Term> failedTerms = new HashMap<String, Term>(); // the ones that were not placed
+  // when populating, if it cannot be placed it will be placed in this hm.  upon changing the year range this will get reset
+  
+
+  //
   Bucket(String name) {
     this.name = name;
   } // end constructor
@@ -71,6 +76,7 @@ class Bucket {
       else println("bucket " + name + " already has: " + t.term);
       bucketTermsRemainingAL.add(t); // keep a copy
     }
+    println(" done.  with " + bucketTermsRemainingAL.size() + " options");
   } // end orderTerms
 
   //
@@ -78,11 +84,11 @@ class Bucket {
     for (int i = bucketTermsRemainingAL.size() - 1; i >= 0; i--) {
       if (bucketTermsRemainingAL.get(i) == t) bucketTermsRemainingAL.remove(t);
       else {
-       String[] termAr = split(t.term, " ");
-       if (bucketTermsRemainingAL.get(i).matchesTermWords(termAr)) {
-         bucketTermsRemainingAL.remove(i);
-       }
-      } 
+        String[] termAr = split(t.term, " ");
+        if (bucketTermsRemainingAL.get(i).matchesTermWords(termAr)) {
+          bucketTermsRemainingAL.remove(i);
+        }
+      }
     }
   } // end takeOutTerm
 

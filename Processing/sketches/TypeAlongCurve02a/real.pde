@@ -1,21 +1,64 @@
+
+
+
 //
-void makeBucketDataPoints(int pointsToMake) {
+void makeBucketDataPoints(int pointsToMake, int inputType) {
   for (int i = 0; i < bucketDataPoints.length; i++) {
     bucketDataPoints[i] = new float[pointsToMake];
     /*
     float seed = random(100);
-    for (int j = 0; j < pointsToMake; j++) {
-      bucketDataPoints[i][j] = (100 * noise(j * .1 + seed));
-    }
-    */
+     for (int j = 0; j < pointsToMake; j++) {
+     bucketDataPoints[i][j] = (100 * noise(j * .1 + seed));
+     }
+     */
     Bucket targetBucket = bucketsAL.get(i);
     for (int j = 0; j < pointsToMake; j++) {
       if (j < targetBucket.seriesSum.length) {
-      bucketDataPoints[i][j] = targetBucket.seriesSum[j];
+        switch (inputType) {
+        case INPUT_DATA_LINEAR:
+          bucketDataPoints[i][j] = targetBucket.seriesSum[j];
+          break;
+        case INPUT_DATA_HALF:
+          bucketDataPoints[i][j] = .5 * (targetBucket.seriesSum[j]);
+          break;
+        case INPUT_DATA_LOG:
+          bucketDataPoints[i][j] = log(targetBucket.seriesSum[j]);
+          break;
+        case INPUT_DATA_SQUARE:
+          bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 2f);
+          break;
+        case INPUT_DATA_CUBE:
+          bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 3f);
+          break;
+        case INPUT_DATA_SQUARE_ROOT:
+          bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 1f/2);
+          break;
+        case INPUT_DATA_MULTIPLIED_THEN_SQUARE_ROOT:
+          bucketDataPoints[i][j] = (float)Math.pow(10000 * targetBucket.seriesSum[j], 1f/2);
+          break;
+        case INPUT_DATA_CUBE_ROOT:
+          bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 1f/3);
+          break;
+        case INPUT_DATA_MULTIPLIED_THEN_CUBE_ROOT:
+          bucketDataPoints[i][j] = (float)Math.pow(10000 * targetBucket.seriesSum[j], 1f/3);
+          break;
+        case INPUT_DATA_DOUBLE:
+          bucketDataPoints[i][j] = 2 * (targetBucket.seriesSum[j]);
+          break;
+        case INPUT_DATA_TRIPLE:
+          bucketDataPoints[i][j] = 3 * (targetBucket.seriesSum[j]);
+          break;
+        case INPUT_DATA_DEBUG:
+          bucketDataPoints[i][j] = 13;
+          break;
+        case INPUT_DATA_NOISE:
+          bucketDataPoints[i][j] = 100 * noise(i + j * .1);
+          break;
+        }
       }
       else {
-       bucketDataPoints[i][j] = 0f;
-      } 
+        bucketDataPoints[i][j] = 0f;
+      }
     }
   }
   println("generated " + bucketDataPoints.length + " new fake buckets of data");
@@ -29,7 +72,45 @@ void makeBucketDataPoints(int pointsToMake) {
 
 //
 void makeMasterSpLabels(PGraphics pg) {
-  if (bucketDataPoints.length <= 1) return;
+  if (bucketDataPoints.length <= 1) return; // needs at least two buckets
+
+  // reorder the buckets by max value?
+  if (reorderBucketsByMaxHeight) {
+    // reorder the bucket data points and the bucketsAL
+    ArrayList<float[]> newBucketDataPointsAL = new ArrayList<float[]>();
+    ArrayList<Bucket> newBucketsAL = new ArrayList<Bucket>();
+    for (int i = 0; i < bucketsAL.size(); i++) {
+      if (i == 0) {
+        newBucketsAL.add(bucketsAL.get(i));
+        newBucketDataPointsAL.add(bucketDataPoints[i]);
+      }
+      else {
+        float tempSumThis = 0f;
+        for (float f : bucketDataPoints[i]) tempSumThis += f;
+        boolean foundSpot = false;
+        for (int j = 0; j < newBucketsAL.size(); j++) {
+          float tempSumOther = 0f;
+          float[] otherDataPt = newBucketDataPointsAL.get(j);
+          for (float f : otherDataPt) tempSumOther += f;
+          if (tempSumThis > tempSumOther) {
+            newBucketsAL.add(j, bucketsAL.get(i));
+            newBucketDataPointsAL.add(j, bucketDataPoints[i]);
+            foundSpot = true;
+            break;
+          }
+        }
+        if (!foundSpot) {
+          newBucketsAL.add(bucketsAL.get(i));
+          newBucketDataPointsAL.add(bucketDataPoints[i]);
+        }
+      }
+    }
+    bucketDataPoints = new float[newBucketDataPointsAL.size()][0];
+    bucketsAL = newBucketsAL;
+    for (int i = 0; i < newBucketDataPointsAL.size(); i++) {
+      bucketDataPoints[i] = newBucketDataPointsAL.get(i);
+    }
+  }
 
   // first find the max sum of data assuming they all have same number of points
   float maxDataSum = 0;
@@ -149,7 +230,7 @@ void makeMasterSpLabels(PGraphics pg) {
 //  when placing the terms they can check the first section, then the second, etc. until either a place is found or the yearly frequency is below a given threshold
 void orderBucketTerms() {
   for (Bucket b : bucketsAL) {
-   b.orderTerms(); 
+    b.orderTerms();
   }
 } // end orderBucketTerms 
 

@@ -2,7 +2,7 @@ final int LABEL_ALIGN_LEFT = 0;
 final int LABEL_ALIGN_CENTER = 1;
 final int LABEL_ALIGN_RIGHT = 2;
 
-Letter blankLetter = new Letter();
+
 
 
 //
