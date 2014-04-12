@@ -13,6 +13,10 @@ class Term {
   int[] seriesOrderedIndices = new int[0];
 
   //
+  Term() {
+  } // end blank constructor
+
+  //
   Term(String term, int totalCount, float[] series) {
     this.term = term;
     theseTermWords = split(term, " ");
@@ -57,17 +61,14 @@ class Term {
   } // end makeSeriesOrder
 
   //
-  // try to tell if a word matches either in noun or verb form.. skip other things like determiners or numbers
+  // try to tell if a word matches either in noun or verb form..
   boolean matchesTermWords(String[] arIn) {
     String thisPos = "";
     for (int i = 0; i < theseTermWords.length; i++) {
       thisPos = posTermWords[i];
-      //if (!thisPos.contains("nn") || !thisPos.contains("v")) continue;
-      //else {
-        for (String t : arIn) {
-          if (t.equals(theseTermWords[i])) return true;
-        }
-      //}
+      for (String t : arIn) {
+        if (t.equals(theseTermWords[i])) return true;
+      }
     }
     return false;
   } // end matchesTermWords

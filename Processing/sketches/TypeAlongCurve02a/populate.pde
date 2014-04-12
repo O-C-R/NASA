@@ -18,8 +18,9 @@ String tryToPopulateBucketWithNextTerm(Bucket b, PGraphics pg) {
     status = POPULATE_STATUS_SUCCESS;
   }
   else {
-    println("could not place term: " + termToTryToPlace.term);
-    failedTerms.put(termToTryToPlace.term, termToTryToPlace);
+    //println("could not place term: " + termToTryToPlace.term + " .. option bucket.size for " + b.name + ": " + b.bucketTermsRemainingAL.size());
+    print("x");
+    b.failedTerms.put(termToTryToPlace.term, termToTryToPlace);
     status = POPULATE_STATUS_FAIL;
   }
 
@@ -27,11 +28,12 @@ String tryToPopulateBucketWithNextTerm(Bucket b, PGraphics pg) {
   if (status.equals(POPULATE_STATUS_SUCCESS)) {
     //println("TAKING OUT TERM: " + termToTryToPlace.term);
     for (Bucket everyB : bucketsAL) {
-      everyB.takeOutTerm(termToTryToPlace);
+      //everyB.takeOutTerm(termToTryToPlace);
     }
+    b.bucketTermsRemainingAL.remove(termToTryToPlace); // keep it in?
   }
   else if (status.equals(POPULATE_STATUS_FAIL)) {
-   b.bucketTermsRemainingAL.remove(termToTryToPlace);
+    b.bucketTermsRemainingAL.remove(termToTryToPlace); // keep it in?
   }
   return status;
 } // end tryToPopulateBucketWithNextTerm 
@@ -40,7 +42,7 @@ String tryToPopulateBucketWithNextTerm(Bucket b, PGraphics pg) {
 
 //
 boolean placeNextTermForBucket(Bucket b, Term t, PGraphics pg) {
-  boolean didPlace = true;
+  boolean didPlace = false;
   SpLabel splabel = null;
   for (SpLabel l : splabels) if (l.bucketName.equals(b.name)) splabel = l;
   if (splabel == null) return false; // cut out if for some reason this bucket is not associated with an splabel 
@@ -48,25 +50,80 @@ boolean placeNextTermForBucket(Bucket b, Term t, PGraphics pg) {
   //boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, float spacing, float wiggleRoom) {
   // figure out the x
 
+  int seriesTracker = 0; // all iterations
+  int seriesTries = 0; // only the iterations where it tried to place it
+  int seriesSkipTracker = 0; // the skipped iterations
+
+  textFont(font);
+  textSize(defaultFontSize);
+  float basicTextSize = textWidth(t.term);
+
   for (int i = 0; i < t.seriesOrderedIndices.length; i++) {
     float seriesValue = t.series[t.seriesOrderedIndices[i]];
     // skip out if the value is 0;
     if (seriesValue == 0) return false;
     // otherwise try to place it at the appropriate x
-    float x = map(t.seriesOrderedIndices[i], 0, t.series.length - 1, padding[3], pg.width - padding[1]);
+
+
+    //float x = map(t.seriesOrderedIndices[i], 0, t.series.length - 1, padding[3], pg.width - padding[1]);
+    float x = getXFromYear(yearRange[0] + t.seriesOrderedIndices[i], t, pg);
+
+    // check the constrainRangeX
+    if (x < constrainRangeX[0] || x > constrainRangeX[1]) continue;
+
+    // check if that term is already at this x location
+    if (termIsAlreadyAtX((int)x, t)) continue;
+
+
     //println("bucket: " + b.name + " and term: " + t.term);
     //println("t.seriesOrderedIndices[i]: " + t.seriesOrderedIndices[i] + " x: " + x);
-    didPlace = populateBiggestSpaceAlongX(x, splabel, t.term, minLabelSpacing, wiggleRoom);
+
+    // look for skip option here
+    boolean shouldSkip = splabel.shouldSkip(x, basicTextSize);
+
+    //shouldSkip = false;
+
+    if (!shouldSkip) {
+      didPlace = populateBiggestSpaceAlongX(x, splabel, t.term, minLabelSpacing, wiggleRoom);
+      seriesTries++;
+    }
+    else {
+      seriesSkipTracker++;
+    }
+
+    seriesTracker = i;
     if (didPlace) {
+      // mark that the term was placed at this x
+      markTermAtX((int)x, t);
       break;
     }
+    else {
+      // try to mark it as a skip location for the splabel
+
+      splabel.markSkipZone(x, basicTextSize);
+    }
   }
+  //  println("seriesTracker: " + seriesTracker);
+  //  println("seriesTries: " + seriesTries);
+  //  println("seriesSkipTracker: " + seriesSkipTracker);
+
 
 
   //println("did place  to go to splabel: " + splabel.bucketName);
 
   return didPlace;
 } // end placeNextTermForBucket
+
+//
+void repopulateFromFailedHM() {
+  for (Bucket b : bucketsAL) {
+    for (Map.Entry me : b.failedTerms.entrySet()) {
+      Term failedTerm = (Term)me.getValue();
+      b.bucketTermsRemainingAL.add(failedTerm);
+    }
+    b.failedTerms.clear();
+  }
+} // end repopulateFromFailedHM 
 
 
 //
@@ -219,7 +276,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
     // SCORING
     //if (centerWillFit) splabel.addLabel(centerLabel); // debug
     // center
-    if (centerWillFit) {
+    if (centerWillFit && centerLabelHeight > minLabelHeightThreshold) {
       options = (Label[])append(options, centerLabel);
       float centerToRightDistance = blankSideMaxValue;
       float centerToLeftDistance = blankSideMaxValue;
@@ -234,7 +291,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
 
     // if (rightSideWillFit) splabel.addLabel(rightSideLabel); // debug
     // right
-    if (rightSideWillFit && rightSideLabel != null) {
+    if (rightSideWillFit && rightSideLabel != null && rightLabelHeight> minLabelHeightThreshold) {
       options = (Label[])append(options, rightSideLabel);
       float rightToRightDistance = blankSideMaxValue;
       float rightToLeftDistance = blankSideMaxValue;
@@ -249,7 +306,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
 
     //if (leftSideWillFit) splabel.addLabel(leftSideLabel); // debug
     // left
-    if (leftSideWillFit && leftSideLabel != null) {
+    if (leftSideWillFit && leftSideLabel != null && leftLabelHeight > minLabelHeightThreshold) {
       options = (Label[])append(options, leftSideLabel);
       float leftToRightDistance = blankSideMaxValue;
       float leftToLeftDistance = blankSideMaxValue;

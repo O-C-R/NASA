@@ -12,15 +12,21 @@ void readInBucketData() {
     for (String s : bucketsToUse) if (s.equals(newBucketName)) isValid = true;
     if (!isValid) continue;
 
+
+
     println("bucket: " + newBucketName);
 
     Bucket newBucket = new Bucket(newBucketName);
-
 
     String[] files = OCRUtils.getFileNames(directory, true);
     float yearSum = 0f;
     for (String thisFile : files) {
       String newPosName = split(thisFile, "/")[split(thisFile, "/").length - 1];
+
+      isValid = false;
+      for (String s : posesToUse) if (newPosName.contains(s)) isValid = true;
+      if (!isValid) continue;
+
       Pos newPos = new Pos(newPosName);
 
       String[] allLines = loadStrings(thisFile);
@@ -36,13 +42,17 @@ void readInBucketData() {
             breakdown = (float[])append(breakdown, Float.parseFloat(broken[j]));
           }
         }
-        
+
         // ****** //
         if (term.length() <= 2) continue; // skip if it is 2 or fewer characters
         // ****** //
-        
+
         Term newTerm = new Term(term, termCount, breakdown);
         newPos.addTerm(newTerm);
+        
+        // check and overwrite blankTerm
+        if (blankTerm.series == null) blankTerm.series = new float[0];
+        if (breakdown.length > blankTerm.series.length) blankTerm.series = breakdown;
       }
       newBucket.addPos(newPos);
     }

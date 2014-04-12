@@ -14,6 +14,11 @@ class SpLabel {
   float randomNumber = random(100); // used as a sort of seed
 
 
+  // skipZone and
+  HashMap<Integer, Float> skipZones = new HashMap<Integer, Float>(); // ok because the years serve as the mapped x marker.  round to integer
+ 
+
+
   float[] data = new float[0];
   ArrayList<Spline> middleSplines = new ArrayList<Spline>();
 
@@ -170,6 +175,34 @@ class SpLabel {
   } // end spacingIsOpen
 
   //
+  void markSkipZone(float x, float textWidth) {
+    int skipX = (int)x;
+    if (skipZones.containsKey(skipX)) {
+      Float oldWidth = (Float)skipZones.get(skipX);
+      if (textWidth < oldWidth) {
+        skipZones.put(skipX, textWidth);
+        //println("updated skip zone.  skipZones.size(): " + skipZones.size());
+      }
+    }
+    else {
+      skipZones.put(skipX, textWidth);
+      //println("marked newskip zone.  skipZones.size(): " + skipZones.size());
+    }
+  } // end markSkipZone
+
+    //
+  boolean shouldSkip(float x, float textWidth) {
+    int skipX = (int)x;
+    if (skipZones.containsKey(skipX)) {
+      Float oldWidth = (Float)skipZones.get(skipX);
+      //println(skipZones);
+      if (textWidth >= oldWidth) return true;
+    }
+    return false;
+  } // end shouldSkip
+
+
+  //
   // try to get the label closest to a distance based on left or right
   Label getClosestLabel(Spline targetSpline, float targetDistance, boolean rightSide) {
     Label closestLabel = null;
@@ -223,6 +256,7 @@ class SpLabel {
 
     pg.fill(c);
     pg.textAlign(LEFT);
+    pg.textSize(14);
     if (isOnTop) pg.text(bucketName + "-" + data[data.length - 1] + " maxH: " + (int)maxHeight + " id: " + tempNumericalId + " dist: " + topSpline.totalDistance, topSpline.curvePoints.get(topSpline.curvePoints.size() - 1).x, topSpline.curvePoints.get(topSpline.curvePoints.size() - 1).y);
     if (isOnBottom) pg.text(bucketName + "-" + data[data.length - 1] + " maxH: " + (int)maxHeight + " id: " + tempNumericalId + " dist: " + bottomSpline.totalDistance, bottomSpline.curvePoints.get(bottomSpline.curvePoints.size() - 1).x, bottomSpline.curvePoints.get(bottomSpline.curvePoints.size() - 1).y);
   } // end displaySplines

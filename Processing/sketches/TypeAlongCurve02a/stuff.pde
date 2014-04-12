@@ -166,14 +166,14 @@ ArrayList<Spline> blendSplinesVerticallyWithWeight(Spline a, Spline b, int total
 
   for (int i = 1; i <= divisionPoints; i++) {
     float thisPercent = map(i, 1, divisionPoints, 0, 1);
-    
+
     PVector pointA = a.getPointAlongSpline(thisPercent).get(0);
     PVector dirA = pointA.get();
     dirA.y += 1; // make it point vertically
     ArrayList<PVector> intersect = b.getPointByIntersection(pointA, dirA);
     if ( intersect == null) continue; // cutout if no middle
     PVector pointB = intersect.get(0);
-    
+
     PVector weightedSplinePoint = null;
     ArrayList<PVector> intersectionPoint = weightSpline.getPointByIntersection(pointA, pointB);
 
@@ -247,6 +247,33 @@ ArrayList<Spline> blendSplinesVerticallyWithWeight(Spline a, Spline b, int total
   }
   return newSplines;
 } // end blendSplinesVerticallyWithWeight
+
+
+//
+float getXFromYear(int yearIn, Term t, PGraphics pg) {
+  float x = map(yearIn, yearRange[0], yearRange[1], padding[3], pg.width - padding[1]); 
+  return x;
+} // end getXFromYear
+
+
+// mark the x locations of phrases
+boolean termIsAlreadyAtX(int x, Term t) {
+  if (!usedTermsAtX.containsKey(x)) return false;
+  else {
+    HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedTermsAtX.get(x);
+    if (oldHM.containsKey(t.term)) return true;
+    else return false;
+  }
+} // end termIsAlreadyAtX
+
+//
+void markTermAtX(int x, Term t) {
+  if (!usedTermsAtX.containsKey(x)) usedTermsAtX.put(x, new HashMap<String, Integer>());
+  HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedTermsAtX.get(x);
+  oldHM.put(t.term, 0);
+  usedTermsAtX.put(x, oldHM);
+} // end markTermAtX
+
 
 
 //
