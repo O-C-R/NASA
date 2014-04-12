@@ -15,11 +15,12 @@ import rita.*;
 int startYear = 1961;
 int endYear = 2009;
 String dataPath = "../../Data/BucketText/";
-String outPath = "../../Data/BucketGramsUnique/";
+String outPath = "../../Data/BucketGramsAll/";
 String subBucket = "/uniqueBucketStories/";
+String xmlPath = "../../Data/EntityXML/";
 String masterFile = "allYears.txt";
 String[] sentences;
-int threshold = 2;
+int threshold = 0;
 int wc;
 
 String buckets = "administrative,astronaut,mars,moon,people,politics,research_and_development,rockets,russia,satellites,space_shuttle,spacecraft,us";
@@ -40,25 +41,31 @@ void setup() {
   for (int i = 1; i < 4; i++) {
     //countSaveGramsYears(i, i + "year_grams.txt");
   }
-  
+
   String[] bucketList = buckets.split(",");
 
   for (String s:bucketList) {
     currentBucket = s;
+    /*
     countSavePosYears("landing", "_series.txt");
-    countSavePosYears("moon", "_series.txt");
-    countSavePosYears("the moon", "_series.txt");
-    countSavePosYears("the lunar landings", "_series.txt");
-    countSavePosYears("lunar landing", "_series.txt");
-    countSavePosYears("the lunar landing", "_series.txt");
-    countSavePosYears("lunar landing gear", "_series.txt");
-    countSavePosYears("main sounding systems", "_series.txt");
-    countSavePosYears("positioning systems", "_series.txt");
-    countSavePosYears("positioning system", "_series.txt");
-    countSavePosYears("two years", "_series.txt");
-    countSavePosYears("two crazy years", "_series.txt");
-    countSavePosYears("an amazing thing", "_series.txt");
-    countSavePosYears("sophisticated instruments", "_series.txt");
+     countSavePosYears("moon", "_series.txt");
+     countSavePosYears("the moon", "_series.txt");
+     countSavePosYears("the lunar landings", "_series.txt");
+     countSavePosYears("lunar landing", "_series.txt");
+     countSavePosYears("the lunar landing", "_series.txt");
+     countSavePosYears("lunar landing gear", "_series.txt");
+     countSavePosYears("main sounding systems", "_series.txt");
+     countSavePosYears("positioning systems", "_series.txt");
+     countSavePosYears("positioning system", "_series.txt");
+     countSavePosYears("two years", "_series.txt");
+     countSavePosYears("two crazy years", "_series.txt");
+     countSavePosYears("an amazing thing", "_series.txt");
+     countSavePosYears("sophisticated instruments", "_series.txt");
+     */
+    countSaveEntities("Person");
+    countSaveEntities("Country");
+    countSaveEntities("Facility");
+    countSaveEntities("FieldTerminology");
   }
   //*/
 }
@@ -121,6 +128,68 @@ void countSaveGramsYears(int n, String url) {
 
   writer.flush();
   writer.close();
+}
+
+void countSaveEntities(String eType) {
+
+  HashMap<String, Entity> entityMap = new HashMap();
+  ArrayList<Entity> allEntities = new ArrayList();
+  for (int y = startYear; y <= endYear; y++) {
+    XML eXML = loadXML(xmlPath + currentBucket + "/" + y + ".xml");
+    XML[] entities = eXML.getChildren("entities/entity");
+    for (XML entity:entities) {
+      String type = entity.getChild("type").getContent();
+      if (type.equals(eType)) {
+        String label = null;
+        //Is it disambiguated?
+        if (entity.getChild("disambiguated") != null) {
+          label = entity.getChild("disambiguated/name").getContent();
+        } 
+        else {
+          label = entity.getChild("text").getContent();
+        };
+        int count = int(entity.getChild("count").getContent());
+        
+        if (label.split(" ").length > 1) {
+        if (!entityMap.containsKey(label)) {
+          Entity e = new Entity().init();
+          e.term = label;
+          e.counts[y - startYear] = count;
+          entityMap.put(label, e);
+          allEntities.add(e);
+          e.count+= count;
+        } 
+        else {
+          Entity e = entityMap.get(label);
+          e.counts[y - startYear] = count;
+          e.count += count;
+        }
+        }
+      }
+    }
+    
+  }
+  java.util.Collections.sort(allEntities);
+  java.util.Collections.reverse(allEntities);
+  
+  PrintWriter writer = createWriter(outPath + "/" + currentBucket + "/" + eType + ".txt");
+  
+  for (Entity e:allEntities) {
+    int c = e.count;
+    if (c > threshold) {
+      String[] outs = new String[(endYear - startYear) + 1];
+      outs[0] = e.term;
+      outs[1] = str(c);
+      for (int i = 2; i < outs.length; i++) {
+        outs[i] = str(e.counts[i]);
+      }
+      writer.println(join(outs, ","));
+    }
+  }
+
+  writer.flush();
+  writer.close();
+  
 }
 
 void countSavePosYears(String pos, String url) {
