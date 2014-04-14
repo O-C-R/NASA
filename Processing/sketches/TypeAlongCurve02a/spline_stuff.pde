@@ -1,4 +1,164 @@
 //
+void makeMasterSpLabels(PGraphics pg) {
+  if (bucketDataPoints.length <= 1) return; // needs at least two buckets
+
+  // reorder the buckets by max value?
+  if (reorderBucketsByMaxHeight) {
+    // reorder the bucket data points and the bucketsAL
+    ArrayList<float[]> newBucketDataPointsAL = new ArrayList<float[]>();
+    ArrayList<Bucket> newBucketsAL = new ArrayList<Bucket>();
+    for (int i = 0; i < bucketsAL.size(); i++) {
+      if (i == 0) {
+        newBucketsAL.add(bucketsAL.get(i));
+        newBucketDataPointsAL.add(bucketDataPoints[i]);
+      }
+      else {
+        float tempSumThis = 0f;
+        for (float f : bucketDataPoints[i]) tempSumThis += f;
+        boolean foundSpot = false;
+        for (int j = 0; j < newBucketsAL.size(); j++) {
+          float tempSumOther = 0f;
+          float[] otherDataPt = newBucketDataPointsAL.get(j);
+          for (float f : otherDataPt) tempSumOther += f;
+          if (tempSumThis > tempSumOther) {
+            newBucketsAL.add(j, bucketsAL.get(i));
+            newBucketDataPointsAL.add(j, bucketDataPoints[i]);
+            foundSpot = true;
+            break;
+          }
+        }
+        if (!foundSpot) {
+          newBucketsAL.add(bucketsAL.get(i));
+          newBucketDataPointsAL.add(bucketDataPoints[i]);
+        }
+      }
+    }
+    bucketDataPoints = new float[newBucketDataPointsAL.size()][0];
+    bucketsAL = newBucketsAL;
+    for (int i = 0; i < newBucketDataPointsAL.size(); i++) {
+      bucketDataPoints[i] = newBucketDataPointsAL.get(i);
+    }
+  }
+
+  // first find the max sum of data assuming they all have same number of points
+  float maxDataSum = 0;
+  float middleHeight = 0;
+  float heightPerUnit = 0;
+  float widthPerDataPoint = 0;
+  for (int j = 0; j < bucketDataPoints[0].length; j++) {
+    float thisSum = 0;
+    for (int i = 0; i < bucketDataPoints.length; i++) {
+      thisSum += bucketDataPoints[i][j];
+    }
+    maxDataSum = (maxDataSum > thisSum ? maxDataSum : thisSum);
+  }
+  if (maxDataSum <= 1) return;
+  heightPerUnit = (pg.height - padding[0] - padding[2]) / (maxDataSum - 1);
+  widthPerDataPoint = (pg.width - padding[1] - padding[3]) / (bucketDataPoints[0].length - 1);
+  middleHeight = padding[0] + (pg.height - padding[0] - padding[2]) / 2;
+  println("maxDataSum: " + maxDataSum + " heightPerUnit: " + heightPerUnit + " widthPerDataPoint: " + widthPerDataPoint);
+
+  // make the actual splines
+  ArrayList<SpLabel> topSpLabels = new ArrayList<SpLabel>();
+  ArrayList<SpLabel> bottomSpLabels = new ArrayList<SpLabel>();
+
+  for (int i = 0; i < bucketDataPoints.length; i++) {
+    Bucket targetBucket = bucketsAL.get(i);
+    SpLabel sp = new SpLabel(targetBucket.name);
+    sp.c = targetBucket.c; // assign the bucket color to the splabel
+    float x = padding[3];
+    float y = 0f;
+    if (i == 0) {
+      Spline top = new Spline();
+      Spline bottom = new Spline();
+      for (int j = 0; j < bucketDataPoints[i].length; j++) {
+        y = -((float)bucketDataPoints[i][j] / 2) * heightPerUnit + middleHeight;
+        top.addCurvePoint(new PVector(x, y));
+        y = ((float)bucketDataPoints[i][j] / 2) * heightPerUnit + middleHeight;
+        bottom.addCurvePoint(new PVector(x, y));
+        sp.saveMaxHeight(2 * abs(y - middleHeight));
+        x += widthPerDataPoint;
+      }      
+
+      top.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
+      bottom.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
+
+      sp.topSpline = top;
+      sp.bottomSpline = bottom;
+      sp.isOnTop = true;
+      sp.isOnBottom = true;
+      sp.data = bucketDataPoints[i];
+      
+      // mark this one as the middle one in case the divide is employed later
+      sp.isMiddleSpLabel = true;
+    }
+    else {
+      // determine if should go up or down based on the min/max
+      float topMax = 0f;
+      float bottomMax = 0f;
+      for (int j = 0; j < bucketDataPoints[i].length; j++) {
+        float thisSum = 0;
+        thisSum += bucketDataPoints[i][j];
+        for (SpLabel sp2 : topSpLabels) {
+          thisSum += sp2.data[j];
+        }
+        topMax = (topMax > thisSum ? topMax : thisSum);
+      }
+      for (int j = 0; j < bucketDataPoints[i].length; j++) {
+        float thisSum = 0;
+        thisSum += bucketDataPoints[i][j];
+        for (SpLabel sp2 : bottomSpLabels) {
+          thisSum += sp2.data[j];
+        }
+        bottomMax = (bottomMax > thisSum ? bottomMax : thisSum);
+      }
+
+      if (topMax > bottomMax) {
+        //println("doing bottom");
+        Spline top = bottomSpLabels.get(bottomSpLabels.size() - 1).bottomSpline;
+        Spline bottom = new Spline();
+        for (int j = 0; j < bucketDataPoints[i].length; j++) {
+          float previousYPosition = top.getPointByAxis("x", new PVector(x, 0)).get(0).y;
+          y = ((float)bucketDataPoints[i][j]) * heightPerUnit + previousYPosition;
+          bottom.addCurvePoint(new PVector(x, y));
+          sp.saveMaxHeight(abs(y - previousYPosition));
+          x += widthPerDataPoint;
+        }      
+        bottom.makeFacetPoints(.15f, 10f, 120, true);
+        sp.topSpline = top;
+        sp.bottomSpline = bottom;
+        sp.isOnTop = false;
+        sp.isOnBottom = true;
+      }
+      else {
+        //println("doing top");
+        Spline top = new Spline();
+        Spline bottom = topSpLabels.get(topSpLabels.size() - 1).topSpline;
+        for (int j = 0; j < bucketDataPoints[i].length; j++) {
+          float previousYPosition = bottom.getPointByAxis("x", new PVector(x, 0)).get(0).y;
+          y = -((float)bucketDataPoints[i][j]) * heightPerUnit + previousYPosition;
+          top.addCurvePoint(new PVector(x, y));
+          sp.saveMaxHeight(abs(y - previousYPosition));
+          x += widthPerDataPoint;
+        }      
+        top.makeFacetPoints(.15f, 10f, 120, true);
+        sp.topSpline = top;
+        sp.bottomSpline = bottom;
+        sp.isOnTop = true;
+        sp.isOnBottom = false;
+      }
+    }
+    sp.data = bucketDataPoints[i];
+    //splabels.add(sp);
+    if (sp.isOnBottom) bottomSpLabels.add(sp);
+    if (sp.isOnTop) topSpLabels.add(sp);
+  }
+  splabels = orderSpLabels(topSpLabels, bottomSpLabels);
+} // end makeMasterSplines
+
+
+
+//
 ArrayList<Spline> blendSplinesByDistanceWithWeight(Spline a, Spline b, int totalCount, float distance, Spline weightSpline) {
 
   int divisionPoints = (int)(a.totalDistance / distance + 1);
@@ -249,30 +409,6 @@ ArrayList<Spline> blendSplinesVerticallyWithWeight(Spline a, Spline b, int total
 } // end blendSplinesVerticallyWithWeight
 
 
-//
-float getXFromYear(int yearIn, Term t, PGraphics pg) {
-  float x = map(yearIn, yearRange[0], yearRange[1], padding[3], pg.width - padding[1]); 
-  return x;
-} // end getXFromYear
-
-
-// mark the x locations of phrases
-boolean termIsAlreadyAtX(int x, Term t) {
-  if (!usedTermsAtX.containsKey(x)) return false;
-  else {
-    HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedTermsAtX.get(x);
-    if (oldHM.containsKey(t.term)) return true;
-    else return false;
-  }
-} // end termIsAlreadyAtX
-
-//
-void markTermAtX(int x, Term t) {
-  if (!usedTermsAtX.containsKey(x)) usedTermsAtX.put(x, new HashMap<String, Integer>());
-  HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedTermsAtX.get(x);
-  oldHM.put(t.term, 0);
-  usedTermsAtX.put(x, oldHM);
-} // end markTermAtX
 
 
 

@@ -1,3 +1,21 @@
+// 
+void setupHexColors() {
+  hexColors.put("debug", #ffffff);
+  hexColors.put("administrative", #66ffff);
+  hexColors.put("astronaut", #ff331f);
+  hexColors.put("mars", #cc1166);
+  hexColors.put("moon", #aaaaaa);
+  hexColors.put("people", #f5a3cf);
+  hexColors.put("research_and_development", #aaaa00);
+  hexColors.put("rockets", #ffffff);
+  hexColors.put("russia", #ff1133);
+  hexColors.put("satellites", #2266aa);
+  hexColors.put("space_shuttle", #aaf045);
+  hexColors.put("spacecraft", #333333);
+  hexColors.put("us", #0022ff);
+} // end setupHexColors
+
+
 //
 void readInBucketData() {
   String[] directories = OCRUtils.getDirectoryNames(mainDiretoryPath, false);
@@ -12,11 +30,11 @@ void readInBucketData() {
     for (String s : bucketsToUse) if (s.equals(newBucketName)) isValid = true;
     if (!isValid) continue;
 
-
-
     println("bucket: " + newBucketName);
 
     Bucket newBucket = new Bucket(newBucketName);
+    // assign color if it is in the hm
+    if (hexColors.containsKey(newBucketName)) newBucket.c = (Integer)hexColors.get(newBucketName); 
 
     String[] files = OCRUtils.getFileNames(directory, true);
     float yearSum = 0f;
@@ -49,7 +67,7 @@ void readInBucketData() {
 
         Term newTerm = new Term(term, termCount, breakdown);
         newPos.addTerm(newTerm);
-        
+
         // check and overwrite blankTerm
         if (blankTerm.series == null) blankTerm.series = new float[0];
         if (breakdown.length > blankTerm.series.length) blankTerm.series = breakdown;

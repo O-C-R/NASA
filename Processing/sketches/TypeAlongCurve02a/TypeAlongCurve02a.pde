@@ -8,10 +8,13 @@ import java.util.Map;
 
 
 // main controlling vars
-float splineMinAngleInDegrees = .15f; // .02 for high
-float splineMinDistance = 50f; // minimum distance between makeing a facet
-int splineDivisionAmount = 120; // how many divisions should initially be made
+float splineMinAngleInDegrees = .05f; // .02 for high
+float splineMinDistance = 20f; // minimum distance between makeing a facet
+int splineDivisionAmount = 150; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
+
+boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
+float middleDivideDistance = 100f; // if dividing the middle SpLabel, how much to divide it by
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   140f, 400f, 140f, 350f
@@ -48,19 +51,23 @@ String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAl
 String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
-  "astronaut", 
-  "mars", 
+  //"astronaut", 
+  //"mars", 
   "moon", 
   //"people", 
   //"politics", 
   //"research_and_development", 
-  "rockets", 
+  //"rockets", 
   "russia", 
   //"satellites", 
-  "space_shuttle", 
+  //"space_shuttle", 
   //"spacecraft", 
   "us",
 };
+HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called from setup(), done in AbucketReader
+
+
+// only these Pos files will be used, others will be skipped
 String[] posesToUse = {
   "cd nns", 
   //"cd jj nns", 
@@ -79,20 +86,7 @@ float[][] bucketDataPoints = new float[bucketsToUse.length][0];
 boolean reorderBucketsByMaxHeight = true;
 
 //
-final int INPUT_DATA_LINEAR = 0; // will take the full bucket value
-final int INPUT_DATA_LOG = 1; // log of the bucket value
-final int INPUT_DATA_HALF = 2; // half of the bucket value
-final int INPUT_DATA_DOUBLE = 3; // double of the bucket value
-final int INPUT_DATA_TRIPLE = 4; // triple of the bucket value
-final int INPUT_DATA_CUBE = 5; // cube the bucket value
-final int INPUT_DATA_SQUARE = 6; // square the data
-final int INPUT_DATA_SQUARE_ROOT = 7; // squareroot the data
-final int INPUT_DATA_MULTIPLIED_THEN_SQUARE_ROOT = 111; // 10000 * the value, then squareroot the data
-final int INPUT_DATA_CUBE_ROOT = 8; // cuberoot the data
-final int INPUT_DATA_MULTIPLIED_THEN_CUBE_ROOT = 9; // 10000 * the value, then cuberoot the data
-final int INPUT_DATA_DEBUG = 10; // assign an static number
-final int INPUT_DATA_NOISE = 11; // just noise, not data
-int bucketDataPointInputMethod = INPUT_DATA_MULTIPLIED_THEN_SQUARE_ROOT;
+int bucketDataPointInputMethod = 0; // defined in setup
 
 ArrayList<Bucket> bucketsAL = new ArrayList<Bucket>();
 HashMap<String, Bucket> bucketsHM = new HashMap<String, Bucket>();
@@ -120,8 +114,8 @@ boolean shiftIsDown = false;
 
 //
 void setup() {
-  size(7300, 1200);
-  //size(2600, 800);
+  //size(7300, 1200);
+  size(2600, 800);
   OCRUtils.begin(this);
   background(255);
   randomSeed(1667);
@@ -130,28 +124,25 @@ void setup() {
 
   setConstrainRange();
 
+  // setup the colors
+  setupHexColors();
 
   // read in the appropriate bucket data
+  bucketDataPointInputMethod = INPUT_DATA_MULTIPLIED_THEN_SQUARE_ROOT;
   readInBucketData();
   makeBucketDataPoints(yearRange[1] - yearRange[0] + 1, bucketDataPointInputMethod); // making points for the year range.  this is what actually defines the splines
 
   orderBucketTerms(); // this will not only order the terms in each bucket by their seriesSum, but will also do the same for each bucket's Pos and also make the ordered indices for each term
 
   makeMasterSpLabels(g);
-  makeVariationSplines();
+  makeVariationSplines(); // this will make it so that the middle lines are a bit weighted.  otherwise they will be evenly distributed
   //  //splitMasterSpLabelsByPercent(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by percent
   splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
+  // do the great divide
+  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
 
-    //
-  //  //populateFullForDebug(); // will populate every line with random RiTa phrases.  linear fill from left to right with a bit of spacing between
-
-
-
-  // test x
-  println(getXFromYear(1961, blankTerm, g) + " -- 1961 --  padding: " + padding[3]);
-  println(getXFromYear(2008, blankTerm, g) + " -- 2008 --  padding: " + padding[1]);
 } // end setup
 
 //
@@ -169,9 +160,6 @@ void draw() {
 
     if (variationOn) sp.displayVariationSpline(g);
   }
-
-
-
 
 
   fill(255);

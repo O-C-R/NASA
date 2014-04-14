@@ -1,7 +1,7 @@
 class Term {
   String term = "";
   String[] theseTermWords = new String[0];
-  String[] posTermWords = new String[0];
+  //String[] posTermWords = new String[0];
   float[] series = null;
   int totalCount = 0;
 
@@ -20,7 +20,7 @@ class Term {
   Term(String term, int totalCount, float[] series) {
     this.term = term;
     theseTermWords = split(term, " ");
-    for (String s : theseTermWords) posTermWords = (String[])append(posTermWords, RiTa.getPosTags(s)[0]);
+    //for (String s : theseTermWords) posTermWords = (String[])append(posTermWords, RiTa.getPosTags(s)[0]); // skip for now, not used
     this.totalCount = totalCount;
     this.series = series;
   } // end constructor
@@ -61,17 +61,18 @@ class Term {
   } // end makeSeriesOrder
 
   //
-  // try to tell if a word matches either in noun or verb form..
+  // try to tell if a word equals this one.  not used
   boolean matchesTermWords(String[] arIn) {
-    String thisPos = "";
+    //String thisPos = "";
     for (int i = 0; i < theseTermWords.length; i++) {
-      thisPos = posTermWords[i];
+      //thisPos = posTermWords[i];
       for (String t : arIn) {
         if (t.equals(theseTermWords[i])) return true;
       }
     }
     return false;
   } // end matchesTermWords
+  
 
   //
   String toString() {

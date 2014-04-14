@@ -1,6 +1,4 @@
-final String POPULATE_STATUS_EMPTY = "emtpy";
-final String POPULATE_STATUS_SUCCESS = "success";
-final String POPULATE_STATUS_FAIL = "fail";
+
 
 //
 String tryToPopulateBucketWithNextTerm(Bucket b, PGraphics pg) {

@@ -21,10 +21,12 @@ class Bucket {
 
   float[] seriesSum = null;
 
+  color c = color(random(255), random(255), random(255));
+
   //
   HashMap<String, Term> failedTerms = new HashMap<String, Term>(); // the ones that were not placed
   // when populating, if it cannot be placed it will be placed in this hm.  upon changing the year range this will get reset
-  
+
 
   //
   Bucket(String name) {
@@ -83,12 +85,14 @@ class Bucket {
   void takeOutTerm(Term t) {
     for (int i = bucketTermsRemainingAL.size() - 1; i >= 0; i--) {
       if (bucketTermsRemainingAL.get(i) == t) bucketTermsRemainingAL.remove(t);
+      /*
       else {
-        String[] termAr = split(t.term, " ");
-        if (bucketTermsRemainingAL.get(i).matchesTermWords(termAr)) {
-          bucketTermsRemainingAL.remove(i);
-        }
-      }
+       String[] termAr = split(t.term, " ");
+       if (bucketTermsRemainingAL.get(i).matchesTermWords(termAr)) {
+       bucketTermsRemainingAL.remove(i);
+       }
+       }
+       */
     }
   } // end takeOutTerm
 

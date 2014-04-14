@@ -61,6 +61,67 @@ void assignSpLabelNeighbors() {
 } // end assignSpLabelNeighbors
 
 //
+void splitMiddleSpLabel(float divideAmount) {
+  PVector shiftVector = new PVector(0, -divideAmount);
+
+  // define the middle splabel
+  // shift all splabels above this one up by the divideAmount
+  // shift all middle splines of the middle splabel up by the divide amount
+  // generate a new middle spline for the middle splabel for the text to be measured against for height
+  SpLabel middleSpLabel = null;
+  for (SpLabel sp : splabels) {
+    if (sp.isMiddleSpLabel) {
+      middleSpLabel = sp;
+      break;
+    }
+  }
+
+  // grab the top splabels
+  ArrayList<SpLabel> topLabels = new ArrayList<SpLabel>();
+  if (middleSpLabel != null) {
+    for (SpLabel sp : splabels) { 
+      if (sp != middleSpLabel && sp.isOnTop) {
+        topLabels.add(sp);
+      }
+    }
+  }
+  // shift top spLabels by amt
+  for (SpLabel sp : topLabels) {
+    sp.topSpline.shift(shiftVector);
+    for (Spline spline : sp.middleSplines) {
+      spline.shift(shiftVector);
+    }
+    if (sp.variationSpline != null) sp.variationSpline.shift(shiftVector);
+  }
+} // end splitMiddleSpLabel
+
+
+//
+float getXFromYear(int yearIn, Term t, PGraphics pg) {
+  float x = map(yearIn, yearRange[0], yearRange[1], padding[3], pg.width - padding[1]); 
+  return x;
+} // end getXFromYear
+
+
+// mark the x locations of phrases
+boolean termIsAlreadyAtX(int x, Term t) {
+  if (!usedTermsAtX.containsKey(x)) return false;
+  else {
+    HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedTermsAtX.get(x);
+    if (oldHM.containsKey(t.term)) return true;
+    else return false;
+  }
+} // end termIsAlreadyAtX
+
+//
+void markTermAtX(int x, Term t) {
+  if (!usedTermsAtX.containsKey(x)) usedTermsAtX.put(x, new HashMap<String, Integer>());
+  HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedTermsAtX.get(x);
+  oldHM.put(t.term, 0);
+  usedTermsAtX.put(x, oldHM);
+} // end markTermAtX
+
+//
 //
 //
 //

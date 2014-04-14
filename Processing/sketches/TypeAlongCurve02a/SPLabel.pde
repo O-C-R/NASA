@@ -12,6 +12,10 @@ class SpLabel {
   float minimumVariation = .01; // will not go within this % of the edge
   float variationNumber = .02; // control the noise variation.. arbitrary, needs testing
   float randomNumber = random(100); // used as a sort of seed
+  
+  // deal with a middle split
+  boolean isMiddleSpLabel = false;
+  Spline middleAdjustSpline = null; // if this is the middle spline, then this will be used to calculate the height instead of the top neighbor for the middle spline
 
 
   // skipZone and
@@ -64,7 +68,7 @@ class SpLabel {
   // this is the one that wiggles between the top and bottom
   void makeVariationSpline() {
     variationSpline = new Spline();
-    int divisions = 5 * (int)((float)topSpline.totalDistance / (topSpline.curvePoints.size()));
+    int divisions = 14 * (int)((float)topSpline.totalDistance / (topSpline.curvePoints.size()));
     for (int i = 0; i < divisions; i++) {
       float thisPercent = map(i, 0, divisions - 1, 0, 1);
       PVector pointA = topSpline.getPointAlongSpline(thisPercent).get(0);
@@ -74,7 +78,9 @@ class SpLabel {
       if ( intersect == null) continue; // cutout if no middle
       PVector pointB = intersect.get(0);
 
-      float countPercent = map(noise(i * variationNumber + randomNumber), 0, 1, minimumVariation, 1 - minimumVariation); // this is what actually controls the variation
+      //float countPercent = map(noise(i * variationNumber + randomNumber), 0, 1, minimumVariation, 1 - minimumVariation); // this is what actually controls the variation
+      // for now make it the middle
+      float countPercent = .5;
 
         PVector newPointA = pointA.get();
       newPointA.mult(1 - countPercent);
