@@ -12,7 +12,7 @@ int thresh = 0;
 
 String pattern = "";
 
-String dataPath = "../../Data/BucketGramsUnique/";
+String dataPath = "../../Data/BucketGramsAll/";
 String buckets = "administrative,astronaut,mars,moon,people,politics,research_and_development,rockets,russia,satellites,space_shuttle,spacecraft,us";
 String currentBucket = "rockets";
 
@@ -21,6 +21,9 @@ String[] bucketList;
 float gap = 100;
 
 String[] posList = {
+  "FieldTerminology"
+
+  /*
   "vbg", 
   "dt jj nns", 
   "dt jj nn", 
@@ -29,6 +32,7 @@ String[] posList = {
   "jj vbg nns", 
   "dt jj vbg", 
   "jj vbg"
+  */
 };
 
 void setup() {
@@ -46,7 +50,7 @@ void setup() {
     currentWords = new ArrayList();
     
     for (String pos:posList) {
-      loadMap(pos + "_series.txt");
+      loadMap(pos + ".txt");
     }
     
     color c= color((map(i, 0, bucketList.length, 0, 255) * 2.5) % 255, 255, 255);
@@ -130,7 +134,7 @@ void loadMap(String url) {
 
 void positionWords(float ytop, float ybot, color c) {
   for (Word w:currentWords) {
-    w.wsize = map(w.count, minCount, maxCount, 8, 48); 
+    w.wsize = map(w.count, minCount, maxCount, 12, 48); 
     w.a = map(w.count, minCount, maxCount, 100, 255);
     w.col = c;
     w.pos.y = random(ytop, ybot);
