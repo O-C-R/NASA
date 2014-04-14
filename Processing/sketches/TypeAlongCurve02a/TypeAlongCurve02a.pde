@@ -14,7 +14,8 @@ int splineDivisionAmount = 150; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
-float middleDivideDistance = 100f; // if dividing the middle SpLabel, how much to divide it by
+float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
+boolean skipMiddleLine = false; // if on it will make it so that text cannot go on this middle line
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   140f, 400f, 140f, 350f
@@ -54,9 +55,9 @@ String[] bucketsToUse = {
   //"astronaut", 
   //"mars", 
   "moon", 
-  //"people", 
+  "people", 
   //"politics", 
-  //"research_and_development", 
+  "research_and_development", 
   //"rockets", 
   "russia", 
   //"satellites", 
@@ -69,17 +70,28 @@ HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called f
 
 // only these Pos files will be used, others will be skipped
 String[] posesToUse = {
+
   "cd nns", 
+  "dt jj nns", 
+  /*
+   "jj nns", 
+   "jj vbg nn", 
+   "jj vbg nns", 
+   "jj vbg", 
+   "vbg nns",
+   */
+  // skip these:
   //"cd jj nns", 
   //"dt jj nn",
-  "dt jj nns", 
-  //"dt nn", 
-  "jj nns", 
-  "jj vbg nn", 
-  "jj vbg nns", 
-  "jj vbg", 
-  //"vbg nn", 
-  "vbg nns",
+  //"dt nn",  
+  //"vbg nn",
+};
+String[] entitiesToUse = {
+  //"Country", 
+  //"Facility", 
+  "FieldTerminology", 
+  "GeographicFeature", 
+  "Person",
 };
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
@@ -104,6 +116,7 @@ float minLabelHeightThreshold = 4; // minimum height for the middle of the label
 HashMap<String, Term> usedTerms = new HashMap<String, Term>(); // the ones that were succesfully placed
 // keep track of terms used at different x locations
 HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); 
+
 
 
 // visual controls
@@ -140,9 +153,8 @@ void setup() {
   splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
-  // do the great divide
-  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
-
+    // do the great divide
+  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance, g);
 } // end setup
 
 //
@@ -217,6 +229,7 @@ void keyReleased() {
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
   if (key == 't') doPopulate(350); 
+  if (key == 'q') doPopulate(3);
 
 
 
@@ -257,6 +270,7 @@ void keyReleased() {
   if (key == SHIFT) {
     shiftIsDown = false;
   }
+
   loop();
 } // end keyReleased
 
@@ -301,7 +315,6 @@ void doPopulate(int toMake) {
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
-      //for (int i = 0; i < 2; i++) {
       Bucket b = bucketsAL.get(i);
       //Bucket b = bucketsAL.get(0);
       status = tryToPopulateBucketWithNextTerm(b, g);

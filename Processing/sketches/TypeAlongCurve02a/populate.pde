@@ -232,11 +232,14 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
     float distanceToUse = percentPoint * splineToUse.totalDistance;
 
     Label centerLabel = splabel.makeCharLabel(text, LABEL_ALIGN_CENTER, distanceToUse, wiggleRoom, splineToUse);
-    float centerLabelHeight = centerLabel.getApproxLetterHeightAtPoint(intersectionPoint);
+    float centerLabelHeight = 0f;
+    if (centerLabel != null) centerLabelHeight = centerLabel.getApproxLetterHeightAtPoint(intersectionPoint);
 
     // keep track of the center spacing to use for the wiggle room when finding valid left and right side Labels
-    float centerEndDistance = centerLabel.endDistance + spacing;
-    float centerStartDistance = centerLabel.startDistance - spacing;
+    float centerEndDistance = 0f;
+    if (centerLabel != null) centerEndDistance = centerLabel.endDistance + spacing;
+    float centerStartDistance = 0f;
+    if (centerLabel != null) centerStartDistance = centerLabel.startDistance - spacing;
 
     // verify that center will fit
     boolean centerWillFit = splabel.spacingIsOpen(splineToUse, centerStartDistance, centerEndDistance);
@@ -251,8 +254,8 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
       // check that the rightDistanceToUse is within the wiggle room
       if (rightDistanceToUse < centerEndDistance + wiggleRoom) {
         rightSideLabel = splabel.makeCharLabel(text, LABEL_ALIGN_RIGHT, rightDistanceToUse, wiggleRoom, splineToUse);
-        rightSideWillFit = splabel.spacingIsOpen(splineToUse, rightSideLabel.startDistance - spacing, rightSideLabel.endDistance);
-        rightLabelHeight = rightSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
+        if (rightSideLabel != null) rightSideWillFit = splabel.spacingIsOpen(splineToUse, rightSideLabel.startDistance - spacing, rightSideLabel.endDistance);
+        if (rightSideLabel != null) rightLabelHeight = rightSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
       }
     }
 
@@ -266,15 +269,15 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
       // check that the rightDistanceToUse is within the wiggle room
       if (lefttDistanceToUse > centerStartDistance - wiggleRoom) {
         leftSideLabel = splabel.makeCharLabel(text, LABEL_ALIGN_LEFT, lefttDistanceToUse, wiggleRoom, splineToUse);
-        leftSideWillFit = splabel.spacingIsOpen(splineToUse, leftSideLabel.startDistance, leftSideLabel.endDistance + spacing);
-        leftLabelHeight = leftSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
+        if (leftSideLabel != null) leftSideWillFit = splabel.spacingIsOpen(splineToUse, leftSideLabel.startDistance, leftSideLabel.endDistance + spacing);
+        if (leftSideLabel != null) leftLabelHeight = leftSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
       }
     }
 
     // SCORING
     //if (centerWillFit) splabel.addLabel(centerLabel); // debug
     // center
-    if (centerWillFit && centerLabelHeight > minLabelHeightThreshold) {
+    if (centerLabel != null && centerWillFit && centerLabelHeight > minLabelHeightThreshold) {
       options = (Label[])append(options, centerLabel);
       float centerToRightDistance = blankSideMaxValue;
       float centerToLeftDistance = blankSideMaxValue;
@@ -323,7 +326,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
 
 
   for (int k = 0; k < optionScores.length; k++) {
-    // println(" k: " + k + " -- score: " + optionScores[k]);
+    //println(" k: " + k + " -- score: " + optionScores[k]);
   }
   // lastly take the one with the lowest score
   if (optionScores.length <= 0) return false;

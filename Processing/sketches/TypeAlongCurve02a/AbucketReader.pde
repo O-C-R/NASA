@@ -25,6 +25,8 @@ void readInBucketData() {
   for (String directory : directories) {
     String newBucketName = split(directory, "/")[split(directory, "/").length - 1];
 
+
+
     // check that this is a valid bucket
     boolean isValid = false;
     for (String s : bucketsToUse) if (s.equals(newBucketName)) isValid = true;
@@ -41,21 +43,45 @@ void readInBucketData() {
     for (String thisFile : files) {
       String newPosName = split(thisFile, "/")[split(thisFile, "/").length - 1];
 
-      isValid = false;
-      for (String s : posesToUse) if (newPosName.contains(s)) isValid = true;
-      if (!isValid) continue;
+      boolean isPos = false;
+      boolean isEntity = false;
+      for (String s : posesToUse) if (newPosName.contains(s)) isPos = true;
+      for (String s : entitiesToUse) if (newPosName.contains(s)) isEntity = true;
+      if (!isPos && !isEntity) continue;
 
       Pos newPos = new Pos(newPosName);
 
       String[] allLines = loadStrings(thisFile);
       for (int i = 0; i < allLines.length; i++) {
+
         String[] broken = split(allLines[i], ",");
         String term = "";
         int termCount = 0;
         float[] breakdown = new float[0];
-        for (int j = 0; j < broken.length; j++) {
-          if (j == 0) term = broken[j].replace("\"", "").trim(); // take out ""
-          else if (j == 1) termCount = Integer.parseInt(broken[j]);
+
+        // some of the names have commas in them
+        int nameIndices = 0;
+
+        int manualBreak = 0;
+        while (true) {
+          try {
+            int test = Integer.parseInt(broken[nameIndices + 1]);
+            break;
+          }
+          catch (Exception e) {
+            nameIndices++;
+          }
+        }
+
+
+        for (int j = 0; j < broken.length; j++) {          
+          if (j <= nameIndices) {
+            if (j > 0) term += " ";
+            term += broken[j].replace("\"", "").trim(); // take out ""
+          }
+          else if (j == nameIndices + 1) {
+            termCount = Integer.parseInt(broken[j]);
+          }
           else {
             breakdown = (float[])append(breakdown, Float.parseFloat(broken[j]));
           }
