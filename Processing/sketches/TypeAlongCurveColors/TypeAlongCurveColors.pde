@@ -6,16 +6,21 @@ import ocrUtils.ocr3D.*;
 
 import java.util.Map;
 
+import processing.pdf.*;
+import java.util.Date;
+
 
 // main controlling vars
-float splineMinAngleInDegrees = .05f; // .02 for high
-float splineMinDistance = 20f; // minimum distance between makeing a facet
-int splineDivisionAmount = 150; // how many divisions should initially be made
+// float splineMinAngleInDegrees = .05f; // .02 for high
+float splineMinAngleInDegrees = .25f; // .02 for high
+// float splineMinDistance = 20f; // minimum distance between makeing a facet
+float splineMinDistance = 50f; // minimum distance between makeing a facet
+// int splineDivisionAmount = 150; // how many divisions should initially be made
+int splineDivisionAmount = 50; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
-float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
-boolean skipMiddleLine = false; // if on it will make it so that text cannot go on this middle line
+float middleDivideDistance = 100f; // if dividing the middle SpLabel, how much to divide it by
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   140f, 400f, 140f, 350f
@@ -26,8 +31,10 @@ float minLabelSpacing = 10f; // the minimum spacing between labels along a splin
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 
 // when divding up the splabels into the middlesplines
-float maxSplineHeight = 25f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-float splineCurvePointDistance = 10f; // the approx distance between curve points
+// float maxSplineHeight = 25f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+float maxSplineHeight = 50f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+// float splineCurvePointDistance = 10f; // the approx distance between curve points
+float splineCurvePointDistance = 30f; // the approx distance between curve points
 
 int[] yearRange = {
   1961, 
@@ -53,7 +60,7 @@ String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
   //"astronaut", 
-  //"mars", 
+  // "mars", 
   "moon", 
   "people", 
   //"politics", 
@@ -61,7 +68,7 @@ String[] bucketsToUse = {
   //"rockets", 
   "russia", 
   //"satellites", 
-  //"space_shuttle", 
+  // "space_shuttle", 
   //"spacecraft", 
   "us",
 };
@@ -70,28 +77,17 @@ HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called f
 
 // only these Pos files will be used, others will be skipped
 String[] posesToUse = {
-
   "cd nns", 
-  "dt jj nns", 
-  /*
-   "jj nns", 
-   "jj vbg nn", 
-   "jj vbg nns", 
-   "jj vbg", 
-   "vbg nns",
-   */
-  // skip these:
   //"cd jj nns", 
   //"dt jj nn",
-  //"dt nn",  
-  //"vbg nn",
-};
-String[] entitiesToUse = {
-  //"Country", 
-  //"Facility", 
-  "FieldTerminology", 
-  "GeographicFeature", 
-  "Person",
+  "dt jj nns", 
+  //"dt nn", 
+  "jj nns", 
+  "jj vbg nn", 
+  "jj vbg nns", 
+  "jj vbg", 
+  //"vbg nn", 
+  "vbg nns",
 };
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
@@ -118,12 +114,13 @@ HashMap<String, Term> usedTerms = new HashMap<String, Term>(); // the ones that 
 HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); 
 
 
-
 // visual controls
 boolean facetsOn = false;
 boolean splinesOn = true;
 boolean variationOn = true;
 boolean shiftIsDown = false;
+
+boolean exportNow = false;
 
 //
 void setup() {
@@ -153,15 +150,22 @@ void setup() {
   splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
-    // do the great divide
-  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance, g);
+  // do the great divide
+  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
+
 } // end setup
 
 //
 void draw() {
 
-  background(255);
-  background(0);
+  if(exportNow) {
+    beginRecord(PDF, "pdf/nasaColors" + (new Date().getTime()) + ".pdf"); 
+    println("starting export to PDF");
+  }
+
+  // background(255);
+  // background(0);
+  background(#0F1B30);
 
   for (SpLabel sp : splabels) {
     fill(sp.c);
@@ -191,6 +195,13 @@ void draw() {
   // print the frame
   text("frame: " + frameCount, 20, 20);
   noLoop();
+
+  if(exportNow) {
+    endRecord(); 
+    exportNow = false;
+    println("ending export to PDF");
+  }
+
 } // end draw
 
 
@@ -229,8 +240,10 @@ void keyReleased() {
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
   if (key == 't') doPopulate(350); 
-  if (key == 'q') doPopulate(3);
 
+  if (key == 'n') {
+    exportNow = true;
+  }
 
 
 
@@ -270,7 +283,6 @@ void keyReleased() {
   if (key == SHIFT) {
     shiftIsDown = false;
   }
-
   loop();
 } // end keyReleased
 
@@ -315,6 +327,7 @@ void doPopulate(int toMake) {
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
+      //for (int i = 0; i < 2; i++) {
       Bucket b = bucketsAL.get(i);
       //Bucket b = bucketsAL.get(0);
       status = tryToPopulateBucketWithNextTerm(b, g);
