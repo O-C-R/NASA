@@ -5,6 +5,7 @@ import ocrUtils.*;
 import ocrUtils.ocr3D.*;
 
 import java.util.Map;
+import processing.pdf.*;
 
 
 // main controlling vars
@@ -134,9 +135,13 @@ boolean variationOn = false;
 boolean shiftIsDown = false;
 boolean debugOn = false;
 
+// other stuff
+String timeStamp = "";
+boolean exportNow = false;
+
 //
 void setup() {
-  size(5300, 1200);
+  size(5300, 1800);
   //size(2600, 800);
   OCRUtils.begin(this);
   background(bgColor);
@@ -149,7 +154,7 @@ void setup() {
   //font = createFont("Gotham-Book", defaultFontSize);
   //font = createFont("TheOnlyException", defaultFontSize); // awesome
 
-  setConstrainRange(); // for setting the boundaries of the the year stuff so you don't manually move it too far
+    setConstrainRange(); // for setting the boundaries of the the year stuff so you don't manually move it too far
 
   // setup the colors
   setupHexColors();
@@ -161,31 +166,37 @@ void setup() {
 
   orderBucketTerms(); // this will not only order the terms in each bucket by their seriesSum, but will also do the same for each bucket's Pos and also make the ordered indices for each term
 
-  makeMasterSpLabels(g);
+  makeMasterSpLabels();
   makeVariationSplines(); // this will make it so that the middle lines are a bit weighted.  otherwise they will be evenly distributed
   //  //splitMasterSpLabelsByPercent(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by percent
   splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
     // do the great divide
-  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance, g);
+  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
 } // end setup
 
 //
 void draw() {
+
+  if (exportNow) {
+    beginRecord(PDF, "pdf/" + timeStamp + ".pdf"); 
+    println("starting export to PDF");
+  }
+
   background(bgColor);
 
   // draw dates
-  drawDates(g);
+  drawDates();
 
   for (SpLabel sp : splabels) {
     fill(sp.c);
-    sp.display(g);
+    sp.display();
 
-    if (splinesOn) sp.displaySplines(g);
-    if (facetsOn) sp.displayFacetPoints(g);
+    if (splinesOn) sp.displaySplines();
+    if (facetsOn) sp.displayFacetPoints();
 
-    if (variationOn) sp.displayVariationSpline(g);
+    if (variationOn) sp.displayVariationSpline();
   }
 
 
@@ -195,8 +206,8 @@ void draw() {
     textAlign(LEFT, TOP);
     textSize(20);
     // do constrain stuff
-    float x1 = getXFromYear(constrainRange[0], blankTerm, g);
-    float x2 = getXFromYear(constrainRange[1], blankTerm, g);
+    float x1 = getXFromYear(constrainRange[0], blankTerm);
+    float x2 = getXFromYear(constrainRange[1], blankTerm);
     text("from: " + constrainRange[0] + " :: " + x1, 20, 40);
     text("from: " + constrainRange[1] + " :: " + x2, 20, 60);
     line(x1, 0, x1, 50);
@@ -209,6 +220,12 @@ void draw() {
     text("frame: " + frameCount, 20, 20);
   }
   noLoop();
+
+  if (exportNow) {
+    endRecord(); 
+    exportNow = false;
+    println("ending export to PDF");
+  }
 } // end draw
 
 
@@ -221,8 +238,9 @@ void keyPressed() {
 //
 void keyReleased() {  
   if (key == 'p') {
-    String timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-    saveFrame("output/" + timeStamp + ".png");
+     timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
+    //saveFrame("output/" + timeStamp + ".png");
+    exportNow = true;
   }
   if (keyCode == UP || keyCode == DOWN) {
   }
@@ -318,8 +336,8 @@ String makeRandomPhrase() {
 
 //
 void setConstrainRange() {
-  float x1 = getXFromYear(constrainRange[0], blankTerm, g);
-  float x2 = getXFromYear(constrainRange[1], blankTerm, g);
+  float x1 = getXFromYear(constrainRange[0], blankTerm);
+  float x2 = getXFromYear(constrainRange[1], blankTerm);
   constrainRangeX[0] = x1;
   constrainRangeX[1] = x2;
 } // end setConstrainRange
@@ -336,7 +354,7 @@ void doPopulate(int toMake) {
     for (int i = 0; i < bucketsAL.size(); i++) {
       Bucket b = bucketsAL.get(i);
       //Bucket b = bucketsAL.get(2);
-      status = tryToPopulateBucketWithNextTerm(b, g);
+      status = tryToPopulateBucketWithNextTerm(b);
 
       if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
     }
