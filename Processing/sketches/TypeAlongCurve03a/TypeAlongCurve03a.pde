@@ -10,7 +10,7 @@ import processing.pdf.*;
 
 // main controlling vars
 float splineMinAngleInDegrees = .05f; // .02 for high
-float splineMinDistance = 20f; // minimum distance between makeing a facet
+float splineMinDistance = 13f; // minimum distance between makeing a facet
 int splineDivisionAmount = 150; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
@@ -27,7 +27,7 @@ float minLabelSpacing = 10f; // the minimum spacing between labels along a splin
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 
 // when divding up the splabels into the middlesplines
-float maxSplineHeight = 20f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+float maxSplineHeight = 19f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
 float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 int[] yearRange = {
@@ -49,8 +49,8 @@ Letter blankLetter = new Letter();
 Term blankTerm = new Term(); // blank term used to gather x position.  used main for series length which is copied over as buckets are read in
 
 // bucket vars
-String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
-//String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
+//String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
+String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
 String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
@@ -81,6 +81,7 @@ String[] posesToUse = {
   "jj vbg nns", 
   "jj vbg", 
   "vbg nns", 
+  "nn",
 
   // skip these:
   //"dt jj nns", 
@@ -92,7 +93,7 @@ String[] posesToUse = {
 };
 String[] entitiesToUse = {
   //"Country", 
-  //"Facility", 
+  "Facility", 
   "FieldTerminology", 
   "GeographicFeature", 
   "Person",
@@ -141,7 +142,7 @@ boolean exportNow = false;
 
 //
 void setup() {
-  size(5300, 1800);
+  size(5300, 1000);
   //size(2600, 800);
   OCRUtils.begin(this);
   background(bgColor);
@@ -153,6 +154,8 @@ void setup() {
   //font = createFont("Gotham-Medium", defaultFontSize);
   //font = createFont("Gotham-Book", defaultFontSize);
   //font = createFont("TheOnlyException", defaultFontSize); // awesome
+  //font = createFont("The Only Exception", defaultFontSize); // awesome PC
+  
 
     setConstrainRange(); // for setting the boundaries of the the year stuff so you don't manually move it too far
 
@@ -226,6 +229,8 @@ void draw() {
     exportNow = false;
     println("ending export to PDF");
   }
+  
+  println("end of draw.  frame: " + frameCount);
 } // end draw
 
 
@@ -264,7 +269,7 @@ void keyReleased() {
   if (key == 'i') doPopulate(2500);
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
-  if (key == 't') doPopulate(350); 
+  if (key == 't') doPopulate(350);
   if (key == 'q') doPopulate(3);
 
 
@@ -371,6 +376,9 @@ void doPopulate(int toMake) {
   for (Bucket b : bucketsAL) {
     println ( "   b.name: " + b.name + " options remaining: " + b.bucketTermsRemainingAL.size());
   }
+  
+  timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
+  //exportNow = true;
 } // end doPopulate
 
 //
