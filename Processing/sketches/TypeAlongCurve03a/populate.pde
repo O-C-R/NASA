@@ -1,3 +1,90 @@
+//
+//
+void snap() {
+  println("snap!");
+} // end snap
+
+
+void populateFullForDebug() {
+  //
+
+  for (int j = 0; j < splabels.size(); j++) {
+    println("populating: " + splabels.get(j).bucketName + " :: " + j + "/" + splabels.size());
+    // top one
+
+      Label newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).topSpline);
+    if (newLabel != null) splabels.get(j).addLabel(newLabel);
+    while (true) {
+      float spacer = minLabelSpacing * random(1, 1.2); // between labels?
+      float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+      if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+        newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).topSpline);
+        lastEndDistance = newLabel.endDistance;
+        if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          break;
+        }
+        else {
+          if (newLabel != null) {
+            splabels.get(j).addLabel(newLabel);
+            print(".");
+          }
+        }
+      }
+    }
+    println("_done with top");
+
+    // middle ones
+    for (int i = 0; i < splabels.get(j).middleSplines.size(); i++) {
+      newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).middleSplines.get(i));
+      if (newLabel != null) splabels.get(j).addLabel(newLabel);
+      // add more until the last label has an endDistance that is 100% of the distance... 
+      while (true) {
+        float spacer = minLabelSpacing * random(1, 1.2); // between labels?
+        float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+        if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).middleSplines.get(i));
+          lastEndDistance = newLabel.endDistance;
+          if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+            break;
+          }
+          else {
+            if (newLabel != null) {
+              splabels.get(j).addLabel(newLabel);
+              print(".");
+            }
+          }
+        }
+      }
+      println("_done with middle: " + i + "/" + splabels.get(j).middleSplines.size());
+    }
+
+    // bottom one
+    if (j == splabels.size() - 1) {
+      newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).bottomSpline);
+      if (newLabel != null) splabels.get(j).addLabel(newLabel);
+      while (true) {
+        float spacer = minLabelSpacing * random(1, 1.2); // between labels?
+        float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
+        if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+          newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).bottomSpline);
+
+          lastEndDistance = newLabel.endDistance;
+          if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
+            break;
+          }
+          else { 
+            if (newLabel != null) {
+              splabels.get(j).addLabel(newLabel);
+              print(".");
+            }
+          }
+        }
+      }
+      println("_done with bottom");
+    }
+  }
+} // end populateFullForDebug
+
 
 
 //
@@ -132,73 +219,6 @@ boolean placeNextTermForBucket(Bucket b, Term t) {
  */
 
 
-//
-void populateFullForDebug() {
-  //
-
-  for (int j = 0; j < splabels.size(); j++) {
-    // top one
-
-    Label newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).topSpline);
-    if (newLabel != null) splabels.get(j).addLabel(newLabel);
-    while (true) {
-      float spacer = minLabelSpacing; // between labels?
-      float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
-      if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
-        newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).topSpline);
-        lastEndDistance = newLabel.endDistance;
-        if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
-          break;
-        }
-        else {
-          if (newLabel != null) splabels.get(j).addLabel(newLabel);
-        }
-      }
-    }
-
-    // middle ones
-    for (int i = 0; i < splabels.get(j).middleSplines.size(); i++) {
-      newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).middleSplines.get(i));
-      if (newLabel != null) splabels.get(j).addLabel(newLabel);
-      // add more until the last label has an endDistance that is 100% of the distance... 
-      while (true) {
-        float spacer = minLabelSpacing; // between labels?
-        float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
-        if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
-          newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).middleSplines.get(i));
-          lastEndDistance = newLabel.endDistance;
-          if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
-            break;
-          }
-          else {
-            if (newLabel != null) splabels.get(j).addLabel(newLabel);
-          }
-        }
-      }
-    }
-
-    // bottom one
-    if (j == splabels.size() - 1) {
-      newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, random(0, 50), 0f, splabels.get(j).bottomSpline);
-      if (newLabel != null) splabels.get(j).addLabel(newLabel);
-      while (true) {
-        float spacer = minLabelSpacing; // between labels?
-        float lastEndDistance = splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).endDistance;
-        if (lastEndDistance < splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
-          newLabel = splabels.get(j).makeCharLabel(makeRandomPhrase(), LABEL_ALIGN_LEFT, lastEndDistance + spacer, 0f, splabels.get(j).bottomSpline);
-
-          lastEndDistance = newLabel.endDistance;
-          if (lastEndDistance >= splabels.get(j).labels.get(splabels.get(j).labels.size() - 1).spline.totalDistance) {
-            break;
-          }
-          else { 
-            if (newLabel != null) splabels.get(j).addLabel(newLabel);
-          }
-        }
-      }
-    }
-  }
-} // end populateFullForDebug
 
 
 /**

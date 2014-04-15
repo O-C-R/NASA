@@ -81,7 +81,7 @@ String[] posesToUse = {
   "jj vbg nns", 
   "jj vbg", 
   "vbg nns", 
-  "nn",
+  //"nn",
 
   // skip these:
   //"dt jj nns", 
@@ -93,7 +93,7 @@ String[] posesToUse = {
 };
 String[] entitiesToUse = {
   //"Country", 
-  "Facility", 
+  //"Facility", 
   "FieldTerminology", 
   "GeographicFeature", 
   "Person",
@@ -142,7 +142,8 @@ boolean exportNow = false;
 
 //
 void setup() {
-  size(5300, 1000);
+  size(5300, 1800);
+  //size(5300, 1000);
   //size(2600, 800);
   OCRUtils.begin(this);
   background(bgColor);
@@ -181,7 +182,7 @@ void setup() {
 
 //
 void draw() {
-
+println("start of draw.  frame: " + frameCount);
   if (exportNow) {
     beginRecord(PDF, "pdf/" + timeStamp + ".pdf"); 
     println("starting export to PDF");
@@ -242,9 +243,15 @@ void keyPressed() {
 
 //
 void keyReleased() {  
+  if (key == 'a') {
+    snap();
+   populateFullForDebug(); // will fill up the thing with random phrases
+  }
+  
+  
   if (key == 'p') {
      timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-    //saveFrame("output/" + timeStamp + ".png");
+    saveFrame("output/" + timeStamp + ".png");
     exportNow = true;
   }
   if (keyCode == UP || keyCode == DOWN) {
@@ -329,7 +336,10 @@ String makeRandomPhrase() {
   String[] basis = {
     "Shark flying at midnight", 
     "Enjoying life", 
-    "Cheddar soup"
+    "Cheddar soup",
+    "11 dogs",
+    "John Glenn",
+    "Going",
   };
   String[] posArray = RiTa.getPosTags(RiTa.stripPunctuation(basis[(int)random(basis.length)].toLowerCase()));
   for (int i = 0; i < posArray.length; i++) {
