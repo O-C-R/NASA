@@ -6,16 +6,21 @@ import ocrUtils.ocr3D.*;
 
 import java.util.Map;
 
+import processing.pdf.*;
+import java.util.Date;
+
 
 // main controlling vars
-float splineMinAngleInDegrees = .05f; // .02 for high
-float splineMinDistance = 20f; // minimum distance between makeing a facet
-int splineDivisionAmount = 150; // how many divisions should initially be made
+// float splineMinAngleInDegrees = .05f; // .02 for high
+float splineMinAngleInDegrees = .25f; // .02 for high
+// float splineMinDistance = 20f; // minimum distance between makeing a facet
+float splineMinDistance = 50f; // minimum distance between makeing a facet
+// int splineDivisionAmount = 150; // how many divisions should initially be made
+int splineDivisionAmount = 50; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
-float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
-boolean skipMiddleLine = false; // if on it will make it so that text cannot go on this middle line
+float middleDivideDistance = 100f; // if dividing the middle SpLabel, how much to divide it by
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   140f, 400f, 140f, 350f
@@ -26,12 +31,14 @@ float minLabelSpacing = 10f; // the minimum spacing between labels along a splin
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 
 // when divding up the splabels into the middlesplines
-float maxSplineHeight = 20f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-float splineCurvePointDistance = 10f; // the approx distance between curve points
+// float maxSplineHeight = 25f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+float maxSplineHeight = 50f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+// float splineCurvePointDistance = 10f; // the approx distance between curve points
+float splineCurvePointDistance = 30f; // the approx distance between curve points
 
 int[] yearRange = {
   1961, 
-  2008 // fix this later
+  2009
 };
 int[] constrainRange = {
   yearRange[0], 
@@ -53,53 +60,35 @@ String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
   //"astronaut", 
-  //"mars", 
-  "moon", // *
-  //"people", 
+  // "mars", 
+  "moon", 
+  "people", 
   //"politics", 
-  "research_and_development", // * 
-  "rockets", // * 
+  "research_and_development", 
+  //"rockets", 
   "russia", 
-  "satellites", 
-  "space_shuttle", 
+  //"satellites", 
+  // "space_shuttle", 
   //"spacecraft", 
-  //"us",
+  "us",
 };
 HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called from setup(), done in AbucketReader
 
 
 // only these Pos files will be used, others will be skipped
 String[] posesToUse = {
-
-
-
   "cd nns", 
+  //"cd jj nns", 
+  //"dt jj nn",
+  "dt jj nns", 
+  //"dt nn", 
   "jj nns", 
   "jj vbg nn", 
   "jj vbg nns", 
   "jj vbg", 
-  "vbg nns", 
-
-  // skip these:
-  //"dt jj nns", 
-
-  //"cd jj nns", 
-  //"dt jj nn",
-  //"dt nn",  
-  //"vbg nn",
+  //"vbg nn", 
+  "vbg nns",
 };
-String[] entitiesToUse = {
-  //"Country", 
-  //"Facility", 
-  "FieldTerminology", 
-  "GeographicFeature", 
-  "Person",
-};
-
-// ******ENTITY MULTIPLIER****** //
-float entityMultiplier = .0001; // .0001 seems pretty even.  this multiplier brings down the entity totals so that they can be factored into the spline defining equatio
-float entityToNormalRatio = .75; // this determines roughly how many entity terms to put in compared to the other pos entries.  this : 1
-
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
 boolean reorderBucketsByMaxHeight = true;
@@ -116,7 +105,7 @@ ArrayList<SpLabel> splabels = new ArrayList<SpLabel>(); // the spline/label obje
 float defaultFontSize = 6f; // when it cannot find how big to make a letter.. because the top isnt there, then this is the default
 PFont font; // the font that is used
 
-float minCharHeight = 2; // minimum height for the middle of the label.  anything less than this will be discounted
+float minLabelHeightThreshold = 4; // minimum height for the middle of the label.  anything less than this will be discounted
 
 
 // keep track of the used terms so that they only appear once throughout the entire diagram
@@ -125,30 +114,25 @@ HashMap<String, Term> usedTerms = new HashMap<String, Term>(); // the ones that 
 HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); 
 
 
-
 // visual controls
 boolean facetsOn = false;
 boolean splinesOn = true;
-boolean variationOn = false;
+boolean variationOn = true;
 boolean shiftIsDown = false;
-boolean debugOn = false;
+
+boolean exportNow = false;
 
 //
 void setup() {
-  size(5300, 1200);
-  //size(2600, 800);
+  //size(7300, 1200);
+  size(2600, 800);
   OCRUtils.begin(this);
-  background(bgColor);
+  background(255);
   randomSeed(1667);
 
-  //font = createFont("Helvetica", defaultFontSize);
-  font = createFont("Knockout-HTF31-JuniorMiddlewt", defaultFontSize);
-  //font = createFont("UniversLTStd", defaultFontSize);
-  //font = createFont("Gotham-Medium", defaultFontSize);
-  //font = createFont("Gotham-Book", defaultFontSize);
-  //font = createFont("TheOnlyException", defaultFontSize); // awesome
+  font = createFont("Helvetica", defaultFontSize);
 
-  setConstrainRange(); // for setting the boundaries of the the year stuff so you don't manually move it too far
+  setConstrainRange();
 
   // setup the colors
   setupHexColors();
@@ -166,16 +150,22 @@ void setup() {
   splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
-    // do the great divide
-  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance, g);
+  // do the great divide
+  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
+
 } // end setup
 
 //
 void draw() {
-  background(bgColor);
 
-  // draw dates
-  drawDates(g);
+  if(exportNow) {
+    beginRecord(PDF, "pdf/nasaColors" + (new Date().getTime()) + ".pdf"); 
+    println("starting export to PDF");
+  }
+
+  // background(255);
+  // background(0);
+  background(#0F1B30);
 
   for (SpLabel sp : splabels) {
     fill(sp.c);
@@ -188,26 +178,30 @@ void draw() {
   }
 
 
-
-  if (debugOn) {
-    fill(255);
-    textAlign(LEFT, TOP);
-    textSize(20);
-    // do constrain stuff
-    float x1 = getXFromYear(constrainRange[0], blankTerm, g);
-    float x2 = getXFromYear(constrainRange[1], blankTerm, g);
-    text("from: " + constrainRange[0] + " :: " + x1, 20, 40);
-    text("from: " + constrainRange[1] + " :: " + x2, 20, 60);
-    line(x1, 0, x1, 50);
-    text(constrainRange[0], x1, 55);
-    line(x2, 0, x2, 50);
-    text(constrainRange[1], x2, 55);
+  fill(255);
+  textAlign(LEFT, TOP);
+  textSize(20);
+  // do constrain stuff
+  float x1 = getXFromYear(constrainRange[0], blankTerm, g);
+  float x2 = getXFromYear(constrainRange[1], blankTerm, g);
+  text("from: " + constrainRange[0] + " :: " + x1, 20, 40);
+  text("from: " + constrainRange[1] + " :: " + x2, 20, 60);
+  line(x1, 0, x1, 50);
+  text(constrainRange[0], x1, 55);
+  line(x2, 0, x2, 50);
+  text(constrainRange[1], x2, 55);
 
 
-    // print the frame
-    text("frame: " + frameCount, 20, 20);
-  }
+  // print the frame
+  text("frame: " + frameCount, 20, 20);
   noLoop();
+
+  if(exportNow) {
+    endRecord(); 
+    exportNow = false;
+    println("ending export to PDF");
+  }
+
 } // end draw
 
 
@@ -246,15 +240,16 @@ void keyReleased() {
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
   if (key == 't') doPopulate(350); 
-  if (key == 'q') doPopulate(3);
 
+  if (key == 'n') {
+    exportNow = true;
+  }
 
 
 
   if (key == 'f') facetsOn = !facetsOn;
   if (key == 's') splinesOn = !splinesOn;
   if (key == 'v') variationOn = !variationOn;
-  if (key == 'd') debugOn = !debugOn;
 
   if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
     if (keyCode == RIGHT) {
@@ -282,13 +277,12 @@ void keyReleased() {
 
     println("changed year range to: " + constrainRange[0] + " to " + constrainRange[1]);
     setConstrainRange();
-    //repopulateFromFailedHM();
+    repopulateFromFailedHM();
   }
 
   if (key == SHIFT) {
     shiftIsDown = false;
   }
-
   loop();
 } // end keyReleased
 
@@ -333,8 +327,9 @@ void doPopulate(int toMake) {
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
+      //for (int i = 0; i < 2; i++) {
       Bucket b = bucketsAL.get(i);
-      //Bucket b = bucketsAL.get(2);
+      //Bucket b = bucketsAL.get(0);
       status = tryToPopulateBucketWithNextTerm(b, g);
 
       if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
