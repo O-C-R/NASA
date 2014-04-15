@@ -141,8 +141,9 @@ boolean exportNow = false;
 
 //
 void setup() {
-  size(5300, 1800);
+  //size(5300, 1800); // **** used for draft
   //size(2600, 800);
+  size(5000, 1000);
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
