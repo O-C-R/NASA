@@ -39,16 +39,14 @@ public class TypeAlongCurveColors extends PApplet {
 
 
 // main controlling vars
-// float splineMinAngleInDegrees = .05f; // .02 for high
-float splineMinAngleInDegrees = .25f; // .02 for high
-// float splineMinDistance = 20f; // minimum distance between makeing a facet
-float splineMinDistance = 50f; // minimum distance between makeing a facet
-// int splineDivisionAmount = 150; // how many divisions should initially be made
-int splineDivisionAmount = 50; // how many divisions should initially be made
+float splineMinAngleInDegrees = .05f; // .02 for high
+float splineMinDistance = 20f; // minimum distance between makeing a facet
+int splineDivisionAmount = 150; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
-float middleDivideDistance = 100f; // if dividing the middle SpLabel, how much to divide it by
+float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
+boolean skipMiddleLine = false; // if on it will make it so that text cannot go on this middle line
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   140f, 400f, 140f, 350f
@@ -59,10 +57,8 @@ float minLabelSpacing = 10f; // the minimum spacing between labels along a splin
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 
 // when divding up the splabels into the middlesplines
-// float maxSplineHeight = 25f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-float maxSplineHeight = 50f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-// float splineCurvePointDistance = 10f; // the approx distance between curve points
-float splineCurvePointDistance = 30f; // the approx distance between curve points
+float maxSplineHeight = 25f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 int[] yearRange = {
   1961, 
@@ -88,34 +84,47 @@ String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
   //"astronaut", 
-  // "mars", 
+  //"mars", 
   "moon", 
-  "people", 
+  // "people", 
   //"politics", 
   "research_and_development", 
-  //"rockets", 
+  "rockets", 
   "russia", 
-  //"satellites", 
-  // "space_shuttle", 
+  "satellites", 
+  "space_shuttle", 
   //"spacecraft", 
-  "us",
+  // "us",
 };
+
+
 HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called from setup(), done in AbucketReader
 
 
 // only these Pos files will be used, others will be skipped
 String[] posesToUse = {
+
   "cd nns", 
+  "dt jj nns", 
+  /*
+   "jj nns", 
+   "jj vbg nn", 
+   "jj vbg nns", 
+   "jj vbg", 
+   "vbg nns",
+   */
+  // skip these:
   //"cd jj nns", 
   //"dt jj nn",
-  "dt jj nns", 
-  //"dt nn", 
-  "jj nns", 
-  "jj vbg nn", 
-  "jj vbg nns", 
-  "jj vbg", 
-  //"vbg nn", 
-  "vbg nns",
+  //"dt nn",  
+  //"vbg nn",
+};
+String[] entitiesToUse = {
+  //"Country", 
+  //"Facility", 
+  "FieldTerminology", 
+  "GeographicFeature", 
+  "Person",
 };
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
@@ -142,6 +151,7 @@ HashMap<String, Term> usedTerms = new HashMap<String, Term>(); // the ones that 
 HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); 
 
 
+
 // visual controls
 boolean facetsOn = false;
 boolean splinesOn = true;
@@ -158,7 +168,17 @@ public void setup() {
   background(255);
   randomSeed(1667);
 
+  println(PFont.list());
+
   font = createFont("Helvetica", defaultFontSize);
+  // font = createFont("DagnyTf", defaultFontSize);
+  // font = createFont("Gotham-Book", defaultFontSize);
+  // font = createFont("Gotham-Medium", defaultFontSize);
+  // font = createFont("Interstate", defaultFontSize);
+  // font = createFont("Knockout-31JuniorMiddlewt", defaultFontSize);
+  // font = createFont("UniversLTStd-Cn", defaultFontSize);
+  // font = createFont("UniversLTStd", defaultFontSize);
+  // font = createFont("WhitneyHTF-Medium", defaultFontSize);
 
   setConstrainRange();
 
@@ -178,9 +198,8 @@ public void setup() {
   splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
   assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
-  // do the great divide
-  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
-
+    // do the great divide
+  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance, g);
 } // end setup
 
 //
@@ -191,9 +210,8 @@ public void draw() {
     println("starting export to PDF");
   }
 
-  // background(255);
-  // background(0);
-  background(0xff0F1B30);
+  background(255);
+  background(0);
 
   for (SpLabel sp : splabels) {
     fill(sp.c);
@@ -268,12 +286,9 @@ public void keyReleased() {
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
   if (key == 't') doPopulate(350); 
+  if (key == 'q') doPopulate(3);
 
-  if (key == 'n') {
-    exportNow = true;
-  }
-
-
+  if (key == 'n') exportNow = true;
 
   if (key == 'f') facetsOn = !facetsOn;
   if (key == 's') splinesOn = !splinesOn;
@@ -311,6 +326,7 @@ public void keyReleased() {
   if (key == SHIFT) {
     shiftIsDown = false;
   }
+
   loop();
 } // end keyReleased
 
@@ -355,7 +371,6 @@ public void doPopulate(int toMake) {
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
-      //for (int i = 0; i < 2; i++) {
       Bucket b = bucketsAL.get(i);
       //Bucket b = bucketsAL.get(0);
       status = tryToPopulateBucketWithNextTerm(b, g);
@@ -386,6 +401,10 @@ class Bucket {
   String name = "";
   HashMap<String, Pos> posesHM = new HashMap<String, Pos>();
   ArrayList<Pos> posesAL = new ArrayList<Pos>();
+  
+  // entities will be treated like a separate pos series \u2013\u2013 because their ranking system is different
+  HashMap<String, Pos> entitiesHM = new HashMap<String, Pos>();
+  ArrayList<Pos> entitiesAL = new ArrayList<Pos>();
 
   float highCount = 0f;
   float totalSeriesSum = 0; // total from all of the terms within all of the poses
@@ -662,17 +681,33 @@ public void setupHexColors() {
   hexColors.put("debug", 0xffffffff);
   // hexColors.put("administrative", #66ffff);
   // hexColors.put("astronaut", #ff331f);
-  hexColors.put("mars", 0xffE15D6D);
-  hexColors.put("moon", 0xffE76B36);
-  // hexColors.put("people", #f5a3cf);
-  // hexColors.put("research_and_development", #aaaa00);
-  // hexColors.put("rockets", #ffffff);
-  hexColors.put("russia", 0xffE0AE7A);
-  // hexColors.put("satellites", #2266aa);
-  hexColors.put("space_shuttle", 0xffE0D9C4);
+  // hexColors.put("mars", #cc1166);
+  hexColors.put("moon", 0xffFCCB11);
+  // hexColors.put("people", #F77116);
+  hexColors.put("research_and_development", 0xff89D2E4);
+  hexColors.put("rockets", 0xffF77116);
+  hexColors.put("russia", 0xffE4280C);
+  hexColors.put("satellites", 0xff89D2E4);
+  hexColors.put("space_shuttle", 0xff89D2E4);
   // hexColors.put("spacecraft", #333333);
-  hexColors.put("us", 0xff5EA2B0);
+  // hexColors.put("us", #89D2E4);
 } // end setupHexColors
+
+
+// red E4280C
+
+
+
+  // "moon", 
+  // "people", 
+  // //"politics", 
+  // "research_and_development", 
+  // //"rockets", 
+  // "russia", 
+  // //"satellites", 
+  // //"space_shuttle", 
+  // //"spacecraft", 
+  // "us",
 
 
 //
@@ -683,6 +718,8 @@ public void readInBucketData() {
 
   for (String directory : directories) {
     String newBucketName = split(directory, "/")[split(directory, "/").length - 1];
+
+
 
     // check that this is a valid bucket
     boolean isValid = false;
@@ -700,21 +737,45 @@ public void readInBucketData() {
     for (String thisFile : files) {
       String newPosName = split(thisFile, "/")[split(thisFile, "/").length - 1];
 
-      isValid = false;
-      for (String s : posesToUse) if (newPosName.contains(s)) isValid = true;
-      if (!isValid) continue;
+      boolean isPos = false;
+      boolean isEntity = false;
+      for (String s : posesToUse) if (newPosName.contains(s)) isPos = true;
+      for (String s : entitiesToUse) if (newPosName.contains(s)) isEntity = true;
+      if (!isPos && !isEntity) continue;
 
       Pos newPos = new Pos(newPosName);
 
       String[] allLines = loadStrings(thisFile);
       for (int i = 0; i < allLines.length; i++) {
+
         String[] broken = split(allLines[i], ",");
         String term = "";
         int termCount = 0;
         float[] breakdown = new float[0];
-        for (int j = 0; j < broken.length; j++) {
-          if (j == 0) term = broken[j].replace("\"", "").trim(); // take out ""
-          else if (j == 1) termCount = Integer.parseInt(broken[j]);
+
+        // some of the names have commas in them
+        int nameIndices = 0;
+
+        int manualBreak = 0;
+        while (true) {
+          try {
+            int test = Integer.parseInt(broken[nameIndices + 1]);
+            break;
+          }
+          catch (Exception e) {
+            nameIndices++;
+          }
+        }
+
+
+        for (int j = 0; j < broken.length; j++) {          
+          if (j <= nameIndices) {
+            if (j > 0) term += " ";
+            term += broken[j].replace("\"", "").trim(); // take out ""
+          }
+          else if (j == nameIndices + 1) {
+            termCount = Integer.parseInt(broken[j]);
+          }
           else {
             breakdown = (float[])append(breakdown, Float.parseFloat(broken[j]));
           }
@@ -1108,7 +1169,7 @@ class SpLabel {
   float minimumVariation = .01f; // will not go within this % of the edge
   float variationNumber = .02f; // control the noise variation.. arbitrary, needs testing
   float randomNumber = random(100); // used as a sort of seed
-  
+
   // deal with a middle split
   boolean isMiddleSpLabel = false;
   Spline middleAdjustSpline = null; // if this is the middle spline, then this will be used to calculate the height instead of the top neighbor for the middle spline
@@ -1116,7 +1177,7 @@ class SpLabel {
 
   // skipZone and
   HashMap<Integer, Float> skipZones = new HashMap<Integer, Float>(); // ok because the years serve as the mapped x marker.  round to integer
- 
+
 
 
   float[] data = new float[0];
@@ -1178,7 +1239,7 @@ class SpLabel {
       // for now make it the middle
       float countPercent = .5f;
 
-        PVector newPointA = pointA.get();
+      PVector newPointA = pointA.get();
       newPointA.mult(1 - countPercent);
       PVector newPointB = pointB.get();
       newPointB.mult(countPercent);
@@ -1203,6 +1264,13 @@ class SpLabel {
 
   //
   private Label makeLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+    // if it is the middle line and skipMiddleLine is on, then return null
+    if (isMiddleSpLabel && skipMiddleLine && middleSplines.size() > 0) {
+      if (s == middleSplines.get(floor((float)middleSplines.size() / 2))) {
+        return null;
+      }
+    }
+
     Label newLabel = new Label(label, textAlign);
 
     // first determine which splines are above and below the given one
@@ -1228,12 +1296,20 @@ class SpLabel {
           }
           else if (i == middleSplines.size() - 1) {
             buddySplineBottom = bottomSpline;
-            if (i > 0) buddySplineTop = middleSplines.get(i - 1);
+            if (i > 0) {
+              buddySplineTop = middleSplines.get(i - 1);
+            }
             else buddySplineTop = topSpline;
           }
           else {
-            buddySplineTop = middleSplines.get(i - 1);
-            buddySplineBottom = middleSplines.get(i + 1);
+            // check for a dividing middle spline
+            if (isMiddleSpLabel && middleAdjustSpline != null && i == (floor((float)middleSplines.size() / 2))) {
+              buddySplineTop = middleAdjustSpline;
+            }
+            else {
+              buddySplineTop = middleSplines.get(i - 1);
+              buddySplineBottom = middleSplines.get(i + 1);
+            }
           }
           break;
         }
@@ -1252,6 +1328,7 @@ class SpLabel {
     }
 
     //if (validLabel) labels.add(newLabel);
+
     if (validLabel) return newLabel;
     else return null;
   } // end makeLabel
@@ -1292,7 +1369,7 @@ class SpLabel {
     }
   } // end markSkipZone
 
-    //
+  //
   public boolean shouldSkip(float x, float textWidth) {
     int skipX = (int)x;
     if (skipZones.containsKey(skipX)) {
@@ -2586,11 +2663,14 @@ public boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String tex
     float distanceToUse = percentPoint * splineToUse.totalDistance;
 
     Label centerLabel = splabel.makeCharLabel(text, LABEL_ALIGN_CENTER, distanceToUse, wiggleRoom, splineToUse);
-    float centerLabelHeight = centerLabel.getApproxLetterHeightAtPoint(intersectionPoint);
+    float centerLabelHeight = 0f;
+    if (centerLabel != null) centerLabelHeight = centerLabel.getApproxLetterHeightAtPoint(intersectionPoint);
 
     // keep track of the center spacing to use for the wiggle room when finding valid left and right side Labels
-    float centerEndDistance = centerLabel.endDistance + spacing;
-    float centerStartDistance = centerLabel.startDistance - spacing;
+    float centerEndDistance = 0f;
+    if (centerLabel != null) centerEndDistance = centerLabel.endDistance + spacing;
+    float centerStartDistance = 0f;
+    if (centerLabel != null) centerStartDistance = centerLabel.startDistance - spacing;
 
     // verify that center will fit
     boolean centerWillFit = splabel.spacingIsOpen(splineToUse, centerStartDistance, centerEndDistance);
@@ -2605,8 +2685,8 @@ public boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String tex
       // check that the rightDistanceToUse is within the wiggle room
       if (rightDistanceToUse < centerEndDistance + wiggleRoom) {
         rightSideLabel = splabel.makeCharLabel(text, LABEL_ALIGN_RIGHT, rightDistanceToUse, wiggleRoom, splineToUse);
-        rightSideWillFit = splabel.spacingIsOpen(splineToUse, rightSideLabel.startDistance - spacing, rightSideLabel.endDistance);
-        rightLabelHeight = rightSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
+        if (rightSideLabel != null) rightSideWillFit = splabel.spacingIsOpen(splineToUse, rightSideLabel.startDistance - spacing, rightSideLabel.endDistance);
+        if (rightSideLabel != null) rightLabelHeight = rightSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
       }
     }
 
@@ -2620,15 +2700,15 @@ public boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String tex
       // check that the rightDistanceToUse is within the wiggle room
       if (lefttDistanceToUse > centerStartDistance - wiggleRoom) {
         leftSideLabel = splabel.makeCharLabel(text, LABEL_ALIGN_LEFT, lefttDistanceToUse, wiggleRoom, splineToUse);
-        leftSideWillFit = splabel.spacingIsOpen(splineToUse, leftSideLabel.startDistance, leftSideLabel.endDistance + spacing);
-        leftLabelHeight = leftSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
+        if (leftSideLabel != null) leftSideWillFit = splabel.spacingIsOpen(splineToUse, leftSideLabel.startDistance, leftSideLabel.endDistance + spacing);
+        if (leftSideLabel != null) leftLabelHeight = leftSideLabel.getApproxLetterHeightAtPoint(intersectionPoint);
       }
     }
 
     // SCORING
     //if (centerWillFit) splabel.addLabel(centerLabel); // debug
     // center
-    if (centerWillFit && centerLabelHeight > minLabelHeightThreshold) {
+    if (centerLabel != null && centerWillFit && centerLabelHeight > minLabelHeightThreshold) {
       options = (Label[])append(options, centerLabel);
       float centerToRightDistance = blankSideMaxValue;
       float centerToLeftDistance = blankSideMaxValue;
@@ -2677,7 +2757,7 @@ public boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String tex
 
 
   for (int k = 0; k < optionScores.length; k++) {
-    // println(" k: " + k + " -- score: " + optionScores[k]);
+    //println(" k: " + k + " -- score: " + optionScores[k]);
   }
   // lastly take the one with the lowest score
   if (optionScores.length <= 0) return false;
@@ -3203,7 +3283,7 @@ public void assignSpLabelNeighbors() {
 } // end assignSpLabelNeighbors
 
 //
-public void splitMiddleSpLabel(float divideAmount) {
+public void splitMiddleSpLabel(float divideAmount, PGraphics pg) {
   PVector shiftVector = new PVector(0, -divideAmount);
 
   // define the middle splabel
@@ -3218,13 +3298,14 @@ public void splitMiddleSpLabel(float divideAmount) {
     }
   }
 
+  // skip out if the middle label is null
+  if (middleSpLabel == null) return;
+
   // grab the top splabels
   ArrayList<SpLabel> topLabels = new ArrayList<SpLabel>();
-  if (middleSpLabel != null) {
-    for (SpLabel sp : splabels) { 
-      if (sp != middleSpLabel && sp.isOnTop) {
-        topLabels.add(sp);
-      }
+  for (SpLabel sp : splabels) { 
+    if (sp != middleSpLabel && sp.isOnTop) {
+      topLabels.add(sp);
     }
   }
   // shift top spLabels by amt
@@ -3234,6 +3315,20 @@ public void splitMiddleSpLabel(float divideAmount) {
       spline.shift(shiftVector);
     }
     if (sp.variationSpline != null) sp.variationSpline.shift(shiftVector);
+  }
+  
+  // shift the middle splabel splines
+  middleSpLabel.topSpline.shift(shiftVector);
+  for (int i = 0; i < floor((float)middleSpLabel.middleSplines.size() / 2); i++) {
+    middleSpLabel.middleSplines.get(i).shift(shiftVector);
+  }
+  // make the new middle spline for the middleSpLabel
+  if (middleSpLabel.variationSpline != null) middleSpLabel.middleAdjustSpline = middleSpLabel.variationSpline;
+  else {
+    middleSpLabel.middleAdjustSpline = new Spline();
+    middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(0, pg.height / 2));
+    middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(pg.width, pg.height / 2));
+    middleSpLabel.middleAdjustSpline.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
   }
 } // end splitMiddleSpLabel
 

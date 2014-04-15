@@ -61,7 +61,7 @@ void assignSpLabelNeighbors() {
 } // end assignSpLabelNeighbors
 
 //
-void splitMiddleSpLabel(float divideAmount) {
+void splitMiddleSpLabel(float divideAmount, PGraphics pg) {
   PVector shiftVector = new PVector(0, -divideAmount);
 
   // define the middle splabel
@@ -76,13 +76,14 @@ void splitMiddleSpLabel(float divideAmount) {
     }
   }
 
+  // skip out if the middle label is null
+  if (middleSpLabel == null) return;
+
   // grab the top splabels
   ArrayList<SpLabel> topLabels = new ArrayList<SpLabel>();
-  if (middleSpLabel != null) {
-    for (SpLabel sp : splabels) { 
-      if (sp != middleSpLabel && sp.isOnTop) {
-        topLabels.add(sp);
-      }
+  for (SpLabel sp : splabels) { 
+    if (sp != middleSpLabel && sp.isOnTop) {
+      topLabels.add(sp);
     }
   }
   // shift top spLabels by amt
@@ -92,6 +93,20 @@ void splitMiddleSpLabel(float divideAmount) {
       spline.shift(shiftVector);
     }
     if (sp.variationSpline != null) sp.variationSpline.shift(shiftVector);
+  }
+  
+  // shift the middle splabel splines
+  middleSpLabel.topSpline.shift(shiftVector);
+  for (int i = 0; i < floor((float)middleSpLabel.middleSplines.size() / 2); i++) {
+    middleSpLabel.middleSplines.get(i).shift(shiftVector);
+  }
+  // make the new middle spline for the middleSpLabel
+  if (middleSpLabel.variationSpline != null) middleSpLabel.middleAdjustSpline = middleSpLabel.variationSpline;
+  else {
+    middleSpLabel.middleAdjustSpline = new Spline();
+    middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(0, pg.height / 2));
+    middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(pg.width, pg.height / 2));
+    middleSpLabel.middleAdjustSpline.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
   }
 } // end splitMiddleSpLabel
 
