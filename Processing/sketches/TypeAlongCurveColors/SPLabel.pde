@@ -12,7 +12,7 @@ class SpLabel {
   float minimumVariation = .01; // will not go within this % of the edge
   float variationNumber = .02; // control the noise variation.. arbitrary, needs testing
   float randomNumber = random(100); // used as a sort of seed
-  
+
   // deal with a middle split
   boolean isMiddleSpLabel = false;
   Spline middleAdjustSpline = null; // if this is the middle spline, then this will be used to calculate the height instead of the top neighbor for the middle spline
@@ -20,7 +20,7 @@ class SpLabel {
 
   // skipZone and
   HashMap<Integer, Float> skipZones = new HashMap<Integer, Float>(); // ok because the years serve as the mapped x marker.  round to integer
- 
+
 
 
   float[] data = new float[0];
@@ -82,7 +82,7 @@ class SpLabel {
       // for now make it the middle
       float countPercent = .5;
 
-        PVector newPointA = pointA.get();
+      PVector newPointA = pointA.get();
       newPointA.mult(1 - countPercent);
       PVector newPointB = pointB.get();
       newPointB.mult(countPercent);
@@ -107,6 +107,13 @@ class SpLabel {
 
   //
   private Label makeLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+    // if it is the middle line and skipMiddleLine is on, then return null
+    if (isMiddleSpLabel && skipMiddleLine && middleSplines.size() > 0) {
+      if (s == middleSplines.get(floor((float)middleSplines.size() / 2))) {
+        return null;
+      }
+    }
+
     Label newLabel = new Label(label, textAlign);
 
     // first determine which splines are above and below the given one
@@ -132,12 +139,20 @@ class SpLabel {
           }
           else if (i == middleSplines.size() - 1) {
             buddySplineBottom = bottomSpline;
-            if (i > 0) buddySplineTop = middleSplines.get(i - 1);
+            if (i > 0) {
+              buddySplineTop = middleSplines.get(i - 1);
+            }
             else buddySplineTop = topSpline;
           }
           else {
-            buddySplineTop = middleSplines.get(i - 1);
-            buddySplineBottom = middleSplines.get(i + 1);
+            // check for a dividing middle spline
+            if (isMiddleSpLabel && middleAdjustSpline != null && i == (floor((float)middleSplines.size() / 2))) {
+              buddySplineTop = middleAdjustSpline;
+            }
+            else {
+              buddySplineTop = middleSplines.get(i - 1);
+              buddySplineBottom = middleSplines.get(i + 1);
+            }
           }
           break;
         }
@@ -156,6 +171,7 @@ class SpLabel {
     }
 
     //if (validLabel) labels.add(newLabel);
+
     if (validLabel) return newLabel;
     else return null;
   } // end makeLabel
@@ -196,7 +212,7 @@ class SpLabel {
     }
   } // end markSkipZone
 
-    //
+  //
   boolean shouldSkip(float x, float textWidth) {
     int skipX = (int)x;
     if (skipZones.containsKey(skipX)) {

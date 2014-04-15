@@ -2,6 +2,10 @@ class Bucket {
   String name = "";
   HashMap<String, Pos> posesHM = new HashMap<String, Pos>();
   ArrayList<Pos> posesAL = new ArrayList<Pos>();
+  
+  // entities will be treated like a separate pos series –– because their ranking system is different
+  HashMap<String, Pos> entitiesHM = new HashMap<String, Pos>();
+  ArrayList<Pos> entitiesAL = new ArrayList<Pos>();
 
   float highCount = 0f;
   float totalSeriesSum = 0; // total from all of the terms within all of the poses
