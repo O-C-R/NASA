@@ -94,7 +94,7 @@ void splitMiddleSpLabel(float divideAmount, PGraphics pg) {
     }
     if (sp.variationSpline != null) sp.variationSpline.shift(shiftVector);
   }
-  
+
   // shift the middle splabel splines
   middleSpLabel.topSpline.shift(shiftVector);
   for (int i = 0; i < floor((float)middleSpLabel.middleSplines.size() / 2); i++) {
@@ -135,6 +135,27 @@ void markTermAtX(int x, Term t) {
   oldHM.put(t.term, 0);
   usedTermsAtX.put(x, oldHM);
 } // end markTermAtX
+
+//
+void drawDates(PGraphics pg) {
+  float yMidrange = 10f;
+  float linePadding = 30f;
+  float centerY = pg.height / 2 - (addMiddleDivide ? middleDivideDistance / 2f : 0f);
+  pg.stroke(dateColor, 100);
+  pg.fill(dateColor);
+  pg.textFont(font);
+  pg.textSize(18);
+  pg.textAlign(CENTER, CENTER);
+  for (int i = yearRange[0]; i <= yearRange[1]; i++) {
+    if (i == yearRange[0] || i == yearRange[1] || i % 5 == 0) {
+      float x = getXFromYear(i, blankTerm, pg);
+      //pg.line(x, linePadding, x, centerY - yMidrange);
+      //pg.line(x, pg.height - linePadding, x, centerY + yMidrange);
+      //pg.text(i, x, centerY);
+      pg.text(i, x, 30);
+    }
+  }
+} // end drawDates
 
 //
 //

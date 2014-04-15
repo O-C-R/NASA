@@ -221,6 +221,19 @@ class Label {
   } // getApproxLetterHeightAtPoint
 
     //
+  float getMinimumLetterHeight() {
+    float minHt = 0f;
+    for (int i = 0; i < letters.size(); i++) {
+      if (letters.get(i) == null) continue;
+      if (i == 0) minHt = letters.get(i).size;
+      else {
+        minHt = (letters.get(i).size < minHt ? letters.get(i).size : minHt);
+      }
+    }
+    return minHt;
+  } // end getMinimumLetterHeight
+
+    //
   void display(PGraphics pg) {
     for (Letter l : letters) l.display(pg);
 
@@ -292,8 +305,8 @@ class Letter {
     // this should make it so that the rotation is smoothed out a bit
     if (angleSmoothingOn) {
       PVector newRotation = rotation.get();
-      float thisRotationPercent = .9;
-      float otherRotationPercent = .1;
+      float thisRotationPercent = .95;
+      float otherRotationPercent = .05;
       if (previousLetter != null && nextLetter == null) {
         newRotation.mult(thisRotationPercent);
         PVector otherRotation = previousLetter.rotation.get();

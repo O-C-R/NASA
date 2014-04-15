@@ -4,13 +4,13 @@ void setupHexColors() {
   hexColors.put("administrative", #66ffff);
   hexColors.put("astronaut", #ff331f);
   hexColors.put("mars", #cc1166);
-  hexColors.put("moon", #aaaaaa);
+  hexColors.put("moon", #FF450D);
   hexColors.put("people", #f5a3cf);
-  hexColors.put("research_and_development", #aaaa00);
-  hexColors.put("rockets", #ffffff);
-  hexColors.put("russia", #ff1133);
-  hexColors.put("satellites", #2266aa);
-  hexColors.put("space_shuttle", #aaf045);
+  hexColors.put("research_and_development", #FFB914);
+  hexColors.put("rockets", #FFDFA8);
+  hexColors.put("russia", #E50C30);
+  hexColors.put("satellites", #BDEEFF);
+  hexColors.put("space_shuttle", #FF7E0D);
   hexColors.put("spacecraft", #333333);
   hexColors.put("us", #0022ff);
 } // end setupHexColors
@@ -98,7 +98,8 @@ void readInBucketData() {
         if (blankTerm.series == null) blankTerm.series = new float[0];
         if (breakdown.length > blankTerm.series.length) blankTerm.series = breakdown;
       }
-      newBucket.addPos(newPos);
+      if (isPos) newBucket.addPos(newPos);
+      else if (isEntity) newBucket.addEntity(newPos);
     }
     newBucket.tallyThings();
     bucketsAL.add(newBucket);

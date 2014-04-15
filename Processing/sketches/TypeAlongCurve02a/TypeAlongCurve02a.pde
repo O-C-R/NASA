@@ -26,12 +26,12 @@ float minLabelSpacing = 10f; // the minimum spacing between labels along a splin
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 
 // when divding up the splabels into the middlesplines
-float maxSplineHeight = 25f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+float maxSplineHeight = 20f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
 float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 int[] yearRange = {
   1961, 
-  2009
+  2008 // fix this later
 };
 int[] constrainRange = {
   yearRange[0], 
@@ -54,16 +54,16 @@ String[] bucketsToUse = {
   //"administrative", 
   //"astronaut", 
   //"mars", 
-  "moon", 
-  "people", 
+  "moon", // *
+  //"people", 
   //"politics", 
-  "research_and_development", 
-  //"rockets", 
+  "research_and_development", // * 
+  "rockets", // * 
   "russia", 
-  //"satellites", 
-  //"space_shuttle", 
+  "satellites", 
+  "space_shuttle", 
   //"spacecraft", 
-  "us",
+  //"us",
 };
 HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called from setup(), done in AbucketReader
 
@@ -71,16 +71,18 @@ HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called f
 // only these Pos files will be used, others will be skipped
 String[] posesToUse = {
 
+
+
   "cd nns", 
-  "dt jj nns", 
-  /*
-   "jj nns", 
-   "jj vbg nn", 
-   "jj vbg nns", 
-   "jj vbg", 
-   "vbg nns",
-   */
+  "jj nns", 
+  "jj vbg nn", 
+  "jj vbg nns", 
+  "jj vbg", 
+  "vbg nns", 
+
   // skip these:
+  //"dt jj nns", 
+
   //"cd jj nns", 
   //"dt jj nn",
   //"dt nn",  
@@ -93,6 +95,11 @@ String[] entitiesToUse = {
   "GeographicFeature", 
   "Person",
 };
+
+// ******ENTITY MULTIPLIER****** //
+float entityMultiplier = .0001; // .0001 seems pretty even.  this multiplier brings down the entity totals so that they can be factored into the spline defining equatio
+float entityToNormalRatio = .75; // this determines roughly how many entity terms to put in compared to the other pos entries.  this : 1
+
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
 boolean reorderBucketsByMaxHeight = true;
@@ -109,7 +116,7 @@ ArrayList<SpLabel> splabels = new ArrayList<SpLabel>(); // the spline/label obje
 float defaultFontSize = 6f; // when it cannot find how big to make a letter.. because the top isnt there, then this is the default
 PFont font; // the font that is used
 
-float minLabelHeightThreshold = 4; // minimum height for the middle of the label.  anything less than this will be discounted
+float minCharHeight = 2; // minimum height for the middle of the label.  anything less than this will be discounted
 
 
 // keep track of the used terms so that they only appear once throughout the entire diagram
@@ -122,20 +129,26 @@ HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, H
 // visual controls
 boolean facetsOn = false;
 boolean splinesOn = true;
-boolean variationOn = true;
+boolean variationOn = false;
 boolean shiftIsDown = false;
+boolean debugOn = false;
 
 //
 void setup() {
-  //size(7300, 1200);
-  size(2600, 800);
+  size(5300, 1200);
+  //size(2600, 800);
   OCRUtils.begin(this);
-  background(255);
+  background(bgColor);
   randomSeed(1667);
 
-  font = createFont("Helvetica", defaultFontSize);
+  //font = createFont("Helvetica", defaultFontSize);
+  font = createFont("Knockout-HTF31-JuniorMiddlewt", defaultFontSize);
+  //font = createFont("UniversLTStd", defaultFontSize);
+  //font = createFont("Gotham-Medium", defaultFontSize);
+  //font = createFont("Gotham-Book", defaultFontSize);
+  //font = createFont("TheOnlyException", defaultFontSize); // awesome
 
-  setConstrainRange();
+  setConstrainRange(); // for setting the boundaries of the the year stuff so you don't manually move it too far
 
   // setup the colors
   setupHexColors();
@@ -159,9 +172,10 @@ void setup() {
 
 //
 void draw() {
+  background(bgColor);
 
-  background(255);
-  background(0);
+  // draw dates
+  drawDates(g);
 
   for (SpLabel sp : splabels) {
     fill(sp.c);
@@ -174,22 +188,25 @@ void draw() {
   }
 
 
-  fill(255);
-  textAlign(LEFT, TOP);
-  textSize(20);
-  // do constrain stuff
-  float x1 = getXFromYear(constrainRange[0], blankTerm, g);
-  float x2 = getXFromYear(constrainRange[1], blankTerm, g);
-  text("from: " + constrainRange[0] + " :: " + x1, 20, 40);
-  text("from: " + constrainRange[1] + " :: " + x2, 20, 60);
-  line(x1, 0, x1, 50);
-  text(constrainRange[0], x1, 55);
-  line(x2, 0, x2, 50);
-  text(constrainRange[1], x2, 55);
+
+  if (debugOn) {
+    fill(255);
+    textAlign(LEFT, TOP);
+    textSize(20);
+    // do constrain stuff
+    float x1 = getXFromYear(constrainRange[0], blankTerm, g);
+    float x2 = getXFromYear(constrainRange[1], blankTerm, g);
+    text("from: " + constrainRange[0] + " :: " + x1, 20, 40);
+    text("from: " + constrainRange[1] + " :: " + x2, 20, 60);
+    line(x1, 0, x1, 50);
+    text(constrainRange[0], x1, 55);
+    line(x2, 0, x2, 50);
+    text(constrainRange[1], x2, 55);
 
 
-  // print the frame
-  text("frame: " + frameCount, 20, 20);
+    // print the frame
+    text("frame: " + frameCount, 20, 20);
+  }
   noLoop();
 } // end draw
 
@@ -237,6 +254,7 @@ void keyReleased() {
   if (key == 'f') facetsOn = !facetsOn;
   if (key == 's') splinesOn = !splinesOn;
   if (key == 'v') variationOn = !variationOn;
+  if (key == 'd') debugOn = !debugOn;
 
   if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
     if (keyCode == RIGHT) {
@@ -264,7 +282,7 @@ void keyReleased() {
 
     println("changed year range to: " + constrainRange[0] + " to " + constrainRange[1]);
     setConstrainRange();
-    repopulateFromFailedHM();
+    //repopulateFromFailedHM();
   }
 
   if (key == SHIFT) {
@@ -316,7 +334,7 @@ void doPopulate(int toMake) {
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
       Bucket b = bucketsAL.get(i);
-      //Bucket b = bucketsAL.get(0);
+      //Bucket b = bucketsAL.get(2);
       status = tryToPopulateBucketWithNextTerm(b, g);
 
       if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;

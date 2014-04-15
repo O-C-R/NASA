@@ -23,6 +23,11 @@ final int LABEL_ALIGN_LEFT = 0;
 final int LABEL_ALIGN_CENTER = 1;
 final int LABEL_ALIGN_RIGHT = 2;
 
+// color stuff
+final int dateColor = #4D489F;
+final int bgColor = #0B0A19;
+
+
 //
 //
 //

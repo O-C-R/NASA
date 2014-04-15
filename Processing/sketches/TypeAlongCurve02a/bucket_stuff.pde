@@ -11,42 +11,56 @@ void makeBucketDataPoints(int pointsToMake, int inputType) {
      bucketDataPoints[i][j] = (100 * noise(j * .1 + seed));
      }
      */
+
+    
+
     Bucket targetBucket = bucketsAL.get(i);
     for (int j = 0; j < pointsToMake; j++) {
       if (j < targetBucket.seriesSum.length) {
         switch (inputType) {
         case INPUT_DATA_LINEAR:
           bucketDataPoints[i][j] = targetBucket.seriesSum[j];
+          bucketDataPoints[i][j] += (entityMultiplier * targetBucket.seriesSumEntity[j]);
           break;
         case INPUT_DATA_HALF:
           bucketDataPoints[i][j] = .5 * (targetBucket.seriesSum[j]);
+          bucketDataPoints[i][j] += .5 * (entityMultiplier * targetBucket.seriesSumEntity[j]);
           break;
         case INPUT_DATA_LOG:
           bucketDataPoints[i][j] = log(targetBucket.seriesSum[j]);
+          bucketDataPoints[i][j] += log(entityMultiplier * targetBucket.seriesSumEntity[j]);
           break;
         case INPUT_DATA_SQUARE:
           bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 2f);
+          bucketDataPoints[i][j] += (float)Math.pow((entityMultiplier * targetBucket.seriesSumEntity[j]), 2f);
           break;
         case INPUT_DATA_CUBE:
           bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 3f);
+          bucketDataPoints[i][j] += (float)Math.pow((entityMultiplier * targetBucket.seriesSumEntity[j]), 3f);
           break;
         case INPUT_DATA_SQUARE_ROOT:
           bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 1f/2);
+          bucketDataPoints[i][j] += (float)Math.pow((entityMultiplier * targetBucket.seriesSumEntity[j]), 1f/2);
           break;
         case INPUT_DATA_MULTIPLIED_THEN_SQUARE_ROOT:
           bucketDataPoints[i][j] = (float)Math.pow(10000 * targetBucket.seriesSum[j], 1f/2);
+          bucketDataPoints[i][j] += (float)Math.pow(10000 * (entityMultiplier * targetBucket.seriesSumEntity[j]), 1f/2);
           break;
         case INPUT_DATA_CUBE_ROOT:
           bucketDataPoints[i][j] = (float)Math.pow(targetBucket.seriesSum[j], 1f/3);
+          bucketDataPoints[i][j] += (float)Math.pow((entityMultiplier * targetBucket.seriesSumEntity[j]), 1f/3);
           break;
         case INPUT_DATA_MULTIPLIED_THEN_CUBE_ROOT:
           bucketDataPoints[i][j] = (float)Math.pow(10000 * targetBucket.seriesSum[j], 1f/3);
+          bucketDataPoints[i][j] += (float)Math.pow(10000 * (entityMultiplier * targetBucket.seriesSumEntity[j]), 1f/3);
           break;
         case INPUT_DATA_DOUBLE:
           bucketDataPoints[i][j] = 2 * (targetBucket.seriesSum[j]);
+          bucketDataPoints[i][j] += 2 * (entityMultiplier * targetBucket.seriesSumEntity[j]);
           break;
         case INPUT_DATA_TRIPLE:
           bucketDataPoints[i][j] = 3 * (targetBucket.seriesSum[j]);
+          bucketDataPoints[i][j] += 3 * (entityMultiplier * targetBucket.seriesSumEntity[j]);
           break;
         case INPUT_DATA_DEBUG:
           bucketDataPoints[i][j] = 13;
@@ -61,7 +75,7 @@ void makeBucketDataPoints(int pointsToMake, int inputType) {
       }
     }
   }
-  println("generated " + bucketDataPoints.length + " new fake buckets of data");
+  println("generated " + bucketDataPoints.length + " new buckets of data");
   for (int i = 0; i < bucketDataPoints.length; i++) {
     for (int j = 0; j < bucketDataPoints[i].length; j++) {
       print(nf(bucketDataPoints[i][j], 0, 3) + " ");
