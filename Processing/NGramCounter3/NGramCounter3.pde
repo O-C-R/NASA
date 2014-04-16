@@ -47,31 +47,32 @@ void setup() {
   for (String s:bucketList) {
     currentBucket = s;
     
-     countSavePosYears("landing", "_series.txt");
-     countSavePosYears("moon", "_series.txt");
-     countSavePosYears("the moon", "_series.txt");
-     countSavePosYears("the lunar landings", "_series.txt");
-     countSavePosYears("lunar landing", "_series.txt");
-     countSavePosYears("the lunar landing", "_series.txt");
-     countSavePosYears("lunar landing gear", "_series.txt");
-     countSavePosYears("main sounding systems", "_series.txt");
-     countSavePosYears("positioning systems", "_series.txt");
-     countSavePosYears("positioning system", "_series.txt");
-     countSavePosYears("two years", "_series.txt");
-     countSavePosYears("two crazy years", "_series.txt");
-     countSavePosYears("an amazing thing", "_series.txt");
-     countSavePosYears("sophisticated instruments", "_series.txt");
-     //*/
-     
-     
-     
-     /*
-    countSaveEntities("Person");
-    countSaveEntities("Country");
-    countSaveEntities("Facility");
-    countSaveEntities("FieldTerminology");
-    countSaveEntities("GeographicFeature");
+    /*
+    countSavePosYears("landing", "_series.txt");
+    countSavePosYears("moon", "_series.txt");
+    countSavePosYears("the moon", "_series.txt");
+    countSavePosYears("the lunar landings", "_series.txt");
+    countSavePosYears("lunar landing", "_series.txt");
+    countSavePosYears("the lunar landing", "_series.txt");
+    countSavePosYears("lunar landing gear", "_series.txt");
+    countSavePosYears("main sounding systems", "_series.txt");
+    countSavePosYears("positioning systems", "_series.txt");
+    countSavePosYears("positioning system", "_series.txt");
+    countSavePosYears("two years", "_series.txt");
+    countSavePosYears("two crazy years", "_series.txt");
+    countSavePosYears("an amazing thing", "_series.txt");
+    countSavePosYears("sophisticated instruments", "_series.txt");
     //*/
+
+
+
+    //*
+    countSaveEntities("Person");
+     countSaveEntities("Country");
+     countSaveEntities("Facility");
+     countSaveEntities("FieldTerminology");
+     countSaveEntities("GeographicFeature");
+     //*/
   }
   //*/
 }
@@ -149,37 +150,36 @@ void countSaveEntities(String eType) {
         String label = null;
         //Is it disambiguated?
         if (entity.getChild("disambiguated") != null) {
-          label = entity.getChild("disambiguated/name").getContent();
+          label = RiTa.stripPunctuation(entity.getChild("disambiguated/name").getContent());
         } 
         else {
-          label = entity.getChild("text").getContent();
+          label = RiTa.stripPunctuation(entity.getChild("text").getContent());
         };
         int count = int(entity.getChild("count").getContent());
-        
+
         if (label.split(" ").length > 1) {
-        if (!entityMap.containsKey(label)) {
-          Entity e = new Entity().init();
-          e.term = label;
-          e.counts[y - startYear] = count;
-          entityMap.put(label, e);
-          allEntities.add(e);
-          e.count+= count;
-        } 
-        else {
-          Entity e = entityMap.get(label);
-          e.counts[y - startYear] = count;
-          e.count += count;
-        }
+          if (!entityMap.containsKey(label)) {
+            Entity e = new Entity().init();
+            e.term = label;
+            e.counts[y - startYear] = count;
+            entityMap.put(label, e);
+            allEntities.add(e);
+            e.count+= count;
+          } 
+          else {
+            Entity e = entityMap.get(label);
+            e.counts[y - startYear] = count;
+            e.count += count;
+          }
         }
       }
     }
-    
   }
   java.util.Collections.sort(allEntities);
   java.util.Collections.reverse(allEntities);
-  
+
   PrintWriter writer = createWriter(outPath + "/" + currentBucket + "/" + eType + ".txt");
-  
+
   for (Entity e:allEntities) {
     int c = e.count;
     if (c > threshold) {
@@ -195,7 +195,6 @@ void countSaveEntities(String eType) {
 
   writer.flush();
   writer.close();
-  
 }
 
 void countSavePosYears(String pos, String url) {
@@ -299,9 +298,12 @@ IntDict countPos(String pos) {
         String seg = join(java.util.Arrays.copyOfRange(words, i, i + matchList.length), " ");
         try {
           seg = RiTa.stripPunctuation(seg);
-          counter.increment();
-        } catch (Exception e) {
-         println("FAILED ON:" + seg); 
+          if (seg.length() > 0) {
+            counter.increment(seg);
+          }
+        } 
+        catch (Exception e) {
+          println("FAILED ON:" + seg);
         }
       };
     }
