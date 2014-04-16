@@ -46,7 +46,7 @@ void setup() {
 
   for (String s:bucketList) {
     currentBucket = s;
-    //*
+    /*
      countSavePosYears("landing", "_series.txt");
      countSavePosYears("moon", "_series.txt");
      countSavePosYears("the moon", "_series.txt");
@@ -63,13 +63,13 @@ void setup() {
      countSavePosYears("sophisticated instruments", "_series.txt");
      //*/
      
-     /*
+     //*
     countSaveEntities("Person");
     countSaveEntities("Country");
     countSaveEntities("Facility");
     countSaveEntities("FieldTerminology");
     countSaveEntities("GeographicFeature");
-    */
+    //*/
   }
   //*/
 }
@@ -181,7 +181,7 @@ void countSaveEntities(String eType) {
   for (Entity e:allEntities) {
     int c = e.count;
     if (c > threshold) {
-      String[] outs = new String[(endYear - startYear) + 1];
+      String[] outs = new String[(endYear - startYear) + 3];
       outs[0] = e.term;
       outs[1] = str(c);
       for (int i = 2; i < outs.length; i++) {
