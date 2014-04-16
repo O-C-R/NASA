@@ -46,7 +46,7 @@ void setup() {
 
   for (String s:bucketList) {
     currentBucket = s;
-    /*
+    
      countSavePosYears("landing", "_series.txt");
      countSavePosYears("moon", "_series.txt");
      countSavePosYears("the moon", "_series.txt");
@@ -57,13 +57,13 @@ void setup() {
      countSavePosYears("main sounding systems", "_series.txt");
      countSavePosYears("positioning systems", "_series.txt");
      countSavePosYears("positioning system", "_series.txt");
-     
+     countSavePosYears("two years", "_series.txt");
+     countSavePosYears("two crazy years", "_series.txt");
      countSavePosYears("an amazing thing", "_series.txt");
      countSavePosYears("sophisticated instruments", "_series.txt");
      //*/
      
-     countSavePosYears("two years", "_series.txt");
-     countSavePosYears("two crazy years", "_series.txt");
+     
      
      /*
     countSaveEntities("Person");
@@ -232,7 +232,7 @@ void countSavePosYears(String pos, String url) {
       for (int i = 2; i < outs.length; i++) {
         outs[i] = nf((float) yearCounters[i - 2].get(k) / ((float) wc / matchList.length), 1, 6);//str(yearCounters[i - 2].get(k));
       }
-      writer.println(join(outs, ","));
+      if (k.charAt(0) != '0') writer.println(join(outs, ","));
     }
   }
 
@@ -297,7 +297,12 @@ IntDict countPos(String pos) {
       if (sss.equals(match)) {
 
         String seg = join(java.util.Arrays.copyOfRange(words, i, i + matchList.length), " ");
-        counter.increment(seg);
+        try {
+          seg = RiTa.stripPunctuation(seg);
+          counter.increment();
+        } catch (Exception e) {
+         println("FAILED ON:" + seg); 
+        }
       };
     }
   }
