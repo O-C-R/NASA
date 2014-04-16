@@ -57,13 +57,15 @@ void setup() {
      countSavePosYears("main sounding systems", "_series.txt");
      countSavePosYears("positioning systems", "_series.txt");
      countSavePosYears("positioning system", "_series.txt");
-     countSavePosYears("two years", "_series.txt");
-     countSavePosYears("two crazy years", "_series.txt");
+     
      countSavePosYears("an amazing thing", "_series.txt");
      countSavePosYears("sophisticated instruments", "_series.txt");
      //*/
      
-     //*
+     countSavePosYears("two years", "_series.txt");
+     countSavePosYears("two crazy years", "_series.txt");
+     
+     /*
     countSaveEntities("Person");
     countSaveEntities("Country");
     countSaveEntities("Facility");
@@ -184,8 +186,8 @@ void countSaveEntities(String eType) {
       String[] outs = new String[(endYear - startYear) + 3];
       outs[0] = e.term;
       outs[1] = str(c);
-      for (int i = 2; i < outs.length; i++) {
-        outs[i] = str(e.counts[i]);
+      for (int i = 0; i < e.counts.length; i++) {
+        outs[2 + i] = str(e.counts[i]);
       }
       writer.println(join(outs, ","));
     }
@@ -270,6 +272,8 @@ IntDict countPos(String pos) {
 
   for (int i = 0; i < sentences.length; i++) {
     String s = sentences[i].toLowerCase();
+    s = s.replaceAll(" 000", "000");
+    s = s.replaceAll(",000", "000");
     String p = join(RiTa.getPosTags(s), " ");
     if (p.indexOf(match) != -1) {
       String[] sa = {
