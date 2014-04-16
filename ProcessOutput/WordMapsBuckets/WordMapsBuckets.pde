@@ -21,7 +21,7 @@ String[] bucketList;
 float gap = 100;
 
 String[] posList = {
-  "FieldTerminology"
+  "GeographicFeature"
 
   /*
   "vbg", 
@@ -134,7 +134,7 @@ void loadMap(String url) {
 
 void positionWords(float ytop, float ybot, color c) {
   for (Word w:currentWords) {
-    w.wsize = map(w.count, minCount, maxCount, 12, 48); 
+    w.wsize = map(w.count, minCount, maxCount, 18, 48); 
     w.a = map(w.count, minCount, maxCount, 100, 255);
     w.col = c;
     w.pos.y = random(ytop, ybot);

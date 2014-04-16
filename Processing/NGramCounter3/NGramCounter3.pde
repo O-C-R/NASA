@@ -66,6 +66,7 @@ void setup() {
     countSaveEntities("Country");
     countSaveEntities("Facility");
     countSaveEntities("FieldTerminology");
+    countSaveEntities("GeographicFeature");
   }
   //*/
 }
