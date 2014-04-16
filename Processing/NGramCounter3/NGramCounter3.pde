@@ -16,7 +16,7 @@ int startYear = 1961;
 int endYear = 2009;
 String dataPath = "../../Data/BucketText/";
 String outPath = "../../Data/BucketGramsAll/";
-String subBucket = "/uniqueBucketStories/";
+String subBucket = "/allBucketStories/";
 String xmlPath = "../../Data/EntityXML/";
 String masterFile = "allYears.txt";
 String[] sentences;
@@ -46,8 +46,8 @@ void setup() {
 
   for (String s:bucketList) {
     currentBucket = s;
-    /*
-    countSavePosYears("landing", "_series.txt");
+    //*
+     countSavePosYears("landing", "_series.txt");
      countSavePosYears("moon", "_series.txt");
      countSavePosYears("the moon", "_series.txt");
      countSavePosYears("the lunar landings", "_series.txt");
@@ -61,12 +61,15 @@ void setup() {
      countSavePosYears("two crazy years", "_series.txt");
      countSavePosYears("an amazing thing", "_series.txt");
      countSavePosYears("sophisticated instruments", "_series.txt");
-     */
+     //*/
+     
+     /*
     countSaveEntities("Person");
     countSaveEntities("Country");
     countSaveEntities("Facility");
     countSaveEntities("FieldTerminology");
     countSaveEntities("GeographicFeature");
+    */
   }
   //*/
 }
@@ -199,6 +202,7 @@ void countSavePosYears(String pos, String url) {
   String match = join(matchList, " ");
 
   PrintWriter writer = createWriter(outPath + "/" + currentBucket + "/" + match + url);
+  println(outPath + "/" + currentBucket + "/" + match + url);
 
   println("MASTER");
   //Get the master list
@@ -206,7 +210,7 @@ void countSavePosYears(String pos, String url) {
   IntDict counter = countPos(pos);
   println("YEARS");
   //Get the other years
-  IntDict[] yearCounters = new IntDict[endYear - startYear];
+  IntDict[] yearCounters = new IntDict[(endYear - startYear) + 1];
   for (int i = 0;i < yearCounters.length; i++) {
     int y = startYear + i;
     println(y);
@@ -220,7 +224,7 @@ void countSavePosYears(String pos, String url) {
   for (String k:counter.keys()) {
     int c = counter.get(k);
     if (c > threshold) {
-      String[] outs = new String[(endYear - startYear) + 2];
+      String[] outs = new String[(endYear - startYear) + 3];
       outs[0] = k;
       outs[1] = str(c);
       for (int i = 2; i < outs.length; i++) {
