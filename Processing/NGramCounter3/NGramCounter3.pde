@@ -46,33 +46,33 @@ void setup() {
 
   for (String s:bucketList) {
     currentBucket = s;
-    
+
     /*
     countSavePosYears("landing", "_series.txt");
-    countSavePosYears("moon", "_series.txt");
-    countSavePosYears("the moon", "_series.txt");
-    countSavePosYears("the lunar landings", "_series.txt");
-    countSavePosYears("lunar landing", "_series.txt");
-    countSavePosYears("the lunar landing", "_series.txt");
-    countSavePosYears("lunar landing gear", "_series.txt");
-    countSavePosYears("main sounding systems", "_series.txt");
-    countSavePosYears("positioning systems", "_series.txt");
-    countSavePosYears("positioning system", "_series.txt");
-    countSavePosYears("two years", "_series.txt");
-    countSavePosYears("two crazy years", "_series.txt");
-    countSavePosYears("an amazing thing", "_series.txt");
-    countSavePosYears("sophisticated instruments", "_series.txt");
-    //*/
+     countSavePosYears("moon", "_series.txt");
+     countSavePosYears("the moon", "_series.txt");
+     countSavePosYears("the lunar landings", "_series.txt");
+     countSavePosYears("lunar landing", "_series.txt");
+     countSavePosYears("the lunar landing", "_series.txt");
+     countSavePosYears("lunar landing gear", "_series.txt");
+     countSavePosYears("main sounding systems", "_series.txt");
+     countSavePosYears("positioning systems", "_series.txt");
+     countSavePosYears("positioning system", "_series.txt");
+     countSavePosYears("two years", "_series.txt");
+     countSavePosYears("two crazy years", "_series.txt");
+     countSavePosYears("an amazing thing", "_series.txt");
+     countSavePosYears("sophisticated instruments", "_series.txt");
+     //*/
 
 
 
     //*
     countSaveEntities("Person");
-     countSaveEntities("Country");
-     countSaveEntities("Facility");
-     countSaveEntities("FieldTerminology");
-     countSaveEntities("GeographicFeature");
-     //*/
+    countSaveEntities("Country");
+    countSaveEntities("Facility");
+    countSaveEntities("FieldTerminology");
+    countSaveEntities("GeographicFeature");
+    //*/
   }
   //*/
 }
