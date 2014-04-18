@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.820131</relevance>
+            <relevance>0.839266</relevance>
             <count>8</count>
             <text>ESA</text>
             <disambiguated>
@@ -25,14 +25,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.3692</relevance>
+            <count>2</count>
+            <text>solar panels</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.360812</relevance>
+            <relevance>0.361328</relevance>
             <count>1</count>
             <text>Cassini- Huygens</text>
         </entity>
         <entity>
+            <type>Degree</type>
+            <relevance>0.318818</relevance>
+            <count>1</count>
+            <text>Huygens</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.337989</relevance>
+            <relevance>0.291076</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -54,7 +66,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.333273</relevance>
+            <relevance>0.286361</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -76,7 +88,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.323579</relevance>
+            <relevance>0.276774</relevance>
             <count>1</count>
             <text>New Jersey Institute of Technology</text>
             <disambiguated>
@@ -92,26 +104,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Continent</type>
+            <relevance>0.275833</relevance>
+            <count>2</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.32272</relevance>
+            <relevance>0.2743</relevance>
             <count>1</count>
             <text>Enric Palle&#x301;</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.318588</relevance>
-            <count>2</count>
-            <text>solar panels</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.318362</relevance>
-            <count>1</count>
-            <text>Huygens</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.270857</relevance>
+            <relevance>0.271191</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -129,26 +141,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.269111</relevance>
+            <count>1</count>
+            <text>Advanced Research</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.262249</relevance>
+            <relevance>0.262599</relevance>
             <count>1</count>
             <text>Kenneth Chang</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.261651</relevance>
+            <relevance>0.26202</relevance>
             <count>1</count>
             <text>Cassini</text>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.252326</relevance>
-            <count>2</count>
-            <text>Europe</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.238931</relevance>
+            <relevance>0.240891</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -163,19 +175,19 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.23884</relevance>
+            <relevance>0.239199</relevance>
             <count>1</count>
             <text>Titan</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.224828</relevance>
+            <type>Person</type>
+            <relevance>0.225556</relevance>
             <count>1</count>
-            <text>Advanced Research</text>
+            <text>David Rising</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.224431</relevance>
+            <relevance>0.224767</relevance>
             <count>1</count>
             <text>Italian Space Agency</text>
             <disambiguated>
@@ -187,12 +199,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.035c4c</freebase>
                 <yago>http://yago-knowledge.org/resource/Italian_Space_Agency</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.223545</relevance>
-            <count>1</count>
-            <text>David Rising</text>
         </entity>
     </entities>
 </results>

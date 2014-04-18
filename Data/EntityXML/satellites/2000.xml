@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.817468</relevance>
+            <relevance>0.891214</relevance>
             <count>14</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.543938</relevance>
+            <relevance>0.638109</relevance>
             <count>3</count>
             <text>Iridium Satellite LLC</text>
             <disambiguated>
@@ -40,37 +40,49 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.531177</relevance>
+            <relevance>0.550585</relevance>
             <count>2</count>
             <text>Terra Satellite</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.486184</relevance>
-            <count>1</count>
-            <text>communications satellite</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.444665</relevance>
-            <count>1</count>
-            <text>National Polar-Orbiting Operational Environmental Satellite System</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.441478</relevance>
-            <count>1</count>
-            <text>Meteorological Satellite Imaging Sensor</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.419135</relevance>
+            <relevance>0.511488</relevance>
             <count>1</count>
             <text>Submillimeter Wave Astronomy Satellite</text>
         </entity>
         <entity>
+            <type>Technology</type>
+            <relevance>0.424545</relevance>
+            <count>1</count>
+            <text>Meteorological Satellite Imaging Sensor</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.411804</relevance>
+            <count>4</count>
+            <text>ESA</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.406616</relevance>
+            <count>1</count>
+            <text>communications satellite</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.380344</relevance>
+            <count>1</count>
+            <text>Satellite System</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.377613</relevance>
+            <count>2</count>
+            <text>Iridium LLC</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.406225</relevance>
+            <relevance>0.377314</relevance>
             <count>3</count>
             <text>Mexico</text>
             <disambiguated>
@@ -89,7 +101,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.387741</relevance>
+            <relevance>0.357782</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -109,13 +121,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.348107</relevance>
+            <relevance>0.343574</relevance>
             <count>1</count>
-            <text>Defense Meteorological Satellite Program</text>
+            <text>SWAS</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.342737</relevance>
+            <relevance>0.337053</relevance>
             <count>2</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -130,25 +142,32 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.338505</relevance>
-            <count>4</count>
-            <text>ESA</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.333582</relevance>
+            <relevance>0.331592</relevance>
             <count>1</count>
-            <text>SCP</text>
+            <text>Defense Meteorological Satellite Program</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.331062</relevance>
+            <type>Person</type>
+            <relevance>0.325809</relevance>
             <count>1</count>
-            <text>Hughes Electronic Corporation</text>
+            <text>Ronald L. Snell</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.324546</relevance>
+            <count>2</count>
+            <text>Africa</text>
+            <disambiguated>
+                <name>Africa</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
+                <yago>http://yago-knowledge.org/resource/Africa</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.330855</relevance>
+            <relevance>0.319654</relevance>
             <count>3</count>
             <text>Raytheon Company</text>
             <disambiguated>
@@ -164,45 +183,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.322017</relevance>
-            <count>2</count>
-            <text>Africa</text>
+            <type>Organization</type>
+            <relevance>0.316225</relevance>
+            <count>1</count>
+            <text>University of Massachusetts</text>
             <disambiguated>
-                <name>Africa</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
-                <yago>http://yago-knowledge.org/resource/Africa</yago>
+                <name>University of Massachusetts Amherst</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.388888888888886 -72.52777777777777</geo>
+                <website>http://www.umass.edu</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Massachusetts_Amherst</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01ky7c</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Massachusetts_Amherst</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.321438</relevance>
+            <type>Organization</type>
+            <relevance>0.309559</relevance>
             <count>1</count>
-            <text>Iztapalapa</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.313792</relevance>
-            <count>2</count>
-            <text>Iridium LLC</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.311195</relevance>
-            <count>1</count>
-            <text>Hermosillo</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.306484</relevance>
-            <count>1</count>
-            <text>Hughes</text>
+            <text>ESA Hands Radar</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.304938</relevance>
+            <relevance>0.307508</relevance>
             <count>1</count>
             <text>South Africa</text>
             <disambiguated>
@@ -219,13 +223,110 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.297113</relevance>
+            <relevance>0.305237</relevance>
             <count>1</count>
-            <text>ESA Hands Radar</text>
+            <text>Amherst</text>
+            <disambiguated>
+                <name>Amherst College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.37083333333333 -72.51694444444445</geo>
+                <website>http://www.amherst.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Amherst_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gdm1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvoF7DZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Amherst_College</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.297846</relevance>
+            <count>2</count>
+            <text>Africa News Service</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.297832</relevance>
+            <count>1</count>
+            <text>Southern African Regional Science Initiative</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.297318</relevance>
+            <count>1</count>
+            <text>Spot Image</text>
+            <disambiguated>
+                <name>Spot Image</name>
+                <website>http://www.spotimage.com</website>
+                <dbpedia>http://dbpedia.org/resource/Spot_Image</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02z5kp</freebase>
+                <yago>http://yago-knowledge.org/resource/Spot_Image</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.293833</relevance>
+            <count>1</count>
+            <text>Toulouse</text>
+            <disambiguated>
+                <name>Toulouse</name>
+                <website>http://www.toulouse.fr/</website>
+                <dbpedia>http://dbpedia.org/resource/Toulouse</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cbhh</freebase>
+                <geonames>http://sws.geonames.org/2972315/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.28873</relevance>
+            <count>1</count>
+            <text>Hughes</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.286895</relevance>
+            <count>1</count>
+            <text>SCP</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.283572</relevance>
+            <count>1</count>
+            <text>Space News</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.282719</relevance>
+            <count>1</count>
+            <text>HESSI</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.281919</relevance>
+            <count>1</count>
+            <text>Acting Envisat Mission Manager</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.27966</relevance>
+            <count>1</count>
+            <text>University of California</text>
+            <disambiguated>
+                <name>UC Davis College of Letters and Science</name>
+                <dbpedia>http://dbpedia.org/resource/UC_Davis_College_of_Letters_and_Science</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mhh1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.278275</relevance>
+            <count>1</count>
+            <text>Iztapalapa</text>
         </entity>
         <entity>
             <type>Region</type>
-            <relevance>0.295581</relevance>
+            <relevance>0.278142</relevance>
             <count>1</count>
             <text>South America</text>
             <disambiguated>
@@ -237,20 +338,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.295249</relevance>
-            <count>2</count>
-            <text>Africa News Service</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.29523</relevance>
-            <count>1</count>
-            <text>Southern African Regional Science Initiative</text>
-        </entity>
-        <entity>
             <type>Region</type>
-            <relevance>0.293129</relevance>
+            <relevance>0.275839</relevance>
             <count>1</count>
             <text>Caribbean</text>
             <disambiguated>
@@ -264,102 +353,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.29248</relevance>
+            <relevance>0.27412</relevance>
             <count>1</count>
-            <text>Satmex</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.287365</relevance>
-            <count>1</count>
-            <text>Paula Shaki Trimble</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.283962</relevance>
-            <count>1</count>
-            <text>Spot Image</text>
-            <disambiguated>
-                <name>Spot Image</name>
-                <website>http://www.spotimage.com</website>
-                <dbpedia>http://dbpedia.org/resource/Spot_Image</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02z5kp</freebase>
-                <yago>http://yago-knowledge.org/resource/Spot_Image</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.283782</relevance>
-            <count>1</count>
-            <text>HESSI</text>
+            <text>Gu&#x308;nther Kohlhammer</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.281508</relevance>
-            <count>1</count>
-            <text>U.S. Department of Commerce</text>
-            <disambiguated>
-                <name>United States Department of Commerce</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.commerce.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Commerce</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j770</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Commerce</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.280632</relevance>
-            <count>1</count>
-            <text>Toulouse</text>
-            <disambiguated>
-                <name>Toulouse</name>
-                <website>http://www.toulouse.fr/</website>
-                <dbpedia>http://dbpedia.org/resource/Toulouse</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cbhh</freebase>
-                <geonames>http://sws.geonames.org/2972315/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.280617</relevance>
-            <count>1</count>
-            <text>University of California</text>
-            <disambiguated>
-                <name>UC Davis College of Letters and Science</name>
-                <dbpedia>http://dbpedia.org/resource/UC_Davis_College_of_Letters_and_Science</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mhh1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.278966</relevance>
-            <count>1</count>
-            <text>SWAS</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.275729</relevance>
-            <count>1</count>
-            <text>Justin Ray</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.272689</relevance>
-            <count>1</count>
-            <text>Space News</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.270661</relevance>
-            <count>1</count>
-            <text>Acting Envisat Mission Manager</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.269212</relevance>
+            <relevance>0.271665</relevance>
             <count>1</count>
             <text>University of Witwatersrand</text>
             <disambiguated>
@@ -375,86 +375,98 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.266392</relevance>
+            <type>Organization</type>
+            <relevance>0.271175</relevance>
             <count>1</count>
-            <text>Ronald L. Snell</text>
+            <text>U.S. Department of Commerce</text>
+            <disambiguated>
+                <name>United States Department of Commerce</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.commerce.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Commerce</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j770</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Commerce</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.26628</relevance>
+            <relevance>0.268745</relevance>
             <count>1</count>
             <text>South African</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.268445</relevance>
+            <count>1</count>
+            <text>Paula Shaki Trimble</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.265334</relevance>
+            <relevance>0.267782</relevance>
             <count>1</count>
             <text>Convair</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.267667</relevance>
+            <count>1</count>
+            <text>Hermosillo</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.263497</relevance>
+            <relevance>0.267603</relevance>
             <count>1</count>
             <text>New York</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.26317</relevance>
+            <type>Company</type>
+            <relevance>0.265974</relevance>
             <count>1</count>
-            <text>Gu&#x308;nther Kohlhammer</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.258669</relevance>
-            <count>1</count>
-            <text>U.S. Bankruptcy Court</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.258541</relevance>
-            <count>1</count>
-            <text>University of Massachusetts</text>
-            <disambiguated>
-                <name>University of Massachusetts Amherst</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.388888888888886 -72.52777777777777</geo>
-                <website>http://www.umass.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Massachusetts_Amherst</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01ky7c</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Massachusetts_Amherst</yago>
-            </disambiguated>
+            <text>Hughes Electronic Corporation</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.255127</relevance>
+            <relevance>0.26581</relevance>
             <count>1</count>
             <text>Peter B. de Selding</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.254081</relevance>
+            <type>Country</type>
+            <relevance>0.264345</relevance>
             <count>1</count>
-            <text>Berkeley.</text>
+            <text>France</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.253699</relevance>
+            <type>Organization</type>
+            <relevance>0.262698</relevance>
             <count>1</count>
-            <text>communication services</text>
+            <text>U.S. Bankruptcy Court</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.262136</relevance>
+            <count>1</count>
+            <text>Satmex</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.251993</relevance>
+            <relevance>0.259271</relevance>
             <count>1</count>
             <text>Chief Information Officer</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.251336</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.25771</relevance>
             <count>1</count>
-            <text>France</text>
+            <text>communication services</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.254162</relevance>
+            <count>1</count>
+            <text>U.S. government.</text>
         </entity>
     </entities>
 </results>

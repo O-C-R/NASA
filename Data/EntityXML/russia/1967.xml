@@ -6,26 +6,33 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.791254</relevance>
+            <type>City</type>
+            <relevance>0.751873</relevance>
             <count>2</count>
-            <text>Washington Evening Star</text>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.49948</relevance>
+            <relevance>0.69647</relevance>
             <count>2</count>
             <text>Presidium</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.354051</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.353489</relevance>
+            <relevance>0.610415</relevance>
             <count>1</count>
             <text>Senate</text>
             <disambiguated>
@@ -40,8 +47,33 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.557158</relevance>
+            <count>1</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.537263</relevance>
+            <count>1</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.34534</relevance>
+            <relevance>0.498218</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -60,27 +92,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.344212</relevance>
+            <type>Organization</type>
+            <relevance>0.476087</relevance>
             <count>1</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.447316</relevance>
+            <count>1</count>
+            <text>America</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.438299</relevance>
+            <count>1</count>
+            <text>Russia</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.314167</relevance>
+            <relevance>0.426458</relevance>
             <count>1</count>
             <text>U.N.</text>
             <disambiguated>
@@ -90,39 +121,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.309649</relevance>
-            <count>1</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.306765</relevance>
-            <count>1</count>
-            <text>Russia</text>
-            <disambiguated>
-                <name>Poland</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>FilmFestivalFocus</subType>
-                <dbpedia>http://dbpedia.org/resource/Poland</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Poland</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05qhw</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjKypwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Poland</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.294532</relevance>
-            <count>1</count>
-            <text>America</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.26571</relevance>
+            <relevance>0.378773</relevance>
             <count>1</count>
             <text>U.K.</text>
             <disambiguated>

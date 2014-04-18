@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.778608</relevance>
+            <relevance>0.816197</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,20 +29,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.418526</relevance>
+            <relevance>0.400164</relevance>
             <count>4</count>
             <text>Pioneer</text>
-            <disambiguated>
-                <name>Pioneer Corporation</name>
-                <website>http://www.pioneerelectronics.com/PUSA/</website>
-                <dbpedia>http://dbpedia.org/resource/Pioneer_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03q6rq</freebase>
-                <yago>http://yago-knowledge.org/resource/Pioneer_Corporation</yago>
-            </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.354378</relevance>
+            <relevance>0.321048</relevance>
             <count>3</count>
             <text>Dry Valleys</text>
             <disambiguated>
@@ -56,7 +49,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.307637</relevance>
+            <relevance>0.308691</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -78,43 +71,25 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.284878</relevance>
+            <relevance>0.280249</relevance>
             <count>2</count>
             <text>solar system</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.271662</relevance>
-            <count>2</count>
-            <text>NSF</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.271378</relevance>
-            <count>1</count>
-            <text>Dry Valleys of Antarctica</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.267029</relevance>
+            <relevance>0.255112</relevance>
             <count>1</count>
             <text>Voyager</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.25331</relevance>
+            <type>JobTitle</type>
+            <relevance>0.253706</relevance>
             <count>1</count>
-            <text>Dr. E. Imre Friedmann</text>
-            <disambiguated>
-                <name>Imre Friedmann</name>
-                <dbpedia>http://dbpedia.org/resource/Imre_Friedmann</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02vp61v</freebase>
-                <yago>http://yago-knowledge.org/resource/Imre_Friedmann</yago>
-            </disambiguated>
+            <text>ASTRONAUTICS AND AERONAUTICS</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.25012</relevance>
+            <relevance>0.24963</relevance>
             <count>1</count>
             <text>National Air and Space Museum</text>
             <disambiguated>
@@ -133,74 +108,31 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.245725</relevance>
-            <count>1</count>
-            <text>Antarctic</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.240563</relevance>
+            <relevance>0.245103</relevance>
             <count>1</count>
-            <text>Antarctic</text>
+            <text>Dry Valleys of Antarctica</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.234625</relevance>
-            <count>1</count>
-            <text>Lucius Lomas</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.233041</relevance>
+            <type>Organization</type>
+            <relevance>0.238094</relevance>
             <count>2</count>
-            <text>Dr. Richard Young</text>
-        </entity>
-        <entity>
-            <type>OperatingSystem</type>
-            <relevance>0.232995</relevance>
-            <count>1</count>
-            <text>windows</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.231223</relevance>
-            <count>1</count>
-            <text>Melvin Zisfein</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.230863</relevance>
-            <count>1</count>
-            <text>Space Academy</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.229956</relevance>
-            <count>1</count>
-            <text>Utopia Planitia</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.217711</relevance>
-            <count>1</count>
-            <text>Washington Star</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.213391</relevance>
-            <count>1</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.21297</relevance>
-            <count>1</count>
-            <text>ASTRONAUTICS AND AERONAUTICS</text>
+            <text>NSF</text>
+            <disambiguated>
+                <name>National Science Foundation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AcademicInstitution</subType>
+                <website>http://www.nsf.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.212707</relevance>
+            <relevance>0.231432</relevance>
             <count>1</count>
             <text>Australia</text>
             <disambiguated>
@@ -219,7 +151,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.212471</relevance>
+            <relevance>0.231171</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -240,20 +172,50 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.211299</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.229956</relevance>
             <count>1</count>
-            <text>Dr. Roseli Ocampo-Friedmann</text>
+            <text>Utopia Planitia</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.207979</relevance>
+            <type>Person</type>
+            <relevance>0.229955</relevance>
             <count>1</count>
-            <text>Lewis News</text>
+            <text>Lucius Lomas</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.229939</relevance>
+            <count>1</count>
+            <text>Dr. E. Imre Friedmann</text>
+            <disambiguated>
+                <name>Imre Friedmann</name>
+                <dbpedia>http://dbpedia.org/resource/Imre_Friedmann</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vp61v</freebase>
+                <yago>http://yago-knowledge.org/resource/Imre_Friedmann</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>OperatingSystem</type>
+            <relevance>0.228528</relevance>
+            <count>1</count>
+            <text>windows</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226578</relevance>
+            <count>1</count>
+            <text>Melvin Zisfein</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.226322</relevance>
+            <count>1</count>
+            <text>Space Academy</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.205196</relevance>
+            <relevance>0.22415</relevance>
             <count>1</count>
             <text>Canberra</text>
             <disambiguated>
@@ -264,6 +226,56 @@
                 <yago>http://yago-knowledge.org/resource/Canberra</yago>
                 <geonames>http://sws.geonames.org/6301342/</geonames>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.222682</relevance>
+            <count>1</count>
+            <text>Antarctic</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.220644</relevance>
+            <count>2</count>
+            <text>Dr. Richard Young</text>
+            <disambiguated>
+                <name>Richard Youngs</name>
+                <subType>MusicalArtist</subType>
+                <subType>MusicalGroupMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_Youngs</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n8687</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_Youngs</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.217245</relevance>
+            <count>1</count>
+            <text>Washington Star</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.208901</relevance>
+            <count>1</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.206982</relevance>
+            <count>1</count>
+            <text>Goldstone</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.196717</relevance>
+            <count>1</count>
+            <text>Antarctic</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.192509</relevance>
+            <count>1</count>
+            <text>Lewis News</text>
         </entity>
         <entity>
             <type>Organization</type>
@@ -282,10 +294,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.187744</relevance>
+            <type>Person</type>
+            <relevance>0.187902</relevance>
             <count>1</count>
-            <text>Goldstone</text>
+            <text>Dr. Roseli Ocampo-Friedmann</text>
         </entity>
     </entities>
 </results>

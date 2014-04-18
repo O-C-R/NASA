@@ -7,36 +7,14 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.89212</relevance>
-            <count>13</count>
+            <relevance>0.906347</relevance>
+            <count>15</count>
             <text>nasa Marshall Space Flight Center</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.679133</relevance>
-            <count>16</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.580076</relevance>
-            <count>15</count>
+            <relevance>0.785134</relevance>
+            <count>28</count>
             <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
@@ -56,54 +34,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.57468</relevance>
-            <count>14</count>
-            <text>space exploration</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.549884</relevance>
-            <count>7</count>
+            <relevance>0.536557</relevance>
+            <count>6</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.456518</relevance>
-            <count>11</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.434364</relevance>
-            <count>12</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.426469</relevance>
+            <relevance>0.516063</relevance>
             <count>15</count>
             <text>United States</text>
             <disambiguated>
@@ -122,14 +60,61 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.413406</relevance>
-            <count>8</count>
-            <text>Langley Research Center</text>
+            <type>FieldTerminology</type>
+            <relevance>0.473147</relevance>
+            <count>14</count>
+            <text>space exploration</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.461648</relevance>
+            <count>4</count>
+            <text>nasa Ames Research Center</text>
+            <disambiguated>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.461135</relevance>
+            <count>11</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.427018</relevance>
+            <count>11</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.422596</relevance>
+            <count>10</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.405</relevance>
+            <relevance>0.406311</relevance>
             <count>8</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -156,62 +141,59 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.395263</relevance>
-            <count>10</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.391033</relevance>
-            <count>11</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.37128</relevance>
-            <count>6</count>
-            <text>Ames Research Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.364654</relevance>
-            <count>3</count>
-            <text>nasa Ames Research Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.352567</relevance>
-            <count>3</count>
-            <text>nasa Ames Research Center</text>
+            <type>Company</type>
+            <relevance>0.3908</relevance>
+            <count>4</count>
+            <text>nasa</text>
             <disambiguated>
-                <name>Ames Research Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
                 <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.343888</relevance>
-            <count>8</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.325607</relevance>
-            <count>5</count>
-            <text>Research and Development</text>
+            <type>Organization</type>
+            <relevance>0.384137</relevance>
+            <count>10</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.319773</relevance>
+            <relevance>0.383278</relevance>
+            <count>2</count>
+            <text>nasa Flight Research Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.366746</relevance>
+            <count>8</count>
+            <text>Langley Research Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.351848</relevance>
             <count>6</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -226,20 +208,31 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.350481</relevance>
+            <count>6</count>
+            <text>National Science Foundation</text>
+            <disambiguated>
+                <name>National Science Foundation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AcademicInstitution</subType>
+                <website>http://www.nsf.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.31119</relevance>
+            <relevance>0.340992</relevance>
             <count>1</count>
             <text>nasa Director of Manned Space Flight</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.305294</relevance>
-            <count>2</count>
-            <text>nasa Flight Research Center</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.30516</relevance>
+            <relevance>0.338167</relevance>
             <count>6</count>
             <text>Huntsville</text>
             <disambiguated>
@@ -254,20 +247,63 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.292007</relevance>
-            <count>7</count>
-            <text>Science and Technology</text>
+            <type>Facility</type>
+            <relevance>0.337064</relevance>
+            <count>4</count>
+            <text>Ames Research Center</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.291428</relevance>
-            <count>3</count>
-            <text>Outer Space</text>
+            <relevance>0.330288</relevance>
+            <count>2</count>
+            <text>nasa Ames Research Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.325925</relevance>
+            <count>1</count>
+            <text>nasa Flight Research Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.286093</relevance>
+            <relevance>0.317125</relevance>
+            <count>1</count>
+            <text>nasa Office of Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.304084</relevance>
+            <count>2</count>
+            <text>nasa Lewis Research Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.30407</relevance>
+            <count>4</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.303435</relevance>
+            <count>8</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.301467</relevance>
+            <count>1</count>
+            <text>Director of Manned Space Flight</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.299889</relevance>
             <count>5</count>
             <text>Federal Government</text>
             <disambiguated>
@@ -279,21 +315,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.280846</relevance>
-            <count>1</count>
-            <text>National Park Service. nasa Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.275059</relevance>
-            <count>2</count>
-            <text>nasa Lewis Research Center</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.268598</relevance>
-            <count>5</count>
+            <relevance>0.298875</relevance>
+            <count>6</count>
             <text>California</text>
             <disambiguated>
                 <name>California</name>
@@ -313,59 +337,105 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.267889</relevance>
+            <type>JobTitle</type>
+            <relevance>0.29688</relevance>
             <count>5</count>
-            <text>FY</text>
+            <text>Research and Development</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.2675</relevance>
-            <count>4</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
+            <type>JobTitle</type>
+            <relevance>0.296741</relevance>
+            <count>2</count>
+            <text>Director of nasa</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.295173</relevance>
+            <count>1</count>
+            <text>Joint Working Group of nasa Office of Space Sciences and Office</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.26708</relevance>
+            <relevance>0.294596</relevance>
             <count>5</count>
             <text>D. Brainerd Holmes</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.264656</relevance>
+            <relevance>0.291608</relevance>
             <count>1</count>
             <text>Marshall Space Flight Centers</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.264584</relevance>
-            <count>6</count>
-            <text>National Science Foundation</text>
+            <relevance>0.287909</relevance>
+            <count>1</count>
+            <text>nasa Office of Manned Space</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.28722</relevance>
+            <count>7</count>
+            <text>Science and Technology</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.276375</relevance>
+            <count>3</count>
+            <text>Outer Space</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.270792</relevance>
+            <count>4</count>
+            <text>Dr. Jerome B. Wiesner</text>
             <disambiguated>
-                <name>National Science Foundation</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AcademicInstitution</subType>
-                <website>http://www.nsf.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+                <name>Jerome Wiesner</name>
+                <dbpedia>http://dbpedia.org/resource/Jerome_Wiesner</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07nbfz</freebase>
+                <yago>http://yago-knowledge.org/resource/Jerome_Wiesner</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.269219</relevance>
+            <count>1</count>
+            <text>Cape Canaveral. nasa Ames Research Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.265833</relevance>
+            <count>1</count>
+            <text>nasa Manned Spacecraft Center</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.263049</relevance>
+            <relevance>0.260076</relevance>
             <count>4</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255433</relevance>
+            <count>2</count>
+            <text>Sohio Research Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.254194</relevance>
+            <count>5</count>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.253604</relevance>
+            <count>1</count>
+            <text>nasa Deputy Director of Aeronautical Research</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.251069</relevance>
+            <count>3</count>
             <text>U.S. Senate</text>
             <disambiguated>
                 <name>United States Senate</name>
@@ -379,163 +449,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.254282</relevance>
-            <count>5</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.251782</relevance>
-            <count>1</count>
-            <text>Manned Space Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.250089</relevance>
-            <count>1</count>
-            <text>nasa Office of Manned Space</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243944</relevance>
-            <count>4</count>
-            <text>U.S. Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.240837</relevance>
-            <count>4</count>
-            <text>Dr. James A. Van Allen</text>
-            <disambiguated>
-                <name>James Van Allen</name>
-                <subType>Academic</subType>
-                <subType>Astronomer</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/James_Van_Allen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lv59</freebase>
-                <yago>http://yago-knowledge.org/resource/James_Van_Allen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.238736</relevance>
-            <count>4</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.236238</relevance>
-            <count>2</count>
-            <text>Director of nasa</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.236173</relevance>
-            <count>4</count>
-            <text>Dr. Jerome B. Wiesner</text>
-            <disambiguated>
-                <name>Jerome Wiesner</name>
-                <dbpedia>http://dbpedia.org/resource/Jerome_Wiesner</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07nbfz</freebase>
-                <yago>http://yago-knowledge.org/resource/Jerome_Wiesner</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.235288</relevance>
-            <count>1</count>
-            <text>Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.23479</relevance>
-            <count>1</count>
-            <text>Director of Manned Space Flight</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230906</relevance>
-            <count>2</count>
-            <text>Sohio Research Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.230834</relevance>
-            <count>1</count>
-            <text>nasa Manned Spacecraft Center</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.228837</relevance>
-            <count>3</count>
-            <text>Ala</text>
-            <disambiguated>
-                <name>Ala, Hiiu County</name>
-                <dbpedia>http://dbpedia.org/resource/Ala,_Hiiu_County</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ch5wbv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.225365</relevance>
-            <count>3</count>
-            <text>Goose Bay</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.224654</relevance>
-            <count>3</count>
-            <text>Ala.</text>
-            <disambiguated>
-                <name>Alabama</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>33.0 -86.66666666666667</geo>
-                <website>http://www.alabama.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
-                <yago>http://yago-knowledge.org/resource/Alabama</yago>
-                <geonames>http://sws.geonames.org/4829764/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224006</relevance>
+            <relevance>0.249606</relevance>
             <count>2</count>
             <text>Lewis Research Center</text>
             <disambiguated>
@@ -549,10 +464,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.223702</relevance>
-            <count>4</count>
-            <text>Milky Way</text>
+            <type>GeographicFeature</type>
+            <relevance>0.247358</relevance>
+            <count>3</count>
+            <text>Goose Bay</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.246703</relevance>
+            <count>1</count>
+            <text>Ames Research Center Life Science Laboratory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.240266</relevance>
+            <count>2</count>
+            <text>Cambridge Research Laboratories</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.237828</relevance>
+            <count>1</count>
+            <text>nasa Project Director</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.234752</relevance>
+            <count>3</count>
+            <text>Boeing Company</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
         </entity>
     </entities>
 </results>

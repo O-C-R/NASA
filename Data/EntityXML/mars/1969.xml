@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.894795</relevance>
+            <relevance>0.83773</relevance>
             <count>38</count>
             <text>Mars</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.573149</relevance>
+            <relevance>0.574304</relevance>
             <count>29</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,20 +35,14 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.350125</relevance>
+            <relevance>0.372335</relevance>
             <count>12</count>
             <text>Earth</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.327637</relevance>
-            <count>2</count>
-            <text>Mars equator</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.320937</relevance>
-            <count>6</count>
+            <relevance>0.32239</relevance>
+            <count>7</count>
             <text>JPL</text>
             <disambiguated>
                 <name>Jet Propulsion Laboratory</name>
@@ -62,38 +56,86 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.32008</relevance>
+            <count>2</count>
+            <text>Mars equator</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.271967</relevance>
+            <relevance>0.284003</relevance>
             <count>5</count>
             <text>LaRC</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.260437</relevance>
-            <count>1</count>
-            <text>Mariner VI</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.23968</relevance>
-            <count>1</count>
-            <text>Mars school</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.237363</relevance>
-            <count>1</count>
-            <text>Mars landing</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.220288</relevance>
+            <relevance>0.246945</relevance>
             <count>5</count>
             <text>carbon dioxide</text>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.245627</relevance>
+            <count>1</count>
+            <text>Mars landing</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.221473</relevance>
+            <count>1</count>
+            <text>Mars school</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.203459</relevance>
+            <count>1</count>
+            <text>Mariner VI</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.192223</relevance>
+            <count>2</count>
+            <text>carbon monoxide</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.198348</relevance>
+            <relevance>0.190785</relevance>
+            <count>2</count>
+            <text>Martin Marietta Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.18383</relevance>
+            <count>2</count>
+            <text>Dr. Charles A. Barth</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.181525</relevance>
+            <count>1</count>
+            <text>Planetary Programs Directorate</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.181134</relevance>
+            <count>1</count>
+            <text>F. Raper</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.180189</relevance>
+            <count>2</count>
+            <text>Univ. of Colorado</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.179769</relevance>
+            <count>1</count>
+            <text>landers</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.178996</relevance>
             <count>2</count>
             <text>Cal Tech</text>
             <disambiguated>
@@ -111,8 +153,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.177351</relevance>
+            <count>2</count>
+            <text>Lannan</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.195117</relevance>
+            <relevance>0.169302</relevance>
             <count>1</count>
             <text>Goldstone Tracking Station</text>
             <disambiguated>
@@ -126,142 +174,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.191084</relevance>
-            <count>2</count>
-            <text>carbon monoxide</text>
+            <type>Person</type>
+            <relevance>0.16379</relevance>
+            <count>1</count>
+            <text>W. G. Fastie</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.181906</relevance>
+            <relevance>0.163569</relevance>
             <count>1</count>
-            <text>Conway B. Leovy</text>
+            <text>Johns Hopkins</text>
             <disambiguated>
-                <name>Conway B. Leovy</name>
-                <dbpedia>http://dbpedia.org/resource/Conway_B._Leovy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04n1qm_</freebase>
+                <name>Johns Hopkins</name>
+                <dbpedia>http://dbpedia.org/resource/Johns_Hopkins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01g079</freebase>
+                <yago>http://yago-knowledge.org/resource/Johns_Hopkins</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.181205</relevance>
-            <count>1</count>
-            <text>Goddard Institute for Space Studies</text>
-            <disambiguated>
-                <name>Goddard Institute for Space Studies</name>
-                <geo>40.80544 -73.96536</geo>
-                <website>http://www.giss.nasa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Goddard_Institute_for_Space_Studies</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
-                <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.179611</relevance>
-            <count>1</count>
-            <text>rand Corp.</text>
-            <disambiguated>
-                <name>RAND Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/RAND_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fgv0</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.179424</relevance>
-            <count>2</count>
-            <text>Lannan</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.176796</relevance>
-            <count>2</count>
-            <text>Dr. Robert P. Sharp</text>
-            <disambiguated>
-                <name>Robert P. Sharp</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_P._Sharp</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j7lphq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.17605</relevance>
-            <count>1</count>
-            <text>California</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.175439</relevance>
-            <count>2</count>
-            <text>Dr. Charles A. Barth</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.174845</relevance>
-            <count>1</count>
-            <text>Dr. Robert B. Leighton</text>
-            <disambiguated>
-                <name>Robert B. Leighton</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_B._Leighton</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0511zn</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.173588</relevance>
-            <count>2</count>
-            <text>Martin Marietta Corp.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.171963</relevance>
-            <count>2</count>
-            <text>Univ. of Colorado</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.169218</relevance>
-            <count>1</count>
-            <text>Dr. George C. Pimentel</text>
-            <disambiguated>
-                <name>George C. Pimentel</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/George_C._Pimentel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03qtf3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.166685</relevance>
-            <count>1</count>
-            <text>Merton E. Davies</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16587</relevance>
-            <count>1</count>
-            <text>Univ. of Washington</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.165709</relevance>
+            <relevance>0.163038</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -274,136 +206,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.165485</relevance>
+            <type>JobTitle</type>
+            <relevance>0.163001</relevance>
             <count>1</count>
-            <text>Bradford A. Smith</text>
+            <text>physicist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.165122</relevance>
+            <relevance>0.162622</relevance>
             <count>1</count>
-            <text>Dr. S. Ichtiaque Rasool</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16473</relevance>
-            <count>1</count>
-            <text>New Mexico State Univ.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.16348</relevance>
-            <count>1</count>
-            <text>Dr. Richard M. Goldstein</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.15968</relevance>
-            <count>1</count>
-            <text>Alan G. Herriman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.159481</relevance>
-            <count>1</count>
-            <text>Dr. Norman H. Horowitz</text>
+            <text>Dr. Lee A. DuBridge</text>
             <disambiguated>
-                <name>Norman Horowitz (geneticist)</name>
-                <dbpedia>http://dbpedia.org/resource/Norman_Horowitz_(geneticist)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02plvx8</freebase>
+                <name>Lee Alvin DuBridge</name>
+                <dbpedia>http://dbpedia.org/resource/Lee_Alvin_DuBridge</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.037rbr</freebase>
+                <yago>http://yago-knowledge.org/resource/Lee_Alvin_DuBridge</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.158516</relevance>
-            <count>1</count>
-            <text>Dr. Bruce C. Murray</text>
-            <disambiguated>
-                <name>Bruce C. Murray</name>
-                <subType>BoardMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Bruce_C._Murray</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bl1c5</freebase>
-                <yago>http://yago-knowledge.org/resource/Bruce_C._Murray</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.158484</relevance>
-            <count>1</count>
-            <text>Dr. Arvydas J. Kliore</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.156491</relevance>
-            <count>1</count>
-            <text>Auerbach</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.156364</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.154633</relevance>
-            <count>1</count>
-            <text>landers</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.154614</relevance>
-            <count>1</count>
-            <text>Illinois Institute of Technology</text>
-            <disambiguated>
-                <name>Illinois Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.83465277777778 -87.62833333333333</geo>
-                <website>http://www.iit.edu</website>
-                <dbpedia>http://dbpedia.org/resource/Illinois_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jpn8</freebase>
-                <yago>http://yago-knowledge.org/resource/Illinois_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/4896819/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.154411</relevance>
-            <count>1</count>
-            <text>Dr. Samuel Glasstone</text>
-            <disambiguated>
-                <name>Samuel Glasstone</name>
-                <dbpedia>http://dbpedia.org/resource/Samuel_Glasstone</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cp87l</freebase>
-                <yago>http://yago-knowledge.org/resource/Samuel_Glasstone</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.154253</relevance>
-            <count>1</count>
-            <text>F. Raper</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.15375</relevance>
-            <count>1</count>
-            <text>Planetary Programs Directorate</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.153357</relevance>
+            <relevance>0.162404</relevance>
             <count>1</count>
             <text>Woomera</text>
             <disambiguated>
@@ -417,32 +239,23 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.152808</relevance>
+            <relevance>0.161299</relevance>
             <count>1</count>
-            <text>Washington</text>
+            <text>Dearborn</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
+                <name>Dearborn, Michigan</name>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <geo>42.29388888888889 -83.14777777777778</geo>
+                <dbpedia>http://dbpedia.org/resource/Dearborn,_Michigan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0vrmb</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/mi/counties/wayne_county/dearborn</census>
+                <yago>http://yago-knowledge.org/resource/Dearborn,_Michigan</yago>
+                <geonames>http://sws.geonames.org/4990510/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.151646</relevance>
-            <count>1</count>
-            <text>Cydonia</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.1511</relevance>
+            <relevance>0.160014</relevance>
             <count>1</count>
             <text>Australia.</text>
             <disambiguated>
@@ -460,14 +273,151 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.151058</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.159869</relevance>
             <count>1</count>
-            <text>Dr. Andrew T. Young</text>
+            <text>Mich.</text>
+            <disambiguated>
+                <name>Michigan</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.michigan.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Michigan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04rrx</freebase>
+                <yago>http://yago-knowledge.org/resource/Michigan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.158911</relevance>
+            <count>1</count>
+            <text>Dr. George C. Pimentel</text>
+            <disambiguated>
+                <name>George C. Pimentel</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/George_C._Pimentel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03qtf3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.158056</relevance>
+            <count>1</count>
+            <text>Dr. Samuel Glasstone</text>
+            <disambiguated>
+                <name>Samuel Glasstone</name>
+                <dbpedia>http://dbpedia.org/resource/Samuel_Glasstone</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cp87l</freebase>
+                <yago>http://yago-knowledge.org/resource/Samuel_Glasstone</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.1574</relevance>
+            <count>2</count>
+            <text>Dr. Robert P. Sharp</text>
+            <disambiguated>
+                <name>Robert P. Sharp</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_P._Sharp</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j7lphq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.157047</relevance>
+            <count>1</count>
+            <text>Goddard Institute for Space Studies</text>
+            <disambiguated>
+                <name>Goddard Institute for Space Studies</name>
+                <geo>40.80544 -73.96536</geo>
+                <website>http://www.giss.nasa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Goddard_Institute_for_Space_Studies</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
+                <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.155311</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.154199</relevance>
+            <count>1</count>
+            <text>Illinois Institute of Technology</text>
+            <disambiguated>
+                <name>Illinois Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.83465277777778 -87.62833333333333</geo>
+                <website>http://www.iit.edu</website>
+                <dbpedia>http://dbpedia.org/resource/Illinois_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jpn8</freebase>
+                <yago>http://yago-knowledge.org/resource/Illinois_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/4896819/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.154078</relevance>
+            <count>1</count>
+            <text>Presidential Science Adviser</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.153611</relevance>
+            <count>1</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.152623</relevance>
+            <count>1</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.151383</relevance>
+            <count>1</count>
+            <text>Cydonia</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.150945</relevance>
+            <relevance>0.150684</relevance>
             <count>1</count>
             <text>United States</text>
             <disambiguated>
@@ -486,16 +436,83 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.150605</relevance>
+            <count>1</count>
+            <text>General Electric Co.</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.15083</relevance>
+            <relevance>0.150564</relevance>
             <count>1</count>
             <text>Hellas desert</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.149614</relevance>
+            <relevance>0.150396</relevance>
             <count>1</count>
-            <text>Boris L. Seidel</text>
+            <text>Auerbach</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.145284</relevance>
+            <count>1</count>
+            <text>Meridiani Sinus</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.143644</relevance>
+            <count>1</count>
+            <text>Conway B. Leovy</text>
+            <disambiguated>
+                <name>Conway B. Leovy</name>
+                <dbpedia>http://dbpedia.org/resource/Conway_B._Leovy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04n1qm_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.142751</relevance>
+            <count>1</count>
+            <text>C. W. Hord</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.141835</relevance>
+            <count>1</count>
+            <text>rand Corp.</text>
+            <disambiguated>
+                <name>RAND Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/RAND_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fgv0</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.141624</relevance>
+            <count>1</count>
+            <text>J. B. Pearce</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.141148</relevance>
+            <count>1</count>
+            <text>Dr. S. Ichtiaque Rasool</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.141141</relevance>
+            <count>1</count>
+            <text>G. E. Thomas</text>
         </entity>
     </entities>
 </results>

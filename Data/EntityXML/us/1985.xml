@@ -7,26 +7,44 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.848354</relevance>
+            <relevance>0.90254</relevance>
             <count>21</count>
             <text>Air Force</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.584138</relevance>
-            <count>7</count>
-            <text>Air Force Systems Command</text>
+            <relevance>0.542431</relevance>
+            <count>10</count>
+            <text>AFSC</text>
             <disambiguated>
-                <name>Air Force Systems Command</name>
+                <name>Air Force Space Command</name>
+                <subType>ArmedForce</subType>
                 <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Systems_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05_36j</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Systems_Command</yago>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.546506</relevance>
+            <relevance>0.522902</relevance>
+            <count>6</count>
+            <text>U.S. Air Force</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.497187</relevance>
             <count>18</count>
             <text>NASA</text>
             <disambiguated>
@@ -48,51 +66,26 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.513808</relevance>
-            <count>6</count>
-            <text>U.S. Air Force</text>
+            <relevance>0.4669</relevance>
+            <count>5</count>
+            <text>Air Force Systems Command</text>
             <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
+                <name>Air Force Systems Command</name>
                 <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Systems_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05_36j</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Systems_Command</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.499631</relevance>
+            <relevance>0.44468</relevance>
             <count>4</count>
             <text>Air Force Systems Command Newsreview</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.490605</relevance>
-            <count>9</count>
-            <text>AFSC</text>
-            <disambiguated>
-                <name>American Friends Service Committee</name>
-                <subType>AwardWinner</subType>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.afsc.org</website>
-                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.356574</relevance>
-            <count>2</count>
-            <text>Air Force System Command</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.349171</relevance>
+            <relevance>0.368267</relevance>
             <count>2</count>
             <text>Dobbins Air Force Base</text>
             <disambiguated>
@@ -107,8 +100,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.331948</relevance>
+            <count>4</count>
+            <text>Aeronautical Systems Division</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.327485</relevance>
+            <count>2</count>
+            <text>Air Force System Command</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.319646</relevance>
+            <count>5</count>
+            <text>Newsreview</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.343133</relevance>
+            <relevance>0.294637</relevance>
             <count>7</count>
             <text>General Dynamics Corp.</text>
             <disambiguated>
@@ -123,37 +134,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.321102</relevance>
-            <count>4</count>
-            <text>Aeronautical Systems Division</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.316187</relevance>
-            <count>5</count>
-            <text>Newsreview</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.312183</relevance>
-            <count>1</count>
-            <text>Wright Patterson Air Force Base</text>
+            <type>Company</type>
+            <relevance>0.285907</relevance>
+            <count>2</count>
+            <text>Hughes Aircraft Co.</text>
             <disambiguated>
-                <name>Wright-Patterson Air Force Base</name>
-                <subType>Location</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Airport</subType>
-                <geo>39.823055555555555 -84.04944444444445</geo>
-                <website>http://www.wpafb.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Wright-Patterson_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013jsh</freebase>
-                <yago>http://yago-knowledge.org/resource/Wright-Patterson_Air_Force_Base</yago>
+                <name>Hughes Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
+                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.310384</relevance>
+            <relevance>0.284994</relevance>
             <count>1</count>
             <text>Edwards Air Force Base</text>
             <disambiguated>
@@ -170,21 +165,61 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.300147</relevance>
-            <count>2</count>
-            <text>Hughes Aircraft Co.</text>
+            <type>Facility</type>
+            <relevance>0.284288</relevance>
+            <count>1</count>
+            <text>Wright Patterson Air Force Base</text>
             <disambiguated>
-                <name>Hughes Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
+                <name>Wright-Patterson Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>39.823055555555555 -84.04944444444445</geo>
+                <website>http://www.wpafb.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Wright-Patterson_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013jsh</freebase>
+                <yago>http://yago-knowledge.org/resource/Wright-Patterson_Air_Force_Base</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.288631</relevance>
+            <relevance>0.283826</relevance>
+            <count>1</count>
+            <text>Peterson Air Force Base</text>
+            <disambiguated>
+                <name>Peterson Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>38.80583333333333 -104.70083333333334</geo>
+                <website>http://www.peterson.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Peterson_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03g9zr</freebase>
+                <yago>http://yago-knowledge.org/resource/Peterson_Air_Force_Base</yago>
+                <geonames>http://sws.geonames.org/6301689/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.283685</relevance>
+            <count>1</count>
+            <text>U.S. Air Force Academy</text>
+            <disambiguated>
+                <name>United States Air Force Academy</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.usafa.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force_Academy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0k9wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwKm0xZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force_Academy</yago>
+                <geonames>http://sws.geonames.org/5442474/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.259127</relevance>
             <count>1</count>
             <text>Eglin Air Force Base</text>
             <disambiguated>
@@ -198,8 +233,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.259035</relevance>
+            <count>3</count>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.256655</relevance>
+            <count>3</count>
+            <text>Department of Defense</text>
+            <disambiguated>
+                <name>United States Department of Defense</name>
+                <subType>ArmedForce</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.defenselink.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.286167</relevance>
+            <relevance>0.2527</relevance>
             <count>6</count>
             <text>United States</text>
             <disambiguated>
@@ -218,114 +277,55 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.266659</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.252244</relevance>
             <count>3</count>
-            <text>Department of Defense</text>
-            <disambiguated>
-                <name>United States Department of Defense</name>
-                <subType>ArmedForce</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.defenselink.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
-            </disambiguated>
+            <text>Defense Daily</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.262983</relevance>
-            <count>4</count>
-            <text>Lewis Rinker</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.262876</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.252218</relevance>
             <count>3</count>
-            <text>official</text>
+            <text>Georgia</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.255804</relevance>
+            <relevance>0.252127</relevance>
             <count>4</count>
             <text>DOD</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.255694</relevance>
-            <count>1</count>
-            <text>Peterson Air Force Base</text>
+            <type>Company</type>
+            <relevance>0.246148</relevance>
+            <count>5</count>
+            <text>ASD</text>
             <disambiguated>
-                <name>Peterson Air Force Base</name>
+                <name>American School for the Deaf</name>
                 <subType>Location</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Airport</subType>
-                <geo>38.80583333333333 -104.70083333333334</geo>
-                <website>http://www.peterson.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Peterson_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03g9zr</freebase>
-                <yago>http://yago-knowledge.org/resource/Peterson_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/6301689/</geonames>
+                <subType>School</subType>
+                <geo>41.771 -72.7473</geo>
+                <website>http://www.asd-1817.org/</website>
+                <dbpedia>http://dbpedia.org/resource/American_School_for_the_Deaf</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cjmc9</freebase>
+                <yago>http://yago-knowledge.org/resource/American_School_for_the_Deaf</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.251471</relevance>
-            <count>1</count>
-            <text>U.S. Air Force Academy</text>
+            <relevance>0.242144</relevance>
+            <count>3</count>
+            <text>SPACECOM</text>
             <disambiguated>
-                <name>United States Air Force Academy</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.usafa.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force_Academy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0k9wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwKm0xZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force_Academy</yago>
-                <geonames>http://sws.geonames.org/5442474/</geonames>
+                <name>Spacecom</name>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Spacecom</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0277869</freebase>
+                <yago>http://yago-knowledge.org/resource/Spacecom</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251082</relevance>
-            <count>6</count>
-            <text>ADATS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.246852</relevance>
-            <count>6</count>
-            <text>AMRAAM</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.242298</relevance>
-            <count>2</count>
-            <text>McDonnell Douglas Corp.</text>
-            <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240963</relevance>
-            <count>1</count>
-            <text>U.S. Air Force Space Technology Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.233795</relevance>
+            <relevance>0.241838</relevance>
             <count>4</count>
             <text>Boeing</text>
             <disambiguated>
@@ -343,14 +343,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.230831</relevance>
-            <count>3</count>
-            <text>Defense Daily</text>
+            <type>Organization</type>
+            <relevance>0.240338</relevance>
+            <count>1</count>
+            <text>U.S. Air Force Space Technology Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.230179</relevance>
+            <relevance>0.239891</relevance>
             <count>2</count>
             <text>Strategic Defense Initiative</text>
             <disambiguated>
@@ -361,58 +361,24 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.229261</relevance>
-            <count>1</count>
-            <text>Defense Contract Audit Agency</text>
-            <disambiguated>
-                <name>Defense Contract Audit Agency</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/Defense_Contract_Audit_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05q1f7</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.228999</relevance>
-            <count>3</count>
-            <text>SPACECOM</text>
-            <disambiguated>
-                <name>Spacecom</name>
-                <subType>Company</subType>
-                <dbpedia>http://dbpedia.org/resource/Spacecom</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0277869</freebase>
-                <yago>http://yago-knowledge.org/resource/Spacecom</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.22343</relevance>
-            <count>1</count>
-            <text>Armament division</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.222812</relevance>
-            <count>1</count>
-            <text>Suwon Air Base</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.222573</relevance>
+            <type>Company</type>
+            <relevance>0.239433</relevance>
             <count>2</count>
-            <text>OIG</text>
+            <text>McDonnell Douglas Corp.</text>
             <disambiguated>
-                <name>Office of the Inspector General</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.ignet.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Office_of_the_Inspector_General</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02p3xf5</freebase>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.219988</relevance>
+            <relevance>0.235761</relevance>
             <count>1</count>
             <text>Military Airlift Command</text>
             <disambiguated>
@@ -425,67 +391,100 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.218475</relevance>
+            <type>Person</type>
+            <relevance>0.23388</relevance>
             <count>1</count>
-            <text>Rinker</text>
+            <text>Albrecht Durer</text>
+            <disambiguated>
+                <name>Albrecht D&#xFC;rer</name>
+                <subType>VisualArtist</subType>
+                <dbpedia>http://dbpedia.org/resource/Albrecht_D&#xFC;rer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0z6n</freebase>
+                <yago>http://yago-knowledge.org/resource/Albrecht_D%C3%BCrer</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.232921</relevance>
+            <count>2</count>
+            <text>Smithsonian Institution</text>
+            <disambiguated>
+                <name>Smithsonian Institution</name>
+                <subType>Location</subType>
+                <subType>TouristAttraction</subType>
+                <subType>AwardWinner</subType>
+                <subType>Museum</subType>
+                <geo>38.8888 -77.026</geo>
+                <website>http://www.si.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
+                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
+                <geonames>http://sws.geonames.org/4140525/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.231512</relevance>
+            <count>1</count>
+            <text>Ptolemy</text>
+            <disambiguated>
+                <name>Ptolemy</name>
+                <subType>Astronomer</subType>
+                <dbpedia>http://dbpedia.org/resource/Ptolemy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05_0t</freebase>
+                <yago>http://yago-knowledge.org/resource/Ptolemy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.228022</relevance>
+            <count>1</count>
+            <text>weapons systems</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224017</relevance>
+            <count>6</count>
+            <text>AMRAAM</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.223273</relevance>
+            <count>6</count>
+            <text>ADATS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.221427</relevance>
+            <count>1</count>
+            <text>Defense Contract Audit Agency</text>
+            <disambiguated>
+                <name>Defense Contract Audit Agency</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/Defense_Contract_Audit_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05q1f7</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.217175</relevance>
+            <relevance>0.221299</relevance>
             <count>1</count>
-            <text>White Sands Missile Range</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.216496</relevance>
-            <count>5</count>
-            <text>ASD</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.215506</relevance>
-            <count>2</count>
-            <text>deputy inspector general</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.214399</relevance>
-            <count>1</count>
-            <text>Johns Hopkins University</text>
+            <text>National Museum of American History</text>
             <disambiguated>
-                <name>Johns Hopkins University</name>
+                <name>National Museum of American History</name>
+                <subType>Organization</subType>
                 <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.jhu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Johns_Hopkins_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09kvv</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWSZk5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Johns_Hopkins_University</yago>
-                <geonames>http://sws.geonames.org/4359528/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.213752</relevance>
-            <count>1</count>
-            <text>George Washington University</text>
-            <disambiguated>
-                <name>George Washington University</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>38.90075 -77.0471</geo>
-                <website>http://www.gwu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/George_Washington_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01nnsv</freebase>
-                <geonames>http://sws.geonames.org/4138871/</geonames>
+                <subType>Building</subType>
+                <subType>Museum</subType>
+                <geo>38.8913 -77.03</geo>
+                <dbpedia>http://dbpedia.org/resource/National_Museum_of_American_History</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.033xkz</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Museum_of_American_History</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.213066</relevance>
+            <relevance>0.220806</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -507,109 +506,76 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.211607</relevance>
+            <relevance>0.215543</relevance>
             <count>1</count>
-            <text>Northrop F-20</text>
+            <text>North American Aircraft Operations</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.210978</relevance>
+            <type>Person</type>
+            <relevance>0.215485</relevance>
             <count>1</count>
-            <text>Raytheon Co.</text>
+            <text>Willem Janszoon Blaeu</text>
             <disambiguated>
-                <name>Raytheon</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <website>http://www.raytheon.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Raytheon</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01ky8y</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwKFxrZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Raytheon</yago>
-                <crunchbase>http://www.crunchbase.com/company/raytheon</crunchbase>
+                <name>Willem Blaeu</name>
+                <dbpedia>http://dbpedia.org/resource/Willem_Blaeu</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03c43g</freebase>
+                <yago>http://yago-knowledge.org/resource/Willem_Blaeu</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.213163</relevance>
+            <count>1</count>
+            <text>Andreas Cellarius</text>
+            <disambiguated>
+                <name>Andreas Cellarius</name>
+                <dbpedia>http://dbpedia.org/resource/Andreas_Cellarius</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04pr4_</freebase>
+                <yago>http://yago-knowledge.org/resource/Andreas_Cellarius</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.213163</relevance>
+            <count>1</count>
+            <text>Tycho Brahe</text>
+            <disambiguated>
+                <name>Tycho Brahe</name>
+                <subType>Astronomer</subType>
+                <subType>ChivalricOrderMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Tycho_Brahe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07d2x</freebase>
+                <yago>http://yago-knowledge.org/resource/Tycho_Brahe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.212751</relevance>
+            <count>1</count>
+            <text>data processing</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.209545</relevance>
+            <count>2</count>
+            <text>Army</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.206185</relevance>
+            <count>3</count>
+            <text>Rep. Ken Kramer</text>
+            <disambiguated>
+                <name>Ken Kramer</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Ken_Kramer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026w9g8</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.210611</relevance>
-            <count>1</count>
-            <text>Northrop F-20 Ti-gershark</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.20958</relevance>
-            <count>1</count>
-            <text>United Kingdom</text>
-            <disambiguated>
-                <name>United Kingdom</name>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MeteorologicalService</subType>
-                <geo>51.5 -0.11666666666666667</geo>
-                <website>http://www.royal.gov.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.209531</relevance>
-            <count>1</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.209475</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.208707</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.207621</relevance>
+            <relevance>0.205881</relevance>
             <count>2</count>
             <text>Navy</text>
             <disambiguated>
@@ -621,6 +587,24 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.203264</relevance>
+            <count>1</count>
+            <text>Lahore</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.203093</relevance>
+            <count>4</count>
+            <text>Lewis Rinker</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.202859</relevance>
+            <count>1</count>
+            <text>printed circuit board</text>
         </entity>
     </entities>
 </results>

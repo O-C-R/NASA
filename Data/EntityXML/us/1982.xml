@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.840518</relevance>
+            <relevance>0.88773</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.408543</relevance>
+            <relevance>0.564098</relevance>
             <count>2</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -47,8 +47,41 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.541459</relevance>
+            <count>1</count>
+            <text>Dr. Wubbo Ockels</text>
+            <disambiguated>
+                <name>Wubbo Ockels</name>
+                <subType>Astronaut</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Wubbo_Ockels</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sb5_</freebase>
+                <yago>http://yago-knowledge.org/resource/Wubbo_Ockels</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.523099</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.50816</relevance>
+            <count>1</count>
+            <text>Dr. Ulf Merbold</text>
+            <disambiguated>
+                <name>Ulf Merbold</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Ulf_Merbold</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018pr7</freebase>
+                <yago>http://yago-knowledge.org/resource/Ulf_Merbold</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.39726</relevance>
+            <relevance>0.496575</relevance>
             <count>1</count>
             <text>Edwards Air Force Base</text>
             <disambiguated>
@@ -65,47 +98,36 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.377771</relevance>
+            <type>Country</type>
+            <relevance>0.442729</relevance>
             <count>1</count>
-            <text>Dr. Wubbo Ockels</text>
+            <text>West Germany</text>
             <disambiguated>
-                <name>Wubbo Ockels</name>
-                <subType>Astronaut</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Wubbo_Ockels</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sb5_</freebase>
-                <yago>http://yago-knowledge.org/resource/Wubbo_Ockels</yago>
+                <name>West Germany</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.373212</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.365449</relevance>
-            <count>1</count>
-            <text>Dr. Ulf Merbold</text>
-            <disambiguated>
-                <name>Ulf Merbold</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Ulf_Merbold</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018pr7</freebase>
-                <yago>http://yago-knowledge.org/resource/Ulf_Merbold</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.365084</relevance>
+            <relevance>0.412512</relevance>
             <count>1</count>
             <text>American Airlines</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.404749</relevance>
+            <count>1</count>
+            <text>Netherlands</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.354107</relevance>
+            <relevance>0.402557</relevance>
             <count>1</count>
             <text>U.S. Army</text>
             <disambiguated>
@@ -121,24 +143,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.318369</relevance>
-            <count>1</count>
-            <text>West Germany</text>
-            <disambiguated>
-                <name>West Germany</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.305072</relevance>
+            <relevance>0.38134</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -157,12 +163,6 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/California</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.288934</relevance>
-            <count>1</count>
-            <text>Netherlands</text>
         </entity>
     </entities>
 </results>

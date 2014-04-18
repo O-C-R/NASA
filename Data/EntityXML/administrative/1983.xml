@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.809517</relevance>
+            <relevance>0.826042</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.424018</relevance>
+            <relevance>0.4527</relevance>
             <count>3</count>
             <text>Administrator James M. Beggs</text>
             <disambiguated>
@@ -41,26 +41,53 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.410029</relevance>
-            <count>3</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.353827</relevance>
+            <relevance>0.408629</relevance>
             <count>1</count>
             <text>NASA administrator</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.308221</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.392678</relevance>
+            <count>3</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.312768</relevance>
             <count>1</count>
-            <text>ARC</text>
+            <text>Fairchild Industries</text>
+            <disambiguated>
+                <name>Fairchild Industries</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Fairchild_Industries</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qkqrj</freebase>
+                <yago>http://yago-knowledge.org/resource/Fairchild_Industries</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.299829</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.298988</relevance>
+            <count>1</count>
+            <text>Fairchild</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.292194</relevance>
+            <relevance>0.295085</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -79,28 +106,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.289837</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.260814</relevance>
-            <count>1</count>
-            <text>Fairchild</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.25489</relevance>
+            <relevance>0.263853</relevance>
             <count>1</count>
             <text>Dulles airport</text>
             <disambiguated>
@@ -118,26 +125,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.250282</relevance>
+            <type>Organization</type>
+            <relevance>0.263698</relevance>
             <count>1</count>
-            <text>Moscow</text>
+            <text>ARC</text>
             <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
+                <name>National Archives and Records Administration</name>
+                <subType>Location</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>HistoricPlace</subType>
+                <website>http://www.archives.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Archives_and_Records_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j97p</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.258943</relevance>
+            <count>1</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.247988</relevance>
+            <relevance>0.256634</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -155,33 +174,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.246685</relevance>
-            <count>1</count>
-            <text>project manager</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.246602</relevance>
-            <count>1</count>
-            <text>Fairchild Industries</text>
-            <disambiguated>
-                <name>Fairchild Industries</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Fairchild_Industries</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qkqrj</freebase>
-                <yago>http://yago-knowledge.org/resource/Fairchild_Industries</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.244216</relevance>
-            <count>1</count>
-            <text>Richard Fimmel</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.239238</relevance>
+            <relevance>0.24763</relevance>
             <count>1</count>
             <text>Paris</text>
             <disambiguated>
@@ -195,7 +189,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.237307</relevance>
+            <relevance>0.245868</relevance>
             <count>1</count>
             <text>Boeing</text>
             <disambiguated>
@@ -208,23 +202,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.236266</relevance>
+            <type>City</type>
+            <relevance>0.243656</relevance>
             <count>1</count>
-            <text>USSR</text>
+            <text>Moscow</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.231299</relevance>
+            <relevance>0.239783</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -243,7 +240,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.22883</relevance>
+            <relevance>0.237229</relevance>
             <count>1</count>
             <text>Baltimore</text>
             <disambiguated>
@@ -255,7 +252,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.227489</relevance>
+            <relevance>0.235702</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -276,8 +273,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.234805</relevance>
+            <count>1</count>
+            <text>blood system</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.233762</relevance>
+            <count>1</count>
+            <text>LA</text>
+            <disambiguated>
+                <name>Los Angeles</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.225186</relevance>
+            <relevance>0.233465</relevance>
             <count>1</count>
             <text>Virginia</text>
             <disambiguated>
@@ -295,32 +316,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.220215</relevance>
-            <count>1</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.220043</relevance>
-            <count>1</count>
-            <text>blood system</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.216857</relevance>
+            <relevance>0.231559</relevance>
             <count>1</count>
             <text>TASS</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.229564</relevance>
+            <count>1</count>
+            <text>project manager</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226519</relevance>
+            <count>1</count>
+            <text>Richard Fimmel</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.224686</relevance>
+            <count>1</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.20215</relevance>
+            <relevance>0.210301</relevance>
             <count>1</count>
             <text>D.C.</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.202018</relevance>
+            <relevance>0.210169</relevance>
             <count>1</count>
             <text>Md.</text>
         </entity>

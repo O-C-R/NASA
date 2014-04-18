@@ -7,14 +7,14 @@
     <entities>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.840439</relevance>
-            <count>37</count>
+            <relevance>0.845868</relevance>
+            <count>36</count>
             <text>communications satellite</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.694944</relevance>
-            <count>65</count>
+            <relevance>0.694071</relevance>
+            <count>64</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -35,13 +35,38 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.671977</relevance>
-            <count>61</count>
+            <relevance>0.671964</relevance>
+            <count>59</count>
             <text>ComSatCorp</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.5662</relevance>
+            <count>35</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.559283</relevance>
+            <count>38</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.577029</relevance>
+            <relevance>0.53605</relevance>
             <count>47</count>
             <text>United States</text>
             <disambiguated>
@@ -60,34 +85,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.569349</relevance>
-            <count>35</count>
-            <text>Wash.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.557086</relevance>
-            <count>38</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.533151</relevance>
-            <count>26</count>
+            <relevance>0.534694</relevance>
+            <count>24</count>
             <text>Soviet Union</text>
             <disambiguated>
                 <name>Soviet Union</name>
@@ -102,7 +102,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.511443</relevance>
+            <relevance>0.5265</relevance>
             <count>6</count>
             <text>Communications Satellite Corporation</text>
             <disambiguated>
@@ -113,27 +113,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.473449</relevance>
-            <count>13</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.465539</relevance>
-            <count>15</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.465409</relevance>
-            <count>8</count>
-            <text>satellite system</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.421614</relevance>
-            <count>13</count>
+            <relevance>0.506018</relevance>
+            <count>18</count>
             <text>Federal Communications Commission</text>
             <disambiguated>
                 <name>Federal Communications Commission</name>
@@ -147,44 +129,79 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.481891</relevance>
+            <count>10</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.399976</relevance>
+            <relevance>0.47455</relevance>
             <count>11</count>
             <text>earth station</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.456357</relevance>
+            <count>8</count>
+            <text>satellite system</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.387452</relevance>
-            <count>18</count>
+            <relevance>0.455349</relevance>
+            <count>19</count>
             <text>DOD</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.437717</relevance>
+            <count>14</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.384852</relevance>
+            <relevance>0.43164</relevance>
             <count>8</count>
             <text>NYT</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.378543</relevance>
-            <count>11</count>
-            <text>usaf</text>
+            <type>Person</type>
+            <relevance>0.405033</relevance>
+            <count>14</count>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.354471</relevance>
-            <count>8</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.352419</relevance>
+            <relevance>0.368421</relevance>
             <count>8</count>
             <text>Komsomolskaya Pravda</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.340246</relevance>
+            <count>7</count>
+            <text>Hawaii</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.333134</relevance>
+            <count>9</count>
+            <text>ComSatCorp</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.339122</relevance>
+            <relevance>0.332546</relevance>
             <count>7</count>
             <text>Andover</text>
             <disambiguated>
@@ -197,13 +214,39 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.332759</relevance>
-            <count>2</count>
-            <text>Communications Satellite Corp.</text>
+            <relevance>0.326486</relevance>
+            <count>5</count>
+            <text>United Press International</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.332755</relevance>
+            <relevance>0.323524</relevance>
+            <count>6</count>
+            <text>Balt</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.320031</relevance>
+            <count>8</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.319484</relevance>
+            <count>9</count>
+            <text>F. Sun</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.31918</relevance>
             <count>8</count>
             <text>Moscow</text>
             <disambiguated>
@@ -220,123 +263,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.325201</relevance>
-            <count>9</count>
-            <text>F. Sun</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.315537</relevance>
-            <count>5</count>
-            <text>scientific equipment</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.310675</relevance>
-            <count>5</count>
-            <text>Brewster Flat</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.302915</relevance>
-            <count>5</count>
-            <text>USN</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.297677</relevance>
-            <count>4</count>
-            <text>European Space Research Organization</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.294801</relevance>
-            <count>10</count>
-            <text>France</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.293309</relevance>
-            <count>6</count>
-            <text>Balt</text>
-        </entity>
-        <entity>
-            <type>OperatingSystem</type>
-            <relevance>0.291111</relevance>
-            <count>5</count>
-            <text>Geos</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.290246</relevance>
-            <count>5</count>
-            <text>United Press International</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.287711</relevance>
-            <count>4</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.286866</relevance>
-            <count>5</count>
-            <text>Trib.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.28646</relevance>
-            <count>8</count>
-            <text>Aeron.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.284336</relevance>
-            <count>4</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.281588</relevance>
-            <count>6</count>
-            <text>ComSatCorp</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.281038</relevance>
+            <relevance>0.317898</relevance>
             <count>7</count>
             <text>Hughes Aircraft Co.</text>
             <disambiguated>
@@ -348,114 +276,97 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.314115</relevance>
+            <count>2</count>
+            <text>Communications Satellite Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.304773</relevance>
+            <count>8</count>
+            <text>Aeron.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.297209</relevance>
+            <count>5</count>
+            <text>scientific equipment</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.278141</relevance>
+            <relevance>0.295501</relevance>
             <count>5</count>
             <text>England</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.273908</relevance>
+            <type>Company</type>
+            <relevance>0.289915</relevance>
             <count>5</count>
-            <text>Hawaii</text>
+            <text>usaf</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.289486</relevance>
+            <count>4</count>
+            <text>Europe</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289007</relevance>
+            <count>5</count>
+            <text>Navy</text>
             <disambiguated>
-                <name>Hawaii</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>USState</subType>
-                <website>http://www.hawaii.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Hawaii</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03gh4</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViM6pwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/hi</census>
-                <yago>http://yago-knowledge.org/resource/Hawaii</yago>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.286398</relevance>
+            <count>5</count>
+            <text>Krasnaya Zvezda</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.265542</relevance>
+            <relevance>0.28097</relevance>
             <count>3</count>
             <text>communications services</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.264858</relevance>
+            <type>Country</type>
+            <relevance>0.28076</relevance>
+            <count>7</count>
+            <text>France</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.280282</relevance>
             <count>4</count>
-            <text>President</text>
+            <text>Vladivostok</text>
+            <disambiguated>
+                <name>Vladivostok</name>
+                <website>http://www.vlc.ru/</website>
+                <dbpedia>http://dbpedia.org/resource/Vladivostok</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fd_x</freebase>
+                <yago>http://yago-knowledge.org/resource/Vladivostok</yago>
+                <geonames>http://sws.geonames.org/2013348/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.259844</relevance>
-            <count>4</count>
-            <text>Wallops Station</text>
+            <relevance>0.270223</relevance>
+            <count>5</count>
+            <text>Brewster Flat</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.259539</relevance>
-            <count>4</count>
-            <text>Philco Corp.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259086</relevance>
-            <count>1</count>
-            <text>Joint Meteorological Satellite Program Office</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.258341</relevance>
-            <count>1</count>
-            <text>Aerospace Research Satellite</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.258102</relevance>
-            <count>3</count>
-            <text>International Atomic Energy Agency</text>
-            <disambiguated>
-                <name>International Atomic Energy Agency</name>
-                <subType>AwardWinner</subType>
-                <geo>48.23388888888889 16.41611111111111</geo>
-                <website>http://www.iaea.org</website>
-                <dbpedia>http://dbpedia.org/resource/International_Atomic_Energy_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03w28</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvk5wBpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/International_Atomic_Energy_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.256994</relevance>
-            <count>3</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.256427</relevance>
-            <count>4</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.255925</relevance>
+            <relevance>0.268168</relevance>
             <count>5</count>
             <text>AT&amp;T</text>
             <disambiguated>
@@ -470,16 +381,122 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.264687</relevance>
+            <count>4</count>
+            <text>Paumalu</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.264069</relevance>
+            <count>3</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Technology</type>
-            <relevance>0.255652</relevance>
+            <relevance>0.262465</relevance>
             <count>2</count>
             <text>Applications Technology Satellites</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.250584</relevance>
+            <type>Company</type>
+            <relevance>0.261956</relevance>
+            <count>4</count>
+            <text>Philco Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.257523</relevance>
+            <count>4</count>
+            <text>European Space Research Organization</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.25713</relevance>
+            <count>4</count>
+            <text>Atlantic Ocean</text>
+            <disambiguated>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.256975</relevance>
+            <count>4</count>
+            <text>Wallops Station</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.256178</relevance>
+            <count>4</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>OperatingSystem</type>
+            <relevance>0.253721</relevance>
             <count>5</count>
-            <text>Krasnaya Zvezda</text>
+            <text>geos</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.252307</relevance>
+            <count>4</count>
+            <text>Paris</text>
+            <disambiguated>
+                <name>Paris</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>FrenchDepartment</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.paris.fr</website>
+                <dbpedia>http://dbpedia.org/resource/Paris</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05qtj</freebase>
+                <yago>http://yago-knowledge.org/resource/Paris</yago>
+                <geonames>http://sws.geonames.org/2988507/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.248746</relevance>
+            <count>4</count>
+            <text>France</text>
+            <disambiguated>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

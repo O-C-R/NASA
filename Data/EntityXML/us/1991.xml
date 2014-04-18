@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.782235</relevance>
+            <relevance>0.940955</relevance>
             <count>16</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,24 +29,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.542578</relevance>
-            <count>5</count>
-            <text>LA Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.508003</relevance>
+            <relevance>0.548929</relevance>
             <count>10</count>
             <text>The New York Times</text>
             <disambiguated>
@@ -65,7 +48,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.490688</relevance>
+            <relevance>0.485916</relevance>
             <count>4</count>
             <text>Edwards Air Force Base</text>
             <disambiguated>
@@ -83,13 +66,46 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.435007</relevance>
-            <count>6</count>
-            <text>AP</text>
+            <relevance>0.43244</relevance>
+            <count>5</count>
+            <text>LA Times</text>
+            <disambiguated>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.393357</relevance>
+            <count>4</count>
+            <text>California</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.3969</relevance>
+            <relevance>0.377264</relevance>
             <count>4</count>
             <text>American Astronomical Society</text>
             <disambiguated>
@@ -101,14 +117,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.380651</relevance>
-            <count>5</count>
-            <text>California</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.359775</relevance>
+            <relevance>0.357995</relevance>
             <count>1</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -127,25 +137,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.359601</relevance>
-            <count>2</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.318147</relevance>
+            <relevance>0.336861</relevance>
             <count>1</count>
             <text>Air Force Space Systems Division</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.300141</relevance>
-            <count>4</count>
-            <text>USA Today</text>
+            <type>PrintMedia</type>
+            <relevance>0.333463</relevance>
+            <count>6</count>
+            <text>AP</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.291029</relevance>
+            <relevance>0.304933</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -164,8 +168,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.295117</relevance>
+            <count>4</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.288859</relevance>
+            <count>1</count>
+            <text>Space Company</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.287857</relevance>
+            <relevance>0.285173</relevance>
             <count>1</count>
             <text>45th Space Wing</text>
             <disambiguated>
@@ -177,14 +193,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.280466</relevance>
-            <count>2</count>
-            <text>Columbia</text>
+            <type>Organization</type>
+            <relevance>0.284897</relevance>
+            <count>1</count>
+            <text>American Institute of Aeronautics and Astronautics</text>
+            <disambiguated>
+                <name>American Institute of Aeronautics and Astronautics</name>
+                <subType>Non-ProfitOrganisation</subType>
+                <website>http://www.aiaa.org/</website>
+                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Aeronautics_and_Astronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03474k</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.276753</relevance>
+            <count>1</count>
+            <text>Moffett Field</text>
+            <disambiguated>
+                <name>Moffett Federal Airfield</name>
+                <subType>Location</subType>
+                <subType>Airport</subType>
+                <subType>MilitaryPost</subType>
+                <geo>37.415 -122.04833333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Moffett_Federal_Airfield</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01286g</freebase>
+                <yago>http://yago-knowledge.org/resource/Moffett_Federal_Airfield</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.278601</relevance>
+            <relevance>0.276339</relevance>
+            <count>1</count>
+            <text>Los Angeles Air Force</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.273631</relevance>
+            <count>1</count>
+            <text>Air Force</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.272951</relevance>
             <count>2</count>
             <text>Defense Department</text>
             <disambiguated>
@@ -201,89 +252,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.262245</relevance>
+            <type>Company</type>
+            <relevance>0.263045</relevance>
             <count>1</count>
-            <text>Soviet Union</text>
+            <text>Rockwell International</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Region</type>
-            <relevance>0.259834</relevance>
+            <relevance>0.259579</relevance>
             <count>1</count>
             <text>East Coast</text>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.259546</relevance>
+            <type>JobTitle</type>
+            <relevance>0.258105</relevance>
             <count>1</count>
-            <text>Ultraviolet Imaging Telescope</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.25939</relevance>
-            <count>1</count>
-            <text>Los Angeles Air Force</text>
+            <text>Congressman</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.259324</relevance>
-            <count>1</count>
-            <text>Los Angeles Daily News</text>
-            <disambiguated>
-                <name>Los Angeles Daily News (historic)</name>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Daily_News_(historic)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cmd5qc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.258292</relevance>
-            <count>2</count>
-            <text>Magellan</text>
-            <disambiguated>
-                <name>Excite</name>
-                <subType>Website</subType>
-                <subType>VentureFundedCompany</subType>
-                <dbpedia>http://dbpedia.org/resource/Excite</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02msgp</freebase>
-                <yago>http://yago-knowledge.org/resource/Excite</yago>
-                <crunchbase>http://www.crunchbase.com/company/excite</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.256782</relevance>
-            <count>2</count>
-            <text>Mercury</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.25624</relevance>
-            <count>1</count>
-            <text>Seattle</text>
-            <disambiguated>
-                <name>Seattle</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.seattle.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Seattle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d9jr</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.25471</relevance>
+            <relevance>0.25747</relevance>
             <count>1</count>
             <text>Newsweek</text>
             <disambiguated>
@@ -297,13 +294,13 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.254569</relevance>
+            <relevance>0.254298</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.247484</relevance>
+            <relevance>0.253833</relevance>
             <count>1</count>
             <text>California Institute of Technology</text>
             <disambiguated>
@@ -322,94 +319,36 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.246717</relevance>
+            <type>Person</type>
+            <relevance>0.2493</relevance>
             <count>1</count>
-            <text>Space Company</text>
+            <text>Ali Abu Taha</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.246635</relevance>
+            <relevance>0.247796</relevance>
             <count>1</count>
-            <text>American Institute of Aeronautics and Astronautics</text>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>American Institute of Aeronautics and Astronautics</name>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.aiaa.org/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Aeronautics_and_Astronautics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03474k</freebase>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.246481</relevance>
+            <relevance>0.246524</relevance>
             <count>1</count>
-            <text>Ted Stecher</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.241722</relevance>
-            <count>1</count>
-            <text>Maat Mons</text>
-            <disambiguated>
-                <name>Maat Mons</name>
-                <subType>Location</subType>
-                <subType>Mountain</subType>
-                <dbpedia>http://dbpedia.org/resource/Maat_Mons</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.062j11</freebase>
-                <yago>http://yago-knowledge.org/resource/Maat_Mons</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.241563</relevance>
-            <count>1</count>
-            <text>Principal Investigator</text>
+            <text>Tom Campbell</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.240206</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.23967</relevance>
-            <count>1</count>
-            <text>Antigua</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.23895</relevance>
-            <count>1</count>
-            <text>Moffett Field</text>
-            <disambiguated>
-                <name>Moffett Federal Airfield</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <subType>MilitaryPost</subType>
-                <geo>37.415 -122.04833333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Moffett_Federal_Airfield</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01286g</freebase>
-                <yago>http://yago-knowledge.org/resource/Moffett_Federal_Airfield</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.233001</relevance>
+            <relevance>0.24618</relevance>
             <count>1</count>
             <text>Albuquerque</text>
             <disambiguated>
@@ -424,8 +363,37 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.244309</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.231769</relevance>
+            <relevance>0.243816</relevance>
+            <count>1</count>
+            <text>Navy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.243136</relevance>
+            <count>1</count>
+            <text>Air Force Phillips Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.242804</relevance>
             <count>1</count>
             <text>Harvard University</text>
             <disambiguated>
@@ -443,104 +411,85 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.230629</relevance>
+            <type>City</type>
+            <relevance>0.240742</relevance>
             <count>1</count>
-            <text>Cryogenic Infrared Radiation Instrumentation</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.23009</relevance>
-            <count>1</count>
-            <text>Princeton University</text>
+            <text>Washington</text>
             <disambiguated>
-                <name>Princeton University</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>40.34873 -74.65931</geo>
-                <website>http://www.princeton.edu</website>
-                <dbpedia>http://dbpedia.org/resource/Princeton_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05zl0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvV1x_5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Princeton_University</yago>
-                <geonames>http://sws.geonames.org/5102955/</geonames>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.22992</relevance>
-            <count>2</count>
-            <text>Jim Gunn</text>
+            <type>City</type>
+            <relevance>0.239641</relevance>
+            <count>1</count>
+            <text>Alexandria</text>
+            <disambiguated>
+                <name>Alexandria, New York</name>
+                <dbpedia>http://dbpedia.org/resource/Alexandria,_New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0y0nl</freebase>
+                <yago>http://yago-knowledge.org/resource/Alexandria,_New_York</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.239415</relevance>
+            <count>1</count>
+            <text>Antigua</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.229322</relevance>
+            <relevance>0.237742</relevance>
             <count>1</count>
-            <text>Cape Canaveral</text>
+            <text>Pacific</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.237385</relevance>
+            <count>1</count>
+            <text>Virginia</text>
             <disambiguated>
-                <name>Cape Canaveral</name>
+                <name>Virginia</name>
                 <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.22774</relevance>
-            <count>1</count>
-            <text>Rockwell International</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.22746</relevance>
+            <relevance>0.236905</relevance>
             <count>2</count>
-            <text>UPI</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.226872</relevance>
-            <count>1</count>
-            <text>Don Haley</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.22661</relevance>
-            <count>1</count>
-            <text>Cirris</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.22614</relevance>
-            <count>1</count>
-            <text>WSJ</text>
+            <text>Magellan</text>
             <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+                <name>Excite</name>
+                <subType>Website</subType>
+                <subType>VentureFundedCompany</subType>
+                <dbpedia>http://dbpedia.org/resource/Excite</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02msgp</freebase>
+                <yago>http://yago-knowledge.org/resource/Excite</yago>
+                <crunchbase>http://www.crunchbase.com/company/excite</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.225827</relevance>
+            <relevance>0.236845</relevance>
             <count>1</count>
             <text>Christian Science Monitor</text>
             <disambiguated>
@@ -554,26 +503,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.225583</relevance>
-            <count>1</count>
-            <text>Air Force Phillips Laboratory</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.224916</relevance>
-            <count>1</count>
-            <text>Alexandria</text>
-            <disambiguated>
-                <name>Alexandria, New York</name>
-                <dbpedia>http://dbpedia.org/resource/Alexandria,_New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0y0nl</freebase>
-                <yago>http://yago-knowledge.org/resource/Alexandria,_New_York</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.224222</relevance>
+            <relevance>0.235389</relevance>
             <count>1</count>
             <text>Paul Horowitz</text>
             <disambiguated>
@@ -586,15 +517,118 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.223879</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.234834</relevance>
             <count>1</count>
-            <text>Sacramento Mountains</text>
+            <text>New Mexico</text>
             <disambiguated>
-                <name>Sacramento Mountains (New Mexico)</name>
-                <dbpedia>http://dbpedia.org/resource/Sacramento_Mountains_(New_Mexico)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07tv9t</freebase>
+                <name>New Mexico</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.newmexico.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNcZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/New_Mexico</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.233672</relevance>
+            <count>1</count>
+            <text>Los Angeles Daily News</text>
+            <disambiguated>
+                <name>Los Angeles Daily News (historic)</name>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Daily_News_(historic)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cmd5qc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.233403</relevance>
+            <count>1</count>
+            <text>Missile Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23164</relevance>
+            <count>1</count>
+            <text>U.S. District Court</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.230993</relevance>
+            <count>1</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.229384</relevance>
+            <count>2</count>
+            <text>Columbia</text>
+            <disambiguated>
+                <name>Columbia, Fayette County, Indiana</name>
+                <geo>39.576388888888886 -85.20722222222223</geo>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_Fayette_County,_Indiana</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03hh1kw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.226962</relevance>
+            <count>1</count>
+            <text>San Ramon</text>
+            <disambiguated>
+                <name>San Ramon, California</name>
+                <geo>37.78 -121.97805555555556</geo>
+                <website>http://www.ci.san-ramon.ca.us</website>
+                <dbpedia>http://dbpedia.org/resource/San_Ramon,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0qyxy</freebase>
+                <yago>http://yago-knowledge.org/resource/San_Ramon,_California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.223333</relevance>
+            <count>1</count>
+            <text>Maat Mons</text>
+            <disambiguated>
+                <name>Maat Mons</name>
+                <subType>Location</subType>
+                <subType>Mountain</subType>
+                <dbpedia>http://dbpedia.org/resource/Maat_Mons</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.062j11</freebase>
+                <yago>http://yago-knowledge.org/resource/Maat_Mons</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.222774</relevance>
+            <count>1</count>
+            <text>Planetary Society</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.222677</relevance>
+            <count>2</count>
+            <text>Mercury</text>
         </entity>
     </entities>
 </results>

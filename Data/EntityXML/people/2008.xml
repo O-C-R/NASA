@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.851308</relevance>
+            <relevance>0.86724</relevance>
             <count>8</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,55 +29,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.4981</relevance>
-            <count>2</count>
-            <text>Hope A. Ishii</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.457438</relevance>
-            <count>1</count>
-            <text>Lawrence Livermore National Laboratory</text>
-            <disambiguated>
-                <name>Lawrence Livermore National Laboratory</name>
-                <subType>OperatingSystemDeveloper</subType>
-                <website>http://www.llnl.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Lawrence_Livermore_National_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09qyt</freebase>
-                <yago>http://yago-knowledge.org/resource/Lawrence_Livermore_National_Laboratory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.413347</relevance>
-            <count>1</count>
-            <text>Livermore</text>
-            <disambiguated>
-                <name>Livermore, California</name>
-                <geo>37.68194444444445 -121.76805555555555</geo>
-                <website>http://www.ci.livermore.ca.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Livermore,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qxzs</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/alameda_county/livermore_pleasanton/livermore</census>
-                <yago>http://yago-knowledge.org/resource/Livermore,_California</yago>
-                <geonames>http://sws.geonames.org/5367440/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.39571</relevance>
+            <relevance>0.489521</relevance>
             <count>2</count>
             <text>Frank Vance Turner</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.377254</relevance>
+            <relevance>0.468423</relevance>
             <count>2</count>
             <text>John A. Dunham</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.374603</relevance>
+            <relevance>0.40873</relevance>
             <count>2</count>
             <text>California</text>
             <disambiguated>
@@ -99,7 +63,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.353824</relevance>
+            <relevance>0.404672</relevance>
             <count>1</count>
             <text>Sonoma County Airport</text>
             <disambiguated>
@@ -111,7 +75,59 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.341722</relevance>
+            <relevance>0.386706</relevance>
+            <count>2</count>
+            <text>Hope A. Ishii</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.381019</relevance>
+            <count>1</count>
+            <text>Lawrence Livermore National Laboratory</text>
+            <disambiguated>
+                <name>Lawrence Livermore National Laboratory</name>
+                <subType>OperatingSystemDeveloper</subType>
+                <website>http://www.llnl.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Lawrence_Livermore_National_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09qyt</freebase>
+                <yago>http://yago-knowledge.org/resource/Lawrence_Livermore_National_Laboratory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.373801</relevance>
+            <count>1</count>
+            <text>Livermore</text>
+            <disambiguated>
+                <name>Livermore, California</name>
+                <geo>37.68194444444445 -121.76805555555555</geo>
+                <website>http://www.ci.livermore.ca.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Livermore,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0qxzs</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/alameda_county/livermore_pleasanton/livermore</census>
+                <yago>http://yago-knowledge.org/resource/Livermore,_California</yago>
+                <geonames>http://sws.geonames.org/5367440/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.366001</relevance>
+            <count>1</count>
+            <text>Santa Rosa</text>
+            <disambiguated>
+                <name>Santa Rosa, California</name>
+                <geo>38.448611 -122.704722</geo>
+                <website>http://ci.santa-rosa.ca.us</website>
+                <dbpedia>http://dbpedia.org/resource/Santa_Rosa,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r785</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/sonoma_county/santa_rosa</census>
+                <yago>http://yago-knowledge.org/resource/Santa_Rosa,_California</yago>
+                <geonames>http://sws.geonames.org/5393287/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.336214</relevance>
             <count>1</count>
             <text>John Robert</text>
             <disambiguated>
@@ -121,14 +137,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.334603</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.335137</relevance>
             <count>1</count>
-            <text>John P. Bradley</text>
+            <text>El Dorado Hills</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.332159</relevance>
+            <relevance>0.325194</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -144,36 +160,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.323134</relevance>
-            <count>1</count>
-            <text>John Johnson Jr.</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.316544</relevance>
-            <count>1</count>
-            <text>Santa Rosa</text>
-            <disambiguated>
-                <name>Santa Rosa, California</name>
-                <geo>38.448611 -122.704722</geo>
-                <website>http://ci.santa-rosa.ca.us</website>
-                <dbpedia>http://dbpedia.org/resource/Santa_Rosa,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r785</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/sonoma_county/santa_rosa</census>
-                <yago>http://yago-knowledge.org/resource/Santa_Rosa,_California</yago>
-                <geonames>http://sws.geonames.org/5393287/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.311762</relevance>
-            <count>1</count>
-            <text>El Dorado Hills</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.297653</relevance>
+            <relevance>0.319451</relevance>
             <count>1</count>
             <text>Carson City</text>
             <disambiguated>
@@ -190,13 +178,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.291803</relevance>
+            <relevance>0.315772</relevance>
             <count>1</count>
-            <text>Bob'' Basham</text>
+            <text>John Johnson Jr.</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.286823</relevance>
+            <relevance>0.307839</relevance>
             <count>1</count>
             <text>Nevada</text>
             <disambiguated>
@@ -212,6 +200,18 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvViNMpwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Nevada</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.28616</relevance>
+            <count>1</count>
+            <text>Bob'' Basham</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.269045</relevance>
+            <count>1</count>
+            <text>John P. Bradley</text>
         </entity>
     </entities>
 </results>

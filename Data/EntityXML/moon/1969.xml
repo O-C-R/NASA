@@ -6,21 +6,21 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>Organization</type>
+            <relevance>0.907174</relevance>
+            <count>44</count>
+            <text>Apollo</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.861175</relevance>
-            <count>30</count>
+            <relevance>0.869409</relevance>
+            <count>31</count>
             <text>Apollo</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.843493</relevance>
-            <count>45</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.796373</relevance>
-            <count>77</count>
+            <relevance>0.797437</relevance>
+            <count>74</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
                 <name>NASA</name>
@@ -41,8 +41,8 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.669765</relevance>
-            <count>45</count>
+            <relevance>0.671077</relevance>
+            <count>43</count>
             <text>New York Times</text>
             <disambiguated>
                 <name>The New York Times</name>
@@ -60,7 +60,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.665017</relevance>
+            <relevance>0.58424</relevance>
             <count>43</count>
             <text>United States</text>
             <disambiguated>
@@ -80,7 +80,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.540321</relevance>
+            <relevance>0.523842</relevance>
             <count>14</count>
             <text>KSC</text>
             <disambiguated>
@@ -97,8 +97,66 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.473504</relevance>
+            <count>9</count>
+            <text>Washington</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.470907</relevance>
+            <count>10</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.45895</relevance>
+            <count>10</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.450103</relevance>
+            <count>8</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.441498</relevance>
+            <count>7</count>
+            <text>msfc</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.423394</relevance>
+            <count>7</count>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.450188</relevance>
+            <relevance>0.422011</relevance>
             <count>13</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -125,8 +183,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.420735</relevance>
+            <count>4</count>
+            <text>Lunar Receiving Laboratory</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.432493</relevance>
+            <relevance>0.418852</relevance>
             <count>9</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -139,90 +203,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.427034</relevance>
-            <count>4</count>
-            <text>Lunar Receiving Laboratory</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.420118</relevance>
-            <count>7</count>
-            <text>Director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.41993</relevance>
-            <count>11</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.418335</relevance>
-            <count>9</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.398353</relevance>
-            <count>8</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.387318</relevance>
+            <relevance>0.405624</relevance>
             <count>3</count>
             <text>Apollo Applications</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.386363</relevance>
-            <count>10</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Continent</type>
-            <relevance>0.38248</relevance>
+            <relevance>0.390061</relevance>
             <count>8</count>
             <text>America</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.376725</relevance>
-            <count>7</count>
-            <text>Moscow</text>
+            <type>StateOrCounty</type>
+            <relevance>0.382186</relevance>
+            <count>5</count>
+            <text>Fla.</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.37694</relevance>
+            <count>6</count>
+            <text>Director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.369728</relevance>
-            <count>3</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.366442</relevance>
+            <relevance>0.356746</relevance>
             <count>6</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -249,8 +269,29 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.354444</relevance>
+            <count>3</count>
+            <text>Apollo</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.357151</relevance>
+            <relevance>0.348898</relevance>
+            <count>4</count>
+            <text>Saturn</text>
+            <disambiguated>
+                <name>Saturn Corporation</name>
+                <subType>AwardWinner</subType>
+                <website>http://saturn.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Saturn_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015g8h</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwNKAIpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Saturn_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.348882</relevance>
             <count>5</count>
             <text>MSC</text>
             <disambiguated>
@@ -262,8 +303,50 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.348436</relevance>
+            <count>5</count>
+            <text>Washington Evening Star</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.344353</relevance>
+            <count>4</count>
+            <text>Cape Kennedy</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.339534</relevance>
+            <count>5</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.335334</relevance>
+            <count>2</count>
+            <text>Apollo Telescope Mount</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.355062</relevance>
+            <relevance>0.328249</relevance>
+            <count>7</count>
+            <text>Moon</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.327472</relevance>
+            <count>2</count>
+            <text>Lunar Receiving Laboratory</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.317029</relevance>
+            <count>7</count>
+            <text>Commander Armstrong</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.312475</relevance>
             <count>6</count>
             <text>Dr. Wernher von Braun</text>
             <disambiguated>
@@ -280,64 +363,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.350021</relevance>
-            <count>6</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.348391</relevance>
-            <count>7</count>
-            <text>msfc</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.338016</relevance>
-            <count>4</count>
-            <text>Cape Kennedy</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.334512</relevance>
-            <count>5</count>
-            <text>solar system.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.331044</relevance>
-            <count>2</count>
-            <text>Apollo Telescope Mount</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.321467</relevance>
-            <count>7</count>
-            <text>Commander Armstrong</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.319473</relevance>
-            <count>5</count>
-            <text>Moon</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.313375</relevance>
+            <relevance>0.309815</relevance>
             <count>3</count>
             <text>Dr. George E. Mueller</text>
             <disambiguated>
@@ -350,118 +377,64 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.313083</relevance>
+            <relevance>0.307751</relevance>
             <count>3</count>
             <text>msfc Director</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.310749</relevance>
-            <count>5</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.304795</relevance>
-            <count>4</count>
-            <text>Sweden</text>
-            <disambiguated>
-                <name>Sweden</name>
-                <subType>SportsTeam</subType>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <website>http://www.sweden.se/</website>
-                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Sweden</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.303197</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.307564</relevance>
             <count>3</count>
-            <text>Reuters</text>
+            <text>Atlantic</text>
             <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.300728</relevance>
+            <count>3</count>
+            <text>Boeing Co.</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.302228</relevance>
+            <relevance>0.300444</relevance>
             <count>5</count>
             <text>Houston</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.301061</relevance>
-            <count>2</count>
-            <text>Lunar Receiving Laboratory</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.298613</relevance>
-            <count>5</count>
-            <text>Washington Evening Star</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.294689</relevance>
-            <count>3</count>
-            <text>Associate Administrator</text>
+            <disambiguated>
+                <name>Houston</name>
+                <website>http://www.houstontx.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.29463</relevance>
-            <count>4</count>
-            <text>Pope Paul VI</text>
-            <disambiguated>
-                <name>Pope Paul VI</name>
-                <subType>ReligiousLeader</subType>
-                <dbpedia>http://dbpedia.org/resource/Pope_Paul_VI</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05_k7</freebase>
-                <yago>http://yago-knowledge.org/resource/Pope_Paul_VI</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294413</relevance>
-            <count>3</count>
-            <text>Smithsonian Institution</text>
-            <disambiguated>
-                <name>Smithsonian Institution</name>
-                <subType>Location</subType>
-                <subType>TouristAttraction</subType>
-                <subType>AwardWinner</subType>
-                <subType>Museum</subType>
-                <geo>38.8888 -77.026</geo>
-                <website>http://www.si.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
-                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
-                <geonames>http://sws.geonames.org/4140525/</geonames>
-            </disambiguated>
+            <relevance>0.294031</relevance>
+            <count>5</count>
+            <text>Victor Cohn</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.294269</relevance>
+            <relevance>0.293021</relevance>
             <count>3</count>
             <text>U.K.</text>
             <disambiguated>
@@ -481,43 +454,81 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.294094</relevance>
-            <count>3</count>
-            <text>Chicago</text>
+            <type>GeographicFeature</type>
+            <relevance>0.292191</relevance>
+            <count>2</count>
+            <text>Cape Kennedy</text>
             <disambiguated>
-                <name>Chicago</name>
-                <website>http://www.cityofchicago.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
-                <yago>http://yago-knowledge.org/resource/Chicago</yago>
-                <geonames>http://sws.geonames.org/4887398/</geonames>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.292447</relevance>
-            <count>3</count>
-            <text>Atlantic</text>
+            <type>Country</type>
+            <relevance>0.292112</relevance>
+            <count>4</count>
+            <text>Sweden</text>
             <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+                <name>Sweden</name>
+                <subType>SportsTeam</subType>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <website>http://www.sweden.se/</website>
+                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Sweden</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.288859</relevance>
-            <count>5</count>
-            <text>Victor Cohn</text>
+            <relevance>0.291092</relevance>
+            <count>3</count>
+            <text>Mstislav V. Keldysh</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.288279</relevance>
+            <count>3</count>
+            <text>Ocean of Storms</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.288126</relevance>
+            <count>3</count>
+            <text>earth.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.287734</relevance>
+            <count>3</count>
+            <text>Associate Administrator</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.27999</relevance>
+            <relevance>0.28024</relevance>
+            <count>3</count>
+            <text>Chicago</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.280092</relevance>
+            <count>1</count>
+            <text>3,000-yr-old temple of Apollo</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.279031</relevance>
             <count>3</count>
             <text>New York</text>
             <disambiguated>
@@ -537,68 +548,34 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.278306</relevance>
+            <relevance>0.278396</relevance>
             <count>2</count>
             <text>Apollo Program Director</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.275243</relevance>
-            <count>3</count>
-            <text>Ocean of Storms</text>
+            <type>Organization</type>
+            <relevance>0.277405</relevance>
+            <count>4</count>
+            <text>Am Embassy</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.275139</relevance>
-            <count>2</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.274413</relevance>
-            <count>2</count>
-            <text>msc Release</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.271736</relevance>
-            <count>2</count>
-            <text>China</text>
+            <type>Person</type>
+            <relevance>0.277316</relevance>
+            <count>4</count>
+            <text>President Howard R. Hughes</text>
             <disambiguated>
-                <name>China</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>35.0 105.0</geo>
-                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.271293</relevance>
-            <count>2</count>
-            <text>N.Y.</text>
-            <disambiguated>
-                <name>New York</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>43.0 -75.0</geo>
-                <website>http://www.ny.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
-                <yago>http://yago-knowledge.org/resource/New_York</yago>
+                <name>Howard Hughes</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>FilmDirector</subType>
+                <subType>FilmProducer</subType>
+                <subType>Inventor</subType>
+                <subType>FilmWriter</subType>
+                <dbpedia>http://dbpedia.org/resource/Howard_Hughes</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03n93</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPN4WJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Howard_Hughes</yago>
             </disambiguated>
         </entity>
     </entities>

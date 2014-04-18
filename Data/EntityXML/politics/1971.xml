@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.848313</relevance>
+            <relevance>0.804488</relevance>
             <count>18</count>
             <text>nasa</text>
             <disambiguated>
@@ -29,31 +29,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.632476</relevance>
+            <relevance>0.695926</relevance>
             <count>6</count>
             <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.455134</relevance>
+            <relevance>0.443629</relevance>
             <count>5</count>
             <text>Committee</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.402724</relevance>
-            <count>3</count>
-            <text>Vice President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.386745</relevance>
+            <relevance>0.397317</relevance>
             <count>2</count>
             <text>Senate Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.39317</relevance>
+            <count>3</count>
+            <text>vice president</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.374873</relevance>
+            <relevance>0.385832</relevance>
             <count>4</count>
             <text>United States</text>
             <disambiguated>
@@ -73,73 +73,31 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.354385</relevance>
+            <relevance>0.377839</relevance>
             <count>2</count>
             <text>Committee Chairman Sen. Clinton P. Anderson</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.345051</relevance>
-            <count>3</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.321161</relevance>
-            <count>5</count>
-            <text>dot</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.317062</relevance>
-            <count>1</count>
-            <text>Senior Vice President of Lockheed Aircraft Corp.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.311001</relevance>
-            <count>1</count>
-            <text>Vice President Robert B. Ormsby</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.310633</relevance>
+            <relevance>0.343008</relevance>
             <count>1</count>
             <text>Senior Vice President of technology</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.304089</relevance>
-            <count>2</count>
-            <text>advanced aircraft</text>
-            <disambiguated>
-                <name>Advanced Aircraft</name>
-                <dbpedia>http://dbpedia.org/resource/Advanced_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0409dh</freebase>
-                <yago>http://yago-knowledge.org/resource/Advanced_Aircraft</yago>
-            </disambiguated>
+            <relevance>0.321067</relevance>
+            <count>4</count>
+            <text>DOT</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.30341</relevance>
+            <relevance>0.319021</relevance>
             <count>3</count>
             <text>Harry W. Johnson</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.301592</relevance>
-            <count>3</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.290632</relevance>
-            <count>2</count>
-            <text>unemployment rate</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.288746</relevance>
+            <relevance>0.31669</relevance>
             <count>2</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -166,226 +124,113 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.287798</relevance>
+            <type>JobTitle</type>
+            <relevance>0.314384</relevance>
+            <count>3</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.311669</relevance>
+            <count>2</count>
+            <text>advanced aircraft</text>
+            <disambiguated>
+                <name>Advanced Aircraft</name>
+                <dbpedia>http://dbpedia.org/resource/Advanced_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0409dh</freebase>
+                <yago>http://yago-knowledge.org/resource/Advanced_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.307513</relevance>
             <count>1</count>
-            <text>House Committee</text>
+            <text>Committee Staff Director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.300818</relevance>
+            <count>1</count>
+            <text>Senior Vice President of Lockheed Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.290506</relevance>
+            <count>1</count>
+            <text>Vice President Robert B. Ormsby</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.273589</relevance>
+            <relevance>0.278649</relevance>
             <count>1</count>
             <text>House Committee on Science and Astronautics.</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.272726</relevance>
-            <count>1</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.272448</relevance>
-            <count>1</count>
-            <text>Unemployment Rates</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.272133</relevance>
+            <relevance>0.277845</relevance>
             <count>1</count>
-            <text>House Committee on Foreign Relations</text>
+            <text>House Committee on Appropriations</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.271242</relevance>
+            <relevance>0.276791</relevance>
+            <count>1</count>
+            <text>Associate Administrator for Advanced Research and Technology</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.275049</relevance>
             <count>1</count>
             <text>Vice President for Engineering and Research</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.270159</relevance>
+            <relevance>0.268741</relevance>
+            <count>1</count>
+            <text>Director of Office of Technology Utilization</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.268539</relevance>
             <count>1</count>
             <text>Senior Vice President</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.269831</relevance>
-            <count>1</count>
-            <text>nsf</text>
+            <relevance>0.267198</relevance>
+            <count>2</count>
+            <text>Senate</text>
             <disambiguated>
-                <name>National Science Foundation</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AcademicInstitution</subType>
-                <website>http://www.nsf.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+                <name>Australian Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.aph.gov.au/Senate/index.htm</website>
+                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
+                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.268164</relevance>
+            <relevance>0.266555</relevance>
             <count>1</count>
             <text>Corporate Vice President for Manufacturing</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.267237</relevance>
-            <count>2</count>
-            <text>Lowell P. Mickelwait</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.263684</relevance>
-            <count>2</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.260112</relevance>
+            <relevance>0.265137</relevance>
             <count>1</count>
             <text>Vice President for Engineering</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.258662</relevance>
-            <count>1</count>
-            <text>Director of Office of Technology Utilization</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.25563</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.251799</relevance>
-            <count>1</count>
-            <text>Committee Staff Director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.249981</relevance>
-            <count>1</count>
-            <text>Dr. Clarence L. Johnson</text>
-            <disambiguated>
-                <name>Kelly Johnson (engineer)</name>
-                <dbpedia>http://dbpedia.org/resource/Kelly_Johnson_(engineer)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0254n</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.249161</relevance>
-            <count>1</count>
-            <text>Centaur</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.249042</relevance>
-            <count>1</count>
-            <text>Bill</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.248348</relevance>
-            <count>1</count>
-            <text>House Committee on Appropriations</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.243742</relevance>
-            <count>1</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.24169</relevance>
-            <count>1</count>
-            <text>United Aircraft Corp.</text>
-            <disambiguated>
-                <name>United Aircraft and Transport Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/United_Aircraft_and_Transport_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rwbc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.238677</relevance>
-            <count>1</count>
-            <text>Milton Klein</text>
-            <disambiguated>
-                <name>Milton L. Klein</name>
-                <subType>Politician</subType>
-                <dbpedia>http://dbpedia.org/resource/Milton_L._Klein</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03h0bld</freebase>
-                <yago>http://yago-knowledge.org/resource/Milton_L._Klein</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.237803</relevance>
-            <count>2</count>
-            <text>Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.237705</relevance>
-            <count>1</count>
-            <text>House bill</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.23681</relevance>
-            <count>1</count>
-            <text>Manager of Space Nuclear Systems Office</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.236195</relevance>
-            <count>1</count>
-            <text>Ronald J. Philips</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.234571</relevance>
+            <relevance>0.26334</relevance>
             <count>1</count>
             <text>oart Aeronautical Operating Systems Div.</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.234014</relevance>
-            <count>1</count>
-            <text>Lockheed-Georgia Co</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.232333</relevance>
+            <relevance>0.256426</relevance>
             <count>1</count>
             <text>usaf</text>
             <disambiguated>
@@ -401,45 +246,185 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.228966</relevance>
+            <type>Person</type>
+            <relevance>0.256213</relevance>
             <count>2</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Australian Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.aph.gov.au/Senate/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
-                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.227301</relevance>
-            <count>1</count>
-            <text>General Manager of Space Div.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.226485</relevance>
-            <count>1</count>
-            <text>Associate Administrator for Advanced Research and Technology</text>
+            <text>Lowell P. Mickelwait</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.223946</relevance>
+            <relevance>0.254639</relevance>
             <count>1</count>
-            <text>David Packard</text>
+            <text>Roy P. Jackson</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.252875</relevance>
+            <count>1</count>
+            <text>House Committee on Foreign Relations</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.249359</relevance>
+            <count>1</count>
+            <text>House Committee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.245397</relevance>
+            <count>1</count>
+            <text>Ronald J. Philips</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.243614</relevance>
+            <count>1</count>
+            <text>Bill</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.242568</relevance>
+            <count>1</count>
+            <text>Milton Klein</text>
             <disambiguated>
-                <name>David Packard</name>
-                <subType>CompanyFounder</subType>
-                <subType>ProjectParticipant</subType>
-                <dbpedia>http://dbpedia.org/resource/David_Packard</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01ny3c</freebase>
-                <yago>http://yago-knowledge.org/resource/David_Packard</yago>
+                <name>Milton L. Klein</name>
+                <subType>Politician</subType>
+                <dbpedia>http://dbpedia.org/resource/Milton_L._Klein</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03h0bld</freebase>
+                <yago>http://yago-knowledge.org/resource/Milton_L._Klein</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.242017</relevance>
+            <count>1</count>
+            <text>Presidents Eisenhower</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.241239</relevance>
+            <count>1</count>
+            <text>Manager of Space Nuclear Systems Office</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.240612</relevance>
+            <count>1</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.240395</relevance>
+            <count>1</count>
+            <text>United Aircraft Corp.</text>
+            <disambiguated>
+                <name>United Aircraft and Transport Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/United_Aircraft_and_Transport_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rwbc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.239922</relevance>
+            <count>1</count>
+            <text>Dr. Eugene M. Emme</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.239469</relevance>
+            <count>1</count>
+            <text>International Cooperation</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.238679</relevance>
+            <count>1</count>
+            <text>Aeronautical Life Sciences</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237373</relevance>
+            <count>1</count>
+            <text>Sen. Doc. 92-40</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.237275</relevance>
+            <count>1</count>
+            <text>House bill</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.236519</relevance>
+            <count>1</count>
+            <text>James J. Gehrig</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.235424</relevance>
+            <count>1</count>
+            <text>nsf</text>
+            <disambiguated>
+                <name>National Science Foundation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AcademicInstitution</subType>
+                <website>http://www.nsf.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.235242</relevance>
+            <count>1</count>
+            <text>Neil A. Armstrong</text>
+            <disambiguated>
+                <name>Neil Armstrong</name>
+                <subType>Astronaut</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.jsc.nasa.gov/Bios/htmlbios/armstrong-na.html</website>
+                <dbpedia>http://dbpedia.org/resource/Neil_Armstrong</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b6w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvrxFOZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Neil_Armstrong</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.234427</relevance>
+            <count>1</count>
+            <text>Navy.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.232217</relevance>
+            <count>2</count>
+            <text>unemployment rate</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.231557</relevance>
+            <count>2</count>
+            <text>Wall Street Journal</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.231216</relevance>
+            <count>1</count>
+            <text>Centaur</text>
         </entity>
     </entities>
 </results>

@@ -7,19 +7,37 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.819814</relevance>
+            <relevance>0.84324</relevance>
             <count>2</count>
             <text>USA Today</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.539133</relevance>
+            <relevance>0.678349</relevance>
             <count>1</count>
             <text>McDonnell Douglas Delta</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.545698</relevance>
+            <count>1</count>
+            <text>Vandenburg AFB</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.543184</relevance>
+            <count>1</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>National Auto Sport Association</name>
+                <website>http://www.nasaproracing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Auto_Sport_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bqlsx</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.498402</relevance>
+            <relevance>0.54035</relevance>
             <count>1</count>
             <text>Wallops Island</text>
             <disambiguated>
@@ -35,7 +53,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.440307</relevance>
+            <relevance>0.523512</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -53,61 +71,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.418104</relevance>
-            <count>1</count>
-            <text>Vandenburg AFB</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.407514</relevance>
-            <count>1</count>
-            <text>EER Systems Corp.</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.391713</relevance>
-            <count>1</count>
-            <text>Virginia</text>
-            <disambiguated>
-                <name>Virginia</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.virginia.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Virginia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.361656</relevance>
-            <count>1</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>Company</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.359301</relevance>
+            <relevance>0.489449</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -126,8 +91,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.456169</relevance>
+            <count>1</count>
+            <text>EER Systems Corp.</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.340387</relevance>
+            <relevance>0.444277</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -145,6 +116,25 @@
                 <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.434365</relevance>
+            <count>1</count>
+            <text>Virginia</text>
+            <disambiguated>
+                <name>Virginia</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
             </disambiguated>
         </entity>
     </entities>

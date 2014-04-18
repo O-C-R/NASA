@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.759968</relevance>
+            <relevance>0.758894</relevance>
             <count>8</count>
             <text>NASA</text>
             <disambiguated>
@@ -44,26 +44,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.437165</relevance>
-            <count>1</count>
-            <text>Aerospace Safety Advisory Panel</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.397112</relevance>
+            <relevance>0.501696</relevance>
             <count>2</count>
             <text>Shuttle Columbia</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.401546</relevance>
+            <count>1</count>
+            <text>Aerospace Safety Advisory Panel</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.355038</relevance>
+            <count>2</count>
+            <text>Home Improvement</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.325995</relevance>
+            <relevance>0.324884</relevance>
             <count>1</count>
             <text>Aerospace Safety Advisory Panel</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.322995</relevance>
+            <relevance>0.321031</relevance>
             <count>2</count>
             <text>Kenneth D. Bowersox</text>
             <disambiguated>
@@ -111,7 +117,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.306352</relevance>
+            <relevance>0.30548</relevance>
             <count>1</count>
             <text>Administrator Daniel S. Goldin</text>
             <disambiguated>
@@ -120,6 +126,12 @@
                 <freebase>http://rdf.freebase.com/ns/m.02lgpl</freebase>
                 <yago>http://yago-knowledge.org/resource/Daniel_Goldin</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.296063</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
         </entity>
         <entity>
             <type>Person</type>
@@ -144,10 +156,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.274104</relevance>
+            <type>Organization</type>
+            <relevance>0.273132</relevance>
             <count>1</count>
-            <text>Home Improvement</text>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
@@ -160,12 +184,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.05mc9p</freebase>
                 <yago>http://yago-knowledge.org/resource/Howard_Kurtz</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.258116</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
         </entity>
         <entity>
             <type>Company</type>
@@ -184,7 +202,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.244845</relevance>
+            <relevance>0.241923</relevance>
             <count>1</count>
             <text>Houston Chronicle</text>
             <disambiguated>
@@ -212,31 +230,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.236714</relevance>
-            <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.236476</relevance>
+            <relevance>0.235704</relevance>
             <count>1</count>
             <text>ISS</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.226196</relevance>
+            <relevance>0.225423</relevance>
             <count>1</count>
             <text>Kathryn C. Thornton</text>
             <disambiguated>
@@ -250,19 +250,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.224786</relevance>
+            <relevance>0.223975</relevance>
             <count>1</count>
             <text>Albert Sacco Jr</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.222225</relevance>
-            <count>1</count>
-            <text>Ann Hodges</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.221373</relevance>
+            <relevance>0.220617</relevance>
             <count>1</count>
             <text>Catherine G. Coleman</text>
             <disambiguated>
@@ -276,7 +270,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.219843</relevance>
+            <relevance>0.219323</relevance>
+            <count>1</count>
+            <text>Ann Hodges</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219092</relevance>
             <count>1</count>
             <text>Frederick W. Leslie</text>
             <disambiguated>
@@ -289,7 +289,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.20425</relevance>
+            <relevance>0.201583</relevance>
             <count>1</count>
             <text>NASA.</text>
         </entity>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.882799</relevance>
+            <relevance>0.903311</relevance>
             <count>19</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.499143</relevance>
+            <relevance>0.458779</relevance>
             <count>6</count>
             <text>NYT</text>
             <disambiguated>
@@ -47,14 +47,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.44249</relevance>
-            <count>7</count>
-            <text>Maj. Robert H. Lawrence, Jr.</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.369652</relevance>
+            <relevance>0.412017</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -74,7 +68,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.353608</relevance>
+            <relevance>0.400952</relevance>
+            <count>7</count>
+            <text>Maj. Robert H. Lawrence, Jr.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.36785</relevance>
+            <count>4</count>
+            <text>Caldwell C. Johnson</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.341705</relevance>
             <count>2</count>
             <text>Astronaut M. Scott Carpenter</text>
             <disambiguated>
@@ -88,8 +94,19 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.339477</relevance>
+            <count>3</count>
+            <text>nas</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.332456</relevance>
+            <relevance>0.309518</relevance>
             <count>4</count>
             <text>James E. Webb</text>
             <disambiguated>
@@ -103,7 +120,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.323008</relevance>
+            <relevance>0.308929</relevance>
             <count>1</count>
             <text>Astronaut Gordon Cooper</text>
             <disambiguated>
@@ -117,8 +134,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.306067</relevance>
+            <count>3</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.317784</relevance>
+            <relevance>0.30012</relevance>
             <count>4</count>
             <text>James A. Lovell</text>
             <disambiguated>
@@ -134,14 +157,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.301895</relevance>
-            <count>3</count>
-            <text>President Johnson</text>
+            <type>Organization</type>
+            <relevance>0.279641</relevance>
+            <count>1</count>
+            <text>usaf Space and Missile Systems Organization</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.277266</relevance>
+            <count>1</count>
+            <text>Field Enterprises</text>
+            <disambiguated>
+                <name>Field Enterprises</name>
+                <subType>ComicStripSyndicate</subType>
+                <dbpedia>http://dbpedia.org/resource/Field_Enterprises</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.084dtn</freebase>
+                <yago>http://yago-knowledge.org/resource/Field_Enterprises</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.295169</relevance>
+            <relevance>0.271897</relevance>
+            <count>1</count>
+            <text>nasa Ann</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.270793</relevance>
             <count>3</count>
             <text>Edwin E. Aldrin</text>
             <disambiguated>
@@ -161,8 +203,89 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.263483</relevance>
+            <count>1</count>
+            <text>Field Enterprises Educational Corp.</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.288511</relevance>
+            <relevance>0.262792</relevance>
+            <count>2</count>
+            <text>U.N. General Assembly</text>
+            <disambiguated>
+                <name>United Nations General Assembly</name>
+                <website>http://www.un.org/ga</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_General_Assembly</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vp7</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvl56KZwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.259055</relevance>
+            <count>1</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.258632</relevance>
+            <count>1</count>
+            <text>life insurance policy</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.255163</relevance>
+            <count>2</count>
+            <text>engineer</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.254495</relevance>
+            <count>1</count>
+            <text>Geneva</text>
+            <disambiguated>
+                <name>Geneva</name>
+                <subType>AdministrativeDivision</subType>
+                <website>http://ville-ge.ch</website>
+                <dbpedia>http://dbpedia.org/resource/Geneva</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03902</freebase>
+                <yago>http://yago-knowledge.org/resource/Geneva</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.250932</relevance>
+            <count>1</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.249517</relevance>
+            <count>1</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.247216</relevance>
+            <count>1</count>
+            <text>U.N. Committee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.247084</relevance>
+            <count>1</count>
+            <text>Assistant to the Assistant Administrator for Administration</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.246358</relevance>
+            <count>1</count>
+            <text>Space Science Board</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.244622</relevance>
             <count>2</count>
             <text>usn</text>
             <disambiguated>
@@ -176,132 +299,83 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.281649</relevance>
-            <count>2</count>
-            <text>U.N. General Assembly</text>
-            <disambiguated>
-                <name>United Nations General Assembly</name>
-                <website>http://www.un.org/ga</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations_General_Assembly</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07vp7</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvl56KZwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.278795</relevance>
-            <count>3</count>
-            <text>nas</text>
-            <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.277577</relevance>
-            <count>1</count>
-            <text>usaf Space and Missile Systems Organization</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.265464</relevance>
-            <count>2</count>
-            <text>engineer</text>
+            <relevance>0.242689</relevance>
+            <count>1</count>
+            <text>usaf Manned Orbiting Laboratory Systems Program</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.259145</relevance>
+            <relevance>0.242511</relevance>
             <count>1</count>
-            <text>Dr. Rudolph H. T. M^ttoni</text>
+            <text>Bailey K. Howard</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.257094</relevance>
+            <relevance>0.24143</relevance>
             <count>1</count>
-            <text>Alvin S. White</text>
+            <text>Sehlstedt</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.238158</relevance>
+            <count>1</count>
+            <text>Analysis Directorate</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.237766</relevance>
+            <count>1</count>
+            <text>Lazard Freres &amp; Co.</text>
             <disambiguated>
-                <name>Alvin S. White</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Alvin_S._White</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cz87t</freebase>
-                <yago>http://yago-knowledge.org/resource/Alvin_S._White</yago>
+                <name>Lazard</name>
+                <website>http://www.lazard.com</website>
+                <dbpedia>http://dbpedia.org/resource/Lazard</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03qv0v</freebase>
+                <yago>http://yago-knowledge.org/resource/Lazard</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.256699</relevance>
+            <relevance>0.237321</relevance>
             <count>1</count>
-            <text>Space Science Board</text>
+            <text>ksc</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.254389</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.236944</relevance>
             <count>1</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.245964</relevance>
-            <count>1</count>
-            <text>principal investigator</text>
+            <text>US News</text>
+            <disambiguated>
+                <name>U.S. News &amp; World Report</name>
+                <subType>Magazine</subType>
+                <website>http://www.usnews.com/usnews/home.htm</website>
+                <dbpedia>http://dbpedia.org/resource/U.S._News_&amp;_World_Report</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.029wc8</freebase>
+                <yago>http://yago-knowledge.org/resource/U.S._News_&amp;_World_Report</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.243006</relevance>
+            <relevance>0.236363</relevance>
             <count>1</count>
-            <text>nasa Ann</text>
+            <text>Roderick</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.242207</relevance>
-            <count>2</count>
-            <text>FAA</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.240632</relevance>
-            <count>1</count>
-            <text>Biosatellite II</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.238647</relevance>
-            <count>1</count>
-            <text>Field Enterprises</text>
-            <disambiguated>
-                <name>Field Enterprises</name>
-                <subType>ComicStripSyndicate</subType>
-                <dbpedia>http://dbpedia.org/resource/Field_Enterprises</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.084dtn</freebase>
-                <yago>http://yago-knowledge.org/resource/Field_Enterprises</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.237967</relevance>
-            <count>1</count>
-            <text>Harmon International Aviation</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.236571</relevance>
-            <count>1</count>
-            <text>Manned Orbiting Laboratory Systems Program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.234937</relevance>
+            <relevance>0.231541</relevance>
             <count>1</count>
             <text>usaf</text>
             <disambiguated>
@@ -318,61 +392,69 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.234315</relevance>
-            <count>1</count>
-            <text>Ames Research Center</text>
+            <relevance>0.23095</relevance>
+            <count>2</count>
+            <text>FAA</text>
             <disambiguated>
-                <name>Ames Research Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.23372</relevance>
-            <count>3</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.231812</relevance>
+            <type>City</type>
+            <relevance>0.230474</relevance>
             <count>1</count>
-            <text>NYT</text>
+            <text>New York</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.231712</relevance>
+            <relevance>0.230012</relevance>
             <count>1</count>
-            <text>Stan Musial</text>
+            <text>Alvin S. White</text>
             <disambiguated>
-                <name>Stan Musial</name>
-                <subType>Athlete</subType>
+                <name>Alvin S. White</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Alvin_S._White</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cz87t</freebase>
+                <yago>http://yago-knowledge.org/resource/Alvin_S._White</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.229781</relevance>
+            <count>1</count>
+            <text>Philadelphia Inquirer</text>
+            <disambiguated>
+                <name>The Philadelphia Inquirer</name>
                 <subType>AwardWinner</subType>
-                <subType>HallOfFameInductee</subType>
-                <subType>SportsLeagueAwardWinner</subType>
-                <subType>TVActor</subType>
-                <website>http://www.stan-the-man.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Stan_Musial</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01pnjr</freebase>
-                <yago>http://yago-knowledge.org/resource/Stan_Musial</yago>
+                <subType>Newspaper</subType>
+                <website>http://www.philly.com/inquirer/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Philadelphia_Inquirer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0p_b7</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Philadelphia_Inquirer</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.228842</relevance>
-            <count>1</count>
-            <text>Ames</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.228046</relevance>
+            <relevance>0.229591</relevance>
             <count>1</count>
             <text>Hamilton Standard</text>
             <disambiguated>
@@ -384,7 +466,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.227509</relevance>
+            <relevance>0.229049</relevance>
             <count>1</count>
             <text>Los Angeles</text>
             <disambiguated>
@@ -401,8 +483,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.227763</relevance>
+            <count>2</count>
+            <text>Dr. Heinz von Diringshofen</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.226215</relevance>
+            <relevance>0.227747</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -424,7 +512,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.226054</relevance>
+            <relevance>0.227586</relevance>
             <count>1</count>
             <text>Conn.</text>
             <disambiguated>
@@ -444,76 +532,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.224623</relevance>
-            <count>1</count>
-            <text>Field Enterprises Educational Corp.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.222819</relevance>
-            <count>1</count>
-            <text>Philadelphia Inquirer</text>
-            <disambiguated>
-                <name>The Philadelphia Inquirer</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.philly.com/inquirer/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Philadelphia_Inquirer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0p_b7</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Philadelphia_Inquirer</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.222817</relevance>
-            <count>1</count>
-            <text>Denver</text>
-            <disambiguated>
-                <name>Denver</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.denvergov.org</website>
-                <dbpedia>http://dbpedia.org/resource/Denver</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02cl1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.222169</relevance>
-            <count>2</count>
-            <text>Dr. Heinz von Diringshofen</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.220977</relevance>
-            <count>1</count>
-            <text>life insurance policy</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.220246</relevance>
+            <relevance>0.226034</relevance>
             <count>1</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.220123</relevance>
-            <count>1</count>
-            <text>Geneva</text>
-            <disambiguated>
-                <name>Geneva</name>
-                <subType>AdministrativeDivision</subType>
-                <website>http://ville-ge.ch</website>
-                <dbpedia>http://dbpedia.org/resource/Geneva</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03902</freebase>
-                <yago>http://yago-knowledge.org/resource/Geneva</yago>
-            </disambiguated>
+            <text>Assistant Safety Director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.21981</relevance>
+            <relevance>0.225792</relevance>
+            <count>1</count>
+            <text>Stan Musial</text>
+            <disambiguated>
+                <name>Stan Musial</name>
+                <subType>Athlete</subType>
+                <subType>AwardWinner</subType>
+                <subType>HallOfFameInductee</subType>
+                <subType>SportsLeagueAwardWinner</subType>
+                <subType>TVActor</subType>
+                <website>http://www.stan-the-man.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Stan_Musial</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01pnjr</freebase>
+                <yago>http://yago-knowledge.org/resource/Stan_Musial</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224244</relevance>
+            <count>1</count>
+            <text>omsf Missions Operations Directorate</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223842</relevance>
+            <count>1</count>
+            <text>Dr. Rudolph H. T. M^ttoni</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223459</relevance>
             <count>1</count>
             <text>Rep. William F. Ryan</text>
             <disambiguated>
@@ -521,54 +577,6 @@
                 <dbpedia>http://dbpedia.org/resource/William_F._Ryan</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.0cmbsm1</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.219669</relevance>
-            <count>1</count>
-            <text>Windsor Locks</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.219503</relevance>
-            <count>1</count>
-            <text>MOL</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.218955</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.216671</relevance>
-            <count>1</count>
-            <text>Washington Evening Star</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.216397</relevance>
-            <count>1</count>
-            <text>Legal Subcommittee of U.N. Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.215918</relevance>
-            <count>1</count>
-            <text>Teltsch</text>
         </entity>
     </entities>
 </results>

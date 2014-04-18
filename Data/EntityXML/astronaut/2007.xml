@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.863746</relevance>
-            <count>25</count>
+            <relevance>0.908851</relevance>
+            <count>38</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -28,29 +28,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.813154</relevance>
-            <count>13</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.31346</relevance>
-            <count>7</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.301994</relevance>
+            <relevance>0.344677</relevance>
             <count>6</count>
             <text>Peggy A. Whitson</text>
             <disambiguated>
@@ -62,14 +41,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.29146</relevance>
-            <count>1</count>
-            <text>NASA Safety Review</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.290166</relevance>
+            <relevance>0.335323</relevance>
             <count>6</count>
             <text>Daniel M. Tani</text>
             <disambiguated>
@@ -81,8 +54,21 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.322604</relevance>
+            <count>7</count>
+            <text>ISS</text>
+            <disambiguated>
+                <name>School</name>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.272587</relevance>
+            <relevance>0.28477</relevance>
             <count>8</count>
             <text>Lisa M. Nowak</text>
             <disambiguated>
@@ -95,8 +81,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.276656</relevance>
+            <count>1</count>
+            <text>NASA Safety Review</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.245068</relevance>
+            <relevance>0.250158</relevance>
             <count>3</count>
             <text>Richard A. Mastracchio</text>
             <disambiguated>
@@ -109,31 +101,44 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.223341</relevance>
+            <relevance>0.233674</relevance>
             <count>4</count>
             <text>commander</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.219158</relevance>
-            <count>2</count>
-            <text>Dave'' Williams</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.2144</relevance>
-            <count>1</count>
-            <text>Astronaut Health Care System Review Committee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.208908</relevance>
+            <relevance>0.224375</relevance>
             <count>3</count>
             <text>Engineer</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.212899</relevance>
+            <count>2</count>
+            <text>Dave'' Williams</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.208365</relevance>
+            <count>2</count>
+            <text>Sunita L. Williams</text>
+            <disambiguated>
+                <name>Sunita Williams</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Sunita_Williams</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.077m95</freebase>
+                <yago>http://yago-knowledge.org/resource/Sunita_Williams</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.204042</relevance>
+            <count>1</count>
+            <text>Astronaut Health Care System Review Committee</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.198938</relevance>
+            <relevance>0.186036</relevance>
             <count>3</count>
             <text>U.S. Navy</text>
             <disambiguated>
@@ -148,20 +153,73 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.182303</relevance>
-            <count>2</count>
-            <text>Sunita L. Williams</text>
+            <relevance>0.182704</relevance>
+            <count>1</count>
+            <text>Charles O. Hobaugh</text>
             <disambiguated>
-                <name>Sunita Williams</name>
+                <name>Charles O. Hobaugh</name>
                 <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Sunita_Williams</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.077m95</freebase>
-                <yago>http://yago-knowledge.org/resource/Sunita_Williams</yago>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Charles_O._Hobaugh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vqww</freebase>
+                <yago>http://yago-knowledge.org/resource/Charles_O._Hobaugh</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.175218</relevance>
+            <count>1</count>
+            <text>BGA</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.178199</relevance>
+            <relevance>0.172861</relevance>
+            <count>1</count>
+            <text>Jean-Louis Santini</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.171822</relevance>
+            <count>1</count>
+            <text>Agence France-Presse</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.169083</relevance>
+            <count>1</count>
+            <text>Pacific Ocean</text>
+            <disambiguated>
+                <name>Pacific Ocean</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.165902</relevance>
+            <count>1</count>
+            <text>Columbus laboratory</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.165272</relevance>
+            <count>1</count>
+            <text>circuit breakers</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.16097</relevance>
+            <count>1</count>
+            <text>SARJ</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.159972</relevance>
             <count>3</count>
             <text>Peter K. Homer</text>
             <disambiguated>
@@ -172,14 +230,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.172241</relevance>
+            <type>Person</type>
+            <relevance>0.159268</relevance>
             <count>1</count>
-            <text>BGA</text>
+            <text>Timothy Shank</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.155526</relevance>
+            <count>1</count>
+            <text>Soyuz</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.168696</relevance>
+            <relevance>0.154655</relevance>
             <count>1</count>
             <text>Southwest Harbor</text>
             <disambiguated>
@@ -192,8 +256,45 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.154394</relevance>
+            <count>1</count>
+            <text>David L. Iverson</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.15366</relevance>
+            <count>1</count>
+            <text>Sunita L. William</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.153185</relevance>
+            <count>1</count>
+            <text>J. Derek Hassmann</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.152658</relevance>
+            <count>1</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.166188</relevance>
+            <relevance>0.152353</relevance>
             <count>1</count>
             <text>Maine</text>
             <disambiguated>
@@ -212,68 +313,49 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.165893</relevance>
+            <relevance>0.152344</relevance>
             <count>1</count>
-            <text>David L. Iverson</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.162937</relevance>
-            <count>1</count>
-            <text>Soyuz</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.162497</relevance>
-            <count>1</count>
-            <text>circuit breakers</text>
+            <text>Harmony.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.160104</relevance>
+            <relevance>0.148863</relevance>
             <count>1</count>
             <text>USA Today</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.160061</relevance>
-            <count>1</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.15853</relevance>
-            <count>1</count>
-            <text>Traci Watson</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.155738</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.155466</relevance>
+            <relevance>0.147974</relevance>
             <count>1</count>
             <text>O&#x2019;Connor</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.147879</relevance>
+            <count>1</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.147187</relevance>
+            <count>1</count>
+            <text>researcher</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.146881</relevance>
+            <count>1</count>
+            <text>Traci Watson</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.145975</relevance>
+            <count>1</count>
+            <text>telephone call</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.155205</relevance>
+            <relevance>0.14574</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -289,171 +371,82 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.153061</relevance>
+            <type>JobTitle</type>
+            <relevance>0.144435</relevance>
             <count>1</count>
-            <text>Lianne Hart</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.15179</relevance>
-            <count>1</count>
-            <text>Pacific Ocean</text>
-            <disambiguated>
-                <name>Pacific Ocean</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
+            <text>scientist</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.151531</relevance>
+            <relevance>0.143879</relevance>
             <count>1</count>
             <text>KSC</text>
             <disambiguated>
-                <name>Keene State College</name>
+                <name>Kennedy Space Center</name>
                 <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.92777777777778 -72.2786111111111</geo>
-                <website>http://www.keene.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
-                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.150748</relevance>
-            <count>1</count>
-            <text>Sunita L. William</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.150639</relevance>
+            <relevance>0.143368</relevance>
             <count>1</count>
             <text>Bryan D.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.150329</relevance>
+            <relevance>0.143275</relevance>
             <count>1</count>
-            <text>Charles O. Hobaugh</text>
-            <disambiguated>
-                <name>Charles O. Hobaugh</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Charles_O._Hobaugh</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02vqww</freebase>
-                <yago>http://yago-knowledge.org/resource/Charles_O._Hobaugh</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.148618</relevance>
-            <count>1</count>
-            <text>Columbus laboratory</text>
+            <text>Lianne Hart</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.146459</relevance>
+            <relevance>0.142989</relevance>
+            <count>1</count>
+            <text>William Harwood</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.139003</relevance>
             <count>1</count>
             <text>Warren E. Leary</text>
         </entity>
         <entity>
             <type>Crime</type>
-            <relevance>0.145692</relevance>
+            <relevance>0.136166</relevance>
             <count>1</count>
             <text>kidnapping</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.142875</relevance>
+            <relevance>0.135663</relevance>
             <count>1</count>
             <text>Houston</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.142317</relevance>
-            <count>1</count>
-            <text>SARJ</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.142057</relevance>
+            <relevance>0.134883</relevance>
             <count>1</count>
             <text>Florida</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.141467</relevance>
-            <count>1</count>
-            <text>Timothy Shank</text>
-        </entity>
-        <entity>
             <type>Crime</type>
-            <relevance>0.139798</relevance>
+            <relevance>0.130388</relevance>
             <count>1</count>
             <text>Assault</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.13947</relevance>
-            <count>1</count>
-            <text>Jean-Louis Santini</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.139014</relevance>
+            <relevance>0.129659</relevance>
             <count>1</count>
             <text>officer</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.138626</relevance>
-            <count>1</count>
-            <text>Agence France-Presse</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.13544</relevance>
-            <count>1</count>
-            <text>J. Derek Hassmann</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.135377</relevance>
-            <count>1</count>
-            <text>Harmony.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.13075</relevance>
-            <count>1</count>
-            <text>Director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.12992</relevance>
-            <count>1</count>
-            <text>researcher</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.128825</relevance>
-            <count>1</count>
-            <text>telephone call</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.125414</relevance>
-            <count>1</count>
-            <text>William Harwood</text>
         </entity>
     </entities>
 </results>

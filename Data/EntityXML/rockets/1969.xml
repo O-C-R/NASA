@@ -6,10 +6,16 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.927801</relevance>
+            <count>19</count>
+            <text>nasa Rpt</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.918846</relevance>
-            <count>70</count>
-            <text>nasa</text>
+            <relevance>0.920977</relevance>
+            <count>64</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -29,8 +35,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.869207</relevance>
-            <count>48</count>
+            <relevance>0.841092</relevance>
+            <count>51</count>
             <text>NASA</text>
             <disambiguated>
                 <name>Lyndon B. Johnson Space Center</name>
@@ -43,15 +49,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.799634</relevance>
-            <count>19</count>
-            <text>nasa Rpt</text>
+            <type>Facility</type>
+            <relevance>0.607612</relevance>
+            <count>7</count>
+            <text>NASA Wallops Station</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.522622</relevance>
-            <count>49</count>
+            <relevance>0.535116</relevance>
+            <count>50</count>
             <text>Rockets</text>
             <disambiguated>
                 <name>Rockets (band)</name>
@@ -62,45 +68,15 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.475009</relevance>
-            <count>7</count>
-            <text>NASA Wallops Station</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.435271</relevance>
-            <count>15</count>
-            <text>Churchill Research Range</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.419857</relevance>
+            <relevance>0.492633</relevance>
             <count>16</count>
             <text>Wallops Station</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.402328</relevance>
-            <count>2</count>
-            <text>nasa Rpt SRL</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.39934</relevance>
-            <count>3</count>
-            <text>NASA Rpts SRL</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.385424</relevance>
-            <count>14</count>
-            <text>Aerobee</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.374094</relevance>
-            <count>3</count>
-            <text>nasa</text>
+            <relevance>0.489547</relevance>
+            <count>5</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>GovernmentAgency</subType>
@@ -119,26 +95,64 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.467738</relevance>
+            <count>8</count>
+            <text>Rocket</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.421308</relevance>
+            <count>3</count>
+            <text>NASA Rpts SRL</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.412391</relevance>
+            <count>2</count>
+            <text>nasa Rpt SRL</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.408685</relevance>
+            <count>15</count>
+            <text>Churchill Research Range</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.401444</relevance>
+            <count>19</count>
+            <text>Aerobee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.367284</relevance>
+            <count>9</count>
+            <text>WSMR</text>
+            <disambiguated>
+                <name>WSMR (FM)</name>
+                <subType>RadioStation</subType>
+                <geo>27.100277777777777 -82.37166666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/WSMR_(FM)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03cwpmx</freebase>
+                <yago>http://yago-knowledge.org/resource/WSMR_(FM)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.372219</relevance>
+            <relevance>0.347707</relevance>
             <count>2</count>
             <text>Thumba Equatorial Rocket Launching Station</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.360195</relevance>
-            <count>7</count>
-            <text>Rocket</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.332854</relevance>
-            <count>11</count>
-            <text>WSMR</text>
+            <type>Company</type>
+            <relevance>0.334805</relevance>
+            <count>1</count>
+            <text>Woomera Rocket Range</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.309788</relevance>
+            <relevance>0.312246</relevance>
             <count>1</count>
             <text>American Rocket Society</text>
             <disambiguated>
@@ -149,29 +163,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.298208</relevance>
-            <count>6</count>
-            <text>Univ. of Colorado</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.286388</relevance>
-            <count>5</count>
-            <text>Southwest Center for Advanced Studies</text>
-            <disambiguated>
-                <name>University of Texas at Dallas</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.utdallas.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Texas_at_Dallas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02mt2n</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Texas_at_Dallas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.281292</relevance>
+            <relevance>0.307982</relevance>
             <count>6</count>
             <text>Alaska</text>
             <disambiguated>
@@ -190,191 +183,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.270498</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.285793</relevance>
             <count>1</count>
             <text>Woomera Rocket Range</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.26435</relevance>
-            <count>1</count>
-            <text>Woomera Rocket Range</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.250684</relevance>
-            <count>4</count>
-            <text>Natal</text>
-            <disambiguated>
-                <name>Natal, Rio Grande do Norte</name>
-                <geo>-5.766666666666667 -35.2</geo>
-                <website>http://www.natal.rn.gov.br/</website>
-                <dbpedia>http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030crm</freebase>
-                <yago>http://yago-knowledge.org/resource/Natal,_Rio_Grande_do_Norte</yago>
-                <geonames>http://sws.geonames.org/3394023/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.249411</relevance>
-            <count>4</count>
-            <text>Brazil</text>
-            <disambiguated>
-                <name>Brazil</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>CompanyShareholder</subType>
-                <geo>-15.75 -47.95</geo>
-                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Brazil</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.244727</relevance>
+            <relevance>0.277654</relevance>
             <count>7</count>
             <text>Point Barrow</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.224537</relevance>
+            <relevance>0.265703</relevance>
             <count>1</count>
-            <text>GSFC</text>
-            <disambiguated>
-                <name>Goddard Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>GovernmentAgency</subType>
-                <geo>38.996944444444445 -76.84833333333333</geo>
-                <website>http://www.nasa.gov/centers/goddard/home/</website>
-                <dbpedia>http://dbpedia.org/resource/Goddard_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmpb</freebase>
-                <yago>http://yago-knowledge.org/resource/Goddard_Space_Flight_Center</yago>
-                <geonames>http://sws.geonames.org/4356342/</geonames>
-            </disambiguated>
+            <text>NASA Proj dod</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.223595</relevance>
-            <count>3</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.219406</relevance>
-            <count>4</count>
-            <text>nitric oxide</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.21217</relevance>
-            <count>4</count>
-            <text>Sweden</text>
-            <disambiguated>
-                <name>Sweden</name>
-                <subType>SportsTeam</subType>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <website>http://www.sweden.se/</website>
-                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Sweden</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.211552</relevance>
-            <count>1</count>
-            <text>Wallops</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.206424</relevance>
-            <count>4</count>
-            <text>Arenosillo</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.20245</relevance>
-            <count>2</count>
-            <text>Resolute Bay</text>
-            <disambiguated>
-                <name>Resolute Bay</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>74.68333333333334 -94.86666666666666</geo>
-                <dbpedia>http://dbpedia.org/resource/Resolute_Bay</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04_s8h</freebase>
-                <yago>http://yago-knowledge.org/resource/Resolute_Bay</yago>
-                <geonames>http://sws.geonames.org/6121523/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.199585</relevance>
-            <count>3</count>
-            <text>LeRC</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.199051</relevance>
-            <count>2</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.196245</relevance>
-            <count>4</count>
-            <text>Univ. of Illinois</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.194654</relevance>
-            <count>2</count>
-            <text>Naval Weapons Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.193222</relevance>
-            <count>3</count>
-            <text>GCA Corp.</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.192811</relevance>
-            <count>5</count>
+            <relevance>0.247639</relevance>
+            <count>6</count>
             <text>U.S.</text>
             <disambiguated>
                 <name>United States</name>
@@ -392,36 +221,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.189244</relevance>
-            <count>3</count>
-            <text>Spain</text>
-            <disambiguated>
-                <name>Francoist Spain</name>
-                <dbpedia>http://dbpedia.org/resource/Francoist_Spain</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01qzg7</freebase>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.237521</relevance>
+            <count>6</count>
+            <text>Univ. of Colorado</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.186758</relevance>
-            <count>2</count>
-            <text>Churchill</text>
+            <type>Organization</type>
+            <relevance>0.232177</relevance>
+            <count>4</count>
+            <text>Univ. of Illinois</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.186656</relevance>
-            <count>3</count>
-            <text>Spain</text>
-            <disambiguated>
-                <name>Kingdom of Spain (Napoleonic)</name>
-                <dbpedia>http://dbpedia.org/resource/Kingdom_of_Spain_(Napoleonic)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm9lkx</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.186571</relevance>
+            <relevance>0.230091</relevance>
             <count>3</count>
             <text>U.K.</text>
             <disambiguated>
@@ -441,26 +254,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.186028</relevance>
-            <count>2</count>
-            <text>Space Nuclear Propulsion Office</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.183967</relevance>
-            <count>2</count>
-            <text>x-ray</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.183151</relevance>
-            <count>2</count>
-            <text>Delta</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.183002</relevance>
+            <relevance>0.22371</relevance>
             <count>3</count>
             <text>Kiruna</text>
             <disambiguated>
@@ -473,32 +268,143 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.181586</relevance>
+            <type>Country</type>
+            <relevance>0.220897</relevance>
             <count>4</count>
-            <text>Engineer</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.179542</relevance>
-            <count>1</count>
-            <text>Illinois-GCA Corp.</text>
+            <text>Sweden</text>
+            <disambiguated>
+                <name>Sweden</name>
+                <subType>SportsTeam</subType>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <website>http://www.sweden.se/</website>
+                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Sweden</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.178896</relevance>
+            <relevance>0.21768</relevance>
+            <count>5</count>
+            <text>Southwest Center for Advanced Studies</text>
+            <disambiguated>
+                <name>University of Texas at Dallas</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.utdallas.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Texas_at_Dallas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02mt2n</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Texas_at_Dallas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.212014</relevance>
+            <count>4</count>
+            <text>Natal</text>
+            <disambiguated>
+                <name>Natal, Rio Grande do Norte</name>
+                <geo>-5.766666666666667 -35.2</geo>
+                <website>http://www.natal.rn.gov.br/</website>
+                <dbpedia>http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030crm</freebase>
+                <yago>http://yago-knowledge.org/resource/Natal,_Rio_Grande_do_Norte</yago>
+                <geonames>http://sws.geonames.org/3394023/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.210937</relevance>
+            <count>4</count>
+            <text>Brazil</text>
+            <disambiguated>
+                <name>Brazil</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>CompanyShareholder</subType>
+                <geo>-15.75 -47.95</geo>
+                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Brazil</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.204866</relevance>
+            <count>4</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.202142</relevance>
+            <count>2</count>
+            <text>Churchill</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.201181</relevance>
+            <count>2</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.199586</relevance>
+            <count>1</count>
+            <text>GSFC</text>
+            <disambiguated>
+                <name>Goddard Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>GovernmentAgency</subType>
+                <geo>38.996944444444445 -76.84833333333333</geo>
+                <website>http://www.nasa.gov/centers/goddard/home/</website>
+                <dbpedia>http://dbpedia.org/resource/Goddard_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmpb</freebase>
+                <yago>http://yago-knowledge.org/resource/Goddard_Space_Flight_Center</yago>
+                <geonames>http://sws.geonames.org/4356342/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.199338</relevance>
+            <count>3</count>
+            <text>GCA Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196522</relevance>
             <count>2</count>
             <text>Swedish Space Research Committee</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.178828</relevance>
-            <count>3</count>
-            <text>MSFC</text>
+            <type>Country</type>
+            <relevance>0.19319</relevance>
+            <count>4</count>
+            <text>Spain</text>
+            <disambiguated>
+                <name>Kingdom of Spain (Napoleonic)</name>
+                <dbpedia>http://dbpedia.org/resource/Kingdom_of_Spain_(Napoleonic)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cm9lkx</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.177684</relevance>
+            <relevance>0.188332</relevance>
             <count>2</count>
             <text>Andoya</text>
             <disambiguated>
@@ -509,19 +415,114 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.177098</relevance>
-            <count>1</count>
-            <text>Fairbanks</text>
+            <type>Country</type>
+            <relevance>0.186922</relevance>
+            <count>2</count>
+            <text>Norway</text>
             <disambiguated>
-                <name>Fairbanks, Alaska</name>
-                <website>http://www.ci.fairbanks.ak.us</website>
-                <dbpedia>http://dbpedia.org/resource/Fairbanks,_Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qf5p</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ak/counties/fairbanks_north_star_borough/fairbanks_north_star_census_subarea/fairbanks</census>
-                <yago>http://yago-knowledge.org/resource/Fairbanks,_Alaska</yago>
-                <geonames>http://sws.geonames.org/5861897/</geonames>
+                <name>Norway</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>AwardDiscipline</subType>
+                <website>http://www.norway.no</website>
+                <dbpedia>http://dbpedia.org/resource/Norway</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Norway</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05b4w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVifKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Norway</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.186634</relevance>
+            <count>1</count>
+            <text>Wallops</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.185093</relevance>
+            <count>2</count>
+            <text>x-ray</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.184416</relevance>
+            <count>4</count>
+            <text>Arenosillo</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.183873</relevance>
+            <count>3</count>
+            <text>Orion</text>
+            <disambiguated>
+                <name>Orion, Wisconsin</name>
+                <geo>43.20305555555556 -90.42777777777778</geo>
+                <dbpedia>http://dbpedia.org/resource/Orion,_Wisconsin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0118lb</freebase>
+                <yago>http://yago-knowledge.org/resource/Orion,_Wisconsin</yago>
+                <geonames>http://sws.geonames.org/5265803/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.182927</relevance>
+            <count>2</count>
+            <text>Univ. of Minnesota Institute of Technology</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.182569</relevance>
+            <count>2</count>
+            <text>British Science Research Council</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.180916</relevance>
+            <count>4</count>
+            <text>nitric oxide</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.180246</relevance>
+            <count>1</count>
+            <text>Wallops</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.179993</relevance>
+            <count>2</count>
+            <text>wsmr</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.178889</relevance>
+            <count>2</count>
+            <text>Resolute Bay</text>
+            <disambiguated>
+                <name>Resolute Bay</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>74.68333333333334 -94.86666666666666</geo>
+                <dbpedia>http://dbpedia.org/resource/Resolute_Bay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04_s8h</freebase>
+                <yago>http://yago-knowledge.org/resource/Resolute_Bay</yago>
+                <geonames>http://sws.geonames.org/6121523/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.178606</relevance>
+            <count>1</count>
+            <text>Rice</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.178484</relevance>
+            <count>1</count>
+            <text>Acs</text>
         </entity>
     </entities>
 </results>

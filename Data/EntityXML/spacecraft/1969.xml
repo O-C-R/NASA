@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.761095</relevance>
+            <relevance>0.913082</relevance>
             <count>3</count>
             <text>MSFC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.700586</relevance>
+            <relevance>0.871756</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -34,14 +34,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.681108</relevance>
-            <count>1</count>
-            <text>nasa Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.592879</relevance>
+            <relevance>0.866087</relevance>
             <count>4</count>
             <text>New York Times</text>
             <disambiguated>
@@ -60,7 +54,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.560335</relevance>
+            <relevance>0.769631</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -79,8 +73,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.751794</relevance>
+            <count>1</count>
+            <text>nasa Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.461255</relevance>
+            <relevance>0.648961</relevance>
             <count>2</count>
             <text>Dr. Jacques Piccard</text>
             <disambiguated>
@@ -96,88 +96,13 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.424184</relevance>
+            <relevance>0.496686</relevance>
             <count>1</count>
             <text>Apollo Telescope Mount solar observatory</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.387982</relevance>
-            <count>1</count>
-            <text>Dr. Homer E. Newell</text>
-            <disambiguated>
-                <name>Homer E. Newell, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
-                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.376063</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.36407</relevance>
-            <count>1</count>
-            <text>Cohn</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.356017</relevance>
-            <count>1</count>
-            <text>President Llewellyn J. Evans</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.340169</relevance>
-            <count>1</count>
-            <text>Boeing Co.</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.339097</relevance>
-            <count>1</count>
-            <text>Grumman Aircraft Engineering Corp</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.333613</relevance>
-            <count>1</count>
-            <text>Gulf Stream Drift</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.324331</relevance>
-            <count>1</count>
-            <text>Marshall Star</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.322594</relevance>
+            <relevance>0.49545</relevance>
             <count>1</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -192,14 +117,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.490532</relevance>
+            <count>1</count>
+            <text>John N. Wilford</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.319503</relevance>
+            <relevance>0.480371</relevance>
+            <count>1</count>
+            <text>Gulf Stream Drift</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.469826</relevance>
+            <count>1</count>
+            <text>Apollo moon</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.458743</relevance>
             <count>1</count>
             <text>Gulf Stream</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.311698</relevance>
+            <relevance>0.446171</relevance>
+            <count>1</count>
+            <text>President Llewellyn J. Evans</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.446039</relevance>
             <count>1</count>
             <text>Ben Franklin</text>
             <disambiguated>
@@ -219,14 +168,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.308003</relevance>
-            <count>1</count>
-            <text>Kampel</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.306034</relevance>
+            <relevance>0.436861</relevance>
             <count>1</count>
             <text>Fla.</text>
             <disambiguated>
@@ -246,19 +189,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.304287</relevance>
+            <relevance>0.434439</relevance>
             <count>1</count>
-            <text>John N. Wilford</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.302296</relevance>
-            <count>1</count>
-            <text>Apollo moon</text>
+            <text>Dr. Homer E. Newell</text>
+            <disambiguated>
+                <name>Homer E. Newell, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
+                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.300369</relevance>
+            <relevance>0.429972</relevance>
             <count>1</count>
             <text>Miami</text>
             <disambiguated>
@@ -270,28 +213,85 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.421045</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.420762</relevance>
+            <count>1</count>
+            <text>Marshall Star</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.282867</relevance>
+            <relevance>0.41606</relevance>
+            <count>1</count>
+            <text>Grumman Aircraft Engineering Corp</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.409166</relevance>
+            <count>1</count>
+            <text>Cohn</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.407527</relevance>
             <count>1</count>
             <text>Nova Scotia</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.40371</relevance>
+            <count>1</count>
+            <text>Boeing Co.</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.279564</relevance>
+            <relevance>0.402492</relevance>
             <count>1</count>
             <text>engineer</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.279258</relevance>
+            <relevance>0.402055</relevance>
             <count>1</count>
             <text>Chester B.</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.277588</relevance>
+            <relevance>0.399915</relevance>
             <count>1</count>
             <text>Halifax</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.387441</relevance>
+            <count>1</count>
+            <text>Kampel</text>
         </entity>
     </entities>
 </results>

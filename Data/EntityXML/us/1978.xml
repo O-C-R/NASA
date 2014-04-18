@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.921117</relevance>
+            <relevance>0.82259</relevance>
             <count>45</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.441988</relevance>
+            <relevance>0.350594</relevance>
             <count>8</count>
             <text>JPL</text>
             <disambiguated>
@@ -45,7 +45,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.388413</relevance>
+            <relevance>0.340508</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -66,26 +66,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.367924</relevance>
-            <count>6</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.356852</relevance>
+            <relevance>0.288515</relevance>
             <count>6</count>
             <text>U.S.</text>
             <disambiguated>
@@ -105,50 +87,38 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.326097</relevance>
-            <count>6</count>
-            <text>D.C.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.321949</relevance>
-            <count>3</count>
-            <text>Langley Researcher</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.31874</relevance>
-            <count>3</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.317224</relevance>
-            <count>5</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.305667</relevance>
+            <relevance>0.276774</relevance>
             <count>3</count>
             <text>Calif</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.269935</relevance>
+            <count>4</count>
+            <text>prime contractors</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.263375</relevance>
+            <count>2</count>
+            <text>Vandenberg Air Force Base</text>
+            <disambiguated>
+                <name>Vandenberg Air Force Base</name>
+                <subType>Location</subType>
+                <subType>Airport</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Spaceport</subType>
+                <geo>34.72972222222222 -120.57694444444445</geo>
+                <website>http://www.vandenberg.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
+                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
+                <geonames>http://sws.geonames.org/6301743/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.301482</relevance>
+            <relevance>0.256029</relevance>
             <count>3</count>
             <text>Calif.</text>
             <disambiguated>
@@ -169,104 +139,101 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.301105</relevance>
-            <count>4</count>
-            <text>prime contractors</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.293127</relevance>
-            <count>2</count>
-            <text>Vandenberg Air Force Base</text>
-            <disambiguated>
-                <name>Vandenberg Air Force Base</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Spaceport</subType>
-                <geo>34.72972222222222 -120.57694444444445</geo>
-                <website>http://www.vandenberg.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
-                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/6301743/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.282133</relevance>
-            <count>2</count>
-            <text>National Aeronautic Association</text>
-            <disambiguated>
-                <name>National Aeronautic Association</name>
-                <dbpedia>http://dbpedia.org/resource/National_Aeronautic_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042yzw</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Aeronautic_Association</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.279897</relevance>
-            <count>3</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.263896</relevance>
-            <count>2</count>
-            <text>Paris</text>
-            <disambiguated>
-                <name>Paris</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>FrenchDepartment</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.paris.fr</website>
-                <dbpedia>http://dbpedia.org/resource/Paris</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05qtj</freebase>
-                <yago>http://yago-knowledge.org/resource/Paris</yago>
-                <geonames>http://sws.geonames.org/2988507/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.261724</relevance>
-            <count>1</count>
-            <text>Honeywell Information Systems</text>
-            <disambiguated>
-                <name>Honeywell</name>
-                <website>http://www.honeywell.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Honeywell</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gx66</freebase>
-                <yago>http://yago-knowledge.org/resource/Honeywell</yago>
-                <crunchbase>http://www.crunchbase.com/company/honeywell</crunchbase>
-            </disambiguated>
+            <relevance>0.253757</relevance>
+            <count>3</count>
+            <text>LaRC</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.248145</relevance>
+            <count>6</count>
+            <text>D.C.</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.25941</relevance>
-            <count>2</count>
-            <text>assistant administrator</text>
+            <relevance>0.24795</relevance>
+            <count>3</count>
+            <text>Langley Researcher</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.258849</relevance>
-            <count>1</count>
-            <text>Loren Acton</text>
+            <type>Organization</type>
+            <relevance>0.246382</relevance>
+            <count>3</count>
+            <text>KSC</text>
             <disambiguated>
-                <name>Loren Acton</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Loren_Acton</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0l7yn</freebase>
-                <yago>http://yago-knowledge.org/resource/Loren_Acton</yago>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.234485</relevance>
+            <count>6</count>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.258245</relevance>
+            <relevance>0.227758</relevance>
+            <count>3</count>
+            <text>Turin</text>
+            <disambiguated>
+                <name>Turin</name>
+                <subType>ItalianComune</subType>
+                <subType>OlympicHostCity</subType>
+                <website>http://www.comune.torino.it</website>
+                <dbpedia>http://dbpedia.org/resource/Turin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07mgr</freebase>
+                <yago>http://yago-knowledge.org/resource/Turin</yago>
+                <geonames>http://sws.geonames.org/3165524/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.219881</relevance>
+            <count>1</count>
+            <text>prime contractor</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.218438</relevance>
+            <count>1</count>
+            <text>Wallops Island</text>
+            <disambiguated>
+                <name>Wallops Island</name>
+                <subType>Location</subType>
+                <subType>Island</subType>
+                <geo>37.85 -75.46666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
+                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
+                <geonames>http://sws.geonames.org/4792009/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.216286</relevance>
             <count>2</count>
             <text>Washington</text>
             <disambiguated>
@@ -284,69 +251,87 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.257217</relevance>
-            <count>1</count>
-            <text>Kitt Peak National Observatory</text>
+            <type>Organization</type>
+            <relevance>0.215471</relevance>
+            <count>2</count>
+            <text>National Aeronautic Association</text>
             <disambiguated>
-                <name>Kitt Peak National Observatory</name>
-                <subType>Location</subType>
-                <subType>AstronomicalObservatory</subType>
-                <geo>31.958333333333332 -111.59666666666666</geo>
-                <website>http://www.noao.edu/kpno/</website>
-                <dbpedia>http://dbpedia.org/resource/Kitt_Peak_National_Observatory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04djz</freebase>
-                <yago>http://yago-knowledge.org/resource/Kitt_Peak_National_Observatory</yago>
-                <geonames>http://sws.geonames.org/5301147/</geonames>
+                <name>National Aeronautic Association</name>
+                <dbpedia>http://dbpedia.org/resource/National_Aeronautic_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042yzw</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Aeronautic_Association</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.215433</relevance>
+            <count>1</count>
+            <text>Vought Corporation</text>
+            <disambiguated>
+                <name>Vought</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://www.vought.com</website>
+                <dbpedia>http://dbpedia.org/resource/Vought</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03w400</freebase>
+                <yago>http://yago-knowledge.org/resource/Vought</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.256338</relevance>
-            <count>2</count>
-            <text>Gen. Robert J. Dixon</text>
-            <disambiguated>
-                <name>Robert J. Dixon</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_J._Dixon</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04cxfd3</freebase>
-            </disambiguated>
+            <relevance>0.214225</relevance>
+            <count>3</count>
+            <text>Jan 9/78</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.256332</relevance>
+            <type>Person</type>
+            <relevance>0.213652</relevance>
+            <count>3</count>
+            <text>Donn Lynn</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.212907</relevance>
             <count>1</count>
-            <text>Vandenberg AFB</text>
+            <text>Vought</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.253668</relevance>
-            <count>1</count>
-            <text>Cleveland</text>
+            <relevance>0.212728</relevance>
+            <count>3</count>
+            <text>Paris</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.252687</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251569</relevance>
-            <count>1</count>
-            <text>Naval Research Laboratory</text>
+            <relevance>0.212424</relevance>
+            <count>2</count>
+            <text>DOE</text>
             <disambiguated>
-                <name>United States Naval Research Laboratory</name>
-                <subType>Location</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Naval_Research_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0255xh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rXU9SuozLQdiN9Lv0zFJaQA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Naval_Research_Laboratory</yago>
+                <name>Education</name>
+                <subType>FieldOfStudy</subType>
+                <subType>OrganizationSector</subType>
+                <subType>ProfessionalField</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Education</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02jfc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvzBhv5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.209786</relevance>
+            <count>1</count>
+            <text>Dallas</text>
+            <disambiguated>
+                <name>Dallas</name>
+                <website>http://www.dallascityhall.com</website>
+                <dbpedia>http://dbpedia.org/resource/Dallas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2rq</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.251347</relevance>
+            <relevance>0.208756</relevance>
             <count>1</count>
             <text>Cape Canaveral Air Force Station</text>
             <disambiguated>
@@ -360,8 +345,37 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.208645</relevance>
+            <count>2</count>
+            <text>Washington</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.208177</relevance>
+            <count>2</count>
+            <text>Spaceport News</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.207444</relevance>
+            <count>2</count>
+            <text>Gen. Robert J. Dixon</text>
+            <disambiguated>
+                <name>Robert J. Dixon</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_J._Dixon</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04cxfd3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.206225</relevance>
+            <count>2</count>
+            <text>assistant administrator</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.251275</relevance>
+            <relevance>0.204365</relevance>
             <count>2</count>
             <text>United Kingdom</text>
             <disambiguated>
@@ -381,51 +395,80 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.250502</relevance>
-            <count>1</count>
-            <text>Ball Brothers Research Corporation</text>
-            <disambiguated>
-                <name>Ball Aerospace &amp; Technologies</name>
-                <dbpedia>http://dbpedia.org/resource/Ball_Aerospace_&amp;_Technologies</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02dxz4</freebase>
-            </disambiguated>
+            <type>JobTitle</type>
+            <relevance>0.20433</relevance>
+            <count>2</count>
+            <text>associate administrator</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.201985</relevance>
+            <count>3</count>
+            <text>Jean Lorre</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.249425</relevance>
+            <relevance>0.200777</relevance>
             <count>2</count>
             <text>Aeronautics and Astronautics</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.247614</relevance>
+            <type>Company</type>
+            <relevance>0.200709</relevance>
+            <count>3</count>
+            <text>AvWk</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.199645</relevance>
             <count>1</count>
-            <text>Palo Alto</text>
+            <text>Kenya</text>
             <disambiguated>
-                <name>Paloalto</name>
-                <subType>MusicalGroup</subType>
-                <subType>MusicalArtist</subType>
-                <dbpedia>http://dbpedia.org/resource/Paloalto</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n9294</freebase>
-                <yago>http://yago-knowledge.org/resource/Paloalto</yago>
+                <name>Kenya</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>BoardMember</subType>
+                <geo>-1.2666666666666666 36.8</geo>
+                <website>http://www.kenya.go.ke/</website>
+                <dbpedia>http://dbpedia.org/resource/Kenya</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Kenya</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.019rg5</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViFJZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kenya</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.246781</relevance>
+            <type>Organization</type>
+            <relevance>0.1988</relevance>
             <count>1</count>
-            <text>N. Paul Patterson</text>
+            <text>Centre National d&#x2019;Etudes Spatiales</text>
             <disambiguated>
-                <name>Paul Patterson</name>
-                <dbpedia>http://dbpedia.org/resource/Paul_Patterson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03xnf4k</freebase>
-                <yago>http://yago-knowledge.org/resource/Paul_Patterson</yago>
+                <name>CNES</name>
+                <subType>Company</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/CNES</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.024fy1</freebase>
+                <yago>http://yago-knowledge.org/resource/CNES</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.198457</relevance>
+            <count>1</count>
+            <text>American Political Science Association</text>
+            <disambiguated>
+                <name>American Political Science Association</name>
+                <subType>PeriodicalPublisher</subType>
+                <website>http://www.apsanet.org</website>
+                <dbpedia>http://dbpedia.org/resource/American_Political_Science_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04t6wv</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Political_Science_Association</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.245323</relevance>
+            <relevance>0.197545</relevance>
             <count>1</count>
             <text>Nellis Air Force Base</text>
             <disambiguated>
@@ -442,94 +485,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.24429</relevance>
-            <count>2</count>
-            <text>France</text>
-            <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.243132</relevance>
-            <count>2</count>
-            <text>DOE</text>
-            <disambiguated>
-                <name>Education</name>
-                <subType>FieldOfStudy</subType>
-                <subType>OrganizationSector</subType>
-                <subType>ProfessionalField</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Education</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02jfc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvzBhv5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.243068</relevance>
-            <count>3</count>
-            <text>Jan 9/78</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.24261</relevance>
+            <relevance>0.197268</relevance>
             <count>1</count>
-            <text>American Assn</text>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.242194</relevance>
+            <relevance>0.196921</relevance>
             <count>3</count>
             <text>president</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.242155</relevance>
+            <type>Organization</type>
+            <relevance>0.19605</relevance>
             <count>1</count>
-            <text>Boeing Co.</text>
+            <text>Brooks Institute of Photography</text>
             <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.241826</relevance>
-            <count>2</count>
-            <text>Jim Elliot</text>
-            <disambiguated>
-                <name>Jim Elliot</name>
-                <dbpedia>http://dbpedia.org/resource/Jim_Elliot</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04cj1k</freebase>
-                <yago>http://yago-knowledge.org/resource/Jim_Elliot</yago>
+                <name>Brooks Institute</name>
+                <subType>Location</subType>
+                <geo>34.4181 -119.6968</geo>
+                <website>http://www.brooks.edu</website>
+                <dbpedia>http://dbpedia.org/resource/Brooks_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.040hlr</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.241687</relevance>
+            <relevance>0.195188</relevance>
             <count>2</count>
             <text>Red Flag</text>
             <disambiguated>
@@ -548,89 +543,86 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.241519</relevance>
+            <type>City</type>
+            <relevance>0.19347</relevance>
             <count>1</count>
-            <text>Federal Systems Division</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240885</relevance>
-            <count>1</count>
-            <text>IWG</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.24053</relevance>
-            <count>3</count>
-            <text>AvWk</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.239361</relevance>
-            <count>2</count>
-            <text>Spaceport News</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.239352</relevance>
-            <count>1</count>
-            <text>Centre National d&#x2019;Etudes Spatiales</text>
+            <text>Le Havre</text>
             <disambiguated>
-                <name>CNES</name>
-                <subType>Company</subType>
-                <subType>SpaceAgency</subType>
+                <name>Le Havre</name>
+                <website>http://www.ville-lehavre.fr/</website>
+                <dbpedia>http://dbpedia.org/resource/Le_Havre</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f3vg</freebase>
+                <yago>http://yago-knowledge.org/resource/Le_Havre</yago>
+                <geonames>http://sws.geonames.org/3003796/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.193108</relevance>
+            <count>1</count>
+            <text>Boeing Co.</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
                 <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/CNES</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.024fy1</freebase>
-                <yago>http://yago-knowledge.org/resource/CNES</yago>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.238041</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.192717</relevance>
             <count>1</count>
-            <text>Mullard Space Science Laboratory.</text>
+            <text>Tex.</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.23555</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.192297</relevance>
             <count>1</count>
-            <text>NAA</text>
+            <text>Cape Canaveral</text>
             <disambiguated>
-                <name>United States</name>
+                <name>Cape Canaveral</name>
                 <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.234019</relevance>
+            <type>City</type>
+            <relevance>0.191472</relevance>
             <count>1</count>
-            <text>American Astronomical Society</text>
+            <text>San Marco</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.190937</relevance>
+            <count>1</count>
+            <text>Polaroid</text>
             <disambiguated>
-                <name>American Astronomical Society</name>
-                <subType>AwardPresentingOrganization</subType>
-                <dbpedia>http://dbpedia.org/resource/American_Astronomical_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01nm9m</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Astronomical_Society</yago>
+                <name>Polaroid Corporation</name>
+                <subType>SoftwareDeveloper</subType>
+                <website>http://www.polaroid.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Polaroid_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017zf_</freebase>
+                <yago>http://yago-knowledge.org/resource/Polaroid_Corporation</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.233866</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.190371</relevance>
             <count>1</count>
-            <text>Science magazine</text>
+            <text>Va.</text>
         </entity>
     </entities>
 </results>

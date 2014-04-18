@@ -6,16 +6,10 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Facility</type>
-            <relevance>0.889439</relevance>
-            <count>8</count>
-            <text>nasa Manned Spacecraft Center</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.703066</relevance>
-            <count>9</count>
-            <text>Astronaut L. Gordon Cooper</text>
+            <relevance>0.837712</relevance>
+            <count>10</count>
+            <text>Astronaut Leroy Gordon Cooper</text>
             <disambiguated>
                 <name>Gordon Cooper</name>
                 <subType>FilmCharacter</subType>
@@ -27,49 +21,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.604351</relevance>
-            <count>7</count>
-            <text>Manned Spacecraft Center</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.536592</relevance>
-            <count>7</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.465909</relevance>
+            <type>Facility</type>
+            <relevance>0.799226</relevance>
             <count>9</count>
-            <text>Wash</text>
+            <text>nasa Manned Spacecraft Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.439641</relevance>
-            <count>6</count>
+            <relevance>0.634746</relevance>
+            <count>11</count>
             <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
@@ -90,34 +50,100 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.438597</relevance>
+            <relevance>0.614012</relevance>
             <count>5</count>
-            <text>Astronaut M. Scott Carpenter</text>
-            <disambiguated>
-                <name>Scott Carpenter</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.scottcarpenter.com</website>
-                <dbpedia>http://dbpedia.org/resource/Scott_Carpenter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wz44</freebase>
-                <yago>http://yago-knowledge.org/resource/Scott_Carpenter</yago>
-            </disambiguated>
+            <text>Astronaut Astronaut M. Scott Carpenter</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.52041</relevance>
+            <count>9</count>
+            <text>Wash</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.433684</relevance>
+            <relevance>0.445645</relevance>
             <count>7</count>
             <text>AP</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.337976</relevance>
-            <count>1</count>
-            <text>Astronaut Astronaut Leroy Gordon Cooper</text>
+            <type>PrintMedia</type>
+            <relevance>0.394575</relevance>
+            <count>7</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.360625</relevance>
+            <count>2</count>
+            <text>Manned Spacecraft Center</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.318098</relevance>
+            <count>4</count>
+            <text>msc Release</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.314409</relevance>
+            <count>3</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.317236</relevance>
+            <relevance>0.312838</relevance>
+            <count>2</count>
+            <text>Astronaut L. Gordon Cooper.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.301787</relevance>
+            <count>3</count>
+            <text>Gemini</text>
+            <disambiguated>
+                <name>Gemini Sound Products</name>
+                <dbpedia>http://dbpedia.org/resource/Gemini_Sound_Products</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b8nz7</freebase>
+                <yago>http://yago-knowledge.org/resource/Gemini_Sound_Products</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.277857</relevance>
             <count>4</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -145,60 +171,49 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.314891</relevance>
-            <count>2</count>
-            <text>Astronaut L. Gordon Cooper.</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.31214</relevance>
-            <count>3</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.311054</relevance>
-            <count>3</count>
-            <text>Gemini</text>
-            <disambiguated>
-                <name>GeminiJets</name>
-                <dbpedia>http://dbpedia.org/resource/GeminiJets</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xx8h</freebase>
-                <yago>http://yago-knowledge.org/resource/GeminiJets</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.303457</relevance>
-            <count>3</count>
-            <text>msc Release</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.296671</relevance>
-            <count>1</count>
-            <text>nasa Launch Operations Center</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.278179</relevance>
+            <relevance>0.273782</relevance>
             <count>3</count>
             <text>C. Leo DeOrsey</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.272838</relevance>
+            <count>3</count>
+            <text>Dr. Douglas McKie</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.257875</relevance>
+            <count>2</count>
+            <text>Houston Post</text>
+            <disambiguated>
+                <name>Houston Post</name>
+                <dbpedia>http://dbpedia.org/resource/Houston_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06gjdq</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.265613</relevance>
+            <relevance>0.251196</relevance>
+            <count>2</count>
+            <text>Project Mercury</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.245661</relevance>
+            <count>1</count>
+            <text>nasa Launch Operations Center</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.244728</relevance>
+            <count>1</count>
+            <text>Space Information Digest</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.236499</relevance>
             <count>2</count>
             <text>Field Enterprises</text>
             <disambiguated>
@@ -210,56 +225,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.26264</relevance>
-            <count>1</count>
-            <text>Manned Spacecraft Center</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.253867</relevance>
-            <count>1</count>
-            <text>Director of Flight Operations Div.</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.249289</relevance>
-            <count>2</count>
-            <text>Field Enterprises Educational Corp.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.246458</relevance>
+            <relevance>0.235224</relevance>
             <count>1</count>
-            <text>Manager of Project Mercury Operations</text>
+            <text>nasa Hq.</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.24546</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.230083</relevance>
             <count>2</count>
-            <text>Houston Post</text>
+            <text>Fla.</text>
             <disambiguated>
-                <name>Houston Post</name>
-                <dbpedia>http://dbpedia.org/resource/Houston_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06gjdq</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Post</yago>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.238909</relevance>
-            <count>1</count>
-            <text>Project Mercury Office</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.238615</relevance>
-            <count>2</count>
-            <text>Director</text>
+            <relevance>0.225664</relevance>
+            <count>3</count>
+            <text>Academy</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.237767</relevance>
+            <relevance>0.225179</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -279,182 +278,70 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.23769</relevance>
+            <relevance>0.224394</relevance>
             <count>1</count>
             <text>Mercury</text>
             <disambiguated>
-                <name>Mercury Interactive</name>
-                <subType>VentureFundedCompany</subType>
-                <website>https://h10078.www1.hp.com/cda/hpms/display/main/hpms_home.jsp?zn=bto&amp;cp=1_4011_100__/</website>
-                <dbpedia>http://dbpedia.org/resource/Mercury_Interactive</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07lhf4</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwH6HppwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mercury_Interactive</yago>
+                <name>Mercury Insurance Group</name>
+                <dbpedia>http://dbpedia.org/resource/Mercury_Insurance_Group</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kqqbm</freebase>
+                <yago>http://yago-knowledge.org/resource/Mercury_Insurance_Group</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.234001</relevance>
+            <relevance>0.221416</relevance>
             <count>2</count>
             <text>Calif</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.230473</relevance>
-            <count>2</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.228055</relevance>
-            <count>1</count>
-            <text>Major Cooper</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.227943</relevance>
-            <count>3</count>
-            <text>Dr. Douglas McKie</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227544</relevance>
-            <count>3</count>
-            <text>Academy</text>
-        </entity>
-        <entity>
             <type>Technology</type>
-            <relevance>0.226958</relevance>
+            <relevance>0.220327</relevance>
             <count>1</count>
             <text>nasa</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.226817</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.226361</relevance>
-            <count>1</count>
-            <text>nasa Hq.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.225502</relevance>
+            <relevance>0.220043</relevance>
             <count>2</count>
-            <text>Mr. Webb</text>
+            <text>Field Enterprises Educational Corp.</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.22445</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
+            <type>JobTitle</type>
+            <relevance>0.217985</relevance>
+            <count>2</count>
+            <text>director</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.223811</relevance>
+            <type>Country</type>
+            <relevance>0.215376</relevance>
             <count>1</count>
-            <text>Life Magazine</text>
+            <text>U.K.</text>
             <disambiguated>
-                <name>Life (magazine)</name>
-                <subType>Magazine</subType>
-                <website>http://www.Life.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Life_(magazine)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.019n3s</freebase>
-                <yago>http://yago-knowledge.org/resource/Life_(magazine)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.221533</relevance>
-            <count>1</count>
-            <text>White House</text>
-            <disambiguated>
-                <name>White House</name>
+                <name>United Kingdom</name>
                 <subType>Location</subType>
-                <subType>House</subType>
-                <subType>TouristAttraction</subType>
-                <subType>Building</subType>
-                <website>http://www.whitehouse.gov</website>
-                <dbpedia>http://dbpedia.org/resource/White_House</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.081sq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvyXliZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/White_House</yago>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MeteorologicalService</subType>
+                <geo>51.5 -0.11666666666666667</geo>
+                <website>http://www.royal.gov.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.221265</relevance>
-            <count>1</count>
-            <text>Space Information Digest</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.221149</relevance>
-            <count>1</count>
-            <text>Christopher C. Kraft</text>
-            <disambiguated>
-                <name>Christopher C. Kraft, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vcvg</freebase>
-                <yago>http://yago-knowledge.org/resource/Christopher_C._Kraft,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.220882</relevance>
-            <count>1</count>
-            <text>Floyd L. Thompson</text>
-            <disambiguated>
-                <name>Laird A. Thompson</name>
-                <dbpedia>http://dbpedia.org/resource/Laird_A._Thompson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03cj_bp</freebase>
-                <yago>http://yago-knowledge.org/resource/Laird_A._Thompson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.22076</relevance>
-            <count>2</count>
-            <text>Harry A. Batten</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.217078</relevance>
-            <count>2</count>
-            <text>Project Mercury</text>
+            <relevance>0.214776</relevance>
+            <count>1</count>
+            <text>Major Cooper</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.216005</relevance>
+            <relevance>0.213519</relevance>
             <count>1</count>
             <text>Avco</text>
             <disambiguated>
@@ -466,25 +353,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.212316</relevance>
-            <count>1</count>
-            <text>Langley Research Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.206797</relevance>
-            <count>1</count>
-            <text>Avco Corp</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.205682</relevance>
-            <count>1</count>
-            <text>Kenneth S. Klein-knecht</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.205607</relevance>
+            <relevance>0.213134</relevance>
             <count>1</count>
             <text>Grand Central Station</text>
             <disambiguated>
@@ -501,33 +370,164 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.205372</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.211679</relevance>
             <count>1</count>
-            <text>President Eisenhower</text>
+            <text>Houston Chronicle</text>
             <disambiguated>
-                <name>Dwight D. Eisenhower</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>ChivalricOrderMember</subType>
-                <subType>FootballPlayer</subType>
-                <subType>HallOfFameInductee</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>TVPersonality</subType>
-                <subType>USPresident</subType>
-                <dbpedia>http://dbpedia.org/resource/Dwight_D._Eisenhower</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.028rk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViOpZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Dwight_D._Eisenhower</yago>
+                <name>Houston Chronicle</name>
+                <subType>Newspaper</subType>
+                <website>http://chron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.210819</relevance>
+            <count>1</count>
+            <text>DC-8</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.210174</relevance>
+            <count>1</count>
+            <text>Director of Flight Operations Div.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.204217</relevance>
+            <count>1</count>
+            <text>Avco Corp</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.204088</relevance>
+            <count>1</count>
+            <text>Manager of Project Mercury Operations</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.203823</relevance>
+            <count>1</count>
+            <text>School of Aerospace Medicine</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.20299</relevance>
+            <count>1</count>
+            <text>Space Age Symposium</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.202736</relevance>
+            <count>1</count>
+            <text>New York</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.204944</relevance>
+            <relevance>0.202721</relevance>
+            <count>2</count>
+            <text>Mr. Webb</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.201651</relevance>
             <count>1</count>
-            <text>G. Merritt Preston</text>
+            <text>France</text>
+            <disambiguated>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.201067</relevance>
+            <count>1</count>
+            <text>Dr. Robert R. Gilruth</text>
+            <disambiguated>
+                <name>Robert R. Gilruth</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_R._Gilruth</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xn0q</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_R._Gilruth</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.200903</relevance>
+            <count>1</count>
+            <text>Chief of msc Medical Operations Office</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.200326</relevance>
+            <count>1</count>
+            <text>Univ. of London</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.198195</relevance>
+            <count>1</count>
+            <text>Sperry Gyroscope</text>
+            <disambiguated>
+                <name>Sperry Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/Sperry_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ymfs</freebase>
+                <yago>http://yago-knowledge.org/resource/Sperry_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.197806</relevance>
+            <count>1</count>
+            <text>Project Mercury Office</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.196952</relevance>
+            <count>1</count>
+            <text>Naval Ordnance Test Station</text>
+            <disambiguated>
+                <name>Naval Air Weapons Station China Lake</name>
+                <subType>Airport</subType>
+                <geo>35.68555555555555 -117.69194444444445</geo>
+                <website>http://www.cnic.navy.mil/chinalake/</website>
+                <dbpedia>http://dbpedia.org/resource/Naval_Air_Weapons_Station_China_Lake</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042pxp</freebase>
+                <yago>http://yago-knowledge.org/resource/Naval_Air_Weapons_Station_China_Lake</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.196831</relevance>
+            <count>1</count>
+            <text>Simons</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.884444</relevance>
+            <relevance>0.894371</relevance>
             <count>15</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,26 +28,56 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.557427</relevance>
-            <count>2</count>
-            <text>Ikonos Satellite</text>
+            <type>Country</type>
+            <relevance>0.4872</relevance>
+            <count>4</count>
+            <text>Japan</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.507004</relevance>
+            <relevance>0.472328</relevance>
+            <count>6</count>
+            <text>Anik</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.454499</relevance>
+            <count>1</count>
+            <text>Boeing Satellite Systems</text>
+            <disambiguated>
+                <name>Boeing Satellite Development Center</name>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Boeing_Satellite_Development_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04y7n5</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing_Satellite_Development_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.439835</relevance>
+            <count>1</count>
+            <text>ADEOS Earth Observation Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.433149</relevance>
+            <count>2</count>
+            <text>Telesat Canada</text>
+            <disambiguated>
+                <name>Telesat</name>
+                <dbpedia>http://dbpedia.org/resource/Telesat</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05d_g1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.431611</relevance>
             <count>2</count>
             <text>Satellite Imaging Corporation</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.476132</relevance>
-            <count>1</count>
-            <text>Satellite Imaging Firms</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.455769</relevance>
+            <relevance>0.424403</relevance>
             <count>4</count>
             <text>US</text>
             <disambiguated>
@@ -67,44 +97,58 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.444712</relevance>
-            <count>6</count>
-            <text>Anik</text>
+            <relevance>0.407579</relevance>
+            <count>2</count>
+            <text>Ikonos Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.402366</relevance>
+            <count>1</count>
+            <text>Satellite Imaging Firms</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.40232</relevance>
+            <count>2</count>
+            <text>Space Imaging</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.431478</relevance>
+            <relevance>0.379264</relevance>
             <count>3</count>
             <text>NIMA</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.427811</relevance>
-            <count>4</count>
-            <text>Japan</text>
+            <type>Organization</type>
+            <relevance>0.365825</relevance>
+            <count>1</count>
+            <text>THEMIS</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.424678</relevance>
+            <relevance>0.362163</relevance>
             <count>1</count>
-            <text>ADEOS Earth Observation Satellite</text>
+            <text>First Military Satellite</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.42182</relevance>
-            <count>1</count>
-            <text>Boeing Satellite Systems</text>
+            <relevance>0.361006</relevance>
+            <count>2</count>
+            <text>Associated Press</text>
             <disambiguated>
-                <name>Boeing Satellite Development Center</name>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Boeing_Satellite_Development_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04y7n5</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing_Satellite_Development_Center</yago>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.421067</relevance>
+            <relevance>0.358682</relevance>
             <count>5</count>
             <text>South Korea</text>
             <disambiguated>
@@ -120,25 +164,115 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.40697</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.355757</relevance>
             <count>2</count>
-            <text>Telesat Canada</text>
+            <text>Space News</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.346694</relevance>
+            <count>1</count>
+            <text>JAXA</text>
             <disambiguated>
-                <name>Telesat</name>
-                <dbpedia>http://dbpedia.org/resource/Telesat</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05d_g1</freebase>
+                <name>Japan Aerospace Exploration Agency</name>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.youtube.com/jaxachannel</website>
+                <dbpedia>http://dbpedia.org/resource/Japan_Aerospace_Exploration_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03595y</freebase>
+                <yago>http://yago-knowledge.org/resource/Japan_Aerospace_Exploration_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.341211</relevance>
+            <count>1</count>
+            <text>FUSE Project Scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.335892</relevance>
+            <count>2</count>
+            <text>Telesat</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.325375</relevance>
+            <count>1</count>
+            <text>Telesat Selects European Manufacturer</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.31211</relevance>
+            <count>1</count>
+            <text>Arctic Circle</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.310955</relevance>
+            <count>1</count>
+            <text>Extreme Universe Space Observatory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.305764</relevance>
+            <count>2</count>
+            <text>KT Corporation</text>
+            <disambiguated>
+                <name>KT Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/KT_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03p2j86</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.304861</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.395699</relevance>
-            <count>2</count>
-            <text>Space Imaging</text>
+            <relevance>0.299461</relevance>
+            <count>1</count>
+            <text>Alcatel Space</text>
+            <disambiguated>
+                <name>Thales Alenia Space</name>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.thalesgroup.com/Markets/Space/Home/?LangType=2057</website>
+                <dbpedia>http://dbpedia.org/resource/Thales_Alenia_Space</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qjw4d</freebase>
+                <yago>http://yago-knowledge.org/resource/Thales_Alenia_Space</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.296781</relevance>
+            <count>1</count>
+            <text>ESA</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.392367</relevance>
+            <relevance>0.294079</relevance>
             <count>2</count>
             <text>Colorado</text>
             <disambiguated>
@@ -158,58 +292,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.368964</relevance>
-            <count>2</count>
-            <text>Space News</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.36849</relevance>
-            <count>1</count>
-            <text>First Military Satellite</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.365838</relevance>
-            <count>2</count>
-            <text>KT Corporation</text>
-            <disambiguated>
-                <name>KT Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/KT_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03p2j86</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.355845</relevance>
-            <count>1</count>
-            <text>FUSE Project Scientist</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.337145</relevance>
-            <count>1</count>
-            <text>NIMA</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.336636</relevance>
-            <count>1</count>
-            <text>JAXA</text>
-            <disambiguated>
-                <name>Japan Aerospace Exploration Agency</name>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.youtube.com/jaxachannel</website>
-                <dbpedia>http://dbpedia.org/resource/Japan_Aerospace_Exploration_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03595y</freebase>
-                <yago>http://yago-knowledge.org/resource/Japan_Aerospace_Exploration_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.33623</relevance>
+            <relevance>0.290292</relevance>
             <count>1</count>
             <text>Longmont</text>
             <disambiguated>
@@ -224,14 +308,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.32633</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.288211</relevance>
             <count>1</count>
-            <text>NIMA Partners</text>
+            <text>Alaska</text>
+            <disambiguated>
+                <name>Alaska</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>64.0 -153.0</geo>
+                <website>http://www.alaska.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Alaska</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.284932</relevance>
+            <count>1</count>
+            <text>NIMA</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.282237</relevance>
+            <count>1</count>
+            <text>George Sonneborn</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.324165</relevance>
+            <relevance>0.278293</relevance>
             <count>1</count>
             <text>Thornton</text>
             <disambiguated>
@@ -244,97 +354,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.321479</relevance>
-            <count>1</count>
-            <text>THEMIS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.313284</relevance>
-            <count>1</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.312386</relevance>
-            <count>2</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.30993</relevance>
-            <count>2</count>
-            <text>Telesat</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.304078</relevance>
+            <relevance>0.273605</relevance>
             <count>1</count>
-            <text>Alcatel Space</text>
-            <disambiguated>
-                <name>Thales Alenia Space</name>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.thalesgroup.com/Markets/Space/Home/?LangType=2057</website>
-                <dbpedia>http://dbpedia.org/resource/Thales_Alenia_Space</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qjw4d</freebase>
-                <yago>http://yago-knowledge.org/resource/Thales_Alenia_Space</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.302412</relevance>
-            <count>1</count>
-            <text>Warren Ferster</text>
+            <text>NIMA Partners</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.297163</relevance>
-            <count>1</count>
-            <text>Arctic Circle</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.29701</relevance>
-            <count>1</count>
-            <text>Telesat Selects European Manufacturer</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.295737</relevance>
-            <count>1</count>
-            <text>Mapping Agency</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294339</relevance>
-            <count>1</count>
-            <text>George Sonneborn</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.294318</relevance>
-            <count>1</count>
-            <text>Extreme Universe Space Observatory</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.284613</relevance>
-            <count>1</count>
-            <text>software installation</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.283232</relevance>
+            <relevance>0.27311</relevance>
             <count>1</count>
             <text>St. Lawrence Island</text>
             <disambiguated>
@@ -348,53 +375,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.283212</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.272802</relevance>
             <count>1</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.282276</relevance>
-            <count>1</count>
-            <text>ESA</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.277265</relevance>
-            <count>1</count>
-            <text>Point Hope</text>
-            <disambiguated>
-                <name>Point Hope, Alaska</name>
-                <geo>68.34694444444445 -166.76305555555555</geo>
-                <dbpedia>http://dbpedia.org/resource/Point_Hope,_Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qgnq</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ak/counties/north_slope_borough/north_slope_census_subarea/point_hope</census>
-                <yago>http://yago-knowledge.org/resource/Point_Hope,_Alaska</yago>
-            </disambiguated>
+            <text>software installation</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.275911</relevance>
+            <relevance>0.271914</relevance>
             <count>1</count>
             <text>France</text>
             <disambiguated>
@@ -414,58 +402,82 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.27532</relevance>
+            <type>Organization</type>
+            <relevance>0.271502</relevance>
             <count>1</count>
-            <text>Remote Sensing Industry</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.27255</relevance>
-            <count>1</count>
-            <text>Alaska</text>
-            <disambiguated>
-                <name>Alaska</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>64.0 -153.0</geo>
-                <website>http://www.alaska.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Alaska</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.264574</relevance>
-            <count>1</count>
-            <text>Koreasat</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.261542</relevance>
-            <count>1</count>
-            <text>Spacewarn Bulletin</text>
+            <text>ISS</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.26123</relevance>
+            <relevance>0.270792</relevance>
             <count>1</count>
-            <text>Koreasat</text>
+            <text>Sam Silverstein</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.258101</relevance>
+            <relevance>0.267319</relevance>
             <count>1</count>
             <text>Justin Ray</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.267192</relevance>
+            <count>1</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.266878</relevance>
+            <count>1</count>
+            <text>Point Hope</text>
+            <disambiguated>
+                <name>Point Hope, Alaska</name>
+                <geo>68.34694444444445 -166.76305555555555</geo>
+                <dbpedia>http://dbpedia.org/resource/Point_Hope,_Alaska</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0qgnq</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ak/counties/north_slope_borough/north_slope_census_subarea/point_hope</census>
+                <yago>http://yago-knowledge.org/resource/Point_Hope,_Alaska</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.266146</relevance>
+            <count>1</count>
+            <text>Spacewarn Bulletin</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.260334</relevance>
+            <count>1</count>
+            <text>Koreasat</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.256989</relevance>
+            <count>1</count>
+            <text>Koreasat</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255589</relevance>
+            <count>1</count>
+            <text>Warren Ferster</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.250041</relevance>
+            <count>1</count>
+            <text>Mapping Agency</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.247656</relevance>
+            <count>1</count>
+            <text>Northeast Asia</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.257478</relevance>
+            <relevance>0.247351</relevance>
             <count>1</count>
             <text>St. Matthew Island</text>
             <disambiguated>
@@ -480,31 +492,16 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.256969</relevance>
+            <relevance>0.247094</relevance>
             <count>1</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.25554</relevance>
-            <count>1</count>
-            <text>Barrow</text>
+            <text>NOAA</text>
             <disambiguated>
-                <name>Barrow, Alaska</name>
-                <geo>71.29555555555555 -156.76638888888888</geo>
-                <website>http://www.cityofbarrow.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Barrow,_Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01z1nwf</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ak/counties/north_slope_borough/north_slope_census_subarea/barrow</census>
-                <yago>http://yago-knowledge.org/resource/Barrow,_Alaska</yago>
-                <geonames>http://sws.geonames.org/5880054/</geonames>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.251717</relevance>
-            <count>1</count>
-            <text>Northeast Asia</text>
         </entity>
     </entities>
 </results>

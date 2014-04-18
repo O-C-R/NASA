@@ -5,7 +5,8 @@ String buckets = "administrative,astronaut,mars,moon,people,politics,research_an
 for (String s:buckets.split(",")) {
   try {
     //Runtime.getRuntime().exec("cat  ~/code/NASA/Data/BucketText/" + s + "/allBucketStories/* > ~/code/NASA/Data/BucketText/" + s + "/allBucketStories/allYears.txt");
-    print("cat  ~/code/NASA/Data/BucketText/" + s + "/uniqueBucketStories/* > ~/code/NASA/Data/BucketText/" + s + "/uniqueBucketStories/allYears.txt;");
+    //print("rm ~/code/NASA/Data/BucketText/" + s + "/uniqueBucketStories/allYears.txt;");
+    print("cat  ~/code/NASA/Data/BucketText/" + s + "/allBucketStories/* > ~/code/NASA/Data/BucketText/" + s + "/allBucketStories/allYears.txt;");
   } 
   catch (Exception e) {
     println("error");

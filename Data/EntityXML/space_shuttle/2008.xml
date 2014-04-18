@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.859119</relevance>
+            <relevance>0.862492</relevance>
             <count>13</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.520782</relevance>
+            <relevance>0.370387</relevance>
             <count>8</count>
             <text>Congressional Budget Office</text>
             <disambiguated>
@@ -43,31 +43,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.312126</relevance>
+            <relevance>0.323697</relevance>
             <count>1</count>
             <text>NASA Partners</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.275177</relevance>
-            <count>3</count>
-            <text>Orion</text>
+            <type>Company</type>
+            <relevance>0.284757</relevance>
+            <count>1</count>
+            <text>Orbital Sciences Corporation of Dulles</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261283</relevance>
+            <relevance>0.270574</relevance>
             <count>1</count>
             <text>Space Transport Services</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.235254</relevance>
-            <count>1</count>
-            <text>Orbital Sciences Corporation of Dulles</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.223521</relevance>
+            <relevance>0.231466</relevance>
             <count>1</count>
             <text>Orbital Sciences</text>
             <disambiguated>
@@ -80,26 +74,51 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.174445</relevance>
+            <type>City</type>
+            <relevance>0.211586</relevance>
+            <count>3</count>
+            <text>Orion</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.19211</relevance>
             <count>1</count>
-            <text>SSP</text>
+            <text>Virginia</text>
+            <disambiguated>
+                <name>Virginia</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.189524</relevance>
+            <count>1</count>
+            <text>ISS</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.172987</relevance>
+            <relevance>0.179115</relevance>
             <count>1</count>
             <text>El Segundo</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.168277</relevance>
+            <relevance>0.174281</relevance>
             <count>1</count>
             <text>Brian Berger</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.165398</relevance>
+            <relevance>0.17081</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -121,7 +140,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.164313</relevance>
+            <relevance>0.168249</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -140,45 +159,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.160922</relevance>
-            <count>1</count>
-            <text>Virginia</text>
-            <disambiguated>
-                <name>Virginia</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.virginia.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Virginia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.156446</relevance>
+            <relevance>0.165088</relevance>
             <count>1</count>
-            <text>ISS</text>
+            <text>SSP</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.156008</relevance>
+            <relevance>0.160207</relevance>
             <count>1</count>
             <text>Becky Iannotta</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.151616</relevance>
+            <relevance>0.155734</relevance>
             <count>1</count>
             <text>DC</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.148818</relevance>
+            <relevance>0.152858</relevance>
             <count>1</count>
             <text>Washington</text>
         </entity>

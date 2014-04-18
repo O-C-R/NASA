@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.94301</relevance>
+            <relevance>0.95296</relevance>
             <count>2</count>
             <text>American Astronomical Society</text>
             <disambiguated>
@@ -20,7 +20,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.91168</relevance>
+            <relevance>0.900102</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -38,8 +38,29 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.779474</relevance>
+            <count>2</count>
+            <text>black holes</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.770805</relevance>
+            <count>2</count>
+            <text>Tucson</text>
+            <disambiguated>
+                <name>Tucson, Arizona</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.tucsonaz.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Tucson,_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fr0t</freebase>
+                <yago>http://yago-knowledge.org/resource/Tucson,_Arizona</yago>
+                <geonames>http://sws.geonames.org/5318313/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.783906</relevance>
+            <relevance>0.768072</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -60,23 +81,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.762753</relevance>
-            <count>2</count>
-            <text>Tucson</text>
-            <disambiguated>
-                <name>Tucson, Arizona</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.tucsonaz.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Tucson,_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fr0t</freebase>
-                <yago>http://yago-knowledge.org/resource/Tucson,_Arizona</yago>
-                <geonames>http://sws.geonames.org/5318313/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.705291</relevance>
+            <relevance>0.712894</relevance>
             <count>2</count>
             <text>Arizona</text>
             <disambiguated>
@@ -94,12 +100,6 @@
                 <census>http://www.rdfabout.com/rdf/usgov/geo/us/az</census>
                 <yago>http://yago-knowledge.org/resource/Arizona</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.634464</relevance>
-            <count>2</count>
-            <text>black holes</text>
         </entity>
         <entity>
             <type>Company</type>
@@ -128,19 +128,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.50618</relevance>
+            <relevance>0.511419</relevance>
             <count>1</count>
             <text>Reuter</text>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.489417</relevance>
-            <count>1</count>
-            <text>America</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.487334</relevance>
+            <relevance>0.503708</relevance>
             <count>1</count>
             <text>Virgin Islands</text>
             <disambiguated>
@@ -154,8 +148,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Continent</type>
+            <relevance>0.489417</relevance>
+            <count>1</count>
+            <text>America</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.401783</relevance>
+            <relevance>0.416667</relevance>
             <count>1</count>
             <text>Hawaii</text>
         </entity>

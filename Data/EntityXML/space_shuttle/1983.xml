@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.881454</relevance>
+            <relevance>0.878124</relevance>
             <count>3</count>
             <text>Spacelab</text>
         </entity>
@@ -28,8 +28,27 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.618133</relevance>
+            <count>3</count>
+            <text>New Jersey</text>
+            <disambiguated>
+                <name>New Jersey</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.nj.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.579067</relevance>
+            <relevance>0.574643</relevance>
             <count>3</count>
             <text>USA</text>
             <disambiguated>
@@ -48,27 +67,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.546969</relevance>
-            <count>3</count>
-            <text>New Jersey</text>
-            <disambiguated>
-                <name>New Jersey</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nj.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.544166</relevance>
+            <relevance>0.555952</relevance>
             <count>2</count>
             <text>ESA</text>
             <disambiguated>
@@ -86,26 +86,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.536914</relevance>
-            <count>2</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.531858</relevance>
+            <relevance>0.51376</relevance>
             <count>2</count>
             <text>Columbia</text>
             <disambiguated>
@@ -124,13 +106,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.514494</relevance>
+            <relevance>0.504504</relevance>
             <count>1</count>
             <text>Spacelab</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.509072</relevance>
+            <relevance>0.492978</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -151,6 +133,24 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.459147</relevance>
+            <count>2</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
             <relevance>0.448566</relevance>
             <count>1</count>
@@ -166,7 +166,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.437862</relevance>
+            <relevance>0.422698</relevance>
             <count>2</count>
             <text>Victor Blagov</text>
         </entity>
@@ -189,7 +189,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.411175</relevance>
+            <relevance>0.416187</relevance>
             <count>1</count>
             <text>ESA Info</text>
         </entity>
@@ -200,20 +200,8 @@
             <text>Soviet Union.</text>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.390298</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.377466</relevance>
-            <count>1</count>
-            <text>Hudson Bay</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.377074</relevance>
+            <relevance>0.39014</relevance>
             <count>1</count>
             <text>RCA Corporation</text>
             <disambiguated>
@@ -227,7 +215,7 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.372174</relevance>
+            <relevance>0.385589</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
             <disambiguated>
@@ -243,10 +231,25 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.354837</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.377466</relevance>
             <count>1</count>
-            <text>ground system</text>
+            <text>Hudson Bay</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.376812</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+            <disambiguated>
+                <name>Marshall Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
+                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
@@ -265,12 +268,6 @@
                 <yago>http://yago-knowledge.org/resource/Moscow</yago>
                 <geonames>http://sws.geonames.org/524901/</geonames>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.351674</relevance>
-            <count>1</count>
-            <text>director</text>
         </entity>
         <entity>
             <type>Country</type>
@@ -294,8 +291,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.339085</relevance>
+            <count>1</count>
+            <text>ground system</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.338085</relevance>
+            <count>1</count>
+            <text>director</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.33978</relevance>
+            <relevance>0.337888</relevance>
             <count>1</count>
             <text>LeRC</text>
         </entity>
@@ -313,15 +322,30 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.30621</relevance>
+            <relevance>0.318539</relevance>
             <count>1</count>
             <text>Temple University</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.288324</relevance>
+            <relevance>0.300546</relevance>
             <count>1</count>
             <text>France</text>
+            <disambiguated>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

@@ -6,59 +6,44 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Person</type>
-            <relevance>0.787479</relevance>
-            <count>3</count>
-            <text>Edward N. Cole</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.624196</relevance>
+            <relevance>0.9451</relevance>
             <count>1</count>
             <text>Deputy Associate Administrator of NASA</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.60204</relevance>
+            <relevance>0.930822</relevance>
             <count>1</count>
             <text>Associate Administrator of NASA</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.597061</relevance>
+            <relevance>0.903827</relevance>
             <count>1</count>
             <text>Associate Administrator for Space Science and Applications</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.524134</relevance>
-            <count>1</count>
-            <text>Associate Administrator</text>
+            <type>Person</type>
+            <relevance>0.787133</relevance>
+            <count>3</count>
+            <text>Edward N. Cole</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.458749</relevance>
+            <relevance>0.780415</relevance>
             <count>2</count>
             <text>Dr. John E. Naugle</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.447303</relevance>
+            <type>JobTitle</type>
+            <relevance>0.734013</relevance>
             <count>1</count>
-            <text>Christian Science Monitor</text>
-            <disambiguated>
-                <name>The Christian Science Monitor</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.csmonitor.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Christian_Science_Monitor</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01h5gh</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Christian_Science_Monitor</yago>
-            </disambiguated>
+            <text>Associate Administrator</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.433162</relevance>
+            <relevance>0.647016</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -79,25 +64,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.423656</relevance>
+            <type>Person</type>
+            <relevance>0.620788</relevance>
             <count>1</count>
-            <text>General Motors Corp.</text>
+            <text>Dr. Rocco A. Petrone</text>
             <disambiguated>
-                <name>General Motors</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AutomobileCompany</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.gm.com</website>
-                <dbpedia>http://dbpedia.org/resource/General_Motors</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.035nm</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViJbpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/General_Motors</yago>
+                <name>Rocco Petrone</name>
+                <subType>FootballPlayer</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Rocco_Petrone</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gtv1m</freebase>
+                <yago>http://yago-knowledge.org/resource/Rocco_Petrone</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.417285</relevance>
+            <relevance>0.583467</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -119,21 +101,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.405639</relevance>
-            <count>1</count>
-            <text>Dr. Rocco A. Petrone</text>
-            <disambiguated>
-                <name>Rocco Petrone</name>
-                <subType>FootballPlayer</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Rocco_Petrone</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gtv1m</freebase>
-                <yago>http://yago-knowledge.org/resource/Rocco_Petrone</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.403472</relevance>
+            <relevance>0.550628</relevance>
             <count>1</count>
             <text>Paul Dirac</text>
             <disambiguated>
@@ -147,8 +115,64 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.505714</relevance>
+            <count>1</count>
+            <text>Christian Science Monitor</text>
+            <disambiguated>
+                <name>The Christian Science Monitor</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.csmonitor.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Christian_Science_Monitor</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01h5gh</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Christian_Science_Monitor</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.498838</relevance>
+            <count>1</count>
+            <text>Offices of Applications</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.488452</relevance>
+            <count>1</count>
+            <text>Paul B. Price</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.396738</relevance>
+            <relevance>0.47633</relevance>
+            <count>1</count>
+            <text>General Motors Corp.</text>
+            <disambiguated>
+                <name>General Motors</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AutomobileCompany</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.gm.com</website>
+                <dbpedia>http://dbpedia.org/resource/General_Motors</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.035nm</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViJbpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/General_Motors</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.475487</relevance>
+            <count>1</count>
+            <text>Dr. Weyman A. Osborne</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.461167</relevance>
+            <count>1</count>
+            <text>Univ. of Houston&#x2014;reported</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.445861</relevance>
             <count>1</count>
             <text>Boeing</text>
             <disambiguated>
@@ -166,76 +190,52 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.362336</relevance>
-            <count>1</count>
-            <text>president</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.356811</relevance>
-            <count>1</count>
-            <text>Paul B. Price</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.35545</relevance>
-            <count>1</count>
-            <text>Offices of Applications</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.346926</relevance>
-            <count>1</count>
-            <text>Dr. Weyman A. Osborne</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.344339</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.338617</relevance>
-            <count>1</count>
-            <text>Sullivan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.336843</relevance>
-            <count>1</count>
-            <text>Univ. of Houston&#x2014;reported</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.324399</relevance>
+            <relevance>0.445136</relevance>
             <count>1</count>
             <text>Dr. Edward K. Shirk</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.31836</relevance>
+            <relevance>0.435833</relevance>
             <count>1</count>
             <text>Univ. of Calif.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.316323</relevance>
+            <relevance>0.434089</relevance>
             <count>1</count>
             <text>Dr. Lawrence S. Pinsky</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.433618</relevance>
+            <count>1</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.313911</relevance>
+            <relevance>0.429423</relevance>
             <count>1</count>
             <text>State Univ.</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.427405</relevance>
+            <count>1</count>
+            <text>Sullivan</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.309551</relevance>
+            <relevance>0.423914</relevance>
             <count>1</count>
             <text>professor</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.401915</relevance>
+            <count>1</count>
+            <text>president</text>
         </entity>
     </entities>
 </results>

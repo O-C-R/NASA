@@ -7,25 +7,13 @@
     <entities>
         <entity>
             <type>Technology</type>
-            <relevance>0.839204</relevance>
-            <count>37</count>
+            <relevance>0.89161</relevance>
+            <count>36</count>
             <text>Mars</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.411639</relevance>
-            <count>9</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.361304</relevance>
-            <count>7</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.342187</relevance>
+            <relevance>0.43546</relevance>
             <count>11</count>
             <text>nasa</text>
             <disambiguated>
@@ -46,20 +34,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.270991</relevance>
-            <count>6</count>
-            <text>AP</text>
+            <type>StateOrCounty</type>
+            <relevance>0.382505</relevance>
+            <count>9</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.362375</relevance>
+            <count>7</count>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.265183</relevance>
+            <relevance>0.311891</relevance>
             <count>6</count>
-            <text>Tass.</text>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.236571</relevance>
+            <relevance>0.299665</relevance>
             <count>8</count>
             <text>U.S.</text>
             <disambiguated>
@@ -78,26 +72,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.207523</relevance>
-            <count>2</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
+            <type>PrintMedia</type>
+            <relevance>0.263381</relevance>
+            <count>6</count>
+            <text>AP</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.199658</relevance>
+            <relevance>0.225131</relevance>
             <count>4</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -113,124 +95,47 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.198524</relevance>
-            <count>3</count>
-            <text>Izvestia</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.197196</relevance>
-            <count>2</count>
-            <text>Daily</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.196309</relevance>
-            <count>2</count>
-            <text>carbon dioxide</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.189259</relevance>
+            <relevance>0.216563</relevance>
             <count>3</count>
             <text>Pravda</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.187878</relevance>
-            <count>1</count>
-            <text>Washington</text>
+            <type>Organization</type>
+            <relevance>0.199591</relevance>
+            <count>3</count>
+            <text>Space Science Board</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.19781</relevance>
+            <count>2</count>
+            <text>jpl</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.194157</relevance>
+            <count>2</count>
+            <text>Daily</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.186435</relevance>
+            <relevance>0.193152</relevance>
             <count>1</count>
             <text>nasa Manned Spacecraft Center</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.182333</relevance>
-            <count>2</count>
-            <text>Palestine</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.180253</relevance>
-            <count>1</count>
-            <text>Douglas Aircraft Co.</text>
-            <disambiguated>
-                <name>Douglas Aircraft Company</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
-                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.179997</relevance>
-            <count>1</count>
-            <text>Barbour</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.178577</relevance>
-            <count>2</count>
-            <text>Tex.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.177346</relevance>
-            <count>1</count>
-            <text>msc Releases</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.17643</relevance>
-            <count>1</count>
-            <text>Space Systems Div.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.176156</relevance>
-            <count>1</count>
-            <text>Soviet Cosmonaut Major Andrian Nikolayev</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.176044</relevance>
-            <count>2</count>
-            <text>C. C. Kiess</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.172102</relevance>
-            <count>1</count>
-            <text>Mercury</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.170912</relevance>
-            <count>1</count>
-            <text>Soviet Embassy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.169854</relevance>
+            <relevance>0.187445</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -244,20 +149,117 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.169458</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.187058</relevance>
+            <count>2</count>
+            <text>carbon dioxide</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.184012</relevance>
             <count>1</count>
-            <text>240-day</text>
+            <text>Soviet Cosmonaut Major Andrian Nikolayev</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.183074</relevance>
+            <count>1</count>
+            <text>G. A. Tikhov</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.179977</relevance>
+            <count>2</count>
+            <text>Izvestia</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.177708</relevance>
+            <count>1</count>
+            <text>Douglas Aircraft Co.</text>
+            <disambiguated>
+                <name>Douglas Aircraft Company</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
+                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.167965</relevance>
-            <count>3</count>
-            <text>Space Science Board</text>
+            <relevance>0.17759</relevance>
+            <count>1</count>
+            <text>Univ. of Pennsylvania</text>
+            <disambiguated>
+                <name>University of Pennsylvania</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>PeriodicalPublisher</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>39.953885 -75.193048</geo>
+                <website>http://www.upenn.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Pennsylvania</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07tds</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Pennsylvania</yago>
+                <geonames>http://sws.geonames.org/4561872/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.176258</relevance>
+            <count>1</count>
+            <text>Avco Corp</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.175925</relevance>
+            <count>2</count>
+            <text>Dr. Allan Brown</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.175894</relevance>
+            <count>2</count>
+            <text>news agency</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.167003</relevance>
+            <relevance>0.173722</relevance>
+            <count>1</count>
+            <text>Space Systems Div.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.173185</relevance>
+            <count>1</count>
+            <text>upi</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.170982</relevance>
+            <count>1</count>
+            <text>Mercury</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.170954</relevance>
+            <count>1</count>
+            <text>Cleveland</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.169479</relevance>
             <count>2</count>
             <text>National Geographic Society</text>
             <disambiguated>
@@ -271,14 +273,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.165829</relevance>
+            <type>Person</type>
+            <relevance>0.169469</relevance>
+            <count>2</count>
+            <text>H. H. Koelle</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.168922</relevance>
+            <count>2</count>
+            <text>Palestine</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.168343</relevance>
             <count>1</count>
-            <text>lrc</text>
+            <text>240-day</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.164093</relevance>
+            <relevance>0.16557</relevance>
             <count>1</count>
             <text>Dr. Wolf Vishniac</text>
             <disambiguated>
@@ -289,31 +303,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.160891</relevance>
-            <count>1</count>
-            <text>S. Karrer</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.160718</relevance>
-            <count>1</count>
-            <text>Geiger</text>
-            <disambiguated>
-                <name>Geiger (corporation)</name>
-                <dbpedia>http://dbpedia.org/resource/Geiger_(corporation)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02z0njd</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.160603</relevance>
-            <count>1</count>
-            <text>Avco Corp</text>
+            <type>StateOrCounty</type>
+            <relevance>0.16544</relevance>
+            <count>2</count>
+            <text>Tex.</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.159577</relevance>
+            <relevance>0.165203</relevance>
+            <count>2</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.164541</relevance>
             <count>1</count>
             <text>El Centro</text>
             <disambiguated>
@@ -326,14 +329,25 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.163622</relevance>
+            <count>1</count>
+            <text>Geiger</text>
+            <disambiguated>
+                <name>Geiger (corporation)</name>
+                <dbpedia>http://dbpedia.org/resource/Geiger_(corporation)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02z0njd</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.159496</relevance>
+            <relevance>0.162449</relevance>
             <count>1</count>
             <text>Gulliver</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.159351</relevance>
+            <relevance>0.162286</relevance>
             <count>1</count>
             <text>Dr. Joshua Lederberg</text>
             <disambiguated>
@@ -348,28 +362,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.158379</relevance>
-            <count>1</count>
-            <text>Krasnaya Zvezda</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.158274</relevance>
+            <relevance>0.162213</relevance>
             <count>1</count>
-            <text>upi</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
+            <text>lrc</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.156391</relevance>
+            <relevance>0.159272</relevance>
             <count>1</count>
             <text>Stanford Univ.</text>
             <disambiguated>
@@ -391,78 +391,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.15577</relevance>
-            <count>1</count>
-            <text>Project Apollo</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.152595</relevance>
-            <count>2</count>
-            <text>H. H. Koelle</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.15112</relevance>
-            <count>1</count>
-            <text>Cal Tech</text>
-            <disambiguated>
-                <name>California Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.138577 -118.125494</geo>
-                <website>http://www.caltech.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
-                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/6331816/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.150903</relevance>
-            <count>1</count>
-            <text>Kazakhstan Academy of Sciences</text>
-            <disambiguated>
-                <name>Kazakhstan Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/Kazakhstan_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04f01xg</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.150704</relevance>
-            <count>1</count>
-            <text>Multivator</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.150447</relevance>
-            <count>1</count>
-            <text>eos</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.150069</relevance>
+            <relevance>0.158973</relevance>
             <count>1</count>
-            <text>Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
+            <text>Daily News</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.158721</relevance>
+            <count>1</count>
+            <text>Soviet Embassy</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.157933</relevance>
+            <count>1</count>
+            <text>msc Roundup</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.157205</relevance>
+            <count>1</count>
+            <text>msc Releases</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.149979</relevance>
+            <relevance>0.154867</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -483,16 +437,58 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.149482</relevance>
+            <type>Person</type>
+            <relevance>0.154546</relevance>
             <count>1</count>
-            <text>Stratoscope II</text>
+            <text>Krasnaya Zvezda</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.154191</relevance>
+            <count>1</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.153612</relevance>
+            <count>1</count>
+            <text>Multivator</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.153521</relevance>
+            <count>1</count>
+            <text>Barbour</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.148431</relevance>
+            <relevance>0.153024</relevance>
             <count>1</count>
-            <text>Krasnaya Zvezda</text>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

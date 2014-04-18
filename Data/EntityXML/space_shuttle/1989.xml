@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.893972</relevance>
+            <relevance>0.772679</relevance>
             <count>2</count>
             <text>Space Shuttle Atlantis</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.862836</relevance>
+            <relevance>0.692028</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -34,59 +34,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.499198</relevance>
-            <count>2</count>
-            <text>James Cook</text>
-            <disambiguated>
-                <name>James Cook</name>
-                <dbpedia>http://dbpedia.org/resource/James_Cook</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03_j8</freebase>
-                <yago>http://yago-knowledge.org/resource/James_Cook</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.488179</relevance>
+            <relevance>0.393455</relevance>
             <count>2</count>
             <text>UPI</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.44163</relevance>
-            <count>1</count>
-            <text>President George Bush</text>
-            <disambiguated>
-                <name>George H. W. Bush</name>
-                <subType>FilmCharacter</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>Appointer</subType>
-                <subType>BoardMember</subType>
-                <subType>ChivalricOrderMember</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <website>http://bushlibrary.tamu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/George_H._W._Bush</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.034ls</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUfpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/George_H._W._Bush</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.431433</relevance>
-            <count>2</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.414917</relevance>
+            <relevance>0.387749</relevance>
             <count>2</count>
             <text>Florida</text>
             <disambiguated>
@@ -106,7 +61,37 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.388651</relevance>
+            <relevance>0.38378</relevance>
+            <count>2</count>
+            <text>James Cook</text>
+            <disambiguated>
+                <name>James Cook</name>
+                <dbpedia>http://dbpedia.org/resource/James_Cook</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03_j8</freebase>
+                <yago>http://yago-knowledge.org/resource/James_Cook</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.353976</relevance>
+            <count>1</count>
+            <text>Atlantis</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.347815</relevance>
+            <count>2</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.302974</relevance>
+            <count>1</count>
+            <text>Galileo</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.301842</relevance>
             <count>1</count>
             <text>Captain Frederick Hauck</text>
             <disambiguated>
@@ -119,26 +104,43 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.376206</relevance>
-            <count>1</count>
-            <text>Galileo</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.374814</relevance>
-            <count>1</count>
-            <text>Atlantis</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.360714</relevance>
+            <relevance>0.284691</relevance>
             <count>1</count>
             <text>hydrogen fuel</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.274528</relevance>
+            <count>1</count>
+            <text>President George Bush</text>
+            <disambiguated>
+                <name>George W. Bush</name>
+                <subType>FilmCharacter</subType>
+                <subType>MusicalArtist</subType>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>Appointer</subType>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>ChivalricOrderMember</subType>
+                <subType>CompanyFounder</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>USPresident</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <website>http://www.georgewbushlibrary.gov</website>
+                <dbpedia>http://dbpedia.org/resource/George_W._Bush</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09b6zr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwRWtUpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/George_W._Bush</yago>
+                <musicBrainz>http://zitgist.com/music/artist/06564917-bdd2-4fb6-bcdc-be9e0c04f7ac</musicBrainz>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.342333</relevance>
+            <relevance>0.273866</relevance>
             <count>1</count>
             <text>Lockheed Corporation</text>
             <disambiguated>
@@ -151,7 +153,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.332502</relevance>
+            <relevance>0.266002</relevance>
             <count>1</count>
             <text>Calabasas</text>
             <disambiguated>
@@ -167,13 +169,13 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.330381</relevance>
+            <relevance>0.261209</relevance>
             <count>1</count>
             <text>South Pacific</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.317705</relevance>
+            <relevance>0.25503</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -191,20 +193,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.314785</relevance>
-            <count>1</count>
-            <text>Chief of Naval Operations.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.30699</relevance>
-            <count>1</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.305331</relevance>
+            <relevance>0.244265</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -226,21 +216,27 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.300984</relevance>
+            <relevance>0.243766</relevance>
             <count>1</count>
-            <text>Commander</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.298464</relevance>
-            <count>1</count>
-            <text>Threetime</text>
+            <text>Chief of Naval Operations.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.265972</relevance>
+            <relevance>0.237736</relevance>
+            <count>1</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.236068</relevance>
             <count>1</count>
             <text>White House</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.233116</relevance>
+            <count>1</count>
+            <text>Commander</text>
         </entity>
     </entities>
 </results>

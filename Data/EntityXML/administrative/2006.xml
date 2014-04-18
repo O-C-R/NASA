@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.837944</relevance>
+            <relevance>0.839571</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,14 +29,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.560939</relevance>
-            <count>4</count>
-            <text>NRC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.451818</relevance>
-            <count>3</count>
+            <relevance>0.5933</relevance>
+            <count>7</count>
             <text>National Research Council</text>
             <disambiguated>
                 <name>United States National Research Council</name>
@@ -46,8 +40,85 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.423503</relevance>
+            <count>1</count>
+            <text>National Research Council Space Studies Board</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.359806</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.352704</relevance>
+            <count>2</count>
+            <text>National Academies Press</text>
+            <disambiguated>
+                <name>National Academies Press</name>
+                <subType>Company</subType>
+                <website>http://www.nap.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Academies_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08_8p3</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Academies_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.345192</relevance>
+            <count>2</count>
+            <text>space program.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.322218</relevance>
+            <count>1</count>
+            <text>Decadal Survey of Civil Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.266461</relevance>
+            <count>2</count>
+            <text>DC</text>
+            <disambiguated>
+                <name>Canada</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>AwardDiscipline</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>45.4 -75.66666666666667</geo>
+                <website>http://www.gc.ca</website>
+                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Canada</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.254609</relevance>
+            <count>1</count>
+            <text>National Academy of Sciences</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.228855</relevance>
+            <count>1</count>
+            <text>Lennard A. Fisk</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.413181</relevance>
+            <relevance>0.228712</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -67,130 +138,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.359106</relevance>
-            <count>1</count>
-            <text>National Research Council Space Studies Board</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.342909</relevance>
-            <count>2</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.319916</relevance>
-            <count>1</count>
-            <text>Decadal Survey of Civil Aeronautics</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.29807</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.266521</relevance>
-            <count>2</count>
-            <text>National Academies Press</text>
-            <disambiguated>
-                <name>National Academies Press</name>
-                <subType>Company</subType>
-                <website>http://www.nap.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Academies_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08_8p3</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Academies_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.250584</relevance>
-            <count>1</count>
-            <text>National Academy of Sciences</text>
-            <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224269</relevance>
-            <count>1</count>
-            <text>U.S. Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.223147</relevance>
+            <relevance>0.227403</relevance>
             <count>1</count>
             <text>Space Studies Board</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.215793</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.201366</relevance>
-            <count>2</count>
-            <text>DC</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.198275</relevance>
+            <relevance>0.222389</relevance>
             <count>1</count>
-            <text>energy consumption</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.196111</relevance>
-            <count>1</count>
-            <text>H. Rep. No.108</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.195952</relevance>
-            <count>1</count>
-            <text>Guy Gugliotta</text>
+            <text>physical sciences</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.195457</relevance>
-            <count>1</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.19247</relevance>
-            <count>1</count>
-            <text>Lennard A. Fisk</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.1871</relevance>
+            <relevance>0.219705</relevance>
             <count>1</count>
             <text>University of Michigan</text>
             <disambiguated>
@@ -209,28 +169,78 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.187096</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.219255</relevance>
             <count>1</count>
-            <text>physical sciences</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.184714</relevance>
-            <count>1</count>
-            <text>Office of News and Public Information</text>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.181712</relevance>
+            <relevance>0.215887</relevance>
             <count>1</count>
             <text>ISS</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.214496</relevance>
+            <count>1</count>
+            <text>H. Rep. No.108</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.169203</relevance>
+            <relevance>0.202663</relevance>
             <count>1</count>
             <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.199347</relevance>
+            <count>1</count>
+            <text>Guy Gugliotta</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.198837</relevance>
+            <count>1</count>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.195602</relevance>
+            <count>1</count>
+            <text>U.S. Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.187926</relevance>
+            <count>1</count>
+            <text>Office of News and Public Information</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.184034</relevance>
+            <count>1</count>
+            <text>energy consumption</text>
         </entity>
     </entities>
 </results>

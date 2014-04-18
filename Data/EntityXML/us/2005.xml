@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.931775</relevance>
+            <relevance>0.861609</relevance>
             <count>13</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,19 +28,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.487261</relevance>
-            <count>2</count>
-            <text>Aera</text>
+            <type>Organization</type>
+            <relevance>0.330147</relevance>
+            <count>5</count>
+            <text>Government Accountability Office</text>
             <disambiguated>
-                <name>Aera Energy</name>
-                <dbpedia>http://dbpedia.org/resource/Aera_Energy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rj5fs</freebase>
+                <name>Government Accountability Office</name>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.gao.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.433313</relevance>
+            <relevance>0.290591</relevance>
             <count>2</count>
             <text>U.S</text>
             <disambiguated>
@@ -60,18 +64,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.395892</relevance>
-            <count>2</count>
-            <text>National Institute of Aerospace</text>
-            <disambiguated>
-                <name>National Institute of Aerospace</name>
-                <dbpedia>http://dbpedia.org/resource/National_Institute_of_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bh9qxv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.393556</relevance>
+            <relevance>0.288705</relevance>
             <count>2</count>
             <text>U.S. government</text>
             <disambiguated>
@@ -83,85 +76,19 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.386051</relevance>
-            <count>1</count>
-            <text>Aera Corporation</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.373082</relevance>
-            <count>5</count>
-            <text>Government Accountability Office</text>
-            <disambiguated>
-                <name>Government Accountability Office</name>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.gao.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.363073</relevance>
-            <count>1</count>
-            <text>U.S. Air Force</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.348819</relevance>
+            <relevance>0.280794</relevance>
             <count>2</count>
-            <text>Virginia</text>
+            <text>National Institute of Aerospace</text>
             <disambiguated>
-                <name>Virginia</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.virginia.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Virginia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.348786</relevance>
-            <count>1</count>
-            <text>Cape Canaveral Air Station</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.34174</relevance>
-            <count>2</count>
-            <text>Lester L. Lyles</text>
-            <disambiguated>
-                <name>Lester Lyles</name>
-                <subType>BoardMember</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Lester_Lyles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0272tlg</freebase>
-                <yago>http://yago-knowledge.org/resource/Lester_Lyles</yago>
+                <name>National Institute of Aerospace</name>
+                <dbpedia>http://dbpedia.org/resource/National_Institute_of_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bh9qxv</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.337616</relevance>
+            <relevance>0.252559</relevance>
             <count>1</count>
             <text>President George W. Bush</text>
             <disambiguated>
@@ -189,14 +116,117 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.329383</relevance>
-            <count>1</count>
-            <text>President and Chief Operating Officer</text>
+            <type>StateOrCounty</type>
+            <relevance>0.247986</relevance>
+            <count>2</count>
+            <text>Virginia</text>
+            <disambiguated>
+                <name>Virginia</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.246817</relevance>
+            <count>2</count>
+            <text>IFMP</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.246799</relevance>
+            <count>2</count>
+            <text>Aera</text>
+            <disambiguated>
+                <name>Aera Energy</name>
+                <dbpedia>http://dbpedia.org/resource/Aera_Energy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rj5fs</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234837</relevance>
+            <count>2</count>
+            <text>Lester L. Lyles</text>
+            <disambiguated>
+                <name>Lester Lyles</name>
+                <subType>BoardMember</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Lester_Lyles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0272tlg</freebase>
+                <yago>http://yago-knowledge.org/resource/Lester_Lyles</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.32853</relevance>
+            <relevance>0.234733</relevance>
+            <count>1</count>
+            <text>U.S. Senate Appropriations Subcommittee</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.214344</relevance>
+            <count>1</count>
+            <text>Hampton</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.209577</relevance>
+            <count>1</count>
+            <text>Aera Corporation</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.208973</relevance>
+            <count>1</count>
+            <text>Europe</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.208855</relevance>
+            <count>1</count>
+            <text>U.S. Air Force Materiel Command</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.2066</relevance>
+            <count>1</count>
+            <text>Associate Administrator for Exploration Systems</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.204332</relevance>
+            <count>1</count>
+            <text>Justice and Science</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.198742</relevance>
+            <count>1</count>
+            <text>U.S. Air Force</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196427</relevance>
             <count>1</count>
             <text>FAA</text>
             <disambiguated>
@@ -209,127 +239,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.324324</relevance>
-            <count>1</count>
-            <text>Florida</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.322025</relevance>
-            <count>1</count>
-            <text>American Astronautics</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.316265</relevance>
-            <count>1</count>
-            <text>Alan Boyle</text>
-            <disambiguated>
-                <name>Alan Boyle</name>
-                <dbpedia>http://dbpedia.org/resource/Alan_Boyle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05b3stm</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.310101</relevance>
-            <count>1</count>
-            <text>U.S. Senate Appropriations Subcommittee</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.307724</relevance>
-            <count>2</count>
-            <text>IFMP</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.302456</relevance>
-            <count>1</count>
-            <text>U.S. Air Force Materiel Command</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.299441</relevance>
-            <count>1</count>
-            <text>Associate Administrator for Exploration Systems</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.293856</relevance>
-            <count>1</count>
-            <text>Orlando Sentinel</text>
-            <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.293701</relevance>
-            <count>1</count>
-            <text>Lewis Reynolds</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.289154</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.28895</relevance>
-            <count>1</count>
-            <text>Exploration Systems Advisory Committee</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.283206</relevance>
-            <count>1</count>
-            <text>Hampton</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.28251</relevance>
+            <relevance>0.196029</relevance>
             <count>1</count>
             <text>President</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.280995</relevance>
+            <relevance>0.194298</relevance>
             <count>1</count>
             <text>United State</text>
             <disambiguated>
@@ -349,50 +266,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.278422</relevance>
+            <type>JobTitle</type>
+            <relevance>0.193648</relevance>
             <count>1</count>
-            <text>Tamara Lytle</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.27751</relevance>
-            <count>1</count>
-            <text>Europe</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.277459</relevance>
-            <count>1</count>
-            <text>Hampton Roads</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.273498</relevance>
-            <count>1</count>
-            <text>Robert Lindberg</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.271764</relevance>
-            <count>1</count>
-            <text>Allison Connolly</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.271411</relevance>
-            <count>1</count>
-            <text>Maggie McKee</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.269912</relevance>
-            <count>1</count>
-            <text>Justice and Science</text>
+            <text>President and Chief Operating Officer</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.269784</relevance>
+            <relevance>0.19281</relevance>
             <count>1</count>
             <text>U.S. Congress</text>
             <disambiguated>
@@ -409,40 +290,159 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.268426</relevance>
+            <type>Facility</type>
+            <relevance>0.192683</relevance>
             <count>1</count>
-            <text>ESAC</text>
+            <text>Hampton Roads</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.191486</relevance>
+            <count>1</count>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.18978</relevance>
+            <count>1</count>
+            <text>Robert Lindberg</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.18871</relevance>
+            <count>1</count>
+            <text>Allison Connolly</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.188624</relevance>
+            <count>1</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.188508</relevance>
+            <count>1</count>
+            <text>Maggie McKee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.188132</relevance>
+            <count>1</count>
+            <text>Alan Boyle</text>
+            <disambiguated>
+                <name>Alan Boyle</name>
+                <dbpedia>http://dbpedia.org/resource/Alan_Boyle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b3stm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.187376</relevance>
+            <count>1</count>
+            <text>Cape Canaveral Air Station</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.181015</relevance>
+            <count>1</count>
+            <text>Tamara Lytle</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.179624</relevance>
+            <count>1</count>
+            <text>Exploration Systems Advisory Committee</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.256578</relevance>
+            <relevance>0.178219</relevance>
             <count>1</count>
             <text>New Scientist</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.25558</relevance>
+            <relevance>0.177498</relevance>
             <count>1</count>
             <text>BBC News</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.177486</relevance>
+            <count>1</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.25554</relevance>
+            <relevance>0.176455</relevance>
             <count>1</count>
             <text>commander</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.254137</relevance>
+            <type>JobTitle</type>
+            <relevance>0.17311</relevance>
             <count>1</count>
-            <text>DC</text>
+            <text>American Astronautics</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.172657</relevance>
+            <count>1</count>
+            <text>Lewis Reynolds</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.239039</relevance>
+            <relevance>0.16658</relevance>
             <count>1</count>
             <text>Executive Director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.166193</relevance>
+            <count>1</count>
+            <text>ESAC</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.16523</relevance>
+            <count>1</count>
+            <text>DC</text>
         </entity>
     </entities>
 </results>

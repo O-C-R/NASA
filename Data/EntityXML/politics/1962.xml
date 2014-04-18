@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.801289</relevance>
-            <count>29</count>
+            <relevance>0.799876</relevance>
+            <count>28</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,19 +29,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.715889</relevance>
+            <relevance>0.715839</relevance>
             <count>12</count>
             <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.332236</relevance>
+            <relevance>0.372637</relevance>
             <count>1</count>
             <text>Chief of nasa&#x2019;s Space Power Technology Program</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.330145</relevance>
+            <relevance>0.348213</relevance>
             <count>3</count>
             <text>Senator Hubert Humphrey</text>
             <disambiguated>
@@ -59,43 +59,55 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.318959</relevance>
-            <count>1</count>
-            <text>Committee on Aeronautical and Space Sciences</text>
+            <relevance>0.321314</relevance>
+            <count>5</count>
+            <text>FY</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.305456</relevance>
+            <relevance>0.316647</relevance>
             <count>1</count>
             <text>House Science and Astronautics Committee</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.300179</relevance>
-            <count>5</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.296202</relevance>
-            <count>3</count>
-            <text>space program</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.289395</relevance>
+            <relevance>0.307246</relevance>
             <count>1</count>
             <text>House Space Subcommittee</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.279661</relevance>
+            <relevance>0.302034</relevance>
+            <count>5</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.298172</relevance>
+            <count>3</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.269731</relevance>
             <count>1</count>
             <text>Director of nasa Office of Technical Information</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.26874</relevance>
+            <count>1</count>
+            <text>Vice President of the Astronautics Division of General Dynamics and Director</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.275279</relevance>
+            <relevance>0.267796</relevance>
+            <count>1</count>
+            <text>International Committee on Space Research</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265154</relevance>
             <count>4</count>
             <text>U.S. Air Force</text>
             <disambiguated>
@@ -111,8 +123,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.256469</relevance>
+            <count>1</count>
+            <text>Director of nasa Office of Scientific and Technical Information</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.253036</relevance>
+            <count>1</count>
+            <text>Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.249709</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.270277</relevance>
+            <relevance>0.249599</relevance>
             <count>2</count>
             <text>Senator Howard W. Cannon</text>
             <disambiguated>
@@ -127,62 +157,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.267223</relevance>
-            <count>2</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.26716</relevance>
-            <count>5</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.25299</relevance>
-            <count>1</count>
-            <text>Director of nasa Office of Scientific and Technical Information</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.250711</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.247782</relevance>
+            <relevance>0.248891</relevance>
             <count>2</count>
-            <text>Congressman Victor L. Anfuso</text>
+            <text>Congressman George P. Miller</text>
             <disambiguated>
-                <name>Victor Anfuso</name>
-                <dbpedia>http://dbpedia.org/resource/Victor_Anfuso</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0kt1yb</freebase>
+                <name>George Paul Miller</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/George_Paul_Miller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rhgtc</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.241426</relevance>
-            <count>1</count>
-            <text>Vice President of the Astronautics Division of General Dynamics and Director</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.241082</relevance>
-            <count>1</count>
-            <text>International Committee on Space Research</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.239779</relevance>
+            <relevance>0.24651</relevance>
             <count>3</count>
             <text>Congress</text>
             <disambiguated>
@@ -199,162 +188,78 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.239395</relevance>
-            <count>2</count>
-            <text>Congressman George P. Miller</text>
-            <disambiguated>
-                <name>George Paul Miller</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/George_Paul_Miller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rhgtc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.236768</relevance>
-            <count>1</count>
-            <text>Army Air Forces</text>
-            <disambiguated>
-                <name>United States Army Air Forces</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Army_Air_Forces</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.012tqm</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Army_Air_Forces</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.235961</relevance>
+            <relevance>0.245094</relevance>
             <count>1</count>
             <text>House Appropriations Committee</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.2422</relevance>
+            <count>1</count>
+            <text>nasa</text>
+            <disambiguated>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.231981</relevance>
+            <relevance>0.239604</relevance>
+            <count>2</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.233037</relevance>
+            <count>2</count>
+            <text>Vice President</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226096</relevance>
             <count>2</count>
             <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.228134</relevance>
-            <count>2</count>
-            <text>World War II</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.228056</relevance>
+            <relevance>0.224643</relevance>
             <count>2</count>
-            <text>George C. Barnhart</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.227284</relevance>
-            <count>2</count>
-            <text>U.S.</text>
+            <text>Congressman Victor L. Anfuso</text>
             <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
+                <name>Victor Anfuso</name>
+                <dbpedia>http://dbpedia.org/resource/Victor_Anfuso</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kt1yb</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.224833</relevance>
+            <relevance>0.222871</relevance>
             <count>2</count>
             <text>Melvin S. Day</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.223875</relevance>
-            <count>2</count>
-            <text>Vice president</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.223663</relevance>
-            <count>1</count>
-            <text>Senator H. Humphrey</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.218742</relevance>
-            <count>1</count>
-            <text>Pasadena</text>
-            <disambiguated>
-                <name>Pasadena, Texas</name>
-                <website>http://www.ci.pasadena.tx.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Pasadena,_Texas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0102n_</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/tx/counties/harris_county/pasadena</census>
-                <yago>http://yago-knowledge.org/resource/Pasadena,_Texas</yago>
-                <geonames>http://sws.geonames.org/4717782/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.218724</relevance>
-            <count>3</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.217627</relevance>
-            <count>1</count>
-            <text>House of Representatives</text>
-            <disambiguated>
-                <name>United States House of Representatives</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.house.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_House_of_Representatives</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b3wk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rIBWeonXbQdeHEdLekSK2AA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_House_of_Representatives</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.215336</relevance>
-            <count>2</count>
-            <text>Army</text>
-            <disambiguated>
-                <name>French Army</name>
-                <subType>ArmedForce</subType>
-                <dbpedia>http://dbpedia.org/resource/French_Army</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02wf01</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.213453</relevance>
-            <count>1</count>
-            <text>Senate Committee on Government Operations</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.212782</relevance>
+            <relevance>0.22003</relevance>
             <count>1</count>
             <text>Senator Thomas Dodd</text>
             <disambiguated>
@@ -369,46 +274,25 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.212618</relevance>
-            <count>2</count>
-            <text>National Aeronautics</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.212035</relevance>
+            <relevance>0.219008</relevance>
             <count>1</count>
-            <text>Bill</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.211001</relevance>
-            <count>2</count>
-            <text>Jessie G. Vincent</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.210112</relevance>
-            <count>1</count>
-            <text>Senator Thomas Kuchel</text>
-            <disambiguated>
-                <name>Thomas Kuchel</name>
-                <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Thomas_Kuchel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jlg5</freebase>
-                <yago>http://yago-knowledge.org/resource/Thomas_Kuchel</yago>
-            </disambiguated>
+            <text>House of Representatives</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.20851</relevance>
+            <relevance>0.216387</relevance>
             <count>1</count>
-            <text>Senate Government Operations Subcommittee</text>
+            <text>Senate Committee on Government Operations</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.207566</relevance>
+            <relevance>0.214478</relevance>
+            <count>3</count>
+            <text>Air Force</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.21381</relevance>
             <count>1</count>
             <text>Defense Department</text>
             <disambiguated>
@@ -425,44 +309,79 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.209766</relevance>
+            <count>2</count>
+            <text>World War II</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.209396</relevance>
+            <count>1</count>
+            <text>Senator Thomas Kuchel</text>
+            <disambiguated>
+                <name>Thomas Kuchel</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Thomas_Kuchel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jlg5</freebase>
+                <yago>http://yago-knowledge.org/resource/Thomas_Kuchel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.205635</relevance>
+            <relevance>0.208868</relevance>
+            <count>2</count>
+            <text>National Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.20751</relevance>
+            <count>1</count>
+            <text>Army Air Forces</text>
+            <disambiguated>
+                <name>United States Army Air Forces</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army_Air_Forces</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.012tqm</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Army_Air_Forces</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.206355</relevance>
+            <count>1</count>
+            <text>Senator Wiley</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.203702</relevance>
+            <count>2</count>
+            <text>solar cells</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.202508</relevance>
+            <count>1</count>
+            <text>executive vice president</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.201684</relevance>
             <count>1</count>
             <text>Space Council</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.20455</relevance>
+            <relevance>0.201059</relevance>
             <count>1</count>
-            <text>Vice President and Director of Research for System Development Corp.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.204289</relevance>
-            <count>1</count>
-            <text>solar energy</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.202768</relevance>
-            <count>1</count>
-            <text>executive vice president</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.202235</relevance>
-            <count>2</count>
-            <text>Robert H. Charles</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.20199</relevance>
-            <count>1</count>
-            <text>Senator Wiley</text>
+            <text>principal</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.198779</relevance>
+            <relevance>0.201038</relevance>
             <count>1</count>
             <text>Federal government</text>
             <disambiguated>
@@ -474,18 +393,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.19624</relevance>
+            <type>Organization</type>
+            <relevance>0.20059</relevance>
+            <count>1</count>
+            <text>Senate Government Operations Subcommittee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.200487</relevance>
+            <count>1</count>
+            <text>Walter C. Scott</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.200451</relevance>
             <count>2</count>
-            <text>Washington Post</text>
+            <text>Grant L. Hansen</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.200144</relevance>
+            <count>1</count>
+            <text>Military Establishment</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.1987</relevance>
+            <count>2</count>
+            <text>George C. Barnhart</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.193433</relevance>
+            <count>2</count>
+            <text>Academician Blagonravov</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.192519</relevance>
+            <count>2</count>
+            <text>Senator Paul H. Douglas</text>
             <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <name>Paul Douglas</name>
+                <subType>Politician</subType>
+                <subType>FilmEditor</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Paul_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01s2pp</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_Douglas</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.191659</relevance>
+            <count>1</count>
+            <text>Vice President and Director of Research for System Development Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.191393</relevance>
+            <count>1</count>
+            <text>Soviet Academy oj Sciences</text>
         </entity>
     </entities>
 </results>

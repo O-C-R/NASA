@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.871471</relevance>
+            <relevance>0.865078</relevance>
             <count>16</count>
             <text>Mars</text>
             <disambiguated>
@@ -22,25 +22,28 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.282789</relevance>
-            <count>3</count>
+            <relevance>0.308483</relevance>
+            <count>4</count>
             <text>Tass</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.275371</relevance>
-            <count>2</count>
-            <text>Tass</text>
+            <type>Organization</type>
+            <relevance>0.283701</relevance>
+            <count>1</count>
+            <text>Soviet Academy of Sciences</text>
             <disambiguated>
-                <name>Tass, Hungary</name>
-                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
-                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
+                <name>Russian Academy of Sciences</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>55.710794444444446 37.57781388888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.256803</relevance>
+            <relevance>0.250063</relevance>
             <count>6</count>
             <text>U.S.</text>
             <disambiguated>
@@ -59,110 +62,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.22826</relevance>
-            <count>2</count>
+            <type>City</type>
+            <relevance>0.222733</relevance>
+            <count>1</count>
             <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.226017</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences</text>
             <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+                <name>Tass, Hungary</name>
+                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
+                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.192853</relevance>
-            <count>2</count>
-            <text>United Nations</text>
-            <disambiguated>
-                <name>United Nations (band)</name>
-                <website>http://www.unitedfuckingnations.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dmsjxq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.182228</relevance>
-            <count>2</count>
-            <text>news agency</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.176269</relevance>
-            <count>1</count>
-            <text>Adlai Stevenson</text>
-            <disambiguated>
-                <name>Adlai Stevenson II</name>
-                <dbpedia>http://dbpedia.org/resource/Adlai_Stevenson_II</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dvsj</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.174462</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.168289</relevance>
-            <count>1</count>
-            <text>Leningrad Radium Institute</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16561</relevance>
-            <count>1</count>
-            <text>Woman&#x2019;s National Press Club</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.156739</relevance>
-            <count>1</count>
-            <text>Emblen Sobotovich</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.155809</relevance>
-            <count>1</count>
-            <text>Chairman Glenn T. Seaborg</text>
-            <disambiguated>
-                <name>Glenn T. Seaborg</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>ElementDiscoverer</subType>
-                <subType>Scientist</subType>
-                <website>http://nobelprize.org/chemistry/laureates/1951/seaborg-bio.html</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_T._Seaborg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03flm</freebase>
-                <yago>http://yago-knowledge.org/resource/Glenn_T._Seaborg</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.155529</relevance>
-            <count>1</count>
+            <relevance>0.201245</relevance>
+            <count>3</count>
             <text>United Nations</text>
             <disambiguated>
                 <name>United Nations</name>
@@ -178,8 +92,30 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.187367</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.179939</relevance>
+            <count>2</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.15414</relevance>
+            <relevance>0.176177</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -198,7 +134,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.153603</relevance>
+            <relevance>0.175542</relevance>
             <count>1</count>
             <text>nasa</text>
             <disambiguated>
@@ -220,56 +156,71 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.152107</relevance>
+            <relevance>0.175196</relevance>
             <count>2</count>
             <text>Robert J. Parks</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.149379</relevance>
+            <type>Organization</type>
+            <relevance>0.175048</relevance>
             <count>1</count>
-            <text>scientist</text>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.161018</relevance>
+            <count>1</count>
+            <text>M. Sissakian</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.153925</relevance>
+            <count>1</count>
+            <text>Leningrad Radium Institute</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.153658</relevance>
+            <count>1</count>
+            <text>Chairman Glenn T. Seaborg</text>
+            <disambiguated>
+                <name>Glenn T. Seaborg</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>ElementDiscoverer</subType>
+                <subType>Scientist</subType>
+                <website>http://nobelprize.org/chemistry/laureates/1951/seaborg-bio.html</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_T._Seaborg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03flm</freebase>
+                <yago>http://yago-knowledge.org/resource/Glenn_T._Seaborg</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.152249</relevance>
+            <count>1</count>
+            <text>Adlai Stevenson</text>
+            <disambiguated>
+                <name>Adlai Stevenson II</name>
+                <dbpedia>http://dbpedia.org/resource/Adlai_Stevenson_II</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dvsj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.147761</relevance>
+            <count>2</count>
+            <text>news agency</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.148993</relevance>
+            <relevance>0.146836</relevance>
             <count>1</count>
             <text>International Atomic Energy Agency</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.142798</relevance>
-            <count>1</count>
-            <text>jpl Planetary Programs</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.135356</relevance>
-            <count>1</count>
-            <text>Prof. Vsevoldod Fedynsky</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.134769</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.133935</relevance>
+            <relevance>0.145611</relevance>
             <count>1</count>
             <text>National Bureau of Standards</text>
             <disambiguated>
@@ -283,63 +234,106 @@
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.133405</relevance>
+            <relevance>0.144475</relevance>
             <count>1</count>
             <text>America</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.13112</relevance>
+            <type>Organization</type>
+            <relevance>0.143693</relevance>
             <count>1</count>
-            <text>Premier Khrushchev</text>
+            <text>jpl Planetary Programs</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.130957</relevance>
+            <relevance>0.142964</relevance>
             <count>1</count>
             <text>Alan H. Shapley</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.142791</relevance>
+            <count>1</count>
+            <text>Emblen Sobotovich</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.142178</relevance>
+            <count>1</count>
+            <text>aec</text>
+            <disambiguated>
+                <name>United States Atomic Energy Commission</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Atomic_Energy_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmm_</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Atomic_Energy_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.142134</relevance>
+            <count>1</count>
+            <text>Woman&#x2019;s National Press Club</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.136183</relevance>
+            <count>1</count>
+            <text>Prof. Vsevoldod Fedynsky</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.129335</relevance>
+            <relevance>0.136081</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.132903</relevance>
+            <count>1</count>
+            <text>Radio Propagation Laboratory</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.130145</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.128949</relevance>
+            <type>Person</type>
+            <relevance>0.129514</relevance>
             <count>1</count>
-            <text>Moscow Univ.</text>
+            <text>Premier Khrushchev</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.128436</relevance>
+            <relevance>0.126482</relevance>
             <count>1</count>
             <text>Vienna</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.128005</relevance>
+            <relevance>0.123284</relevance>
             <count>1</count>
-            <text>U.S.S.R. Academy of Science</text>
+            <text>Moscow Univ.</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.126973</relevance>
+            <type>City</type>
+            <relevance>0.120641</relevance>
             <count>1</count>
-            <text>M. Sissakian</text>
+            <text>Washington</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.121279</relevance>
+            <relevance>0.119799</relevance>
             <count>1</count>
             <text>official</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.120542</relevance>
+            <relevance>0.112806</relevance>
             <count>1</count>
-            <text>Radio Propagation Laboratory</text>
+            <text>U.S.S.R. Academy of Science</text>
         </entity>
     </entities>
 </results>

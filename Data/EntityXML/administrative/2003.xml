@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.916801</relevance>
+            <relevance>0.914787</relevance>
             <count>32</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.329342</relevance>
+            <relevance>0.294336</relevance>
             <count>1</count>
             <text>NASA Engineering and Safety Center</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.321041</relevance>
+            <relevance>0.275369</relevance>
             <count>1</count>
             <text>NASA Headquarters</text>
             <disambiguated>
@@ -46,14 +46,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.281732</relevance>
-            <count>1</count>
-            <text>Director of NASA</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.280102</relevance>
+            <relevance>0.274901</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -74,8 +68,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.270854</relevance>
+            <count>1</count>
+            <text>Director of NASA</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.265596</relevance>
+            <relevance>0.260297</relevance>
             <count>1</count>
             <text>NASA Headquarters</text>
         </entity>
@@ -87,13 +87,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.226321</relevance>
+            <relevance>0.228061</relevance>
             <count>3</count>
             <text>Deputy Director</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.214828</relevance>
+            <count>6</count>
+            <text>CAIB</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.219702</relevance>
+            <relevance>0.214802</relevance>
             <count>5</count>
             <text>David A. King</text>
             <disambiguated>
@@ -105,49 +111,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.216099</relevance>
-            <count>2</count>
-            <text>Director of Shuttle Processing</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.208207</relevance>
-            <count>6</count>
-            <text>CAIB</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.202822</relevance>
+            <relevance>0.198255</relevance>
             <count>3</count>
             <text>Director</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.179692</relevance>
-            <count>1</count>
-            <text>Deputy Director of Shuttle Processing</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.168393</relevance>
-            <count>2</count>
-            <text>NESC</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.166685</relevance>
-            <count>1</count>
-            <text>Human Space Flight Independent Investigation Commission</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.162696</relevance>
-            <count>1</count>
-            <text>Office of Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.160421</relevance>
+            <relevance>0.179117</relevance>
             <count>3</count>
             <text>NAIT</text>
             <disambiguated>
@@ -159,64 +129,64 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.157459</relevance>
-            <count>1</count>
-            <text>Propulsion Innovations</text>
+            <type>JobTitle</type>
+            <relevance>0.17339</relevance>
+            <count>2</count>
+            <text>Director of Shuttle Processing</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.155097</relevance>
+            <type>JobTitle</type>
+            <relevance>0.172113</relevance>
+            <count>1</count>
+            <text>Deputy Director of Shuttle Processing</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.171445</relevance>
+            <count>1</count>
+            <text>Shuttle program manager</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.166685</relevance>
+            <count>1</count>
+            <text>Human Space Flight Independent Investigation Commission</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.159236</relevance>
             <count>2</count>
-            <text>Arthur G. Stephenson</text>
-            <disambiguated>
-                <name>Art Stephenson</name>
-                <dbpedia>http://dbpedia.org/resource/Art_Stephenson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02677vr</freebase>
-                <yago>http://yago-knowledge.org/resource/Art_Stephenson</yago>
-            </disambiguated>
+            <text>NESC</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.152143</relevance>
+            <relevance>0.156471</relevance>
             <count>2</count>
             <text>Columbia</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.149568</relevance>
-            <count>2</count>
-            <text>KSC</text>
+            <type>Person</type>
+            <relevance>0.152943</relevance>
+            <count>1</count>
+            <text>Linda Ham</text>
             <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+                <name>Linda Ham</name>
+                <dbpedia>http://dbpedia.org/resource/Linda_Ham</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fbzjx</freebase>
+                <yago>http://yago-knowledge.org/resource/Linda_Ham</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.146146</relevance>
+            <count>1</count>
+            <text>Columbia mission</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.146546</relevance>
+            <relevance>0.14076</relevance>
             <count>2</count>
             <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.141161</relevance>
-            <count>1</count>
-            <text>NESC</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.140643</relevance>
-            <count>1</count>
-            <text>Shuttle program manager</text>
         </entity>
         <entity>
             <type>Organization</type>
@@ -233,39 +203,63 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.13859</relevance>
+            <count>1</count>
+            <text>Office of Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.138496</relevance>
+            <count>1</count>
+            <text>NESC</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.137204</relevance>
+            <relevance>0.134395</relevance>
             <count>1</count>
             <text>Plans Safety Center</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.133055</relevance>
+            <count>1</count>
+            <text>Propulsion Innovations</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.134482</relevance>
+            <relevance>0.131735</relevance>
             <count>1</count>
             <text>Safety Center</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.12899</relevance>
-            <count>2</count>
-            <text>official</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.128918</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.130751</relevance>
             <count>1</count>
-            <text>Launch Director</text>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.128616</relevance>
+            <relevance>0.129584</relevance>
             <count>1</count>
-            <text>Linda Ham</text>
+            <text>Randy Stone</text>
             <disambiguated>
-                <name>Linda Ham</name>
-                <dbpedia>http://dbpedia.org/resource/Linda_Ham</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fbzjx</freebase>
-                <yago>http://yago-knowledge.org/resource/Linda_Ham</yago>
+                <name>Randy Stone</name>
+                <subType>Actor</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Randy_Stone</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pkvpm</freebase>
+                <yago>http://yago-knowledge.org/resource/Randy_Stone</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -290,19 +284,37 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.12725</relevance>
+            <relevance>0.12684</relevance>
+            <count>2</count>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.126211</relevance>
+            <count>2</count>
+            <text>Arthur G. Stephenson</text>
+            <disambiguated>
+                <name>Art Stephenson</name>
+                <dbpedia>http://dbpedia.org/resource/Art_Stephenson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02677vr</freebase>
+                <yago>http://yago-knowledge.org/resource/Art_Stephenson</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.12444</relevance>
             <count>1</count>
             <text>Office of Safety and Mission Assurance</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.126805</relevance>
+            <relevance>0.124395</relevance>
             <count>1</count>
             <text>Bryan D. O&#x2019;Connor</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.125848</relevance>
+            <relevance>0.123504</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -320,69 +332,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.124631</relevance>
+            <type>JobTitle</type>
+            <relevance>0.123161</relevance>
             <count>1</count>
-            <text>Huntsville</text>
-            <disambiguated>
-                <name>Huntsville, Alabama</name>
-                <geo>34.7 -86.58333333333333</geo>
-                <website>http://www.hsvcity.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
-                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
-                <geonames>http://sws.geonames.org/4068590/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.124008</relevance>
-            <count>1</count>
-            <text>Lufkin</text>
-            <disambiguated>
-                <name>Lufkin, Texas</name>
-                <geo>31.336944444444445 -94.73027777777777</geo>
-                <website>http://cityoflufkin.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Lufkin,_Texas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0_xkz</freebase>
-                <yago>http://yago-knowledge.org/resource/Lufkin,_Texas</yago>
-                <geonames>http://sws.geonames.org/4708308/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.123374</relevance>
-            <count>1</count>
-            <text>Alabama</text>
-            <disambiguated>
-                <name>Alabama</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>33.0 -86.66666666666667</geo>
-                <website>http://www.alabama.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
-                <yago>http://yago-knowledge.org/resource/Alabama</yago>
-                <geonames>http://sws.geonames.org/4829764/</geonames>
-            </disambiguated>
+            <text>Launch Director</text>
         </entity>
         <entity>
             <type>JobTitle</type>
             <relevance>0.123031</relevance>
             <count>1</count>
             <text>Space and Aeronautics</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.121892</relevance>
-            <count>1</count>
-            <text>Roy D. Bridges Jr</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
@@ -395,6 +354,12 @@
                 <dbpedia>http://dbpedia.org/resource/Columbia,_Fayette_County,_Indiana</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.03hh1kw</freebase>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.120971</relevance>
+            <count>1</count>
+            <text>Robyn Suriano</text>
         </entity>
         <entity>
             <type>Organization</type>
@@ -415,17 +380,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.120274</relevance>
-            <count>1</count>
-            <text>Houston Chronicle</text>
+            <type>Organization</type>
+            <relevance>0.120596</relevance>
+            <count>2</count>
+            <text>KSC</text>
             <disambiguated>
-                <name>Houston Chronicle</name>
-                <subType>Newspaper</subType>
-                <website>http://chron.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -444,8 +413,79 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.120256</relevance>
+            <count>1</count>
+            <text>Huntsville</text>
+            <disambiguated>
+                <name>Huntsville, Alabama</name>
+                <geo>34.7 -86.58333333333333</geo>
+                <website>http://www.hsvcity.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
+                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
+                <geonames>http://sws.geonames.org/4068590/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.120171</relevance>
+            <count>2</count>
+            <text>the commission</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.11958</relevance>
+            <count>1</count>
+            <text>Lufkin</text>
+            <disambiguated>
+                <name>Lufkin, Texas</name>
+                <geo>31.336944444444445 -94.73027777777777</geo>
+                <website>http://cityoflufkin.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Lufkin,_Texas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0_xkz</freebase>
+                <yago>http://yago-knowledge.org/resource/Lufkin,_Texas</yago>
+                <geonames>http://sws.geonames.org/4708308/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.119475</relevance>
+            <count>1</count>
+            <text>Roy D. Bridges Jr</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.11915</relevance>
+            <count>2</count>
+            <text>President</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.12025</relevance>
+            <relevance>0.119042</relevance>
+            <count>1</count>
+            <text>Alabama</text>
+            <disambiguated>
+                <name>Alabama</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>33.0 -86.66666666666667</geo>
+                <website>http://www.alabama.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
+                <yago>http://yago-knowledge.org/resource/Alabama</yago>
+                <geonames>http://sws.geonames.org/4829764/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.115955</relevance>
             <count>1</count>
             <text>Texas</text>
             <disambiguated>
@@ -464,49 +504,18 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.120171</relevance>
-            <count>2</count>
-            <text>the commission</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.119862</relevance>
-            <count>1</count>
-            <text>Columbia mission</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.11915</relevance>
-            <count>2</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.117951</relevance>
-            <count>1</count>
-            <text>Warren E. Leary</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.11793</relevance>
+            <relevance>0.115862</relevance>
             <count>1</count>
-            <text>Orlando Sentinel</text>
+            <text>Houston Chronicle</text>
             <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
+                <name>Houston Chronicle</name>
                 <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+                <website>http://chron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.117844</relevance>
-            <count>1</count>
-            <text>Associate Administrator</text>
         </entity>
     </entities>
 </results>

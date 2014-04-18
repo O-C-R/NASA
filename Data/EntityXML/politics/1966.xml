@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.844798</relevance>
+            <relevance>0.824969</relevance>
             <count>6</count>
             <text>President Johnson</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.659348</relevance>
+            <relevance>0.673004</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -34,8 +34,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.563644</relevance>
+            <count>3</count>
+            <text>Vice President</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.600713</relevance>
+            <relevance>0.543509</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -55,7 +61,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.556309</relevance>
+            <relevance>0.541782</relevance>
             <count>5</count>
             <text>The New York Times</text>
             <disambiguated>
@@ -73,14 +79,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.471962</relevance>
-            <count>2</count>
-            <text>vice president</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.461284</relevance>
+            <relevance>0.500455</relevance>
             <count>3</count>
             <text>Sen. Warren G. Magnuson</text>
             <disambiguated>
@@ -95,21 +95,15 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.45816</relevance>
+            <relevance>0.458094</relevance>
             <count>2</count>
             <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.457388</relevance>
+            <relevance>0.452996</relevance>
             <count>2</count>
-            <text>Vice President</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.422829</relevance>
-            <count>2</count>
-            <text>president</text>
+            <text>vice president</text>
         </entity>
         <entity>
             <type>Company</type>
@@ -134,81 +128,31 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.407926</relevance>
+            <type>JobTitle</type>
+            <relevance>0.408645</relevance>
             <count>1</count>
-            <text>House Appropriations Committee</text>
+            <text>nasa Assistant Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.379396</relevance>
+            <count>1</count>
+            <text>Astronautics&#x2019; Subcommittee on Advanced Research and Technology</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.381809</relevance>
+            <relevance>0.369003</relevance>
             <count>2</count>
-            <text>Robert Wright</text>
+            <text>Prof. Gordon J. F. MacDonald</text>
             <disambiguated>
-                <name>Robert Wright (writer)</name>
-                <subType>FilmMusicContributor</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_Wright_(writer)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03kd4m</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_Wright_(writer)</yago>
+                <name>Gordon J. F. MacDonald</name>
+                <dbpedia>http://dbpedia.org/resource/Gordon_J._F._MacDonald</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0h55wlq</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.377131</relevance>
-            <count>2</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.366327</relevance>
-            <count>1</count>
-            <text>Vice president</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.360024</relevance>
-            <count>2</count>
-            <text>World War II</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.354336</relevance>
-            <count>2</count>
-            <text>ucla</text>
-            <disambiguated>
-                <name>University of California, Los Angeles</name>
-                <subType>SportsTeam</subType>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.07222222222222 -118.44409722222223</geo>
-                <website>http://www.ucla.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_California,_Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09f2j</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWNHF5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/University_of_California,_Los_Angeles</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.351941</relevance>
-            <count>2</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.34712</relevance>
+            <relevance>0.368663</relevance>
             <count>2</count>
             <text>Senate</text>
             <disambiguated>
@@ -224,13 +168,166 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.343789</relevance>
+            <relevance>0.364282</relevance>
             <count>2</count>
-            <text>Rep. Albert Thomas</text>
+            <text>Robert Wright</text>
+            <disambiguated>
+                <name>Robert Wright (writer)</name>
+                <subType>FilmMusicContributor</subType>
+                <dbpedia>http://dbpedia.org/resource/Robert_Wright_(writer)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03kd4m</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_Wright_(writer)</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.337789</relevance>
+            <relevance>0.362016</relevance>
+            <count>1</count>
+            <text>House Committee on Science</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.359683</relevance>
+            <count>1</count>
+            <text>House Appropriations Committee</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.358896</relevance>
+            <count>2</count>
+            <text>World War II</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.358118</relevance>
+            <count>2</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.35372</relevance>
+            <count>1</count>
+            <text>Okla</text>
+            <disambiguated>
+                <name>Oklahoma</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.ok.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Oklahoma</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0z6k1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViN-ZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Oklahoma</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.346382</relevance>
+            <count>2</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.337812</relevance>
+            <count>1</count>
+            <text>Durant</text>
+            <disambiguated>
+                <name>Durant, Oklahoma</name>
+                <geo>33.999722222222225 -96.38472222222222</geo>
+                <website>http://www.durant.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Durant,_Oklahoma</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0z4bc</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ok/counties/bryan_county/durant</census>
+                <yago>http://yago-knowledge.org/resource/Durant,_Oklahoma</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.3348</relevance>
+            <count>1</count>
+            <text>ucla Institute of Geophysics</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.334442</relevance>
+            <count>1</count>
+            <text>Sir Sydney Camm</text>
+            <disambiguated>
+                <name>Sydney Camm</name>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Sydney_Camm</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vlh5</freebase>
+                <yago>http://yago-knowledge.org/resource/Sydney_Camm</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.333972</relevance>
+            <count>1</count>
+            <text>Albuquerque</text>
+            <disambiguated>
+                <name>Albuquerque, New Mexico</name>
+                <geo>35.11083333333333 -106.61</geo>
+                <website>http://www.cabq.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Albuquerque,_New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0djd3</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/nm/counties/bernalillo_county/albuquerque</census>
+                <yago>http://yago-knowledge.org/resource/Albuquerque,_New_Mexico</yago>
+                <geonames>http://sws.geonames.org/5454711/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.333651</relevance>
+            <count>1</count>
+            <text>Small Business Administration</text>
+            <disambiguated>
+                <name>Small Business Administration</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.sba.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Small_Business_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08_ykc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwBo1AZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Small_Business_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.332639</relevance>
+            <count>1</count>
+            <text>University of New Mexico</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.331917</relevance>
+            <count>1</count>
+            <text>ucla Institute of Geophysics and Planetary Physics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.324596</relevance>
+            <count>1</count>
+            <text>National Council of Marine Resources and Engineering</text>
+        </entity>
+        <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.318838</relevance>
+            <count>1</count>
+            <text>Gold Medal</text>
+            <disambiguated>
+                <name>Gold Medal of the Royal Astronomical Society</name>
+                <website>http://www.ras.org.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/Gold_Medal_of_the_Royal_Astronomical_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03j2ts</freebase>
+                <yago>http://yago-knowledge.org/resource/Gold_Medal_of_the_Royal_Astronomical_Society</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.318194</relevance>
             <count>1</count>
             <text>Congress</text>
             <disambiguated>
@@ -248,19 +345,24 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.334929</relevance>
-            <count>1</count>
-            <text>ucla Institute of Geophysics</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.332051</relevance>
-            <count>1</count>
-            <text>ucla Institute of Geophysics and Planetary Physics</text>
+            <relevance>0.316662</relevance>
+            <count>2</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.331449</relevance>
+            <relevance>0.315709</relevance>
             <count>1</count>
             <text>Planetary and Space Sciences</text>
             <disambiguated>
@@ -270,177 +372,61 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.330842</relevance>
-            <count>1</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.329381</relevance>
-            <count>1</count>
-            <text>Project Mohole</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.324574</relevance>
+            <relevance>0.315079</relevance>
             <count>1</count>
-            <text>Pres. Doc.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.322947</relevance>
-            <count>2</count>
-            <text>Prof. Gordon J. F. MacDonald</text>
-            <disambiguated>
-                <name>Gordon J. F. MacDonald</name>
-                <dbpedia>http://dbpedia.org/resource/Gordon_J._F._MacDonald</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h55wlq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.321415</relevance>
-            <count>1</count>
-            <text>Gold Medal</text>
-            <disambiguated>
-                <name>Gold Medal of the Royal Astronomical Society</name>
-                <website>http://www.ras.org.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/Gold_Medal_of_the_Royal_Astronomical_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03j2ts</freebase>
-                <yago>http://yago-knowledge.org/resource/Gold_Medal_of_the_Royal_Astronomical_Society</yago>
-            </disambiguated>
+            <text>M. Kerr</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.316428</relevance>
+            <relevance>0.314047</relevance>
             <count>1</count>
-            <text>Fast Deployment Logistic Fleet</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.316031</relevance>
-            <count>1</count>
-            <text>Washington</text>
+            <text>Resources Commission</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>National Resources Commission</name>
+                <dbpedia>http://dbpedia.org/resource/National_Resources_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0brftn</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.313311</relevance>
+            <relevance>0.31319</relevance>
             <count>1</count>
             <text>Prof. Emeritus of Geophysics and Director</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.312402</relevance>
+            <type>Facility</type>
+            <relevance>0.308998</relevance>
             <count>1</count>
-            <text>Gen. Maxwell D. Taylor</text>
-            <disambiguated>
-                <name>Maxwell D. Taylor</name>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.army.mil/cmh-pg/books/cg&amp;csa/Taylor-MD.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Maxwell_D._Taylor</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01z84r</freebase>
-                <yago>http://yago-knowledge.org/resource/Maxwell_D._Taylor</yago>
-            </disambiguated>
+            <text>Schlichter Hall</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.30831</relevance>
+            <count>1</count>
+            <text>Southeastern State College</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.311258</relevance>
-            <count>1</count>
-            <text>Astronautics&#x2019; Subcommittee on Advanced Research and Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.310455</relevance>
-            <count>1</count>
-            <text>National Council of Marine Resources and Engineering</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.310411</relevance>
-            <count>1</count>
-            <text>Holloman afb</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.308583</relevance>
-            <count>1</count>
-            <text>oar Research Review</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.306527</relevance>
-            <count>1</count>
-            <text>ucla&#x2019;s Dept</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.306418</relevance>
-            <count>1</count>
-            <text>Achievement Award of Society of Women Engineers</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.306025</relevance>
+            <relevance>0.30589</relevance>
             <count>1</count>
             <text>NASA Administrator</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.305181</relevance>
-            <count>1</count>
-            <text>AP</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.304486</relevance>
+            <relevance>0.304372</relevance>
             <count>2</count>
             <text>Dr. Louis Byrne Schlichter</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.304427</relevance>
-            <count>1</count>
-            <text>oar Res</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.302694</relevance>
+            <relevance>0.302584</relevance>
             <count>2</count>
             <text>director</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.301988</relevance>
-            <count>1</count>
-            <text>Small Business Administration</text>
-            <disambiguated>
-                <name>Small Business Administration</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.sba.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Small_Business_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08_ykc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwBo1AZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Small_Business_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.301783</relevance>
+            <relevance>0.301673</relevance>
             <count>1</count>
             <text>Dr. Thomas Gold</text>
             <disambiguated>
@@ -455,39 +441,88 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.301191</relevance>
-            <count>1</count>
-            <text>Resources Commission</text>
-            <disambiguated>
-                <name>National Resources Commission</name>
-                <dbpedia>http://dbpedia.org/resource/National_Resources_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0brftn</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.300726</relevance>
+            <relevance>0.300605</relevance>
             <count>1</count>
             <text>ucla Release</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.30053</relevance>
-            <count>1</count>
-            <text>Dr. Dorothy Martin Simon</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.300167</relevance>
+            <relevance>0.300047</relevance>
             <count>1</count>
             <text>space program</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.300033</relevance>
+            <type>Person</type>
+            <relevance>0.299323</relevance>
             <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
+            <text>Rep. Alphonzo Bell</text>
+            <disambiguated>
+                <name>Alphonzo Bell</name>
+                <subType>TennisPlayer</subType>
+                <subType>OlympicAthlete</subType>
+                <dbpedia>http://dbpedia.org/resource/Alphonzo_Bell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07nn27</freebase>
+                <yago>http://yago-knowledge.org/resource/Alphonzo_Bell</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.297421</relevance>
+            <count>1</count>
+            <text>Willard F. Libby</text>
+            <disambiguated>
+                <name>Willard Libby</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Willard_Libby</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01kkc1</freebase>
+                <yago>http://yago-knowledge.org/resource/Willard_Libby</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296661</relevance>
+            <count>1</count>
+            <text>Bill</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.296427</relevance>
+            <count>1</count>
+            <text>Holloman afb</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.295617</relevance>
+            <count>1</count>
+            <text>ucla</text>
+            <disambiguated>
+                <name>University of California, Los Angeles</name>
+                <subType>SportsTeam</subType>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.07222222222222 -118.44409722222223</geo>
+                <website>http://www.ucla.edu</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_California,_Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09f2j</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvWNHF5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/University_of_California,_Los_Angeles</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.295359</relevance>
+            <count>1</count>
+            <text>Project Mohole</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.294049</relevance>
+            <count>1</count>
+            <text>oar Research Review</text>
         </entity>
     </entities>
 </results>

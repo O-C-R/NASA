@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.793824</relevance>
+            <relevance>0.803539</relevance>
             <count>8</count>
             <text>U.S. Space Program</text>
             <disambiguated>
@@ -29,19 +29,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.525453</relevance>
+            <relevance>0.468423</relevance>
             <count>1</count>
             <text>NASA Administrator</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.386316</relevance>
-            <count>1</count>
-            <text>memorandum of agreement</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.369449</relevance>
+            <relevance>0.394767</relevance>
             <count>1</count>
             <text>President Ronald Reagan</text>
             <disambiguated>
@@ -62,8 +56,27 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.371711</relevance>
+            <count>1</count>
+            <text>President's Commission</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.368594</relevance>
+            <count>1</count>
+            <text>Challenger</text>
+            <disambiguated>
+                <name>AGCO</name>
+                <website>http://www.agcocorp.com</website>
+                <dbpedia>http://dbpedia.org/resource/AGCO</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0491p2</freebase>
+                <yago>http://yago-knowledge.org/resource/AGCO</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.359308</relevance>
+            <relevance>0.359054</relevance>
             <count>1</count>
             <text>WSJ</text>
             <disambiguated>
@@ -77,14 +90,63 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.338584</relevance>
+            <count>1</count>
+            <text>memorandum of agreement</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.349497</relevance>
+            <relevance>0.337706</relevance>
             <count>1</count>
             <text>Microburst</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.320504</relevance>
+            <count>1</count>
+            <text>Deputy Assistant Administrator</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.312332</relevance>
+            <count>1</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.309924</relevance>
+            <count>1</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.328024</relevance>
+            <relevance>0.307932</relevance>
             <count>1</count>
             <text>Dr. James C. Fletcher</text>
             <disambiguated>
@@ -97,20 +159,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.32611</relevance>
-            <count>1</count>
-            <text>Federal Aviation Administration</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.312047</relevance>
-            <count>1</count>
-            <text>Deputy Assistant Administrator</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.307289</relevance>
+            <relevance>0.299065</relevance>
             <count>1</count>
             <text>United States</text>
             <disambiguated>
@@ -129,88 +179,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.291349</relevance>
-            <count>1</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.289681</relevance>
-            <count>1</count>
-            <text>Challenger</text>
-            <disambiguated>
-                <name>AGCO</name>
-                <website>http://www.agcocorp.com</website>
-                <dbpedia>http://dbpedia.org/resource/AGCO</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0491p2</freebase>
-                <yago>http://yago-knowledge.org/resource/AGCO</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.289184</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.28588</relevance>
-            <count>1</count>
-            <text>President's Commission</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.282797</relevance>
-            <count>1</count>
-            <text>advisory council</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.277687</relevance>
-            <count>1</count>
-            <text>Lawrence F. Herbolsheimer</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.275709</relevance>
-            <count>1</count>
-            <text>White House.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.264201</relevance>
+            <relevance>0.285131</relevance>
             <count>1</count>
             <text>USA Today</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.284836</relevance>
+            <count>1</count>
+            <text>White House.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.284823</relevance>
+            <count>1</count>
+            <text>Lawrence F. Herbolsheimer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.280611</relevance>
+            <count>1</count>
+            <text>Federal Aviation Administration</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.2355</relevance>
+            <relevance>0.274139</relevance>
+            <count>1</count>
+            <text>advisory council</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.242253</relevance>
             <count>1</count>
             <text>Office of Commercial Programs</text>
         </entity>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.860357</relevance>
+            <relevance>0.807935</relevance>
             <count>57</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +28,13 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.727659</relevance>
-            <count>49</count>
-            <text>Soviet Union</text>
+            <type>Country</type>
+            <relevance>0.708802</relevance>
+            <count>48</count>
+            <text>U.S.S.R.</text>
             <disambiguated>
                 <name>Soviet Union</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
                 <subType>GovernmentalJurisdiction</subType>
                 <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
@@ -45,19 +44,25 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.657041</relevance>
-            <count>20</count>
+            <relevance>0.611181</relevance>
+            <count>18</count>
             <text>Plesetsk</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.577006</relevance>
+            <count>7</count>
+            <text>Communications Satellite Corp.</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.653201</relevance>
+            <relevance>0.530582</relevance>
             <count>7</count>
             <text>communications satellite</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.651257</relevance>
+            <relevance>0.523525</relevance>
             <count>24</count>
             <text>United States</text>
             <disambiguated>
@@ -76,22 +81,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.579028</relevance>
-            <count>7</count>
-            <text>Communications Satellite Corp.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.504652</relevance>
-            <count>5</count>
-            <text>satellite system</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.504378</relevance>
+            <relevance>0.498642</relevance>
             <count>8</count>
-            <text>President Nixon</text>
+            <text>Nixon Administration</text>
             <disambiguated>
                 <name>Richard Nixon</name>
                 <subType>FilmCharacter</subType>
@@ -116,8 +109,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.474106</relevance>
+            <count>5</count>
+            <text>satellite system</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.485209</relevance>
+            <relevance>0.438971</relevance>
             <count>12</count>
             <text>New York Times</text>
             <disambiguated>
@@ -135,32 +134,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.401666</relevance>
-            <count>2</count>
-            <text>Earth Resources Technology Satellite</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.387075</relevance>
+            <type>City</type>
+            <relevance>0.411428</relevance>
             <count>6</count>
-            <text>Sov Aero</text>
+            <text>Baykonur</text>
+            <disambiguated>
+                <name>Baikonur</name>
+                <subType>AdministrativeDivision</subType>
+                <dbpedia>http://dbpedia.org/resource/Baikonur</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018nsx</freebase>
+                <yago>http://yago-knowledge.org/resource/Baikonur</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.362383</relevance>
-            <count>2</count>
-            <text>satellite service.</text>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.359988</relevance>
-            <count>5</count>
-            <text>Pacific</text>
+            <type>Company</type>
+            <relevance>0.409945</relevance>
+            <count>6</count>
+            <text>Plesetsk</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.358523</relevance>
+            <relevance>0.401158</relevance>
             <count>6</count>
             <text>Federal Communications Commission</text>
             <disambiguated>
@@ -175,74 +169,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.354199</relevance>
-            <count>4</count>
-            <text>Tass</text>
-            <disambiguated>
-                <name>Tass, Hungary</name>
-                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
-                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.346915</relevance>
-            <count>4</count>
-            <text>earth station</text>
+            <type>Company</type>
+            <relevance>0.396297</relevance>
+            <count>6</count>
+            <text>Sov Aero</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.324396</relevance>
-            <count>2</count>
-            <text>International Telecommunications Satellite Consortium</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.323531</relevance>
-            <count>1</count>
-            <text>International Telecommunications Satellite Organization</text>
-            <disambiguated>
-                <name>International Telecommunications Satellite Organization</name>
-                <dbpedia>http://dbpedia.org/resource/International_Telecommunications_Satellite_Organization</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.043txcw</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.322096</relevance>
-            <count>4</count>
-            <text>Orbita</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.319763</relevance>
+            <relevance>0.383055</relevance>
             <count>1</count>
             <text>Navy Navigation Satellite System</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.318415</relevance>
-            <count>6</count>
-            <text>Baykonur</text>
-            <disambiguated>
-                <name>Baikonur</name>
-                <subType>AdministrativeDivision</subType>
-                <dbpedia>http://dbpedia.org/resource/Baikonur</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018nsx</freebase>
-                <yago>http://yago-knowledge.org/resource/Baikonur</yago>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.370946</relevance>
+            <count>2</count>
+            <text>satellite service</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.369591</relevance>
+            <count>5</count>
+            <text>Pacific</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.307881</relevance>
-            <count>1</count>
-            <text>Communications Technology Satellite</text>
+            <relevance>0.365218</relevance>
+            <count>2</count>
+            <text>Earth Resources Technology Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.355017</relevance>
+            <count>2</count>
+            <text>International Telecommunications Satellite Consortium</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.30458</relevance>
+            <relevance>0.322374</relevance>
             <count>3</count>
             <text>Europe</text>
             <disambiguated>
@@ -253,44 +217,69 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.315256</relevance>
+            <count>4</count>
+            <text>Tass</text>
+            <disambiguated>
+                <name>Tass, Hungary</name>
+                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
+                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.313238</relevance>
+            <count>1</count>
+            <text>International Telecommunications Satellite Organization</text>
+            <disambiguated>
+                <name>International Telecommunications Satellite Organization</name>
+                <dbpedia>http://dbpedia.org/resource/International_Telecommunications_Satellite_Organization</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.043txcw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.310028</relevance>
+            <count>4</count>
+            <text>Alaska</text>
+            <disambiguated>
+                <name>Alaska</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>64.0 -153.0</geo>
+                <website>http://www.alaska.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Alaska</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.309389</relevance>
+            <count>4</count>
+            <text>earth station</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.306577</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.302939</relevance>
+            <relevance>0.305961</relevance>
             <count>4</count>
             <text>ComSatCorp</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.30113</relevance>
-            <count>1</count>
-            <text>GTE Satellite Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.300508</relevance>
-            <count>1</count>
-            <text>U.S.S.R. Satellite</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.295544</relevance>
-            <count>3</count>
-            <text>Moscow</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294685</relevance>
-            <count>3</count>
-            <text>European Space Research Organization</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.293759</relevance>
-            <count>3</count>
-            <text>Hotz</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.292436</relevance>
+            <relevance>0.305616</relevance>
             <count>3</count>
             <text>China</text>
             <disambiguated>
@@ -308,28 +297,86 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.289853</relevance>
-            <count>3</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
+            <type>Company</type>
+            <relevance>0.305131</relevance>
+            <count>1</count>
+            <text>Communications Technology Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.304136</relevance>
+            <count>1</count>
+            <text>Meteoroid Technology Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.299953</relevance>
+            <count>1</count>
+            <text>Tactical Communications Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.292491</relevance>
+            <count>1</count>
+            <text>Applications Technology Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.290312</relevance>
+            <count>4</count>
+            <text>Orbita</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.289839</relevance>
+            <relevance>0.289302</relevance>
             <count>1</count>
             <text>Small Astronomy Satellite</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.289292</relevance>
+            <count>3</count>
+            <text>Hotz</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.289052</relevance>
+            <count>1</count>
+            <text>GTE Satellite Corp.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.287871</relevance>
+            <count>2</count>
+            <text>Space Technology</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.286291</relevance>
+            <count>3</count>
+            <text>European Space Research Organization</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.285895</relevance>
+            <count>2</count>
+            <text>United Nations</text>
+            <disambiguated>
+                <name>United Nations (band)</name>
+                <website>http://www.unitedfuckingnations.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmsjxq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.277627</relevance>
+            <count>1</count>
+            <text>U.S.S.R. Satellite</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.287299</relevance>
+            <relevance>0.276254</relevance>
             <count>3</count>
             <text>Czechoslovakia</text>
             <disambiguated>
@@ -343,14 +390,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.286334</relevance>
-            <count>1</count>
-            <text>Tactical Communications Satellite</text>
+            <type>City</type>
+            <relevance>0.272781</relevance>
+            <count>2</count>
+            <text>Baykonur Cosmodrome</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.270194</relevance>
+            <count>2</count>
+            <text>National Oceanic and Atmospheric Administration</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.285517</relevance>
+            <relevance>0.268047</relevance>
             <count>4</count>
             <text>Wall Street Journal</text>
             <disambiguated>
@@ -365,67 +425,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.283819</relevance>
+            <relevance>0.266171</relevance>
             <count>2</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
+            <text>ITT Space Communications</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.278262</relevance>
-            <count>1</count>
-            <text>data communications</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.277867</relevance>
-            <count>1</count>
-            <text>Applications Technology Satellite</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.276739</relevance>
-            <count>2</count>
-            <text>Space Technology</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.272302</relevance>
-            <count>4</count>
-            <text>Japan</text>
-            <disambiguated>
-                <name>Empire of Japan</name>
-                <subType>Location</subType>
-                <subType>Kingdom</subType>
-                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
-                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.272134</relevance>
+            <type>Region</type>
+            <relevance>0.264307</relevance>
             <count>3</count>
-            <text>Managua</text>
-            <disambiguated>
-                <name>Managua</name>
-                <website>http://www.managua.gob.ni/</website>
-                <dbpedia>http://dbpedia.org/resource/Managua</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fqbf</freebase>
-                <yago>http://yago-knowledge.org/resource/Managua</yago>
-                <geonames>http://sws.geonames.org/3617763/</geonames>
-            </disambiguated>
+            <text>Atlantic</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.261788</relevance>
+            <count>5</count>
+            <text>Hughes</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.268173</relevance>
+            <relevance>0.260015</relevance>
             <count>1</count>
             <text>nasa</text>
             <disambiguated>
@@ -447,88 +465,50 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.264807</relevance>
-            <count>2</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.263296</relevance>
+            <relevance>0.259513</relevance>
             <count>1</count>
-            <text>Meteoroid Technology Satellite</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.260814</relevance>
-            <count>5</count>
-            <text>Hughes</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.259488</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259278</relevance>
-            <count>3</count>
-            <text>U.N.</text>
+            <text>State Dept</text>
             <disambiguated>
-                <name>U.N. (group)</name>
-                <dbpedia>http://dbpedia.org/resource/U.N._(group)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09gn3c5</freebase>
+                <name>United States Department of State</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>AppointedRole</subType>
+                <website>http://www.state.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_State</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vsl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvXeGY5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_State</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.259201</relevance>
+            <count>1</count>
+            <text>Baltimore</text>
+            <disambiguated>
+                <name>Baltimore</name>
+                <website>http://www.baltimorecity.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.258734</relevance>
-            <count>4</count>
-            <text>Plesetsk</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.258065</relevance>
-            <count>4</count>
-            <text>Alaska</text>
-            <disambiguated>
-                <name>Alaska</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>64.0 -153.0</geo>
-                <website>http://www.alaska.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Alaska</yago>
-            </disambiguated>
+            <relevance>0.258406</relevance>
+            <count>2</count>
+            <text>RCA Global Communications, Inc.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.257714</relevance>
-            <count>3</count>
-            <text>National Oceanic and Atmospheric Administration</text>
+            <relevance>0.256985</relevance>
+            <count>2</count>
+            <text>United Nations General Assembly</text>
             <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+                <name>United Nations General Assembly</name>
+                <website>http://www.un.org/ga</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_General_Assembly</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vp7</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvl56KZwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
     </entities>

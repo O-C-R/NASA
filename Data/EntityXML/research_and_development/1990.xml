@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.811049</relevance>
+            <relevance>0.809363</relevance>
             <count>22</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,32 +28,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.409734</relevance>
-            <count>4</count>
-            <text>Ames Research Center</text>
-            <disambiguated>
-                <name>Ames Research Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.324921</relevance>
-            <count>5</count>
-            <text>Magellan</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.30764</relevance>
+            <relevance>0.346139</relevance>
             <count>7</count>
             <text>California</text>
             <disambiguated>
@@ -74,14 +50,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.321324</relevance>
+            <count>4</count>
+            <text>Ames Research Center</text>
+            <disambiguated>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.308105</relevance>
+            <count>5</count>
+            <text>Magellan</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.245655</relevance>
+            <relevance>0.293184</relevance>
             <count>2</count>
             <text>Ames Research Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.223044</relevance>
+            <relevance>0.226157</relevance>
             <count>2</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -97,7 +97,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.217008</relevance>
+            <relevance>0.216546</relevance>
             <count>2</count>
             <text>SBIR</text>
             <disambiguated>
@@ -108,8 +108,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.212765</relevance>
+            <count>2</count>
+            <text>Edwin Sherry</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.211992</relevance>
+            <relevance>0.205571</relevance>
             <count>1</count>
             <text>Langley Research Center</text>
             <disambiguated>
@@ -123,20 +129,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.21026</relevance>
-            <count>1</count>
-            <text>Ozone Mapping Spectrometer</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.20919</relevance>
-            <count>1</count>
-            <text>Human Performance Research Laboratory</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.198982</relevance>
+            <relevance>0.201759</relevance>
             <count>2</count>
             <text>Pasadena</text>
             <disambiguated>
@@ -152,54 +146,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.186085</relevance>
+            <type>JobTitle</type>
+            <relevance>0.201466</relevance>
             <count>1</count>
-            <text>Silicon Graphics</text>
-            <disambiguated>
-                <name>Silicon Graphics</name>
-                <subType>SoftwareDeveloper</subType>
-                <subType>VentureFundedCompany</subType>
-                <website>http://www.sgi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Silicon_Graphics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03p34zh</freebase>
-                <yago>http://yago-knowledge.org/resource/Silicon_Graphics</yago>
-                <crunchbase>http://www.crunchbase.com/company/silicon-graphics</crunchbase>
-            </disambiguated>
+            <text>Human Performance Research Laboratory</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.183892</relevance>
+            <type>Technology</type>
+            <relevance>0.191086</relevance>
             <count>1</count>
-            <text>Victor L. Peterson</text>
+            <text>Ozone Mapping Spectrometer</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.180902</relevance>
+            <relevance>0.176681</relevance>
             <count>1</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.179109</relevance>
+            <relevance>0.17561</relevance>
             <count>1</count>
-            <text>Sterling Federal Systems, Inc.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.1791</relevance>
-            <count>1</count>
-            <text>Petersen</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.175678</relevance>
-            <count>1</count>
-            <text>Deputy Director</text>
+            <text>Boeing Space Operations, Inc.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.174154</relevance>
+            <relevance>0.170463</relevance>
             <count>1</count>
             <text>Teledyne Brown Engineering</text>
             <disambiguated>
@@ -212,88 +184,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.173908</relevance>
-            <count>1</count>
-            <text>Southern Hemisphere</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.167626</relevance>
+            <relevance>0.168155</relevance>
             <count>1</count>
             <text>Boeing</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.166088</relevance>
-            <count>2</count>
-            <text>Edwin Sherry</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.163896</relevance>
-            <count>1</count>
-            <text>Spacelab</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.161876</relevance>
-            <count>1</count>
-            <text>Boeing Space Operations, Inc.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.159648</relevance>
-            <count>1</count>
-            <text>artificial intelligence</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.157904</relevance>
-            <count>1</count>
-            <text>Huntsville</text>
-            <disambiguated>
-                <name>Huntsville, Alabama</name>
-                <geo>34.7 -86.58333333333333</geo>
-                <website>http://www.hsvcity.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
-                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
-                <geonames>http://sws.geonames.org/4068590/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.156509</relevance>
-            <count>1</count>
-            <text>Data Center</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.156275</relevance>
-            <count>1</count>
-            <text>Alabama</text>
-            <disambiguated>
-                <name>Alabama</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>33.0 -86.66666666666667</geo>
-                <website>http://www.alabama.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
-                <yago>http://yago-knowledge.org/resource/Alabama</yago>
-                <geonames>http://sws.geonames.org/4829764/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.154759</relevance>
+            <relevance>0.167582</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -312,7 +210,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.154497</relevance>
+            <relevance>0.167304</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -329,19 +227,55 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.153729</relevance>
+            <relevance>0.166451</relevance>
             <count>1</count>
             <text>safe mode</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.152675</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.163754</relevance>
             <count>1</count>
-            <text>Ball Corporation</text>
+            <text>Data Center</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.161192</relevance>
+            <count>1</count>
+            <text>P Inq</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.160457</relevance>
+            <count>1</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.158112</relevance>
+            <count>1</count>
+            <text>Southern Hemisphere</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.158067</relevance>
+            <count>1</count>
+            <text>Sterling Federal Systems, Inc.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.158006</relevance>
+            <count>1</count>
+            <text>shut down</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.157964</relevance>
+            <count>1</count>
+            <text>solar panels</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.148797</relevance>
+            <relevance>0.15502</relevance>
             <count>1</count>
             <text>Maryland</text>
             <disambiguated>
@@ -362,40 +296,106 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.148298</relevance>
+            <type>City</type>
+            <relevance>0.15456</relevance>
             <count>1</count>
-            <text>P Inq</text>
+            <text>Huntsville</text>
+            <disambiguated>
+                <name>Huntsville, Alabama</name>
+                <geo>34.7 -86.58333333333333</geo>
+                <website>http://www.hsvcity.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
+                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
+                <geonames>http://sws.geonames.org/4068590/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.145358</relevance>
+            <relevance>0.153718</relevance>
             <count>1</count>
-            <text>shut down</text>
+            <text>artificial intelligence</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.14531</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.152965</relevance>
             <count>1</count>
-            <text>solar panels</text>
+            <text>Alabama</text>
+            <disambiguated>
+                <name>Alabama</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>33.0 -86.66666666666667</geo>
+                <website>http://www.alabama.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
+                <yago>http://yago-knowledge.org/resource/Alabama</yago>
+                <geonames>http://sws.geonames.org/4829764/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.14317</relevance>
+            <relevance>0.151259</relevance>
+            <count>1</count>
+            <text>Silicon Graphics</text>
+            <disambiguated>
+                <name>Silicon Graphics</name>
+                <subType>SoftwareDeveloper</subType>
+                <subType>VentureFundedCompany</subType>
+                <website>http://www.sgi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Silicon_Graphics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03p34zh</freebase>
+                <yago>http://yago-knowledge.org/resource/Silicon_Graphics</yago>
+                <crunchbase>http://www.crunchbase.com/company/silicon-graphics</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.149615</relevance>
             <count>1</count>
             <text>CBI Services, Inc.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.142639</relevance>
+            <relevance>0.149227</relevance>
             <count>1</count>
             <text>ST Systems Corporation</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.148049</relevance>
+            <count>1</count>
+            <text>Ball Corporation</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.137099</relevance>
+            <relevance>0.146101</relevance>
+            <count>1</count>
+            <text>Petersen</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.143443</relevance>
             <count>1</count>
             <text>Goddard</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.1414</relevance>
+            <count>1</count>
+            <text>Victor L. Peterson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.140823</relevance>
+            <count>1</count>
+            <text>Deputy Director</text>
         </entity>
     </entities>
 </results>

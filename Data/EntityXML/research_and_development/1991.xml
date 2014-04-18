@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.829117</relevance>
+            <relevance>0.82834</relevance>
             <count>134</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,22 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.322344</relevance>
+            <relevance>0.392819</relevance>
+            <count>4</count>
+            <text>NASA Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.32953</relevance>
             <count>17</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -44,23 +59,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.30624</relevance>
-            <count>4</count>
-            <text>NASA Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.286519</relevance>
+            <relevance>0.289442</relevance>
             <count>12</count>
             <text>California</text>
             <disambiguated>
@@ -81,14 +81,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.282658</relevance>
-            <count>7</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.2803</relevance>
+            <relevance>0.284782</relevance>
             <count>14</count>
             <text>Pasadena</text>
             <disambiguated>
@@ -104,14 +98,31 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.273049</relevance>
+            <count>7</count>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.244899</relevance>
-            <count>10</count>
-            <text>AP</text>
+            <relevance>0.260085</relevance>
+            <count>7</count>
+            <text>Los Angeles Times</text>
+            <disambiguated>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.238013</relevance>
+            <relevance>0.239591</relevance>
             <count>8</count>
             <text>Virginia</text>
             <disambiguated>
@@ -129,25 +140,57 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.210976</relevance>
-            <count>7</count>
-            <text>Los Angeles Times</text>
+            <type>Organization</type>
+            <relevance>0.228731</relevance>
+            <count>10</count>
+            <text>AP</text>
             <disambiguated>
-                <name>Los Angeles Times</name>
+                <name>Associated Press</name>
+                <subType>Company</subType>
                 <subType>AwardPresentingOrganization</subType>
                 <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.214252</relevance>
+            <count>5</count>
+            <text>Hampton</text>
+            <disambiguated>
+                <name>Hampton, Virginia</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>USCounty</subType>
+                <geo>37.03472222222222 -76.36</geo>
+                <website>http://www.hampton.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Hampton,_Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mnsf</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/va/counties/hampton/hampton</census>
+                <yago>http://yago-knowledge.org/resource/Hampton,_Virginia</yago>
+                <geonames>http://sws.geonames.org/4762894/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.213651</relevance>
+            <count>4</count>
+            <text>Langley Research Center</text>
+            <disambiguated>
+                <name>Langley Research Center</name>
+                <subType>AircraftDesigner</subType>
+                <geo>37.09277 -76.38133</geo>
+                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
+                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.209405</relevance>
+            <relevance>0.208411</relevance>
             <count>11</count>
             <text>The New York Times</text>
             <disambiguated>
@@ -165,67 +208,84 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.207299</relevance>
-            <count>5</count>
-            <text>Gamma Ray Observatory</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.20141</relevance>
-            <count>4</count>
-            <text>Magellan Spacecraft</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.192046</relevance>
-            <count>7</count>
-            <text>UPI</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.188992</relevance>
+            <relevance>0.198698</relevance>
             <count>5</count>
             <text>Magellan</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.184723</relevance>
+            <count>4</count>
+            <text>Cleveland</text>
+            <disambiguated>
+                <name>Cleveland</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.city.cleveland.oh.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.185578</relevance>
+            <relevance>0.176823</relevance>
             <count>5</count>
             <text>USA Today</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.184358</relevance>
+            <type>Company</type>
+            <relevance>0.176791</relevance>
             <count>4</count>
-            <text>Langley Research Center</text>
+            <text>Magellan Spacecraft</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.176423</relevance>
+            <count>4</count>
+            <text>UPI</text>
             <disambiguated>
-                <name>Langley Research Center</name>
-                <subType>AircraftDesigner</subType>
-                <geo>37.09277 -76.38133</geo>
-                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
-                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.181853</relevance>
-            <count>2</count>
-            <text>Ames-Dryden Flight Research Facility</text>
+            <type>Facility</type>
+            <relevance>0.170862</relevance>
+            <count>5</count>
+            <text>Gamma Ray Observatory</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.16858</relevance>
+            <count>4</count>
+            <text>Huntsville</text>
             <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+                <name>Huntsville, Alabama</name>
+                <geo>34.7 -86.58333333333333</geo>
+                <website>http://www.hsvcity.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
+                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
+                <geonames>http://sws.geonames.org/4068590/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.162573</relevance>
+            <count>4</count>
+            <text>engineer</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.177506</relevance>
+            <relevance>0.159967</relevance>
             <count>1</count>
             <text>NASA-Ames Research Center</text>
             <disambiguated>
@@ -242,92 +302,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.17534</relevance>
-            <count>4</count>
-            <text>Huntsville</text>
-            <disambiguated>
-                <name>Huntsville, Alabama</name>
-                <geo>34.7 -86.58333333333333</geo>
-                <website>http://www.hsvcity.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
-                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
-                <geonames>http://sws.geonames.org/4068590/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.17367</relevance>
-            <count>1</count>
-            <text>Goddard Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.169086</relevance>
-            <count>3</count>
-            <text>Antelope Valley</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.165417</relevance>
-            <count>4</count>
-            <text>Hampton</text>
-            <disambiguated>
-                <name>Hampton, Virginia</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>USCounty</subType>
-                <geo>37.03472222222222 -76.36</geo>
-                <website>http://www.hampton.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Hampton,_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mnsf</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/va/counties/hampton/hampton</census>
-                <yago>http://yago-knowledge.org/resource/Hampton,_Virginia</yago>
-                <geonames>http://sws.geonames.org/4762894/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.164056</relevance>
+            <relevance>0.159665</relevance>
             <count>2</count>
             <text>Flight Research Facility</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.159917</relevance>
-            <count>4</count>
-            <text>Edwards</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.159122</relevance>
-            <count>2</count>
-            <text>technology firms</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.157523</relevance>
-            <count>3</count>
-            <text>The Huntsville Times</text>
+            <type>Facility</type>
+            <relevance>0.157987</relevance>
+            <count>1</count>
+            <text>Virginia Air and Space Center</text>
             <disambiguated>
-                <name>The Huntsville Times</name>
-                <subType>Newspaper</subType>
-                <website>http://www.al.com/huntsvilletimes/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Huntsville_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qkjl8</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Huntsville_Times</yago>
+                <name>Virginia Air and Space Center</name>
+                <dbpedia>http://dbpedia.org/resource/Virginia_Air_and_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cm8jvc</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.155855</relevance>
-            <count>3</count>
-            <text>space exploration</text>
+            <type>Organization</type>
+            <relevance>0.155381</relevance>
+            <count>4</count>
+            <text>International Astronomical Union</text>
+            <disambiguated>
+                <name>International Astronomical Union</name>
+                <dbpedia>http://dbpedia.org/resource/International_Astronomical_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03v7p</freebase>
+                <yago>http://yago-knowledge.org/resource/International_Astronomical_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.154991</relevance>
+            <count>2</count>
+            <text>Birmingham</text>
+            <disambiguated>
+                <name>Birmingham, Indiana</name>
+                <geo>40.937777777777775 -86.10944444444445</geo>
+                <dbpedia>http://dbpedia.org/resource/Birmingham,_Indiana</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03m447j</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.154745</relevance>
+            <relevance>0.154664</relevance>
             <count>2</count>
             <text>Wallops Island</text>
             <disambiguated>
@@ -342,178 +359,37 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.154431</relevance>
-            <count>3</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.15297</relevance>
-            <count>2</count>
-            <text>Massachusetts</text>
-            <disambiguated>
-                <name>Massachusetts</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.mass.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Massachusetts</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05k7sb</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi4QpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Massachusetts</yago>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.153642</relevance>
+            <count>4</count>
+            <text>Edwards</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.152002</relevance>
+            <relevance>0.151289</relevance>
             <count>1</count>
-            <text>Virginia Air and Space Center</text>
-            <disambiguated>
-                <name>Virginia Air and Space Center</name>
-                <dbpedia>http://dbpedia.org/resource/Virginia_Air_and_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm8jvc</freebase>
-            </disambiguated>
+            <text>Goddard Space Flight Center</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.149807</relevance>
+            <type>Organization</type>
+            <relevance>0.151067</relevance>
             <count>2</count>
-            <text>Mount Pinatubo</text>
+            <text>University of Alabama</text>
             <disambiguated>
-                <name>Mount Pinatubo</name>
+                <name>University of Alabama at Birmingham</name>
                 <subType>Location</subType>
-                <subType>Mountain</subType>
-                <geo>15.141666666666667 120.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Mount_Pinatubo</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02hvs9</freebase>
-                <yago>http://yago-knowledge.org/resource/Mount_Pinatubo</yago>
-                <geonames>http://sws.geonames.org/1693517/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.149333</relevance>
-            <count>2</count>
-            <text>Alabama</text>
-            <disambiguated>
-                <name>Alabama</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>33.0 -86.66666666666667</geo>
-                <website>http://www.alabama.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
-                <yago>http://yago-knowledge.org/resource/Alabama</yago>
-                <geonames>http://sws.geonames.org/4829764/</geonames>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>33.5 -86.8075</geo>
+                <website>http://www.UAB.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Alabama_at_Birmingham</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02jyr8</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Alabama_at_Birmingham</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.149111</relevance>
-            <count>2</count>
-            <text>SBIR</text>
-            <disambiguated>
-                <name>Research</name>
-                <dbpedia>http://dbpedia.org/resource/Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06cs1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjqjZwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.147679</relevance>
-            <count>2</count>
-            <text>Cambridge</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.14727</relevance>
-            <count>3</count>
-            <text>Galileo</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.14671</relevance>
-            <count>2</count>
-            <text>Philippines</text>
-            <disambiguated>
-                <name>Philippines</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>14.583333333333334 121.0</geo>
-                <website>http://www.gov.ph</website>
-                <dbpedia>http://dbpedia.org/resource/Philippines</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Philippines</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05v8c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVipLpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Philippines</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.146604</relevance>
-            <count>2</count>
-            <text>Htsvl Tms</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.146367</relevance>
-            <count>2</count>
-            <text>Birmingham</text>
-            <disambiguated>
-                <name>Birmingham, Indiana</name>
-                <geo>40.937777777777775 -86.10944444444445</geo>
-                <dbpedia>http://dbpedia.org/resource/Birmingham,_Indiana</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03m447j</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.145879</relevance>
-            <count>4</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.145168</relevance>
-            <count>2</count>
-            <text>Gerald Fishman</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.143274</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.142546</relevance>
+            <relevance>0.150333</relevance>
             <count>2</count>
             <text>California Institute of Technology</text>
             <disambiguated>
@@ -532,57 +408,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.142115</relevance>
-            <count>2</count>
-            <text>University of Alabama</text>
-            <disambiguated>
-                <name>University of Alabama at Birmingham</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>33.5 -86.8075</geo>
-                <website>http://www.UAB.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Alabama_at_Birmingham</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02jyr8</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Alabama_at_Birmingham</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.139009</relevance>
-            <count>2</count>
-            <text>Puerto Rico</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.138647</relevance>
-            <count>1</count>
-            <text>Milky Way</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.138456</relevance>
-            <count>1</count>
-            <text>Congress</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.138256</relevance>
-            <count>4</count>
-            <text>International Astronomical Union</text>
-            <disambiguated>
-                <name>International Astronomical Union</name>
-                <dbpedia>http://dbpedia.org/resource/International_Astronomical_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03v7p</freebase>
-                <yago>http://yago-knowledge.org/resource/International_Astronomical_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.138143</relevance>
+            <relevance>0.148859</relevance>
             <count>2</count>
-            <text>U.S.</text>
+            <text>US</text>
             <disambiguated>
                 <name>United States</name>
                 <subType>Location</subType>
@@ -599,8 +428,156 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.148627</relevance>
+            <count>2</count>
+            <text>Science magazine</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.147907</relevance>
+            <count>3</count>
+            <text>space exploration</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.146722</relevance>
+            <count>2</count>
+            <text>technology firms</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.146671</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.144744</relevance>
+            <count>2</count>
+            <text>Steve Saunders</text>
+            <disambiguated>
+                <name>Steve Saunders (footballer)</name>
+                <dbpedia>http://dbpedia.org/resource/Steve_Saunders_(footballer)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0h3wm41</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.137512</relevance>
+            <relevance>0.143705</relevance>
+            <count>1</count>
+            <text>Department of Defense</text>
+            <disambiguated>
+                <name>United States Department of Defense</name>
+                <subType>ArmedForce</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.defenselink.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.142808</relevance>
+            <count>3</count>
+            <text>The Huntsville Times</text>
+            <disambiguated>
+                <name>The Huntsville Times</name>
+                <subType>Newspaper</subType>
+                <website>http://www.al.com/huntsvilletimes/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Huntsville_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qkjl8</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Huntsville_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.14251</relevance>
+            <count>2</count>
+            <text>Mount Pinatubo</text>
+            <disambiguated>
+                <name>Mount Pinatubo</name>
+                <subType>Location</subType>
+                <subType>Mountain</subType>
+                <geo>15.141666666666667 120.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Mount_Pinatubo</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02hvs9</freebase>
+                <yago>http://yago-knowledge.org/resource/Mount_Pinatubo</yago>
+                <geonames>http://sws.geonames.org/1693517/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.140872</relevance>
+            <count>1</count>
+            <text>Basic Industrial Research Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.140868</relevance>
+            <count>2</count>
+            <text>Ames-Dryden Flight Research Facility</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.139689</relevance>
+            <count>2</count>
+            <text>Massachusetts</text>
+            <disambiguated>
+                <name>Massachusetts</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.mass.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Massachusetts</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05k7sb</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi4QpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Massachusetts</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.139563</relevance>
+            <count>2</count>
+            <text>Philippines</text>
+            <disambiguated>
+                <name>Philippines</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>14.583333333333334 121.0</geo>
+                <website>http://www.gov.ph</website>
+                <dbpedia>http://dbpedia.org/resource/Philippines</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Philippines</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05v8c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVipLpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Philippines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.138775</relevance>
             <count>2</count>
             <text>Goddard Institute for Space Studies</text>
             <disambiguated>
@@ -611,6 +588,61 @@
                 <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
                 <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.138765</relevance>
+            <count>3</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.138404</relevance>
+            <count>1</count>
+            <text>Applied Space Science and Engineering.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.138335</relevance>
+            <count>1</count>
+            <text>Robert Watson</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.138029</relevance>
+            <count>1</count>
+            <text>Northwestern University</text>
+            <disambiguated>
+                <name>Northwestern University</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.054853 -87.673945</geo>
+                <website>http://www.northwestern.edu</website>
+                <dbpedia>http://dbpedia.org/resource/Northwestern_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017j69</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvWKLz5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Northwestern_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.13726</relevance>
+            <count>1</count>
+            <text>Eugene H. Trinh</text>
+            <disambiguated>
+                <name>Eugene H. Trinh</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Eugene_H._Trinh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03237d</freebase>
+                <yago>http://yago-knowledge.org/resource/Eugene_H._Trinh</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.137029</relevance>
+            <count>2</count>
+            <text>Puerto Rico</text>
         </entity>
     </entities>
 </results>

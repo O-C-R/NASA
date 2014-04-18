@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.82942</relevance>
+            <relevance>0.891239</relevance>
             <count>10</count>
             <text>nasa</text>
             <disambiguated>
@@ -22,9 +22,9 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.635529</relevance>
-            <count>6</count>
-            <text>NASA</text>
+            <relevance>0.720356</relevance>
+            <count>7</count>
+            <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -44,7 +44,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.472117</relevance>
+            <relevance>0.43528</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -64,7 +64,33 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.32804</relevance>
+            <relevance>0.355698</relevance>
+            <count>2</count>
+            <text>Astronaut F. Curtis Michel</text>
+            <disambiguated>
+                <name>Curt Michel</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Curt_Michel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b5zhw</freebase>
+                <yago>http://yago-knowledge.org/resource/Curt_Michel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.330163</relevance>
+            <count>2</count>
+            <text>Mrs. Madalyn Murray</text>
+            <disambiguated>
+                <name>Madalyn Murray O'Hair</name>
+                <website>http://www.atheists.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Madalyn_Murray_O'Hair</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vkq9</freebase>
+                <yago>http://yago-knowledge.org/resource/Madalyn_Murray_O'Hair</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.319822</relevance>
             <count>3</count>
             <text>M. Scott Carpenter</text>
             <disambiguated>
@@ -79,81 +105,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.3093</relevance>
-            <count>2</count>
-            <text>Madalyn Murray</text>
-            <disambiguated>
-                <name>Madalyn Murray O'Hair</name>
-                <website>http://www.atheists.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Madalyn_Murray_O'Hair</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vkq9</freebase>
-                <yago>http://yago-knowledge.org/resource/Madalyn_Murray_O'Hair</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.306731</relevance>
-            <count>1</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.306401</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.29786</relevance>
-            <count>2</count>
-            <text>Astronaut F. Curtis Michel</text>
-            <disambiguated>
-                <name>Curt Michel</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Curt_Michel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b5zhw</freebase>
-                <yago>http://yago-knowledge.org/resource/Curt_Michel</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.297829</relevance>
+            <relevance>0.312823</relevance>
             <count>2</count>
             <text>Mrs. O&#x2019;Hair</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.295155</relevance>
-            <count>3</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.28393</relevance>
+            <relevance>0.309095</relevance>
             <count>2</count>
             <text>Society of Separationists</text>
             <disambiguated>
@@ -167,57 +125,27 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.278588</relevance>
-            <count>2</count>
-            <text>Attorney</text>
+            <relevance>0.308981</relevance>
+            <count>3</count>
+            <text>President</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.2698</relevance>
+            <relevance>0.294932</relevance>
             <count>1</count>
-            <text>Thomas O&#x2019;Toole</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.269382</relevance>
-            <count>1</count>
-            <text>Justice Dept</text>
+            <text>Astronaut Anthony W. England</text>
             <disambiguated>
-                <name>United States Department of Justice</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.usdoj.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Justice</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dtj5</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Justice</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.261053</relevance>
-            <count>1</count>
-            <text>Walter M. Schirra</text>
-            <disambiguated>
-                <name>Wally Schirra</name>
-                <subType>FilmCharacter</subType>
+                <name>Anthony W. England</name>
                 <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.wallyschirra.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
-                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
+                <subType>Hobbyist</subType>
+                <dbpedia>http://dbpedia.org/resource/Anthony_W._England</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t_lx</freebase>
+                <yago>http://yago-knowledge.org/resource/Anthony_W._England</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.260888</relevance>
-            <count>1</count>
-            <text>Grumman Aircraft Engineering Corp.</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.256572</relevance>
+            <relevance>0.290668</relevance>
             <count>2</count>
             <text>Inc.</text>
             <disambiguated>
@@ -231,7 +159,21 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.255898</relevance>
+            <relevance>0.279326</relevance>
+            <count>2</count>
+            <text>Alexey Leonov</text>
+            <disambiguated>
+                <name>Alexey Leonov</name>
+                <subType>Astronaut</subType>
+                <subType>VisualArtist</subType>
+                <dbpedia>http://dbpedia.org/resource/Alexey_Leonov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bsvr</freebase>
+                <yago>http://yago-knowledge.org/resource/Alexey_Leonov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275153</relevance>
             <count>1</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -258,23 +200,25 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.244747</relevance>
+            <type>Person</type>
+            <relevance>0.272698</relevance>
             <count>1</count>
-            <text>WSJ</text>
+            <text>Judge Jack Roberts</text>
             <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+                <name>Jack Roberts (judge)</name>
+                <dbpedia>http://dbpedia.org/resource/Jack_Roberts_(judge)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05p2z01</freebase>
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.271491</relevance>
+            <count>2</count>
+            <text>Attorney</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.244443</relevance>
+            <relevance>0.263827</relevance>
             <count>1</count>
             <text>NYT</text>
             <disambiguated>
@@ -292,40 +236,84 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.2441</relevance>
+            <type>Organization</type>
+            <relevance>0.262003</relevance>
             <count>1</count>
-            <text>Island Creek Coal Co.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.243849</relevance>
-            <count>2</count>
-            <text>Alexey Leonov</text>
+            <text>Justice Dept</text>
             <disambiguated>
-                <name>Alexey Leonov</name>
-                <subType>Astronaut</subType>
-                <subType>VisualArtist</subType>
-                <dbpedia>http://dbpedia.org/resource/Alexey_Leonov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bsvr</freebase>
-                <yago>http://yago-knowledge.org/resource/Alexey_Leonov</yago>
+                <name>United States Department of Justice</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.usdoj.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Justice</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dtj5</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Justice</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.243428</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.254687</relevance>
             <count>1</count>
-            <text>msfc</text>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.253282</relevance>
+            <count>1</count>
+            <text>Austin</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.25169</relevance>
+            <count>1</count>
+            <text>WSJ</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.250972</relevance>
+            <count>1</count>
+            <text>Tex.</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.24898</relevance>
+            <count>1</count>
+            <text>msc Release</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.240232</relevance>
+            <relevance>0.248947</relevance>
             <count>1</count>
-            <text>van</text>
+            <text>Paul C. Fisher</text>
+            <disambiguated>
+                <name>Paul C. Fisher</name>
+                <subType>Inventor</subType>
+                <dbpedia>http://dbpedia.org/resource/Paul_C._Fisher</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pyxt9</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_C._Fisher</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.238654</relevance>
+            <relevance>0.245273</relevance>
             <count>1</count>
             <text>Prince Bernhard</text>
             <disambiguated>
@@ -338,29 +326,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.237755</relevance>
-            <count>1</count>
-            <text>usn</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.236618</relevance>
-            <count>1</count>
-            <text>msc Release</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.236035</relevance>
+            <relevance>0.24137</relevance>
             <count>1</count>
             <text>Reuters</text>
             <disambiguated>
@@ -373,8 +340,19 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.23959</relevance>
+            <count>1</count>
+            <text>United Aircraft Corp.</text>
+            <disambiguated>
+                <name>United Aircraft and Transport Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/United_Aircraft_and_Transport_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rwbc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.232602</relevance>
+            <relevance>0.237049</relevance>
             <count>1</count>
             <text>Senate</text>
             <disambiguated>
@@ -389,76 +367,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.231831</relevance>
-            <count>1</count>
-            <text>Saverio F. Morea</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.231741</relevance>
-            <count>1</count>
-            <text>President and Chief Executive of Sea Sciences Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.227597</relevance>
-            <count>1</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.226194</relevance>
-            <count>1</count>
-            <text>Anthony W. England</text>
-            <disambiguated>
-                <name>Anthony W. England</name>
-                <subType>Astronaut</subType>
-                <subType>Hobbyist</subType>
-                <dbpedia>http://dbpedia.org/resource/Anthony_W._England</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t_lx</freebase>
-                <yago>http://yago-knowledge.org/resource/Anthony_W._England</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.225541</relevance>
-            <count>1</count>
-            <text>commander</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.225531</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.223455</relevance>
-            <count>1</count>
-            <text>Seagel Wheatley</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.222409</relevance>
+            <relevance>0.236322</relevance>
             <count>1</count>
             <text>Washington Daily News</text>
             <disambiguated>
@@ -469,19 +379,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.222054</relevance>
-            <count>1</count>
-            <text>James Barnes</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.221687</relevance>
-            <count>1</count>
-            <text>Senate Committee on Banking and Currency</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.22007</relevance>
+            <relevance>0.235929</relevance>
             <count>1</count>
             <text>Frank Borman</text>
             <disambiguated>
@@ -496,30 +394,19 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.219889</relevance>
+            <relevance>0.23491</relevance>
             <count>1</count>
-            <text>Interior</text>
+            <text>msfc</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.218774</relevance>
+            <type>Person</type>
+            <relevance>0.234086</relevance>
             <count>1</count>
-            <text>Cape Kennedy</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
+            <text>Saverio F. Morea</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.217544</relevance>
+            <relevance>0.233212</relevance>
             <count>1</count>
             <text>Leningrad</text>
             <disambiguated>
@@ -536,50 +423,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.215966</relevance>
+            <type>Company</type>
+            <relevance>0.230032</relevance>
             <count>1</count>
-            <text>Houston</text>
+            <text>Associated Press</text>
             <disambiguated>
-                <name>Houston</name>
-                <website>http://www.houstontx.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.215595</relevance>
-            <count>1</count>
-            <text>Judge Jack Roberts</text>
-            <disambiguated>
-                <name>Jack Roberts (judge)</name>
-                <dbpedia>http://dbpedia.org/resource/Jack_Roberts_(judge)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05p2z01</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.214605</relevance>
-            <count>1</count>
-            <text>Paul C. Fisher</text>
-            <disambiguated>
-                <name>Paul C. Fisher</name>
-                <subType>Inventor</subType>
-                <dbpedia>http://dbpedia.org/resource/Paul_C._Fisher</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pyxt9</freebase>
-                <yago>http://yago-knowledge.org/resource/Paul_C._Fisher</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.214581</relevance>
-            <count>1</count>
-            <text>Elk River.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.2145</relevance>
+            <relevance>0.229596</relevance>
+            <count>1</count>
+            <text>usn</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.228937</relevance>
             <count>1</count>
             <text>Congress</text>
             <disambiguated>
@@ -596,8 +471,128 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.227142</relevance>
+            <count>1</count>
+            <text>Island Creek Coal Co.</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.207327</relevance>
+            <relevance>0.226212</relevance>
+            <count>1</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224045</relevance>
+            <count>1</count>
+            <text>Senate Committee on Banking and Currency</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.223301</relevance>
+            <count>1</count>
+            <text>Grumman Aircraft Engineering Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.221168</relevance>
+            <count>1</count>
+            <text>Don Kirkman</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.220613</relevance>
+            <count>1</count>
+            <text>Houston</text>
+            <disambiguated>
+                <name>Houston</name>
+                <website>http://www.houstontx.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.220337</relevance>
+            <count>1</count>
+            <text>Walter M. Schirra</text>
+            <disambiguated>
+                <name>Wally Schirra</name>
+                <subType>FilmCharacter</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.wallyschirra.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
+                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.219733</relevance>
+            <count>1</count>
+            <text>England</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219556</relevance>
+            <count>1</count>
+            <text>van</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.217829</relevance>
+            <count>1</count>
+            <text>Interior</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.217541</relevance>
+            <count>1</count>
+            <text>Cape Kennedy</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.216173</relevance>
+            <count>1</count>
+            <text>President and Chief Executive of Sea Sciences Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.21609</relevance>
+            <count>1</count>
+            <text>Seagel Wheatley</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.214885</relevance>
+            <count>1</count>
+            <text>James Barnes</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.213339</relevance>
             <count>1</count>
             <text>The Netherlands</text>
             <disambiguated>
@@ -614,12 +609,6 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvViJyZwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Netherlands</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.206912</relevance>
-            <count>1</count>
-            <text>Don Kirkman</text>
         </entity>
     </entities>
 </results>

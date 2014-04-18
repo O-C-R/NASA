@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.901175</relevance>
+            <relevance>0.769254</relevance>
             <count>20</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.725445</relevance>
+            <relevance>0.487823</relevance>
             <count>7</count>
             <text>Marshall Star</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.440772</relevance>
+            <count>7</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.566171</relevance>
+            <relevance>0.419962</relevance>
             <count>6</count>
             <text>U.S.</text>
             <disambiguated>
@@ -55,14 +61,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.481315</relevance>
-            <count>7</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.430958</relevance>
-            <count>3</count>
+            <relevance>0.304135</relevance>
+            <count>2</count>
             <text>Soviet Union</text>
             <disambiguated>
                 <name>Soviet Union</name>
@@ -76,8 +76,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.303987</relevance>
+            <count>2</count>
+            <text>Professor Vize</text>
+            <disambiguated>
+                <name>Vladimir Wiese</name>
+                <dbpedia>http://dbpedia.org/resource/Vladimir_Wiese</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03c0v74</freebase>
+                <yago>http://yago-knowledge.org/resource/Vladimir_Wiese</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.367822</relevance>
+            <relevance>0.303107</relevance>
             <count>2</count>
             <text>Wallops Island</text>
             <disambiguated>
@@ -93,7 +105,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.3533</relevance>
+            <relevance>0.301446</relevance>
             <count>3</count>
             <text>JPL</text>
             <disambiguated>
@@ -108,52 +120,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.351388</relevance>
-            <count>2</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.350903</relevance>
-            <count>2</count>
-            <text>Professor Vize</text>
-            <disambiguated>
-                <name>Vladimir Wiese</name>
-                <dbpedia>http://dbpedia.org/resource/Vladimir_Wiese</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03c0v74</freebase>
-                <yago>http://yago-knowledge.org/resource/Vladimir_Wiese</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.341124</relevance>
-            <count>3</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.334172</relevance>
+            <relevance>0.285607</relevance>
             <count>1</count>
             <text>U.S. Coast Guard</text>
             <disambiguated>
@@ -169,7 +137,7 @@
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.333693</relevance>
+            <relevance>0.280026</relevance>
             <count>2</count>
             <text>Europe</text>
             <disambiguated>
@@ -180,8 +148,128 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.278459</relevance>
+            <count>1</count>
+            <text>Wallops Flight Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.273493</relevance>
+            <count>1</count>
+            <text>International Union of Geodesy and Geophysics</text>
+            <disambiguated>
+                <name>International Union of Geodesy and Geophysics</name>
+                <dbpedia>http://dbpedia.org/resource/International_Union_of_Geodesy_and_Geophysics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cyt6m</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.2725</relevance>
+            <count>3</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.271679</relevance>
+            <count>2</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.266035</relevance>
+            <count>2</count>
+            <text>Va.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265783</relevance>
+            <count>1</count>
+            <text>Aubrey Smith</text>
+            <disambiguated>
+                <name>C. Aubrey Smith</name>
+                <subType>Athlete</subType>
+                <subType>CricketPlayer</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/C._Aubrey_Smith</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04t52j</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.260336</relevance>
+            <count>1</count>
+            <text>SPAR</text>
+            <disambiguated>
+                <name>Spar Aerospace</name>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Spar_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kqlcl</freebase>
+                <yago>http://yago-knowledge.org/resource/Spar_Aerospace</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.260296</relevance>
+            <count>2</count>
+            <text>ARC</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.256206</relevance>
+            <count>2</count>
+            <text>Coast Guard</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.255813</relevance>
+            <count>1</count>
+            <text>lOmin.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.255381</relevance>
+            <count>1</count>
+            <text>Commercial applications</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.312499</relevance>
+            <relevance>0.254561</relevance>
+            <count>1</count>
+            <text>Grenoble</text>
+            <disambiguated>
+                <name>Grenoble</name>
+                <subType>OlympicHostCity</subType>
+                <website>http://web.archive.org/web/20080523211452/http:/www.grenoble-isere-tourisme.com/english/default.asp</website>
+                <dbpedia>http://dbpedia.org/resource/Grenoble</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0df_c</freebase>
+                <geonames>http://sws.geonames.org/3014728/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.253499</relevance>
             <count>1</count>
             <text>Boston</text>
             <disambiguated>
@@ -193,7 +281,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.311964</relevance>
+            <relevance>0.253064</relevance>
             <count>1</count>
             <text>Mass.</text>
             <disambiguated>
@@ -211,91 +299,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.305324</relevance>
-            <count>1</count>
-            <text>Shuttle</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.304699</relevance>
-            <count>2</count>
-            <text>Va.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.30405</relevance>
-            <count>1</count>
-            <text>Northern Research and Engineering Corp.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.302644</relevance>
-            <count>2</count>
-            <text>Coast Guard</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.302546</relevance>
-            <count>1</count>
-            <text>Marshall Johnson</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.302517</relevance>
-            <count>1</count>
-            <text>Aubrey Smith</text>
-            <disambiguated>
-                <name>C. Aubrey Smith</name>
-                <subType>Athlete</subType>
-                <subType>CricketPlayer</subType>
-                <subType>FilmActor</subType>
-                <dbpedia>http://dbpedia.org/resource/C._Aubrey_Smith</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04t52j</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.298754</relevance>
-            <count>1</count>
-            <text>Technology Utilization Office</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.297096</relevance>
-            <count>1</count>
-            <text>El Centro</text>
-            <disambiguated>
-                <name>El Centro, California</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>32.79194444444445 -115.56305555555555</geo>
-                <dbpedia>http://dbpedia.org/resource/El_Centro,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qzq8</freebase>
-                <yago>http://yago-knowledge.org/resource/El_Centro,_California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294826</relevance>
-            <count>1</count>
-            <text>SPAR</text>
-            <disambiguated>
-                <name>Spar Aerospace</name>
-                <subType>Company</subType>
-                <dbpedia>http://dbpedia.org/resource/Spar_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0kqlcl</freebase>
-                <yago>http://yago-knowledge.org/resource/Spar_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.294382</relevance>
+            <relevance>0.253026</relevance>
             <count>2</count>
             <text>N.M.</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.246785</relevance>
+            <count>1</count>
+            <text>Northern Research and Engineering Corp.</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.293961</relevance>
+            <relevance>0.246595</relevance>
+            <count>1</count>
+            <text>Technology Utilization Office</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.242444</relevance>
+            <count>1</count>
+            <text>France</text>
+            <disambiguated>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.241032</relevance>
             <count>1</count>
             <text>KSC</text>
             <disambiguated>
@@ -311,20 +355,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.2904</relevance>
+            <type>City</type>
+            <relevance>0.233785</relevance>
             <count>1</count>
-            <text>lOmin.</text>
+            <text>Cambridge</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.289837</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.23378</relevance>
             <count>1</count>
-            <text>Commercial applications</text>
+            <text>Kapustin Yar</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.233433</relevance>
+            <count>1</count>
+            <text>Hughes Aircraft Co.</text>
+            <disambiguated>
+                <name>Hughes Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
+                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.288691</relevance>
+            <relevance>0.232359</relevance>
             <count>2</count>
             <text>Alaska</text>
             <disambiguated>
@@ -343,112 +400,37 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.287851</relevance>
-            <count>1</count>
-            <text>Cambridge</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.287591</relevance>
+            <relevance>0.231243</relevance>
             <count>1</count>
-            <text>ARC</text>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>Ames Research Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.284751</relevance>
-            <count>1</count>
-            <text>Wallops Flight Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.284713</relevance>
-            <count>1</count>
-            <text>ARC</text>
-            <disambiguated>
-                <name>American River College</name>
-                <subType>Location</subType>
-                <subType>University</subType>
-                <geo>38.64946 -121.34623</geo>
-                <website>http://www.arc.losrios.edu</website>
-                <dbpedia>http://dbpedia.org/resource/American_River_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04flx5</freebase>
-                <yago>http://yago-knowledge.org/resource/American_River_College</yago>
+                <name>Cabinet of Ministers (Soviet Union)</name>
+                <dbpedia>http://dbpedia.org/resource/Cabinet_of_Ministers_(Soviet_Union)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0c3wlp1</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.28438</relevance>
+            <relevance>0.230092</relevance>
             <count>1</count>
-            <text>Hughes Aircraft Co.</text>
-            <disambiguated>
-                <name>Hughes Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
-            </disambiguated>
+            <text>Shuttle</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.284172</relevance>
+            <type>Person</type>
+            <relevance>0.226173</relevance>
             <count>1</count>
-            <text>high-gain antenna</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.283659</relevance>
-            <count>1</count>
-            <text>International Union of Geodesy and Geophysics</text>
-            <disambiguated>
-                <name>International Union of Geodesy and Geophysics</name>
-                <dbpedia>http://dbpedia.org/resource/International_Union_of_Geodesy_and_Geophysics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cyt6m</freebase>
-            </disambiguated>
+            <text>Marshall Johnson</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.282146</relevance>
+            <relevance>0.225644</relevance>
             <count>1</count>
             <text>Wallops</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.280687</relevance>
-            <count>1</count>
-            <text>Calif.</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.279664</relevance>
+            <relevance>0.225126</relevance>
             <count>2</count>
             <text>Canada</text>
             <disambiguated>
@@ -468,30 +450,66 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.271771</relevance>
+            <type>City</type>
+            <relevance>0.224215</relevance>
             <count>1</count>
-            <text>Delta</text>
+            <text>El Centro</text>
             <disambiguated>
-                <name>Delta Air Lines</name>
-                <subType>Company</subType>
-                <subType>Airline</subType>
-                <website>http://www.delta.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Delta_Air_Lines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0k9ts</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv5BRgpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Delta_Air_Lines</yago>
+                <name>El Centro, California</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>32.79194444444445 -115.56305555555555</geo>
+                <dbpedia>http://dbpedia.org/resource/El_Centro,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0qzq8</freebase>
+                <yago>http://yago-knowledge.org/resource/El_Centro,_California</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.271619</relevance>
+            <type>Company</type>
+            <relevance>0.222113</relevance>
             <count>1</count>
-            <text>director</text>
+            <text>Vertikal</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.220885</relevance>
+            <count>2</count>
+            <text>FBIS</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.219618</relevance>
+            <count>1</count>
+            <text>Albuquerque</text>
+            <disambiguated>
+                <name>Albuquerque, New Mexico</name>
+                <geo>35.11083333333333 -106.61</geo>
+                <website>http://www.cabq.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Albuquerque,_New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0djd3</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/nm/counties/bernalillo_county/albuquerque</census>
+                <yago>http://yago-knowledge.org/resource/Albuquerque,_New_Mexico</yago>
+                <geonames>http://sws.geonames.org/5454711/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.219551</relevance>
+            <count>1</count>
+            <text>JSC</text>
+            <disambiguated>
+                <name>Johnson State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.jsc.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Johnson_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02m0vy</freebase>
+                <yago>http://yago-knowledge.org/resource/Johnson_State_College</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.270906</relevance>
+            <relevance>0.21813</relevance>
             <count>1</count>
             <text>Greenland</text>
             <disambiguated>
@@ -508,86 +526,66 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.267131</relevance>
-            <count>1</count>
-            <text>JSC</text>
-            <disambiguated>
-                <name>Johnson State College</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.jsc.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Johnson_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02m0vy</freebase>
-                <yago>http://yago-knowledge.org/resource/Johnson_State_College</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.264768</relevance>
+            <relevance>0.216521</relevance>
             <count>1</count>
             <text>telecommunications system</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.26314</relevance>
+            <relevance>0.216393</relevance>
             <count>1</count>
             <text>NYT</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.261865</relevance>
+            <relevance>0.215204</relevance>
             <count>1</count>
-            <text>Grenoble</text>
-            <disambiguated>
-                <name>Grenoble</name>
-                <subType>OlympicHostCity</subType>
-                <website>http://web.archive.org/web/20080523211452/http:/www.grenoble-isere-tourisme.com/english/default.asp</website>
-                <dbpedia>http://dbpedia.org/resource/Grenoble</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0df_c</freebase>
-                <geonames>http://sws.geonames.org/3014728/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.260066</relevance>
-            <count>1</count>
-            <text>Albuquerque</text>
-            <disambiguated>
-                <name>Albuquerque, New Mexico</name>
-                <geo>35.11083333333333 -106.61</geo>
-                <website>http://www.cabq.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Albuquerque,_New_Mexico</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0djd3</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/nm/counties/bernalillo_county/albuquerque</census>
-                <yago>http://yago-knowledge.org/resource/Albuquerque,_New_Mexico</yago>
-                <geonames>http://sws.geonames.org/5454711/</geonames>
-            </disambiguated>
+            <text>White Sands</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.259165</relevance>
+            <relevance>0.21286</relevance>
             <count>1</count>
-            <text>solar energy</text>
+            <text>high-gain antenna</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.257147</relevance>
+            <type>Organization</type>
+            <relevance>0.212775</relevance>
             <count>1</count>
-            <text>Kapustin Yar</text>
+            <text>Delta</text>
+            <disambiguated>
+                <name>Delta Air Lines</name>
+                <subType>Company</subType>
+                <subType>Airline</subType>
+                <website>http://www.delta.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Delta_Air_Lines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0k9ts</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv5BRgpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Delta_Air_Lines</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.256917</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.211264</relevance>
             <count>1</count>
-            <text>Venus.</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.251512</relevance>
-            <count>2</count>
-            <text>Scandinavia</text>
+            <text>Calif.</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

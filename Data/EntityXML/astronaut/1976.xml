@@ -6,20 +6,20 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>City</type>
-            <relevance>0.887935</relevance>
-            <count>3</count>
-            <text>Leninsk</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.785779</relevance>
+            <relevance>0.793747</relevance>
             <count>3</count>
             <text>Kirby Dupree</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.643516</relevance>
+            <count>3</count>
+            <text>James E. Scott</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.774533</relevance>
+            <relevance>0.509425</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -38,14 +38,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.652454</relevance>
+            <type>City</type>
+            <relevance>0.498854</relevance>
             <count>3</count>
-            <text>James E. Scott</text>
+            <text>Leninsk</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.564831</relevance>
+            <relevance>0.454858</relevance>
             <count>1</count>
             <text>JSC</text>
             <disambiguated>
@@ -60,29 +60,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.542383</relevance>
-            <count>1</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.529942</relevance>
-            <count>1</count>
-            <text>Kazakhstanskaya Pravda</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.521372</relevance>
+            <relevance>0.429447</relevance>
             <count>1</count>
             <text>Paul J. Weitz</text>
             <disambiguated>
@@ -95,14 +74,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.503915</relevance>
-            <count>1</count>
-            <text>Tyuratam</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.488713</relevance>
+            <relevance>0.403914</relevance>
             <count>1</count>
             <text>USN</text>
             <disambiguated>
@@ -116,8 +89,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.385714</relevance>
+            <count>1</count>
+            <text>supervisor</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.451766</relevance>
+            <relevance>0.385661</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -138,10 +117,31 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.431526</relevance>
+            <type>Country</type>
+            <relevance>0.339455</relevance>
             <count>1</count>
-            <text>supervisor</text>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.324316</relevance>
+            <count>1</count>
+            <text>Kazakhstanskaya Pravda</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.310934</relevance>
+            <count>1</count>
+            <text>Tyuratam</text>
         </entity>
     </entities>
 </results>

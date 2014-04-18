@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.786955</relevance>
+            <relevance>0.782777</relevance>
             <count>11</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,25 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.780455</relevance>
-            <count>6</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.457456</relevance>
+            <relevance>0.555129</relevance>
             <count>2</count>
             <text>Northrop Grumman Lunar Lander</text>
         </entity>
         <entity>
+            <type>Technology</type>
+            <relevance>0.530947</relevance>
+            <count>3</count>
+            <text>ISS</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.481578</relevance>
+            <count>3</count>
+            <text>Armadillo</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.375571</relevance>
+            <relevance>0.449332</relevance>
             <count>2</count>
             <text>X Prize Foundation</text>
             <disambiguated>
@@ -52,14 +58,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.361854</relevance>
+            <type>Company</type>
+            <relevance>0.416987</relevance>
+            <count>2</count>
+            <text>Armadillo Aerospace</text>
+            <disambiguated>
+                <name>Armadillo Aerospace</name>
+                <website>http://www.armadilloaerospace.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Armadillo_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01838v</freebase>
+                <yago>http://yago-knowledge.org/resource/Armadillo_Aerospace</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.366947</relevance>
             <count>3</count>
-            <text>Armadillo</text>
+            <text>ISS</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.355404</relevance>
+            <relevance>0.349251</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -80,19 +99,6 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.346181</relevance>
-            <count>2</count>
-            <text>Armadillo Aerospace</text>
-            <disambiguated>
-                <name>Armadillo Aerospace</name>
-                <website>http://www.armadilloaerospace.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Armadillo_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01838v</freebase>
-                <yago>http://yago-knowledge.org/resource/Armadillo_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
             <relevance>0.320004</relevance>
             <count>2</count>
@@ -107,7 +113,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.311418</relevance>
+            <relevance>0.292655</relevance>
             <count>1</count>
             <text>Hamilton Sundstrand</text>
             <disambiguated>
@@ -121,7 +127,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.290611</relevance>
+            <relevance>0.270242</relevance>
             <count>1</count>
             <text>Hamilton Sundstrand Space Systems International</text>
         </entity>
@@ -139,10 +145,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.254351</relevance>
+            <count>1</count>
+            <text>Las Cruces</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.258988</relevance>
+            <relevance>0.25403</relevance>
             <count>1</count>
             <text>Las Cruces Sun News</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.253062</relevance>
+            <count>2</count>
+            <text>California</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
@@ -166,12 +200,6 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.244334</relevance>
-            <count>1</count>
-            <text>carbon dioxide</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
             <relevance>0.242414</relevance>
             <count>1</count>
@@ -186,10 +214,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.239436</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.241645</relevance>
             <count>1</count>
-            <text>Windsor Locks</text>
+            <text>New Mexico</text>
+            <disambiguated>
+                <name>New Mexico</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.newmexico.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNcZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/New_Mexico</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
@@ -199,7 +240,60 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.235328</relevance>
+            <relevance>0.232488</relevance>
+            <count>1</count>
+            <text>Texas</text>
+            <disambiguated>
+                <name>Texas</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>31.0 -100.0</geo>
+                <website>http://www.texasonline.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Texas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07b_l</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBk5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Texas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.228274</relevance>
+            <count>1</count>
+            <text>carbon dioxide</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.223407</relevance>
+            <count>1</count>
+            <text>Windsor Locks</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.223159</relevance>
+            <count>1</count>
+            <text>Brevard</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.222438</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.220256</relevance>
             <count>1</count>
             <text>Connecticut</text>
             <disambiguated>
@@ -219,88 +313,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.23464</relevance>
-            <count>1</count>
-            <text>Las Cruces</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.2324</relevance>
-            <count>2</count>
-            <text>California</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.22455</relevance>
-            <count>1</count>
-            <text>New Mexico</text>
-            <disambiguated>
-                <name>New Mexico</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.newmexico.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Mexico</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNcZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Mexico</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.223159</relevance>
-            <count>1</count>
-            <text>Brevard</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.220243</relevance>
-            <count>1</count>
-            <text>Jose L. Medina</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
             <relevance>0.218544</relevance>
             <count>1</count>
             <text>FL</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.216083</relevance>
+            <type>Person</type>
+            <relevance>0.216033</relevance>
             <count>1</count>
-            <text>Texas</text>
-            <disambiguated>
-                <name>Texas</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>31.0 -100.0</geo>
-                <website>http://www.texasonline.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Texas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07b_l</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBk5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Texas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.205247</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
+            <text>Jose L. Medina</text>
         </entity>
     </entities>
 </results>

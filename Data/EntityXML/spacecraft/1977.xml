@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Degree</type>
-            <relevance>0.798137</relevance>
+            <relevance>0.784045</relevance>
             <count>3</count>
             <text>Salyut</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.667288</relevance>
+            <relevance>0.653449</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,13 +35,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.635539</relevance>
-            <count>4</count>
+            <relevance>0.634992</relevance>
+            <count>2</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.612253</relevance>
+            <count>3</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.611456</relevance>
+            <relevance>0.59093</relevance>
             <count>1</count>
             <text>National Air and Space Museum</text>
             <disambiguated>
@@ -60,20 +66,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.604794</relevance>
-            <count>2</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.475147</relevance>
+            <relevance>0.507287</relevance>
             <count>1</count>
             <text>space program</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.481941</relevance>
+            <count>1</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Cabinet of Ministers (Soviet Union)</name>
+                <dbpedia>http://dbpedia.org/resource/Cabinet_of_Ministers_(Soviet_Union)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0c3wlp1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.481448</relevance>
+            <count>2</count>
+            <text>Skylab</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.420834</relevance>
+            <count>2</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.457308</relevance>
+            <relevance>0.412352</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -91,57 +123,215 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.407849</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.456066</relevance>
+            <relevance>0.392076</relevance>
             <count>2</count>
             <text>MSFC</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.429595</relevance>
-            <count>2</count>
-            <text>USSR</text>
+            <type>GeographicFeature</type>
+            <relevance>0.382155</relevance>
+            <count>1</count>
+            <text>Atlantic Ocean</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.41562</relevance>
-            <count>2</count>
-            <text>Skylab</text>
+            <type>PrintMedia</type>
+            <relevance>0.366735</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.402745</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.350685</relevance>
             <count>1</count>
-            <text>Soviet Union</text>
+            <text>Pacific Ocean</text>
             <disambiguated>
-                <name>Soviet Union</name>
+                <name>Pacific Ocean</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <subType>BodyOfWater</subType>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.343684</relevance>
+            <count>1</count>
+            <text>Caribbean Sea</text>
+            <disambiguated>
+                <name>Caribbean Sea</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>18.516666666666666 -67.13333333333334</geo>
+                <dbpedia>http://dbpedia.org/resource/Caribbean_Sea</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02613</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViXy5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Caribbean_Sea</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.379466</relevance>
+            <relevance>0.3421</relevance>
             <count>1</count>
             <text>Orbital</text>
+            <disambiguated>
+                <name>Orbital Sciences Corporation</name>
+                <subType>RocketManufacturer</subType>
+                <website>http://www.orbital.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orbital_Sciences_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.037jwk</freebase>
+                <yago>http://yago-knowledge.org/resource/Orbital_Sciences_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.338254</relevance>
+            <count>1</count>
+            <text>Georgy Grechko</text>
+            <disambiguated>
+                <name>Georgy Grechko</name>
+                <dbpedia>http://dbpedia.org/resource/Georgy_Grechko</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01zb6q</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.334152</relevance>
+            <count>1</count>
+            <text>Vasily Lazarev</text>
+            <disambiguated>
+                <name>Vasily Lazarev</name>
+                <dbpedia>http://dbpedia.org/resource/Vasily_Lazarev</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01y6gg</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.323688</relevance>
+            <count>1</count>
+            <text>Pyotr Klimuk</text>
+            <disambiguated>
+                <name>Pyotr Klimuk</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Pyotr_Klimuk</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01z6j5</freebase>
+                <yago>http://yago-knowledge.org/resource/Pyotr_Klimuk</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.319917</relevance>
+            <count>1</count>
+            <text>Aleksey Gubarev</text>
+            <disambiguated>
+                <name>Aleksei Gubarev</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Aleksei_Gubarev</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01zd19</freebase>
+                <yago>http://yago-knowledge.org/resource/Aleksei_Gubarev</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.318907</relevance>
+            <count>1</count>
+            <text>Kettering Group</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.318131</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.313891</relevance>
+            <count>1</count>
+            <text>Oleg Makarov</text>
+            <disambiguated>
+                <name>Oleg Vitalyevich Makarov</name>
+                <subType>OlympicAthlete</subType>
+                <dbpedia>http://dbpedia.org/resource/Oleg_Vitalyevich_Makarov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026h6r6</freebase>
+                <yago>http://yago-knowledge.org/resource/Oleg_Vitalyevich_Makarov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.310581</relevance>
+            <count>1</count>
+            <text>Vitaly Sevastyanov</text>
+            <disambiguated>
+                <name>Vitaly Sevastyanov</name>
+                <dbpedia>http://dbpedia.org/resource/Vitaly_Sevastyanov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c43g</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.309039</relevance>
+            <count>1</count>
+            <text>solar panels</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.304498</relevance>
+            <count>1</count>
+            <text>James E. Kingsbury</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.302187</relevance>
+            <count>1</count>
+            <text>electromagnetic spectrum</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.302173</relevance>
+            <count>1</count>
+            <text>ASTP</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289562</relevance>
+            <count>1</count>
+            <text>Science and Engineering Directorate</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.357267</relevance>
+            <relevance>0.288038</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -160,201 +350,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.352859</relevance>
-            <count>1</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.328734</relevance>
-            <count>1</count>
-            <text>Kettering Group</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.32055</relevance>
-            <count>1</count>
-            <text>Pacific Ocean</text>
-            <disambiguated>
-                <name>Pacific Ocean</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.318365</relevance>
-            <count>1</count>
-            <text>Georgy Grechko</text>
-            <disambiguated>
-                <name>Georgy Grechko</name>
-                <dbpedia>http://dbpedia.org/resource/Georgy_Grechko</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01zb6q</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.316713</relevance>
-            <count>1</count>
-            <text>James E. Kingsbury</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.316642</relevance>
-            <count>1</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.31363</relevance>
-            <count>1</count>
-            <text>Vasily Lazarev</text>
-            <disambiguated>
-                <name>Vasily Lazarev</name>
-                <dbpedia>http://dbpedia.org/resource/Vasily_Lazarev</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01y6gg</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.306981</relevance>
-            <count>1</count>
-            <text>solar panels</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.304232</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.303775</relevance>
-            <count>1</count>
-            <text>Pyotr Klimuk</text>
-            <disambiguated>
-                <name>Pyotr Klimuk</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Pyotr_Klimuk</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01z6j5</freebase>
-                <yago>http://yago-knowledge.org/resource/Pyotr_Klimuk</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.301718</relevance>
-            <count>1</count>
-            <text>Science and Engineering Directorate</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.299439</relevance>
-            <count>1</count>
-            <text>Aleksey Gubarev</text>
-            <disambiguated>
-                <name>Aleksei Gubarev</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Aleksei_Gubarev</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01zd19</freebase>
-                <yago>http://yago-knowledge.org/resource/Aleksei_Gubarev</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.293754</relevance>
-            <count>1</count>
-            <text>Oleg Makarov</text>
-            <disambiguated>
-                <name>Oleg Vitalyevich Makarov</name>
-                <subType>OlympicAthlete</subType>
-                <dbpedia>http://dbpedia.org/resource/Oleg_Vitalyevich_Makarov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026h6r6</freebase>
-                <yago>http://yago-knowledge.org/resource/Oleg_Vitalyevich_Makarov</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.293384</relevance>
-            <count>1</count>
-            <text>Htsvl Times</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.290621</relevance>
-            <count>1</count>
-            <text>Vitaly Sevastyanov</text>
-            <disambiguated>
-                <name>Vitaly Sevastyanov</name>
-                <dbpedia>http://dbpedia.org/resource/Vitaly_Sevastyanov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c43g</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.282988</relevance>
-            <count>1</count>
-            <text>electromagnetic spectrum</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.282707</relevance>
-            <count>1</count>
-            <text>ASTP</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.280283</relevance>
-            <count>1</count>
-            <text>Caribbean Sea</text>
-            <disambiguated>
-                <name>Caribbean Sea</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>18.516666666666666 -67.13333333333334</geo>
-                <dbpedia>http://dbpedia.org/resource/Caribbean_Sea</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02613</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViXy5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Caribbean_Sea</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.269513</relevance>
+            <relevance>0.282242</relevance>
             <count>1</count>
             <text>Carter</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.281145</relevance>
+            <count>1</count>
+            <text>Htsvl Times</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.268189</relevance>
+            <relevance>0.280859</relevance>
             <count>1</count>
             <text>Ford</text>
         </entity>

@@ -7,19 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.842842</relevance>
-            <count>1</count>
-            <text>U.S. Air Force 45th Space Wing</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.833611</relevance>
-            <count>3</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.817466</relevance>
+            <relevance>0.912488</relevance>
             <count>1</count>
             <text>U.S. Air Force Space Command</text>
             <disambiguated>
@@ -33,7 +21,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.795886</relevance>
+            <relevance>0.872804</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -55,13 +43,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.583625</relevance>
-            <count>2</count>
-            <text>Florida Space Authority</text>
+            <relevance>0.834129</relevance>
+            <count>3</count>
+            <text>Air Force</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.711758</relevance>
+            <count>1</count>
+            <text>U.S. Air Force 45th Space Wing</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.582362</relevance>
+            <relevance>0.586103</relevance>
             <count>1</count>
             <text>Dover Air Force Base</text>
             <disambiguated>
@@ -80,7 +74,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.571749</relevance>
+            <relevance>0.523718</relevance>
+            <count>2</count>
+            <text>Florida Space Authority</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.485154</relevance>
             <count>1</count>
             <text>45th Space Wing</text>
             <disambiguated>
@@ -93,7 +93,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.462275</relevance>
+            <relevance>0.444227</relevance>
             <count>1</count>
             <text>NASA Astrobiology Institute</text>
             <disambiguated>
@@ -105,44 +105,84 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.460181</relevance>
-            <count>1</count>
-            <text>Cape Canaveral Air Station</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.435837</relevance>
-            <count>2</count>
-            <text>FSA</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.407234</relevance>
-            <count>1</count>
-            <text>Launch Complex</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.397252</relevance>
-            <count>1</count>
-            <text>Launch Complex</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.393267</relevance>
+            <relevance>0.411921</relevance>
             <count>1</count>
             <text>Space News</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.351301</relevance>
+            <type>Organization</type>
+            <relevance>0.391663</relevance>
+            <count>2</count>
+            <text>FSA</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.379009</relevance>
             <count>1</count>
-            <text>J. Gregory Pavlovich</text>
+            <text>Cape Canaveral Air Station</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.347815</relevance>
+            <count>1</count>
+            <text>NAI</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.350257</relevance>
+            <relevance>0.341439</relevance>
+            <count>1</count>
+            <text>Carnegie Institution of Washington</text>
+            <disambiguated>
+                <name>Carnegie Institution for Science</name>
+                <website>http://www.ciw.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Carnegie_Institution_for_Science</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04pc55</freebase>
+                <yago>http://yago-knowledge.org/resource/Carnegie_Institution_for_Science</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.340158</relevance>
+            <count>1</count>
+            <text>Launch Complex</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.333176</relevance>
+            <count>1</count>
+            <text>Ilan Ramon</text>
+            <disambiguated>
+                <name>Ilan Ramon</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.jsc.nasa.gov/Bios/PS/ramon.html</website>
+                <dbpedia>http://dbpedia.org/resource/Ilan_Ramon</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182q2</freebase>
+                <yago>http://yago-knowledge.org/resource/Ilan_Ramon</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.332536</relevance>
+            <count>1</count>
+            <text>founding member</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.330176</relevance>
+            <count>1</count>
+            <text>Launch Complex</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.324105</relevance>
+            <count>1</count>
+            <text>Eileen Hawley</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.322941</relevance>
             <count>1</count>
             <text>Brevard Community College</text>
             <disambiguated>
@@ -158,115 +198,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.331756</relevance>
-            <count>1</count>
-            <text>NAI</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.331002</relevance>
-            <count>1</count>
-            <text>Ilan Ramon</text>
-            <disambiguated>
-                <name>Ilan Ramon</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.jsc.nasa.gov/Bios/PS/ramon.html</website>
-                <dbpedia>http://dbpedia.org/resource/Ilan_Ramon</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182q2</freebase>
-                <yago>http://yago-knowledge.org/resource/Ilan_Ramon</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.326339</relevance>
-            <count>1</count>
-            <text>Carnegie Institution of Washington</text>
-            <disambiguated>
-                <name>Carnegie Institution for Science</name>
-                <website>http://www.ciw.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Carnegie_Institution_for_Science</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04pc55</freebase>
-                <yago>http://yago-knowledge.org/resource/Carnegie_Institution_for_Science</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.324736</relevance>
-            <count>1</count>
-            <text>Jim Banke</text>
-            <disambiguated>
-                <name>Jim Banke</name>
-                <dbpedia>http://dbpedia.org/resource/Jim_Banke</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gmcfk5</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.323333</relevance>
-            <count>1</count>
-            <text>Commander</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.321942</relevance>
-            <count>1</count>
-            <text>Eileen Hawley</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.317045</relevance>
-            <count>1</count>
-            <text>founding member</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.304268</relevance>
-            <count>1</count>
-            <text>Angelina County</text>
-            <disambiguated>
-                <name>Angelina County, Texas</name>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>USCounty</subType>
-                <geo>31.26 -94.61</geo>
-                <website>http://www.angelinacounty.net/</website>
-                <dbpedia>http://dbpedia.org/resource/Angelina_County,_Texas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0msq7</freebase>
-                <yago>http://yago-knowledge.org/resource/Angelina_County,_Texas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.301686</relevance>
-            <count>1</count>
-            <text>Houston</text>
-            <disambiguated>
-                <name>Houston, Indiana</name>
-                <geo>39.01638888888889 -86.19083333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Houston,_Indiana</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03hkr2l</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.300071</relevance>
-            <count>1</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.299441</relevance>
+            <relevance>0.312372</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -285,8 +218,138 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.309107</relevance>
+            <count>1</count>
+            <text>Sean McKenna</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.307742</relevance>
+            <count>1</count>
+            <text>Bloomington</text>
+            <disambiguated>
+                <name>Bloomington, Indiana</name>
+                <geo>39.162147 -86.529045</geo>
+                <website>http://www.bloomington.in.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Bloomington,_Indiana</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0snty</freebase>
+                <yago>http://yago-knowledge.org/resource/Bloomington,_Indiana</yago>
+                <geonames>http://sws.geonames.org/4254679/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.306507</relevance>
+            <count>1</count>
+            <text>Delaware</text>
+            <disambiguated>
+                <name>Delaware</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>39.0 -75.5</geo>
+                <website>http://delaware.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Delaware</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026mj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi-85wpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/de</census>
+                <yago>http://yago-knowledge.org/resource/Delaware</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.306313</relevance>
+            <count>1</count>
+            <text>Angelina County</text>
+            <disambiguated>
+                <name>Angelina County, Texas</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>USCounty</subType>
+                <geo>31.26 -94.61</geo>
+                <website>http://www.angelinacounty.net/</website>
+                <dbpedia>http://dbpedia.org/resource/Angelina_County,_Texas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0msq7</freebase>
+                <yago>http://yago-knowledge.org/resource/Angelina_County,_Texas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.306298</relevance>
+            <count>1</count>
+            <text>Mountain View</text>
+            <disambiguated>
+                <name>Mountain View, California</name>
+                <subType>AdministrativeDivision</subType>
+                <geo>37.42194444444444 -122.08444444444444</geo>
+                <website>http://mountainview.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Mountain_View,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r6c4</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/santa_clara_county/san_jose/mountain_view</census>
+                <yago>http://yago-knowledge.org/resource/Mountain_View,_California</yago>
+                <geonames>http://sws.geonames.org/5375480/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.302054</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.301457</relevance>
+            <count>1</count>
+            <text>Indiana University</text>
+            <disambiguated>
+                <name>Indiana University</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>PeriodicalPublisher</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.indiana.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Indiana_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08qnnv</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVlQzJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Indiana_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.299839</relevance>
+            <count>1</count>
+            <text>Massachusetts</text>
+            <disambiguated>
+                <name>Massachusetts</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.mass.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Massachusetts</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05k7sb</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi4QpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Massachusetts</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.297274</relevance>
+            <relevance>0.299227</relevance>
             <count>1</count>
             <text>Israel</text>
             <disambiguated>
@@ -305,70 +368,24 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.294557</relevance>
+            <relevance>0.298259</relevance>
             <count>1</count>
-            <text>Sean McKenna</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.29353</relevance>
-            <count>1</count>
-            <text>Bloomington</text>
+            <text>Jim Banke</text>
             <disambiguated>
-                <name>Bloomington, Indiana</name>
-                <geo>39.162147 -86.529045</geo>
-                <website>http://www.bloomington.in.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Bloomington,_Indiana</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0snty</freebase>
-                <yago>http://yago-knowledge.org/resource/Bloomington,_Indiana</yago>
-                <geonames>http://sws.geonames.org/4254679/</geonames>
+                <name>Jim Banke</name>
+                <dbpedia>http://dbpedia.org/resource/Jim_Banke</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gmcfk5</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.292111</relevance>
+            <type>Person</type>
+            <relevance>0.296054</relevance>
             <count>1</count>
-            <text>Mountain View</text>
-            <disambiguated>
-                <name>Mountain View, California</name>
-                <subType>AdministrativeDivision</subType>
-                <geo>37.42194444444444 -122.08444444444444</geo>
-                <website>http://mountainview.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Mountain_View,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r6c4</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/santa_clara_county/san_jose/mountain_view</census>
-                <yago>http://yago-knowledge.org/resource/Mountain_View,_California</yago>
-                <geonames>http://sws.geonames.org/5375480/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.289163</relevance>
-            <count>1</count>
-            <text>memorial services</text>
+            <text>J. Gregory Pavlovich</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.285973</relevance>
-            <count>1</count>
-            <text>Massachusetts</text>
-            <disambiguated>
-                <name>Massachusetts</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.mass.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Massachusetts</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05k7sb</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi4QpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Massachusetts</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.280731</relevance>
+            <relevance>0.294372</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -389,20 +406,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.278562</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.291114</relevance>
             <count>1</count>
-            <text>Delaware</text>
+            <text>memorial services</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.276403</relevance>
+            <relevance>0.291111</relevance>
             <count>1</count>
             <text>Marine Biological Laboratory</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.276291</relevance>
+            <relevance>0.291063</relevance>
             <count>1</count>
             <text>GSFC</text>
             <disambiguated>
@@ -419,13 +436,31 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.272877</relevance>
+            <relevance>0.287407</relevance>
             <count>1</count>
             <text>Woods Hole</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.283285</relevance>
+            <count>1</count>
+            <text>Jeremy Singer</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.277838</relevance>
+            <count>1</count>
+            <text>Houston</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.276927</relevance>
+            <count>1</count>
+            <text>DC</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.272076</relevance>
+            <relevance>0.273991</relevance>
             <count>1</count>
             <text>Texas</text>
             <disambiguated>
@@ -444,26 +479,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.269896</relevance>
+            <type>JobTitle</type>
+            <relevance>0.270376</relevance>
             <count>1</count>
-            <text>Jeremy Singer</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.262952</relevance>
-            <count>1</count>
-            <text>DC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.261742</relevance>
-            <count>1</count>
-            <text>Indiana University</text>
+            <text>Commander</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.261215</relevance>
+            <relevance>0.263099</relevance>
             <count>1</count>
             <text>February.</text>
         </entity>

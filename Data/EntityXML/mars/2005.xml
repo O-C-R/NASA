@@ -6,14 +6,8 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Company</type>
-            <relevance>0.924306</relevance>
-            <count>7</count>
-            <text>Mars Express</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.684052</relevance>
+            <relevance>0.836801</relevance>
             <count>13</count>
             <text>ESA</text>
             <disambiguated>
@@ -31,38 +25,74 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.770564</relevance>
+            <count>7</count>
+            <text>Mars Express</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.438498</relevance>
+            <relevance>0.452925</relevance>
             <count>1</count>
             <text>Mars Express Mission</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.409279</relevance>
-            <count>1</count>
-            <text>Mars Express</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.39251</relevance>
+            <relevance>0.406935</relevance>
             <count>1</count>
             <text>Mars Express Orbiter</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.308559</relevance>
+            <count>1</count>
+            <text>Mars Express</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.381351</relevance>
+            <relevance>0.295653</relevance>
             <count>1</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.353789</relevance>
+            <relevance>0.260566</relevance>
             <count>4</count>
             <text>MGS</text>
+            <disambiguated>
+                <name>Maidstone Grammar School</name>
+                <subType>School</subType>
+                <geo>51.2653 0.531</geo>
+                <website>http://www.mgs.kent.sch.uk</website>
+                <dbpedia>http://dbpedia.org/resource/Maidstone_Grammar_School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0730jd</freebase>
+                <yago>http://yago-knowledge.org/resource/Maidstone_Grammar_School</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.258744</relevance>
+            <count>6</count>
+            <text>United Kingdom</text>
+            <disambiguated>
+                <name>United Kingdom</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MeteorologicalService</subType>
+                <geo>51.5 -0.11666666666666667</geo>
+                <website>http://www.royal.gov.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.247497</relevance>
+            <relevance>0.218906</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -84,7 +114,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.217493</relevance>
+            <relevance>0.199415</relevance>
             <count>2</count>
             <text>JPL</text>
             <disambiguated>
@@ -99,29 +129,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.197768</relevance>
-            <count>6</count>
-            <text>United Kingdom</text>
-            <disambiguated>
-                <name>United Kingdom</name>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MeteorologicalService</subType>
-                <geo>51.5 -0.11666666666666667</geo>
-                <website>http://www.royal.gov.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.183724</relevance>
+            <relevance>0.189969</relevance>
             <count>1</count>
             <text>Colin Pillinger</text>
             <disambiguated>
@@ -135,7 +144,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.18229</relevance>
+            <relevance>0.172372</relevance>
             <count>1</count>
             <text>UK</text>
             <disambiguated>
@@ -152,13 +161,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.173936</relevance>
+            <relevance>0.171766</relevance>
             <count>2</count>
             <text>New Scientist</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.166069</relevance>
+            <relevance>0.171524</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -175,43 +184,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.164482</relevance>
+            <relevance>0.170149</relevance>
             <count>1</count>
             <text>Fred Jansen</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.162738</relevance>
-            <count>1</count>
-            <text>Tariq Malik</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.15664</relevance>
+            <relevance>0.162012</relevance>
             <count>1</count>
             <text>John Johnson</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.154997</relevance>
-            <count>1</count>
-            <text>British National Space Centre</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.154165</relevance>
-            <count>1</count>
-            <text>Justin Mullins</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.148778</relevance>
+            <relevance>0.154654</relevance>
             <count>1</count>
             <text>scientist</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.148365</relevance>
+            <relevance>0.153667</relevance>
             <count>1</count>
             <text>Open University</text>
             <disambiguated>
@@ -227,26 +218,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.152758</relevance>
+            <count>1</count>
+            <text>Tariq Malik</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.151098</relevance>
+            <count>1</count>
+            <text>Freedom of Information Act</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.145685</relevance>
+            <count>1</count>
+            <text>British National Space Centre</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.144661</relevance>
+            <count>1</count>
+            <text>Mark Sims</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.144431</relevance>
+            <count>1</count>
+            <text>Justin Mullins</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.146702</relevance>
+            <relevance>0.137419</relevance>
             <count>1</count>
             <text>BBC News</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.145504</relevance>
-            <count>1</count>
-            <text>Freedom of Information Act</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.139158</relevance>
-            <count>1</count>
-            <text>Mark Sims</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.121612</relevance>
+            <relevance>0.126204</relevance>
             <count>1</count>
             <text>the commission</text>
         </entity>

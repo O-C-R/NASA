@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.883247</relevance>
+            <relevance>0.937824</relevance>
             <count>43</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.627558</relevance>
+            <relevance>0.65124</relevance>
             <count>13</count>
             <text>Administrator Daniel S. Goldin</text>
             <disambiguated>
@@ -41,7 +41,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.322403</relevance>
+            <relevance>0.362703</relevance>
             <count>1</count>
             <text>NASA Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -56,7 +56,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.271322</relevance>
+            <relevance>0.314806</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -78,69 +78,31 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.25151</relevance>
+            <relevance>0.268984</relevance>
             <count>1</count>
             <text>Senior NASA Advisor</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.250045</relevance>
+            <relevance>0.267575</relevance>
             <count>1</count>
             <text>NASA&#x2019;s Astrobiology Institute</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.209827</relevance>
+            <relevance>0.229463</relevance>
             <count>1</count>
             <text>Jorge E. Rivera NASA</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.166852</relevance>
-            <count>3</count>
-            <text>Chief Technologist</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.162039</relevance>
+            <relevance>0.182294</relevance>
             <count>3</count>
             <text>Bob Jacobs</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.159682</relevance>
-            <count>3</count>
-            <text>Baruch S. Blumberg</text>
-            <disambiguated>
-                <name>Baruch Samuel Blumberg</name>
-                <subType>Physician</subType>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>Inventor</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Baruch_Samuel_Blumberg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ktpn</freebase>
-                <yago>http://yago-knowledge.org/resource/Baruch_Samuel_Blumberg</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.15787</relevance>
-            <count>2</count>
-            <text>Nobel Prize</text>
-            <disambiguated>
-                <name>Nobel Prize</name>
-                <subType>Award</subType>
-                <website>http://nobelprize.org</website>
-                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.156014</relevance>
+            <relevance>0.17545</relevance>
             <count>2</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -155,32 +117,104 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.150789</relevance>
+            <relevance>0.172007</relevance>
+            <count>3</count>
+            <text>Chief Technologist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.169832</relevance>
+            <count>2</count>
+            <text>StelSys</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.169637</relevance>
             <count>1</count>
             <text>Chief of News and Information</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.150462</relevance>
+            <relevance>0.169269</relevance>
             <count>1</count>
             <text>Cassini</text>
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.150272</relevance>
+            <relevance>0.169056</relevance>
             <count>1</count>
             <text>Cassini</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.149697</relevance>
+            <relevance>0.168409</relevance>
             <count>1</count>
             <text>Cassini</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.164064</relevance>
+            <count>4</count>
+            <text>Morocco</text>
+            <disambiguated>
+                <name>Morocco</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.maroc.ma/PortailInst/An/home</website>
+                <dbpedia>http://dbpedia.org/resource/Morocco</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Morocco</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03x2nj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViJBpwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.157399</relevance>
+            <count>1</count>
+            <text>Acting Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.156382</relevance>
+            <count>1</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.148015</relevance>
-            <count>2</count>
+            <relevance>0.15044</relevance>
+            <count>1</count>
+            <text>CBS News</text>
+            <disambiguated>
+                <name>CBS News</name>
+                <subType>AwardWinner</subType>
+                <subType>TVProducer</subType>
+                <dbpedia>http://dbpedia.org/resource/CBS_News</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_8w2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.148797</relevance>
+            <count>1</count>
+            <text>Emmy award</text>
+            <disambiguated>
+                <name>Emmy Award</name>
+                <dbpedia>http://dbpedia.org/resource/Emmy_Award</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013sb1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riMi4gixPQdifqZ65QZ6g4Q</opencyc>
+                <yago>http://yago-knowledge.org/resource/Emmy_Award</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.148796</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.147856</relevance>
+            <count>1</count>
             <text>British Broadcasting Corporation</text>
             <disambiguated>
                 <name>BBC</name>
@@ -204,119 +238,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.14791</relevance>
-            <count>2</count>
-            <text>OBPR</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.147166</relevance>
-            <count>1</count>
-            <text>Acting Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.146188</relevance>
-            <count>1</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.138672</relevance>
-            <count>4</count>
-            <text>Morocco</text>
-            <disambiguated>
-                <name>Morocco</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.maroc.ma/PortailInst/An/home</website>
-                <dbpedia>http://dbpedia.org/resource/Morocco</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Morocco</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03x2nj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViJBpwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.138519</relevance>
-            <count>1</count>
-            <text>New Chief Engineer Appointed</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.133724</relevance>
-            <count>1</count>
-            <text>CBS News</text>
-            <disambiguated>
-                <name>CBS News</name>
-                <subType>AwardWinner</subType>
-                <subType>TVProducer</subType>
-                <dbpedia>http://dbpedia.org/resource/CBS_News</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01_8w2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.132264</relevance>
-            <count>1</count>
-            <text>Emmy award</text>
-            <disambiguated>
-                <name>Emmy Award</name>
-                <dbpedia>http://dbpedia.org/resource/Emmy_Award</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013sb1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riMi4gixPQdifqZ65QZ6g4Q</opencyc>
-                <yago>http://yago-knowledge.org/resource/Emmy_Award</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.132263</relevance>
-            <count>1</count>
-            <text>Associated Press</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.132244</relevance>
-            <count>1</count>
-            <text>United Space Alliance</text>
-            <disambiguated>
-                <name>United Space Alliance</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <website>http://www.unitedspacealliance.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Space_Alliance</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09ml88</freebase>
-                <yago>http://yago-knowledge.org/resource/United_Space_Alliance</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.131291</relevance>
-            <count>2</count>
-            <text>Kathie L. Olsen</text>
-            <disambiguated>
-                <name>Kathie L. Olsen</name>
-                <dbpedia>http://dbpedia.org/resource/Kathie_L._Olsen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b4683</freebase>
-                <yago>http://yago-knowledge.org/resource/Kathie_L._Olsen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.130929</relevance>
-            <count>2</count>
-            <text>NPR</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.130752</relevance>
+            <relevance>0.147096</relevance>
             <count>1</count>
             <text>Program Manager</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.130411</relevance>
+            <relevance>0.146713</relevance>
             <count>1</count>
             <text>JPL</text>
             <disambiguated>
@@ -332,73 +261,181 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.130207</relevance>
+            <relevance>0.146482</relevance>
             <count>1</count>
             <text>Robert T. Mitchell</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.129601</relevance>
+            <type>Organization</type>
+            <relevance>0.145525</relevance>
             <count>1</count>
-            <text>Administrator</text>
+            <text>United Space Alliance</text>
+            <disambiguated>
+                <name>United Space Alliance</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <website>http://www.unitedspacealliance.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Space_Alliance</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09ml88</freebase>
+                <yago>http://yago-knowledge.org/resource/United_Space_Alliance</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.127971</relevance>
+            <relevance>0.144678</relevance>
             <count>3</count>
-            <text>Samuel L. Venneri</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.127708</relevance>
-            <count>1</count>
-            <text>Office of Biological and Physical Research</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.127151</relevance>
-            <count>1</count>
-            <text>Broadcast Technology Division</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.123639</relevance>
-            <count>1</count>
-            <text>Projects Manager</text>
+            <text>Baruch S. Blumberg</text>
+            <disambiguated>
+                <name>Baruch Samuel Blumberg</name>
+                <subType>Physician</subType>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Inventor</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Baruch_Samuel_Blumberg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ktpn</freebase>
+                <yago>http://yago-knowledge.org/resource/Baruch_Samuel_Blumberg</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.12355</relevance>
+            <relevance>0.144319</relevance>
             <count>1</count>
             <text>National Partnership for Reinventing Government</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.12345</relevance>
-            <count>1</count>
-            <text>Venneri</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.123217</relevance>
+            <type>EntertainmentAward</type>
+            <relevance>0.144241</relevance>
             <count>2</count>
-            <text>StelSys</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.122713</relevance>
-            <count>1</count>
-            <text>Head Merged Technology</text>
+            <text>Nobel Prize</text>
+            <disambiguated>
+                <name>Nobel Prize</name>
+                <subType>Award</subType>
+                <website>http://nobelprize.org</website>
+                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.121149</relevance>
+            <relevance>0.143045</relevance>
             <count>1</count>
-            <text>Office of Aero-Space Technology</text>
+            <text>Broadcast Technology Division</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.142577</relevance>
+            <count>2</count>
+            <text>FVI</text>
+            <disambiguated>
+                <name>Film Ventures International</name>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Film_Ventures_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pzfj3</freebase>
+                <yago>http://yago-knowledge.org/resource/Film_Ventures_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.141048</relevance>
+            <count>2</count>
+            <text>Kathie L. Olsen</text>
+            <disambiguated>
+                <name>Kathie L. Olsen</name>
+                <dbpedia>http://dbpedia.org/resource/Kathie_L._Olsen</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b4683</freebase>
+                <yago>http://yago-knowledge.org/resource/Kathie_L._Olsen</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.140455</relevance>
+            <count>2</count>
+            <text>H. Fisk Johnson</text>
+            <disambiguated>
+                <name>Herbert Fisk Johnson III</name>
+                <dbpedia>http://dbpedia.org/resource/Herbert_Fisk_Johnson_III</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026tff6</freebase>
+                <yago>http://yago-knowledge.org/resource/Herbert_Fisk_Johnson_III</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.139765</relevance>
+            <count>1</count>
+            <text>New Chief Engineer Appointed</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.139093</relevance>
+            <count>1</count>
+            <text>Projects Manager</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.138864</relevance>
+            <count>1</count>
+            <text>biological systems</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.138679</relevance>
+            <count>1</count>
+            <text>Rabat</text>
+            <disambiguated>
+                <name>Rabat</name>
+                <geo>34.03333333333333 -6.833333333333333</geo>
+                <website>http://www.rabat.ma/</website>
+                <dbpedia>http://dbpedia.org/resource/Rabat</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fs44</freebase>
+                <yago>http://yago-knowledge.org/resource/Rabat</yago>
+                <geonames>http://sws.geonames.org/2538475/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.119584</relevance>
+            <relevance>0.138132</relevance>
+            <count>1</count>
+            <text>Wall Street Journal</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.137938</relevance>
+            <count>1</count>
+            <text>Administrator</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.136798</relevance>
+            <count>1</count>
+            <text>In Vitro Technologies Inc.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.136654</relevance>
+            <count>1</count>
+            <text>Office of Biological and Physical Research</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.136541</relevance>
+            <count>1</count>
+            <text>Fisk Ventures Inc.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.134401</relevance>
             <count>1</count>
             <text>Chicago Tribune</text>
             <disambiguated>
@@ -413,35 +450,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.11945</relevance>
-            <count>1</count>
-            <text>biological systems</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.119292</relevance>
-            <count>1</count>
-            <text>Director</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.118825</relevance>
-            <count>1</count>
-            <text>Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.118505</relevance>
+            <relevance>0.133188</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -458,7 +468,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.117969</relevance>
+            <relevance>0.132587</relevance>
             <count>1</count>
             <text>U.S. Department of Defense</text>
             <disambiguated>
@@ -475,14 +485,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.117487</relevance>
-            <count>1</count>
-            <text>In Vitro Technologies Inc.</text>
+            <type>Organization</type>
+            <relevance>0.132574</relevance>
+            <count>2</count>
+            <text>OBPR</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.117154</relevance>
+            <relevance>0.131665</relevance>
             <count>1</count>
             <text>National Imagery and Mapping Agency</text>
             <disambiguated>
@@ -495,19 +505,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.116541</relevance>
+            <type>Organization</type>
+            <relevance>0.13087</relevance>
             <count>1</count>
-            <text>Rabat</text>
-            <disambiguated>
-                <name>Rabat</name>
-                <geo>34.03333333333333 -6.833333333333333</geo>
-                <website>http://www.rabat.ma/</website>
-                <dbpedia>http://dbpedia.org/resource/Rabat</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fs44</freebase>
-                <yago>http://yago-knowledge.org/resource/Rabat</yago>
-                <geonames>http://sws.geonames.org/2538475/</geonames>
-            </disambiguated>
+            <text>ISS</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.129958</relevance>
+            <count>3</count>
+            <text>Samuel L. Venneri</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.128862</relevance>
+            <count>1</count>
+            <text>President</text>
         </entity>
     </entities>
 </results>

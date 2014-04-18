@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.909899</relevance>
+            <relevance>0.973684</relevance>
             <count>10</count>
             <text>Space Station</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.570696</relevance>
+            <relevance>0.560517</relevance>
             <count>13</count>
             <text>NASA</text>
             <disambiguated>
@@ -40,8 +40,14 @@
             <text>Space Station Program</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.350438</relevance>
+            <count>2</count>
+            <text>Civilian Space Stations</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.362919</relevance>
+            <relevance>0.342848</relevance>
             <count>4</count>
             <text>Svetlana Savitskaya</text>
             <disambiguated>
@@ -51,12 +57,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.01b8rj</freebase>
                 <yago>http://yago-knowledge.org/resource/Svetlana_Savitskaya</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.350438</relevance>
-            <count>2</count>
-            <text>Civilian Space Stations</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
@@ -71,27 +71,8 @@
             <text>space program.</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.280399</relevance>
-            <count>2</count>
-            <text>RFP</text>
-            <disambiguated>
-                <name>Russian Fascist Party</name>
-                <subType>PoliticalParty</subType>
-                <dbpedia>http://dbpedia.org/resource/Russian_Fascist_Party</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pjdpr</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Fascist_Party</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.2738</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.257129</relevance>
+            <relevance>0.262241</relevance>
             <count>3</count>
             <text>Vladimir Dzhanibekov</text>
             <disambiguated>
@@ -104,8 +85,40 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.257642</relevance>
+            <count>2</count>
+            <text>RFP</text>
+            <disambiguated>
+                <name>Russian Fascist Party</name>
+                <subType>PoliticalParty</subType>
+                <dbpedia>http://dbpedia.org/resource/Russian_Fascist_Party</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pjdpr</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Fascist_Party</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.248081</relevance>
+            <count>2</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.252625</relevance>
+            <relevance>0.243682</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -124,27 +137,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.245732</relevance>
-            <count>2</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.238733</relevance>
+            <count>3</count>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.230764</relevance>
+            <relevance>0.235719</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.235656</relevance>
             <count>2</count>
             <text>Igor Volk</text>
             <disambiguated>
@@ -156,14 +162,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.230291</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.214376</relevance>
+            <relevance>0.218991</relevance>
             <count>1</count>
             <text>Dzhezkazgan</text>
             <disambiguated>
@@ -176,7 +176,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.203544</relevance>
+            <relevance>0.208728</relevance>
             <count>1</count>
             <text>Soyuz</text>
         </entity>
@@ -221,6 +221,12 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.194183</relevance>
+            <count>2</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
             <type>Company</type>
             <relevance>0.19315</relevance>
             <count>1</count>
@@ -234,10 +240,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.189479</relevance>
-            <count>2</count>
-            <text>Moscow</text>
+            <type>Person</type>
+            <relevance>0.191954</relevance>
+            <count>1</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.191705</relevance>
+            <count>1</count>
+            <text>instructor</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.189275</relevance>
+            <count>1</count>
+            <text>Savistskaya</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.189247</relevance>
+            <count>1</count>
+            <text>Sergo Ordzhonikidze Aviation Institute</text>
         </entity>
         <entity>
             <type>City</type>
@@ -261,32 +285,8 @@
             <text>McDonnell Douglas Astronautics Company</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.187175</relevance>
-            <count>1</count>
-            <text>instructor</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.187073</relevance>
-            <count>1</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.184661</relevance>
-            <count>1</count>
-            <text>Savistskaya</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.184411</relevance>
-            <count>1</count>
-            <text>Sergo Ordzhonikidze Aviation Institute</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.182871</relevance>
+            <relevance>0.187646</relevance>
             <count>1</count>
             <text>Oleg Atkov</text>
             <disambiguated>
@@ -363,13 +363,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.160292</relevance>
+            <relevance>0.165193</relevance>
             <count>1</count>
             <text>Vladimir Solovyev</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.156302</relevance>
+            <relevance>0.16108</relevance>
             <count>1</count>
             <text>Leonid Kisim</text>
         </entity>

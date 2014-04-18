@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.918734</relevance>
-            <count>34</count>
+            <relevance>0.868934</relevance>
+            <count>30</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,13 +29,28 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.37228</relevance>
+            <relevance>0.382636</relevance>
+            <count>4</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.335333</relevance>
             <count>7</count>
             <text>ISS</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.289927</relevance>
+            <relevance>0.328734</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -57,7 +72,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.286505</relevance>
+            <relevance>0.303929</relevance>
             <count>5</count>
             <text>Oceaneering International</text>
             <disambiguated>
@@ -67,20 +82,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.236643</relevance>
-            <count>3</count>
-            <text>Tariq Malik</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.224891</relevance>
+            <relevance>0.249716</relevance>
             <count>1</count>
             <text>Director of NASA</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.218409</relevance>
+            <relevance>0.239783</relevance>
             <count>4</count>
             <text>Peter K. Homer</text>
             <disambiguated>
@@ -91,20 +100,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.21828</relevance>
-            <count>1</count>
-            <text>astronaut candidate</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.215525</relevance>
-            <count>4</count>
-            <text>Space Station</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.211016</relevance>
+            <relevance>0.222967</relevance>
             <count>2</count>
             <text>ILC Dover</text>
             <disambiguated>
@@ -115,8 +112,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.221557</relevance>
+            <count>3</count>
+            <text>Mission Control</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.214657</relevance>
+            <count>4</count>
+            <text>Space Station</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.201439</relevance>
+            <relevance>0.206278</relevance>
             <count>2</count>
             <text>Houston Chronicle</text>
             <disambiguated>
@@ -129,14 +138,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.188463</relevance>
+            <type>Person</type>
+            <relevance>0.196398</relevance>
             <count>3</count>
-            <text>Mission Control</text>
+            <text>Tariq Malik</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.193356</relevance>
+            <count>2</count>
+            <text>Houston</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.192481</relevance>
+            <count>1</count>
+            <text>Oceaneering</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.191791</relevance>
+            <count>2</count>
+            <text>Dover</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.189876</relevance>
+            <count>2</count>
+            <text>Hamilton Sundstrand</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.186901</relevance>
+            <relevance>0.186829</relevance>
             <count>2</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -150,152 +183,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.181122</relevance>
-            <count>1</count>
-            <text>U.S. Air Force</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.180919</relevance>
-            <count>2</count>
-            <text>Dover</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.180762</relevance>
-            <count>2</count>
-            <text>Houston</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.180518</relevance>
-            <count>1</count>
-            <text>JAXA Kibo</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179704</relevance>
-            <count>1</count>
-            <text>Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.178784</relevance>
-            <count>2</count>
-            <text>Central Intelligence Agency</text>
-            <disambiguated>
-                <name>Central Intelligence Agency</name>
-                <geo>38.951796 -77.146586</geo>
-                <website>https://www.cia.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Central_Intelligence_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d6qjf</freebase>
-                <yago>http://yago-knowledge.org/resource/Central_Intelligence_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.17771</relevance>
-            <count>1</count>
-            <text>Oceaneering</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.177093</relevance>
-            <count>2</count>
-            <text>Marcia Dunn</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.17441</relevance>
-            <count>2</count>
-            <text>Mark Carreau</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.17221</relevance>
-            <count>1</count>
-            <text>Space Exploration</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.170111</relevance>
+            <relevance>0.185359</relevance>
             <count>1</count>
             <text>Oceaneering International Inc</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.166031</relevance>
-            <count>2</count>
-            <text>solar panels</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.165074</relevance>
-            <count>1</count>
-            <text>officer</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.164975</relevance>
-            <count>2</count>
-            <text>Jelly</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.164974</relevance>
-            <count>1</count>
-            <text>Japanese Experiment Logistics</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16236</relevance>
-            <count>1</count>
-            <text>Joint Chiefs of Staff</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.162281</relevance>
-            <count>1</count>
-            <text>US</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.160056</relevance>
+            <relevance>0.182358</relevance>
             <count>1</count>
             <text>Southwest Harbor</text>
             <disambiguated>
@@ -308,25 +203,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.159126</relevance>
-            <count>1</count>
-            <text>International Space Station</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.159124</relevance>
-            <count>1</count>
-            <text>Orion</text>
-            <disambiguated>
-                <name>Orion International</name>
-                <dbpedia>http://dbpedia.org/resource/Orion_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05ytkv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.158075</relevance>
+            <relevance>0.180105</relevance>
             <count>1</count>
             <text>Maine</text>
             <disambiguated>
@@ -344,29 +222,85 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.155339</relevance>
+            <type>Person</type>
+            <relevance>0.179176</relevance>
+            <count>2</count>
+            <text>Mark Carreau</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.177145</relevance>
             <count>1</count>
-            <text>Orlando Sentinel</text>
+            <text>astronaut candidate</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.177019</relevance>
+            <count>2</count>
+            <text>Marcia Dunn</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.176731</relevance>
+            <count>1</count>
+            <text>International Space Station</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.173256</relevance>
+            <count>1</count>
+            <text>Brooklyn</text>
             <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+                <name>Brooklyn</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>40.69277777777778 -73.99027777777778</geo>
+                <website>http://www.brooklyn-usa.org/index.htm</website>
+                <dbpedia>http://dbpedia.org/resource/Brooklyn</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cr3d</freebase>
+                <yago>http://yago-knowledge.org/resource/Brooklyn</yago>
+                <geonames>http://sws.geonames.org/5110302/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.172055</relevance>
+            <count>1</count>
+            <text>JAXA Kibo</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.170818</relevance>
+            <count>1</count>
+            <text>Southern</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.170347</relevance>
+            <count>1</count>
+            <text>Ted Southern</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.168031</relevance>
+            <count>1</count>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.154546</relevance>
+            <relevance>0.166607</relevance>
             <count>1</count>
             <text>Exploration Systems</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.162602</relevance>
+            <count>2</count>
+            <text>solar panels</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.154161</relevance>
+            <relevance>0.161795</relevance>
             <count>1</count>
             <text>Delaware</text>
             <disambiguated>
@@ -386,14 +320,67 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.152724</relevance>
+            <type>Country</type>
+            <relevance>0.158835</relevance>
             <count>1</count>
-            <text>Russian Soyuz</text>
+            <text>US</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.158274</relevance>
+            <count>2</count>
+            <text>U.S. Government Accountability Office</text>
+            <disambiguated>
+                <name>Government Accountability Office</name>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.gao.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.158244</relevance>
+            <count>1</count>
+            <text>New York</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.152617</relevance>
+            <relevance>0.158068</relevance>
+            <count>2</count>
+            <text>Jelly</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.157598</relevance>
+            <count>1</count>
+            <text>Japanese Experiment Logistics</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.156784</relevance>
+            <count>1</count>
+            <text>Exploration Systems and Technology</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.155219</relevance>
             <count>1</count>
             <text>Christopher J. Cassidy</text>
             <disambiguated>
@@ -406,71 +393,76 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.151974</relevance>
+            <type>Person</type>
+            <relevance>0.15261</relevance>
             <count>1</count>
-            <text>Pentagon</text>
+            <text>Nicholos Wethington</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.151786</relevance>
+            <count>1</count>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.151062</relevance>
+            <count>1</count>
+            <text>Space Exploration</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.150048</relevance>
+            <count>1</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.148103</relevance>
+            <count>1</count>
+            <text>U.S. Air Force</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.151613</relevance>
+            <relevance>0.148085</relevance>
             <count>1</count>
             <text>STS-119</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.151323</relevance>
-            <count>1</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.151166</relevance>
-            <count>1</count>
-            <text>Brooklyn</text>
-            <disambiguated>
-                <name>Brooklyn</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>40.69277777777778 -73.99027777777778</geo>
-                <website>http://www.brooklyn-usa.org/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Brooklyn</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cr3d</freebase>
-                <yago>http://yago-knowledge.org/resource/Brooklyn</yago>
-                <geonames>http://sws.geonames.org/5110302/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.150262</relevance>
-            <count>1</count>
-            <text>New York</text>
-            <disambiguated>
-                <name>Manhattan</name>
-                <subType>GeographicFeature</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Island</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <geo>40.72833333333333 -73.99416666666667</geo>
-                <website>http://www.mbpo.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Manhattan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cc56</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvXXHUpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Manhattan</yago>
-                <geonames>http://sws.geonames.org/5125771/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.148476</relevance>
-            <count>1</count>
-            <text>Southern</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.148178</relevance>
+            <relevance>0.1478</relevance>
             <count>1</count>
             <text>Atlantic Ocean</text>
             <disambiguated>
@@ -484,35 +476,57 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.147856</relevance>
+            <relevance>0.147461</relevance>
             <count>1</count>
             <text>Carderock</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.147686</relevance>
+            <type>Organization</type>
+            <relevance>0.146952</relevance>
             <count>1</count>
-            <text>Ted Southern</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.146764</relevance>
-            <count>1</count>
-            <text>special assistant to the vice chairman</text>
+            <text>Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.145937</relevance>
+            <relevance>0.14592</relevance>
             <count>2</count>
-            <text>U.S. Government Accountability Office</text>
+            <text>Central Intelligence Agency</text>
             <disambiguated>
-                <name>Government Accountability Office</name>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.gao.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
+                <name>Central Intelligence Agency</name>
+                <geo>38.951796 -77.146586</geo>
+                <website>https://www.cia.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Central_Intelligence_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d6qjf</freebase>
+                <yago>http://yago-knowledge.org/resource/Central_Intelligence_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.145436</relevance>
+            <count>1</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
             </disambiguated>
         </entity>
     </entities>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.874391</relevance>
+            <relevance>0.80681</relevance>
             <count>16</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,30 +28,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.643893</relevance>
-            <count>4</count>
-            <text>Space Shuttle orbiters</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.538089</relevance>
-            <count>7</count>
-            <text>Columbia</text>
-            <disambiguated>
-                <name>Columbia, Tennessee</name>
-                <geo>35.615 -87.04444444444445</geo>
-                <dbpedia>http://dbpedia.org/resource/Columbia,_Tennessee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0_v_t</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/tn/counties/maury_county/columbia</census>
-                <yago>http://yago-knowledge.org/resource/Columbia,_Tennessee</yago>
-                <geonames>http://sws.geonames.org/4614867/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.521434</relevance>
-            <count>4</count>
+            <relevance>0.709313</relevance>
+            <count>7</count>
             <text>MSFC</text>
             <disambiguated>
                 <name>Marshall Space Flight Center</name>
@@ -64,65 +43,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.644137</relevance>
+            <count>4</count>
+            <text>Space Shuttle orbiters</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.50121</relevance>
+            <count>1</count>
+            <text>MSFC&#x2019;s Shuttle</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.476711</relevance>
+            <count>6</count>
+            <text>Columbia</text>
+            <disambiguated>
+                <name>Columbia, Fayette County, Indiana</name>
+                <geo>39.576388888888886 -85.20722222222223</geo>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_Fayette_County,_Indiana</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03hh1kw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.418418</relevance>
+            <relevance>0.395097</relevance>
             <count>3</count>
             <text>test manager</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.417223</relevance>
+            <relevance>0.381057</relevance>
             <count>1</count>
-            <text>MSFC&#x2019;s Shuttle</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.393603</relevance>
-            <count>2</count>
             <text>MSFC</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.344693</relevance>
-            <count>3</count>
-            <text>Rockwell International Corporation</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.340406</relevance>
-            <count>4</count>
-            <text>Frank Stewart</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.340383</relevance>
-            <count>2</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.331499</relevance>
+            <relevance>0.370935</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -141,15 +99,143 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.331308</relevance>
-            <count>1</count>
-            <text>MSFC</text>
+            <type>Company</type>
+            <relevance>0.351077</relevance>
+            <count>2</count>
+            <text>National Space Technology Laboratories</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.350943</relevance>
+            <count>2</count>
+            <text>Space Technology Laboratories</text>
+            <disambiguated>
+                <name>TRW</name>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/TRW</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01m5n0</freebase>
+                <yago>http://yago-knowledge.org/resource/TRW</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.348477</relevance>
+            <count>3</count>
+            <text>Rockwell International Corporation</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.330672</relevance>
+            <relevance>0.342474</relevance>
             <count>3</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.3383</relevance>
+            <count>4</count>
+            <text>Frank Stewart</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.323085</relevance>
+            <count>2</count>
+            <text>JSC</text>
+            <disambiguated>
+                <name>Johnson State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.jsc.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Johnson_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02m0vy</freebase>
+                <yago>http://yago-knowledge.org/resource/Johnson_State_College</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.313997</relevance>
+            <count>3</count>
+            <text>Mississippi</text>
+            <disambiguated>
+                <name>Mississippi</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.mississippi.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Mississippi</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04tgp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBTpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Mississippi</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.287874</relevance>
+            <count>2</count>
+            <text>JPL</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.268713</relevance>
+            <count>2</count>
+            <text>prime contractor</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.265914</relevance>
+            <count>1</count>
+            <text>Columbia</text>
+            <disambiguated>
+                <name>Columbia, Mississippi</name>
+                <geo>31.256666666666668 -89.82888888888888</geo>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_Mississippi</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0wr0r</freebase>
+                <yago>http://yago-knowledge.org/resource/Columbia,_Mississippi</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.263868</relevance>
+            <count>2</count>
+            <text>California</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.263201</relevance>
+            <count>2</count>
             <text>ESA</text>
             <disambiguated>
                 <name>European Space Agency</name>
@@ -166,145 +252,54 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.317243</relevance>
-            <count>2</count>
-            <text>JSC</text>
-            <disambiguated>
-                <name>Johnson State College</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.jsc.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Johnson_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02m0vy</freebase>
-                <yago>http://yago-knowledge.org/resource/Johnson_State_College</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.315809</relevance>
-            <count>2</count>
-            <text>National Space Technology Laboratories</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.301683</relevance>
-            <count>1</count>
-            <text>Space Technology Laboratories</text>
-            <disambiguated>
-                <name>TRW</name>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/TRW</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01m5n0</freebase>
-                <yago>http://yago-knowledge.org/resource/TRW</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.298056</relevance>
+            <relevance>0.262994</relevance>
             <count>2</count>
             <text>NSTL</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.297446</relevance>
+            <type>Organization</type>
+            <relevance>0.262868</relevance>
             <count>1</count>
-            <text>MSFC</text>
+            <text>NSTL</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.293521</relevance>
+            <relevance>0.256309</relevance>
             <count>1</count>
             <text>Space Systems Division</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.287564</relevance>
-            <count>3</count>
-            <text>Mississippi</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.277094</relevance>
-            <count>2</count>
-            <text>JPL</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.275813</relevance>
-            <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Keene State College</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.92777777777778 -72.2786111111111</geo>
-                <website>http://www.keene.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
-                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.271946</relevance>
-            <count>1</count>
-            <text>Office of Space Science</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.26877</relevance>
-            <count>2</count>
-            <text>TRW</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.268227</relevance>
+            <relevance>0.255912</relevance>
             <count>1</count>
             <text>KSC</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.262015</relevance>
+            <type>Organization</type>
+            <relevance>0.255088</relevance>
             <count>2</count>
-            <text>California</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.260255</relevance>
-            <count>1</count>
-            <text>Redondo Beach</text>
-            <disambiguated>
-                <name>Redondo Beach, California</name>
-                <geo>33.85638888888889 -118.37694444444445</geo>
-                <website>http://www.redondo.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Redondo_Beach,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r0tz</freebase>
-                <yago>http://yago-knowledge.org/resource/Redondo_Beach,_California</yago>
-                <geonames>http://sws.geonames.org/5386785/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.259944</relevance>
-            <count>2</count>
-            <text>prime contractor</text>
+            <text>ISPM</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.257782</relevance>
+            <relevance>0.248731</relevance>
+            <count>2</count>
+            <text>Gulf</text>
+            <disambiguated>
+                <name>Gulf of Mexico</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>21.616666666666667 -87.06666666666666</geo>
+                <dbpedia>http://dbpedia.org/resource/Gulf_of_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03f_9</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkIhZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Gulf_of_Mexico</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.247092</relevance>
             <count>1</count>
             <text>Columbia River</text>
             <disambiguated>
@@ -319,8 +314,53 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.238488</relevance>
+            <count>1</count>
+            <text>TRW</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23483</relevance>
+            <count>1</count>
+            <text>Office of Space Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.232097</relevance>
+            <count>1</count>
+            <text>Rocketdyne</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.231196</relevance>
+            <count>1</count>
+            <text>first amendment</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.22984</relevance>
+            <count>1</count>
+            <text>Redondo Beach</text>
+            <disambiguated>
+                <name>Redondo Beach, California</name>
+                <geo>33.85638888888889 -118.37694444444445</geo>
+                <website>http://www.redondo.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Redondo_Beach,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r0tz</freebase>
+                <yago>http://yago-knowledge.org/resource/Redondo_Beach,_California</yago>
+                <geonames>http://sws.geonames.org/5386785/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226269</relevance>
+            <count>1</count>
+            <text>MFSC</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.255239</relevance>
+            <relevance>0.225408</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -341,32 +381,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.248958</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244058</relevance>
-            <count>2</count>
-            <text>ESA</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.241463</relevance>
-            <count>1</count>
-            <text>first amendment</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.239042</relevance>
-            <count>1</count>
-            <text>KSC</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.235052</relevance>
+            <relevance>0.225302</relevance>
             <count>1</count>
             <text>Captain Robert Gray</text>
             <disambiguated>
@@ -377,30 +393,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.229918</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.218022</relevance>
             <count>1</count>
-            <text>Rocketdyne</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.229413</relevance>
-            <count>2</count>
-            <text>Gulf</text>
-            <disambiguated>
-                <name>Gulf of Mexico</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>21.616666666666667 -87.06666666666666</geo>
-                <dbpedia>http://dbpedia.org/resource/Gulf_of_Mexico</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03f_9</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkIhZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Gulf_of_Mexico</yago>
-            </disambiguated>
+            <text>solar system</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.227524</relevance>
+            <relevance>0.217715</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -413,81 +413,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.226714</relevance>
+            <type>JobTitle</type>
+            <relevance>0.21559</relevance>
             <count>1</count>
-            <text>Mexico</text>
-            <disambiguated>
-                <name>Mexico</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmCinematographer</subType>
-                <website>http://www.gob.mx/wb/egobierno/egob_General_Information</website>
-                <dbpedia>http://dbpedia.org/resource/Mexico</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Mexico</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0b90_r</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAiZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mexico</yago>
-            </disambiguated>
+            <text>commander</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.222802</relevance>
+            <type>Company</type>
+            <relevance>0.215436</relevance>
             <count>1</count>
-            <text>MFSC</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.222774</relevance>
-            <count>1</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.2227</relevance>
-            <count>2</count>
-            <text>Jan 26/79</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.220856</relevance>
-            <count>1</count>
-            <text>Tennessee River</text>
-            <disambiguated>
-                <name>Tennessee River</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <subType>River</subType>
-                <dbpedia>http://dbpedia.org/resource/Tennessee_River</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01spb0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVihlZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Tennessee_River</yago>
-            </disambiguated>
+            <text>Dornier System</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.219149</relevance>
+            <relevance>0.214546</relevance>
             <count>1</count>
-            <text>1610-1611</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219128</relevance>
-            <count>2</count>
-            <text>ISPM</text>
+            <text>KSC</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.215472</relevance>
+            <relevance>0.213222</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -505,14 +450,34 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.212887</relevance>
+            <count>1</count>
+            <text>Atlantic Ocean</text>
+            <disambiguated>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.212611</relevance>
+            <count>2</count>
+            <text>Jan 26/79</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.214564</relevance>
+            <relevance>0.212249</relevance>
             <count>1</count>
             <text>MacCready</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.211834</relevance>
+            <relevance>0.209511</relevance>
             <count>1</count>
             <text>Dr. Paul MacCready</text>
             <disambiguated>
@@ -525,16 +490,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.209425</relevance>
+            <count>1</count>
+            <text>1610-1611</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.20685</relevance>
+            <count>2</count>
+            <text>Washington Star</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.206615</relevance>
+            <count>2</count>
+            <text>ESA</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.208685</relevance>
+            <relevance>0.206361</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.208394</relevance>
+            <type>Country</type>
+            <relevance>0.20553</relevance>
             <count>1</count>
-            <text>Dornier System</text>
+            <text>Mexico</text>
+            <disambiguated>
+                <name>Mexico</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmCinematographer</subType>
+                <website>http://www.gob.mx/wb/egobierno/egob_General_Information</website>
+                <dbpedia>http://dbpedia.org/resource/Mexico</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Mexico</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0b90_r</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAiZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Mexico</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

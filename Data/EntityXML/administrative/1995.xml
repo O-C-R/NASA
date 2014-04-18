@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.875794</relevance>
+            <relevance>0.87437</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.416794</relevance>
+            <relevance>0.411023</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -48,20 +48,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.409384</relevance>
+            <relevance>0.37822</relevance>
             <count>2</count>
             <text>DA</text>
-            <disambiguated>
-                <name>Debtors Anonymous</name>
-                <website>http://www.debtorsanonymous.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Debtors_Anonymous</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dzg26</freebase>
-                <yago>http://yago-knowledge.org/resource/Debtors_Anonymous</yago>
-            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.331381</relevance>
+            <relevance>0.327174</relevance>
             <count>2</count>
             <text>Federal Aviation Administration</text>
             <disambiguated>
@@ -75,7 +68,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.320908</relevance>
+            <relevance>0.317174</relevance>
             <count>1</count>
             <text>Denver International Airport</text>
             <disambiguated>
@@ -92,14 +85,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.300779</relevance>
+            <count>1</count>
+            <text>Interavia</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.296663</relevance>
+            <count>1</count>
+            <text>Flow Control</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.292</relevance>
+            <count>1</count>
+            <text>Advisor</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.303061</relevance>
+            <relevance>0.290065</relevance>
             <count>1</count>
             <text>Sport Aviation Exhibition July</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.286189</relevance>
+            <count>1</count>
+            <text>emergency services</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.297075</relevance>
+            <relevance>0.286023</relevance>
             <count>1</count>
             <text>Oshkosh</text>
             <disambiguated>
@@ -113,31 +130,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.295666</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.28133</relevance>
             <count>1</count>
-            <text>Advisor</text>
+            <text>software systems</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.291394</relevance>
+            <relevance>0.278935</relevance>
             <count>1</count>
-            <text>Experimental Aircraft Association</text>
-            <disambiguated>
-                <name>Experimental Aircraft Association</name>
-                <dbpedia>http://dbpedia.org/resource/Experimental_Aircraft_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018d3l</freebase>
-            </disambiguated>
+            <text>SBIRP</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.289394</relevance>
+            <type>Organization</type>
+            <relevance>0.277337</relevance>
             <count>1</count>
-            <text>emergency services</text>
+            <text>Chicago Fire Department</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.287191</relevance>
+            <relevance>0.276504</relevance>
             <count>1</count>
             <text>Wisconsin</text>
             <disambiguated>
@@ -156,44 +168,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.287153</relevance>
-            <count>1</count>
-            <text>Interavia</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.28486</relevance>
-            <count>1</count>
-            <text>software systems</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.280434</relevance>
-            <count>1</count>
-            <text>Chicago Fire Department</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.266709</relevance>
-            <count>1</count>
-            <text>Flow Control</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263665</relevance>
-            <count>1</count>
-            <text>SBIRP</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259935</relevance>
-            <count>1</count>
+            <relevance>0.275513</relevance>
+            <count>2</count>
             <text>EAA</text>
             <disambiguated>
-                <name>Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.023k2</freebase>
+                <name>Experimental Aircraft Association</name>
+                <dbpedia>http://dbpedia.org/resource/Experimental_Aircraft_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018d3l</freebase>
             </disambiguated>
         </entity>
     </entities>

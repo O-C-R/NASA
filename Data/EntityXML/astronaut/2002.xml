@@ -7,7 +7,20 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.799673</relevance>
+            <relevance>0.794811</relevance>
+            <count>4</count>
+            <text>ISS</text>
+            <disambiguated>
+                <name>School</name>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.783076</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,33 +42,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.746856</relevance>
-            <count>4</count>
-            <text>ISS</text>
-            <disambiguated>
-                <name>School</name>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.741767</relevance>
-            <count>4</count>
-            <text>ACS</text>
-            <disambiguated>
-                <name>Association of Caribbean States</name>
-                <website>http://www.acs-aec.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Association_of_Caribbean_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.051ck0</freebase>
-                <yago>http://yago-knowledge.org/resource/Association_of_Caribbean_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.657492</relevance>
+            <relevance>0.686948</relevance>
             <count>4</count>
             <text>ESA</text>
             <disambiguated>
@@ -74,19 +61,26 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.536994</relevance>
+            <relevance>0.670664</relevance>
+            <count>4</count>
+            <text>ACS</text>
+            <disambiguated>
+                <name>Association of Caribbean States</name>
+                <website>http://www.acs-aec.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Association_of_Caribbean_States</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.051ck0</freebase>
+                <yago>http://yago-knowledge.org/resource/Association_of_Caribbean_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.501877</relevance>
             <count>1</count>
             <text>Federal Aviation Professional Award</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.508309</relevance>
-            <count>1</count>
-            <text>Federal Aviation Award</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.480977</relevance>
+            <relevance>0.442861</relevance>
             <count>3</count>
             <text>General Services Administration</text>
             <disambiguated>
@@ -101,37 +95,56 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.445563</relevance>
+            <relevance>0.428545</relevance>
+            <count>1</count>
+            <text>Federal Aviation Award</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.413147</relevance>
             <count>1</count>
             <text>JSC&#x2019;s Aircraft Operations Division</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.420391</relevance>
+            <relevance>0.39483</relevance>
             <count>1</count>
             <text>GSA</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.399981</relevance>
-            <count>1</count>
-            <text>Aircraft Operations Division</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.374786</relevance>
+            <relevance>0.382812</relevance>
             <count>1</count>
             <text>Cone Nebula</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.374103</relevance>
+            <relevance>0.382137</relevance>
             <count>1</count>
             <text>Swan Nebula</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.372015</relevance>
+            <count>1</count>
+            <text>Cologne</text>
+            <disambiguated>
+                <name>Cologne</name>
+                <subType>GermanUrbanDistrict</subType>
+                <website>http://www.stadt-koeln.de</website>
+                <dbpedia>http://dbpedia.org/resource/Cologne</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01v8c</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.366951</relevance>
+            <count>1</count>
+            <text>European Astronaut Centre</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.354996</relevance>
+            <relevance>0.365263</relevance>
             <count>1</count>
             <text>Takao Doi</text>
             <disambiguated>
@@ -143,8 +156,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.356647</relevance>
+            <count>1</count>
+            <text>Columbus</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.345915</relevance>
+            <relevance>0.355885</relevance>
             <count>1</count>
             <text>Pedro Duque</text>
             <disambiguated>
@@ -157,13 +176,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.339553</relevance>
-            <count>1</count>
-            <text>Robert J. Naughton</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.331548</relevance>
+            <relevance>0.342064</relevance>
             <count>1</count>
             <text>Satoshi Furukawa</text>
             <disambiguated>
@@ -175,14 +188,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.339825</relevance>
+            <count>1</count>
+            <text>Aircraft Operations Division</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.324929</relevance>
+            <relevance>0.335264</relevance>
             <count>1</count>
             <text>Nicole Passonno Stott</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.324129</relevance>
+            <relevance>0.333952</relevance>
             <count>1</count>
             <text>Koichi Wakata</text>
             <disambiguated>
@@ -194,8 +213,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.32994</relevance>
+            <count>1</count>
+            <text>Germany</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.322126</relevance>
+            <relevance>0.32825</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -214,7 +239,7 @@
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.319122</relevance>
+            <relevance>0.327653</relevance>
             <count>1</count>
             <text>Europe</text>
             <disambiguated>
@@ -226,7 +251,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.312177</relevance>
+            <relevance>0.321606</relevance>
             <count>1</count>
             <text>Thomas Reiter</text>
             <disambiguated>
@@ -240,13 +265,13 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.310896</relevance>
+            <relevance>0.320364</relevance>
             <count>1</count>
             <text>International Space Station</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.31073</relevance>
+            <relevance>0.319333</relevance>
             <count>1</count>
             <text>Japan</text>
             <disambiguated>
@@ -263,27 +288,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.30902</relevance>
+            <type>Person</type>
+            <relevance>0.317381</relevance>
             <count>1</count>
-            <text>Cologne</text>
-            <disambiguated>
-                <name>Cologne</name>
-                <subType>GermanUrbanDistrict</subType>
-                <website>http://www.stadt-koeln.de</website>
-                <dbpedia>http://dbpedia.org/resource/Cologne</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01v8c</freebase>
-            </disambiguated>
+            <text>Robert J. Naughton</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.308186</relevance>
+            <relevance>0.314855</relevance>
             <count>1</count>
             <text>Warren E. Leary</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.300816</relevance>
+            <relevance>0.310328</relevance>
             <count>1</count>
             <text>Paolo A. Nespoli</text>
             <disambiguated>
@@ -295,38 +313,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.299988</relevance>
-            <count>1</count>
-            <text>European Astronaut Centre</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.295433</relevance>
-            <count>1</count>
-            <text>Columbus</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.26967</relevance>
-            <count>1</count>
-            <text>Germany</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.267817</relevance>
+            <relevance>0.277177</relevance>
             <count>1</count>
             <text>Le&#x301;opold Eyharts</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.266527</relevance>
+            <relevance>0.275887</relevance>
             <count>1</count>
             <text>Aikihiko Hoshide</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.264727</relevance>
+            <relevance>0.273581</relevance>
             <count>1</count>
             <text>Stephanie D. Wilson.</text>
         </entity>

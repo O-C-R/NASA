@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Country</type>
-            <relevance>0.832215</relevance>
+            <relevance>0.876672</relevance>
             <count>4</count>
             <text>United States</text>
             <disambiguated>
@@ -27,7 +27,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.756693</relevance>
+            <relevance>0.806071</relevance>
             <count>3</count>
             <text>nasa</text>
             <disambiguated>
@@ -49,13 +49,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.678146</relevance>
+            <relevance>0.747597</relevance>
             <count>2</count>
             <text>Editorial Board</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.568119</relevance>
+            <relevance>0.675648</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -70,13 +70,63 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.566618</relevance>
+            <relevance>0.570077</relevance>
+            <count>1</count>
+            <text>Robert B. Leighton</text>
+            <disambiguated>
+                <name>Robert B. Leighton</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_B._Leighton</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0511zn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.56121</relevance>
+            <count>1</count>
+            <text>Melvin Calvin</text>
+            <disambiguated>
+                <name>Melvin Calvin</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Melvin_Calvin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01zq9s</freebase>
+                <yago>http://yago-knowledge.org/resource/Melvin_Calvin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.537609</relevance>
+            <count>1</count>
+            <text>Dr. Robert W. Krauss</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.532344</relevance>
+            <count>1</count>
+            <text>Wolf Vishniac</text>
+            <disambiguated>
+                <name>Wolf V. Vishniac</name>
+                <dbpedia>http://dbpedia.org/resource/Wolf_V._Vishniac</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.055whr</freebase>
+                <yago>http://yago-knowledge.org/resource/Wolf_V._Vishniac</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.52799</relevance>
             <count>1</count>
             <text>Aviatrix Geraldine Mock&#x2014;who</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.524744</relevance>
+            <count>1</count>
+            <text>Loren D. Carlson</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.556771</relevance>
+            <relevance>0.524017</relevance>
             <count>1</count>
             <text>NYT</text>
             <disambiguated>
@@ -95,54 +145,111 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.537869</relevance>
+            <relevance>0.519416</relevance>
+            <count>1</count>
+            <text>Dr. Orr E. Reynolds</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.510347</relevance>
+            <count>1</count>
+            <text>co-chairman</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.508937</relevance>
+            <count>1</count>
+            <text>New York City</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.478004</relevance>
+            <count>1</count>
+            <text>Dr. John P. Marbarger</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.471953</relevance>
+            <count>2</count>
+            <text>Russia</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.457538</relevance>
+            <count>1</count>
+            <text>Univ. of Rochester</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.456028</relevance>
+            <count>1</count>
+            <text>Univ. of Kentucky</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.452649</relevance>
+            <count>1</count>
+            <text>Univ. of Maryland</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.447974</relevance>
+            <count>1</count>
+            <text>Univ. of Illinois</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.443012</relevance>
+            <count>1</count>
+            <text>Univ. of California</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.435954</relevance>
+            <count>1</count>
+            <text>Balt</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.435076</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.433888</relevance>
             <count>1</count>
             <text>Belka</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.515338</relevance>
-            <count>2</count>
-            <text>Russia</text>
-            <disambiguated>
-                <name>Russia</name>
-                <website>http://www.gov.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Russia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.485173</relevance>
+            <type>City</type>
+            <relevance>0.433178</relevance>
             <count>1</count>
-            <text>Robert B. Leighton</text>
+            <text>Baltimore</text>
             <disambiguated>
-                <name>Robert B. Leighton</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_B._Leighton</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0511zn</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.478041</relevance>
-            <count>1</count>
-            <text>Melvin Calvin</text>
-            <disambiguated>
-                <name>Melvin Calvin</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Melvin_Calvin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01zq9s</freebase>
-                <yago>http://yago-knowledge.org/resource/Melvin_Calvin</yago>
+                <name>Baltimore</name>
+                <website>http://www.baltimorecity.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.462339</relevance>
+            <relevance>0.431863</relevance>
             <count>1</count>
             <text>Honolulu</text>
             <disambiguated>
@@ -154,38 +261,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.455527</relevance>
-            <count>1</count>
-            <text>Strelka</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.455359</relevance>
-            <count>1</count>
-            <text>Baltimore</text>
-            <disambiguated>
-                <name>Baltimore</name>
-                <website>http://www.baltimorecity.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.452719</relevance>
-            <count>1</count>
-            <text>Wolf Vishniac</text>
-            <disambiguated>
-                <name>Wolf V. Vishniac</name>
-                <dbpedia>http://dbpedia.org/resource/Wolf_V._Vishniac</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.055whr</freebase>
-                <yago>http://yago-knowledge.org/resource/Wolf_V._Vishniac</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.452186</relevance>
+            <relevance>0.422348</relevance>
             <count>1</count>
             <text>Columbus</text>
             <disambiguated>
@@ -201,14 +278,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.451491</relevance>
-            <count>1</count>
-            <text>Dr. Robert W. Krauss</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.451176</relevance>
+            <relevance>0.421424</relevance>
             <count>1</count>
             <text>Hawaii</text>
             <disambiguated>
@@ -229,7 +300,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.441485</relevance>
+            <relevance>0.412342</relevance>
             <count>1</count>
             <text>Ohio</text>
             <disambiguated>
@@ -247,94 +318,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.440851</relevance>
-            <count>1</count>
-            <text>Balt</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.440815</relevance>
+            <relevance>0.360473</relevance>
             <count>1</count>
-            <text>Loren D. Carlson</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.435812</relevance>
-            <count>1</count>
-            <text>Dr. Orr E. Reynolds</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.433568</relevance>
-            <count>1</count>
-            <text>New York City</text>
-            <disambiguated>
-                <name>New York City</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.428752</relevance>
-            <count>1</count>
-            <text>co-chairman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.401198</relevance>
-            <count>1</count>
-            <text>Dr. John P. Marbarger</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.396265</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.383738</relevance>
-            <count>1</count>
-            <text>Univ. of Rochester</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.383034</relevance>
-            <count>1</count>
-            <text>Univ. of Kentucky</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.380071</relevance>
-            <count>1</count>
-            <text>Univ. of Maryland</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.375925</relevance>
-            <count>1</count>
-            <text>Univ. of Illinois</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.372264</relevance>
-            <count>1</count>
-            <text>Univ. of California</text>
+            <text>Strelka</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.358787</relevance>
+            <relevance>0.354434</relevance>
             <count>1</count>
             <text>France</text>
         </entity>

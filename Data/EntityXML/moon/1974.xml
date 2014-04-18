@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Country</type>
-            <relevance>0.806829</relevance>
+            <relevance>0.896978</relevance>
             <count>6</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -21,20 +21,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.766911</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Technology</type>
-            <relevance>0.737062</relevance>
+            <relevance>0.760242</relevance>
             <count>2</count>
             <text>Soyuz</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.658199</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.63821</relevance>
+            <relevance>0.63721</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -56,7 +56,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.628889</relevance>
+            <relevance>0.634593</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -75,20 +75,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.603649</relevance>
-            <count>4</count>
-            <text>solar energy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.566538</relevance>
-            <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.560171</relevance>
+            <relevance>0.580006</relevance>
             <count>3</count>
             <text>LA Times</text>
             <disambiguated>
@@ -104,20 +92,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.543442</relevance>
-            <count>2</count>
-            <text>NYT</text>
+            <type>Organization</type>
+            <relevance>0.555892</relevance>
+            <count>1</count>
+            <text>ASTP</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.531291</relevance>
-            <count>3</count>
-            <text>Technical Director</text>
+            <type>FieldTerminology</type>
+            <relevance>0.553252</relevance>
+            <count>4</count>
+            <text>solar energy</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.517379</relevance>
+            <relevance>0.549302</relevance>
             <count>2</count>
             <text>California Institute of Technology</text>
             <disambiguated>
@@ -136,14 +124,100 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.509407</relevance>
+            <type>Company</type>
+            <relevance>0.547389</relevance>
             <count>2</count>
-            <text>black holes</text>
+            <text>Apollo</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.542018</relevance>
+            <count>3</count>
+            <text>Technical Director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.492906</relevance>
+            <relevance>0.524136</relevance>
+            <count>2</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.516884</relevance>
+            <count>2</count>
+            <text>Col. Anatoly V. Filipchenko</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.513157</relevance>
+            <count>2</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.505649</relevance>
+            <count>2</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.502478</relevance>
+            <count>2</count>
+            <text>Konstanin D. Bushuyev</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.493369</relevance>
+            <count>1</count>
+            <text>gravitational forces</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.481025</relevance>
+            <count>2</count>
+            <text>Ferrari</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.471702</relevance>
+            <count>2</count>
+            <text>Glynn S. Lunney</text>
+            <disambiguated>
+                <name>Glynn Lunney</name>
+                <dbpedia>http://dbpedia.org/resource/Glynn_Lunney</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g3pys</freebase>
+                <yago>http://yago-knowledge.org/resource/Glynn_Lunney</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.456269</relevance>
+            <count>1</count>
+            <text>Tyuratam</text>
+            <disambiguated>
+                <name>Tyuratam</name>
+                <geo>45.666666666666664 63.333333333333336</geo>
+                <dbpedia>http://dbpedia.org/resource/Tyuratam</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c9_6</freebase>
+                <yago>http://yago-knowledge.org/resource/Tyuratam</yago>
+                <geonames>http://sws.geonames.org/1521368/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.449721</relevance>
+            <count>1</count>
+            <text>Dr. Alfred J. Ferrari</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.44059</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.438402</relevance>
             <count>2</count>
             <text>Sen. James G. Abourezk</text>
             <disambiguated>
@@ -159,88 +233,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.485813</relevance>
-            <count>2</count>
-            <text>Konstanin D. Bushuyev</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.480835</relevance>
-            <count>2</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.474934</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.43798</relevance>
             <count>1</count>
-            <text>ASTP</text>
+            <text>press release</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.435435</relevance>
+            <count>1</count>
+            <text>solar system</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.47275</relevance>
+            <relevance>0.434603</relevance>
+            <count>1</count>
+            <text>Miles</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.42857</relevance>
             <count>2</count>
-            <text>Glynn S. Lunney</text>
-            <disambiguated>
-                <name>Glynn Lunney</name>
-                <dbpedia>http://dbpedia.org/resource/Glynn_Lunney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g3pys</freebase>
-                <yago>http://yago-knowledge.org/resource/Glynn_Lunney</yago>
-            </disambiguated>
+            <text>black holes</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.466494</relevance>
-            <count>2</count>
-            <text>Col. Anatoly V. Filipchenko</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.463619</relevance>
+            <type>Company</type>
+            <relevance>0.417083</relevance>
             <count>1</count>
-            <text>Dr. Lowell Wood</text>
+            <text>Reuters</text>
             <disambiguated>
-                <name>Lowell Wood</name>
-                <dbpedia>http://dbpedia.org/resource/Lowell_Wood</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bmcp98</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.459269</relevance>
-            <count>1</count>
-            <text>New York Academy of Sciences</text>
-            <disambiguated>
-                <name>New York Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/New_York_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09gjyb</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.455147</relevance>
-            <count>1</count>
-            <text>Atomic Energy Commission</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.455137</relevance>
-            <count>1</count>
-            <text>Government Accounting Office</text>
-            <disambiguated>
-                <name>Government Accountability Office</name>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.gao.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.450376</relevance>
+            <relevance>0.412583</relevance>
             <count>1</count>
             <text>NYT</text>
             <disambiguated>
@@ -258,124 +290,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.441779</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.438901</relevance>
-            <count>2</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.435983</relevance>
-            <count>1</count>
-            <text>Lawrence Livermore Laboratories</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.434846</relevance>
-            <count>1</count>
-            <text>Sullivan</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.43115</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.429496</relevance>
-            <count>1</count>
-            <text>gravitational forces</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.419479</relevance>
-            <count>1</count>
-            <text>chemical differentiation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.418815</relevance>
-            <count>2</count>
-            <text>Ferrari</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.413145</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.411237</relevance>
-            <count>1</count>
-            <text>solar power.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.410703</relevance>
-            <count>1</count>
-            <text>energy research</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.40208</relevance>
-            <count>1</count>
-            <text>Johnson Space Center</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.395754</relevance>
-            <count>1</count>
-            <text>Dzhezkazgan</text>
-            <disambiguated>
-                <name>Jezkazgan</name>
-                <geo>47.78333333333333 67.7</geo>
-                <website>http://www.jezkazgan.kz</website>
-                <dbpedia>http://dbpedia.org/resource/Jezkazgan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02k51d</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.392529</relevance>
-            <count>1</count>
-            <text>Tyuratam</text>
-            <disambiguated>
-                <name>Tyuratam</name>
-                <geo>45.666666666666664 63.333333333333336</geo>
-                <dbpedia>http://dbpedia.org/resource/Tyuratam</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c9_6</freebase>
-                <yago>http://yago-knowledge.org/resource/Tyuratam</yago>
-                <geonames>http://sws.geonames.org/1521368/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.389815</relevance>
+            <relevance>0.410455</relevance>
             <count>1</count>
             <text>France</text>
             <disambiguated>
@@ -395,76 +311,167 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.389284</relevance>
+            <type>Organization</type>
+            <relevance>0.401086</relevance>
             <count>1</count>
-            <text>Star City</text>
+            <text>Johnson Space Center</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.398385</relevance>
+            <count>1</count>
+            <text>British government</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.397041</relevance>
+            <count>1</count>
+            <text>Nikolay N. Rukavishnikov</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.396911</relevance>
+            <count>1</count>
+            <text>economic problems</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.394771</relevance>
+            <count>1</count>
+            <text>Dzhezkazgan</text>
+            <disambiguated>
+                <name>Jezkazgan</name>
+                <geo>47.78333333333333 67.7</geo>
+                <website>http://www.jezkazgan.kz</website>
+                <dbpedia>http://dbpedia.org/resource/Jezkazgan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02k51d</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.387655</relevance>
+            <relevance>0.391528</relevance>
             <count>1</count>
             <text>Official</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.38678</relevance>
+            <relevance>0.391263</relevance>
             <count>1</count>
-            <text>Dr. Alfred J. Ferrari</text>
+            <text>Dr. Lowell Wood</text>
+            <disambiguated>
+                <name>Lowell Wood</name>
+                <dbpedia>http://dbpedia.org/resource/Lowell_Wood</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bmcp98</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.388318</relevance>
+            <count>1</count>
+            <text>Star City</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.385207</relevance>
+            <relevance>0.387526</relevance>
+            <count>1</count>
+            <text>New York Academy of Sciences</text>
+            <disambiguated>
+                <name>New York Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/New_York_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gjyb</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.386046</relevance>
+            <count>1</count>
+            <text>Government Accounting Office</text>
+            <disambiguated>
+                <name>Government Accountability Office</name>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.gao.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.384225</relevance>
             <count>1</count>
             <text>aec</text>
+            <disambiguated>
+                <name>United States Atomic Energy Commission</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Atomic_Energy_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmm_</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Atomic_Energy_Commission</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.384905</relevance>
+            <relevance>0.383906</relevance>
             <count>1</count>
             <text>Maj. Gen. Vladimir A. Shatalov</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.38087</relevance>
-            <count>1</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.376665</relevance>
+            <relevance>0.383681</relevance>
             <count>1</count>
-            <text>press release</text>
+            <text>chemical differentiation</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.375162</relevance>
+            <type>Organization</type>
+            <relevance>0.38041</relevance>
             <count>1</count>
-            <text>Miles</text>
+            <text>Atomic Energy Commission</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.373117</relevance>
+            <relevance>0.377013</relevance>
             <count>1</count>
             <text>Britain</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.373674</relevance>
+            <count>1</count>
+            <text>solar power.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.373343</relevance>
+            <count>1</count>
+            <text>energy research</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.370175</relevance>
+            <relevance>0.369175</relevance>
             <count>1</count>
             <text>Cosmodrome</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.364285</relevance>
+            <relevance>0.368248</relevance>
             <count>1</count>
             <text>Dr. A. Albee</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.364185</relevance>
+            <type>Person</type>
+            <relevance>0.366323</relevance>
             <count>1</count>
-            <text>economic problems</text>
+            <text>Sullivan</text>
         </entity>
     </entities>
 </results>

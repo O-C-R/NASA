@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.90637</relevance>
+            <relevance>0.896711</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.388835</relevance>
+            <relevance>0.434757</relevance>
             <count>1</count>
             <text>Vice President Al Gore</text>
             <disambiguated>
@@ -57,14 +57,45 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.344661</relevance>
+            <count>1</count>
+            <text>vice president</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.326792</relevance>
+            <count>2</count>
+            <text>NOAA</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.326208</relevance>
+            <relevance>0.315959</relevance>
+            <count>2</count>
+            <text>GLOBE</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.300896</relevance>
             <count>1</count>
             <text>Lockheed Space Operations Company</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.299509</relevance>
+            <count>2</count>
+            <text>EPA</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.317197</relevance>
+            <relevance>0.29484</relevance>
             <count>1</count>
             <text>President Clinton</text>
             <disambiguated>
@@ -90,59 +121,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.305251</relevance>
-            <count>1</count>
-            <text>vice president</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.296109</relevance>
-            <count>2</count>
-            <text>GLOBE</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.258992</relevance>
+            <relevance>0.266189</relevance>
             <count>1</count>
             <text>Lockheed</text>
             <disambiguated>
-                <name>Lockheed Corporation</name>
-                <subType>Company</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
+                <name>Lockheed Martin Space Systems</name>
+                <subType>CompanyDivision</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
+                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244514</relevance>
-            <count>2</count>
-            <text>NOAA</text>
-            <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219664</relevance>
-            <count>2</count>
-            <text>EPA</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.219659</relevance>
-            <count>1</count>
-            <text>Titusville</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.217677</relevance>
+            <relevance>0.243767</relevance>
             <count>1</count>
             <text>Clear Lake</text>
             <disambiguated>
@@ -157,31 +151,37 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.216973</relevance>
+            <relevance>0.230165</relevance>
             <count>1</count>
             <text>National Oceanic and Atmospheric Administration</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.201268</relevance>
+            <relevance>0.228287</relevance>
             <count>1</count>
             <text>Leonard N. Jackson</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.193153</relevance>
+            <relevance>0.226495</relevance>
             <count>1</count>
             <text>Space, Inc.</text>
         </entity>
         <entity>
             <type>Crime</type>
-            <relevance>0.188699</relevance>
+            <relevance>0.213171</relevance>
             <count>1</count>
             <text>fraud</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.195672</relevance>
+            <count>1</count>
+            <text>Titusville</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.160857</relevance>
+            <relevance>0.165868</relevance>
             <count>1</count>
             <text>NASA.</text>
         </entity>

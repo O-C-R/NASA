@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.797657</relevance>
+            <relevance>0.796923</relevance>
             <count>7</count>
             <text>U.S. Air Force</text>
             <disambiguated>
@@ -24,7 +24,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.724548</relevance>
+            <relevance>0.64269</relevance>
             <count>13</count>
             <text>NASA</text>
             <disambiguated>
@@ -46,7 +46,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.576069</relevance>
+            <relevance>0.585416</relevance>
             <count>3</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -64,8 +64,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.515885</relevance>
+            <count>3</count>
+            <text>Air Force</text>
+            <disambiguated>
+                <name>Air force</name>
+                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.498549</relevance>
+            <relevance>0.502922</relevance>
             <count>7</count>
             <text>United States</text>
             <disambiguated>
@@ -85,7 +97,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.427479</relevance>
+            <relevance>0.386054</relevance>
             <count>2</count>
             <text>Air Force Systems Command</text>
             <disambiguated>
@@ -97,58 +109,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.425891</relevance>
-            <count>2</count>
-            <text>Air Force</text>
-            <disambiguated>
-                <name>Air force</name>
-                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.406503</relevance>
-            <count>5</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.405383</relevance>
-            <count>1</count>
-            <text>Edwards Air Force Base</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.374162</relevance>
-            <count>1</count>
-            <text>Air Force Flight Dynamics Laboratory.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.365782</relevance>
-            <count>3</count>
-            <text>HiMAT</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.360479</relevance>
-            <count>3</count>
-            <text>AFSC</text>
-            <disambiguated>
-                <name>Air Force Space Command</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.353331</relevance>
+            <relevance>0.380074</relevance>
             <count>1</count>
             <text>Patrick Air Force Base</text>
             <disambiguated>
@@ -164,40 +126,58 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.365297</relevance>
+            <count>5</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.362525</relevance>
+            <count>1</count>
+            <text>Edwards Air Force Base</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.338944</relevance>
+            <relevance>0.33604</relevance>
             <count>3</count>
-            <text>DFRC</text>
-            <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
-            </disambiguated>
+            <text>HiMAT</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.329363</relevance>
-            <count>1</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.324271</relevance>
-            <count>1</count>
-            <text>Clark Air Force Base</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.324187</relevance>
+            <relevance>0.335347</relevance>
             <count>1</count>
             <text>U.S. Air Force Avionics Laboratory</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.310984</relevance>
+            <relevance>0.331819</relevance>
+            <count>1</count>
+            <text>Air Force Flight Dynamics Laboratory.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.316795</relevance>
+            <count>4</count>
+            <text>The Washington Star</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.31579</relevance>
+            <count>3</count>
+            <text>AFSC</text>
+            <disambiguated>
+                <name>Air Force Space Command</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.311775</relevance>
             <count>2</count>
             <text>American Geophysical Union</text>
             <disambiguated>
@@ -211,35 +191,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.310307</relevance>
+            <type>Facility</type>
+            <relevance>0.30973</relevance>
             <count>1</count>
-            <text>air force jets</text>
+            <text>Clark Air Force Base</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.298539</relevance>
+            <type>Person</type>
+            <relevance>0.301495</relevance>
             <count>2</count>
-            <text>Rockwell International</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.295679</relevance>
-            <count>4</count>
-            <text>The Washington Star</text>
+            <text>Robert Hotz</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.295597</relevance>
+            <relevance>0.299116</relevance>
             <count>2</count>
             <text>NAA</text>
             <disambiguated>
@@ -259,39 +224,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.290889</relevance>
-            <count>1</count>
-            <text>Air Canada</text>
-            <disambiguated>
-                <name>Air Canada</name>
-                <subType>Airline</subType>
-                <website>http://www.aircanada.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Air_Canada</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.012j50</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwOXyRpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Air_Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.286502</relevance>
-            <count>2</count>
-            <text>U.S. Geological Survey</text>
-            <disambiguated>
-                <name>United States Geological Survey</name>
-                <subType>GovernmentAgency</subType>
-                <subType>ReportIssuingInstitution</subType>
-                <website>http://www.usgs.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Geological_Survey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01b69s</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQnr0JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Geological_Survey</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.283641</relevance>
+            <relevance>0.29852</relevance>
             <count>2</count>
             <text>California</text>
             <disambiguated>
@@ -313,39 +247,29 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.276736</relevance>
+            <relevance>0.297852</relevance>
             <count>2</count>
-            <text>JPL</text>
+            <text>U.S. Geological Survey</text>
             <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
+                <name>United States Geological Survey</name>
+                <subType>GovernmentAgency</subType>
+                <subType>ReportIssuingInstitution</subType>
+                <website>http://www.usgs.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Geological_Survey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01b69s</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQnr0JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Geological_Survey</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.276295</relevance>
-            <count>2</count>
-            <text>WSMC</text>
-            <disambiguated>
-                <name>WSMC-FM</name>
-                <subType>Broadcast</subType>
-                <subType>RadioStation</subType>
-                <geo>35.25555555555555 -85.22611111111111</geo>
-                <website>http://www.wsmc.org/</website>
-                <dbpedia>http://dbpedia.org/resource/WSMC-FM</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bp0rz</freebase>
-                <yago>http://yago-knowledge.org/resource/WSMC-FM</yago>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.296402</relevance>
+            <count>1</count>
+            <text>air force jets</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.273197</relevance>
+            <relevance>0.289223</relevance>
             <count>2</count>
             <text>San Francisco</text>
             <disambiguated>
@@ -362,8 +286,269 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.288811</relevance>
+            <count>2</count>
+            <text>Rockwell International</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.284615</relevance>
+            <count>3</count>
+            <text>DFRC</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.281852</relevance>
+            <count>1</count>
+            <text>Air Canada</text>
+            <disambiguated>
+                <name>Air Canada</name>
+                <subType>Airline</subType>
+                <website>http://www.aircanada.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Air_Canada</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.012j50</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwOXyRpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Air_Canada</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.274854</relevance>
+            <count>2</count>
+            <text>JPL</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.264169</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.259634</relevance>
+            <count>1</count>
+            <text>Space Technology magazine</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.257063</relevance>
+            <count>1</count>
+            <text>Dr. Richard T. Whitcomb</text>
+            <disambiguated>
+                <name>Richard T. Whitcomb</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_T._Whitcomb</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01rrq3</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_T._Whitcomb</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255343</relevance>
+            <count>1</count>
+            <text>Dr. Arthur E. Niell</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.250747</relevance>
+            <count>2</count>
+            <text>WSMC</text>
+            <disambiguated>
+                <name>WSMC-FM</name>
+                <subType>Broadcast</subType>
+                <subType>RadioStation</subType>
+                <geo>35.25555555555555 -85.22611111111111</geo>
+                <website>http://www.wsmc.org/</website>
+                <dbpedia>http://dbpedia.org/resource/WSMC-FM</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bp0rz</freebase>
+                <yago>http://yago-knowledge.org/resource/WSMC-FM</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.24694</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.244161</relevance>
+            <count>1</count>
+            <text>il Survey</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.243964</relevance>
+            <count>1</count>
+            <text>Goldstone</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.243368</relevance>
+            <count>1</count>
+            <text>Maurice Baker</text>
+            <disambiguated>
+                <name>Maurice Baker</name>
+                <subType>Athlete</subType>
+                <subType>BasketballPlayer</subType>
+                <dbpedia>http://dbpedia.org/resource/Maurice_Baker</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.082s5l</freebase>
+                <yago>http://yago-knowledge.org/resource/Maurice_Baker</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.24178</relevance>
+            <count>1</count>
+            <text>Chicago</text>
+            <disambiguated>
+                <name>Chicago</name>
+                <website>http://www.cityofchicago.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
+                <yago>http://yago-knowledge.org/resource/Chicago</yago>
+                <geonames>http://sws.geonames.org/4887398/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.238111</relevance>
+            <count>2</count>
+            <text>Pratt &amp; Whitney</text>
+            <disambiguated>
+                <name>Pratt &amp; Whitney</name>
+                <subType>CompanyDivision</subType>
+                <subType>RocketEngineDesigner</subType>
+                <website>http://www.pw.utc.com</website>
+                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
+                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.238077</relevance>
+            <count>1</count>
+            <text>Dr. Harold Masursky</text>
+            <disambiguated>
+                <name>Harold Masursky</name>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Harold_Masursky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mnf5</freebase>
+                <yago>http://yago-knowledge.org/resource/Harold_Masursky</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23765</relevance>
+            <count>2</count>
+            <text>Missile Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237366</relevance>
+            <count>2</count>
+            <text>Sam B. Williams</text>
+            <disambiguated>
+                <name>Sam B. Williams</name>
+                <subType>AwardWinner</subType>
+                <subType>CompanyFounder</subType>
+                <subType>HallOfFameInductee</subType>
+                <subType>Inventor</subType>
+                <dbpedia>http://dbpedia.org/resource/Sam_B._Williams</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03c46sj</freebase>
+                <yago>http://yago-knowledge.org/resource/Sam_B._Williams</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237094</relevance>
+            <count>2</count>
+            <text>Robert J. Hermann</text>
+            <disambiguated>
+                <name>Robert J. Hermann</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_J._Hermann</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07sb2y2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.235768</relevance>
+            <count>1</count>
+            <text>editor</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.234348</relevance>
+            <count>1</count>
+            <text>media coverage</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.234158</relevance>
+            <count>1</count>
+            <text>American Airlines</text>
+            <disambiguated>
+                <name>American Airlines</name>
+                <subType>Airline</subType>
+                <website>http://www.aa.com/</website>
+                <dbpedia>http://dbpedia.org/resource/American_Airlines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0z07</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1WypwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/American_Airlines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.23346</relevance>
+            <count>1</count>
+            <text>Jupiter..</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.271122</relevance>
+            <relevance>0.231764</relevance>
             <count>2</count>
             <text>Philippines</text>
             <disambiguated>
@@ -380,136 +565,31 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.265312</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.231231</relevance>
             <count>1</count>
-            <text>Washington</text>
+            <text>Cape Canaveral</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.25569</relevance>
-            <count>2</count>
-            <text>Pratt &amp; Whitney</text>
-            <disambiguated>
-                <name>Pratt &amp; Whitney</name>
-                <subType>CompanyDivision</subType>
-                <subType>RocketEngineDesigner</subType>
-                <website>http://www.pw.utc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
-                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.255288</relevance>
-            <count>1</count>
-            <text>Dr. Harold Masursky</text>
-            <disambiguated>
-                <name>Harold Masursky</name>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Harold_Masursky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mnf5</freebase>
-                <yago>http://yago-knowledge.org/resource/Harold_Masursky</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.25409</relevance>
-            <count>1</count>
-            <text>Dr. Richard T. Whitcomb</text>
-            <disambiguated>
-                <name>Richard T. Whitcomb</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_T._Whitcomb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01rrq3</freebase>
-                <yago>http://yago-knowledge.org/resource/Richard_T._Whitcomb</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.25383</relevance>
-            <count>2</count>
-            <text>Robert J. Hermann</text>
-            <disambiguated>
-                <name>Robert J. Hermann</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_J._Hermann</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07sb2y2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251351</relevance>
-            <count>1</count>
-            <text>North American Aircraft Division</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.250608</relevance>
-            <count>1</count>
-            <text>Newsreview</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.248915</relevance>
-            <count>1</count>
-            <text>Chicago</text>
-            <disambiguated>
-                <name>Chicago</name>
-                <website>http://www.cityofchicago.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
-                <yago>http://yago-knowledge.org/resource/Chicago</yago>
-                <geonames>http://sws.geonames.org/4887398/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243506</relevance>
-            <count>1</count>
-            <text>ARC</text>
-            <disambiguated>
-                <name>National Archives and Records Administration</name>
+                <name>Cape Canaveral</name>
                 <subType>Location</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>HistoricPlace</subType>
-                <website>http://www.archives.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Archives_and_Records_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j97p</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.241657</relevance>
-            <count>1</count>
-            <text>American Airlines</text>
-            <disambiguated>
-                <name>American Airlines</name>
-                <subType>Airline</subType>
-                <website>http://www.aa.com/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Airlines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0z07</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1WypwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/American_Airlines</yago>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.238721</relevance>
+            <relevance>0.230237</relevance>
+            <count>1</count>
+            <text>Nieil</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.229965</relevance>
             <count>1</count>
             <text>President Carter</text>
             <disambiguated>
@@ -530,14 +610,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.238485</relevance>
-            <count>1</count>
-            <text>Dr. Alvin Seiff</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.236801</relevance>
+            <relevance>0.229448</relevance>
             <count>1</count>
             <text>San Francisco Bay</text>
             <disambiguated>
@@ -549,130 +623,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.06ptx</freebase>
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVjlbZwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/San_Francisco_Bay</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.236105</relevance>
-            <count>1</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Spirit AeroSystems</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.spiritaero.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
-                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.235965</relevance>
-            <count>1</count>
-            <text>Logan International Airport</text>
-            <disambiguated>
-                <name>Logan International Airport</name>
-                <subType>Location</subType>
-                <subType>TransportTerminus</subType>
-                <subType>Airport</subType>
-                <geo>42.363055555555555 -71.00638888888889</geo>
-                <website>http://www.massport.com/logan/</website>
-                <dbpedia>http://dbpedia.org/resource/Logan_International_Airport</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01f07x</freebase>
-                <yago>http://yago-knowledge.org/resource/Logan_International_Airport</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.235487</relevance>
-            <count>1</count>
-            <text>Salt Lake City</text>
-            <disambiguated>
-                <name>Salt Lake City</name>
-                <geo>40.75 -111.88333333333334</geo>
-                <website>http://www.slcgov.com</website>
-                <dbpedia>http://dbpedia.org/resource/Salt_Lake_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2r6</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.23342</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell Collins</name>
-                <website>http://www.rockwellcollins.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.23323</relevance>
-            <count>1</count>
-            <text>D.C.</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.232981</relevance>
-            <count>1</count>
-            <text>Utah</text>
-            <disambiguated>
-                <name>Utah</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.utah.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Utah</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07srw</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViOO5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Utah</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.231761</relevance>
-            <count>2</count>
-            <text>The Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.231731</relevance>
-            <count>1</count>
-            <text>Maurice Baker</text>
-            <disambiguated>
-                <name>Maurice Baker</name>
-                <subType>Athlete</subType>
-                <subType>BasketballPlayer</subType>
-                <dbpedia>http://dbpedia.org/resource/Maurice_Baker</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.082s5l</freebase>
-                <yago>http://yago-knowledge.org/resource/Maurice_Baker</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.231607</relevance>
-            <count>1</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
     </entities>

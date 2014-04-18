@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.830101</relevance>
+            <relevance>0.944108</relevance>
             <count>34</count>
             <text>Mars</text>
             <disambiguated>
@@ -22,7 +22,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.390006</relevance>
+            <relevance>0.477458</relevance>
             <count>18</count>
             <text>NASA</text>
             <disambiguated>
@@ -44,13 +44,13 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.349272</relevance>
+            <relevance>0.375034</relevance>
             <count>3</count>
             <text>Mars surface</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.267138</relevance>
+            <relevance>0.296456</relevance>
             <count>9</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -64,8 +64,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.293459</relevance>
+            <count>1</count>
+            <text>Mars landing</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.249285</relevance>
+            <relevance>0.281192</relevance>
             <count>5</count>
             <text>JPL</text>
             <disambiguated>
@@ -80,20 +86,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.238903</relevance>
-            <count>1</count>
-            <text>Mars landing</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.199758</relevance>
-            <count>3</count>
-            <text>Moscow</text>
+            <type>PrintMedia</type>
+            <relevance>0.27364</relevance>
+            <count>4</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.189182</relevance>
+            <relevance>0.226057</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -112,57 +125,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.188383</relevance>
-            <count>3</count>
-            <text>Washington Evening Star</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.183716</relevance>
-            <count>4</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.176473</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.171828</relevance>
-            <count>2</count>
-            <text>dot Joint Parachute Test Facility</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.171677</relevance>
+            <relevance>0.222009</relevance>
             <count>3</count>
-            <text>Moons</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.171401</relevance>
-            <count>2</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.169549</relevance>
+            <relevance>0.218506</relevance>
+            <count>3</count>
+            <text>Washington Evening Star</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.217805</relevance>
+            <count>3</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.200581</relevance>
             <count>2</count>
             <text>Baltimore Sun</text>
             <disambiguated>
@@ -176,40 +158,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.168971</relevance>
-            <count>1</count>
-            <text>Mariner</text>
+            <type>Person</type>
+            <relevance>0.19922</relevance>
+            <count>2</count>
+            <text>Dr. Harold Masursky</text>
+            <disambiguated>
+                <name>Harold Masursky</name>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Harold_Masursky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mnf5</freebase>
+                <yago>http://yago-knowledge.org/resource/Harold_Masursky</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.166339</relevance>
+            <relevance>0.19729</relevance>
             <count>2</count>
             <text>carbon dioxide</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.165572</relevance>
+            <type>Facility</type>
+            <relevance>0.19644</relevance>
             <count>2</count>
-            <text>Dr. Bradford A. Smith</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.16336</relevance>
-            <count>2</count>
-            <text>El Centro</text>
-            <disambiguated>
-                <name>El Centro, California</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>32.79194444444445 -115.56305555555555</geo>
-                <dbpedia>http://dbpedia.org/resource/El_Centro,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qzq8</freebase>
-                <yago>http://yago-knowledge.org/resource/El_Centro,_California</yago>
-            </disambiguated>
+            <text>dot Joint Parachute Test Facility</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.158633</relevance>
+            <relevance>0.193466</relevance>
             <count>2</count>
             <text>LA Times</text>
             <disambiguated>
@@ -225,58 +200,111 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.192264</relevance>
+            <count>1</count>
+            <text>Martian plateau</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.157896</relevance>
+            <relevance>0.187892</relevance>
+            <count>1</count>
+            <text>Mariner</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.186757</relevance>
+            <count>2</count>
+            <text>El Centro</text>
+            <disambiguated>
+                <name>El Centro, California</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>32.79194444444445 -115.56305555555555</geo>
+                <dbpedia>http://dbpedia.org/resource/El_Centro,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0qzq8</freebase>
+                <yago>http://yago-knowledge.org/resource/El_Centro,_California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.186291</relevance>
+            <count>2</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.186062</relevance>
+            <count>2</count>
+            <text>Periapsis</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.183022</relevance>
+            <count>1</count>
+            <text>Centaur</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.180093</relevance>
             <count>2</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.157564</relevance>
+            <relevance>0.179861</relevance>
             <count>1</count>
-            <text>Tass</text>
+            <text>Pasadena</text>
             <disambiguated>
-                <name>Tass, Hungary</name>
-                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
-                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.156812</relevance>
-            <count>1</count>
-            <text>Litton Industries</text>
-            <disambiguated>
-                <name>Litton Industries</name>
-                <dbpedia>http://dbpedia.org/resource/Litton_Industries</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02v3pg</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv89XNJwpEbGdrcN5Y29ycA</opencyc>
+                <name>Pasadena, California</name>
+                <subType>AdministrativeDivision</subType>
+                <geo>34.15611111111111 -118.13194444444444</geo>
+                <website>http://www.cityofpasadena.net/</website>
+                <dbpedia>http://dbpedia.org/resource/Pasadena,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mzww</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/pasadena</census>
+                <yago>http://yago-knowledge.org/resource/Pasadena,_California</yago>
+                <geonames>http://sws.geonames.org/5381396/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.155972</relevance>
+            <relevance>0.178313</relevance>
             <count>2</count>
             <text>Calif</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.14945</relevance>
+            <type>City</type>
+            <relevance>0.173184</relevance>
             <count>1</count>
-            <text>United Press International</text>
+            <text>Phoenicis Lacus</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.171048</relevance>
+            <count>3</count>
+            <text>Moons</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.165492</relevance>
+            <count>1</count>
+            <text>Dr. James B. Pollack</text>
             <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+                <name>James B. Pollack</name>
+                <dbpedia>http://dbpedia.org/resource/James_B._Pollack</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03xbzt</freebase>
+                <yago>http://yago-knowledge.org/resource/James_B._Pollack</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.164997</relevance>
+            <count>2</count>
+            <text>Dr. Bradford A. Smith</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.147524</relevance>
+            <relevance>0.164478</relevance>
             <count>1</count>
             <text>Alps</text>
             <disambiguated>
@@ -290,63 +318,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.147026</relevance>
+            <type>Person</type>
+            <relevance>0.161974</relevance>
             <count>1</count>
-            <text>Viking lander</text>
+            <text>landers</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.145066</relevance>
-            <count>1</count>
-            <text>Phaetonis</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.144632</relevance>
-            <count>1</count>
-            <text>Hanna Reitsch</text>
-            <disambiguated>
-                <name>Hanna Reitsch</name>
-                <dbpedia>http://dbpedia.org/resource/Hanna_Reitsch</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.019bsx</freebase>
-                <yago>http://yago-knowledge.org/resource/Hanna_Reitsch</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.144582</relevance>
-            <count>2</count>
-            <text>Dr. Harold Masursky</text>
-            <disambiguated>
-                <name>Harold Masursky</name>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Harold_Masursky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mnf5</freebase>
-                <yago>http://yago-knowledge.org/resource/Harold_Masursky</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.144544</relevance>
-            <count>1</count>
-            <text>Dr. I. A. Zhulin</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.144455</relevance>
-            <count>1</count>
-            <text>Government Electronics Div.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.143915</relevance>
-            <count>2</count>
-            <text>Periapsis</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.143791</relevance>
+            <relevance>0.160222</relevance>
             <count>1</count>
             <text>Birmingham</text>
             <disambiguated>
@@ -363,19 +342,27 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.143664</relevance>
+            <relevance>0.157604</relevance>
             <count>1</count>
-            <text>Motorola, Inc.</text>
+            <text>United Press International</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.142983</relevance>
+            <relevance>0.154228</relevance>
             <count>1</count>
-            <text>Control Systems Div.</text>
+            <text>NASA Deputy Associate Administrator for Planning</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.142644</relevance>
+            <relevance>0.153649</relevance>
             <count>2</count>
             <text>Dr. Norman H. Horowitz</text>
             <disambiguated>
@@ -385,20 +372,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.140744</relevance>
+            <type>Company</type>
+            <relevance>0.152775</relevance>
             <count>1</count>
-            <text>Dr. James B. Pollack</text>
-            <disambiguated>
-                <name>James B. Pollack</name>
-                <dbpedia>http://dbpedia.org/resource/James_B._Pollack</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03xbzt</freebase>
-                <yago>http://yago-knowledge.org/resource/James_B._Pollack</yago>
-            </disambiguated>
+            <text>NYT</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.140084</relevance>
+            <relevance>0.152279</relevance>
             <count>1</count>
             <text>National Academy of Science</text>
             <disambiguated>
@@ -408,31 +389,50 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.139156</relevance>
+            <type>Organization</type>
+            <relevance>0.152193</relevance>
             <count>1</count>
-            <text>NASA Deputy Associate Administrator for Planning</text>
+            <text>New Mexico State Univ.</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.138431</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.15184</relevance>
             <count>1</count>
-            <text>Pasadena</text>
+            <text>scientific equipment.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.151411</relevance>
+            <count>1</count>
+            <text>Scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.150934</relevance>
+            <count>1</count>
+            <text>Hanna Reitsch</text>
             <disambiguated>
-                <name>Pasadena, California</name>
-                <subType>AdministrativeDivision</subType>
-                <geo>34.15611111111111 -118.13194444444444</geo>
-                <website>http://www.cityofpasadena.net/</website>
-                <dbpedia>http://dbpedia.org/resource/Pasadena,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mzww</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/pasadena</census>
-                <yago>http://yago-knowledge.org/resource/Pasadena,_California</yago>
-                <geonames>http://sws.geonames.org/5381396/</geonames>
+                <name>Hanna Reitsch</name>
+                <dbpedia>http://dbpedia.org/resource/Hanna_Reitsch</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.019bsx</freebase>
+                <yago>http://yago-knowledge.org/resource/Hanna_Reitsch</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.150076</relevance>
+            <count>1</count>
+            <text>Tharsis</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.150046</relevance>
+            <count>1</count>
+            <text>Sullivan</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.136617</relevance>
+            <relevance>0.149131</relevance>
             <count>1</count>
             <text>Nazi Germany</text>
             <disambiguated>
@@ -443,14 +443,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.134952</relevance>
-            <count>1</count>
-            <text>Tharsis</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.133967</relevance>
+            <relevance>0.14892</relevance>
             <count>1</count>
             <text>Dr. Wernher von Braun</text>
             <disambiguated>
@@ -467,8 +461,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.14721</relevance>
+            <count>1</count>
+            <text>Univ. of Colorado</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.14569</relevance>
+            <count>1</count>
+            <text>Phaetonis</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.145601</relevance>
+            <count>1</count>
+            <text>TRW Inc</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.144745</relevance>
+            <count>1</count>
+            <text>Steve Korn</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.133287</relevance>
+            <relevance>0.142957</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -479,36 +497,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
                 <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.132026</relevance>
-            <count>1</count>
-            <text>Centaur</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.131799</relevance>
-            <count>1</count>
-            <text>landers</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.130272</relevance>
-            <count>1</count>
-            <text>Martian plateau</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.12918</relevance>
-            <count>1</count>
-            <text>scientific equipment.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.129148</relevance>
-            <count>1</count>
-            <text>New Mexico State Univ.</text>
         </entity>
     </entities>
 </results>

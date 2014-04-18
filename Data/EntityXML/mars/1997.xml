@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.862178</relevance>
+            <relevance>0.912342</relevance>
             <count>28</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.50246</relevance>
+            <relevance>0.441056</relevance>
             <count>7</count>
             <text>Pathfinder</text>
             <disambiguated>
@@ -39,26 +39,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.404952</relevance>
-            <count>2</count>
-            <text>Mars Global Surveyor</text>
-        </entity>
-        <entity>
             <type>Automobile</type>
-            <relevance>0.348461</relevance>
+            <relevance>0.399327</relevance>
             <count>3</count>
             <text>Pathfinder</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.361658</relevance>
+            <count>2</count>
+            <text>Mars Global Surveyor</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.261266</relevance>
+            <relevance>0.302368</relevance>
             <count>4</count>
             <text>Red Planet</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.220375</relevance>
+            <relevance>0.28295</relevance>
             <count>5</count>
             <text>JPL</text>
             <disambiguated>
@@ -74,7 +74,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.218619</relevance>
+            <relevance>0.209907</relevance>
             <count>4</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -89,25 +89,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.207141</relevance>
+            <relevance>0.206376</relevance>
             <count>2</count>
             <text>Sojourner</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.1924</relevance>
-            <count>1</count>
-            <text>Surveyor Craft</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.186712</relevance>
+            <relevance>0.20077</relevance>
             <count>2</count>
             <text>Project Manager</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.182814</relevance>
+            <relevance>0.191909</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -127,21 +121,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.181699</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.180778</relevance>
+            <relevance>0.184193</relevance>
             <count>2</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -158,7 +138,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.179216</relevance>
+            <relevance>0.176125</relevance>
+            <count>1</count>
+            <text>Brian Muirhead</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.174249</relevance>
             <count>2</count>
             <text>John Noble Wilford</text>
             <disambiguated>
@@ -171,7 +157,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.17416</relevance>
+            <relevance>0.169328</relevance>
             <count>2</count>
             <text>New York Times</text>
             <disambiguated>
@@ -189,8 +175,76 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.168713</relevance>
+            <count>1</count>
+            <text>Yemen</text>
+            <disambiguated>
+                <name>Yemen</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>15.0 48.0</geo>
+                <dbpedia>http://dbpedia.org/resource/Yemen</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Yemen</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.01z88t</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPbFVJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Yemen</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.167418</relevance>
+            <count>1</count>
+            <text>Surveyor Craft</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.160407</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.160218</relevance>
+            <count>2</count>
+            <text>DARTS</text>
+            <disambiguated>
+                <name>Darts (band)</name>
+                <subType>MusicalGroup</subType>
+                <subType>MusicalArtist</subType>
+                <website>http://www.amazingdarts.com</website>
+                <dbpedia>http://dbpedia.org/resource/Darts_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cdl88</freebase>
+                <yago>http://yago-knowledge.org/resource/Darts_(band)</yago>
+                <musicBrainz>http://zitgist.com/music/artist/a43a7299-7cc5-4d75-8451-485cc600437e</musicBrainz>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.160028</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.171571</relevance>
+            <relevance>0.159719</relevance>
             <count>1</count>
             <text>Pacific Missile Range Facility</text>
             <disambiguated>
@@ -205,8 +259,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.156867</relevance>
+            <count>1</count>
+            <text>Ambassador David G. Newton</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.167623</relevance>
+            <relevance>0.156046</relevance>
             <count>1</count>
             <text>U.S. Navy</text>
             <disambiguated>
@@ -220,14 +280,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.167344</relevance>
-            <count>1</count>
-            <text>Kathy Sawyer</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.166701</relevance>
+            <relevance>0.155181</relevance>
             <count>1</count>
             <text>Hawaii</text>
             <disambiguated>
@@ -247,75 +301,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.164806</relevance>
-            <count>2</count>
-            <text>DARTS</text>
-            <disambiguated>
-                <name>Darts (band)</name>
-                <subType>MusicalGroup</subType>
-                <subType>MusicalArtist</subType>
-                <website>http://www.amazingdarts.com</website>
-                <dbpedia>http://dbpedia.org/resource/Darts_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cdl88</freebase>
-                <yago>http://yago-knowledge.org/resource/Darts_(band)</yago>
-                <musicBrainz>http://zitgist.com/music/artist/a43a7299-7cc5-4d75-8451-485cc600437e</musicBrainz>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.159781</relevance>
-            <count>1</count>
-            <text>Yemen</text>
-            <disambiguated>
-                <name>Yemen</name>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>15.0 48.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Yemen</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Yemen</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.01z88t</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPbFVJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Yemen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.158156</relevance>
-            <count>1</count>
-            <text>Environmental Research Aircraft</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.157961</relevance>
-            <count>1</count>
-            <text>Brian Muirhead</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.157796</relevance>
+            <relevance>0.153074</relevance>
             <count>1</count>
             <text>Fiscal Year</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.157175</relevance>
-            <count>1</count>
-            <text>Aviation Week</text>
-            <disambiguated>
-                <name>Aviation Week &amp; Space Technology</name>
-                <subType>ConsumerProduct</subType>
-                <subType>Magazine</subType>
-                <website>http://www.aviationweek.com</website>
-                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
-                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.155098</relevance>
+            <relevance>0.150671</relevance>
             <count>1</count>
             <text>DC</text>
             <disambiguated>
@@ -336,76 +329,83 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.154263</relevance>
-            <count>1</count>
-            <text>Kauai</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.15172</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.151537</relevance>
+            <relevance>0.146777</relevance>
             <count>1</count>
             <text>Los Angeles Daily News</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.147767</relevance>
+            <type>Organization</type>
+            <relevance>0.145876</relevance>
             <count>1</count>
-            <text>Ambassador David G. Newton</text>
+            <text>Environmental Research Aircraft</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.146691</relevance>
+            <relevance>0.145656</relevance>
+            <count>1</count>
+            <text>Kathy Sawyer</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.145506</relevance>
+            <count>1</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.142591</relevance>
+            <count>1</count>
+            <text>Kauai</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.14208</relevance>
             <count>1</count>
             <text>Abhinandan Jain</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.145534</relevance>
-            <count>1</count>
-            <text>Michael A. Dornheim</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.145345</relevance>
-            <count>1</count>
-            <text>Sensor Technology Alliance</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.143644</relevance>
+            <relevance>0.139136</relevance>
             <count>1</count>
             <text>Tony Knight</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.141117</relevance>
+            <relevance>0.136678</relevance>
             <count>1</count>
             <text>President</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.127895</relevance>
+            <relevance>0.13363</relevance>
+            <count>1</count>
+            <text>Michael A. Dornheim</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.133479</relevance>
+            <count>1</count>
+            <text>Sensor Technology Alliance</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.123411</relevance>
             <count>1</count>
             <text>Guy K. Man</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.124249</relevance>
+            <relevance>0.119631</relevance>
             <count>1</count>
             <text>Guillermo Rodriguez</text>
         </entity>

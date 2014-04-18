@@ -6,20 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Company</type>
-            <relevance>0.841148</relevance>
-            <count>7</count>
+            <type>Organization</type>
+            <relevance>0.760501</relevance>
+            <count>8</count>
             <text>MSFC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.607634</relevance>
-            <count>5</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.570326</relevance>
+            <relevance>0.642788</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -40,14 +34,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.514284</relevance>
+            <count>4</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.484352</relevance>
+            <relevance>0.475916</relevance>
             <count>4</count>
             <text>Wallops Flight Center</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.401276</relevance>
+            <relevance>0.4689</relevance>
             <count>6</count>
             <text>U.S.</text>
             <disambiguated>
@@ -67,19 +67,13 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.363609</relevance>
+            <relevance>0.355348</relevance>
             <count>3</count>
             <text>Akademik Korolev</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.353032</relevance>
-            <count>3</count>
-            <text>KSC</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.343808</relevance>
+            <relevance>0.342599</relevance>
             <count>2</count>
             <text>Wallops Island</text>
             <disambiguated>
@@ -94,26 +88,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.316016</relevance>
-            <count>3</count>
-            <text>Bob Everette</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.311129</relevance>
-            <count>1</count>
-            <text>Rocket Center</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.307934</relevance>
+            <relevance>0.315728</relevance>
             <count>1</count>
             <text>USAF Rocket Propulsion Laboratory</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.314907</relevance>
+            <count>3</count>
+            <text>Bob Everette</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.306686</relevance>
+            <relevance>0.314143</relevance>
             <count>3</count>
             <text>USSR</text>
             <disambiguated>
@@ -128,22 +116,30 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.294671</relevance>
-            <count>2</count>
-            <text>Navy</text>
+            <relevance>0.313232</relevance>
+            <count>3</count>
+            <text>KSC</text>
             <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+                <name>Keene State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.92777777777778 -72.2786111111111</geo>
+                <website>http://www.keene.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
+                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.311206</relevance>
+            <count>1</count>
+            <text>Rocket Center</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.29428</relevance>
+            <relevance>0.274548</relevance>
             <count>2</count>
             <text>Virginia</text>
             <disambiguated>
@@ -161,25 +157,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.291108</relevance>
-            <count>3</count>
-            <text>Delta</text>
-            <disambiguated>
-                <name>Delta Electric Company</name>
-                <dbpedia>http://dbpedia.org/resource/Delta_Electric_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cnxt2s</freebase>
-            </disambiguated>
+            <type>JobTitle</type>
+            <relevance>0.267563</relevance>
+            <count>1</count>
+            <text>Test manager</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.266948</relevance>
+            <count>1</count>
+            <text>Assateague Natl</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.287403</relevance>
+            <relevance>0.262413</relevance>
             <count>1</count>
-            <text>Wallops</text>
+            <text>Martin Marietta Aerospace</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.25947</relevance>
+            <count>1</count>
+            <text>Chuck Verschoore</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.282859</relevance>
+            <relevance>0.258288</relevance>
             <count>1</count>
             <text>Kourou</text>
             <disambiguated>
@@ -191,72 +194,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.269557</relevance>
-            <count>1</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.268762</relevance>
-            <count>1</count>
-            <text>Test manager</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.268147</relevance>
-            <count>1</count>
-            <text>Assateague Natl</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.264694</relevance>
-            <count>2</count>
-            <text>Intelsat</text>
-            <disambiguated>
-                <name>Intelsat</name>
-                <geo>38.94166666666667 -77.06361111111111</geo>
-                <website>http://www.intelsat.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Intelsat</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03zz2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv5KRrpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Intelsat</yago>
-                <crunchbase>http://www.crunchbase.com/company/intelsat</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.254034</relevance>
+            <relevance>0.252725</relevance>
             <count>2</count>
             <text>Altas Centaur</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.252779</relevance>
+            <type>City</type>
+            <relevance>0.250951</relevance>
             <count>1</count>
-            <text>French Guiana</text>
+            <text>Michoud</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.247902</relevance>
-            <count>1</count>
-            <text>SPAR III</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.246463</relevance>
-            <count>1</count>
-            <text>Hydromet</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.241504</relevance>
-            <count>1</count>
-            <text>Royce Mitchell</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.24025</relevance>
+            <relevance>0.249982</relevance>
             <count>1</count>
             <text>Teledyne</text>
             <disambiguated>
@@ -270,38 +221,53 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.238473</relevance>
+            <relevance>0.246684</relevance>
             <count>1</count>
-            <text>Pioneer Parachute Co.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.236795</relevance>
-            <count>1</count>
-            <text>ESA</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
+            <text>SPAR III</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.236657</relevance>
+            <relevance>0.246304</relevance>
             <count>2</count>
             <text>LeRC</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.244881</relevance>
+            <count>1</count>
+            <text>engineer</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.2417</relevance>
+            <count>1</count>
+            <text>Wallops</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.237286</relevance>
+            <count>1</count>
+            <text>Pioneer Parachute Co.</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.235435</relevance>
+            <count>1</count>
+            <text>Huntsville</text>
+            <disambiguated>
+                <name>Huntsville, Alabama</name>
+                <geo>34.7 -86.58333333333333</geo>
+                <website>http://www.hsvcity.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
+                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
+                <geonames>http://sws.geonames.org/4068590/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.236205</relevance>
+            <relevance>0.235068</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
             <disambiguated>
@@ -318,7 +284,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.236118</relevance>
+            <relevance>0.234954</relevance>
             <count>1</count>
             <text>SPAR</text>
             <disambiguated>
@@ -330,101 +296,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.235379</relevance>
-            <count>1</count>
-            <text>Huntsville</text>
-            <disambiguated>
-                <name>Huntsville, Alabama</name>
-                <geo>34.7 -86.58333333333333</geo>
-                <website>http://www.hsvcity.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
-                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
-                <geonames>http://sws.geonames.org/4068590/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.232557</relevance>
-            <count>1</count>
-            <text>Battelle Memorial Institute</text>
-            <disambiguated>
-                <name>Battelle Memorial Institute</name>
-                <website>http://www.battelle.org</website>
-                <dbpedia>http://dbpedia.org/resource/Battelle_Memorial_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02m9dl</freebase>
-                <yago>http://yago-knowledge.org/resource/Battelle_Memorial_Institute</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.231291</relevance>
-            <count>1</count>
-            <text>Atlas Centaur</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.229144</relevance>
-            <count>1</count>
-            <text>Teterboro</text>
-            <disambiguated>
-                <name>Teterboro, New Jersey</name>
-                <geo>40.853723 -74.059872</geo>
-                <website>http://www.teterboro-online.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Teterboro,_New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.010c_y</freebase>
-                <yago>http://yago-knowledge.org/resource/Teterboro,_New_Jersey</yago>
-                <geonames>http://sws.geonames.org/5105333/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.229119</relevance>
-            <count>1</count>
-            <text>Port Everglades</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227906</relevance>
-            <count>1</count>
-            <text>Atmospheric Administration</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.226989</relevance>
-            <count>1</count>
-            <text>Chincoteague Natl</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.224564</relevance>
-            <count>1</count>
-            <text>N.J.</text>
-            <disambiguated>
-                <name>New Jersey</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nj.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.224233</relevance>
-            <count>1</count>
-            <text>Capt. Oleg Rostovsev</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.223747</relevance>
+            <relevance>0.233112</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -445,42 +318,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.223532</relevance>
-            <count>1</count>
-            <text>U.S. Booster, Inc.</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.223247</relevance>
+            <relevance>0.232862</relevance>
             <count>2</count>
             <text>Northridge</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.221928</relevance>
+            <type>Organization</type>
+            <relevance>0.231501</relevance>
             <count>1</count>
-            <text>Naval Ocean Systems Center</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.221898</relevance>
-            <count>1</count>
-            <text>Pocomoke City</text>
+            <text>Battelle Memorial Institute</text>
             <disambiguated>
-                <name>Pocomoke City, Maryland</name>
-                <geo>38.068888888888885 -75.56166666666667</geo>
-                <website>http://www.cityofpocomoke.com</website>
-                <dbpedia>http://dbpedia.org/resource/Pocomoke_City,_Maryland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0txvm</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/md/counties/worcester_county/district_1__pocomoke/pocomoke_city</census>
-                <yago>http://yago-knowledge.org/resource/Pocomoke_City,_Maryland</yago>
-                <geonames>http://sws.geonames.org/4365766/</geonames>
+                <name>Battelle Memorial Institute</name>
+                <website>http://www.battelle.org</website>
+                <dbpedia>http://dbpedia.org/resource/Battelle_Memorial_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02m9dl</freebase>
+                <yago>http://yago-knowledge.org/resource/Battelle_Memorial_Institute</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.221074</relevance>
+            <relevance>0.23044</relevance>
             <count>1</count>
             <text>Fla.</text>
             <disambiguated>
@@ -499,8 +357,29 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.230044</relevance>
+            <count>1</count>
+            <text>U.S. Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.230016</relevance>
+            <count>1</count>
+            <text>Atlas Centaur</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.219404</relevance>
+            <relevance>0.228533</relevance>
             <count>1</count>
             <text>Denver</text>
             <disambiguated>
@@ -515,15 +394,107 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.219179</relevance>
+            <relevance>0.228167</relevance>
+            <count>3</count>
+            <text>Delta</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.228166</relevance>
             <count>1</count>
-            <text>Tokyo Kyodo</text>
+            <text>French Guiana</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.218938</relevance>
+            <relevance>0.226864</relevance>
             <count>1</count>
-            <text>Institute of Space</text>
+            <text>Atmospheric Administration</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.226829</relevance>
+            <count>1</count>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.225771</relevance>
+            <count>1</count>
+            <text>Chincoteague Natl</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224699</relevance>
+            <count>1</count>
+            <text>Navy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.224163</relevance>
+            <count>1</count>
+            <text>Capt. Oleg Rostovsev</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.22242</relevance>
+            <count>1</count>
+            <text>U.S. Booster, Inc.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.221951</relevance>
+            <count>2</count>
+            <text>Intelsat</text>
+            <disambiguated>
+                <name>Intelsat</name>
+                <geo>38.94166666666667 -77.06361111111111</geo>
+                <website>http://www.intelsat.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Intelsat</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03zz2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv5KRrpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Intelsat</yago>
+                <crunchbase>http://www.crunchbase.com/company/intelsat</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.22183</relevance>
+            <count>1</count>
+            <text>Pocomoke City</text>
+            <disambiguated>
+                <name>Pocomoke City, Maryland</name>
+                <geo>38.068888888888885 -75.56166666666667</geo>
+                <website>http://www.cityofpocomoke.com</website>
+                <dbpedia>http://dbpedia.org/resource/Pocomoke_City,_Maryland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0txvm</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/md/counties/worcester_county/district_1__pocomoke/pocomoke_city</census>
+                <yago>http://yago-knowledge.org/resource/Pocomoke_City,_Maryland</yago>
+                <geonames>http://sws.geonames.org/4365766/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.221657</relevance>
+            <count>1</count>
+            <text>Teledyne Industries, Inc.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.22157</relevance>
+            <count>1</count>
+            <text>Hydromet</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.220824</relevance>
+            <count>1</count>
+            <text>Naval Ocean Systems Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219684</relevance>
+            <count>1</count>
+            <text>Royce Mitchell</text>
         </entity>
     </entities>
 </results>

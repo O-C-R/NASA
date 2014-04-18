@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.758298</relevance>
+            <relevance>0.767904</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,31 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.618572</relevance>
+            <relevance>0.678126</relevance>
             <count>1</count>
             <text>Associate Administrator for NASA&#x2019;s Space Science Enterprise</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.615787</relevance>
+            <count>3</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.554513</relevance>
+            <count>3</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.540369</relevance>
+            <count>1</count>
+            <text>Director of NASA&#x2019;s GSFC</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.584782</relevance>
+            <relevance>0.537792</relevance>
             <count>3</count>
             <text>Edward J. Weiler</text>
             <disambiguated>
@@ -46,37 +64,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.515257</relevance>
+            <relevance>0.531468</relevance>
             <count>3</count>
             <text>Alphonso V. Diaz</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.491006</relevance>
-            <count>1</count>
-            <text>Director of NASA&#x2019;s GSFC</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.46168</relevance>
-            <count>3</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.43259</relevance>
-            <count>3</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.418543</relevance>
+            <relevance>0.501562</relevance>
             <count>2</count>
             <text>ISS</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.353185</relevance>
+            <relevance>0.468835</relevance>
             <count>2</count>
             <text>California Institute of Technology</text>
             <disambiguated>
@@ -96,7 +96,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.350161</relevance>
+            <relevance>0.419623</relevance>
             <count>2</count>
             <text>E. Michael Fincke</text>
             <disambiguated>
@@ -110,44 +110,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.341383</relevance>
-            <count>1</count>
-            <text>NASA History Division</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.331094</relevance>
-            <count>1</count>
-            <text>NASA Center Directors</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.329606</relevance>
-            <count>2</count>
-            <text>Gennady I. Padalka</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.306031</relevance>
-            <count>1</count>
-            <text>Director of GSFC</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.298954</relevance>
-            <count>1</count>
-            <text>Oort Cloud</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.283486</relevance>
-            <count>1</count>
-            <text>Samuel Oschin Telescope</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.282671</relevance>
+            <relevance>0.408007</relevance>
             <count>1</count>
             <text>Michael E. Brown</text>
             <disambiguated>
@@ -159,20 +123,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.281226</relevance>
+            <type>Organization</type>
+            <relevance>0.405431</relevance>
             <count>1</count>
-            <text>Chief Scientist</text>
+            <text>NASA History Division</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.393384</relevance>
+            <count>2</count>
+            <text>Gennady I. Padalka</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.272952</relevance>
+            <relevance>0.392181</relevance>
             <count>1</count>
-            <text>Science Mission Directorate</text>
+            <text>NASA Center Directors</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.37173</relevance>
+            <count>1</count>
+            <text>Oort Cloud</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.364349</relevance>
+            <count>1</count>
+            <text>Director of GSFC</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.352254</relevance>
+            <count>1</count>
+            <text>Samuel Oschin Telescope</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.264239</relevance>
+            <relevance>0.328486</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -188,20 +176,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.324844</relevance>
+            <count>1</count>
+            <text>Science Mission Directorate</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.308377</relevance>
+            <count>1</count>
+            <text>Chief Scientist</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.246035</relevance>
+            <relevance>0.305622</relevance>
             <count>1</count>
             <text>Thomas H. Maugh II</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.233709</relevance>
+            <relevance>0.290318</relevance>
             <count>1</count>
             <text>Palomar Observatory.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.220627</relevance>
+            <relevance>0.258737</relevance>
             <count>1</count>
             <text>International Space Station</text>
         </entity>

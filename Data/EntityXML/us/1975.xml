@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.814959</relevance>
+            <relevance>0.801349</relevance>
             <count>12</count>
             <text>Air Force</text>
             <disambiguated>
@@ -19,8 +19,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.670698</relevance>
-            <count>11</count>
+            <relevance>0.642432</relevance>
+            <count>13</count>
             <text>AFSC</text>
             <disambiguated>
                 <name>American Friends Service Committee</name>
@@ -34,7 +34,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.58413</relevance>
+            <relevance>0.520193</relevance>
             <count>12</count>
             <text>NASA</text>
             <disambiguated>
@@ -56,7 +56,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.49166</relevance>
+            <relevance>0.484539</relevance>
             <count>9</count>
             <text>U.S.</text>
             <disambiguated>
@@ -76,8 +76,25 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.440812</relevance>
-            <count>4</count>
+            <relevance>0.462114</relevance>
+            <count>8</count>
+            <text>National Science Foundation</text>
+            <disambiguated>
+                <name>National Science Foundation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AcademicInstitution</subType>
+                <website>http://www.nsf.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.409033</relevance>
+            <count>3</count>
             <text>Air Force Systems Command</text>
             <disambiguated>
                 <name>Air Force Systems Command</name>
@@ -89,7 +106,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.417648</relevance>
+            <relevance>0.405075</relevance>
             <count>2</count>
             <text>U.S. Air Force</text>
             <disambiguated>
@@ -106,7 +123,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.406298</relevance>
+            <relevance>0.394705</relevance>
             <count>2</count>
             <text>Air Force Flight Test Center</text>
             <disambiguated>
@@ -121,31 +138,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.386652</relevance>
-            <count>8</count>
-            <text>National Science Foundation</text>
+            <type>City</type>
+            <relevance>0.382392</relevance>
+            <count>4</count>
+            <text>Washington</text>
             <disambiguated>
-                <name>National Science Foundation</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AcademicInstitution</subType>
-                <website>http://www.nsf.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.354706</relevance>
+            <type>Organization</type>
+            <relevance>0.372091</relevance>
+            <count>2</count>
+            <text>Air Force Systems Command Newsreview</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.370819</relevance>
             <count>1</count>
-            <text>Royal Air Force</text>
+            <text>Air Force Flight Test Center</text>
+            <disambiguated>
+                <name>Air Force Flight Test Center</name>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Flight_Test_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05c62wz</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.345067</relevance>
+            <relevance>0.342722</relevance>
             <count>3</count>
             <text>McDonnell Douglas Corp.</text>
             <disambiguated>
@@ -160,73 +191,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.340725</relevance>
-            <count>4</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.340543</relevance>
-            <count>6</count>
-            <text>Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.338276</relevance>
-            <count>1</count>
-            <text>Air Force Flight Test Center</text>
-            <disambiguated>
-                <name>Air Force Flight Test Center</name>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Flight_Test_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05c62wz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.333601</relevance>
-            <count>1</count>
-            <text>Vandenberg Air Force Base</text>
-            <disambiguated>
-                <name>Vandenberg Air Force Base</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Spaceport</subType>
-                <geo>34.72972222222222 -120.57694444444445</geo>
-                <website>http://www.vandenberg.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
-                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/6301743/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.333426</relevance>
+            <relevance>0.338496</relevance>
             <count>4</count>
             <text>New York City</text>
             <disambiguated>
@@ -246,13 +212,53 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.327284</relevance>
-            <count>2</count>
-            <text>Air Force Systems Command Newsreview</text>
+            <relevance>0.334983</relevance>
+            <count>6</count>
+            <text>Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.333033</relevance>
+            <count>1</count>
+            <text>Air Force Systems Command&#x2019;s Newsreview</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.326879</relevance>
+            <count>1</count>
+            <text>Vandenberg Air Force Base</text>
+            <disambiguated>
+                <name>Vandenberg Air Force Base</name>
+                <subType>Location</subType>
+                <subType>Airport</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Spaceport</subType>
+                <geo>34.72972222222222 -120.57694444444445</geo>
+                <website>http://www.vandenberg.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
+                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
+                <geonames>http://sws.geonames.org/6301743/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.325561</relevance>
+            <count>1</count>
+            <text>Edwards Air Force</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.315535</relevance>
+            <relevance>0.32339</relevance>
             <count>3</count>
             <text>Los Angeles</text>
             <disambiguated>
@@ -269,14 +275,59 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.311511</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.316129</relevance>
+            <count>3</count>
+            <text>D.C.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.307308</relevance>
+            <count>2</count>
+            <text>RPV</text>
+            <disambiguated>
+                <name>Republican Party of Virginia</name>
+                <subType>PoliticalParty</subType>
+                <website>http://www.rpv.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Republican_Party_of_Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.087z0r</freebase>
+                <yago>http://yago-knowledge.org/resource/Republican_Party_of_Virginia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.302219</relevance>
+            <count>4</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.300447</relevance>
             <count>1</count>
-            <text>Edwards Air Force</text>
+            <text>Air Force System Command&#x2019;s Materials Laboratory</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.299453</relevance>
+            <count>1</count>
+            <text>Royal Air Force</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.309508</relevance>
+            <relevance>0.298355</relevance>
             <count>2</count>
             <text>Europe</text>
             <disambiguated>
@@ -287,33 +338,154 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.297973</relevance>
+            <count>1</count>
+            <text>Air Force Systems</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.292072</relevance>
+            <count>3</count>
+            <text>Aero Co.</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.291011</relevance>
+            <count>1</count>
+            <text>Vandenberg Air Force Base.</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.307508</relevance>
-            <count>4</count>
-            <text>Washington</text>
+            <relevance>0.287824</relevance>
+            <count>2</count>
+            <text>Chicago</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.285206</relevance>
+            <count>2</count>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.284963</relevance>
+            <count>3</count>
+            <text>Star</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.281601</relevance>
+            <count>1</count>
+            <text>Air Force Avionics Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.280808</relevance>
+            <count>2</count>
+            <text>Department of Defense</text>
+            <disambiguated>
+                <name>United States Department of Defense</name>
+                <subType>ArmedForce</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.defenselink.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.299347</relevance>
-            <count>3</count>
+            <relevance>0.280102</relevance>
+            <count>2</count>
+            <text>Dr. James R. Schlesinger</text>
+            <disambiguated>
+                <name>James R. Schlesinger</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/James_R._Schlesinger</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sx5q</freebase>
+                <yago>http://yago-knowledge.org/resource/James_R._Schlesinger</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.278754</relevance>
+            <count>2</count>
             <text>Newsreview</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.277597</relevance>
+            <count>2</count>
+            <text>JSC</text>
+            <disambiguated>
+                <name>Joint-stock company</name>
+                <dbpedia>http://dbpedia.org/resource/Joint-stock_company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_jrm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.270529</relevance>
+            <count>2</count>
+            <text>Presidents Truman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.269529</relevance>
+            <count>2</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265176</relevance>
+            <count>1</count>
+            <text>Johnson Space Center</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.262567</relevance>
+            <count>2</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.261806</relevance>
+            <count>1</count>
+            <text>Houston</text>
+            <disambiguated>
+                <name>Houston</name>
+                <website>http://www.houstontx.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.297739</relevance>
+            <relevance>0.261434</relevance>
             <count>2</count>
             <text>Hawaii</text>
             <disambiguated>
@@ -333,222 +505,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.295505</relevance>
-            <count>1</count>
-            <text>Air Force System Command&#x2019;s Materials Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.290734</relevance>
-            <count>2</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.28841</relevance>
-            <count>2</count>
-            <text>RPV</text>
-            <disambiguated>
-                <name>Republican Party of Virginia</name>
-                <subType>PoliticalParty</subType>
-                <website>http://www.rpv.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Republican_Party_of_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.087z0r</freebase>
-                <yago>http://yago-knowledge.org/resource/Republican_Party_of_Virginia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.287235</relevance>
-            <count>1</count>
-            <text>Air Force Avionics Laboratory</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.286329</relevance>
-            <count>3</count>
-            <text>dirigibles</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.285554</relevance>
-            <count>1</count>
-            <text>Vandenberg Air Force Base.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.282157</relevance>
-            <count>2</count>
-            <text>Avionics Lab</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.281883</relevance>
-            <count>3</count>
-            <text>Aero Co.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.279167</relevance>
-            <count>1</count>
-            <text>Newsweek</text>
-            <disambiguated>
-                <name>Newsweek</name>
-                <subType>Magazine</subType>
-                <website>http://www.newsweek.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Newsweek</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fcfs</freebase>
-                <yago>http://yago-knowledge.org/resource/Newsweek</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.277038</relevance>
-            <count>2</count>
-            <text>Chicago</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.275195</relevance>
-            <count>3</count>
-            <text>D.C.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.272805</relevance>
-            <count>1</count>
-            <text>Air Force Systems</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.270857</relevance>
-            <count>2</count>
-            <text>Dr. James R. Schlesinger</text>
-            <disambiguated>
-                <name>James R. Schlesinger</name>
-                <subType>Politician</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/James_R._Schlesinger</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sx5q</freebase>
-                <yago>http://yago-knowledge.org/resource/James_R._Schlesinger</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.270465</relevance>
-            <count>2</count>
-            <text>Presidents Truman</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.269739</relevance>
-            <count>1</count>
-            <text>Shell Oil Co.</text>
-            <disambiguated>
-                <name>Shell Oil Company</name>
-                <website>http://www.shell.us</website>
-                <dbpedia>http://dbpedia.org/resource/Shell_Oil_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025t626</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rviD0NZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Shell_Oil_Company</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.268123</relevance>
-            <count>3</count>
-            <text>Johnson Space Center</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.265313</relevance>
-            <count>1</count>
-            <text>Mauna Kea</text>
-            <disambiguated>
-                <name>Mauna Kea</name>
-                <subType>Location</subType>
-                <subType>Mountain</subType>
-                <geo>19.820663888888888 -155.46806666666666</geo>
-                <dbpedia>http://dbpedia.org/resource/Mauna_Kea</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01njpr</freebase>
-                <yago>http://yago-knowledge.org/resource/Mauna_Kea</yago>
-                <geonames>http://sws.geonames.org/5850911/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.265221</relevance>
-            <count>1</count>
-            <text>Hawaii Island</text>
-            <disambiguated>
-                <name>Hawaii (island)</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>19.566666666666666 -155.5</geo>
-                <dbpedia>http://dbpedia.org/resource/Hawaii_(island)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jbt3</freebase>
-                <yago>http://yago-knowledge.org/resource/Hawaii_(island)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.264469</relevance>
-            <count>1</count>
-            <text>FY1977</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.26163</relevance>
-            <count>1</count>
-            <text>energy crisis</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.260758</relevance>
-            <count>2</count>
-            <text>Newsweek</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.260369</relevance>
-            <count>1</count>
-            <text>Air Force Systems Command&#x2019;s Newsreview</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.260277</relevance>
+            <relevance>0.260341</relevance>
             <count>2</count>
             <text>chairman</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.259747</relevance>
+            <type>Person</type>
+            <relevance>0.258854</relevance>
             <count>1</count>
-            <text>Smithsonian Institution&#x2019;s National Air and Space Museum</text>
+            <text>Scott Aviation</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.256923</relevance>
+            <relevance>0.25828</relevance>
             <count>2</count>
             <text>Boeing</text>
             <disambiguated>
@@ -566,41 +536,46 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.25807</relevance>
+            <count>2</count>
+            <text>Atlanta</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.25689</relevance>
+            <relevance>0.257941</relevance>
             <count>2</count>
             <text>scientist</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.255384</relevance>
+            <type>City</type>
+            <relevance>0.257426</relevance>
             <count>1</count>
-            <text>President Ford</text>
+            <text>Boston</text>
             <disambiguated>
-                <name>Gerald Ford</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>Appointee</subType>
-                <subType>AwardWinner</subType>
-                <subType>FootballPlayer</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Gerald_Ford</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c_md_</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUV5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Gerald_Ford</yago>
+                <name>Boston</name>
+                <website>http://www.cityofboston.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.254356</relevance>
+            <type>City</type>
+            <relevance>0.252908</relevance>
             <count>2</count>
-            <text>Department of Defense</text>
+            <text>San Francisco</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.25253</relevance>
+            <count>1</count>
+            <text>Rockwell International Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.249287</relevance>
+            <count>1</count>
+            <text>Boeing Aerospace Co.</text>
         </entity>
     </entities>
 </results>

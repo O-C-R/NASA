@@ -7,19 +7,19 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.854967</relevance>
+            <relevance>0.853064</relevance>
             <count>7</count>
             <text>Maj. Yuri A. Gagarin</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.400477</relevance>
+            <relevance>0.388782</relevance>
             <count>4</count>
             <text>Premier Khrushchev</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.396238</relevance>
+            <relevance>0.345183</relevance>
             <count>1</count>
             <text>Gagarin</text>
             <disambiguated>
@@ -30,46 +30,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.282203</relevance>
-            <count>2</count>
-            <text>consul general</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.276883</relevance>
-            <count>1</count>
-            <text>National Aeronautics and Space Council</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.255997</relevance>
-            <count>2</count>
-            <text>Vice Adm. William F. Raborn</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.248414</relevance>
-            <count>2</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240226</relevance>
+            <relevance>0.302321</relevance>
             <count>2</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -85,39 +47,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.236712</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences</text>
-            <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.23659</relevance>
-            <count>2</count>
-            <text>Robert J. Collier</text>
-            <disambiguated>
-                <name>Robert J. Collier</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_J._Collier</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026qsfc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.236339</relevance>
-            <count>2</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224467</relevance>
+            <relevance>0.27178</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -139,7 +69,42 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.220194</relevance>
+            <relevance>0.267935</relevance>
+            <count>1</count>
+            <text>National Aeronautics and Space Council</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.262446</relevance>
+            <count>2</count>
+            <text>Vice Adm. William F. Raborn</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.257183</relevance>
+            <count>2</count>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.25169</relevance>
+            <count>2</count>
+            <text>consul general</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.241998</relevance>
+            <count>2</count>
+            <text>Robert J. Collier</text>
+            <disambiguated>
+                <name>Robert J. Collier</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_J._Collier</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026qsfc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.235225</relevance>
             <count>1</count>
             <text>United Nations</text>
             <disambiguated>
@@ -150,36 +115,62 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.211091</relevance>
-            <count>1</count>
-            <text>Istanbul</text>
-            <disambiguated>
-                <name>Istanbul</name>
-                <subType>OlympicBiddingCity</subType>
-                <geo>41.01224 28.976018</geo>
-                <website>http://english.istanbul.gov.tr/</website>
-                <dbpedia>http://dbpedia.org/resource/Istanbul</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09949m</freebase>
-                <yago>http://yago-knowledge.org/resource/Istanbul</yago>
-                <geonames>http://sws.geonames.org/745044/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.209271</relevance>
+            <relevance>0.229138</relevance>
             <count>2</count>
             <text>Edwards</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.205961</relevance>
+            <type>Organization</type>
+            <relevance>0.227603</relevance>
             <count>1</count>
-            <text>Vostok</text>
+            <text>Soviet Academy of Sciences</text>
+            <disambiguated>
+                <name>Russian Academy of Sciences</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>55.710794444444446 37.57781388888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.214411</relevance>
+            <count>2</count>
+            <text>United States</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.204592</relevance>
+            <relevance>0.210885</relevance>
+            <count>1</count>
+            <text>Joseph Walker</text>
+            <disambiguated>
+                <name>Joseph Walker (cinematographer)</name>
+                <subType>FilmCinematographer</subType>
+                <subType>FilmEditor</subType>
+                <dbpedia>http://dbpedia.org/resource/Joseph_Walker_(cinematographer)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07khdp4</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.19973</relevance>
             <count>2</count>
             <text>C. L. Sulzberger</text>
             <disambiguated>
@@ -189,14 +180,63 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.197677</relevance>
+            <count>1</count>
+            <text>National Aeronautic Association</text>
+            <disambiguated>
+                <name>National Aeronautic Association</name>
+                <dbpedia>http://dbpedia.org/resource/National_Aeronautic_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042yzw</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Aeronautic_Association</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.196893</relevance>
+            <count>1</count>
+            <text>Vostok</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.194082</relevance>
+            <count>1</count>
+            <text>United Nations Conference</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.197183</relevance>
+            <relevance>0.189643</relevance>
+            <count>1</count>
+            <text>John B. McKay</text>
+            <disambiguated>
+                <name>John B. McKay</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/John_B._McKay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042z67</freebase>
+                <yago>http://yago-knowledge.org/resource/John_B._McKay</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.185971</relevance>
             <count>1</count>
             <text>Shepard</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.181979</relevance>
+            <count>1</count>
+            <text>Dr. John P. Hagen</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.178318</relevance>
+            <count>2</count>
+            <text>Jr.</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.190184</relevance>
+            <relevance>0.177631</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -214,39 +254,24 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.186985</relevance>
+            <type>City</type>
+            <relevance>0.177323</relevance>
             <count>1</count>
-            <text>Milliyet</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.185497</relevance>
-            <count>1</count>
-            <text>Joseph Walker</text>
+            <text>Istanbul</text>
             <disambiguated>
-                <name>Joseph Walker (cinematographer)</name>
-                <subType>FilmCinematographer</subType>
-                <subType>FilmEditor</subType>
-                <dbpedia>http://dbpedia.org/resource/Joseph_Walker_(cinematographer)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07khdp4</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.183867</relevance>
-            <count>1</count>
-            <text>National Aeronautic Association</text>
-            <disambiguated>
-                <name>National Aeronautic Association</name>
-                <dbpedia>http://dbpedia.org/resource/National_Aeronautic_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042yzw</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Aeronautic_Association</yago>
+                <name>Istanbul</name>
+                <subType>OlympicBiddingCity</subType>
+                <geo>41.01224 28.976018</geo>
+                <website>http://english.istanbul.gov.tr/</website>
+                <dbpedia>http://dbpedia.org/resource/Istanbul</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09949m</freebase>
+                <yago>http://yago-knowledge.org/resource/Istanbul</yago>
+                <geonames>http://sws.geonames.org/745044/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.178515</relevance>
+            <relevance>0.174783</relevance>
             <count>1</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -273,51 +298,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.178264</relevance>
+            <type>City</type>
+            <relevance>0.171856</relevance>
             <count>1</count>
-            <text>United Nations Conference</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.176236</relevance>
-            <count>1</count>
-            <text>John B. McKay</text>
-            <disambiguated>
-                <name>John B. McKay</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/John_B._McKay</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042z67</freebase>
-                <yago>http://yago-knowledge.org/resource/John_B._McKay</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.173933</relevance>
-            <count>2</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.170863</relevance>
-            <count>1</count>
-            <text>Executive Secretary</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.169016</relevance>
-            <count>1</count>
-            <text>Dr. Edward C. Welsh</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.168446</relevance>
-            <count>1</count>
-            <text>Dr. John P. Hagen</text>
+            <text>Red Square</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.165462</relevance>
+            <relevance>0.168968</relevance>
             <count>1</count>
             <text>Moscow</text>
             <disambiguated>
@@ -334,22 +322,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.165056</relevance>
+            <type>JobTitle</type>
+            <relevance>0.165345</relevance>
             <count>1</count>
-            <text>Maj. Gherman S. Titov</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.160639</relevance>
-            <count>1</count>
-            <text>Red Square</text>
+            <text>Executive Secretary</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.15149</relevance>
+            <relevance>0.164143</relevance>
             <count>1</count>
             <text>Office of International Programs.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.163562</relevance>
+            <count>1</count>
+            <text>Dr. Edward C. Welsh</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.160993</relevance>
+            <count>1</count>
+            <text>Milliyet</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.15196</relevance>
+            <count>1</count>
+            <text>Maj. Gherman S. Titov.</text>
         </entity>
     </entities>
 </results>

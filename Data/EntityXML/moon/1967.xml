@@ -7,9 +7,9 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.921142</relevance>
-            <count>75</count>
-            <text>nasa</text>
+            <relevance>0.916122</relevance>
+            <count>73</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -28,8 +28,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.613639</relevance>
+            <count>19</count>
+            <text>Apollo</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.589124</relevance>
+            <relevance>0.587353</relevance>
             <count>24</count>
             <text>New York Times</text>
             <disambiguated>
@@ -48,47 +54,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.562692</relevance>
-            <count>20</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.50008</relevance>
+            <relevance>0.568806</relevance>
             <count>6</count>
             <text>Lunar Orbiter</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.488986</relevance>
-            <count>9</count>
-            <text>Apollo Applications</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.429299</relevance>
+            <relevance>0.451321</relevance>
             <count>3</count>
             <text>Apollo Lunar Module</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.41848</relevance>
-            <count>6</count>
-            <text>JPL</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
+            <type>PrintMedia</type>
+            <relevance>0.415277</relevance>
+            <count>10</count>
+            <text>W Post</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.414688</relevance>
+            <relevance>0.407574</relevance>
             <count>17</count>
             <text>U.S.</text>
             <disambiguated>
@@ -107,57 +91,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.381596</relevance>
-            <count>10</count>
-            <text>W Post</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.335054</relevance>
+            <relevance>0.395039</relevance>
+            <count>9</count>
+            <text>Apollo Applications</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.368627</relevance>
             <count>7</count>
-            <text>Boeing Co.</text>
+            <text>JPL</text>
             <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.327177</relevance>
-            <count>4</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.326089</relevance>
-            <count>3</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
+                <name>Jet Propulsion Laboratory</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.322202</relevance>
+            <relevance>0.35981</relevance>
             <count>4</count>
-            <text>ksc</text>
+            <text>KSC</text>
             <disambiguated>
                 <name>Kennedy Space Center</name>
                 <subType>Location</subType>
@@ -173,21 +132,41 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.320516</relevance>
-            <count>5</count>
-            <text>Msc</text>
+            <relevance>0.335454</relevance>
+            <count>2</count>
+            <text>Lunar Modules</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.329751</relevance>
+            <count>3</count>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>MSC Software</name>
-                <website>http://www.mscsoftware.com/</website>
-                <dbpedia>http://dbpedia.org/resource/MSC_Software</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b34wb</freebase>
-                <yago>http://yago-knowledge.org/resource/MSC_Software</yago>
-                <crunchbase>http://www.crunchbase.com/company/msc-software</crunchbase>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.324343</relevance>
+            <count>5</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.320332</relevance>
+            <relevance>0.320767</relevance>
+            <count>5</count>
+            <text>Msc</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.315789</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -209,43 +188,32 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.311033</relevance>
-            <count>2</count>
-            <text>Lunar Modules</text>
+            <relevance>0.314751</relevance>
+            <count>7</count>
+            <text>Boeing Co.</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.304088</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.300131</relevance>
             <count>1</count>
-            <text>Lunar Orbiters</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.297761</relevance>
-            <count>3</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.286174</relevance>
-            <count>3</count>
-            <text>Grumman Aircraft Engineering Corp.</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.284346</relevance>
-            <count>2</count>
-            <text>msc Release</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.281308</relevance>
-            <count>3</count>
-            <text>Review Board</text>
+            <text>Lunar Test Article</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.271077</relevance>
+            <relevance>0.294802</relevance>
             <count>4</count>
             <text>Board</text>
             <disambiguated>
@@ -257,32 +225,132 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.269122</relevance>
+            <type>Company</type>
+            <relevance>0.283649</relevance>
             <count>1</count>
-            <text>Lunar Test Article</text>
+            <text>NASA Hq.</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.26631</relevance>
+            <type>JobTitle</type>
+            <relevance>0.283212</relevance>
             <count>1</count>
-            <text>Apollo Telescope Mount</text>
+            <text>Apollo Program Director</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.266302</relevance>
-            <count>2</count>
-            <text>Marshall Star</text>
+            <type>Organization</type>
+            <relevance>0.280616</relevance>
+            <count>3</count>
+            <text>Congress</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.280421</relevance>
+            <count>1</count>
+            <text>Apollo</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.26074</relevance>
+            <relevance>0.273596</relevance>
+            <count>3</count>
+            <text>Grumman Aircraft Engineering Corp.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.273514</relevance>
+            <count>4</count>
+            <text>Review Board</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.268039</relevance>
             <count>2</count>
-            <text>NYT</text>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.267698</relevance>
+            <count>2</count>
+            <text>Deputy Director George M. Low</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.267052</relevance>
+            <count>1</count>
+            <text>nasa Proj Water</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.26381</relevance>
+            <count>1</count>
+            <text>Rep. Olin Teague</text>
+            <disambiguated>
+                <name>Olin E. Teague</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Olin_E._Teague</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f3t2w</freebase>
+                <yago>http://yago-knowledge.org/resource/Olin_E._Teague</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.26285</relevance>
+            <count>3</count>
+            <text>Professor Leonid Sedov</text>
+            <disambiguated>
+                <name>Leonid I. Sedov</name>
+                <dbpedia>http://dbpedia.org/resource/Leonid_I._Sedov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fs5gy</freebase>
+                <yago>http://yago-knowledge.org/resource/Leonid_I._Sedov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.260401</relevance>
+            <count>1</count>
+            <text>msc Release</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.260344</relevance>
+            <count>1</count>
+            <text>Rep. Delbert L. Latta</text>
+            <disambiguated>
+                <name>Del Latta</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Del_Latta</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07g57t</freebase>
+                <yago>http://yago-knowledge.org/resource/Del_Latta</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.25919</relevance>
+            <count>1</count>
+            <text>Bay of Lunar Landing.</text>
+        </entity>
+        <entity>
+            <type>HealthCondition</type>
+            <relevance>0.258833</relevance>
+            <count>1</count>
+            <text>heart disease</text>
+            <disambiguated>
+                <name>Cardiovascular disease</name>
+                <subType>Disease</subType>
+                <dbpedia>http://dbpedia.org/resource/Cardiovascular_disease</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02k6hp</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.257987</relevance>
+            <count>1</count>
+            <text>Apollo Spacecraft Program Office</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.259005</relevance>
+            <relevance>0.25751</relevance>
             <count>3</count>
             <text>New York</text>
             <disambiguated>
@@ -301,188 +369,116 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.258565</relevance>
-            <count>3</count>
-            <text>Professor Leonid Sedov</text>
-            <disambiguated>
-                <name>Leonid I. Sedov</name>
-                <dbpedia>http://dbpedia.org/resource/Leonid_I._Sedov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fs5gy</freebase>
-                <yago>http://yago-knowledge.org/resource/Leonid_I._Sedov</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.25774</relevance>
-            <count>2</count>
-            <text>engineer</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.254958</relevance>
-            <count>2</count>
-            <text>Clark</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.254552</relevance>
-            <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.254449</relevance>
-            <count>3</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
+            <type>GeographicFeature</type>
+            <relevance>0.255616</relevance>
+            <count>1</count>
+            <text>Lunar Orbiters</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.254129</relevance>
+            <relevance>0.254848</relevance>
+            <count>2</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.254366</relevance>
             <count>1</count>
-            <text>Northrop Ventura Co.</text>
+            <text>Soviet Union.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.252966</relevance>
-            <count>1</count>
-            <text>Northrop</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.252526</relevance>
+            <relevance>0.253981</relevance>
             <count>2</count>
-            <text>professor</text>
+            <text>Marshall Star</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.251805</relevance>
-            <count>1</count>
-            <text>usgs Release</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.251585</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.249587</relevance>
             <count>2</count>
-            <text>President</text>
+            <text>prime contractor</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.249525</relevance>
+            <count>3</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.24905</relevance>
+            <count>1</count>
+            <text>Ukrainian Academy of Sciences</text>
+            <disambiguated>
+                <name>National Academy of Sciences of Ukraine</name>
+                <geo>50.44488611111111 30.512519444444443</geo>
+                <website>http://www.nas.gov.ua/en/Pages/default.aspx</website>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences_of_Ukraine</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.070mbl</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.250874</relevance>
-            <count>2</count>
-            <text>Cape Kennedy</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.250722</relevance>
-            <count>1</count>
-            <text>Surtsey</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.250571</relevance>
-            <count>1</count>
-            <text>Apollo Spacecraft Program Office</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.250318</relevance>
-            <count>2</count>
-            <text>Leonard D. Jaffe</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.249534</relevance>
-            <count>3</count>
-            <text>Feliks Zigel</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.249324</relevance>
-            <count>1</count>
-            <text>nasa Hq.</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.248301</relevance>
-            <count>1</count>
-            <text>Iceland</text>
-            <disambiguated>
-                <name>Iceland</name>
-                <subType>Location</subType>
-                <subType>GeographicFeature</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Island</subType>
-                <dbpedia>http://dbpedia.org/resource/Iceland</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Iceland</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03rj0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViKbpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Iceland</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.247368</relevance>
-            <count>1</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.247102</relevance>
-            <count>1</count>
-            <text>Allis-Chalmers Manufacturing Co.</text>
-            <disambiguated>
-                <name>Allis-Chalmers</name>
-                <dbpedia>http://dbpedia.org/resource/Allis-Chalmers</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03p1fq2</freebase>
-                <yago>http://yago-knowledge.org/resource/Allis-Chalmers</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244644</relevance>
-            <count>3</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.244087</relevance>
+            <relevance>0.248836</relevance>
             <count>1</count>
             <text>Surveyor V</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.243099</relevance>
+            <type>JobTitle</type>
+            <relevance>0.248718</relevance>
+            <count>1</count>
+            <text>Orbiter Project Manager</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.248143</relevance>
+            <count>1</count>
+            <text>Pulkovo Observatory</text>
+            <disambiguated>
+                <name>Pulkovo Observatory</name>
+                <geo>59.77166666666667 30.32611111111111</geo>
+                <website>http://www.gao.spb.ru/english/</website>
+                <dbpedia>http://dbpedia.org/resource/Pulkovo_Observatory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03wjcm</freebase>
+                <yago>http://yago-knowledge.org/resource/Pulkovo_Observatory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.247619</relevance>
             <count>2</count>
-            <text>Deputy Director George M. Low</text>
+            <text>Washington Evening Star</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.246588</relevance>
+            <count>2</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.246355</relevance>
+            <count>1</count>
+            <text>Harold Masursky</text>
+            <disambiguated>
+                <name>Harold Masursky</name>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Harold_Masursky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mnf5</freebase>
+                <yago>http://yago-knowledge.org/resource/Harold_Masursky</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.242272</relevance>
+            <relevance>0.246213</relevance>
             <count>2</count>
             <text>msc Roundup</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.245003</relevance>
+            <count>1</count>
+            <text>nasa Hq.</text>
         </entity>
     </entities>
 </results>

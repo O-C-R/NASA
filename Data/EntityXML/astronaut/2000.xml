@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.76362</relevance>
+            <relevance>0.784625</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,20 +28,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.655682</relevance>
-            <count>2</count>
-            <text>Shuttle Endeavour</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.512131</relevance>
-            <count>1</count>
-            <text>Shuttle Radar Topography Mission</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.458557</relevance>
+            <relevance>0.540651</relevance>
             <count>4</count>
             <text>Eugene M. Shoemaker</text>
             <disambiguated>
@@ -57,22 +45,19 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.4088</relevance>
-            <count>3</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
+            <relevance>0.433861</relevance>
+            <count>2</count>
+            <text>Shuttle Endeavour</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.391538</relevance>
+            <count>1</count>
+            <text>Shuttle Radar Topography Mission</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.404522</relevance>
+            <relevance>0.323618</relevance>
             <count>1</count>
             <text>Sally K. Ride</text>
             <disambiguated>
@@ -86,13 +71,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.395248</relevance>
+            <relevance>0.316198</relevance>
             <count>1</count>
             <text>President of Space.com</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.392051</relevance>
+            <relevance>0.313641</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -111,8 +96,24 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.291434</relevance>
+            <count>1</count>
+            <text>Meteor Crater</text>
+            <disambiguated>
+                <name>Meteor Crater</name>
+                <subType>Location</subType>
+                <geo>35.02722222222222 -111.0225</geo>
+                <website>http://barringercrater.com</website>
+                <dbpedia>http://dbpedia.org/resource/Meteor_Crater</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fkpz</freebase>
+                <yago>http://yago-knowledge.org/resource/Meteor_Crater</yago>
+                <geonames>http://sws.geonames.org/5304575/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.362466</relevance>
+            <relevance>0.289973</relevance>
             <count>1</count>
             <text>Lou Dobbs</text>
             <disambiguated>
@@ -129,24 +130,36 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.353996</relevance>
-            <count>1</count>
-            <text>Meteor Crater</text>
+            <type>Company</type>
+            <relevance>0.285798</relevance>
+            <count>3</count>
+            <text>Associated Press</text>
             <disambiguated>
-                <name>Meteor Crater</name>
-                <subType>Location</subType>
-                <geo>35.02722222222222 -111.0225</geo>
-                <website>http://barringercrater.com</website>
-                <dbpedia>http://dbpedia.org/resource/Meteor_Crater</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fkpz</freebase>
-                <yago>http://yago-knowledge.org/resource/Meteor_Crater</yago>
-                <geonames>http://sws.geonames.org/5304575/</geonames>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.272498</relevance>
+            <count>2</count>
+            <text>ISS</text>
+            <disambiguated>
+                <name>School</name>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.34044</relevance>
+            <relevance>0.272352</relevance>
             <count>1</count>
             <text>CNN</text>
             <disambiguated>
@@ -162,14 +175,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.331334</relevance>
-            <count>2</count>
-            <text>ISS</text>
+            <type>JobTitle</type>
+            <relevance>0.262208</relevance>
+            <count>1</count>
+            <text>National Imagery and Mapping Agency</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.331157</relevance>
+            <relevance>0.261962</relevance>
             <count>1</count>
             <text>Lockheed Martin</text>
             <disambiguated>
@@ -186,32 +199,41 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.325335</relevance>
-            <count>1</count>
-            <text>Mission STS-99</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.325064</relevance>
+            <relevance>0.260051</relevance>
             <count>1</count>
             <text>founder</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.324104</relevance>
+            <relevance>0.259284</relevance>
             <count>1</count>
             <text>president</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.313231</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.254357</relevance>
             <count>1</count>
-            <text>National Imagery and Mapping Agency</text>
+            <text>Arizona</text>
+            <disambiguated>
+                <name>Arizona</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>34.0 -112.0</geo>
+                <website>http://www.az.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0vmt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMapwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az</census>
+                <yago>http://yago-knowledge.org/resource/Arizona</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.312577</relevance>
+            <relevance>0.250062</relevance>
             <count>1</count>
             <text>University of California</text>
             <disambiguated>
@@ -222,7 +244,13 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.307436</relevance>
+            <relevance>0.247634</relevance>
+            <count>1</count>
+            <text>Mission STS-99</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.245948</relevance>
             <count>1</count>
             <text>San Diego</text>
             <disambiguated>
@@ -233,8 +261,21 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.244232</relevance>
+            <count>1</count>
+            <text>Jeffrey N. Williams</text>
+            <disambiguated>
+                <name>Jeffrey Williams (astronaut)</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Jeffrey_Williams_(astronaut)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ff1n</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.306691</relevance>
+            <relevance>0.242677</relevance>
             <count>1</count>
             <text>New Orleans</text>
             <disambiguated>
@@ -248,40 +289,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.30151</relevance>
-            <count>1</count>
-            <text>Kevin R. Kregel</text>
-            <disambiguated>
-                <name>Kevin R. Kregel</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Kevin_R._Kregel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02w7db</freebase>
-                <yago>http://yago-knowledge.org/resource/Kevin_R._Kregel</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.29645</relevance>
-            <count>1</count>
-            <text>Jeffrey N. Williams</text>
-            <disambiguated>
-                <name>Jeffrey Williams (astronaut)</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Jeffrey_Williams_(astronaut)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ff1n</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.294457</relevance>
-            <count>1</count>
-            <text>Australia</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.291544</relevance>
+            <relevance>0.24088</relevance>
             <count>1</count>
             <text>James S. Voss</text>
             <disambiguated>
@@ -295,38 +303,27 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.286749</relevance>
+            <relevance>0.229939</relevance>
             <count>1</count>
-            <text>Janice E. Voss</text>
+            <text>Kevin R. Kregel</text>
             <disambiguated>
-                <name>Janice E. Voss</name>
+                <name>Kevin R. Kregel</name>
                 <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Janice_E._Voss</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02fd_w</freebase>
-                <yago>http://yago-knowledge.org/resource/Janice_E._Voss</yago>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Kevin_R._Kregel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02w7db</freebase>
+                <yago>http://yago-knowledge.org/resource/Kevin_R._Kregel</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.283473</relevance>
+            <type>Country</type>
+            <relevance>0.225819</relevance>
             <count>1</count>
-            <text>Arizona</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.279586</relevance>
-            <count>1</count>
-            <text>professor</text>
+            <text>Australia</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.273407</relevance>
-            <count>1</count>
-            <text>Bloomberg News</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.272246</relevance>
+            <relevance>0.224581</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -339,8 +336,45 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.223669</relevance>
+            <count>1</count>
+            <text>professor</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.218726</relevance>
+            <count>1</count>
+            <text>Bloomberg News</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.268558</relevance>
+            <relevance>0.217005</relevance>
+            <count>1</count>
+            <text>Janice E. Voss</text>
+            <disambiguated>
+                <name>Janice E. Voss</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Janice_E._Voss</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02fd_w</freebase>
+                <yago>http://yago-knowledge.org/resource/Janice_E._Voss</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.208688</relevance>
+            <count>1</count>
+            <text>Atlantis</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.206508</relevance>
+            <count>1</count>
+            <text>Michoud Assembly Facility</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.203232</relevance>
             <count>1</count>
             <text>Mamoru Mohri</text>
             <disambiguated>
@@ -353,7 +387,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.263298</relevance>
+            <relevance>0.199264</relevance>
             <count>1</count>
             <text>Janet L. Kavandi</text>
             <disambiguated>
@@ -365,26 +399,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.261658</relevance>
-            <count>1</count>
-            <text>Michoud Assembly Facility</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.260266</relevance>
+            <relevance>0.196339</relevance>
             <count>1</count>
             <text>Gerhard P. J. Thiele</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.252215</relevance>
-            <count>1</count>
-            <text>Atlantis</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.238025</relevance>
+            <relevance>0.178966</relevance>
             <count>1</count>
             <text>Dominic L. P. Gorie</text>
         </entity>

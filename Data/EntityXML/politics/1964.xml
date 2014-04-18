@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.817488</relevance>
-            <count>16</count>
+            <relevance>0.902027</relevance>
+            <count>18</count>
             <text>NASA</text>
             <disambiguated>
                 <name>Lyndon B. Johnson Space Center</name>
@@ -22,8 +22,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.789027</relevance>
-            <count>18</count>
+            <relevance>0.789923</relevance>
+            <count>16</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
                 <name>NASA</name>
@@ -43,8 +43,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.635192</relevance>
+            <count>4</count>
+            <text>House Committee on Science and Astronautics</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.54955</relevance>
+            <relevance>0.630845</relevance>
             <count>8</count>
             <text>NYT</text>
             <disambiguated>
@@ -63,19 +69,49 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.547582</relevance>
-            <count>4</count>
-            <text>House Committee on Science and Astronautics</text>
+            <relevance>0.589482</relevance>
+            <count>3</count>
+            <text>House Appropriations Committee</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.529313</relevance>
+            <count>5</count>
+            <text>Wash</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.507312</relevance>
+            <relevance>0.520717</relevance>
             <count>3</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
+            <text>House Committee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.51627</relevance>
+            <count>7</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.512</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Space Science</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.479445</relevance>
+            <count>7</count>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.469634</relevance>
+            <count>1</count>
+            <text>NASA Deputy Associate Administrator for Industry Affairs</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.493551</relevance>
+            <relevance>0.462786</relevance>
             <count>10</count>
             <text>U.S.</text>
             <disambiguated>
@@ -95,83 +131,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.477575</relevance>
+            <relevance>0.459046</relevance>
             <count>3</count>
-            <text>House Appropriations Committee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.457525</relevance>
-            <count>7</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.427644</relevance>
-            <count>7</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.427152</relevance>
-            <count>5</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.379814</relevance>
-            <count>1</count>
-            <text>NASA Deputy Associate Administrator for Industry Affairs</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.376465</relevance>
-            <count>1</count>
-            <text>NASA Manned Spacecraft Center</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.368369</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Space Science</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.368303</relevance>
-            <count>5</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.361569</relevance>
-            <count>3</count>
-            <text>House Committee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.361283</relevance>
-            <count>4</count>
-            <text>Secretary</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.329171</relevance>
-            <count>1</count>
-            <text>Space Committee</text>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.326228</relevance>
+            <relevance>0.422109</relevance>
             <count>3</count>
             <text>Senator Wayne L. Morse</text>
             <disambiguated>
@@ -186,50 +152,130 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.412682</relevance>
+            <count>4</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.320699</relevance>
-            <count>3</count>
-            <text>dod</text>
+            <relevance>0.400702</relevance>
+            <count>1</count>
+            <text>Space Committee</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.400565</relevance>
+            <count>1</count>
+            <text>NASA Manned Spacecraft Center</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.319549</relevance>
+            <relevance>0.395079</relevance>
             <count>3</count>
             <text>Finney</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.318451</relevance>
-            <count>1</count>
-            <text>Senate NASA</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.31237</relevance>
+            <relevance>0.392549</relevance>
             <count>2</count>
             <text>Senator Goldwater</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.299355</relevance>
+            <relevance>0.390536</relevance>
+            <count>1</count>
+            <text>Senate NASA</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.389524</relevance>
+            <count>3</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>Australian Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.aph.gov.au/Senate/index.htm</website>
+                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
+                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.383856</relevance>
+            <count>3</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.380439</relevance>
+            <count>2</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.37698</relevance>
             <count>1</count>
             <text>Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.294703</relevance>
+            <relevance>0.369641</relevance>
             <count>3</count>
             <text>President</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.367786</relevance>
+            <count>2</count>
+            <text>George Friedl</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.294231</relevance>
+            <relevance>0.361269</relevance>
             <count>1</count>
-            <text>Conference Committee</text>
+            <text>Council of Defense and Space Industry Associations</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.290941</relevance>
+            <relevance>0.360334</relevance>
+            <count>3</count>
+            <text>Rep. George P. Miller</text>
+            <disambiguated>
+                <name>George Paul Miller</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/George_Paul_Miller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rhgtc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.358513</relevance>
+            <count>1</count>
+            <text>House Committee on Armed Services</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.356433</relevance>
+            <count>1</count>
+            <text>House Committee on Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.352238</relevance>
             <count>2</count>
             <text>Senator Mike Monroney</text>
             <disambiguated>
@@ -242,115 +288,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.289735</relevance>
-            <count>3</count>
-            <text>Federal Aviation Agency</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.277948</relevance>
-            <count>1</count>
-            <text>House Committee on Armed Services</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.276021</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences</text>
-            <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.27432</relevance>
-            <count>3</count>
-            <text>Rep. George P. Miller</text>
+            <relevance>0.346439</relevance>
+            <count>1</count>
+            <text>Senator Claiborne Pell</text>
             <disambiguated>
-                <name>George Paul Miller</name>
+                <name>Claiborne Pell</name>
                 <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/George_Paul_Miller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rhgtc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.272516</relevance>
-            <count>2</count>
-            <text>Sen. Clinton P. Anderson</text>
-            <disambiguated>
-                <name>Clinton Presba Anderson</name>
-                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
                 <subType>Senator</subType>
                 <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Clinton_Presba_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pjjl</freebase>
-                <yago>http://yago-knowledge.org/resource/Clinton_Presba_Anderson</yago>
+                <dbpedia>http://dbpedia.org/resource/Claiborne_Pell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01s7lb</freebase>
+                <yago>http://yago-knowledge.org/resource/Claiborne_Pell</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.271843</relevance>
+            <type>Company</type>
+            <relevance>0.342783</relevance>
             <count>1</count>
-            <text>Vice President and General Manager</text>
+            <text>Douglas Aircraft Co.</text>
+            <disambiguated>
+                <name>Douglas Aircraft Company</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
+                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.269895</relevance>
+            <relevance>0.34219</relevance>
             <count>1</count>
             <text>Senate Committee</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.269814</relevance>
-            <count>1</count>
-            <text>Corporate Vice President</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.267951</relevance>
-            <count>2</count>
-            <text>Sen. Kenneth B. Keating</text>
-            <disambiguated>
-                <name>Kenneth Keating</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Kenneth_Keating</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.055v0m</freebase>
-                <yago>http://yago-knowledge.org/resource/Kenneth_Keating</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.267115</relevance>
-            <count>2</count>
-            <text>Cape Kennedy</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.266382</relevance>
-            <count>1</count>
-            <text>Vice president</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.265664</relevance>
+            <relevance>0.340761</relevance>
             <count>2</count>
             <text>Robert S. McNamara</text>
             <disambiguated>
@@ -367,140 +342,137 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.262556</relevance>
-            <count>2</count>
-            <text>Christopher C. Kraft</text>
-            <disambiguated>
-                <name>Christopher C. Kraft, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vcvg</freebase>
-                <yago>http://yago-knowledge.org/resource/Christopher_C._Kraft,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.261995</relevance>
+            <relevance>0.34071</relevance>
             <count>2</count>
             <text>General Manager</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.259727</relevance>
-            <count>1</count>
-            <text>Caspian Sea</text>
+            <type>Organization</type>
+            <relevance>0.33824</relevance>
+            <count>3</count>
+            <text>JPL</text>
             <disambiguated>
-                <name>Caspian Sea</name>
+                <name>Jet Propulsion Laboratory</name>
                 <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <subType>Lake</subType>
-                <geo>40.0 51.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Caspian_Sea</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mlk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjQE5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Caspian_Sea</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.25807</relevance>
-            <count>1</count>
-            <text>Assistant Director for Flight Operations</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.257766</relevance>
-            <count>1</count>
-            <text>Deputy Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.256698</relevance>
-            <count>1</count>
-            <text>Santa Ana</text>
-            <disambiguated>
-                <name>Santa Ana, California</name>
-                <geo>33.740833333333335 -117.88138888888889</geo>
-                <website>http://www.santa-ana.org</website>
-                <dbpedia>http://dbpedia.org/resource/Santa_Ana,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jbrr</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/orange_county/anaheim_santa_ana_garden_grove/santa_ana</census>
-                <yago>http://yago-knowledge.org/resource/Santa_Ana,_California</yago>
-                <geonames>http://sws.geonames.org/5392900/</geonames>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.255892</relevance>
+            <relevance>0.33544</relevance>
             <count>1</count>
             <text>Committee</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.255852</relevance>
-            <count>2</count>
-            <text>Howard Simons</text>
-            <disambiguated>
-                <name>Howard Simons</name>
-                <dbpedia>http://dbpedia.org/resource/Howard_Simons</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05qbfp</freebase>
-                <yago>http://yago-knowledge.org/resource/Howard_Simons</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.254837</relevance>
-            <count>2</count>
-            <text>George Friedl</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.254613</relevance>
+            <type>JobTitle</type>
+            <relevance>0.333611</relevance>
             <count>1</count>
-            <text>Washington Post</text>
+            <text>Corporate Vice President</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.332633</relevance>
+            <count>2</count>
+            <text>Cape Kennedy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.330635</relevance>
+            <count>1</count>
+            <text>Philip Bono</text>
             <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <name>Philip Bono</name>
+                <dbpedia>http://dbpedia.org/resource/Philip_Bono</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06jmgt</freebase>
+                <yago>http://yago-knowledge.org/resource/Philip_Bono</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.32893</relevance>
+            <count>2</count>
+            <text>Sen. Kenneth B. Keating</text>
+            <disambiguated>
+                <name>Kenneth Keating</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Kenneth_Keating</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.055v0m</freebase>
+                <yago>http://yago-knowledge.org/resource/Kenneth_Keating</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.324569</relevance>
+            <count>2</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.324534</relevance>
+            <count>1</count>
+            <text>Conference Committee</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.254124</relevance>
+            <relevance>0.323823</relevance>
             <count>1</count>
-            <text>Aerospace Corp.</text>
+            <text>Aerospace Industries Association</text>
             <disambiguated>
-                <name>The Aerospace Corporation</name>
-                <website>http://www.aero.org/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Aerospace_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07c5f4</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Aerospace_Corporation</yago>
+                <name>Aerospace Industries Association</name>
+                <website>http://www.aia-aerospace.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Aerospace_Industries_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07p20y</freebase>
+                <yago>http://yago-knowledge.org/resource/Aerospace_Industries_Association</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.25379</relevance>
+            <type>Organization</type>
+            <relevance>0.322431</relevance>
             <count>1</count>
-            <text>Calif.</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
+            <text>master association</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.321935</relevance>
+            <count>1</count>
+            <text>Ithacus</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.321189</relevance>
+            <count>1</count>
+            <text>aircraft carrier</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.318992</relevance>
+            <count>2</count>
+            <text>National Aeronautics</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.318722</relevance>
+            <count>1</count>
+            <text>Deputy Associate Administrator</text>
         </entity>
     </entities>
 </results>

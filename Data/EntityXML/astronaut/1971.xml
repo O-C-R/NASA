@@ -7,9 +7,9 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.890647</relevance>
+            <relevance>0.879991</relevance>
             <count>18</count>
-            <text>NASA</text>
+            <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -29,7 +29,18 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.451483</relevance>
+            <relevance>0.317192</relevance>
+            <count>3</count>
+            <text>Paul Sawyer</text>
+            <disambiguated>
+                <name>Paul Sawyer</name>
+                <dbpedia>http://dbpedia.org/resource/Paul_Sawyer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gmflf8</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.303886</relevance>
             <count>3</count>
             <text>James A. Lovell</text>
             <disambiguated>
@@ -45,38 +56,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.404798</relevance>
-            <count>1</count>
-            <text>Msc Release</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.386616</relevance>
-            <count>2</count>
-            <text>Ptolemy</text>
-            <disambiguated>
-                <name>Ptolemy</name>
-                <subType>Astronomer</subType>
-                <dbpedia>http://dbpedia.org/resource/Ptolemy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05_0t</freebase>
-                <yago>http://yago-knowledge.org/resource/Ptolemy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.371505</relevance>
-            <count>3</count>
-            <text>Paul Sawyer</text>
-            <disambiguated>
-                <name>Paul Sawyer</name>
-                <dbpedia>http://dbpedia.org/resource/Paul_Sawyer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gmflf8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.36193</relevance>
+            <relevance>0.298532</relevance>
             <count>2</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -89,27 +70,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.360917</relevance>
-            <count>2</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.351528</relevance>
+            <relevance>0.28979</relevance>
             <count>2</count>
             <text>New York</text>
             <disambiguated>
@@ -128,84 +90,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.348042</relevance>
+            <type>Degree</type>
+            <relevance>0.286814</relevance>
             <count>1</count>
-            <text>msc Life Systems Laboratory.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.348002</relevance>
-            <count>1</count>
-            <text>msc</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.347276</relevance>
-            <count>1</count>
-            <text>aec</text>
-            <disambiguated>
-                <name>European Association of Conservatoires</name>
-                <dbpedia>http://dbpedia.org/resource/European_Association_of_Conservatoires</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fstln</freebase>
-                <yago>http://yago-knowledge.org/resource/European_Association_of_Conservatoires</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.334438</relevance>
-            <count>2</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.333978</relevance>
-            <count>1</count>
-            <text>Oak Ridge National Laboratory</text>
-            <disambiguated>
-                <name>Oak Ridge National Laboratory</name>
-                <geo>35.933333 -84.316667</geo>
-                <website>http://www.ornl.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Oak_Ridge_National_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09hv1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv1rLGZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Oak_Ridge_National_Laboratory</yago>
-            </disambiguated>
+            <text>Msc Release</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.333359</relevance>
-            <count>1</count>
-            <text>Eugene A. Cernan</text>
-            <disambiguated>
-                <name>Eugene Cernan</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://marklarson.com/genecernan/</website>
-                <dbpedia>http://dbpedia.org/resource/Eugene_Cernan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01rv5w</freebase>
-                <yago>http://yago-knowledge.org/resource/Eugene_Cernan</yago>
-            </disambiguated>
+            <relevance>0.281983</relevance>
+            <count>3</count>
+            <text>Jr.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.331878</relevance>
+            <relevance>0.277374</relevance>
             <count>1</count>
-            <text>Edwin E. Aldrin</text>
+            <text>Astronaut Edwin E. Aldrin</text>
             <disambiguated>
                 <name>Buzz Aldrin</name>
                 <subType>Astronaut</subType>
@@ -224,107 +124,136 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.324853</relevance>
+            <relevance>0.274144</relevance>
             <count>1</count>
             <text>Chapel of the Astronauts</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.321767</relevance>
-            <count>1</count>
-            <text>Deputy Director of Science and Applications</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.32111</relevance>
+            <relevance>0.270017</relevance>
             <count>2</count>
             <text>Indian River</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.320912</relevance>
-            <count>3</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.318897</relevance>
+            <relevance>0.269648</relevance>
             <count>1</count>
-            <text>Columbia</text>
+            <text>Eugene A. Cernan</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.315032</relevance>
-            <count>1</count>
-            <text>msc Release</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.31024</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, Massachusetts</name>
-                <website>http://town.washington.ma.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_Massachusetts</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0tyj_</freebase>
-                <yago>http://yago-knowledge.org/resource/Washington,_Massachusetts</yago>
+                <name>Eugene Cernan</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://marklarson.com/genecernan/</website>
+                <dbpedia>http://dbpedia.org/resource/Eugene_Cernan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01rv5w</freebase>
+                <yago>http://yago-knowledge.org/resource/Eugene_Cernan</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.305559</relevance>
-            <count>1</count>
-            <text>Gen. Erwin Griswold</text>
+            <relevance>0.261952</relevance>
+            <count>2</count>
+            <text>Ptolemy</text>
             <disambiguated>
-                <name>Erwin Griswold</name>
-                <dbpedia>http://dbpedia.org/resource/Erwin_Griswold</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xrc6</freebase>
-                <yago>http://yago-knowledge.org/resource/Erwin_Griswold</yago>
+                <name>Ptolemy</name>
+                <subType>Astronomer</subType>
+                <dbpedia>http://dbpedia.org/resource/Ptolemy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05_0t</freebase>
+                <yago>http://yago-knowledge.org/resource/Ptolemy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.259708</relevance>
+            <count>2</count>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.305029</relevance>
+            <relevance>0.257273</relevance>
             <count>1</count>
-            <text>Technology, Inc.</text>
+            <text>msc</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.303196</relevance>
+            <type>Company</type>
+            <relevance>0.255008</relevance>
             <count>1</count>
-            <text>Florida</text>
+            <text>aec</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.252416</relevance>
+            <count>1</count>
+            <text>Deputy Director of Science and Applications</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.247659</relevance>
+            <count>1</count>
+            <text>msc Release</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.246377</relevance>
+            <count>1</count>
+            <text>faa</text>
             <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.245239</relevance>
+            <count>1</count>
+            <text>msc Life Systems Laboratory.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.239262</relevance>
+            <count>2</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.237844</relevance>
+            <count>1</count>
+            <text>ksc&#x2014;in</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.298623</relevance>
+            <relevance>0.237668</relevance>
             <count>2</count>
             <text>M. Scott Carpenter</text>
             <disambiguated>
@@ -338,8 +267,57 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.235614</relevance>
+            <count>1</count>
+            <text>Gen. Erwin Griswold</text>
+            <disambiguated>
+                <name>Erwin Griswold</name>
+                <dbpedia>http://dbpedia.org/resource/Erwin_Griswold</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02xrc6</freebase>
+                <yago>http://yago-knowledge.org/resource/Erwin_Griswold</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.235075</relevance>
+            <count>1</count>
+            <text>attorney</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.23496</relevance>
+            <count>1</count>
+            <text>law firm</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234856</relevance>
+            <count>1</count>
+            <text>Rep. George P. Miller</text>
+            <disambiguated>
+                <name>George Paul Miller</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/George_Paul_Miller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rhgtc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.232877</relevance>
+            <count>1</count>
+            <text>Bill</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.232671</relevance>
+            <count>1</count>
+            <text>Florida</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.298611</relevance>
+            <relevance>0.229532</relevance>
             <count>1</count>
             <text>Kansas City Times</text>
             <disambiguated>
@@ -350,22 +328,141 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.296794</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.229267</relevance>
             <count>1</count>
-            <text>faa</text>
+            <text>food items</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.227748</relevance>
+            <count>1</count>
+            <text>aec</text>
             <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+                <name>United States Atomic Energy Commission</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Atomic_Energy_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmm_</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Atomic_Energy_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.227536</relevance>
+            <count>1</count>
+            <text>USN</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.227477</relevance>
+            <count>1</count>
+            <text>Thomas P. Stafford</text>
+            <disambiguated>
+                <name>Thomas P. Stafford</name>
+                <dbpedia>http://dbpedia.org/resource/Thomas_P._Stafford</dbpedia>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.227244</relevance>
+            <count>1</count>
+            <text>msc Director</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226915</relevance>
+            <count>1</count>
+            <text>Andrey P. Kirilenko</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.225557</relevance>
+            <count>1</count>
+            <text>Copernicus</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.222717</relevance>
+            <count>1</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, Massachusetts</name>
+                <website>http://town.washington.ma.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_Massachusetts</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0tyj_</freebase>
+                <yago>http://yago-knowledge.org/resource/Washington,_Massachusetts</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.222548</relevance>
+            <count>1</count>
+            <text>ksc Visitor Information Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.222369</relevance>
+            <count>1</count>
+            <text>Dr. Howard A. Rusk</text>
+            <disambiguated>
+                <name>Howard A. Rusk</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Howard_A._Rusk</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03yg0jj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.221837</relevance>
+            <count>1</count>
+            <text>Medical Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.221534</relevance>
+            <count>1</count>
+            <text>Kremlin Wall</text>
+            <disambiguated>
+                <name>Moscow Kremlin Wall</name>
+                <dbpedia>http://dbpedia.org/resource/Moscow_Kremlin_Wall</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06ymqn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.219111</relevance>
+            <count>1</count>
+            <text>KC Times</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.219037</relevance>
+            <count>1</count>
+            <text>Oak Ridge National Laboratory</text>
+            <disambiguated>
+                <name>Oak Ridge National Laboratory</name>
+                <geo>35.933333 -84.316667</geo>
+                <website>http://www.ornl.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Oak_Ridge_National_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09hv1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv1rLGZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Oak_Ridge_National_Laboratory</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.296764</relevance>
+            <relevance>0.218741</relevance>
             <count>1</count>
             <text>Kingston</text>
             <disambiguated>
@@ -380,188 +477,59 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.296388</relevance>
+            <type>City</type>
+            <relevance>0.218603</relevance>
             <count>1</count>
-            <text>food items</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294475</relevance>
-            <count>1</count>
-            <text>Mrs. Madalyn Murray</text>
+            <text>Columbia</text>
             <disambiguated>
-                <name>Madalyn Murray O'Hair</name>
-                <website>http://www.atheists.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Madalyn_Murray_O'Hair</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vkq9</freebase>
-                <yago>http://yago-knowledge.org/resource/Madalyn_Murray_O'Hair</yago>
+                <name>Columbia, Missouri</name>
+                <website>http://www.gocolumbiamo.com</website>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_Missouri</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01z1c</freebase>
+                <yago>http://yago-knowledge.org/resource/Columbia,_Missouri</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.29376</relevance>
+            <relevance>0.217268</relevance>
             <count>1</count>
-            <text>ksc&#x2014;in</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.292585</relevance>
-            <count>1</count>
-            <text>Mo.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.290868</relevance>
-            <count>1</count>
-            <text>Rep. George P. Miller</text>
+            <text>Moscow</text>
             <disambiguated>
-                <name>George Paul Miller</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/George_Paul_Miller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rhgtc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.290411</relevance>
-            <count>1</count>
-            <text>Science and Applications Directorate</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.289759</relevance>
-            <count>1</count>
-            <text>Supreme Court</text>
-            <disambiguated>
-                <name>Supreme Court of the United States</name>
-                <subType>GovernmentalBody</subType>
-                <geo>38.890708333333336 -77.00434444444444</geo>
-                <website>http://www.supremecourtus.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Supreme_Court_of_the_United_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07sz1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvegiTpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Supreme_Court_of_the_United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.289698</relevance>
-            <count>1</count>
-            <text>Dr. Albert Szent-Gyorgyi</text>
-            <disambiguated>
-                <name>Albert Szent-Gy&#xF6;rgyi</name>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Albert_Szent-Gy&#xF6;rgyi</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01jx7s</freebase>
-                <yago>http://yago-knowledge.org/resource/Albert_Szent-Gy%C3%B6rgyi</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.289055</relevance>
-            <count>1</count>
-            <text>msc Director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.288355</relevance>
-            <count>1</count>
-            <text>Copernicus</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.282708</relevance>
-            <count>1</count>
-            <text>St. Patrick</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.280811</relevance>
-            <count>1</count>
-            <text>USN</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.280714</relevance>
-            <count>1</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Province of Canada</name>
-                <subType>Location</subType>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Province_of_Canada</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.061qd</freebase>
-                <yago>http://yago-knowledge.org/resource/Province_of_Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.277987</relevance>
-            <count>1</count>
-            <text>Bill</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.27597</relevance>
-            <count>1</count>
-            <text>U.S. Dept</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.270474</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.26961</relevance>
-            <count>1</count>
-            <text>Thomas P. Stafford</text>
-            <disambiguated>
-                <name>Thomas P. Stafford</name>
-                <dbpedia>http://dbpedia.org/resource/Thomas_P._Stafford</dbpedia>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.269161</relevance>
-            <count>1</count>
-            <text>Univ. of Missouri</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268499</relevance>
-            <count>1</count>
-            <text>Andrey P. Kirilenko</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268472</relevance>
-            <count>1</count>
-            <text>Dr. Robert R. Gilruth</text>
-            <disambiguated>
-                <name>Robert R. Gilruth</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_R._Gilruth</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xn0q</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_R._Gilruth</yago>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.268032</relevance>
+            <relevance>0.216139</relevance>
             <count>1</count>
-            <text>aec</text>
+            <text>Technology, Inc.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.213336</relevance>
+            <count>1</count>
+            <text>NASA-Soviet Academy of Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.213326</relevance>
+            <count>1</count>
+            <text>New York Univ</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.212707</relevance>
+            <count>1</count>
+            <text>Science and Applications Directorate</text>
         </entity>
     </entities>
 </results>

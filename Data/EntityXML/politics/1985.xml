@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.853802</relevance>
+            <relevance>0.857283</relevance>
             <count>11</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,9 +29,15 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.37455</relevance>
+            <relevance>0.390751</relevance>
             <count>1</count>
             <text>vice president of finance and administration and chief financial officer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.387753</relevance>
+            <count>4</count>
+            <text>Shirley Green</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
@@ -46,12 +52,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
                 <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.371732</relevance>
-            <count>3</count>
-            <text>Vice President</text>
         </entity>
         <entity>
             <type>Company</type>
@@ -73,10 +73,10 @@
             <text>executive vice president</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.335206</relevance>
-            <count>4</count>
-            <text>Shirley Green</text>
+            <type>JobTitle</type>
+            <relevance>0.347477</relevance>
+            <count>3</count>
+            <text>Vice President</text>
         </entity>
         <entity>
             <type>Organization</type>
@@ -86,13 +86,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.306697</relevance>
-            <count>3</count>
-            <text>Gibbs Brown</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301407</relevance>
+            <relevance>0.31322</relevance>
             <count>1</count>
             <text>President Reagan</text>
             <disambiguated>
@@ -119,26 +113,6 @@
             <text>Reagan Administration</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.287674</relevance>
-            <count>2</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
             <relevance>0.281496</relevance>
             <count>2</count>
@@ -156,7 +130,7 @@
         </entity>
         <entity>
             <type>ProfessionalDegree</type>
-            <relevance>0.281099</relevance>
+            <relevance>0.279432</relevance>
             <count>1</count>
             <text>bachelor of business administration</text>
         </entity>
@@ -167,22 +141,34 @@
             <text>shut down</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.270884</relevance>
+            <count>3</count>
+            <text>Gibbs Brown</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.260811</relevance>
+            <relevance>0.267802</relevance>
             <count>2</count>
             <text>director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.259942</relevance>
+            <count>1</count>
+            <text>assistant associate administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.25504</relevance>
+            <count>1</count>
+            <text>Texas Federation of Republican Women</text>
         </entity>
         <entity>
             <type>Person</type>
             <relevance>0.254453</relevance>
             <count>1</count>
             <text>Dominick Sanchini</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.253934</relevance>
-            <count>1</count>
-            <text>assistant associate administrator</text>
         </entity>
         <entity>
             <type>Company</type>
@@ -197,14 +183,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.24921</relevance>
-            <count>1</count>
-            <text>Texas Federation of Republican Women</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.24551</relevance>
+            <relevance>0.250523</relevance>
             <count>1</count>
             <text>Texas</text>
             <disambiguated>
@@ -241,14 +221,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.233836</relevance>
-            <count>1</count>
-            <text>Geneva</text>
+            <type>Country</type>
+            <relevance>0.243637</relevance>
+            <count>2</count>
+            <text>United States</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.227614</relevance>
+            <relevance>0.237061</relevance>
             <count>1</count>
             <text>Bureau of Land Management</text>
             <disambiguated>
@@ -261,38 +255,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.227055</relevance>
-            <count>1</count>
-            <text>associate administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.225344</relevance>
-            <count>1</count>
-            <text>press secretary</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.22484</relevance>
+            <relevance>0.234196</relevance>
             <count>1</count>
             <text>Navy Finance Center</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.223941</relevance>
+            <type>City</type>
+            <relevance>0.233836</relevance>
             <count>1</count>
-            <text>House</text>
+            <text>Geneva</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.221834</relevance>
+            <type>JobTitle</type>
+            <relevance>0.232662</relevance>
             <count>1</count>
-            <text>Frank Johnson Jr.</text>
+            <text>associate administrator</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.221609</relevance>
+            <relevance>0.230368</relevance>
             <count>1</count>
             <text>Department of Interior</text>
             <disambiguated>
@@ -307,7 +289,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.218521</relevance>
+            <relevance>0.228065</relevance>
             <count>1</count>
             <text>Bureau of Reclamation</text>
             <disambiguated>
@@ -321,52 +303,70 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.226828</relevance>
+            <count>1</count>
+            <text>Frank Johnson Jr.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223941</relevance>
+            <count>1</count>
+            <text>House</text>
+        </entity>
+        <entity>
+            <type>ProfessionalDegree</type>
+            <relevance>0.220522</relevance>
+            <count>1</count>
+            <text>Juris Doctor</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.21507</relevance>
+            <relevance>0.220107</relevance>
             <count>1</count>
             <text>Congressman</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.212675</relevance>
+            <relevance>0.217646</relevance>
             <count>1</count>
             <text>chairman</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.212568</relevance>
+            <relevance>0.217547</relevance>
             <count>1</count>
             <text>Bob Price</text>
         </entity>
         <entity>
-            <type>ProfessionalDegree</type>
-            <relevance>0.209127</relevance>
-            <count>1</count>
-            <text>Juris Doctor</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.204358</relevance>
-            <count>1</count>
-            <text>Thomas DeCair</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.204303</relevance>
+            <relevance>0.213153</relevance>
             <count>1</count>
             <text>System Development Corp</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.198345</relevance>
+            <type>Person</type>
+            <relevance>0.209403</relevance>
             <count>1</count>
-            <text>University of Texas.</text>
+            <text>Thomas DeCair</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.208722</relevance>
+            <count>1</count>
+            <text>press secretary</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.189848</relevance>
+            <relevance>0.200767</relevance>
             <count>1</count>
             <text>University of Denver School of Law.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.197047</relevance>
+            <count>1</count>
+            <text>University of Texas.</text>
         </entity>
     </entities>
 </results>

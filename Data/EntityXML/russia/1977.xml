@@ -6,26 +6,41 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Person</type>
-            <relevance>0.735722</relevance>
-            <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.627079</relevance>
+            <relevance>0.760805</relevance>
             <count>3</count>
             <text>Russian</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.615151</relevance>
+            <relevance>0.726356</relevance>
+            <count>4</count>
+            <text>FBIS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.689542</relevance>
             <count>1</count>
             <text>Tass Inti Svc</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.661508</relevance>
+            <count>2</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.605967</relevance>
+            <relevance>0.602614</relevance>
             <count>2</count>
             <text>Moscow</text>
             <disambiguated>
@@ -42,20 +57,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.588725</relevance>
-            <count>4</count>
-            <text>FBIS</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.555881</relevance>
-            <count>1</count>
-            <text>LaRC</text>
+            <type>Person</type>
+            <relevance>0.589884</relevance>
+            <count>2</count>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.539357</relevance>
+            <relevance>0.533708</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -74,23 +83,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.488256</relevance>
-            <count>2</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
+            <type>Company</type>
+            <relevance>0.530932</relevance>
+            <count>1</count>
+            <text>LaRC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.47261</relevance>
+            <relevance>0.466005</relevance>
             <count>1</count>
             <text>Sir Robert Mark</text>
             <disambiguated>
@@ -103,21 +103,9 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.434758</relevance>
+            <relevance>0.428208</relevance>
             <count>1</count>
             <text>capital punishment</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.432653</relevance>
-            <count>1</count>
-            <text>New Scotland Yard</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.432185</relevance>
-            <count>1</count>
-            <text>Commissioner of Police</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
@@ -137,6 +125,18 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.4262</relevance>
+            <count>1</count>
+            <text>New Scotland Yard</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.425274</relevance>
+            <count>1</count>
+            <text>Commissioner of Police</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
             <relevance>0.410369</relevance>
             <count>1</count>
@@ -154,7 +154,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.410155</relevance>
+            <relevance>0.403904</relevance>
             <count>1</count>
             <text>Kazakhstan</text>
             <disambiguated>
@@ -171,13 +171,13 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.407047</relevance>
+            <relevance>0.40095</relevance>
             <count>1</count>
             <text>law enforcement</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.400014</relevance>
+            <relevance>0.394051</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
@@ -189,7 +189,7 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.371218</relevance>
+            <relevance>0.365488</relevance>
             <count>1</count>
             <text>official</text>
         </entity>

@@ -7,7 +7,13 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.813893</relevance>
+            <relevance>0.808983</relevance>
+            <count>6</count>
+            <text>House Committee on Science and Astronautics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.680261</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,32 +34,52 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.807853</relevance>
-            <count>6</count>
-            <text>House Committee on Science and Astronautics</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.496702</relevance>
+            <relevance>0.392575</relevance>
             <count>2</count>
             <text>Astronautics&#x2019; Subcommittee on Advanced Research and Technology</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.463374</relevance>
+            <relevance>0.386753</relevance>
             <count>2</count>
             <text>House Committee on Science</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.430525</relevance>
+            <relevance>0.368699</relevance>
             <count>3</count>
             <text>Bill</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.348706</relevance>
+            <count>1</count>
+            <text>House Committee on Appropriations</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.321521</relevance>
+            <count>5</count>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.40021</relevance>
+            <relevance>0.296761</relevance>
             <count>3</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -80,52 +106,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.394581</relevance>
-            <count>1</count>
-            <text>House Committee</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.376119</relevance>
-            <count>1</count>
-            <text>House Committee on Appropriations</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.347859</relevance>
+            <relevance>0.295235</relevance>
             <count>3</count>
             <text>Chairman</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.342578</relevance>
-            <count>5</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.292535</relevance>
+            <count>1</count>
+            <text>House Committee</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.335516</relevance>
+            <relevance>0.273096</relevance>
+            <count>1</count>
+            <text>Committee Rpt</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.26994</relevance>
             <count>1</count>
             <text>NASA Associate Administrator for Advanced Research and Technology</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.32266</relevance>
+            <relevance>0.269399</relevance>
             <count>2</count>
             <text>Rep. George P. Miller</text>
             <disambiguated>
@@ -137,65 +143,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.320295</relevance>
-            <count>1</count>
-            <text>House Rpt</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.3185</relevance>
-            <count>1</count>
-            <text>Committee Rpt</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.317725</relevance>
+            <relevance>0.2624</relevance>
             <count>1</count>
             <text>Senate Committee on Aeronautical</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.312652</relevance>
-            <count>2</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.305436</relevance>
-            <count>2</count>
-            <text>Sen. Clinton P. Anderson</text>
-            <disambiguated>
-                <name>Clinton Presba Anderson</name>
-                <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Clinton_Presba_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pjjl</freebase>
-                <yago>http://yago-knowledge.org/resource/Clinton_Presba_Anderson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.297982</relevance>
-            <count>1</count>
-            <text>aeronautical R&amp;D</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.290511</relevance>
+            <relevance>0.252018</relevance>
             <count>2</count>
             <text>New York Times</text>
             <disambiguated>
@@ -214,25 +169,82 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.278907</relevance>
+            <relevance>0.250479</relevance>
             <count>2</count>
-            <text>Dr. Raymond L. Bisplinghoff</text>
+            <text>Sen. Clinton P. Anderson</text>
+            <disambiguated>
+                <name>Clinton Presba Anderson</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Clinton_Presba_Anderson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pjjl</freebase>
+                <yago>http://yago-knowledge.org/resource/Clinton_Presba_Anderson</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.2699</relevance>
+            <relevance>0.243078</relevance>
+            <count>2</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.228688</relevance>
             <count>1</count>
-            <text>ERC</text>
+            <text>House Rpt</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.221809</relevance>
+            <count>1</count>
+            <text>aeronautical R&amp;D</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.220441</relevance>
+            <count>1</count>
+            <text>Space Sciences Committee</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.260964</relevance>
+            <relevance>0.211693</relevance>
             <count>1</count>
             <text>President H. W. Withington</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.258692</relevance>
+            <relevance>0.210298</relevance>
+            <count>1</count>
+            <text>Instrumentation Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.210067</relevance>
+            <count>1</count>
+            <text>ERC</text>
+            <disambiguated>
+                <name>Ethics Resource Center</name>
+                <dbpedia>http://dbpedia.org/resource/Ethics_Resource_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03cwf71</freebase>
+                <yago>http://yago-knowledge.org/resource/Ethics_Resource_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.208814</relevance>
             <count>1</count>
             <text>mit Instrumentation Laboratory</text>
             <disambiguated>
@@ -243,7 +255,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.256838</relevance>
+            <relevance>0.208763</relevance>
             <count>1</count>
             <text>Boeing</text>
             <disambiguated>
@@ -261,35 +273,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.25659</relevance>
+            <type>Company</type>
+            <relevance>0.207666</relevance>
             <count>1</count>
-            <text>Harvey Brooks</text>
-            <disambiguated>
-                <name>Harvey Brooks</name>
-                <subType>MusicalArtist</subType>
-                <subType>MusicalGroupMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Harvey_Brooks</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0741hz</freebase>
-                <yago>http://yago-knowledge.org/resource/Harvey_Brooks</yago>
-                <musicBrainz>http://zitgist.com/music/artist/01ac61f7-7bb0-4b1e-b68a-9ae7e08d3e9d</musicBrainz>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.251038</relevance>
-            <count>1</count>
-            <text>collision avoidance</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.250982</relevance>
-            <count>1</count>
-            <text>data processing</text>
+            <text>nasc</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.25073</relevance>
+            <relevance>0.207372</relevance>
             <count>1</count>
             <text>Sen. Margaret C. Smith</text>
             <disambiguated>
@@ -305,31 +296,34 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.250553</relevance>
+            <relevance>0.203757</relevance>
             <count>1</count>
-            <text>James C. Elms</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.248582</relevance>
-            <count>1</count>
-            <text>Space Sciences Committee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.243509</relevance>
-            <count>1</count>
-            <text>Director</text>
+            <text>Harvey Brooks</text>
+            <disambiguated>
+                <name>Harvey Brooks</name>
+                <subType>MusicalArtist</subType>
+                <subType>MusicalGroupMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Harvey_Brooks</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0741hz</freebase>
+                <yago>http://yago-knowledge.org/resource/Harvey_Brooks</yago>
+                <musicBrainz>http://zitgist.com/music/artist/01ac61f7-7bb0-4b1e-b68a-9ae7e08d3e9d</musicBrainz>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.242628</relevance>
+            <relevance>0.202425</relevance>
             <count>1</count>
-            <text>nasc</text>
+            <text>Independent Offices</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.202097</relevance>
+            <count>1</count>
+            <text>Executive Vice President of trw Inc.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.242507</relevance>
+            <relevance>0.195759</relevance>
             <count>1</count>
             <text>MIT School of Engineering</text>
             <disambiguated>
@@ -339,63 +333,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.240896</relevance>
-            <count>1</count>
-            <text>Harvard Univ.</text>
-            <disambiguated>
-                <name>Harvard University</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.37444444444444 -71.11694444444444</geo>
-                <website>http://www.harvard.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Harvard_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03ksy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViyHZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Harvard_University</yago>
-                <geonames>http://sws.geonames.org/4938981/</geonames>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.195135</relevance>
+            <count>2</count>
+            <text>Dr. Raymond L. Bisplinghoff</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.240392</relevance>
+            <type>Person</type>
+            <relevance>0.193082</relevance>
             <count>1</count>
-            <text>power systems.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.239421</relevance>
-            <count>1</count>
-            <text>Executive Vice President of trw Inc.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.23777</relevance>
-            <count>1</count>
-            <text>Instrumentation Laboratory</text>
+            <text>Lannan</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.23774</relevance>
+            <relevance>0.192859</relevance>
             <count>1</count>
-            <text>Department of Defense</text>
-            <disambiguated>
-                <name>United States Department of Defense</name>
-                <subType>ArmedForce</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.defenselink.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
-            </disambiguated>
+            <text>U.K.&#x2019;s Institute for Strategic Studies</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.191101</relevance>
+            <count>1</count>
+            <text>Boeing Co</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.236521</relevance>
+            <relevance>0.190915</relevance>
             <count>1</count>
             <text>mit</text>
             <disambiguated>
@@ -418,14 +381,77 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.228923</relevance>
+            <type>Organization</type>
+            <relevance>0.190894</relevance>
             <count>1</count>
-            <text>Kelly</text>
+            <text>Harvard Univ.</text>
+            <disambiguated>
+                <name>Harvard University</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.37444444444444 -71.11694444444444</geo>
+                <website>http://www.harvard.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Harvard_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03ksy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViyHZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Harvard_University</yago>
+                <geonames>http://sws.geonames.org/4938981/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.190555</relevance>
+            <count>1</count>
+            <text>Presidential Task Force</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.188135</relevance>
+            <count>1</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.186842</relevance>
+            <count>1</count>
+            <text>data processing</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.186294</relevance>
+            <count>1</count>
+            <text>Senate Aeronautical</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.185906</relevance>
+            <count>1</count>
+            <text>collision avoidance</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.185764</relevance>
+            <count>1</count>
+            <text>James C. Elms</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.185483</relevance>
+            <count>1</count>
+            <text>National Academy of Engineering</text>
+            <disambiguated>
+                <name>National Academy of Engineering</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>MembershipOrganization</subType>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Engineering</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dqq7d</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Academy_of_Engineering</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.227697</relevance>
+            <relevance>0.184056</relevance>
             <count>1</count>
             <text>Boston</text>
             <disambiguated>
@@ -436,20 +462,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.227188</relevance>
+            <type>Person</type>
+            <relevance>0.1835</relevance>
             <count>1</count>
-            <text>Boeing Co</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225884</relevance>
-            <count>1</count>
-            <text>Presidential Task Force</text>
+            <text>Nordheimer</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.225529</relevance>
+            <relevance>0.182303</relevance>
             <count>1</count>
             <text>Mass.</text>
             <disambiguated>
@@ -467,48 +487,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.221424</relevance>
+            <type>Person</type>
+            <relevance>0.182285</relevance>
             <count>1</count>
-            <text>National Academy of Engineering</text>
-            <disambiguated>
-                <name>National Academy of Engineering</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>MembershipOrganization</subType>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Engineering</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dqq7d</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Academy_of_Engineering</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.218324</relevance>
-            <count>1</count>
-            <text>Independent Offices</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.216555</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.216319</relevance>
-            <count>1</count>
-            <text>U.K.&#x2019;s Institute for Strategic Studies</text>
+            <text>Spencer M. Beresford</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.213744</relevance>
+            <relevance>0.182012</relevance>
             <count>1</count>
             <text>nuclear weapons</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.213345</relevance>
+            <relevance>0.180862</relevance>
             <count>1</count>
-            <text>Lindsey</text>
+            <text>Kelly</text>
         </entity>
     </entities>
 </results>

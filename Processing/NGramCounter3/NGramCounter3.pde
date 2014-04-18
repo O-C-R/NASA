@@ -12,7 +12,7 @@ import rita.*;
 
 //This version uses a stop list
 
-int startYear = 1961;
+int startYear = 1958;
 int endYear = 2009;
 String dataPath = "../../Data/BucketText/";
 String outPath = "../../Data/BucketGramsAll/";
@@ -47,7 +47,7 @@ void setup() {
   for (String s:bucketList) {
     currentBucket = s;
 
-    /*
+    //*
     countSavePosYears("landing", "_series.txt");
      countSavePosYears("moon", "_series.txt");
      countSavePosYears("the moon", "_series.txt");

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.77181</relevance>
+            <relevance>0.815861</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.626004</relevance>
+            <relevance>0.779831</relevance>
             <count>3</count>
             <text>LaRC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.525158</relevance>
+            <relevance>0.636808</relevance>
             <count>2</count>
             <text>LaRC</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.48318</relevance>
+            <count>1</count>
+            <text>NASA Headquarters</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.337918</relevance>
+            <relevance>0.470062</relevance>
             <count>2</count>
             <text>KSC</text>
             <disambiguated>
@@ -59,13 +65,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.332346</relevance>
+            <relevance>0.403491</relevance>
             <count>2</count>
             <text>Winglets</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.308656</relevance>
+            <relevance>0.374017</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
             <disambiguated>
@@ -82,13 +88,22 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.291914</relevance>
+            <relevance>0.358139</relevance>
             <count>1</count>
-            <text>NASA Headquarters</text>
+            <text>Rockwell International</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.277574</relevance>
+            <relevance>0.335277</relevance>
             <count>1</count>
             <text>Dr. Richard T. Whitcomb</text>
             <disambiguated>
@@ -101,7 +116,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.26802</relevance>
+            <relevance>0.323068</relevance>
             <count>1</count>
             <text>McDonnell Douglas Corporation</text>
             <disambiguated>
@@ -116,8 +131,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.316871</relevance>
+            <count>1</count>
+            <text>Charles D. Gay</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.312884</relevance>
+            <count>1</count>
+            <text>official</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.250514</relevance>
+            <relevance>0.302058</relevance>
             <count>1</count>
             <text>Gates</text>
             <disambiguated>
@@ -130,47 +157,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.241318</relevance>
-            <count>1</count>
-            <text>Charles D. Gay</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.229462</relevance>
-            <count>1</count>
-            <text>Rockwell International</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.224305</relevance>
+            <relevance>0.29519</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.224208</relevance>
+            <relevance>0.269216</relevance>
             <count>1</count>
             <text>Wright</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.196583</relevance>
-            <count>1</count>
-            <text>official</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.186321</relevance>
+            <relevance>0.249789</relevance>
             <count>1</count>
             <text>DFRC.</text>
         </entity>

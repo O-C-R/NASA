@@ -7,25 +7,13 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.836039</relevance>
+            <relevance>0.866122</relevance>
             <count>3</count>
             <text>JSC</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.828765</relevance>
-            <count>3</count>
-            <text>Cyril Horsford</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.733115</relevance>
-            <count>3</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.662803</relevance>
+            <relevance>0.859922</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -46,8 +34,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.834555</relevance>
+            <count>3</count>
+            <text>Cyril Horsford</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.70732</relevance>
+            <count>3</count>
+            <text>Apollo</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.636496</relevance>
+            <relevance>0.641838</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -66,32 +66,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.564592</relevance>
+            <count>1</count>
+            <text>International Harvester</text>
+            <disambiguated>
+                <name>International Harvester</name>
+                <dbpedia>http://dbpedia.org/resource/International_Harvester</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0407tc</freebase>
+                <yago>http://yago-knowledge.org/resource/International_Harvester</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
             <relevance>0.559047</relevance>
             <count>2</count>
             <text>Dr. Bradford Smith</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.523588</relevance>
-            <count>1</count>
-            <text>Shuttle bay</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.522656</relevance>
+            <relevance>0.529025</relevance>
             <count>1</count>
             <text>International Institute of Space Law</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.512917</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.503634</relevance>
+            <relevance>0.508948</relevance>
             <count>1</count>
             <text>U.N. General Assembly</text>
             <disambiguated>
@@ -103,20 +103,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.490027</relevance>
+            <count>1</count>
+            <text>San Diego</text>
+        </entity>
+        <entity>
             <type>Degree</type>
-            <relevance>0.482865</relevance>
+            <relevance>0.488179</relevance>
             <count>1</count>
             <text>General Assembly</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.481816</relevance>
+            <relevance>0.487121</relevance>
             <count>1</count>
             <text>solar system</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.473151</relevance>
+            <relevance>0.478335</relevance>
             <count>1</count>
             <text>USSR</text>
             <disambiguated>
@@ -131,20 +137,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.467532</relevance>
-            <count>1</count>
-            <text>International Harvester</text>
-            <disambiguated>
-                <name>International Harvester</name>
-                <dbpedia>http://dbpedia.org/resource/International_Harvester</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0407tc</freebase>
-                <yago>http://yago-knowledge.org/resource/International_Harvester</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.460606</relevance>
+            <relevance>0.466012</relevance>
             <count>1</count>
             <text>United Nations</text>
             <disambiguated>
@@ -156,7 +150,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.450529</relevance>
+            <relevance>0.455715</relevance>
             <count>1</count>
             <text>U.S. Senate</text>
             <disambiguated>
@@ -171,26 +165,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.436924</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.440488</relevance>
             <count>1</count>
-            <text>San Diego</text>
-            <disambiguated>
-                <name>San Diego</name>
-                <website>http://www.sandiego.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/San_Diego</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.071vr</freebase>
-            </disambiguated>
+            <text>Shuttle bay</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.435369</relevance>
+            <relevance>0.440468</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.43159</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.42439</relevance>
+            <relevance>0.429647</relevance>
             <count>1</count>
             <text>United Nation</text>
             <disambiguated>
@@ -208,8 +202,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.416718</relevance>
+            <count>1</count>
+            <text>Horsford.</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.410096</relevance>
+            <relevance>0.415105</relevance>
             <count>1</count>
             <text>U.N.</text>
             <disambiguated>
@@ -219,14 +219,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.395041</relevance>
-            <count>1</count>
-            <text>Horsford.</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.361205</relevance>
+            <relevance>0.351747</relevance>
             <count>1</count>
             <text>The British Interplanetary Society</text>
         </entity>

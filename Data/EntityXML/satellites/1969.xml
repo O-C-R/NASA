@@ -7,9 +7,9 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.890327</relevance>
-            <count>47</count>
-            <text>nasa</text>
+            <relevance>0.885713</relevance>
+            <count>48</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -28,14 +28,13 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.731681</relevance>
+            <type>Country</type>
+            <relevance>0.729335</relevance>
             <count>47</count>
             <text>U.S.S.R.</text>
             <disambiguated>
                 <name>Soviet Union</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
                 <subType>GovernmentalJurisdiction</subType>
                 <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
@@ -45,13 +44,13 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.578677</relevance>
+            <relevance>0.659743</relevance>
             <count>19</count>
             <text>Plesetsk</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.545536</relevance>
+            <relevance>0.502644</relevance>
             <count>16</count>
             <text>United States</text>
             <disambiguated>
@@ -71,7 +70,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.527069</relevance>
+            <relevance>0.482539</relevance>
             <count>10</count>
             <text>Baikonur</text>
             <disambiguated>
@@ -84,20 +83,8 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.369275</relevance>
-            <count>8</count>
-            <text>ComSatCorp</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.35531</relevance>
-            <count>3</count>
-            <text>Satellite system</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.35379</relevance>
-            <count>11</count>
+            <relevance>0.448637</relevance>
+            <count>12</count>
             <text>Intelsat</text>
             <disambiguated>
                 <name>Intelsat</name>
@@ -112,25 +99,31 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.329211</relevance>
+            <relevance>0.414369</relevance>
+            <count>8</count>
+            <text>ComSatCorp</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.395423</relevance>
+            <count>2</count>
+            <text>Satellite system</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.379621</relevance>
             <count>1</count>
-            <text>Small Scientific Satellite</text>
+            <text>National Operational Meteorological Satellite System</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.327983</relevance>
+            <relevance>0.356984</relevance>
             <count>1</count>
-            <text>Applications Technology Satellite</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.321434</relevance>
-            <count>1</count>
-            <text>gsfc</text>
+            <text>Tiros Operational Satellite</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.320701</relevance>
+            <relevance>0.321139</relevance>
             <count>6</count>
             <text>New York Times</text>
             <disambiguated>
@@ -148,27 +141,120 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.320656</relevance>
+            <type>Company</type>
+            <relevance>0.317803</relevance>
             <count>1</count>
-            <text>National Operational Meteorological Satellite System</text>
+            <text>Small Scientific Satellite</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.299009</relevance>
+            <count>3</count>
+            <text>France</text>
+            <disambiguated>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.308843</relevance>
+            <relevance>0.296306</relevance>
             <count>1</count>
             <text>Synchronous Meteorological Satellite</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.298818</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.294526</relevance>
             <count>1</count>
-            <text>Tiros Operational Satellite</text>
+            <text>Communications Satellite</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.29311</relevance>
+            <count>1</count>
+            <text>gsfc</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.291926</relevance>
+            <count>1</count>
+            <text>satellite links</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.297678</relevance>
-            <count>2</count>
+            <relevance>0.287536</relevance>
+            <count>1</count>
+            <text>Applications Technology Satellite</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.287171</relevance>
+            <count>3</count>
+            <text>Australia</text>
+            <disambiguated>
+                <name>Australia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.281391</relevance>
+            <count>1</count>
+            <text>Cosmos CCCVI</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.277443</relevance>
+            <count>1</count>
+            <text>Amateur Satellite Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.272967</relevance>
+            <count>1</count>
+            <text>Cosmos CCLXXXI</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.272181</relevance>
+            <count>3</count>
+            <text>UN</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.271346</relevance>
+            <count>3</count>
+            <text>U.N.</text>
+            <disambiguated>
+                <name>U.N. (group)</name>
+                <dbpedia>http://dbpedia.org/resource/U.N._(group)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gn3c5</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.268369</relevance>
+            <count>1</count>
             <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
@@ -188,128 +274,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.292101</relevance>
+            <type>Company</type>
+            <relevance>0.267702</relevance>
             <count>1</count>
-            <text>satellite links</text>
+            <text>Cosmos CCXC</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.290017</relevance>
-            <count>3</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.288367</relevance>
-            <count>1</count>
-            <text>Cosmos CCLXXXI</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.287527</relevance>
-            <count>3</count>
-            <text>France</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.281717</relevance>
-            <count>1</count>
-            <text>Amateur Satellite Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.275443</relevance>
-            <count>1</count>
-            <text>Cosmos CCCX</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.274514</relevance>
-            <count>1</count>
-            <text>Communications Satellite</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.273454</relevance>
-            <count>1</count>
-            <text>Cosmos CCCVI</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.269587</relevance>
-            <count>2</count>
-            <text>Washington Evening Star</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.267978</relevance>
-            <count>2</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.267859</relevance>
-            <count>1</count>
-            <text>Cosmos CCLXIX</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.266324</relevance>
-            <count>1</count>
-            <text>Cosmos CCCVIII</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.260102</relevance>
-            <count>3</count>
-            <text>UN</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.258248</relevance>
+            <relevance>0.266103</relevance>
             <count>1</count>
             <text>Cosmos CCLXXXIV</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.257087</relevance>
-            <count>2</count>
-            <text>Robert J. Samuelson</text>
-            <disambiguated>
-                <name>Robert J. Samuelson</name>
-                <website>http://www.thegreatinflationanditsaftermath.com/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Robert_J._Samuelson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g8w00</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_J._Samuelson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.256871</relevance>
-            <count>1</count>
-            <text>Cosmos CCCII</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.254392</relevance>
-            <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.252378</relevance>
+            <relevance>0.262911</relevance>
             <count>2</count>
             <text>Indian Ocean</text>
             <disambiguated>
@@ -324,20 +302,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.251901</relevance>
-            <count>1</count>
-            <text>Cosmos CCLXXVIII</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.251581</relevance>
-            <count>1</count>
-            <text>Senate Commerce Committee.</text>
+            <relevance>0.262902</relevance>
+            <count>2</count>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.250078</relevance>
+            <relevance>0.259163</relevance>
+            <count>2</count>
+            <text>usaf</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.257968</relevance>
             <count>2</count>
             <text>TRW Inc.</text>
             <disambiguated>
@@ -349,48 +327,52 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.257777</relevance>
+            <count>2</count>
+            <text>Robert J. Samuelson</text>
+            <disambiguated>
+                <name>Robert J. Samuelson</name>
+                <website>http://www.thegreatinflationanditsaftermath.com/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Robert_J._Samuelson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g8w00</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_J._Samuelson</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.249686</relevance>
+            <relevance>0.25509</relevance>
             <count>1</count>
-            <text>Cosmos CCLXVI</text>
+            <text>Cosmos CCCVIII</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.249381</relevance>
+            <type>Company</type>
+            <relevance>0.255029</relevance>
             <count>1</count>
-            <text>Lima</text>
-            <disambiguated>
-                <name>Lima, Illinois</name>
-                <geo>40.17805555555555 -91.37666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Lima,_Illinois</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0s2x9</freebase>
-                <yago>http://yago-knowledge.org/resource/Lima,_Illinois</yago>
-                <geonames>http://sws.geonames.org/4899801/</geonames>
-            </disambiguated>
+            <text>Cosmos CCCX</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.247602</relevance>
-            <count>1</count>
-            <text>Florida</text>
+            <type>Company</type>
+            <relevance>0.251103</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.250543</relevance>
+            <count>2</count>
+            <text>NATO</text>
             <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
+                <name>National Association of Theatre Owners</name>
+                <website>http://www.natoonline.org/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Association_of_Theatre_Owners</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.031hx_</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Association_of_Theatre_Owners</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.247392</relevance>
+            <relevance>0.247517</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -408,71 +390,107 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.247267</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.247356</relevance>
             <count>1</count>
-            <text>Cosmos CCXC</text>
+            <text>earth station</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.246748</relevance>
+            <relevance>0.246806</relevance>
             <count>2</count>
             <text>Milky Way</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.245802</relevance>
+            <type>Company</type>
+            <relevance>0.246001</relevance>
             <count>1</count>
-            <text>Sen. George Murphy</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.245522</relevance>
-            <count>3</count>
-            <text>Australia</text>
+            <text>Associated Press</text>
             <disambiguated>
-                <name>Australia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <geo>-35.3 149.13333333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Australia</yago>
-                <geonames>http://sws.geonames.org/2077456/</geonames>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.24319</relevance>
+            <type>Company</type>
+            <relevance>0.245249</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.245162</relevance>
             <count>2</count>
-            <text>Centaurus</text>
+            <text>Washington Evening Star</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.244974</relevance>
+            <count>1</count>
+            <text>Cosmos CCLXIX</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.244928</relevance>
+            <count>1</count>
+            <text>NASA Hq.</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.244122</relevance>
+            <count>2</count>
+            <text>Antarctic</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.24273</relevance>
+            <relevance>0.242787</relevance>
             <count>2</count>
             <text>Dr. Robert G. Stone</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.239763</relevance>
+            <count>1</count>
+            <text>Cosmos CCCII</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.238844</relevance>
+            <count>2</count>
+            <text>Asia</text>
+            <disambiguated>
+                <name>Asia</name>
+                <subType>Location</subType>
+                <subType>FieldOfStudy</subType>
+                <dbpedia>http://dbpedia.org/resource/Asia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j0k</freebase>
+                <yago>http://yago-knowledge.org/resource/Asia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.238758</relevance>
+            <count>1</count>
+            <text>U.S. National Committee of International Union of Radio Science</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.241763</relevance>
+            <relevance>0.238618</relevance>
             <count>2</count>
             <text>Sullivan</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.240988</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.240744</relevance>
-            <count>1</count>
-            <text>Siberian Sea of Okhotsk</text>
         </entity>
     </entities>
 </results>

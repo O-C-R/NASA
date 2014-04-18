@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.83452</relevance>
+            <relevance>0.830721</relevance>
             <count>21</count>
             <text>NYT</text>
             <disambiguated>
@@ -25,8 +25,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.734435</relevance>
+            <count>14</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.717833</relevance>
+            <count>16</count>
+            <text>AP</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.687312</relevance>
+            <relevance>0.643958</relevance>
             <count>20</count>
             <text>nasa</text>
             <disambiguated>
@@ -47,14 +59,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.637888</relevance>
-            <count>14</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.586284</relevance>
+            <relevance>0.63229</relevance>
             <count>11</count>
             <text>usaf</text>
             <disambiguated>
@@ -70,26 +76,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.576404</relevance>
-            <count>16</count>
-            <text>AP</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.493292</relevance>
+            <relevance>0.414797</relevance>
             <count>7</count>
             <text>Balt</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.481054</relevance>
-            <count>8</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.476821</relevance>
+            <relevance>0.394832</relevance>
             <count>5</count>
             <text>John B. McKay</text>
             <disambiguated>
@@ -101,8 +95,33 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.393891</relevance>
+            <count>8</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.392253</relevance>
+            <count>6</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.388301</relevance>
+            <count>5</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.470103</relevance>
+            <relevance>0.377946</relevance>
             <count>7</count>
             <text>United States</text>
             <disambiguated>
@@ -121,14 +140,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.43584</relevance>
-            <count>6</count>
-            <text>President Johnson</text>
+            <type>Company</type>
+            <relevance>0.373037</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.370115</relevance>
+            <count>4</count>
+            <text>President</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.40851</relevance>
+            <relevance>0.358243</relevance>
             <count>4</count>
             <text>Sen. William Proxmire</text>
             <disambiguated>
@@ -142,51 +167,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.372499</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.355906</relevance>
             <count>4</count>
-            <text>President</text>
+            <text>Calif</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.35943</relevance>
-            <count>5</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.347523</relevance>
+            <relevance>0.341761</relevance>
             <count>4</count>
             <text>Joint Congressional Committee</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.343019</relevance>
-            <count>4</count>
-            <text>Director</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.340186</relevance>
-            <count>3</count>
-            <text>Dr. John Strong</text>
-            <disambiguated>
-                <name>John Strong (pornographic actor)</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Strong_(pornographic_actor)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02z54tf</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.338296</relevance>
+            <relevance>0.332228</relevance>
             <count>3</count>
             <text>Capt. Joseph H. Engle</text>
             <disambiguated>
@@ -198,104 +192,101 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.331722</relevance>
-            <count>3</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.327372</relevance>
+            <relevance>0.330883</relevance>
             <count>4</count>
             <text>Lt. Col. Yuri A. Gagarin</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.326727</relevance>
-            <count>4</count>
-            <text>Lt. Col. John H. Glenn, Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.319161</relevance>
-            <count>3</count>
-            <text>Sen. John 0</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.311003</relevance>
-            <count>3</count>
-            <text>Pastore</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.306951</relevance>
-            <count>4</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.301125</relevance>
-            <count>3</count>
-            <text>Atomic Energy</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.300054</relevance>
-            <count>3</count>
-            <text>Trib.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.299785</relevance>
-            <count>2</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.299261</relevance>
+            <relevance>0.318192</relevance>
             <count>3</count>
             <text>president</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.315281</relevance>
+            <count>4</count>
+            <text>Lt. Col. John H. Glenn, Jr.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.311686</relevance>
+            <count>4</count>
+            <text>Committee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.301099</relevance>
+            <count>4</count>
+            <text>Director</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.296126</relevance>
+            <relevance>0.300033</relevance>
             <count>5</count>
             <text>General aviation</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.294188</relevance>
-            <count>2</count>
-            <text>Col. John H. Glenn</text>
+            <relevance>0.291852</relevance>
+            <count>3</count>
+            <text>Rep. Joseph E. Karth</text>
             <disambiguated>
-                <name>John Glenn</name>
-                <subType>FilmCharacter</subType>
+                <name>Joseph Karth</name>
                 <subType>Politician</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>Senator</subType>
                 <subType>U.S.Congressperson</subType>
-                <website>http://www11.jsc.nasa.gov/Bios/htmlbios/glenn-j.html</website>
-                <dbpedia>http://dbpedia.org/resource/John_Glenn</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g0yh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwJ6IupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/John_Glenn</yago>
+                <dbpedia>http://dbpedia.org/resource/Joseph_Karth</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dh176</freebase>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.291403</relevance>
+            <count>3</count>
+            <text>Dr. John Strong</text>
+            <disambiguated>
+                <name>John Strong (pornographic actor)</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Strong_(pornographic_actor)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02z54tf</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.291146</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.290403</relevance>
+            <count>2</count>
+            <text>National Aeronautics and Space Council</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.286816</relevance>
+            <count>2</count>
+            <text>Dr. John Peter Minton</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.283912</relevance>
+            <count>2</count>
+            <text>Manned Orbiting Laboratory</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.292146</relevance>
+            <relevance>0.28333</relevance>
             <count>3</count>
             <text>N.Y.</text>
             <disambiguated>
@@ -318,64 +309,75 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.288465</relevance>
-            <count>3</count>
-            <text>Rep. Joseph E. Karth</text>
+            <relevance>0.282615</relevance>
+            <count>2</count>
+            <text>Col. John H. Glenn</text>
             <disambiguated>
-                <name>Joseph Karth</name>
+                <name>John Glenn</name>
+                <subType>FilmCharacter</subType>
                 <subType>Politician</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
                 <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Joseph_Karth</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dh176</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.288007</relevance>
-            <count>3</count>
-            <text>aec</text>
-            <disambiguated>
-                <name>United States Atomic Energy Commission</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Atomic_Energy_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dmm_</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Atomic_Energy_Commission</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.279183</relevance>
-            <count>2</count>
-            <text>Manned Orbiting Laboratory</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.277584</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <website>http://www11.jsc.nasa.gov/Bios/htmlbios/glenn-j.html</website>
+                <dbpedia>http://dbpedia.org/resource/John_Glenn</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g0yh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwJ6IupwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/John_Glenn</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.276929</relevance>
-            <count>2</count>
-            <text>Dr. Donald F. Hornig</text>
+            <relevance>0.281493</relevance>
+            <count>1</count>
+            <text>George McGovern</text>
             <disambiguated>
-                <name>Donald Hornig</name>
-                <dbpedia>http://dbpedia.org/resource/Donald_Hornig</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04667p8</freebase>
+                <name>George McGovern</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/George_McGovern</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gz2q</freebase>
+                <yago>http://yago-knowledge.org/resource/George_McGovern</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.278582</relevance>
+            <count>2</count>
+            <text>Gen. Joseph S. Bleymaier</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.27809</relevance>
+            <count>1</count>
+            <text>Dr. John P. Meehan</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275486</relevance>
+            <count>1</count>
+            <text>Gaylord Nelson</text>
+            <disambiguated>
+                <name>Gaylord Nelson</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Gaylord_Nelson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dpb_</freebase>
+                <yago>http://yago-knowledge.org/resource/Gaylord_Nelson</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.276695</relevance>
+            <relevance>0.274041</relevance>
             <count>2</count>
             <text>faa</text>
             <disambiguated>
@@ -388,20 +390,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.274694</relevance>
-            <count>2</count>
-            <text>National Aeronautics and Space Council</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.273963</relevance>
+            <relevance>0.273617</relevance>
             <count>2</count>
-            <text>Gen. Joseph S. Bleymaier</text>
+            <text>Dr. Edward C. Welsh</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.271186</relevance>
+            <relevance>0.272679</relevance>
             <count>2</count>
             <text>Federal Government</text>
             <disambiguated>
@@ -414,7 +410,7 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.270143</relevance>
+            <relevance>0.2698</relevance>
             <count>3</count>
             <text>Cape Canaveral</text>
             <disambiguated>
@@ -430,139 +426,136 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.269709</relevance>
+            <type>Organization</type>
+            <relevance>0.269226</relevance>
             <count>1</count>
-            <text>Rep. Edward J. Gurney</text>
+            <text>National Cancer Institute</text>
             <disambiguated>
-                <name>Edward Gurney</name>
+                <name>National Cancer Institute</name>
+                <website>http://www.cancer.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Cancer_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03nw5g</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwSEsUJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Cancer_Institute</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.269169</relevance>
+            <count>3</count>
+            <text>Sen. John 0</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.267105</relevance>
+            <count>2</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.266914</relevance>
+            <count>1</count>
+            <text>President Kennedy</text>
+            <disambiguated>
+                <name>John F. Kennedy</name>
+                <subType>FilmCharacter</subType>
                 <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Edward_Gurney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07shby</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.269159</relevance>
-            <count>2</count>
-            <text>Dr. Glenn T. Seaborg</text>
-            <disambiguated>
-                <name>Glenn T. Seaborg</name>
-                <subType>Academic</subType>
+                <subType>President</subType>
+                <subType>AwardNominee</subType>
                 <subType>AwardWinner</subType>
-                <subType>ElementDiscoverer</subType>
-                <subType>Scientist</subType>
-                <website>http://nobelprize.org/chemistry/laureates/1951/seaborg-bio.html</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_T._Seaborg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03flm</freebase>
-                <yago>http://yago-knowledge.org/resource/Glenn_T._Seaborg</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.267796</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.265191</relevance>
-            <count>2</count>
-            <text>White House</text>
-            <disambiguated>
-                <name>White House</name>
-                <subType>Location</subType>
-                <subType>House</subType>
-                <subType>TouristAttraction</subType>
-                <subType>Building</subType>
-                <website>http://www.whitehouse.gov</website>
-                <dbpedia>http://dbpedia.org/resource/White_House</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.081sq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvyXliZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/White_House</yago>
+                <subType>Celebrity</subType>
+                <subType>Dedicatee</subType>
+                <subType>MilitaryCommander</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OperaCharacter</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>USPresident</subType>
+                <subType>FilmActor</subType>
+                <website>http://www.state.gov/r/pa/ho/frus/kennedyjf/</website>
+                <dbpedia>http://dbpedia.org/resource/John_F._Kennedy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d3k14</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUNJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/John_F._Kennedy</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.261924</relevance>
-            <count>1</count>
-            <text>Col. Vladimir Mikhailovitch Komarov</text>
+            <relevance>0.265491</relevance>
+            <count>3</count>
+            <text>Pastore</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.260711</relevance>
+            <relevance>0.265451</relevance>
             <count>2</count>
-            <text>New York</text>
+            <text>Moscow</text>
             <disambiguated>
-                <name>New York City</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.259999</relevance>
-            <count>1</count>
-            <text>Chicago Sun-Times</text>
-            <disambiguated>
-                <name>Chicago Sun-Times</name>
-                <subType>Newspaper</subType>
-                <website>http://www.suntimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/Chicago_Sun-Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01khdz</freebase>
-                <yago>http://yago-knowledge.org/resource/Chicago_Sun-Times</yago>
+                <name>Moscow, Scotland</name>
+                <dbpedia>http://dbpedia.org/resource/Moscow,_Scotland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bcvgf</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.259096</relevance>
-            <count>2</count>
-            <text>Dr. Edward C. Welsh</text>
+            <relevance>0.264819</relevance>
+            <count>3</count>
+            <text>John P. MacKenzie</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.25849</relevance>
-            <count>2</count>
-            <text>Lt. Gen. John D. Ryan</text>
+            <type>Organization</type>
+            <relevance>0.263278</relevance>
+            <count>1</count>
+            <text>U.S. Army Missile Command</text>
             <disambiguated>
-                <name>John Dale Ryan</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Dale_Ryan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.037_n5</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Dale_Ryan</yago>
+                <name>United States Army Aviation and Missile Command</name>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army_Aviation_and_Missile_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04qxj7</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>HealthCondition</type>
-            <relevance>0.257613</relevance>
+            <type>Organization</type>
+            <relevance>0.260722</relevance>
+            <count>2</count>
+            <text>White House Ceremony</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.260713</relevance>
             <count>1</count>
-            <text>nonunion</text>
+            <text>Control Data Corp.</text>
             <disambiguated>
-                <name>Nonunion</name>
-                <subType>DiseaseOrMedicalCondition</subType>
-                <dbpedia>http://dbpedia.org/resource/Nonunion</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.081rwp</freebase>
-                <yago>http://yago-knowledge.org/resource/Nonunion</yago>
+                <name>Control Data Corporation</name>
+                <subType>OperatingSystemDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Control_Data_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fxdw</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rve4OYpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Control_Data_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.259635</relevance>
+            <count>1</count>
+            <text>Army Air Service</text>
+            <disambiguated>
+                <name>United States Army Air Service</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army_Air_Service</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030s_h</freebase>
             </disambiguated>
         </entity>
     </entities>

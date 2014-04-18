@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.823737</relevance>
+            <relevance>0.82547</relevance>
             <count>14</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,25 +29,56 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.411507</relevance>
+            <relevance>0.540487</relevance>
             <count>1</count>
             <text>Shuttle Discovery</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.301569</relevance>
-            <count>1</count>
-            <text>Launch Pad</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.262091</relevance>
+            <relevance>0.287025</relevance>
             <count>1</count>
             <text>Shuttle</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.283446</relevance>
+            <count>1</count>
+            <text>Launch Pad</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.241408</relevance>
+            <relevance>0.253473</relevance>
+            <count>1</count>
+            <text>Columbia mission</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.25272</relevance>
+            <count>1</count>
+            <text>Columbia</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.239597</relevance>
+            <count>1</count>
+            <text>Columbia</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.238706</relevance>
             <count>2</count>
             <text>Task Group</text>
             <disambiguated>
@@ -59,44 +90,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.223604</relevance>
-            <count>1</count>
-            <text>Columbia</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.210925</relevance>
-            <count>1</count>
-            <text>Columbia mission</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.201014</relevance>
+            <relevance>0.220209</relevance>
             <count>1</count>
             <text>Flight Task Group</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.200937</relevance>
+            <relevance>0.220088</relevance>
             <count>1</count>
             <text>Columbia Accident Investigation Board</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.193333</relevance>
-            <count>1</count>
-            <text>Columbia</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.18813</relevance>
-            <count>1</count>
-            <text>digital camera</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.174433</relevance>
+            <relevance>0.197309</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -109,26 +116,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.19629</relevance>
+            <count>1</count>
+            <text>CAIB</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.1684</relevance>
+            <relevance>0.189935</relevance>
             <count>1</count>
             <text>Guy Gugliotta</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.183073</relevance>
+            <count>1</count>
+            <text>digital camera</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.166192</relevance>
+            <relevance>0.181917</relevance>
             <count>1</count>
             <text>CAIB</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.162017</relevance>
-            <count>1</count>
-            <text>CAIB</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.136026</relevance>
+            <relevance>0.147936</relevance>
             <count>1</count>
             <text>SCTG</text>
         </entity>

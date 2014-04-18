@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.94416</relevance>
+            <relevance>0.784047</relevance>
             <count>54</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,24 +29,9 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.509649</relevance>
-            <count>10</count>
-            <text>MSFC</text>
-            <disambiguated>
-                <name>Marshall Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.502215</relevance>
-            <count>10</count>
-            <text>Energy Research and Development Administration</text>
+            <relevance>0.425494</relevance>
+            <count>14</count>
+            <text>ERDA</text>
             <disambiguated>
                 <name>Energy Research and Development Administration</name>
                 <subType>GovernmentAgency</subType>
@@ -55,41 +40,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.412232</relevance>
+            <count>11</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.48527</relevance>
+            <relevance>0.402925</relevance>
             <count>10</count>
             <text>solar energy</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.371992</relevance>
+            <count>8</count>
+            <text>Ames Research Center</text>
+            <disambiguated>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.383966</relevance>
+            <relevance>0.325564</relevance>
             <count>5</count>
             <text>solar cells</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.36178</relevance>
-            <count>5</count>
-            <text>Space Telescope</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.359935</relevance>
-            <count>3</count>
-            <text>Langley Research Center</text>
-            <disambiguated>
-                <name>Langley Research Center</name>
-                <subType>AircraftDesigner</subType>
-                <geo>37.09277 -76.38133</geo>
-                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
-                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.357536</relevance>
+            <relevance>0.305177</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -109,76 +97,58 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.353841</relevance>
+            <relevance>0.302993</relevance>
+            <count>5</count>
+            <text>Space Telescope</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.294282</relevance>
+            <count>5</count>
+            <text>LeRC</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.292294</relevance>
             <count>3</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.349111</relevance>
-            <count>5</count>
-            <text>Jet Propulsion Laboratory</text>
+            <relevance>0.291992</relevance>
+            <count>3</count>
+            <text>Langley Research Center</text>
             <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
+                <name>Langley Research Center</name>
+                <subType>AircraftDesigner</subType>
+                <geo>37.09277 -76.38133</geo>
+                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
+                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.347212</relevance>
+            <relevance>0.286211</relevance>
             <count>3</count>
             <text>Lewis Research Center</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.325721</relevance>
+            <relevance>0.278359</relevance>
             <count>5</count>
             <text>director</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.325645</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.273741</relevance>
             <count>5</count>
-            <text>LeRC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.319338</relevance>
-            <count>6</count>
-            <text>ERDA</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.312178</relevance>
-            <count>3</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Keene State College</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.92777777777778 -72.2786111111111</geo>
-                <website>http://www.keene.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
-                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.305948</relevance>
-            <count>3</count>
-            <text>Science Foundation</text>
+            <text>solar system</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.302935</relevance>
+            <relevance>0.272854</relevance>
             <count>6</count>
             <text>NY Times</text>
             <disambiguated>
@@ -196,156 +166,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.301452</relevance>
-            <count>2</count>
-            <text>Dryden Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.300978</relevance>
-            <count>1</count>
-            <text>NASA Hq</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.299306</relevance>
-            <count>6</count>
-            <text>ARC</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.296903</relevance>
-            <count>1</count>
-            <text>NASA&#x2019;s Dryden Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.291065</relevance>
-            <count>3</count>
-            <text>Ames Research Center</text>
+            <relevance>0.265118</relevance>
+            <count>5</count>
+            <text>Jet Propulsion Laboratory</text>
             <disambiguated>
-                <name>Ames Research Center</name>
+                <name>Jet Propulsion Laboratory</name>
                 <subType>Location</subType>
                 <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.291035</relevance>
-            <count>3</count>
-            <text>Calif.</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.290019</relevance>
-            <count>3</count>
-            <text>President Carter</text>
-            <disambiguated>
-                <name>Jimmy Carter</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>AwardNominee</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>USPresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Jimmy_Carter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042kg</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPvV45wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Jimmy_Carter</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.286774</relevance>
-            <count>2</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.285162</relevance>
-            <count>2</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.281344</relevance>
-            <count>5</count>
-            <text>solar system</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.280863</relevance>
-            <count>1</count>
-            <text>Lewis Research Center</text>
+            <relevance>0.263969</relevance>
+            <count>3</count>
+            <text>Science Foundation</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.262251</relevance>
+            <count>3</count>
+            <text>KSC</text>
             <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+                <name>Keene State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.92777777777778 -72.2786111111111</geo>
+                <website>http://www.keene.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
+                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.277959</relevance>
-            <count>3</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.277384</relevance>
+            <relevance>0.261668</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -366,91 +227,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.274059</relevance>
-            <count>2</count>
-            <text>Dr. James J. Kramer</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.272134</relevance>
-            <count>1</count>
-            <text>NASA Hq</text>
-            <disambiguated>
-                <name>NASA Headquarters</name>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <dbpedia>http://dbpedia.org/resource/NASA_Headquarters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09gcl34</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.271848</relevance>
-            <count>2</count>
-            <text>energy sources</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.271015</relevance>
-            <count>1</count>
-            <text>Research Council</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.265168</relevance>
-            <count>2</count>
-            <text>Phoenix</text>
-            <disambiguated>
-                <name>Phoenix, Maryland</name>
-                <dbpedia>http://dbpedia.org/resource/Phoenix,_Maryland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01yy7c</freebase>
-                <yago>http://yago-knowledge.org/resource/Phoenix,_Maryland</yago>
-                <geonames>http://sws.geonames.org/4365339/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.264529</relevance>
-            <count>2</count>
-            <text>transportation systems</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.257626</relevance>
-            <count>2</count>
-            <text>principal investigator</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.256676</relevance>
-            <count>1</count>
-            <text>Palomar observatory</text>
-            <disambiguated>
-                <name>Palomar Observatory</name>
-                <subType>AstronomicalObservatory</subType>
-                <geo>33.35583333333334 -116.8638888888889</geo>
-                <website>http://www.astro.caltech.edu/observatories/palomar/</website>
-                <dbpedia>http://dbpedia.org/resource/Palomar_Observatory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.022tzk</freebase>
-                <yago>http://yago-knowledge.org/resource/Palomar_Observatory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.256641</relevance>
-            <count>1</count>
-            <text>Wyle Laboratories</text>
-            <disambiguated>
-                <name>Wyle Laboratories</name>
-                <dbpedia>http://dbpedia.org/resource/Wyle_Laboratories</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rysn0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwHAfUJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Wyle_Laboratories</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.256131</relevance>
+            <relevance>0.260379</relevance>
             <count>4</count>
             <text>Wall Street Journal</text>
             <disambiguated>
@@ -464,91 +242,350 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.253987</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.259469</relevance>
             <count>3</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.253936</relevance>
-            <count>1</count>
-            <text>Space Industrialization Program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.253493</relevance>
-            <count>1</count>
-            <text>Illinois Institute of Technology Research Institute</text>
+            <text>Calif.</text>
             <disambiguated>
-                <name>IIT Research Institute</name>
-                <subType>Company</subType>
-                <website>http://www.iitri.org/</website>
-                <dbpedia>http://dbpedia.org/resource/IIT_Research_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qfb92</freebase>
-                <yago>http://yago-knowledge.org/resource/IIT_Research_Institute</yago>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.253476</relevance>
+            <type>Facility</type>
+            <relevance>0.250286</relevance>
             <count>2</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.250574</relevance>
-            <count>2</count>
-            <text>Calif</text>
+            <text>Dryden Flight Research Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.249781</relevance>
-            <count>1</count>
-            <text>Corning</text>
+            <relevance>0.25005</relevance>
+            <count>2</count>
+            <text>Boeing</text>
             <disambiguated>
-                <name>Corning Museum of Glass</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Building</subType>
-                <subType>Museum</subType>
-                <geo>42.149813 -77.054297</geo>
-                <dbpedia>http://dbpedia.org/resource/Corning_Museum_of_Glass</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026vmvq</freebase>
-                <yago>http://yago-knowledge.org/resource/Corning_Museum_of_Glass</yago>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.248551</relevance>
+            <type>Facility</type>
+            <relevance>0.237647</relevance>
+            <count>1</count>
+            <text>NASA&#x2019;s Dryden Flight Research Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.236381</relevance>
+            <count>1</count>
+            <text>NASA Hq</text>
+            <disambiguated>
+                <name>NASA Headquarters</name>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <dbpedia>http://dbpedia.org/resource/NASA_Headquarters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gcl34</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.23608</relevance>
+            <count>3</count>
+            <text>LaRC</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.227731</relevance>
             <count>2</count>
-            <text>associate administrator</text>
+            <text>Cleveland</text>
+            <disambiguated>
+                <name>Cleveland</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.city.cleveland.oh.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.227534</relevance>
+            <count>2</count>
+            <text>Steward Observatory</text>
+            <disambiguated>
+                <name>Steward Observatory</name>
+                <subType>Location</subType>
+                <geo>32.2333 -110.9483</geo>
+                <website>http://www.as.arizona.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Steward_Observatory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02chwm</freebase>
+                <yago>http://yago-knowledge.org/resource/Steward_Observatory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.225904</relevance>
+            <count>1</count>
+            <text>Langley Research Center</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.225637</relevance>
+            <count>2</count>
+            <text>energy sources</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.221852</relevance>
+            <count>2</count>
+            <text>ERDA</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.221814</relevance>
+            <count>1</count>
+            <text>Dr. David Criswell</text>
+            <disambiguated>
+                <name>David Criswell</name>
+                <dbpedia>http://dbpedia.org/resource/David_Criswell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0896dh</freebase>
+                <yago>http://yago-knowledge.org/resource/David_Criswell</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.248191</relevance>
+            <relevance>0.221023</relevance>
+            <count>1</count>
+            <text>Lunar Science Institute</text>
+            <disambiguated>
+                <name>NASA Lunar Science Institute</name>
+                <dbpedia>http://dbpedia.org/resource/NASA_Lunar_Science_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06ztvln</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.216592</relevance>
+            <count>2</count>
+            <text>GSFC</text>
+            <disambiguated>
+                <name>Goddard Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>GovernmentAgency</subType>
+                <geo>38.996944444444445 -76.84833333333333</geo>
+                <website>http://www.nasa.gov/centers/goddard/home/</website>
+                <dbpedia>http://dbpedia.org/resource/Goddard_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmpb</freebase>
+                <yago>http://yago-knowledge.org/resource/Goddard_Space_Flight_Center</yago>
+                <geonames>http://sws.geonames.org/4356342/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.21649</relevance>
+            <count>1</count>
+            <text>Chicago Tribune</text>
+            <disambiguated>
+                <name>Chicago Tribune</name>
+                <subType>AwardWinner</subType>
+                <subType>ComicStripSyndicate</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.chicagotribune.com</website>
+                <dbpedia>http://dbpedia.org/resource/Chicago_Tribune</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gk2h</freebase>
+                <yago>http://yago-knowledge.org/resource/Chicago_Tribune</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.215449</relevance>
+            <count>2</count>
+            <text>Mt</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.215076</relevance>
+            <count>3</count>
+            <text>President Carter</text>
+            <disambiguated>
+                <name>Jimmy Carter</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>USPresident</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Jimmy_Carter</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042kg</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPvV45wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Jimmy_Carter</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.214615</relevance>
+            <count>1</count>
+            <text>Lunar Science Conference</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.213913</relevance>
+            <count>2</count>
+            <text>Phoenix</text>
+            <disambiguated>
+                <name>Phoenix, Maryland</name>
+                <dbpedia>http://dbpedia.org/resource/Phoenix,_Maryland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01yy7c</freebase>
+                <yago>http://yago-knowledge.org/resource/Phoenix,_Maryland</yago>
+                <geonames>http://sws.geonames.org/4365339/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.213177</relevance>
+            <count>1</count>
+            <text>Hong Kong</text>
+            <disambiguated>
+                <name>Hong Kong</name>
+                <subType>HumanLanguage</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>BodyOfWater</subType>
+                <subType>Cuisine</subType>
+                <geo>22.278333333333332 114.1588888888889</geo>
+                <website>http://www.gov.hk/en/</website>
+                <dbpedia>http://dbpedia.org/resource/Hong_Kong</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Hong_Kong</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03h64</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVipapwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Hong_Kong</yago>
+                <geonames>http://sws.geonames.org/1819727/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.212577</relevance>
+            <count>1</count>
+            <text>NASA Hq</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.212561</relevance>
+            <count>1</count>
+            <text>space exploration</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.211196</relevance>
+            <count>2</count>
+            <text>WFC</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.21038</relevance>
+            <count>1</count>
+            <text>Kitt Peak</text>
+            <disambiguated>
+                <name>Kitt Peak</name>
+                <subType>Location</subType>
+                <subType>Mountain</subType>
+                <geo>31.96409166666667 -111.59980277777778</geo>
+                <dbpedia>http://dbpedia.org/resource/Kitt_Peak</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05qb8z8</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.209613</relevance>
             <count>4</count>
             <text>FY</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.209518</relevance>
+            <count>2</count>
+            <text>principal investigator</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.248143</relevance>
+            <relevance>0.209499</relevance>
             <count>1</count>
-            <text>Corning</text>
+            <text>Rockville</text>
             <disambiguated>
-                <name>Corning (city), New York</name>
-                <geo>42.14805555555556 -77.05694444444444</geo>
-                <website>http://www.corning-cc.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Corning_(city),_New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02cqs7</freebase>
-                <yago>http://yago-knowledge.org/resource/Corning_(city),_New_York</yago>
+                <name>Rockville, Maryland</name>
+                <website>http://www.rockvillemd.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockville,_Maryland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bxbb</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockville,_Maryland</yago>
+                <geonames>http://sws.geonames.org/4367175/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.248091</relevance>
-            <count>3</count>
-            <text>Administrator Dr. Robert A. Frosch</text>
+            <type>Organization</type>
+            <relevance>0.20921</relevance>
+            <count>2</count>
+            <text>U.S. Army</text>
+            <disambiguated>
+                <name>United States Army</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <subType>VideoGamePublisher</subType>
+                <website>http://www.army.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wh1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyd5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Army</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.208072</relevance>
+            <count>1</count>
+            <text>New Mexico</text>
+            <disambiguated>
+                <name>New Mexico</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.newmexico.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNcZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/New_Mexico</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.208025</relevance>
+            <count>2</count>
+            <text>secretary</text>
         </entity>
     </entities>
 </results>

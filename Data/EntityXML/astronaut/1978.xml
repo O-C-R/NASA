@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.914281</relevance>
+            <relevance>0.84296</relevance>
             <count>4</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.429094</relevance>
+            <relevance>0.390696</relevance>
             <count>2</count>
             <text>Dr. Robert A. Frosch</text>
             <disambiguated>
@@ -40,20 +40,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.391048</relevance>
-            <count>1</count>
-            <text>Congressman Olin D. Teague</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.373994</relevance>
-            <count>2</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.333226</relevance>
+            <relevance>0.368082</relevance>
             <count>1</count>
             <text>Homestead AFB</text>
             <disambiguated>
@@ -64,26 +52,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.324955</relevance>
+            <type>JobTitle</type>
+            <relevance>0.362147</relevance>
+            <count>2</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.33083</relevance>
             <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
+            <text>Congressman Olin D. Teague</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.296625</relevance>
+            <relevance>0.327631</relevance>
             <count>1</count>
             <text>USAF</text>
             <disambiguated>
@@ -99,14 +81,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.289124</relevance>
-            <count>1</count>
-            <text>administrator</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.266984</relevance>
+            <relevance>0.294926</relevance>
             <count>1</count>
             <text>Fla.</text>
             <disambiguated>
@@ -125,20 +101,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.287961</relevance>
+            <count>1</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.264984</relevance>
+            <relevance>0.262652</relevance>
             <count>1</count>
             <text>Marshall Star</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.248552</relevance>
+            <relevance>0.260975</relevance>
             <count>1</count>
             <text>America</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.253789</relevance>
+            <count>1</count>
+            <text>administrator</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.233136</relevance>
+            <relevance>0.24534</relevance>
             <count>1</count>
             <text>United States.</text>
         </entity>

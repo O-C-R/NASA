@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.888128</relevance>
+            <relevance>0.852212</relevance>
             <count>13</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.485928</relevance>
+            <relevance>0.500118</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -48,21 +48,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.416487</relevance>
+            <type>Country</type>
+            <relevance>0.393299</relevance>
             <count>3</count>
-            <text>RFP</text>
+            <text>Greenland</text>
             <disambiguated>
-                <name>Russian Fascist Party</name>
-                <subType>PoliticalParty</subType>
-                <dbpedia>http://dbpedia.org/resource/Russian_Fascist_Party</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pjdpr</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Fascist_Party</yago>
+                <name>Greenland</name>
+                <subType>Location</subType>
+                <subType>GeographicFeature</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Island</subType>
+                <website>http://uk.nanoq.gl/</website>
+                <dbpedia>http://dbpedia.org/resource/Greenland</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Greenland</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.035v3</freebase>
+                <yago>http://yago-knowledge.org/resource/Greenland</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.38981</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.381989</relevance>
+            <relevance>0.388056</relevance>
             <count>4</count>
             <text>France</text>
             <disambiguated>
@@ -73,29 +92,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.363014</relevance>
+            <relevance>0.387215</relevance>
             <count>2</count>
             <text>Browne</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.359545</relevance>
-            <count>2</count>
-            <text>Francois Mitterrand</text>
-            <disambiguated>
-                <name>Fran&#xE7;ois Mitterrand</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>ChivalricOrderMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Fran&#xE7;ois_Mitterrand</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09gvx</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi7GZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Fran%C3%A7ois_Mitterrand</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.352777</relevance>
+            <relevance>0.378642</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -113,136 +116,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.340484</relevance>
-            <count>3</count>
-            <text>Paris</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.339532</relevance>
-            <count>1</count>
-            <text>Goddard Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.334599</relevance>
-            <count>3</count>
-            <text>Greenland</text>
-            <disambiguated>
-                <name>Greenland</name>
-                <subType>Location</subType>
-                <subType>GeographicFeature</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Island</subType>
-                <website>http://uk.nanoq.gl/</website>
-                <dbpedia>http://dbpedia.org/resource/Greenland</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Greenland</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.035v3</freebase>
-                <yago>http://yago-knowledge.org/resource/Greenland</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.324225</relevance>
-            <count>1</count>
-            <text>Greenland Sondre Stromfjord</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.317819</relevance>
-            <count>1</count>
-            <text>Finnish army</text>
-            <disambiguated>
-                <name>Finnish Army</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Finnish_Army</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01tyn8</freebase>
-                <yago>http://yago-knowledge.org/resource/Finnish_Army</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.317436</relevance>
-            <count>1</count>
-            <text>GSFCAVallops Flight Facility</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.314529</relevance>
-            <count>1</count>
-            <text>Rocket Center</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.310365</relevance>
+            <type>Person</type>
+            <relevance>0.365946</relevance>
             <count>2</count>
-            <text>Washington Post</text>
+            <text>Francois Mitterrand</text>
             <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <name>Fran&#xE7;ois Mitterrand</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>ChivalricOrderMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Fran&#xE7;ois_Mitterrand</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gvx</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi7GZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Fran%C3%A7ois_Mitterrand</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.304805</relevance>
-            <count>1</count>
-            <text>Morton Thiokol, Inc.</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.302101</relevance>
+            <relevance>0.364605</relevance>
             <count>1</count>
             <text>Institute of Space</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.299801</relevance>
-            <count>1</count>
-            <text>Chemical Systems Div. of United Technologies</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.295467</relevance>
-            <count>1</count>
-            <text>Strategic Propulsion Co.</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.294262</relevance>
-            <count>2</count>
-            <text>West Germany</text>
-            <disambiguated>
-                <name>West Germany</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.293004</relevance>
-            <count>1</count>
-            <text>Danish Meteorological Institute</text>
-            <disambiguated>
-                <name>Danish Meteorological Institute</name>
-                <dbpedia>http://dbpedia.org/resource/Danish_Meteorological_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bqm__</freebase>
-                <yago>http://yago-knowledge.org/resource/Danish_Meteorological_Institute</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.292797</relevance>
+            <relevance>0.353609</relevance>
             <count>2</count>
             <text>Japan</text>
             <disambiguated>
@@ -259,38 +156,141 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.289676</relevance>
-            <count>1</count>
-            <text>Wallops Island</text>
+            <type>Organization</type>
+            <relevance>0.348272</relevance>
+            <count>3</count>
+            <text>RFP</text>
             <disambiguated>
-                <name>Wallops Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>37.85 -75.46666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
-                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
-                <geonames>http://sws.geonames.org/4792009/</geonames>
+                <name>Russian Fascist Party</name>
+                <subType>PoliticalParty</subType>
+                <dbpedia>http://dbpedia.org/resource/Russian_Fascist_Party</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pjdpr</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Fascist_Party</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.289238</relevance>
+            <type>Facility</type>
+            <relevance>0.343337</relevance>
             <count>1</count>
-            <text>North America</text>
+            <text>Goddard Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.34216</relevance>
+            <count>3</count>
+            <text>Paris</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.340036</relevance>
+            <count>1</count>
+            <text>Dr. Tamiya Nomura</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.331576</relevance>
+            <count>2</count>
+            <text>AFGL</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.327747</relevance>
+            <count>1</count>
+            <text>Greenland Sondre Stromfjord</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.325561</relevance>
+            <count>1</count>
+            <text>Malcom Brown</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.320725</relevance>
+            <count>1</count>
+            <text>GSFCAVallops Flight Facility</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.316277</relevance>
+            <count>1</count>
+            <text>Sakigake</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.312659</relevance>
+            <count>1</count>
+            <text>Halley</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.310077</relevance>
+            <count>1</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.30786</relevance>
+            <count>1</count>
+            <text>Rocket Center</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.307289</relevance>
+            <count>1</count>
+            <text>Astronautical Science</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.303172</relevance>
+            <count>1</count>
+            <text>Uchinoura</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.300281</relevance>
+            <count>2</count>
+            <text>West Germany</text>
             <disambiguated>
-                <name>North America</name>
+                <name>West Germany</name>
                 <subType>Location</subType>
-                <geo>48.166666666666664 -100.16666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/North_America</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059g4</freebase>
-                <yago>http://yago-knowledge.org/resource/North_America</yago>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.296944</relevance>
+            <count>1</count>
+            <text>Finnish army</text>
+            <disambiguated>
+                <name>Finnish Army</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Finnish_Army</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01tyn8</freebase>
+                <yago>http://yago-knowledge.org/resource/Finnish_Army</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.295999</relevance>
+            <count>1</count>
+            <text>Danish Meteorological Institute</text>
+            <disambiguated>
+                <name>Danish Meteorological Institute</name>
+                <dbpedia>http://dbpedia.org/resource/Danish_Meteorological_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bqm__</freebase>
+                <yago>http://yago-knowledge.org/resource/Danish_Meteorological_Institute</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.28768</relevance>
+            <relevance>0.293779</relevance>
             <count>1</count>
             <text>Caspar Weinberger</text>
             <disambiguated>
@@ -306,14 +306,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.286153</relevance>
+            <type>Company</type>
+            <relevance>0.293311</relevance>
             <count>1</count>
-            <text>Dr. Tamiya Nomura</text>
+            <text>Morton Thiokol, Inc.</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.292632</relevance>
+            <count>1</count>
+            <text>Wallops Island</text>
+            <disambiguated>
+                <name>Wallops Island</name>
+                <subType>Location</subType>
+                <subType>Island</subType>
+                <geo>37.85 -75.46666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
+                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
+                <geonames>http://sws.geonames.org/4792009/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.292097</relevance>
+            <count>1</count>
+            <text>North America</text>
+            <disambiguated>
+                <name>North America</name>
+                <subType>Location</subType>
+                <geo>48.166666666666664 -100.16666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/North_America</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059g4</freebase>
+                <yago>http://yago-knowledge.org/resource/North_America</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.285641</relevance>
+            <relevance>0.29192</relevance>
             <count>1</count>
             <text>Strategic Defense Initiative</text>
             <disambiguated>
@@ -324,8 +354,30 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.287644</relevance>
+            <count>1</count>
+            <text>Barents Sea</text>
+            <disambiguated>
+                <name>Barents Sea</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>80.08333333333333 28.0</geo>
+                <dbpedia>http://dbpedia.org/resource/Barents_Sea</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0c0kk</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjMw5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Barents_Sea</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.286279</relevance>
+            <count>1</count>
+            <text>Philip Backman</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.283371</relevance>
+            <relevance>0.286268</relevance>
             <count>1</count>
             <text>Copenhagen</text>
             <disambiguated>
@@ -340,19 +392,32 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.282618</relevance>
+            <relevance>0.285825</relevance>
             <count>1</count>
             <text>Sondre Stromfjord</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.282145</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.285133</relevance>
             <count>1</count>
-            <text>Brant VIII</text>
+            <text>VA</text>
+            <disambiguated>
+                <name>Virginia</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.281689</relevance>
+            <relevance>0.28457</relevance>
             <count>1</count>
             <text>Denmark</text>
             <disambiguated>
@@ -372,24 +437,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.281644</relevance>
-            <count>1</count>
-            <text>Barents Sea</text>
-            <disambiguated>
-                <name>Barents Sea</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>80.08333333333333 28.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Barents_Sea</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c0kk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjMw5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Barents_Sea</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.280368</relevance>
+            <relevance>0.283233</relevance>
             <count>1</count>
             <text>Massachusetts</text>
             <disambiguated>
@@ -407,20 +456,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.27823</relevance>
-            <count>2</count>
-            <text>AFGL</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.276239</relevance>
-            <count>1</count>
-            <text>Hercules, Inc.</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.276111</relevance>
+            <relevance>0.281987</relevance>
             <count>1</count>
             <text>Helsinki</text>
             <disambiguated>
@@ -437,7 +474,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.275983</relevance>
+            <relevance>0.281883</relevance>
             <count>1</count>
             <text>Bonn</text>
             <disambiguated>
@@ -452,81 +489,73 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.275272</relevance>
+            <relevance>0.281413</relevance>
             <count>1</count>
             <text>Soviet Embassy</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.275212</relevance>
-            <count>1</count>
-            <text>Philip Backman</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.271616</relevance>
+            <relevance>0.277476</relevance>
             <count>1</count>
             <text>Moscow</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.276987</relevance>
+            <count>1</count>
+            <text>Brant VIII</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.276127</relevance>
+            <count>1</count>
+            <text>Alabama</text>
+            <disambiguated>
+                <name>Alabama</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>33.0 -86.66666666666667</geo>
+                <website>http://www.alabama.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
+                <yago>http://yago-knowledge.org/resource/Alabama</yago>
+                <geonames>http://sws.geonames.org/4829764/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.26822</relevance>
+            <relevance>0.271264</relevance>
             <count>1</count>
             <text>Hi Lat Spacecraft</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.268157</relevance>
+            <relevance>0.271167</relevance>
             <count>1</count>
             <text>Hanscom AFB</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.267766</relevance>
-            <count>1</count>
-            <text>Malcom Brown</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.26457</relevance>
-            <count>1</count>
-            <text>Atlantic Research Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.264278</relevance>
-            <count>1</count>
-            <text>Sakigake</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.263848</relevance>
+            <relevance>0.270092</relevance>
             <count>1</count>
             <text>European Flermes</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.260602</relevance>
-            <count>1</count>
-            <text>Scandanavia</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.259464</relevance>
+            <relevance>0.265521</relevance>
             <count>1</count>
             <text>Defense Secretary</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.258933</relevance>
+            <type>City</type>
+            <relevance>0.263563</relevance>
             <count>1</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.256937</relevance>
-            <count>1</count>
-            <text>VA</text>
+            <text>Scandanavia</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.893114</relevance>
+            <relevance>0.816132</relevance>
             <count>6</count>
             <text>New York Times</text>
             <disambiguated>
@@ -26,7 +26,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.782102</relevance>
+            <relevance>0.702931</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -48,7 +48,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.703597</relevance>
+            <relevance>0.618128</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -67,23 +67,29 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.595676</relevance>
+            <type>Company</type>
+            <relevance>0.59558</relevance>
             <count>3</count>
-            <text>U.S.S.R.</text>
+            <text>msfc</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.569459</relevance>
+            <count>2</count>
+            <text>Wall Street Journal</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.55738</relevance>
+            <relevance>0.554675</relevance>
             <count>2</count>
             <text>usaf</text>
             <disambiguated>
@@ -99,41 +105,89 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.524323</relevance>
-            <count>1</count>
-            <text>Rescue of Astronauts</text>
+            <type>Country</type>
+            <relevance>0.534601</relevance>
+            <count>3</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.505903</relevance>
+            <relevance>0.529518</relevance>
             <count>2</count>
             <text>Aero Daily</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.500999</relevance>
-            <count>1</count>
-            <text>Arnold Engineering Development Center</text>
-            <disambiguated>
-                <name>Arnold Engineering Development Center</name>
-                <subType>Location</subType>
-                <subType>MilitaryUnit</subType>
-                <website>http://www.arnold.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Arnold_Engineering_Development_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04b9k7</freebase>
-                <yago>http://yago-knowledge.org/resource/Arnold_Engineering_Development_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.494183</relevance>
+            <relevance>0.490447</relevance>
             <count>1</count>
             <text>Deputy Associate Administrator for Manned Space Flight</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.487334</relevance>
+            <count>1</count>
+            <text>LA Times</text>
+            <disambiguated>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.476521</relevance>
+            <count>1</count>
+            <text>Rescue of Astronauts</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.474693</relevance>
+            <count>1</count>
+            <text>Aerospace Daily</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.469384</relevance>
+            <count>1</count>
+            <text>AFB</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.468462</relevance>
+            <count>1</count>
+            <text>Ohio</text>
+            <disambiguated>
+                <name>Ohio</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.ohio.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Ohio</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.494063</relevance>
+            <relevance>0.465622</relevance>
             <count>1</count>
             <text>Astronaut Walter M. Schirra</text>
             <disambiguated>
@@ -148,50 +202,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.482864</relevance>
-            <count>1</count>
-            <text>afsc</text>
-            <disambiguated>
-                <name>American Friends Service Committee</name>
-                <subType>AwardWinner</subType>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.afsc.org</website>
-                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.481182</relevance>
-            <count>2</count>
-            <text>msfc</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.480907</relevance>
+            <relevance>0.464507</relevance>
             <count>1</count>
-            <text>Astronauts Borman</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.467551</relevance>
-            <count>2</count>
-            <text>Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
+            <text>usaf Unit Equipment</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.454729</relevance>
+            <relevance>0.458809</relevance>
             <count>1</count>
             <text>Prof. Fritz Zwicky</text>
             <disambiguated>
@@ -206,20 +224,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.447235</relevance>
+            <type>Person</type>
+            <relevance>0.455659</relevance>
             <count>1</count>
-            <text>Holloman afb</text>
+            <text>Astronauts Borman</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.451245</relevance>
+            <count>1</count>
+            <text>NYT</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.44441</relevance>
+            <relevance>0.449084</relevance>
             <count>1</count>
             <text>nasa Director of Biotechnology and Human Research</text>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.439979</relevance>
+            <count>1</count>
+            <text>San Clemente Island</text>
+            <disambiguated>
+                <name>San Clemente Island</name>
+                <subType>Location</subType>
+                <subType>Island</subType>
+                <geo>32.92086944444444 -118.51554444444444</geo>
+                <dbpedia>http://dbpedia.org/resource/San_Clemente_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025rv5</freebase>
+                <yago>http://yago-knowledge.org/resource/San_Clemente_Island</yago>
+                <geonames>http://sws.geonames.org/5391801/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.439097</relevance>
+            <relevance>0.439764</relevance>
             <count>1</count>
             <text>nasa</text>
             <disambiguated>
@@ -240,58 +280,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.435439</relevance>
+            <type>Organization</type>
+            <relevance>0.435933</relevance>
             <count>1</count>
-            <text>McDonnell Douglas Corp.</text>
-            <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
-            </disambiguated>
+            <text>Air Transport Assn</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.435143</relevance>
+            <type>Continent</type>
+            <relevance>0.433221</relevance>
             <count>1</count>
-            <text>Aerospace Daily</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.434589</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.432985</relevance>
-            <count>1</count>
-            <text>San Clemente Island</text>
-            <disambiguated>
-                <name>San Clemente Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>32.92086944444444 -118.51554444444444</geo>
-                <dbpedia>http://dbpedia.org/resource/San_Clemente_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025rv5</freebase>
-                <yago>http://yago-knowledge.org/resource/San_Clemente_Island</yago>
-                <geonames>http://sws.geonames.org/5391801/</geonames>
-            </disambiguated>
+            <text>America</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.427524</relevance>
-            <count>1</count>
-            <text>Dr. R. G. Mclver</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.427272</relevance>
+            <relevance>0.427877</relevance>
             <count>1</count>
             <text>Dr. Arthur H. Smith</text>
             <disambiguated>
@@ -303,20 +305,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.42725</relevance>
+            <type>Person</type>
+            <relevance>0.426949</relevance>
             <count>1</count>
-            <text>msfc</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.424264</relevance>
-            <count>1</count>
-            <text>usaf Unit Equipment</text>
+            <text>M. Scott Carpenter</text>
+            <disambiguated>
+                <name>Scott Carpenter</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.scottcarpenter.com</website>
+                <dbpedia>http://dbpedia.org/resource/Scott_Carpenter</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wz44</freebase>
+                <yago>http://yago-knowledge.org/resource/Scott_Carpenter</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.420494</relevance>
+            <relevance>0.426555</relevance>
             <count>1</count>
             <text>Edwin E. Aldrin</text>
             <disambiguated>
@@ -336,61 +341,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.419967</relevance>
-            <count>1</count>
-            <text>M. Scott Carpenter</text>
-            <disambiguated>
-                <name>Scott Carpenter</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.scottcarpenter.com</website>
-                <dbpedia>http://dbpedia.org/resource/Scott_Carpenter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wz44</freebase>
-                <yago>http://yago-knowledge.org/resource/Scott_Carpenter</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.418847</relevance>
-            <count>1</count>
-            <text>N. Mex.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.417523</relevance>
-            <count>1</count>
-            <text>Wright Brothers memorial</text>
-            <disambiguated>
-                <name>Wright Brothers National Memorial</name>
-                <subType>Location</subType>
-                <subType>Artwork</subType>
-                <website>http://www.nps.gov/wrbr</website>
-                <dbpedia>http://dbpedia.org/resource/Wright_Brothers_National_Memorial</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.073ty0</freebase>
-                <yago>http://yago-knowledge.org/resource/Wright_Brothers_National_Memorial</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.414506</relevance>
-            <count>1</count>
-            <text>LA Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.414105</relevance>
+            <relevance>0.421281</relevance>
             <count>1</count>
             <text>usn</text>
             <disambiguated>
@@ -404,105 +356,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.412561</relevance>
-            <count>1</count>
-            <text>Dr. J. F. Kubis</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.407438</relevance>
-            <count>1</count>
-            <text>Orbital workshop engineering</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.407005</relevance>
-            <count>1</count>
-            <text>Astronaut Clifton C. Williams</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.406789</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.397032</relevance>
-            <count>1</count>
-            <text>Kitty Hawk Memorial Trophy</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.396872</relevance>
-            <count>1</count>
-            <text>Air Transport Assn</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.395892</relevance>
-            <count>1</count>
-            <text>America</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.394644</relevance>
-            <count>1</count>
-            <text>General Council</text>
-            <disambiguated>
-                <name>Trades Union Congress</name>
-                <subType>MembershipOrganization</subType>
-                <subType>TradeUnion</subType>
-                <website>http://www.tuc.org.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/Trades_Union_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01qhp6</freebase>
-                <yago>http://yago-knowledge.org/resource/Trades_Union_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.394473</relevance>
-            <count>1</count>
-            <text>Beverly Hills</text>
-            <disambiguated>
-                <name>Beverly Hills, California</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.beverlyhills.org</website>
-                <dbpedia>http://dbpedia.org/resource/Beverly_Hills,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0k049</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/los_angeles/beverly_hills</census>
-                <yago>http://yago-knowledge.org/resource/Beverly_Hills,_California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.393964</relevance>
-            <count>1</count>
-            <text>Fordham Univ.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.393398</relevance>
-            <count>1</count>
-            <text>Dr. N. N. Gurovsky</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.392772</relevance>
-            <count>1</count>
-            <text>Shabad</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.392424</relevance>
-            <count>1</count>
-            <text>blood vessels</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.390893</relevance>
+            <relevance>0.419509</relevance>
             <count>1</count>
             <text>Senate</text>
             <disambiguated>
@@ -517,41 +372,158 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.390556</relevance>
+            <type>Person</type>
+            <relevance>0.416569</relevance>
             <count>1</count>
-            <text>Ohio</text>
-            <disambiguated>
-                <name>Ohio</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.ohio.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Ohio</yago>
-            </disambiguated>
+            <text>Dr. J. F. Kubis</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.413605</relevance>
+            <count>1</count>
+            <text>life-support systems</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.389615</relevance>
+            <relevance>0.410762</relevance>
             <count>1</count>
-            <text>President of Aerospace Medical Assn</text>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.410462</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas Corp.</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.409205</relevance>
+            <count>1</count>
+            <text>Spaceport News</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.389136</relevance>
+            <relevance>0.39969</relevance>
             <count>1</count>
             <text>Senate Foreign Relations Committee</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.388443</relevance>
+            <type>Person</type>
+            <relevance>0.399127</relevance>
             <count>1</count>
-            <text>AFB</text>
+            <text>Dr. Charles A. Berry</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.398775</relevance>
+            <count>1</count>
+            <text>Orbital workshop engineering</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.398038</relevance>
+            <count>1</count>
+            <text>afsc</text>
+            <disambiguated>
+                <name>American Friends Service Committee</name>
+                <subType>AwardWinner</subType>
+                <subType>Non-ProfitOrganisation</subType>
+                <website>http://www.afsc.org</website>
+                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.397956</relevance>
+            <count>1</count>
+            <text>Fordham Univ.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.397406</relevance>
+            <count>1</count>
+            <text>Dr. N. N. Gurovsky</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.397343</relevance>
+            <count>1</count>
+            <text>Hamilton</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.39303</relevance>
+            <count>1</count>
+            <text>blood vessels</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.392438</relevance>
+            <count>1</count>
+            <text>Wright Brothers memorial</text>
+            <disambiguated>
+                <name>Wright Brothers National Memorial</name>
+                <subType>Location</subType>
+                <subType>Artwork</subType>
+                <website>http://www.nps.gov/wrbr</website>
+                <dbpedia>http://dbpedia.org/resource/Wright_Brothers_National_Memorial</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.073ty0</freebase>
+                <yago>http://yago-knowledge.org/resource/Wright_Brothers_National_Memorial</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.391887</relevance>
+            <count>1</count>
+            <text>Astronaut Clifton C. Williams</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.39173</relevance>
+            <count>1</count>
+            <text>WSJ</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.3888</relevance>
+            <count>1</count>
+            <text>usaf&#x2019;s Arnold Engineering Development Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.387576</relevance>
+            <count>1</count>
+            <text>ksc Complex</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.385359</relevance>
+            <count>1</count>
+            <text>Dr. Walton W. Jones</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.385183</relevance>
+            <count>1</count>
+            <text>Gherman A. Manovtsev</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.38509</relevance>
+            <count>1</count>
+            <text>President of Aerospace Medical Assn</text>
         </entity>
     </entities>
 </results>

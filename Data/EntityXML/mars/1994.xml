@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.907907</relevance>
+            <relevance>0.908382</relevance>
             <count>2</count>
             <text>Martin Marietta Corporation</text>
             <disambiguated>
@@ -21,8 +21,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.869265</relevance>
+            <count>2</count>
+            <text>Eric Glomboske</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.86876</relevance>
+            <relevance>0.711972</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -43,20 +49,36 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.702693</relevance>
-            <count>2</count>
-            <text>Eric Glomboske</text>
+            <type>Organization</type>
+            <relevance>0.609114</relevance>
+            <count>1</count>
+            <text>Highland High School</text>
+            <disambiguated>
+                <name>Highland High School (Palmdale, California)</name>
+                <subType>Location</subType>
+                <subType>School</subType>
+                <geo>34.59236 -118.17648</geo>
+                <website>http://www.highlandhs.org</website>
+                <dbpedia>http://dbpedia.org/resource/Highland_High_School_(Palmdale,_California)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09wpxs</freebase>
+                <yago>http://yago-knowledge.org/resource/Highland_High_School_(Palmdale,_California)</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.591889</relevance>
+            <relevance>0.592372</relevance>
             <count>1</count>
             <text>Naval Center for Space Technology</text>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.584027</relevance>
+            <count>1</count>
+            <text>Antelope Valley</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.557938</relevance>
+            <relevance>0.565483</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -74,102 +96,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.535707</relevance>
-            <count>1</count>
-            <text>Highland High School</text>
-            <disambiguated>
-                <name>Highland High School (Palmdale, California)</name>
-                <subType>Location</subType>
-                <subType>School</subType>
-                <geo>34.59236 -118.17648</geo>
-                <website>http://www.highlandhs.org</website>
-                <dbpedia>http://dbpedia.org/resource/Highland_High_School_(Palmdale,_California)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09wpxs</freebase>
-                <yago>http://yago-knowledge.org/resource/Highland_High_School_(Palmdale,_California)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.534099</relevance>
+            <relevance>0.534541</relevance>
             <count>1</count>
             <text>Naval Research Laboratory</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.525257</relevance>
+            <relevance>0.525641</relevance>
             <count>1</count>
             <text>Pressuration</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.51716</relevance>
+            <type>City</type>
+            <relevance>0.522067</relevance>
             <count>1</count>
-            <text>Antelope Valley</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.516371</relevance>
-            <count>1</count>
-            <text>JPL</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
+            <text>Mars.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.512202</relevance>
+            <relevance>0.512605</relevance>
             <count>1</count>
             <text>Peter G. Wilhelm</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.504761</relevance>
+            <relevance>0.505176</relevance>
             <count>1</count>
             <text>Glenn E. Cunningham</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.48939</relevance>
+            <relevance>0.48981</relevance>
             <count>1</count>
             <text>Dr. Timothy Coffey</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.489075</relevance>
+            <relevance>0.489474</relevance>
             <count>1</count>
             <text>Director</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.481139</relevance>
+            <relevance>0.481552</relevance>
             <count>1</count>
             <text>Director of Research</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.480096</relevance>
+            <count>1</count>
+            <text>JPL</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.467876</relevance>
+            <relevance>0.46826</relevance>
             <count>1</count>
             <text>project manager</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.464573</relevance>
+            <relevance>0.464942</relevance>
             <count>1</count>
             <text>news media</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.46231</relevance>
-            <count>1</count>
-            <text>Mars.</text>
         </entity>
     </entities>
 </results>

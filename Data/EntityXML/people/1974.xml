@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.796001</relevance>
+            <relevance>0.869369</relevance>
             <count>2</count>
             <text>Lockheed</text>
             <disambiguated>
@@ -25,7 +25,7 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.775756</relevance>
+            <relevance>0.811241</relevance>
             <count>1</count>
             <text>Chairman and Chief Executive Officer for Lockheed</text>
         </entity>
@@ -36,21 +36,8 @@
             <text>John W. Crowley, Jr.</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.670486</relevance>
-            <count>2</count>
-            <text>Textron Inc.</text>
-            <disambiguated>
-                <name>Textron</name>
-                <website>http://www.textron.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Textron</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03dsbz</freebase>
-                <yago>http://yago-knowledge.org/resource/Textron</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.661353</relevance>
+            <relevance>0.685827</relevance>
             <count>1</count>
             <text>Lockheed</text>
             <disambiguated>
@@ -67,6 +54,19 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.680099</relevance>
+            <count>2</count>
+            <text>Textron Inc.</text>
+            <disambiguated>
+                <name>Textron</name>
+                <website>http://www.textron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Textron</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03dsbz</freebase>
+                <yago>http://yago-knowledge.org/resource/Textron</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
             <relevance>0.642003</relevance>
             <count>1</count>
@@ -74,7 +74,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.625223</relevance>
+            <relevance>0.59961</relevance>
             <count>1</count>
             <text>Lockheed Aircraft Corp.</text>
         </entity>
@@ -113,6 +113,18 @@
             <text>Langley Aeronautical Laboratory</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.487063</relevance>
+            <count>2</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.478415</relevance>
+            <count>1</count>
+            <text>Textron</text>
+        </entity>
+        <entity>
             <type>Organization</type>
             <relevance>0.476929</relevance>
             <count>1</count>
@@ -127,21 +139,9 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.46926</relevance>
-            <count>2</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.459213</relevance>
+            <relevance>0.446499</relevance>
             <count>1</count>
-            <text>Textron</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.458169</relevance>
-            <count>1</count>
-            <text>Federal Energy</text>
+            <text>Vice Chairman</text>
         </entity>
         <entity>
             <type>Organization</type>
@@ -151,7 +151,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.444477</relevance>
+            <relevance>0.428639</relevance>
             <count>1</count>
             <text>Federal Government</text>
             <disambiguated>
@@ -163,22 +163,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.442702</relevance>
+            <type>Organization</type>
+            <relevance>0.424568</relevance>
             <count>1</count>
-            <text>energy savings</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.427733</relevance>
-            <count>1</count>
-            <text>Vice Chairman</text>
+            <text>Federal Energy</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.41122</relevance>
+            <relevance>0.414724</relevance>
             <count>1</count>
             <text>energy consumption</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.407602</relevance>
+            <count>1</count>
+            <text>energy savings</text>
         </entity>
         <entity>
             <type>JobTitle</type>
@@ -193,21 +193,24 @@
             <text>Aeronautics Div.</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.402232</relevance>
+            <type>Organization</type>
+            <relevance>0.39725</relevance>
             <count>1</count>
-            <text>energy use</text>
+            <text>gsfc Wkly SSR</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.399194</relevance>
+            <relevance>0.395229</relevance>
             <count>1</count>
-            <text>John C. Sawhill</text>
+            <text>Officer G. William Miller</text>
             <disambiguated>
-                <name>John C. Sawhill</name>
-                <dbpedia>http://dbpedia.org/resource/John_C._Sawhill</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06yrkn</freebase>
-                <yago>http://yago-knowledge.org/resource/John_C._Sawhill</yago>
+                <name>G. William Miller</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <website>http://www.ustreas.gov/education/history/secretaries/gwmiller.shtml</website>
+                <dbpedia>http://dbpedia.org/resource/G._William_Miller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.032865</freebase>
+                <yago>http://yago-knowledge.org/resource/G._William_Miller</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -226,16 +229,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.385986</relevance>
+            <type>Person</type>
+            <relevance>0.385791</relevance>
             <count>1</count>
-            <text>energy conservation</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.384389</relevance>
-            <count>1</count>
-            <text>gsfc Wkly SSR</text>
+            <text>Frederick B. Dent</text>
+            <disambiguated>
+                <name>Frederick B. Dent</name>
+                <dbpedia>http://dbpedia.org/resource/Frederick_B._Dent</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.049d63</freebase>
+                <yago>http://yago-knowledge.org/resource/Frederick_B._Dent</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
@@ -259,35 +262,87 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.382779</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.372874</relevance>
             <count>1</count>
-            <text>Frederick B. Dent</text>
+            <text>energy use</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.372121</relevance>
+            <count>1</count>
+            <text>John C. Sawhill</text>
             <disambiguated>
-                <name>Frederick B. Dent</name>
-                <dbpedia>http://dbpedia.org/resource/Frederick_B._Dent</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.049d63</freebase>
-                <yago>http://yago-knowledge.org/resource/Frederick_B._Dent</yago>
+                <name>John C. Sawhill</name>
+                <dbpedia>http://dbpedia.org/resource/John_C._Sawhill</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06yrkn</freebase>
+                <yago>http://yago-knowledge.org/resource/John_C._Sawhill</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.371564</relevance>
+            <count>1</count>
+            <text>Distinguished Service Medal</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.370286</relevance>
+            <count>1</count>
+            <text>naca Hq.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.364534</relevance>
+            <count>1</count>
+            <text>Pavel R. Popovich</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.36388</relevance>
+            <count>1</count>
+            <text>Chief Executive</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.363212</relevance>
+            <count>1</count>
+            <text>Baykonur Cosmodrome</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.35949</relevance>
+            <count>1</count>
+            <text>TriStar</text>
+            <disambiguated>
+                <name>Tristar Productions</name>
+                <dbpedia>http://dbpedia.org/resource/Tristar_Productions</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0by06ff</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.356701</relevance>
+            <count>1</count>
+            <text>energy conservation</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.354843</relevance>
+            <count>1</count>
+            <text>Tyuratam</text>
+            <disambiguated>
+                <name>Tyuratam</name>
+                <geo>45.666666666666664 63.333333333333336</geo>
+                <dbpedia>http://dbpedia.org/resource/Tyuratam</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c9_6</freebase>
+                <yago>http://yago-knowledge.org/resource/Tyuratam</yago>
+                <geonames>http://sws.geonames.org/1521368/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.379962</relevance>
-            <count>1</count>
-            <text>Officer G. William Miller</text>
-            <disambiguated>
-                <name>G. William Miller</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <website>http://www.ustreas.gov/education/history/secretaries/gwmiller.shtml</website>
-                <dbpedia>http://dbpedia.org/resource/G._William_Miller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.032865</freebase>
-                <yago>http://yago-knowledge.org/resource/G._William_Miller</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.376976</relevance>
+            <relevance>0.351471</relevance>
             <count>1</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -314,87 +369,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.373237</relevance>
-            <count>1</count>
-            <text>TriStar</text>
-            <disambiguated>
-                <name>Tristar Productions</name>
-                <dbpedia>http://dbpedia.org/resource/Tristar_Productions</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0by06ff</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.371564</relevance>
-            <count>1</count>
-            <text>Distinguished Service Medal</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.370286</relevance>
-            <count>1</count>
-            <text>naca Hq.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.352288</relevance>
-            <count>1</count>
-            <text>Pavel R. Popovich</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.351977</relevance>
-            <count>1</count>
-            <text>Baykonur Cosmodrome</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.347884</relevance>
-            <count>1</count>
-            <text>Witkin</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.347265</relevance>
-            <count>1</count>
-            <text>Chief Executive</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.344275</relevance>
-            <count>1</count>
-            <text>Tyuratam</text>
-            <disambiguated>
-                <name>Tyuratam</name>
-                <geo>45.666666666666664 63.333333333333336</geo>
-                <dbpedia>http://dbpedia.org/resource/Tyuratam</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c9_6</freebase>
-                <yago>http://yago-knowledge.org/resource/Tyuratam</yago>
-                <geonames>http://sws.geonames.org/1521368/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.343876</relevance>
+            <relevance>0.346687</relevance>
             <count>1</count>
             <text>Secretary</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.339321</relevance>
-            <count>1</count>
-            <text>bank loans</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.338682</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.335487</relevance>
+            <relevance>0.345389</relevance>
             <count>1</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -409,27 +391,45 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.33192</relevance>
+            <relevance>0.344661</relevance>
+            <count>1</count>
+            <text>Daniel J. Haughton</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.343041</relevance>
             <count>1</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.330188</relevance>
+            <relevance>0.333916</relevance>
             <count>1</count>
-            <text>Daniel J. Haughton</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.327645</relevance>
-            <count>1</count>
-            <text>Administrator</text>
+            <text>Witkin</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.315175</relevance>
+            <relevance>0.326642</relevance>
             <count>1</count>
             <text>Yuri P. Artyukhin</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.325751</relevance>
+            <count>1</count>
+            <text>bank loans</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.324509</relevance>
+            <count>1</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.303609</relevance>
+            <count>1</count>
+            <text>Administrator</text>
         </entity>
     </entities>
 </results>

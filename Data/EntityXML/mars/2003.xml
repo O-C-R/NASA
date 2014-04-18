@@ -7,34 +7,19 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.934955</relevance>
+            <relevance>0.78314</relevance>
             <count>9</count>
             <text>ESA</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.623393</relevance>
+            <relevance>0.560371</relevance>
             <count>2</count>
             <text>Mars Express</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.374266</relevance>
-            <count>2</count>
-            <text>JAXA</text>
-            <disambiguated>
-                <name>Japan Aerospace Exploration Agency</name>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.youtube.com/jaxachannel</website>
-                <dbpedia>http://dbpedia.org/resource/Japan_Aerospace_Exploration_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03595y</freebase>
-                <yago>http://yago-knowledge.org/resource/Japan_Aerospace_Exploration_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.368985</relevance>
+            <relevance>0.490151</relevance>
             <count>2</count>
             <text>JAXA</text>
             <disambiguated>
@@ -49,26 +34,41 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.481373</relevance>
+            <count>2</count>
+            <text>JAXA</text>
+            <disambiguated>
+                <name>Japan Aerospace Exploration Agency</name>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.youtube.com/jaxachannel</website>
+                <dbpedia>http://dbpedia.org/resource/Japan_Aerospace_Exploration_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03595y</freebase>
+                <yago>http://yago-knowledge.org/resource/Japan_Aerospace_Exploration_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Technology</type>
-            <relevance>0.298315</relevance>
+            <relevance>0.437309</relevance>
             <count>2</count>
             <text>Nozomi</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.278868</relevance>
+            <relevance>0.367615</relevance>
             <count>1</count>
             <text>Nozomi</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.27444</relevance>
+            <relevance>0.355558</relevance>
             <count>2</count>
             <text>Junichi Moriuma</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.266129</relevance>
+            <relevance>0.300072</relevance>
             <count>1</count>
             <text>New Norcia</text>
             <disambiguated>
@@ -82,13 +82,13 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.239571</relevance>
+            <relevance>0.289084</relevance>
             <count>1</count>
             <text>solar system</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.216286</relevance>
+            <relevance>0.264708</relevance>
             <count>1</count>
             <text>Charles Darwin</text>
             <disambiguated>
@@ -103,8 +103,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.255645</relevance>
+            <count>1</count>
+            <text>Canadian Press</text>
+            <disambiguated>
+                <name>The Canadian Press</name>
+                <website>http://www.thecanadianpress.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Canadian_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02mchr</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.249163</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.214435</relevance>
+            <relevance>0.244748</relevance>
+            <count>1</count>
+            <text>Agence France-Presse</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.242772</relevance>
+            <count>1</count>
+            <text>Jason Testar</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.241139</relevance>
             <count>1</count>
             <text>Australia</text>
             <disambiguated>
@@ -122,59 +161,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.21177</relevance>
-            <count>1</count>
-            <text>Canadian Press</text>
-            <disambiguated>
-                <name>The Canadian Press</name>
-                <website>http://www.thecanadianpress.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Canadian_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02mchr</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.206404</relevance>
-            <count>1</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.200988</relevance>
-            <count>1</count>
-            <text>Jason Testar</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.199362</relevance>
-            <count>1</count>
-            <text>Agence France-Presse</text>
-        </entity>
-        <entity>
             <type>Region</type>
-            <relevance>0.193325</relevance>
+            <relevance>0.237068</relevance>
             <count>1</count>
             <text>Western Australia</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.185393</relevance>
+            <relevance>0.22386</relevance>
             <count>1</count>
             <text>Kenji Hall</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.176657</relevance>
+            <relevance>0.213378</relevance>
             <count>1</count>
             <text>Japan</text>
         </entity>

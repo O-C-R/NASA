@@ -6,27 +6,8 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Person</type>
-            <relevance>0.820317</relevance>
-            <count>3</count>
-            <text>Valery Ryumin</text>
-            <disambiguated>
-                <name>Valery Ryumin</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Valery_Ryumin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0304qm</freebase>
-                <yago>http://yago-knowledge.org/resource/Valery_Ryumin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.788127</relevance>
-            <count>2</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.781469</relevance>
+            <relevance>0.84473</relevance>
             <count>3</count>
             <text>Moscow</text>
             <disambiguated>
@@ -43,8 +24,48 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.804346</relevance>
+            <count>2</count>
+            <text>NAA</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.797073</relevance>
+            <count>3</count>
+            <text>Valery Ryumin</text>
+            <disambiguated>
+                <name>Valery Ryumin</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Valery_Ryumin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0304qm</freebase>
+                <yago>http://yago-knowledge.org/resource/Valery_Ryumin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.754185</relevance>
+            <count>2</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.745763</relevance>
+            <relevance>0.739062</relevance>
             <count>3</count>
             <text>INTELSAT</text>
             <disambiguated>
@@ -60,19 +81,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.744629</relevance>
+            <relevance>0.725351</relevance>
             <count>2</count>
             <text>vice president</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.734696</relevance>
+            <relevance>0.721779</relevance>
             <count>2</count>
             <text>Lt. Col. Pham Tuan</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.695297</relevance>
+            <relevance>0.665357</relevance>
             <count>2</count>
             <text>Leonid Popov</text>
             <disambiguated>
@@ -84,14 +105,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.640265</relevance>
+            <type>JobTitle</type>
+            <relevance>0.662326</relevance>
             <count>2</count>
-            <text>FBIS</text>
+            <text>chairman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.574437</relevance>
+            <count>1</count>
+            <text>vice president and general manager</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.567129</relevance>
+            <count>1</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.564549</relevance>
+            <count>1</count>
+            <text>Senator A.S. Mike Monroney</text>
+            <disambiguated>
+                <name>A. S. Mike Monroney</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/A._S._Mike_Monroney</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08z7ck</freebase>
+                <yago>http://yago-knowledge.org/resource/A._S._Mike_Monroney</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.562891</relevance>
+            <count>2</count>
+            <text>Irving Goldstein</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.621935</relevance>
+            <relevance>0.556079</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -112,8 +165,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.543358</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.538038</relevance>
+            <count>1</count>
+            <text>vice chairman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.532276</relevance>
+            <count>1</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.529517</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.591005</relevance>
+            <relevance>0.514247</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -132,77 +209,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.580837</relevance>
+            <type>Organization</type>
+            <relevance>0.495545</relevance>
             <count>1</count>
-            <text>Salyut</text>
+            <text>Congress</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.574437</relevance>
+            <type>Facility</type>
+            <relevance>0.492704</relevance>
             <count>1</count>
-            <text>vice president and general manager</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.562891</relevance>
-            <count>2</count>
-            <text>Irving Goldstein</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.558024</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.556613</relevance>
-            <count>2</count>
-            <text>chairman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.555688</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.54991</relevance>
-            <count>2</count>
-            <text>Australia</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.538038</relevance>
-            <count>1</count>
-            <text>vice chairman</text>
+            <text>Wright Brothers</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.504908</relevance>
-            <count>1</count>
-            <text>NAA</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.501193</relevance>
+            <relevance>0.489884</relevance>
             <count>1</count>
             <text>Soviet academy of sciences</text>
             <disambiguated>
@@ -216,53 +236,41 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.49834</relevance>
-            <count>1</count>
-            <text>Senator A.S. Mike Monroney</text>
+            <type>Country</type>
+            <relevance>0.48899</relevance>
+            <count>2</count>
+            <text>Australia</text>
             <disambiguated>
-                <name>A. S. Mike Monroney</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/A._S._Mike_Monroney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08z7ck</freebase>
-                <yago>http://yago-knowledge.org/resource/A._S._Mike_Monroney</yago>
+                <name>Australia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.487403</relevance>
+            <relevance>0.48158</relevance>
             <count>1</count>
-            <text>South African council</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.483395</relevance>
-            <count>1</count>
-            <text>Col. Viktor Gorbatko</text>
+            <text>FAA</text>
             <disambiguated>
-                <name>Viktor Gorbatko</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Viktor_Gorbatko</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c1zn</freebase>
-                <yago>http://yago-knowledge.org/resource/Viktor_Gorbatko</yago>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.479714</relevance>
-            <count>1</count>
-            <text>Isparitel</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.478611</relevance>
-            <count>1</count>
-            <text>Boris Petrov</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.465378</relevance>
+            <relevance>0.477927</relevance>
             <count>1</count>
             <text>Howard Hughes</text>
             <disambiguated>
@@ -281,8 +289,33 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.472302</relevance>
+            <count>1</count>
+            <text>Col. Viktor Gorbatko</text>
+            <disambiguated>
+                <name>Viktor Gorbatko</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Viktor_Gorbatko</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c1zn</freebase>
+                <yago>http://yago-knowledge.org/resource/Viktor_Gorbatko</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.469133</relevance>
+            <count>1</count>
+            <text>Isparitel</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.467403</relevance>
+            <count>1</count>
+            <text>Boris Petrov</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.462337</relevance>
+            <relevance>0.467179</relevance>
             <count>1</count>
             <text>Long Beach</text>
             <disambiguated>
@@ -296,37 +329,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.46053</relevance>
+            <type>Organization</type>
+            <relevance>0.466181</relevance>
             <count>1</count>
-            <text>South Africa</text>
-            <disambiguated>
-                <name>South Africa</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>-29.046 25.063</geo>
-                <dbpedia>http://dbpedia.org/resource/South_Africa</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/South_Africa</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0hzlz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkJaJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/South_Africa</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.45079</relevance>
-            <count>1</count>
-            <text>Lyakhov</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.450071</relevance>
-            <count>1</count>
-            <text>Africa</text>
+            <text>South African council</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.450011</relevance>
+            <relevance>0.462136</relevance>
             <count>1</count>
             <text>Summa Corporation</text>
             <disambiguated>
@@ -337,24 +347,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.44922</relevance>
+            <type>Person</type>
+            <relevance>0.454032</relevance>
             <count>1</count>
-            <text>Johannesburg</text>
-            <disambiguated>
-                <name>Johannesburg</name>
-                <subType>AdministrativeDivision</subType>
-                <geo>-26.204444444444444 28.045555555555556</geo>
-                <website>http://www.joburg.org.za/</website>
-                <dbpedia>http://dbpedia.org/resource/Johannesburg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jt2p4m</freebase>
-                <yago>http://yago-knowledge.org/resource/Johannesburg</yago>
-                <geonames>http://sws.geonames.org/993800/</geonames>
-            </disambiguated>
+            <text>Collier</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.448893</relevance>
+            <relevance>0.453595</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -376,56 +376,38 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.444452</relevance>
+            <relevance>0.447828</relevance>
             <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.443566</relevance>
-            <count>1</count>
-            <text>China</text>
-            <disambiguated>
-                <name>Republic of China (1912&#x2013;1949)</name>
-                <dbpedia>http://dbpedia.org/resource/Republic_of_China_(1912&#x2013;1949)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h66xzc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.440383</relevance>
-            <count>1</count>
-            <text>Wright Brothers</text>
+            <text>Senate</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.437778</relevance>
+            <relevance>0.442681</relevance>
             <count>1</count>
             <text>World War II</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.437523</relevance>
+            <type>Country</type>
+            <relevance>0.440579</relevance>
             <count>1</count>
-            <text>Administrator Dr. Robert A. Frosch</text>
+            <text>South Africa</text>
+            <disambiguated>
+                <name>South Africa</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>-29.046 25.063</geo>
+                <dbpedia>http://dbpedia.org/resource/South_Africa</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/South_Africa</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0hzlz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkJaJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/South_Africa</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.437342</relevance>
+            <type>Person</type>
+            <relevance>0.440209</relevance>
             <count>1</count>
-            <text>president</text>
+            <text>Lyakhov</text>
         </entity>
         <entity>
             <type>Person</type>
@@ -434,46 +416,45 @@
             <text>Randolph Payne</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.430743</relevance>
+            <type>Country</type>
+            <relevance>0.430544</relevance>
             <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
+            <text>Africa</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.430422</relevance>
+            <relevance>0.429728</relevance>
             <count>1</count>
-            <text>Hartebeesthoek</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.429871</relevance>
-            <count>1</count>
-            <text>FAA</text>
+            <text>Johannesburg</text>
             <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+                <name>Johannesburg</name>
+                <subType>AdministrativeDivision</subType>
+                <geo>-26.204444444444444 28.045555555555556</geo>
+                <website>http://www.joburg.org.za/</website>
+                <dbpedia>http://dbpedia.org/resource/Johannesburg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jt2p4m</freebase>
+                <yago>http://yago-knowledge.org/resource/Johannesburg</yago>
+                <geonames>http://sws.geonames.org/993800/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.429053</relevance>
+            <type>Country</type>
+            <relevance>0.424555</relevance>
             <count>1</count>
-            <text>memorandum of understanding</text>
+            <text>China</text>
+            <disambiguated>
+                <name>China</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>35.0 105.0</geo>
+                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
@@ -483,39 +464,45 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.421304</relevance>
+            <relevance>0.417025</relevance>
+            <count>1</count>
+            <text>Administrator Dr. Robert A. Frosch</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.410898</relevance>
+            <count>1</count>
+            <text>Hartebeesthoek</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.408937</relevance>
+            <count>1</count>
+            <text>memorandum of understanding</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.401544</relevance>
             <count>1</count>
             <text>Dr. David H. Jacobson</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.402069</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.394622</relevance>
             <count>1</count>
-            <text>Collier</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.398108</relevance>
-            <count>1</count>
-            <text>Sweden</text>
+            <text>The Washington Post</text>
             <disambiguated>
-                <name>Sweden</name>
-                <subType>SportsTeam</subType>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <website>http://www.sweden.se/</website>
-                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Sweden</yago>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.392064</relevance>
+            <relevance>0.373198</relevance>
             <count>1</count>
             <text>Canada</text>
             <disambiguated>
@@ -536,9 +523,27 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.383585</relevance>
+            <relevance>0.364293</relevance>
             <count>1</count>
             <text>Argentina</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.363403</relevance>
+            <count>1</count>
+            <text>Brazil</text>
+            <disambiguated>
+                <name>Brazil</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>CompanyShareholder</subType>
+                <geo>-15.75 -47.95</geo>
+                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Brazil</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

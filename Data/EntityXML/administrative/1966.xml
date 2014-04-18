@@ -6,10 +6,16 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.904479</relevance>
+            <count>15</count>
+            <text>nasa Administrator</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.837571</relevance>
-            <count>31</count>
-            <text>nasa</text>
+            <relevance>0.772427</relevance>
+            <count>30</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -28,22 +34,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.833576</relevance>
-            <count>15</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.67633</relevance>
+            <relevance>0.687843</relevance>
             <count>16</count>
             <text>space program</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.62779</relevance>
+            <relevance>0.589818</relevance>
             <count>16</count>
-            <text>James E. Webb</text>
+            <text>Mr. James E. Webb</text>
             <disambiguated>
                 <name>James E. Webb</name>
                 <subType>Politician</subType>
@@ -55,19 +55,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.54749</relevance>
+            <relevance>0.495563</relevance>
             <count>8</count>
             <text>Deputy Administrator Dr. Hugh L. Dryden</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.465571</relevance>
+            <relevance>0.431421</relevance>
             <count>8</count>
             <text>Wash</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.405856</relevance>
+            <count>2</count>
+            <text>nasa Deputy Administrator</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.461058</relevance>
+            <relevance>0.397846</relevance>
             <count>11</count>
             <text>United States</text>
             <disambiguated>
@@ -87,37 +93,31 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.390012</relevance>
-            <count>2</count>
-            <text>nasa Deputy Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.376362</relevance>
-            <count>1</count>
-            <text>nasa Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.359192</relevance>
-            <count>2</count>
-            <text>NASA Deputy Administrator.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.352562</relevance>
+            <relevance>0.366782</relevance>
             <count>4</count>
             <text>administrator</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.350658</relevance>
+            <relevance>0.350162</relevance>
             <count>1</count>
             <text>Deputy Administrator of nasa</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.327354</relevance>
+            <count>1</count>
+            <text>nasa Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.326164</relevance>
+            <count>2</count>
+            <text>NASA Deputy Administrator.</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.304527</relevance>
+            <relevance>0.311257</relevance>
             <count>6</count>
             <text>New York Times</text>
             <disambiguated>
@@ -135,66 +135,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.298075</relevance>
-            <count>5</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.278604</relevance>
-            <count>3</count>
-            <text>Dr. Robert C. Seamans</text>
-            <disambiguated>
-                <name>Robert Seamans</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_Seamans</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027c7hl</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_Seamans</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.270773</relevance>
+            <relevance>0.285546</relevance>
             <count>2</count>
             <text>Deputy Administrator Dr. Robert C. Seamans</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.246232</relevance>
-            <count>2</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.242071</relevance>
-            <count>4</count>
-            <text>scientist</text>
+            <relevance>0.268683</relevance>
+            <count>3</count>
+            <text>president</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.238972</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.238535</relevance>
+            <relevance>0.26315</relevance>
             <count>3</count>
             <text>Federal Aviation Administration</text>
             <disambiguated>
@@ -207,128 +161,74 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.237409</relevance>
-            <count>1</count>
-            <text>National Space Astronomy</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.227384</relevance>
-            <count>3</count>
-            <text>engineer</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224089</relevance>
-            <count>1</count>
-            <text>Hugh L. Dryden Memorial Fund</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.222134</relevance>
-            <count>2</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.221929</relevance>
-            <count>1</count>
-            <text>Deputy Director of jpl</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.218818</relevance>
-            <count>1</count>
-            <text>ksc</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.217435</relevance>
-            <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Dewan Negara</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.parlimen.gov.my/</website>
-                <dbpedia>http://dbpedia.org/resource/Dewan_Negara</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06_sxy</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.217415</relevance>
-            <count>3</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.216718</relevance>
-            <count>2</count>
-            <text>Washington</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.216242</relevance>
-            <count>1</count>
-            <text>nas Space Science Board</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.211972</relevance>
-            <count>1</count>
-            <text>Alvin R. Luedecke</text>
-            <disambiguated>
-                <name>Alvin Luedecke</name>
-                <dbpedia>http://dbpedia.org/resource/Alvin_Luedecke</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h3shqt</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.21177</relevance>
-            <count>2</count>
-            <text>AP</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.209669</relevance>
-            <count>2</count>
-            <text>physicist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.207465</relevance>
+            <relevance>0.252667</relevance>
             <count>4</count>
             <text>Jr.</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.24459</relevance>
+            <count>4</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.239315</relevance>
+            <count>5</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.237019</relevance>
+            <count>4</count>
+            <text>consultant</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.228764</relevance>
+            <count>2</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.227983</relevance>
+            <count>1</count>
+            <text>Civil Aeronautics Board</text>
+            <disambiguated>
+                <name>Civil Aeronautics Board (Philippines)</name>
+                <website>http://www.cab.gov.ph</website>
+                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.207203</relevance>
+            <relevance>0.226566</relevance>
+            <count>3</count>
+            <text>Dr. Robert C. Seamans</text>
+            <disambiguated>
+                <name>Robert Seamans</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_Seamans</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027c7hl</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_Seamans</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.223787</relevance>
+            <count>1</count>
+            <text>Hugh L. Dryden Memorial Fund</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.220476</relevance>
             <count>1</count>
             <text>President De Gaulle</text>
             <disambiguated>
@@ -344,112 +244,250 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.204606</relevance>
-            <count>1</count>
-            <text>Geoffrey Robillard</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.20295</relevance>
+            <relevance>0.218634</relevance>
             <count>2</count>
-            <text>project manager</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.2021</relevance>
-            <count>1</count>
-            <text>McDonnell Aircraft Corp.</text>
+            <text>physicist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.201851</relevance>
+            <relevance>0.218252</relevance>
             <count>1</count>
-            <text>Dryden</text>
+            <text>Rep. Chet Holifield</text>
+            <disambiguated>
+                <name>Chester E. Holifield</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Chester_E._Holifield</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dgvq1</freebase>
+                <yago>http://yago-knowledge.org/resource/Chester_E._Holifield</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.218119</relevance>
+            <count>2</count>
+            <text>London</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.201697</relevance>
-            <count>1</count>
-            <text>Civil Aeronautics Board</text>
+            <relevance>0.217985</relevance>
+            <count>2</count>
+            <text>usaf</text>
             <disambiguated>
-                <name>Civil Aeronautics Board (Philippines)</name>
-                <website>http://www.cab.gov.ph</website>
-                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.217016</relevance>
+            <count>2</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.215026</relevance>
+            <count>1</count>
+            <text>National Geographic Society</text>
+            <disambiguated>
+                <name>National Geographic Society</name>
+                <geo>38.9051 -77.0379</geo>
+                <website>http://www.nationalgeographic.com/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Geographic_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05dp2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvZDLrpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Geographic_Society</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.201536</relevance>
+            <relevance>0.212038</relevance>
+            <count>1</count>
+            <text>Coughlin</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.210298</relevance>
+            <count>2</count>
+            <text>Peter Kapitsa</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.209399</relevance>
+            <count>2</count>
+            <text>Rep. Hale Boggs</text>
+            <disambiguated>
+                <name>Hale Boggs</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Hale_Boggs</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01f9y8</freebase>
+                <yago>http://yago-knowledge.org/resource/Hale_Boggs</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.209204</relevance>
+            <count>2</count>
+            <text>AP</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.209157</relevance>
+            <count>1</count>
+            <text>Boeing</text>
+            <disambiguated>
+                <name>Spirit AeroSystems</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.spiritaero.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
+                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.209114</relevance>
+            <count>2</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.208286</relevance>
+            <count>1</count>
+            <text>National Academy of Sciences</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.207861</relevance>
+            <count>1</count>
+            <text>National Space Astronomy</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.207157</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.204815</relevance>
+            <count>1</count>
+            <text>Transportation bill</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.203814</relevance>
+            <count>1</count>
+            <text>European Space Authority</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.201567</relevance>
+            <count>1</count>
+            <text>Dryden</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.201252</relevance>
             <count>1</count>
             <text>Dr. Dryden</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.200783</relevance>
+            <relevance>0.201191</relevance>
             <count>1</count>
-            <text>Formation of Science Advisory Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.20046</relevance>
-            <count>2</count>
-            <text>Renzo di Carrobio</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.199191</relevance>
-            <count>1</count>
-            <text>Ranger project manager</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.198923</relevance>
-            <count>1</count>
-            <text>Dr. Norman F. Ramsey</text>
+            <text>Central Committee</text>
             <disambiguated>
-                <name>Norman Foster Ramsey, Jr.</name>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Norman_Foster_Ramsey,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j51s</freebase>
-                <yago>http://yago-knowledge.org/resource/Norman_Foster_Ramsey,_Jr.</yago>
+                <name>Central Committee of the Communist Party of the Soviet Union</name>
+                <subType>GovernmentalBody</subType>
+                <dbpedia>http://dbpedia.org/resource/Central_Committee_of_the_Communist_Party_of_the_Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0223v</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.200605</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.197718</relevance>
-            <count>4</count>
-            <text>consultant</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.19728</relevance>
-            <count>1</count>
-            <text>Capt. Jerauld R. Gentry</text>
-            <disambiguated>
-                <name>Jerauld R. Gentry</name>
-                <dbpedia>http://dbpedia.org/resource/Jerauld_R._Gentry</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zspl8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.197237</relevance>
+            <relevance>0.198068</relevance>
             <count>2</count>
             <text>special assistant</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.197108</relevance>
-            <count>2</count>
-            <text>Interavia</text>
+            <type>JobTitle</type>
+            <relevance>0.196203</relevance>
+            <count>1</count>
+            <text>program director</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.197034</relevance>
+            <type>Organization</type>
+            <relevance>0.195854</relevance>
             <count>1</count>
-            <text>Voyager</text>
+            <text>Air Line Pilots Assn.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.195785</relevance>
+            <count>2</count>
+            <text>Charles H. Ruby</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.938403</relevance>
+            <relevance>0.830796</relevance>
             <count>24</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,33 +29,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.473637</relevance>
+            <relevance>0.431815</relevance>
             <count>5</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.44414</relevance>
-            <count>5</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.411197</relevance>
-            <count>7</count>
-            <text>Federal Aviation Administration</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
+            <text>NASA administrator</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.400607</relevance>
+            <relevance>0.370421</relevance>
             <count>10</count>
             <text>U.S.</text>
             <disambiguated>
@@ -74,8 +54,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.331066</relevance>
+            <count>5</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.319894</relevance>
+            <count>5</count>
+            <text>Dr. Robert Frosch</text>
+            <disambiguated>
+                <name>Robert A. Frosch</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_A._Frosch</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lj71</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_A._Frosch</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.357869</relevance>
+            <relevance>0.309985</relevance>
             <count>6</count>
             <text>ESA</text>
             <disambiguated>
@@ -93,8 +91,22 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.278393</relevance>
+            <count>7</count>
+            <text>Federal Aviation Administration</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.331599</relevance>
+            <relevance>0.269447</relevance>
             <count>3</count>
             <text>President Carter</text>
             <disambiguated>
@@ -115,14 +127,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.327865</relevance>
-            <count>3</count>
-            <text>Deputy Administrator Dr. Alan Lovelace</text>
+            <type>Organization</type>
+            <relevance>0.251703</relevance>
+            <count>2</count>
+            <text>Tech House</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.327428</relevance>
+            <relevance>0.24702</relevance>
             <count>1</count>
             <text>NASA Hq</text>
             <disambiguated>
@@ -134,38 +146,62 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.306781</relevance>
-            <count>5</count>
-            <text>Dr. Robert Frosch</text>
+            <relevance>0.234855</relevance>
+            <count>3</count>
+            <text>James Morrison</text>
             <disambiguated>
-                <name>Robert A. Frosch</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_A._Frosch</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj71</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_A._Frosch</yago>
+                <name>James Morrison (businessman)</name>
+                <subType>Politician</subType>
+                <dbpedia>http://dbpedia.org/resource/James_Morrison_(businessman)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjp06</freebase>
+                <yago>http://yago-knowledge.org/resource/James_Morrison_(businessman)</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.302043</relevance>
-            <count>2</count>
-            <text>Tech House</text>
+            <type>Company</type>
+            <relevance>0.228206</relevance>
+            <count>1</count>
+            <text>NASA Hq</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.274492</relevance>
-            <count>1</count>
-            <text>National Space Institute</text>
+            <type>Person</type>
+            <relevance>0.225862</relevance>
+            <count>2</count>
+            <text>Louis Lushina</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.225045</relevance>
+            <count>2</count>
+            <text>LaRC</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.220782</relevance>
+            <count>2</count>
+            <text>Europe</text>
             <disambiguated>
-                <name>National Space Institute</name>
-                <website>http://www.nss.org/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Space_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.028l32</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Space_Institute</yago>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.272179</relevance>
+            <relevance>0.220753</relevance>
+            <count>3</count>
+            <text>Deputy Administrator Dr. Alan Lovelace</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.21923</relevance>
+            <count>2</count>
+            <text>representative</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.217881</relevance>
             <count>3</count>
             <text>Dr. Frank Press</text>
             <disambiguated>
@@ -180,7 +216,50 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.271655</relevance>
+            <relevance>0.217075</relevance>
+            <count>2</count>
+            <text>Dr. Charles Swain</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.21162</relevance>
+            <count>4</count>
+            <text>the house</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.20942</relevance>
+            <count>1</count>
+            <text>Administrator Langhorne Bond</text>
+            <disambiguated>
+                <name>Langhorne Bond</name>
+                <dbpedia>http://dbpedia.org/resource/Langhorne_Bond</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2k4p</freebase>
+                <yago>http://yago-knowledge.org/resource/Langhorne_Bond</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.208958</relevance>
+            <count>2</count>
+            <text>Australia</text>
+            <disambiguated>
+                <name>Australia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.20814</relevance>
             <count>3</count>
             <text>Dr. James C. Fletcher</text>
             <disambiguated>
@@ -193,38 +272,50 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.270054</relevance>
-            <count>2</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.262306</relevance>
+            <type>Organization</type>
+            <relevance>0.206958</relevance>
             <count>1</count>
-            <text>NASA Hq</text>
+            <text>National Space Institute</text>
+            <disambiguated>
+                <name>National Space Institute</name>
+                <website>http://www.nss.org/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Space_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.028l32</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Space_Institute</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.26049</relevance>
-            <count>2</count>
-            <text>Dr. Charles Swain</text>
+            <type>Organization</type>
+            <relevance>0.20632</relevance>
+            <count>1</count>
+            <text>Army Materiel Command</text>
+            <disambiguated>
+                <name>Army Materiel Command (Denmark)</name>
+                <dbpedia>http://dbpedia.org/resource/Army_Materiel_Command_(Denmark)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05t76r</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.256923</relevance>
+            <relevance>0.205323</relevance>
             <count>2</count>
             <text>engineer</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.253944</relevance>
-            <count>4</count>
-            <text>the house</text>
+            <relevance>0.204613</relevance>
+            <count>1</count>
+            <text>energy savings</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.204476</relevance>
+            <count>2</count>
+            <text>director</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.249898</relevance>
+            <relevance>0.20093</relevance>
             <count>1</count>
             <text>USSR</text>
             <disambiguated>
@@ -238,38 +329,124 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.245779</relevance>
-            <count>2</count>
-            <text>Europe</text>
+            <type>Organization</type>
+            <relevance>0.198604</relevance>
+            <count>1</count>
+            <text>Canadian Air Force</text>
             <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
+                <name>Royal Canadian Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/Royal_Canadian_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03r3fv</freebase>
+                <yago>http://yago-knowledge.org/resource/Royal_Canadian_Air_Force</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.245536</relevance>
+            <type>Organization</type>
+            <relevance>0.197731</relevance>
             <count>1</count>
-            <text>energy savings</text>
+            <text>International Civil Aviation Organization</text>
+            <disambiguated>
+                <name>International Civil Aviation Organization</name>
+                <geo>45.500277777777775 -73.56416666666667</geo>
+                <website>http://www.icao.int</website>
+                <dbpedia>http://dbpedia.org/resource/International_Civil_Aviation_Organization</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03w2s</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvY-QdZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/International_Civil_Aviation_Organization</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.197425</relevance>
+            <count>1</count>
+            <text>ADP</text>
+            <disambiguated>
+                <name>Automatic Data Processing</name>
+                <subType>FieldOfStudy</subType>
+                <website>http://www.adp.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Automatic_Data_Processing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04hshv</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvuo7uZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Automatic_Data_Processing</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.197402</relevance>
+            <count>1</count>
+            <text>U.S. Army Ordnance Corps</text>
+            <disambiguated>
+                <name>Ordnance Corps (United States Army)</name>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Ordnance_Corps_(United_States_Army)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09ncy1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.196881</relevance>
+            <count>1</count>
+            <text>Office of Technology Utilization</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.194602</relevance>
+            <count>2</count>
+            <text>Brussels</text>
+            <disambiguated>
+                <name>Brussels, Illinois</name>
+                <geo>38.94722222222222 -90.5886111111111</geo>
+                <dbpedia>http://dbpedia.org/resource/Brussels,_Illinois</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0s3h9</freebase>
+                <yago>http://yago-knowledge.org/resource/Brussels,_Illinois</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.193942</relevance>
+            <count>1</count>
+            <text>U.S. Army</text>
+            <disambiguated>
+                <name>United States Army</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <subType>VideoGamePublisher</subType>
+                <website>http://www.army.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wh1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyd5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Army</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.193372</relevance>
+            <count>1</count>
+            <text>Tallahassee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.192509</relevance>
+            <count>1</count>
+            <text>professor</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.240578</relevance>
+            <relevance>0.192322</relevance>
             <count>3</count>
             <text>Jan 26/78</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.238083</relevance>
+            <type>Organization</type>
+            <relevance>0.191896</relevance>
             <count>1</count>
-            <text>deputy administrator</text>
+            <text>Florida State Univ.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.237077</relevance>
+            <relevance>0.190044</relevance>
             <count>1</count>
             <text>Zbigniew Brzezinski</text>
             <disambiguated>
@@ -285,93 +462,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.236886</relevance>
-            <count>2</count>
-            <text>director</text>
+            <type>Facility</type>
+            <relevance>0.189159</relevance>
+            <count>1</count>
+            <text>Kristiansand&#x2019;s Kjevik Airport</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.236257</relevance>
+            <relevance>0.188968</relevance>
             <count>1</count>
-            <text>Office of Technology Utilization</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235778</relevance>
-            <count>1</count>
-            <text>Administrator Langhorne Bond</text>
-            <disambiguated>
-                <name>Langhorne Bond</name>
-                <dbpedia>http://dbpedia.org/resource/Langhorne_Bond</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2k4p</freebase>
-                <yago>http://yago-knowledge.org/resource/Langhorne_Bond</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.232882</relevance>
-            <count>1</count>
-            <text>Canadian Air Force</text>
-            <disambiguated>
-                <name>Royal Canadian Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/Royal_Canadian_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03r3fv</freebase>
-                <yago>http://yago-knowledge.org/resource/Royal_Canadian_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.232046</relevance>
-            <count>1</count>
-            <text>Tallahassee</text>
+            <text>comptroller</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.231011</relevance>
+            <relevance>0.186392</relevance>
             <count>1</count>
-            <text>professor</text>
+            <text>deputy administrator</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.230275</relevance>
+            <type>JobTitle</type>
+            <relevance>0.185693</relevance>
             <count>1</count>
-            <text>Florida State Univ.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.22967</relevance>
-            <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.22773</relevance>
-            <count>1</count>
-            <text>Civil Service Commission</text>
-            <disambiguated>
-                <name>United States Civil Service Commission</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Civil_Service_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.044s7c</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Civil_Service_Commission</yago>
-            </disambiguated>
+            <text>Comptroller</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.227148</relevance>
+            <relevance>0.185378</relevance>
             <count>1</count>
             <text>Canada</text>
             <disambiguated>
@@ -392,160 +508,35 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.224878</relevance>
+            <relevance>0.184747</relevance>
             <count>1</count>
-            <text>International Civil Aviation Organization</text>
-            <disambiguated>
-                <name>International Civil Aviation Organization</name>
-                <geo>45.500277777777775 -73.56416666666667</geo>
-                <website>http://www.icao.int</website>
-                <dbpedia>http://dbpedia.org/resource/International_Civil_Aviation_Organization</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03w2s</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvY-QdZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/International_Civil_Aviation_Organization</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224476</relevance>
-            <count>1</count>
-            <text>National Security Affairs</text>
+            <text>Army</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.224372</relevance>
+            <relevance>0.184322</relevance>
             <count>2</count>
             <text>President</text>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.224097</relevance>
+            <type>Organization</type>
+            <relevance>0.184238</relevance>
             <count>1</count>
-            <text>Distinguished Service Medal</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.222906</relevance>
-            <count>1</count>
-            <text>Office of Inspector General</text>
+            <text>Office of Management Operations</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.221629</relevance>
-            <count>2</count>
-            <text>Brussels</text>
-            <disambiguated>
-                <name>Brussels, Illinois</name>
-                <geo>38.94722222222222 -90.5886111111111</geo>
-                <dbpedia>http://dbpedia.org/resource/Brussels,_Illinois</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0s3h9</freebase>
-                <yago>http://yago-knowledge.org/resource/Brussels,_Illinois</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.221208</relevance>
+            <relevance>0.183955</relevance>
             <count>1</count>
-            <text>Army Materiel Command</text>
+            <text>Nairobi</text>
             <disambiguated>
-                <name>Army Materiel Command (Denmark)</name>
-                <dbpedia>http://dbpedia.org/resource/Army_Materiel_Command_(Denmark)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05t76r</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.219709</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219608</relevance>
-            <count>2</count>
-            <text>TASS</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.218554</relevance>
-            <count>1</count>
-            <text>W. Star</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.216022</relevance>
-            <count>1</count>
-            <text>Strasbourg</text>
-            <disambiguated>
-                <name>Strasbourg</name>
-                <website>http://www.strasbourg.eu/</website>
-                <dbpedia>http://dbpedia.org/resource/Strasbourg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09b83</freebase>
-                <yago>http://yago-knowledge.org/resource/Strasbourg</yago>
-                <geonames>http://sws.geonames.org/2973783/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.214537</relevance>
-            <count>3</count>
-            <text>James Morrison</text>
-            <disambiguated>
-                <name>James Morrison (businessman)</name>
-                <subType>Politician</subType>
-                <dbpedia>http://dbpedia.org/resource/James_Morrison_(businessman)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjp06</freebase>
-                <yago>http://yago-knowledge.org/resource/James_Morrison_(businessman)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.214272</relevance>
-            <count>1</count>
-            <text>Kristiansand&#x2019;s Kjevik Airport</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.212834</relevance>
-            <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.212143</relevance>
-            <count>1</count>
-            <text>ADP</text>
-            <disambiguated>
-                <name>Automatic Data Processing</name>
-                <subType>FieldOfStudy</subType>
-                <website>http://www.adp.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Automatic_Data_Processing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04hshv</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvuo7uZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Automatic_Data_Processing</yago>
+                <name>Nairobi</name>
+                <geo>-1.2833333333333332 36.81666666666667</geo>
+                <website>http://www.nairobicity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Nairobi</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05d49</freebase>
+                <yago>http://yago-knowledge.org/resource/Nairobi</yago>
+                <geonames>http://sws.geonames.org/184745/</geonames>
             </disambiguated>
         </entity>
     </entities>

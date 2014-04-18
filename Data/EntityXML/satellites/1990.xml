@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.828094</relevance>
+            <relevance>0.76261</relevance>
             <count>8</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.450864</relevance>
+            <relevance>0.457281</relevance>
             <count>2</count>
             <text>communications satellite</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.437786</relevance>
+            <relevance>0.452653</relevance>
             <count>3</count>
             <text>NY Times</text>
             <disambiguated>
@@ -53,14 +53,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.423862</relevance>
+            <type>Technology</type>
+            <relevance>0.426821</relevance>
             <count>1</count>
-            <text>Satellite System</text>
+            <text>Data Relay Satellite</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.423158</relevance>
+            <relevance>0.424118</relevance>
             <count>4</count>
             <text>United States</text>
             <disambiguated>
@@ -79,14 +79,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.388042</relevance>
-            <count>1</count>
-            <text>Data Relay Satellite</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.379965</relevance>
+            <relevance>0.394681</relevance>
             <count>2</count>
             <text>rockets</text>
             <disambiguated>
@@ -98,7 +92,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.360855</relevance>
+            <relevance>0.378693</relevance>
             <count>2</count>
             <text>President George Bush</text>
             <disambiguated>
@@ -124,8 +118,42 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.377574</relevance>
+            <count>1</count>
+            <text>Satellite System</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.368991</relevance>
+            <count>2</count>
+            <text>Intelsat</text>
+            <disambiguated>
+                <name>Intelsat</name>
+                <geo>38.94166666666667 -77.06361111111111</geo>
+                <website>http://www.intelsat.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Intelsat</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03zz2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv5KRrpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Intelsat</yago>
+                <crunchbase>http://www.crunchbase.com/company/intelsat</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.337673</relevance>
+            <count>2</count>
+            <text>Bill Cowan</text>
+            <disambiguated>
+                <name>Bill Cowan</name>
+                <dbpedia>http://dbpedia.org/resource/Bill_Cowan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vhy0</freebase>
+                <yago>http://yago-knowledge.org/resource/Bill_Cowan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.32164</relevance>
+            <relevance>0.332448</relevance>
             <count>2</count>
             <text>New Mexico</text>
             <disambiguated>
@@ -143,60 +171,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.320547</relevance>
-            <count>2</count>
-            <text>White House</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.309877</relevance>
-            <count>1</count>
-            <text>Contel Federal Systems</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.307819</relevance>
-            <count>1</count>
-            <text>Contel</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.306919</relevance>
-            <count>2</count>
-            <text>Intelsat</text>
-            <disambiguated>
-                <name>Intelsat</name>
-                <geo>38.94166666666667 -77.06361111111111</geo>
-                <website>http://www.intelsat.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Intelsat</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03zz2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv5KRrpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Intelsat</yago>
-                <crunchbase>http://www.crunchbase.com/company/intelsat</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.288931</relevance>
-            <count>1</count>
-            <text>TOMS</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.28055</relevance>
-            <count>2</count>
-            <text>Bill Cowan</text>
-            <disambiguated>
-                <name>Bill Cowan</name>
-                <dbpedia>http://dbpedia.org/resource/Bill_Cowan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vhy0</freebase>
-                <yago>http://yago-knowledge.org/resource/Bill_Cowan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.278934</relevance>
+            <relevance>0.331506</relevance>
             <count>2</count>
             <text>China</text>
             <disambiguated>
@@ -214,27 +190,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.277781</relevance>
+            <type>City</type>
+            <relevance>0.27883</relevance>
             <count>1</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
+            <text>TOMS</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.277366</relevance>
+            <count>1</count>
+            <text>Contel Federal Systems</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275863</relevance>
+            <count>1</count>
+            <text>Contel</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.26435</relevance>
+            <relevance>0.267121</relevance>
             <count>1</count>
             <text>White Sands</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.263549</relevance>
+            <relevance>0.263561</relevance>
+            <count>2</count>
+            <text>White House</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.261158</relevance>
+            <count>1</count>
+            <text>communications network</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.260102</relevance>
+            <count>1</count>
+            <text>FBIS China</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.257836</relevance>
+            <count>1</count>
+            <text>China Daily</text>
+            <disambiguated>
+                <name>China Daily</name>
+                <subType>Newspaper</subType>
+                <website>http://www.chinadaily.com.cn</website>
+                <dbpedia>http://dbpedia.org/resource/China_Daily</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0372s7</freebase>
+                <yago>http://yago-knowledge.org/resource/China_Daily</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.255628</relevance>
+            <count>1</count>
+            <text>Australia</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.254095</relevance>
             <count>1</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -250,37 +269,26 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261772</relevance>
+            <relevance>0.249968</relevance>
             <count>1</count>
-            <text>EOS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259945</relevance>
-            <count>1</count>
-            <text>National Research Council</text>
+            <text>Government</text>
             <disambiguated>
-                <name>United States National Research Council</name>
-                <dbpedia>http://dbpedia.org/resource/United_States_National_Research_Council</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09d0q</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_National_Research_Council</yago>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.258476</relevance>
+            <type>Company</type>
+            <relevance>0.24891</relevance>
             <count>1</count>
-            <text>communications network</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.253762</relevance>
-            <count>1</count>
-            <text>Ozone Mapping Spectrometer</text>
+            <text>Sandia National Laboratories</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.251357</relevance>
+            <relevance>0.246952</relevance>
             <count>1</count>
             <text>Martin Marietta Corporation</text>
             <disambiguated>
@@ -295,33 +303,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.246304</relevance>
-            <count>1</count>
-            <text>FBIS China</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.244746</relevance>
-            <count>1</count>
-            <text>China Daily</text>
-            <disambiguated>
-                <name>China Daily</name>
-                <subType>Newspaper</subType>
-                <website>http://www.chinadaily.com.cn</website>
-                <dbpedia>http://dbpedia.org/resource/China_Daily</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0372s7</freebase>
-                <yago>http://yago-knowledge.org/resource/China_Daily</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.232934</relevance>
-            <count>1</count>
-            <text>Australia</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.232604</relevance>
+            <relevance>0.244831</relevance>
             <count>1</count>
             <text>AsiaSat</text>
             <disambiguated>
@@ -334,34 +316,52 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.220125</relevance>
+            <type>Technology</type>
+            <relevance>0.243777</relevance>
             <count>1</count>
-            <text>Sichuan Province</text>
+            <text>Ozone Mapping Spectrometer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.239879</relevance>
+            <count>1</count>
+            <text>EOS</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.220073</relevance>
+            <relevance>0.234586</relevance>
             <count>1</count>
             <text>Ariane</text>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.232842</relevance>
+            <count>1</count>
+            <text>Sichuan Province</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.219731</relevance>
+            <relevance>0.229749</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.218364</relevance>
-            <count>1</count>
-            <text>Sandia National Laboratories</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.212689</relevance>
+            <relevance>0.226907</relevance>
             <count>1</count>
             <text>human rights</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224883</relevance>
+            <count>1</count>
+            <text>National Research Council</text>
+            <disambiguated>
+                <name>United States National Research Council</name>
+                <dbpedia>http://dbpedia.org/resource/United_States_National_Research_Council</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09d0q</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_National_Research_Council</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.752319</relevance>
+            <relevance>0.891149</relevance>
             <count>4</count>
             <text>New York Times</text>
             <disambiguated>
@@ -26,7 +26,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.61368</relevance>
+            <relevance>0.814999</relevance>
             <count>2</count>
             <text>Dr. Wernher von Braun</text>
             <disambiguated>
@@ -44,7 +44,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.550734</relevance>
+            <relevance>0.741747</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -64,22 +64,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.53736</relevance>
-            <count>3</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.509252</relevance>
+            <relevance>0.648608</relevance>
             <count>2</count>
             <text>Russia</text>
             <disambiguated>
@@ -93,20 +78,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.409517</relevance>
-            <count>1</count>
-            <text>nasa Deputy Associate Administrator for Planning</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.404429</relevance>
-            <count>1</count>
-            <text>Baykonur test center</text>
+            <type>Country</type>
+            <relevance>0.635488</relevance>
+            <count>3</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.395002</relevance>
+            <relevance>0.57728</relevance>
             <count>1</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -122,7 +110,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.392372</relevance>
+            <relevance>0.552569</relevance>
             <count>1</count>
             <text>Moscow</text>
             <disambiguated>
@@ -139,49 +127,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.389196</relevance>
-            <count>1</count>
-            <text>Kazakhstan</text>
-            <disambiguated>
-                <name>Kazakhstan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>43.350322222222225 79.08035555555556</geo>
-                <dbpedia>http://dbpedia.org/resource/Kazakhstan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Kazakhstan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.047lj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv15sU5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kazakhstan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.389085</relevance>
-            <count>1</count>
-            <text>Chief Designer</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.375594</relevance>
-            <count>1</count>
-            <text>Sotsialisticheskaya Industriya</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.374215</relevance>
+            <relevance>0.55043</relevance>
             <count>1</count>
             <text>Later New York Times</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.545274</relevance>
+            <count>1</count>
+            <text>nasa Deputy Associate Administrator for Planning</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.370915</relevance>
+            <relevance>0.541425</relevance>
             <count>1</count>
             <text>Soyuz</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.367756</relevance>
+            <relevance>0.540858</relevance>
+            <count>1</count>
+            <text>Soviet Academy of Sciences.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.53132</relevance>
+            <count>1</count>
+            <text>Chief Designer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.524655</relevance>
             <count>1</count>
             <text>nasa</text>
             <disambiguated>
@@ -202,20 +179,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.367592</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.366393</relevance>
-            <count>1</count>
-            <text>Beecher</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.356202</relevance>
+            <relevance>0.52032</relevance>
             <count>1</count>
             <text>Washington Daily News</text>
             <disambiguated>
@@ -226,31 +191,48 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.35104</relevance>
+            <relevance>0.516444</relevance>
             <count>1</count>
             <text>Mikhail K. Yangel</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.512887</relevance>
+            <count>1</count>
+            <text>Sotsialisticheskaya Industriya</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.468043</relevance>
+            <count>1</count>
+            <text>Baykonur test center</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.342869</relevance>
+            <relevance>0.452887</relevance>
             <count>1</count>
             <text>Lewis News</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.342027</relevance>
+            <type>Country</type>
+            <relevance>0.452808</relevance>
             <count>1</count>
-            <text>Finnish island</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.340416</relevance>
-            <count>1</count>
-            <text>Smithsonian Center</text>
+            <text>Kazakhstan</text>
+            <disambiguated>
+                <name>Kazakhstan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>43.350322222222225 79.08035555555556</geo>
+                <dbpedia>http://dbpedia.org/resource/Kazakhstan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Kazakhstan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.047lj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv15sU5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kazakhstan</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.323753</relevance>
+            <relevance>0.439283</relevance>
             <count>1</count>
             <text>Congress</text>
             <disambiguated>
@@ -267,16 +249,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.304864</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.435372</relevance>
             <count>1</count>
-            <text>Novoured.</text>
+            <text>Finnish island</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.432407</relevance>
+            <count>1</count>
+            <text>Smithsonian Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.421272</relevance>
+            <count>1</count>
+            <text>Beecher</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.296589</relevance>
+            <relevance>0.403053</relevance>
             <count>1</count>
             <text>President</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.384628</relevance>
+            <count>1</count>
+            <text>Novoured.</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.842329</relevance>
+            <relevance>0.841006</relevance>
             <count>53</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,31 +29,34 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.424827</relevance>
-            <count>7</count>
+            <relevance>0.56129</relevance>
+            <count>15</count>
             <text>MSFC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.420037</relevance>
-            <count>11</count>
-            <text>KSC</text>
+            <relevance>0.400268</relevance>
+            <count>6</count>
+            <text>JSC</text>
             <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.370143</relevance>
+            <count>5</count>
+            <text>Space Division</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.392292</relevance>
+            <relevance>0.330434</relevance>
             <count>7</count>
             <text>Calif.</text>
             <disambiguated>
@@ -74,50 +77,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.389553</relevance>
-            <count>6</count>
-            <text>JSC</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.389537</relevance>
-            <count>8</count>
-            <text>MSFC</text>
-            <disambiguated>
-                <name>Marshall Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.351395</relevance>
-            <count>5</count>
-            <text>Space Division</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.322442</relevance>
-            <count>5</count>
-            <text>Rockwell Inti</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.320436</relevance>
+            <relevance>0.326712</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -139,25 +100,79 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.309175</relevance>
+            <relevance>0.32371</relevance>
+            <count>8</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.307813</relevance>
             <count>7</count>
             <text>DOD</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.300828</relevance>
+            <relevance>0.305529</relevance>
+            <count>4</count>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.291392</relevance>
+            <count>6</count>
+            <text>Michoud</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.287985</relevance>
             <count>1</count>
             <text>Space Shuttle</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.291446</relevance>
-            <count>6</count>
-            <text>AvWk</text>
+            <type>Organization</type>
+            <relevance>0.285624</relevance>
+            <count>3</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Keene State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.92777777777778 -72.2786111111111</geo>
+                <website>http://www.keene.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
+                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.286446</relevance>
+            <relevance>0.283327</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -176,26 +191,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.280958</relevance>
-            <count>1</count>
-            <text>NASA administrator</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.277693</relevance>
-            <count>6</count>
-            <text>Michoud</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.270146</relevance>
-            <count>3</count>
-            <text>Spacelab</text>
+            <type>GeographicFeature</type>
+            <relevance>0.276907</relevance>
+            <count>5</count>
+            <text>Rockwell Inti</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.269038</relevance>
+            <relevance>0.275892</relevance>
             <count>1</count>
             <text>Space Technology Laboratories</text>
             <disambiguated>
@@ -207,20 +210,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.266713</relevance>
-            <count>3</count>
-            <text>Calif</text>
+            <type>JobTitle</type>
+            <relevance>0.268336</relevance>
+            <count>1</count>
+            <text>MSFC&#x2019;s Materials and Processes Laboratory</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.265163</relevance>
-            <count>1</count>
-            <text>Space Technology Laboratories</text>
+            <type>Company</type>
+            <relevance>0.268143</relevance>
+            <count>6</count>
+            <text>AvWk</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.2559</relevance>
+            <relevance>0.264192</relevance>
             <count>3</count>
             <text>JPL</text>
             <disambiguated>
@@ -235,39 +238,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.253852</relevance>
-            <count>1</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.253158</relevance>
-            <count>1</count>
-            <text>Space Technology Laboratories.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.252577</relevance>
-            <count>3</count>
-            <text>Rockwell Intl.</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.251396</relevance>
+            <relevance>0.262067</relevance>
             <count>3</count>
             <text>Downey</text>
             <disambiguated>
@@ -282,45 +254,41 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.25695</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+            <disambiguated>
+                <name>Marshall Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
+                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.250183</relevance>
+            <relevance>0.25663</relevance>
             <count>1</count>
             <text>Space Technology Laboratory</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.245273</relevance>
-            <count>3</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.237879</relevance>
-            <count>3</count>
-            <text>Rockwell</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.237704</relevance>
-            <count>2</count>
-            <text>Ky</text>
+            <relevance>0.246268</relevance>
+            <count>3</count>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.243243</relevance>
+            <count>1</count>
+            <text>Space Technology Laboratories</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.237401</relevance>
+            <relevance>0.240936</relevance>
             <count>3</count>
             <text>New Orleans</text>
             <disambiguated>
@@ -334,67 +302,83 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.2264</relevance>
+            <relevance>0.240037</relevance>
+            <count>3</count>
+            <text>Rockwell Intl.</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.236079</relevance>
             <count>2</count>
-            <text>General Dynamics Corp.</text>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.230247</relevance>
+            <count>2</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226875</relevance>
+            <count>3</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.226299</relevance>
+            <count>1</count>
+            <text>NASA administrator</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.224072</relevance>
+            <count>2</count>
+            <text>Martin Marietta Aerospace</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.220902</relevance>
+            <count>1</count>
+            <text>Space Technology Laboratories.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.218381</relevance>
+            <count>2</count>
+            <text>McDonnell Douglas Technical Services</text>
             <disambiguated>
-                <name>General Dynamics</name>
+                <name>McDonnell Douglas</name>
                 <subType>AircraftManufacturer</subType>
-                <website>http://www.gd.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.225966</relevance>
-            <count>3</count>
-            <text>Wyn Kelly Swainson</text>
+            <relevance>0.217583</relevance>
+            <count>2</count>
+            <text>McDonnell Douglas</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.225661</relevance>
+            <type>JobTitle</type>
+            <relevance>0.213995</relevance>
             <count>2</count>
-            <text>San Diego</text>
-            <disambiguated>
-                <name>San Diego</name>
-                <website>http://www.sandiego.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/San_Diego</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.071vr</freebase>
-            </disambiguated>
+            <text>chairman</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.222926</relevance>
+            <relevance>0.212778</relevance>
             <count>2</count>
             <text>Rocketdyne Division</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.221372</relevance>
-            <count>2</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.220356</relevance>
+            <relevance>0.211778</relevance>
             <count>2</count>
             <text>Ohio</text>
             <disambiguated>
@@ -412,30 +396,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.219915</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.210586</relevance>
             <count>2</count>
-            <text>McDonnell Douglas Technical Services</text>
+            <text>Utah</text>
             <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+                <name>Utah</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.utah.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Utah</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07srw</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViOO5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Utah</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.216601</relevance>
-            <count>2</count>
-            <text>Martin Marietta Aerospace</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.215543</relevance>
+            <relevance>0.210111</relevance>
             <count>5</count>
             <text>General Accounting Office</text>
             <disambiguated>
@@ -449,107 +430,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.213575</relevance>
-            <count>2</count>
-            <text>Corp.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.213207</relevance>
-            <count>2</count>
-            <text>McDonnell Douglas</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.21153</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.20996</relevance>
-            <count>1</count>
-            <text>MSFC&#x2019;s Materials and Processes Laboratory</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.2097</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.208445</relevance>
-            <count>1</count>
-            <text>James C. Fletcher</text>
-            <disambiguated>
-                <name>James C. Fletcher</name>
-                <subType>Academic</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/James_C._Fletcher</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lhw6</freebase>
-                <yago>http://yago-knowledge.org/resource/James_C._Fletcher</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.208251</relevance>
+            <relevance>0.209247</relevance>
             <count>1</count>
-            <text>State Univ.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.208125</relevance>
-            <count>1</count>
-            <text>KSC</text>
+            <text>Advanced Research Projects Agency</text>
             <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+                <name>DARPA</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.darpa.mil</website>
+                <dbpedia>http://dbpedia.org/resource/DARPA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02gv2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvX0BUJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/DARPA</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.2062</relevance>
-            <count>1</count>
-            <text>USAF</text>
+            <type>PrintMedia</type>
+            <relevance>0.208014</relevance>
+            <count>3</count>
+            <text>The NY Times</text>
             <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.204378</relevance>
-            <count>2</count>
-            <text>ARPA</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.204019</relevance>
+            <relevance>0.206004</relevance>
             <count>2</count>
             <text>Ala.</text>
             <disambiguated>
@@ -570,10 +486,78 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.203204</relevance>
+            <type>Company</type>
+            <relevance>0.204404</relevance>
+            <count>2</count>
+            <text>ARPA</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.202462</relevance>
             <count>1</count>
-            <text>AFSC</text>
+            <text>Robert M. Avery</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.202314</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.202207</relevance>
+            <count>2</count>
+            <text>Columbus</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.199226</relevance>
+            <count>1</count>
+            <text>CAvWk</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.198876</relevance>
+            <count>1</count>
+            <text>prime contractor</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.198258</relevance>
+            <count>1</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.198153</relevance>
+            <count>2</count>
+            <text>R. Gilbert Moore</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.195119</relevance>
+            <count>1</count>
+            <text>Spacelab</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.957784</relevance>
+            <relevance>0.733058</relevance>
             <count>6</count>
             <text>Arnold Palmer</text>
             <disambiguated>
@@ -26,7 +26,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.788938</relevance>
+            <relevance>0.595669</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -47,8 +47,21 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.56757</relevance>
+            <count>3</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.64634</relevance>
+            <relevance>0.552481</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -67,39 +80,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.625255</relevance>
+            <type>Organization</type>
+            <relevance>0.451382</relevance>
             <count>2</count>
-            <text>Rockwell</text>
+            <text>General Services Administration</text>
             <disambiguated>
-                <name>Rockwell Collins</name>
-                <website>http://www.rockwellcollins.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+                <name>General Services Administration</name>
+                <subType>GovernmentAgency</subType>
+                <subType>TopLevelDomainRegistry</subType>
+                <website>http://www.gsa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/General_Services_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026vq4</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Services_Administration</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.61774</relevance>
-            <count>2</count>
-            <text>secretary general</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.585023</relevance>
-            <count>2</count>
-            <text>Rockwell</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.575002</relevance>
+            <relevance>0.445496</relevance>
             <count>1</count>
             <text>Rockwell AFB</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.431004</relevance>
+            <count>2</count>
+            <text>Louis Morton</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.552625</relevance>
+            <relevance>0.42619</relevance>
             <count>2</count>
             <text>NAA</text>
             <disambiguated>
@@ -119,127 +128,179 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.525061</relevance>
-            <count>1</count>
-            <text>U.S. Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.524549</relevance>
-            <count>1</count>
-            <text>Rockwell AFB</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.523858</relevance>
-            <count>1</count>
-            <text>United Nations Committee</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.494328</relevance>
-            <count>2</count>
-            <text>World War II</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.487946</relevance>
+            <relevance>0.415284</relevance>
             <count>1</count>
             <text>Rockwell Inti</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.4816</relevance>
+            <relevance>0.407656</relevance>
             <count>1</count>
-            <text>UN</text>
-            <disambiguated>
-                <name>United Nations</name>
-                <subType>MembershipOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>TouristAttraction</subType>
-                <website>http://www.un.org/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t65</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkMNpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Nations</yago>
-            </disambiguated>
+            <text>Rockwell AFB</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.465543</relevance>
-            <count>1</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.456317</relevance>
+            <type>JobTitle</type>
+            <relevance>0.407617</relevance>
             <count>2</count>
-            <text>General Services Administration</text>
-            <disambiguated>
-                <name>General Services Administration</name>
-                <subType>GovernmentAgency</subType>
-                <subType>TopLevelDomainRegistry</subType>
-                <website>http://www.gsa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/General_Services_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026vq4</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Services_Administration</yago>
-            </disambiguated>
+            <text>chairman</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.449754</relevance>
+            <relevance>0.402006</relevance>
             <count>2</count>
             <text>GSA</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.444454</relevance>
-            <count>1</count>
-            <text>Black Businessmen&#x2019;s Assn</text>
+            <type>FieldTerminology</type>
+            <relevance>0.394961</relevance>
+            <count>2</count>
+            <text>World War II</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.441141</relevance>
-            <count>1</count>
-            <text>France</text>
+            <type>StateOrCounty</type>
+            <relevance>0.386637</relevance>
+            <count>2</count>
+            <text>Calif.</text>
             <disambiguated>
-                <name>French First Republic</name>
+                <name>California</name>
                 <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/French_First_Republic</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gtzp</freebase>
-                <yago>http://yago-knowledge.org/resource/French_First_Republic</yago>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.378348</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.37431</relevance>
+            <count>2</count>
+            <text>National Archives</text>
+        </entity>
+        <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.367032</relevance>
+            <count>1</count>
+            <text>Pulitzer prize</text>
+            <disambiguated>
+                <name>Pulitzer Prize</name>
+                <subType>Award</subType>
+                <website>http://www.pulitzer.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Pulitzer_Prize</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.061jp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rnwp8qCnYQdiOluNFVRaqRQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/Pulitzer_Prize</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.440824</relevance>
+            <relevance>0.358247</relevance>
             <count>1</count>
-            <text>Senate Foreign Relations Committee</text>
+            <text>Dartmouth College</text>
+            <disambiguated>
+                <name>Dartmouth College</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>43.70333333333333 -72.28833333333333</geo>
+                <website>http://www.dartmouth.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Dartmouth_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02bqy</freebase>
+                <yago>http://yago-knowledge.org/resource/Dartmouth_College</yago>
+                <geonames>http://sws.geonames.org/5085271/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.349319</relevance>
+            <count>2</count>
+            <text>secretary general</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.347046</relevance>
+            <count>1</count>
+            <text>House Committee on Government Operations</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.345821</relevance>
+            <count>1</count>
+            <text>Burlington</text>
+            <disambiguated>
+                <name>Burlington, New Jersey</name>
+                <geo>40.07311 -74.855693</geo>
+                <website>http://www.burlingtonnj.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Burlington,_New_Jersey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0xl36</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/nj/counties/burlington_county/burlington</census>
+                <yago>http://yago-knowledge.org/resource/Burlington,_New_Jersey</yago>
+                <geonames>http://sws.geonames.org/5096075/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.328871</relevance>
+            <count>1</count>
+            <text>advisory council</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.325607</relevance>
+            <count>2</count>
+            <text>editor</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.321923</relevance>
+            <count>1</count>
+            <text>United Nations Committee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.321672</relevance>
+            <count>1</count>
+            <text>Black Businessmen&#x2019;s Assn</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.32101</relevance>
+            <count>1</count>
+            <text>U.S. Army</text>
+            <disambiguated>
+                <name>United States Army</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <subType>VideoGamePublisher</subType>
+                <website>http://www.army.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wh1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyd5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Army</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.320246</relevance>
+            <count>1</count>
+            <text>Records Service</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.435662</relevance>
+            <relevance>0.316929</relevance>
             <count>1</count>
             <text>Senator Clifford P. Case</text>
             <disambiguated>
@@ -253,25 +314,43 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.431465</relevance>
+            <type>JobTitle</type>
+            <relevance>0.31587</relevance>
             <count>1</count>
-            <text>U.S. State Department</text>
+            <text>deputy chief</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.315017</relevance>
+            <count>1</count>
+            <text>Military Institutions</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.314587</relevance>
+            <count>1</count>
+            <text>Arapahoe County</text>
             <disambiguated>
-                <name>United States Department of State</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>AppointedRole</subType>
-                <website>http://www.state.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_State</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07vsl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvXeGY5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_State</yago>
+                <name>Arapahoe County, Colorado</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>USCounty</subType>
+                <geo>39.64 -104.33</geo>
+                <website>http://www.co.arapahoe.co.us</website>
+                <dbpedia>http://dbpedia.org/resource/Arapahoe_County,_Colorado</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0p0fc</freebase>
+                <yago>http://yago-knowledge.org/resource/Arapahoe_County,_Colorado</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.313059</relevance>
+            <count>1</count>
+            <text>Vt.</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.429298</relevance>
+            <relevance>0.312291</relevance>
             <count>1</count>
             <text>Henry A. Kissinger</text>
             <disambiguated>
@@ -294,111 +373,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.419904</relevance>
-            <count>1</count>
-            <text>Secretary of State</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.41912</relevance>
-            <count>2</count>
-            <text>Calif.</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.413644</relevance>
-            <count>2</count>
-            <text>National Archives</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.412522</relevance>
-            <count>1</count>
-            <text>Black Manufacturers</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.407626</relevance>
-            <count>2</count>
-            <text>Louis Morton</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.407454</relevance>
-            <count>1</count>
-            <text>People&#x2019;s Republic of China</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.407036</relevance>
-            <count>1</count>
-            <text>Los Angeles</text>
-            <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.406923</relevance>
-            <count>1</count>
-            <text>Kenneth B. Gay</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.405577</relevance>
-            <count>1</count>
-            <text>House Committee on Government Operations</text>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.404993</relevance>
-            <count>1</count>
-            <text>Pulitzer prize</text>
-            <disambiguated>
-                <name>Pulitzer Prize</name>
-                <subType>Award</subType>
-                <website>http://www.pulitzer.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Pulitzer_Prize</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.061jp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rnwp8qCnYQdiOluNFVRaqRQ</opencyc>
-                <yago>http://yago-knowledge.org/resource/Pulitzer_Prize</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.40393</relevance>
-            <count>2</count>
-            <text>chairman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.403073</relevance>
+            <relevance>0.312186</relevance>
             <count>1</count>
             <text>Robert J. Serling</text>
             <disambiguated>
@@ -408,31 +384,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.402935</relevance>
+            <type>Organization</type>
+            <relevance>0.311974</relevance>
             <count>1</count>
-            <text>Arapahoe County</text>
+            <text>U.S. Senate</text>
             <disambiguated>
-                <name>Arapahoe County, Colorado</name>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>USCounty</subType>
-                <geo>39.64 -104.33</geo>
-                <website>http://www.co.arapahoe.co.us</website>
-                <dbpedia>http://dbpedia.org/resource/Arapahoe_County,_Colorado</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0p0fc</freebase>
-                <yago>http://yago-knowledge.org/resource/Arapahoe_County,_Colorado</yago>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.400321</relevance>
+            <relevance>0.310375</relevance>
             <count>1</count>
             <text>Rep. Rrooks</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.399604</relevance>
+            <relevance>0.309324</relevance>
             <count>1</count>
             <text>U.S. Marine Corps</text>
             <disambiguated>
@@ -447,8 +422,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.308749</relevance>
+            <count>1</count>
+            <text>Army</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.307341</relevance>
+            <count>1</count>
+            <text>Canoga Park</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.396396</relevance>
+            <relevance>0.30714</relevance>
             <count>1</count>
             <text>Arthur Godfrey</text>
             <disambiguated>
@@ -467,43 +454,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.396077</relevance>
-            <count>1</count>
-            <text>Canoga Park</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.395478</relevance>
-            <count>1</count>
-            <text>Dartmouth College</text>
-            <disambiguated>
-                <name>Dartmouth College</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>43.70333333333333 -72.28833333333333</geo>
-                <website>http://www.dartmouth.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Dartmouth_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02bqy</freebase>
-                <yago>http://yago-knowledge.org/resource/Dartmouth_College</yago>
-                <geonames>http://sws.geonames.org/5085271/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.395315</relevance>
-            <count>1</count>
-            <text>Bulgaria</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.392713</relevance>
-            <count>1</count>
-            <text>vice president</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.391215</relevance>
+            <relevance>0.30544</relevance>
             <count>1</count>
             <text>Denver</text>
             <disambiguated>
@@ -517,38 +469,62 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.389615</relevance>
+            <type>Region</type>
+            <relevance>0.304811</relevance>
             <count>1</count>
-            <text>Black Economic Development</text>
+            <text>Pacific</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.304608</relevance>
+            <count>1</count>
+            <text>Secretary of State</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.38598</relevance>
-            <count>2</count>
-            <text>editor</text>
+            <relevance>0.301286</relevance>
+            <count>1</count>
+            <text>writer</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.382433</relevance>
+            <relevance>0.299828</relevance>
+            <count>1</count>
+            <text>UN</text>
+            <disambiguated>
+                <name>United Nations</name>
+                <subType>MembershipOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>TouristAttraction</subType>
+                <website>http://www.un.org/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t65</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkMNpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Nations</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.299689</relevance>
             <count>1</count>
             <text>U.S. Bicentennial</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.380951</relevance>
+            <type>Company</type>
+            <relevance>0.299336</relevance>
             <count>1</count>
-            <text>industry development</text>
+            <text>Black Manufacturers</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.380821</relevance>
+            <type>Organization</type>
+            <relevance>0.296025</relevance>
             <count>1</count>
-            <text>China</text>
+            <text>People&#x2019;s Republic of China</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.380807</relevance>
+            <relevance>0.295503</relevance>
             <count>1</count>
             <text>Dick Merrill</text>
             <disambiguated>
@@ -556,6 +532,24 @@
                 <dbpedia>http://dbpedia.org/resource/Dick_Merrill</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.02z1bys</freebase>
                 <yago>http://yago-knowledge.org/resource/Dick_Merrill</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.295482</relevance>
+            <count>1</count>
+            <text>Los Angeles</text>
+            <disambiguated>
+                <name>Los Angeles</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
             </disambiguated>
         </entity>
     </entities>

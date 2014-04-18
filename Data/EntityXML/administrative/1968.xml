@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.817693</relevance>
-            <count>51</count>
+            <relevance>0.84546</relevance>
+            <count>34</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.63268</relevance>
+            <relevance>0.728021</relevance>
             <count>28</count>
             <text>Administrator James E. Webb</text>
             <disambiguated>
@@ -43,25 +43,40 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.560398</relevance>
+            <relevance>0.685048</relevance>
             <count>13</count>
             <text>NASA Administrator</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.513052</relevance>
-            <count>21</count>
-            <text>space program</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.457465</relevance>
+            <relevance>0.623991</relevance>
             <count>6</count>
             <text>NASA Deputy Administrator</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.585901</relevance>
+            <count>21</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.513907</relevance>
+            <count>16</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.400685</relevance>
+            <relevance>0.450139</relevance>
             <count>17</count>
             <text>United States</text>
             <disambiguated>
@@ -81,25 +96,50 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.358745</relevance>
+            <relevance>0.401997</relevance>
             <count>2</count>
             <text>nasa Deputy Associate Administrator for Advanced Research and Technology</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.324205</relevance>
-            <count>11</count>
-            <text>Dr. Thomas O. Paine</text>
+            <type>PrintMedia</type>
+            <relevance>0.389217</relevance>
+            <count>6</count>
+            <text>NYT</text>
             <disambiguated>
-                <name>Thomas O. Paine</name>
-                <dbpedia>http://dbpedia.org/resource/Thomas_O._Paine</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ljtm</freebase>
-                <yago>http://yago-knowledge.org/resource/Thomas_O._Paine</yago>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.382426</relevance>
+            <count>8</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.370043</relevance>
+            <count>5</count>
+            <text>Acting Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.352059</relevance>
+            <count>7</count>
+            <text>consultant</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.295597</relevance>
+            <relevance>0.349292</relevance>
             <count>3</count>
             <text>nasa</text>
             <disambiguated>
@@ -120,39 +160,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.266106</relevance>
-            <count>9</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.264391</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.263883</relevance>
-            <count>6</count>
-            <text>NYT</text>
+            <type>Person</type>
+            <relevance>0.32771</relevance>
+            <count>11</count>
+            <text>Dr. Thomas O. Paine</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Thomas O. Paine</name>
+                <dbpedia>http://dbpedia.org/resource/Thomas_O._Paine</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ljtm</freebase>
+                <yago>http://yago-knowledge.org/resource/Thomas_O._Paine</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.263161</relevance>
+            <relevance>0.315779</relevance>
             <count>5</count>
             <text>Dr. Robert C. Seamans</text>
             <disambiguated>
@@ -164,19 +185,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.259709</relevance>
+            <relevance>0.306701</relevance>
             <count>1</count>
             <text>Deputy Administrator of NASA</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.259034</relevance>
-            <count>5</count>
-            <text>Acting Administrator</text>
+            <relevance>0.305984</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.253493</relevance>
+            <relevance>0.305132</relevance>
             <count>6</count>
             <text>usaf</text>
             <disambiguated>
@@ -192,20 +213,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.238346</relevance>
-            <count>2</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
+            <type>Person</type>
+            <relevance>0.300507</relevance>
+            <count>4</count>
+            <text>President Johnson</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.236379</relevance>
-            <count>7</count>
-            <text>consultant</text>
+            <relevance>0.295046</relevance>
+            <count>1</count>
+            <text>Special Consultant to NASA Administrator</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.232538</relevance>
+            <relevance>0.257069</relevance>
             <count>3</count>
             <text>Richard M. Nixon</text>
             <disambiguated>
@@ -232,75 +253,56 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.229473</relevance>
-            <count>1</count>
-            <text>Special Consultant to NASA Administrator</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.215838</relevance>
+            <relevance>0.255724</relevance>
             <count>1</count>
             <text>nasa Ann</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.252928</relevance>
+            <count>5</count>
+            <text>Jr.</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.213324</relevance>
+            <relevance>0.251025</relevance>
             <count>3</count>
             <text>Administration</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.212344</relevance>
-            <count>4</count>
-            <text>President Johnson</text>
+            <relevance>0.249646</relevance>
+            <count>2</count>
+            <text>Administrator Dr. Robert C. Seamans</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.212272</relevance>
+            <relevance>0.24863</relevance>
             <count>4</count>
             <text>FY</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.207946</relevance>
-            <count>1</count>
-            <text>Executive Assistant to Associate Administrator for Organization and Management</text>
-        </entity>
-        <entity>
             <type>Continent</type>
-            <relevance>0.207573</relevance>
+            <relevance>0.247524</relevance>
             <count>3</count>
-            <text>America</text>
+            <text>America.</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.205167</relevance>
+            <relevance>0.245953</relevance>
             <count>1</count>
-            <text>Associate Administrator for Advanced Research and Technology</text>
+            <text>Deputy Administrator</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.204886</relevance>
-            <count>1</count>
-            <text>NASA Project Management System</text>
+            <type>JobTitle</type>
+            <relevance>0.245575</relevance>
+            <count>2</count>
+            <text>Administrator</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.19945</relevance>
-            <count>3</count>
-            <text>James M. Beggs</text>
-            <disambiguated>
-                <name>James M. Beggs</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_M._Beggs</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj25</freebase>
-                <yago>http://yago-knowledge.org/resource/James_M._Beggs</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.196591</relevance>
+            <relevance>0.241739</relevance>
             <count>2</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -327,30 +329,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.195434</relevance>
-            <count>2</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.194607</relevance>
+            <type>Company</type>
+            <relevance>0.240772</relevance>
             <count>1</count>
-            <text>Deputy Administrator</text>
+            <text>NASA Project Management System</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.191711</relevance>
+            <relevance>0.231674</relevance>
             <count>2</count>
             <text>Saturn</text>
             <disambiguated>
@@ -364,60 +350,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.188672</relevance>
-            <count>2</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.18713</relevance>
-            <count>5</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.185532</relevance>
-            <count>1</count>
-            <text>Philips</text>
+            <relevance>0.229101</relevance>
+            <count>3</count>
+            <text>James M. Beggs</text>
             <disambiguated>
-                <name>Philips</name>
-                <subType>RecordLabel</subType>
-                <subType>VideoGameDeveloper</subType>
-                <subType>VideoGamePublisher</subType>
-                <website>http://www.philips.com</website>
-                <dbpedia>http://dbpedia.org/resource/Philips</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05w3y</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwBl__JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Philips</yago>
-                <crunchbase>http://www.crunchbase.com/company/philips</crunchbase>
+                <name>James M. Beggs</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_M._Beggs</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lj25</freebase>
+                <yago>http://yago-knowledge.org/resource/James_M._Beggs</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.184123</relevance>
-            <count>2</count>
-            <text>LeRC</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.183769</relevance>
-            <count>2</count>
-            <text>fiscal year</text>
+            <type>JobTitle</type>
+            <relevance>0.226183</relevance>
+            <count>1</count>
+            <text>President&#x2019;s leadership</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.18365</relevance>
+            <relevance>0.223916</relevance>
             <count>2</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -435,8 +388,74 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.223793</relevance>
+            <count>1</count>
+            <text>Deputy Administrator of faa</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.223491</relevance>
+            <count>2</count>
+            <text>fiscal year</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.222711</relevance>
+            <count>2</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.217609</relevance>
+            <count>2</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.216115</relevance>
+            <count>2</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.212335</relevance>
+            <count>4</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.210234</relevance>
+            <count>2</count>
+            <text>faa</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.209941</relevance>
+            <count>1</count>
+            <text>Associate Administrator for Advanced Research and Technology</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.183445</relevance>
+            <relevance>0.208289</relevance>
             <count>2</count>
             <text>Washington</text>
             <disambiguated>
@@ -454,94 +473,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.182683</relevance>
+            <type>JobTitle</type>
+            <relevance>0.20808</relevance>
+            <count>1</count>
+            <text>President&#x2019;s Science Advisory Council</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.207643</relevance>
             <count>2</count>
-            <text>Graduate School of Business</text>
+            <text>Wall Street Journal</text>
             <disambiguated>
-                <name>Ateneo Graduate School of Business</name>
-                <subType>University</subType>
-                <website>http://www.gsb.ateneo.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Ateneo_Graduate_School_of_Business</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05pwdr</freebase>
-                <yago>http://yago-knowledge.org/resource/Ateneo_Graduate_School_of_Business</yago>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.182133</relevance>
+            <relevance>0.206997</relevance>
             <count>2</count>
-            <text>Westinghouse Electric Corp</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.179254</relevance>
-            <count>2</count>
-            <text>Administrator Dr. Robert C. Seamans</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.179134</relevance>
-            <count>1</count>
-            <text>Ronald J. Philips Director of Technology Utilization Div.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.178951</relevance>
-            <count>1</count>
-            <text>Rep. Olin E. Teague</text>
-            <disambiguated>
-                <name>Olin E. Teague</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Olin_E._Teague</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f3t2w</freebase>
-                <yago>http://yago-knowledge.org/resource/Olin_E._Teague</yago>
-            </disambiguated>
+            <text>LeRC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.177167</relevance>
-            <count>1</count>
-            <text>MSC</text>
-            <disambiguated>
-                <name>Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.023k2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.175792</relevance>
-            <count>2</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.175002</relevance>
-            <count>2</count>
-            <text>principal</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.173588</relevance>
+            <relevance>0.206851</relevance>
             <count>1</count>
             <text>National Space Club Astronautics Engineer</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.17201</relevance>
+            <type>Facility</type>
+            <relevance>0.205616</relevance>
+            <count>1</count>
+            <text>White House</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.204174</relevance>
             <count>2</count>
-            <text>Pentagon</text>
+            <text>Westinghouse Electric Corp.</text>
         </entity>
     </entities>
 </results>

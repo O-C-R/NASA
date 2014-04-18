@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.839153</relevance>
+            <relevance>0.881802</relevance>
             <count>7</count>
             <text>Dr. John Billingham</text>
             <disambiguated>
@@ -19,108 +19,13 @@
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.632247</relevance>
+            <relevance>0.619219</relevance>
             <count>4</count>
             <text>SETI</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.341164</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.335206</relevance>
-            <count>2</count>
-            <text>Lewis News</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.31983</relevance>
-            <count>1</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.295261</relevance>
-            <count>1</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294775</relevance>
-            <count>1</count>
-            <text>Extraterrestrial Research Division</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.29362</relevance>
-            <count>1</count>
-            <text>Finnish Meteorological Institute</text>
-            <disambiguated>
-                <name>Finnish Meteorological Institute</name>
-                <website>http://www.fmi.fi/en</website>
-                <dbpedia>http://dbpedia.org/resource/Finnish_Meteorological_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06f4h6</freebase>
-                <yago>http://yago-knowledge.org/resource/Finnish_Meteorological_Institute</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.283597</relevance>
-            <count>1</count>
-            <text>Western Australia</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.279006</relevance>
-            <count>2</count>
-            <text>Helsinki Domestic Service</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.277223</relevance>
-            <count>1</count>
-            <text>Ames Research Center</text>
-            <disambiguated>
-                <name>Ames Research Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.274039</relevance>
+            <relevance>0.366223</relevance>
             <count>2</count>
             <text>Finland</text>
             <disambiguated>
@@ -139,14 +44,154 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.264835</relevance>
+            <type>Company</type>
+            <relevance>0.36552</relevance>
+            <count>2</count>
+            <text>Helsinki Domestic Service</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.360747</relevance>
             <count>1</count>
-            <text>founder</text>
+            <text>Finnish Meteorological Institute</text>
+            <disambiguated>
+                <name>Finnish Meteorological Institute</name>
+                <website>http://www.fmi.fi/en</website>
+                <dbpedia>http://dbpedia.org/resource/Finnish_Meteorological_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06f4h6</freebase>
+                <yago>http://yago-knowledge.org/resource/Finnish_Meteorological_Institute</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.331221</relevance>
+            <count>1</count>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.330993</relevance>
+            <count>2</count>
+            <text>Lewis News</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.249533</relevance>
+            <relevance>0.322634</relevance>
+            <count>2</count>
+            <text>Sweden</text>
+            <disambiguated>
+                <name>Sweden</name>
+                <subType>SportsTeam</subType>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <website>http://www.sweden.se/</website>
+                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Sweden</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.319564</relevance>
+            <count>2</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.308799</relevance>
+            <count>2</count>
+            <text>FBIS</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.295909</relevance>
+            <count>1</count>
+            <text>Risto Pellinen</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.285353</relevance>
+            <count>1</count>
+            <text>Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.259068</relevance>
+            <count>1</count>
+            <text>Extraterrestrial Research Division</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.25538</relevance>
+            <count>1</count>
+            <text>SMITHSONIAN INSTITUTION</text>
+            <disambiguated>
+                <name>Smithsonian Institution</name>
+                <subType>Location</subType>
+                <subType>TouristAttraction</subType>
+                <subType>AwardWinner</subType>
+                <subType>Museum</subType>
+                <geo>38.8888 -77.026</geo>
+                <website>http://www.si.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
+                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
+                <geonames>http://sws.geonames.org/4140525/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.254107</relevance>
+            <count>1</count>
+            <text>Western Australia</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.244987</relevance>
+            <count>1</count>
+            <text>Ames Research Center</text>
+            <disambiguated>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.240123</relevance>
             <count>1</count>
             <text>Puerto Rico</text>
             <disambiguated>
@@ -167,59 +212,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.245373</relevance>
-            <count>2</count>
-            <text>Sweden</text>
-            <disambiguated>
-                <name>Sweden</name>
-                <subType>SportsTeam</subType>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <website>http://www.sweden.se/</website>
-                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Sweden</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.238794</relevance>
-            <count>1</count>
-            <text>Risto Pellinen</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.232517</relevance>
-            <count>1</count>
-            <text>SMITHSONIAN INSTITUTION</text>
-            <disambiguated>
-                <name>Smithsonian Institution</name>
-                <subType>Location</subType>
-                <subType>TouristAttraction</subType>
-                <subType>AwardWinner</subType>
-                <subType>Museum</subType>
-                <geo>38.8888 -77.026</geo>
-                <website>http://www.si.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
-                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
-                <geonames>http://sws.geonames.org/4140525/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.2306</relevance>
-            <count>2</count>
-            <text>FBIS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.226076</relevance>
+            <relevance>0.238912</relevance>
             <count>1</count>
             <text>Academy of Finland</text>
             <disambiguated>
@@ -231,33 +225,39 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.223591</relevance>
+            <relevance>0.235701</relevance>
             <count>1</count>
             <text>Foreign Ministry</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.235217</relevance>
+            <count>1</count>
+            <text>founder</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.217408</relevance>
+            <relevance>0.229786</relevance>
             <count>1</count>
             <text>Meteorological Institute.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.215464</relevance>
-            <count>1</count>
-            <text>Development of Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.214816</relevance>
+            <relevance>0.22768</relevance>
             <count>1</count>
             <text>Scientific-Technical Cooperation Committee</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.213684</relevance>
+            <relevance>0.227187</relevance>
             <count>1</count>
             <text>Ministry of Trade and Industry</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.227103</relevance>
+            <count>1</count>
+            <text>Development of Technology</text>
         </entity>
     </entities>
 </results>

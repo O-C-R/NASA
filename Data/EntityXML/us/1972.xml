@@ -7,32 +7,13 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.783686</relevance>
-            <count>21</count>
+            <relevance>0.820966</relevance>
+            <count>20</count>
             <text>Air Force</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.589472</relevance>
-            <count>20</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.576508</relevance>
+            <relevance>0.574377</relevance>
             <count>21</count>
             <text>U.S.</text>
             <disambiguated>
@@ -51,8 +32,46 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.558795</relevance>
+            <count>20</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.499364</relevance>
+            <count>13</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.460139</relevance>
+            <relevance>0.426586</relevance>
             <count>14</count>
             <text>NASA</text>
             <disambiguated>
@@ -73,27 +92,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.436151</relevance>
-            <count>13</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
+            <type>StateOrCounty</type>
+            <relevance>0.417694</relevance>
+            <count>10</count>
+            <text>D.C.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.39378</relevance>
+            <relevance>0.392583</relevance>
             <count>6</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -108,40 +114,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.389387</relevance>
-            <count>8</count>
-            <text>Secretary</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.358293</relevance>
-            <count>10</count>
-            <text>D.C.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.341685</relevance>
-            <count>5</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.338724</relevance>
-            <count>4</count>
-            <text>afsc</text>
-            <disambiguated>
-                <name>Air Force Space Command</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.335842</relevance>
+            <relevance>0.385795</relevance>
             <count>3</count>
             <text>Air Force Systems Command</text>
             <disambiguated>
@@ -153,8 +127,35 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.358425</relevance>
+            <count>8</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.337774</relevance>
+            <count>2</count>
+            <text>Air Force Cambridge Research Laboratories</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.33642</relevance>
+            <count>4</count>
+            <text>afsc</text>
+            <disambiguated>
+                <name>American Friends Service Committee</name>
+                <subType>AwardWinner</subType>
+                <subType>Non-ProfitOrganisation</subType>
+                <website>http://www.afsc.org</website>
+                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.315434</relevance>
+            <relevance>0.320537</relevance>
             <count>2</count>
             <text>Eglin Air Force Base</text>
             <disambiguated>
@@ -169,7 +170,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.314553</relevance>
+            <relevance>0.315422</relevance>
             <count>2</count>
             <text>Edwards Air Force Base</text>
             <disambiguated>
@@ -186,14 +187,31 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.314626</relevance>
+            <count>4</count>
+            <text>Melvin R. Laird</text>
+            <disambiguated>
+                <name>Melvin R. Laird</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Melvin_R._Laird</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kskm</freebase>
+                <yago>http://yago-knowledge.org/resource/Melvin_R._Laird</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.308501</relevance>
-            <count>2</count>
-            <text>Air Force Cambridge Research Laboratories</text>
+            <relevance>0.309598</relevance>
+            <count>4</count>
+            <text>North American Rockwell Corp.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.305731</relevance>
+            <relevance>0.307747</relevance>
             <count>4</count>
             <text>Dr. Robert C. Seamans</text>
             <disambiguated>
@@ -204,94 +222,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.304955</relevance>
-            <count>4</count>
-            <text>North American Rockwell Corp.</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.30351</relevance>
-            <count>1</count>
-            <text>Beale Air Force Base</text>
-            <disambiguated>
-                <name>Beale Air Force Base</name>
-                <subType>Location</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Airport</subType>
-                <geo>39.13611111111111 -121.43638888888889</geo>
-                <website>http://www.beale.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Beale_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r8dt</freebase>
-                <yago>http://yago-knowledge.org/resource/Beale_Air_Force_Base</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.289208</relevance>
-            <count>4</count>
-            <text>USAF</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.28758</relevance>
-            <count>3</count>
-            <text>National Academy of Sciences</text>
-            <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.2853</relevance>
-            <count>3</count>
-            <text>afsc Newsreview</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.284453</relevance>
-            <count>6</count>
-            <text>Dr. Janies J. Ryan, Jr.</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.277083</relevance>
-            <count>5</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.27187</relevance>
-            <count>1</count>
-            <text>Scott Air Force Base</text>
-            <disambiguated>
-                <name>Scott Air Force Base</name>
-                <subType>Location</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Airport</subType>
-                <geo>38.54527777777778 -89.83527777777778</geo>
-                <website>http://www.scott.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Scott_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.022w1p</freebase>
-                <yago>http://yago-knowledge.org/resource/Scott_Air_Force_Base</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.271246</relevance>
+            <relevance>0.306514</relevance>
             <count>1</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -309,257 +241,37 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.270141</relevance>
-            <count>4</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268298</relevance>
-            <count>4</count>
-            <text>Melvin R. Laird</text>
-            <disambiguated>
-                <name>Melvin R. Laird</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Melvin_R._Laird</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0kskm</freebase>
-                <yago>http://yago-knowledge.org/resource/Melvin_R._Laird</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.263774</relevance>
-            <count>3</count>
-            <text>Nobel Prize</text>
-            <disambiguated>
-                <name>Nobel Prize</name>
-                <subType>Award</subType>
-                <website>http://nobelprize.org</website>
-                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263151</relevance>
-            <count>1</count>
-            <text>Air Force Materials Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.260018</relevance>
-            <count>2</count>
-            <text>Soviet Academy of Sciences</text>
-            <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.256468</relevance>
-            <count>3</count>
-            <text>nas</text>
-            <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.255606</relevance>
-            <count>3</count>
-            <text>Moscow</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.25032</relevance>
-            <count>2</count>
-            <text>Soviet Politburo</text>
-            <disambiguated>
-                <name>Politburo of the Central Committee of the Communist Party of the Soviet Union</name>
-                <subType>PoliticalParty</subType>
-                <dbpedia>http://dbpedia.org/resource/Politburo_of_the_Central_Committee_of_the_Communist_Party_of_the_Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.065_p</freebase>
-                <yago>http://yago-knowledge.org/resource/Politburo_of_the_Central_Committee_of_the_Communist_Party_of_the_Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.244513</relevance>
+            <relevance>0.302004</relevance>
             <count>1</count>
-            <text>Mountain Home Air Force Base</text>
+            <text>Scott Air Force Base</text>
             <disambiguated>
-                <name>Mountain Home Air Force Base</name>
+                <name>Scott Air Force Base</name>
                 <subType>Location</subType>
                 <subType>MilitaryPost</subType>
                 <subType>Airport</subType>
-                <geo>43.04361111111111 -115.8725</geo>
-                <website>http://www.mountainhome.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Mountain_Home_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ztm6</freebase>
-                <yago>http://yago-knowledge.org/resource/Mountain_Home_Air_Force_Base</yago>
+                <geo>38.54527777777778 -89.83527777777778</geo>
+                <website>http://www.scott.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Scott_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.022w1p</freebase>
+                <yago>http://yago-knowledge.org/resource/Scott_Air_Force_Base</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.244414</relevance>
-            <count>1</count>
-            <text>Air Force for Research and Development</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.243</relevance>
-            <count>2</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.242065</relevance>
-            <count>2</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.241114</relevance>
-            <count>2</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.237673</relevance>
-            <count>2</count>
-            <text>San Francisco</text>
-            <disambiguated>
-                <name>San Francisco</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <subType>FilmScreeningVenue</subType>
-                <website>http://www.sfgov.org/</website>
-                <dbpedia>http://dbpedia.org/resource/San_Francisco</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d6lp</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.237591</relevance>
-            <count>1</count>
-            <text>United States Air Force</text>
-            <disambiguated>
-                <name>Nevada Test and Training Range</name>
-                <subType>Location</subType>
-                <geo>37.49888888888889 -116.61722222222222</geo>
-                <dbpedia>http://dbpedia.org/resource/Nevada_Test_and_Training_Range</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027wqkb</freebase>
-            </disambiguated>
+            <type>StateOrCounty</type>
+            <relevance>0.301699</relevance>
+            <count>5</count>
+            <text>Calif</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.236282</relevance>
-            <count>4</count>
-            <text>Sen. George S. McGovern</text>
-            <disambiguated>
-                <name>George McGovern</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/George_McGovern</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gz2q</freebase>
-                <yago>http://yago-knowledge.org/resource/George_McGovern</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.231386</relevance>
-            <count>1</count>
-            <text>Bedford</text>
-            <disambiguated>
-                <name>Bedford</name>
-                <website>http://www.comearoundtobedford.co.uk</website>
-                <dbpedia>http://dbpedia.org/resource/Bedford</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j4q1</freebase>
-                <yago>http://yago-knowledge.org/resource/Bedford</yago>
-                <geonames>http://sws.geonames.org/2656046/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.231367</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230895</relevance>
-            <count>1</count>
-            <text>Air Force System</text>
+            <relevance>0.293175</relevance>
+            <count>6</count>
+            <text>Dr. Janies J. Ryan, Jr.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.229528</relevance>
+            <relevance>0.284753</relevance>
             <count>4</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -577,64 +289,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.22909</relevance>
-            <count>1</count>
-            <text>D.C. Air Force</text>
+            <type>Person</type>
+            <relevance>0.278726</relevance>
+            <count>3</count>
+            <text>afsc Newsreview</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.228927</relevance>
-            <count>1</count>
-            <text>American Institute of Aeronautics and Astronautics</text>
+            <relevance>0.278266</relevance>
+            <count>3</count>
+            <text>National Academy of Sciences</text>
             <disambiguated>
-                <name>American Institute of Aeronautics and Astronautics</name>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.aiaa.org/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Aeronautics_and_Astronautics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03474k</freebase>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.227879</relevance>
+            <type>Facility</type>
+            <relevance>0.274143</relevance>
             <count>1</count>
-            <text>Sikorsky Aircraft</text>
+            <text>Mountain Home Air Force Base</text>
             <disambiguated>
-                <name>Sikorsky Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.sikorsky.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Sikorsky_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01ncxn</freebase>
-                <yago>http://yago-knowledge.org/resource/Sikorsky_Aircraft</yago>
+                <name>Mountain Home Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>43.04361111111111 -115.8725</geo>
+                <website>http://www.mountainhome.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Mountain_Home_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ztm6</freebase>
+                <yago>http://yago-knowledge.org/resource/Mountain_Home_Air_Force_Base</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.227768</relevance>
-            <count>1</count>
-            <text>Hawthorne</text>
-            <disambiguated>
-                <name>Hawthorne, California</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>33.91722222222222 -118.34861111111111</geo>
-                <website>http://www.cityofhawthorne.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Hawthorne,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r0c8</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/inglewood/hawthorne</census>
-                <yago>http://yago-knowledge.org/resource/Hawthorne,_California</yago>
-                <geonames>http://sws.geonames.org/5355828/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.22384</relevance>
-            <count>2</count>
-            <text>scientist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.222469</relevance>
+            <relevance>0.272123</relevance>
             <count>3</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -658,6 +348,302 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVizFZwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Richard_Nixon</yago>
                 <musicBrainz>http://zitgist.com/music/artist/056203cf-376f-412a-86f7-3ffa80157ef4</musicBrainz>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.268423</relevance>
+            <count>4</count>
+            <text>Sen. George S. McGovern</text>
+            <disambiguated>
+                <name>George McGovern</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/George_McGovern</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gz2q</freebase>
+                <yago>http://yago-knowledge.org/resource/George_McGovern</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.267964</relevance>
+            <count>3</count>
+            <text>Nobel Prize</text>
+            <disambiguated>
+                <name>Nobel Prize</name>
+                <subType>Award</subType>
+                <website>http://nobelprize.org</website>
+                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.26334</relevance>
+            <count>5</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.256814</relevance>
+            <count>1</count>
+            <text>Beale Air Force Base</text>
+            <disambiguated>
+                <name>Beale Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>39.13611111111111 -121.43638888888889</geo>
+                <website>http://www.beale.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Beale_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r8dt</freebase>
+                <yago>http://yago-knowledge.org/resource/Beale_Air_Force_Base</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.256768</relevance>
+            <count>1</count>
+            <text>Air Force Materials Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255486</relevance>
+            <count>1</count>
+            <text>United States Air Force</text>
+            <disambiguated>
+                <name>Nevada Test and Training Range</name>
+                <subType>Location</subType>
+                <geo>37.49888888888889 -116.61722222222222</geo>
+                <dbpedia>http://dbpedia.org/resource/Nevada_Test_and_Training_Range</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027wqkb</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.254753</relevance>
+            <count>2</count>
+            <text>Soviet Academy of Sciences</text>
+            <disambiguated>
+                <name>Russian Academy of Sciences</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>55.710794444444446 37.57781388888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.254373</relevance>
+            <count>1</count>
+            <text>Sikorsky Aircraft</text>
+            <disambiguated>
+                <name>Sikorsky Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.sikorsky.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Sikorsky_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01ncxn</freebase>
+                <yago>http://yago-knowledge.org/resource/Sikorsky_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.250716</relevance>
+            <count>2</count>
+            <text>General Electric Co.</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.248156</relevance>
+            <count>2</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.247295</relevance>
+            <count>3</count>
+            <text>nas</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.243555</relevance>
+            <count>4</count>
+            <text>USAF</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.239856</relevance>
+            <count>1</count>
+            <text>Air Force System Command</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.238717</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.232475</relevance>
+            <count>1</count>
+            <text>Soc Air Safety Engineers</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.232278</relevance>
+            <count>4</count>
+            <text>Fla.</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.231823</relevance>
+            <count>1</count>
+            <text>Society of Air Safety Engineers</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.230392</relevance>
+            <count>1</count>
+            <text>Air Force for Research and Development</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.229993</relevance>
+            <count>1</count>
+            <text>Ching Chuan Kang Air</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.225983</relevance>
+            <count>5</count>
+            <text>Titan</text>
+            <disambiguated>
+                <name>Titan Corp.</name>
+                <dbpedia>http://dbpedia.org/resource/Titan_Corp.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0310cl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvypQ7pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Titan_Corp.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224896</relevance>
+            <count>2</count>
+            <text>Politburo</text>
+            <disambiguated>
+                <name>Politburo of the Central Committee of the Communist Party of the Soviet Union</name>
+                <subType>PoliticalParty</subType>
+                <dbpedia>http://dbpedia.org/resource/Politburo_of_the_Central_Committee_of_the_Communist_Party_of_the_Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.065_p</freebase>
+                <yago>http://yago-knowledge.org/resource/Politburo_of_the_Central_Committee_of_the_Communist_Party_of_the_Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223186</relevance>
+            <count>3</count>
+            <text>Walter S. Sullivan</text>
+            <disambiguated>
+                <name>Walter S. Sullivan</name>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/Walter_S._Sullivan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02x80gw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.222437</relevance>
+            <count>2</count>
+            <text>usaaf</text>
+            <disambiguated>
+                <name>United States Army Air Forces</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army_Air_Forces</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.012tqm</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Army_Air_Forces</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.221071</relevance>
+            <count>3</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.218683</relevance>
+            <count>2</count>
+            <text>China</text>
+            <disambiguated>
+                <name>China</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>35.0 105.0</geo>
+                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
             </disambiguated>
         </entity>
     </entities>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.735463</relevance>
+            <relevance>0.740853</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.671629</relevance>
+            <relevance>0.653962</relevance>
             <count>3</count>
             <text>Giacomo Giampieri</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.595964</relevance>
+            <relevance>0.637072</relevance>
             <count>2</count>
             <text>Milky Way</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.383237</relevance>
+            <count>1</count>
+            <text>solar radiation</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.423848</relevance>
+            <relevance>0.371594</relevance>
             <count>1</count>
             <text>JPL</text>
             <disambiguated>
@@ -54,12 +60,6 @@
                 <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
                 <geonames>http://sws.geonames.org/5332811/</geonames>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.409786</relevance>
-            <count>1</count>
-            <text>solar radiation</text>
         </entity>
     </entities>
 </results>

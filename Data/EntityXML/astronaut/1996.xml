@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.820459</relevance>
+            <relevance>0.821031</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -69,7 +69,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.34327</relevance>
+            <relevance>0.3479</relevance>
             <count>1</count>
             <text>Maurizio Cheli</text>
             <disambiguated>
@@ -82,7 +82,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.308635</relevance>
+            <relevance>0.312639</relevance>
             <count>1</count>
             <text>Umberto Guidoni</text>
             <disambiguated>
@@ -91,19 +91,6 @@
                 <dbpedia>http://dbpedia.org/resource/Umberto_Guidoni</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.02fgcq</freebase>
                 <yago>http://yago-knowledge.org/resource/Umberto_Guidoni</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.307677</relevance>
-            <count>1</count>
-            <text>Claude Nicollier</text>
-            <disambiguated>
-                <name>Claude Nicollier</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Claude_Nicollier</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02l2m0</freebase>
-                <yago>http://yago-knowledge.org/resource/Claude_Nicollier</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -127,16 +114,15 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.286897</relevance>
+            <relevance>0.304469</relevance>
             <count>1</count>
-            <text>Andrew M. Allen</text>
+            <text>Claude Nicollier</text>
             <disambiguated>
-                <name>Andrew M. Allen</name>
+                <name>Claude Nicollier</name>
                 <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Andrew_M._Allen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02n1r8</freebase>
-                <yago>http://yago-knowledge.org/resource/Andrew_M._Allen</yago>
+                <dbpedia>http://dbpedia.org/resource/Claude_Nicollier</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02l2m0</freebase>
+                <yago>http://yago-knowledge.org/resource/Claude_Nicollier</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -147,7 +133,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.282447</relevance>
+            <relevance>0.279162</relevance>
             <count>1</count>
             <text>Jeffrey A. Hoffman</text>
             <disambiguated>
@@ -167,7 +153,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.231323</relevance>
+            <relevance>0.247748</relevance>
+            <count>1</count>
+            <text>Andrew M.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.246395</relevance>
+            <count>1</count>
+            <text>Allen</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.228517</relevance>
             <count>1</count>
             <text>Franklin R.</text>
         </entity>

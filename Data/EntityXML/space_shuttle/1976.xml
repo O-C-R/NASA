@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.924027</relevance>
-            <count>21</count>
+            <relevance>0.923925</relevance>
+            <count>10</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -28,14 +28,35 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.813011</relevance>
+            <count>11</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.576228</relevance>
-            <count>7</count>
+            <relevance>0.65251</relevance>
+            <count>6</count>
             <text>MSFC</text>
         </entity>
         <entity>
+            <type>Technology</type>
+            <relevance>0.558407</relevance>
+            <count>1</count>
+            <text>Shuttle orbiter</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.506695</relevance>
+            <relevance>0.488901</relevance>
             <count>7</count>
             <text>New York Times</text>
             <disambiguated>
@@ -53,14 +74,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.459671</relevance>
-            <count>1</count>
-            <text>Shuttle orbiter</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.444198</relevance>
+            <relevance>0.483653</relevance>
             <count>2</count>
             <text>Space Technology Laboratories</text>
             <disambiguated>
@@ -73,13 +88,13 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.430043</relevance>
+            <relevance>0.460289</relevance>
             <count>3</count>
             <text>White Sands Missile Range</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.420983</relevance>
+            <relevance>0.440409</relevance>
             <count>2</count>
             <text>Rockwell</text>
             <disambiguated>
@@ -93,75 +108,133 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.397741</relevance>
-            <count>3</count>
-            <text>Rockwell</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.394034</relevance>
-            <count>3</count>
+            <relevance>0.436528</relevance>
+            <count>2</count>
             <text>Rockwell Inti</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.35043</relevance>
+            <relevance>0.414354</relevance>
             <count>3</count>
             <text>director</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.41354</relevance>
+            <count>3</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.350077</relevance>
+            <relevance>0.394965</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.387193</relevance>
+            <count>4</count>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.383816</relevance>
+            <count>1</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.379995</relevance>
+            <count>1</count>
+            <text>Hugh L. Dryden Flight Research Center</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.378971</relevance>
             <count>2</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.340734</relevance>
-            <count>1</count>
-            <text>Dr. Christopher C. Kraft</text>
+            <text>New Orleans</text>
             <disambiguated>
-                <name>Christopher C. Kraft, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vcvg</freebase>
-                <yago>http://yago-knowledge.org/resource/Christopher_C._Kraft,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.337747</relevance>
-            <count>1</count>
-            <text>New Mexico</text>
-            <disambiguated>
-                <name>New Mexico</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.newmexico.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Mexico</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNcZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Mexico</yago>
+                <name>New Orleans</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>29.96472222222222 -90.07055555555556</geo>
+                <website>http://www.cityofno.com</website>
+                <dbpedia>http://dbpedia.org/resource/New_Orleans</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2tj</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.333485</relevance>
+            <relevance>0.373925</relevance>
             <count>4</count>
             <text>Mrs. Dryden</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.333308</relevance>
+            <type>JobTitle</type>
+            <relevance>0.350417</relevance>
+            <count>1</count>
+            <text>Associate Administrator for Space Science</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.348777</relevance>
+            <count>3</count>
+            <text>administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.345336</relevance>
             <count>2</count>
-            <text>electronics industry</text>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.343709</relevance>
+            <count>1</count>
+            <text>Rockwell Intl.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.343005</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.342453</relevance>
+            <count>1</count>
+            <text>Flight Research Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.340417</relevance>
+            <count>1</count>
+            <text>National Space Technology Lab</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.333204</relevance>
+            <relevance>0.340323</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -180,8 +253,216 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.337394</relevance>
+            <count>1</count>
+            <text>James E. Webb</text>
+            <disambiguated>
+                <name>James E. Webb</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
+                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.332111</relevance>
+            <relevance>0.33121</relevance>
+            <count>1</count>
+            <text>National Advisory Committee for Aeronautics</text>
+            <disambiguated>
+                <name>National Advisory Committee for Aeronautics</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/National_Advisory_Committee_for_Aeronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01b9vn</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Advisory_Committee_for_Aeronautics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.330951</relevance>
+            <count>1</count>
+            <text>Case Institute of Technology</text>
+            <disambiguated>
+                <name>Case Western Reserve University</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.50416 -81.60845</geo>
+                <website>http://www.case.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Case_Western_Reserve_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01hjy5</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvV7DA5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Case_Western_Reserve_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.330506</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.328471</relevance>
+            <count>2</count>
+            <text>Michoud</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.326467</relevance>
+            <count>1</count>
+            <text>Sen. Frank E. Moss</text>
+            <disambiguated>
+                <name>Frank Moss (politician)</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Frank_Moss_(politician)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01zqc4</freebase>
+                <yago>http://yago-knowledge.org/resource/Frank_Moss_(politician)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.325028</relevance>
+            <count>1</count>
+            <text>Edwards</text>
+            <disambiguated>
+                <name>Edwards, California</name>
+                <dbpedia>http://dbpedia.org/resource/Edwards,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0642vf2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.323787</relevance>
+            <count>2</count>
+            <text>Dr. T. Keith Glennan</text>
+            <disambiguated>
+                <name>T. Keith Glennan</name>
+                <dbpedia>http://dbpedia.org/resource/T._Keith_Glennan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lk2k</freebase>
+                <yago>http://yago-knowledge.org/resource/T._Keith_Glennan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.322847</relevance>
+            <count>1</count>
+            <text>Calif.</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.31637</relevance>
+            <count>1</count>
+            <text>SSME</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.314781</relevance>
+            <count>1</count>
+            <text>James C. Fletcher</text>
+            <disambiguated>
+                <name>James C. Fletcher</name>
+                <subType>Academic</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/James_C._Fletcher</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lhw6</freebase>
+                <yago>http://yago-knowledge.org/resource/James_C._Fletcher</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.303246</relevance>
+            <count>1</count>
+            <text>Johnson Space Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.302901</relevance>
+            <count>1</count>
+            <text>Griggs</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.302163</relevance>
+            <count>1</count>
+            <text>NSTL</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.301966</relevance>
+            <count>1</count>
+            <text>1958-1961</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.300561</relevance>
+            <count>1</count>
+            <text>chairman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.299855</relevance>
+            <count>1</count>
+            <text>instructor</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.298597</relevance>
+            <count>2</count>
+            <text>Elwood W. Land</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296811</relevance>
+            <count>1</count>
+            <text>Dr. Christopher C. Kraft</text>
+            <disambiguated>
+                <name>Christopher C. Kraft, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vcvg</freebase>
+                <yago>http://yago-knowledge.org/resource/Christopher_C._Kraft,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.296599</relevance>
+            <count>1</count>
+            <text>NSTL</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.296296</relevance>
+            <count>1</count>
+            <text>Corp.</text>
+            <disambiguated>
+                <name>Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.023k2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.295815</relevance>
             <count>1</count>
             <text>KSC</text>
             <disambiguated>
@@ -198,313 +479,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.33196</relevance>
-            <count>1</count>
-            <text>National Space Technology Lab</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.321141</relevance>
-            <count>2</count>
-            <text>Elwood W. Land</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.32071</relevance>
-            <count>1</count>
-            <text>Johnson Space Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.319358</relevance>
-            <count>4</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.317438</relevance>
-            <count>1</count>
-            <text>White Sands</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.317339</relevance>
-            <count>3</count>
-            <text>administrator</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.314967</relevance>
+            <relevance>0.294261</relevance>
             <count>1</count>
-            <text>Fla.</text>
+            <text>New Mexico</text>
             <disambiguated>
-                <name>Florida</name>
+                <name>New Mexico</name>
                 <subType>Location</subType>
                 <subType>PoliticalDistrict</subType>
                 <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
                 <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
+                <website>http://www.newmexico.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNcZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/New_Mexico</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.310626</relevance>
+            <relevance>0.294125</relevance>
             <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.310173</relevance>
-            <count>1</count>
-            <text>Staff writer</text>
+            <text>Michoud Assembly Facility</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.309041</relevance>
+            <relevance>0.292445</relevance>
             <count>1</count>
-            <text>Corp.</text>
+            <text>U.S. Army</text>
             <disambiguated>
-                <name>Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.023k2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.305847</relevance>
-            <count>1</count>
-            <text>Associate Administrator for Space Science</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.303737</relevance>
-            <count>1</count>
-            <text>Rockwell Intl.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.302228</relevance>
-            <count>1</count>
-            <text>Hugh L. Dryden Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.301921</relevance>
-            <count>1</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301485</relevance>
-            <count>1</count>
-            <text>Thomas O&#x2019;Toole</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301445</relevance>
-            <count>2</count>
-            <text>Dr. T. Keith Glennan</text>
-            <disambiguated>
-                <name>T. Keith Glennan</name>
-                <dbpedia>http://dbpedia.org/resource/T._Keith_Glennan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lk2k</freebase>
-                <yago>http://yago-knowledge.org/resource/T._Keith_Glennan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.2957</relevance>
-            <count>1</count>
-            <text>Palmdale</text>
-            <disambiguated>
-                <name>Palmdale, California</name>
-                <geo>34.57944444444445 -118.11666666666666</geo>
-                <website>http://www.cityofpalmdale.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Palmdale,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r0r4</freebase>
-                <yago>http://yago-knowledge.org/resource/Palmdale,_California</yago>
-                <geonames>http://sws.geonames.org/5380698/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.295181</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.290599</relevance>
-            <count>1</count>
-            <text>Washington Post.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.28977</relevance>
-            <count>1</count>
-            <text>shut down</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.289706</relevance>
-            <count>1</count>
-            <text>Siberia</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.289523</relevance>
-            <count>1</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.285714</relevance>
-            <count>1</count>
-            <text>NSTL</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.284063</relevance>
-            <count>1</count>
-            <text>Electronics Industries Assn.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.28265</relevance>
-            <count>2</count>
-            <text>New Orleans</text>
-            <disambiguated>
-                <name>New Orleans</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>29.96472222222222 -90.07055555555556</geo>
-                <website>http://www.cityofno.com</website>
-                <dbpedia>http://dbpedia.org/resource/New_Orleans</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2tj</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.282223</relevance>
-            <count>1</count>
-            <text>General Electric</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.281875</relevance>
-            <count>2</count>
-            <text>Michoud</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.281642</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.281192</relevance>
-            <count>1</count>
-            <text>SSME</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.280823</relevance>
-            <count>1</count>
-            <text>Idaho</text>
-            <disambiguated>
-                <name>Idaho</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <dbpedia>http://dbpedia.org/resource/Idaho</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03s5t</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVindZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Idaho</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.277465</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas Corp.</text>
-            <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.2773</relevance>
-            <count>1</count>
-            <text>Sioux Falls</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.276099</relevance>
-            <count>1</count>
-            <text>Saturn</text>
-            <disambiguated>
-                <name>Saturn Corporation</name>
-                <subType>AwardWinner</subType>
-                <website>http://saturn.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Saturn_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.015g8h</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwNKAIpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Saturn_Corporation</yago>
+                <name>United States Army</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <subType>VideoGamePublisher</subType>
+                <website>http://www.army.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Army</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wh1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyd5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Army</yago>
             </disambiguated>
         </entity>
     </entities>

@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.869394</relevance>
+            <relevance>0.761747</relevance>
             <count>3</count>
             <text>Kuiper Belt</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.678391</relevance>
+            <relevance>0.59864</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,7 +35,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.60686</relevance>
+            <relevance>0.499563</relevance>
             <count>2</count>
             <text>Boeing</text>
             <disambiguated>
@@ -53,38 +53,61 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.505283</relevance>
-            <count>2</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.491445</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.461876</relevance>
+            <relevance>0.434347</relevance>
             <count>1</count>
             <text>Boeing Space Station</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.448309</relevance>
-            <count>1</count>
-            <text>Boeing Information</text>
+            <type>FieldTerminology</type>
+            <relevance>0.413061</relevance>
+            <count>2</count>
+            <text>solar system</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.369962</relevance>
+            <relevance>0.405446</relevance>
             <count>1</count>
             <text>Hubble</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.396518</relevance>
+            <count>2</count>
+            <text>ISS</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.368718</relevance>
+            <relevance>0.390334</relevance>
+            <count>1</count>
+            <text>Boeing Information</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.34884</relevance>
+            <count>1</count>
+            <text>Astrophysical Journal</text>
+            <disambiguated>
+                <name>The Astrophysical Journal</name>
+                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.338678</relevance>
+            <count>1</count>
+            <text>NASA Awards</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.3288</relevance>
+            <count>1</count>
+            <text>Brad M. S. Hansen</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.324345</relevance>
             <count>1</count>
             <text>Defense Systems</text>
             <disambiguated>
@@ -95,33 +118,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.360121</relevance>
-            <count>1</count>
-            <text>NASA Awards</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.345226</relevance>
-            <count>1</count>
-            <text>Astrophysical Journal</text>
-            <disambiguated>
-                <name>The Astrophysical Journal</name>
-                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.32989</relevance>
+            <relevance>0.314399</relevance>
             <count>1</count>
             <text>Christian Veillet</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.325114</relevance>
-            <count>1</count>
-            <text>Brad M. S. Hansen</text>
         </entity>
     </entities>
 </results>

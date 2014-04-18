@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.775983</relevance>
+            <relevance>0.890035</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,19 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.481919</relevance>
+            <relevance>0.62877</relevance>
             <count>1</count>
             <text>NASA Launch Complex</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.379705</relevance>
+            <relevance>0.583933</relevance>
             <count>1</count>
             <text>Kourou Launch Center</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.354867</relevance>
+            <relevance>0.508474</relevance>
             <count>3</count>
             <text>NY Times</text>
             <disambiguated>
@@ -59,14 +59,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.312017</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.458725</relevance>
+            <count>1</count>
+            <text>communications satellite</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.410415</relevance>
             <count>2</count>
-            <text>Neptune</text>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.30415</relevance>
+            <relevance>0.375712</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -85,20 +104,37 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.300953</relevance>
+            <type>Company</type>
+            <relevance>0.367307</relevance>
             <count>1</count>
-            <text>communications satellite</text>
+            <text>General Dynamics Space Systems Division</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.300866</relevance>
+            <type>City</type>
+            <relevance>0.366989</relevance>
             <count>1</count>
             <text>French Guiana</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.365851</relevance>
+            <count>1</count>
+            <text>Kennedy Space Center</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.284087</relevance>
+            <relevance>0.362717</relevance>
             <count>2</count>
             <text>California</text>
             <disambiguated>
@@ -119,87 +155,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.282195</relevance>
-            <count>1</count>
-            <text>General Dynamics Space Systems Division</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.281492</relevance>
-            <count>1</count>
-            <text>Kennedy Space Center</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.26694</relevance>
-            <count>2</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.260914</relevance>
-            <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.259567</relevance>
-            <count>1</count>
-            <text>Korou</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.25628</relevance>
-            <count>1</count>
-            <text>WSJ</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.255697</relevance>
+            <relevance>0.327558</relevance>
             <count>1</count>
             <text>Taiyuan</text>
             <disambiguated>
@@ -212,49 +169,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.254215</relevance>
-            <count>1</count>
-            <text>NRAO</text>
-            <disambiguated>
-                <name>National Radio Astronomy Observatory</name>
-                <website>http://www.nrao.edu</website>
-                <dbpedia>http://dbpedia.org/resource/National_Radio_Astronomy_Observatory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01v5gn</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Radio_Astronomy_Observatory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.254126</relevance>
-            <count>1</count>
-            <text>Reuter</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.250677</relevance>
-            <count>1</count>
-            <text>National Radio Astronomy Observatory</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.243074</relevance>
-            <count>1</count>
-            <text>General Dynamics</text>
-            <disambiguated>
-                <name>General Dynamics</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.gd.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.238911</relevance>
+            <relevance>0.325399</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -270,53 +186,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.238611</relevance>
+            <type>Company</type>
+            <relevance>0.315933</relevance>
             <count>1</count>
-            <text>French Guiana</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.235645</relevance>
-            <count>2</count>
-            <text>NOAA</text>
+            <text>General Dynamics</text>
             <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+                <name>General Dynamics</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.gd.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.233886</relevance>
+            <relevance>0.314393</relevance>
             <count>1</count>
-            <text>UPI</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
+            <text>French Telecom</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.231025</relevance>
+            <relevance>0.311743</relevance>
+            <count>2</count>
+            <text>Neptune</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.311662</relevance>
             <count>1</count>
-            <text>San Diego</text>
-            <disambiguated>
-                <name>San Diego</name>
-                <website>http://www.sandiego.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/San_Diego</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.071vr</freebase>
-            </disambiguated>
+            <text>French Guiana</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.225183</relevance>
+            <relevance>0.307461</relevance>
             <count>1</count>
             <text>China</text>
             <disambiguated>
@@ -335,7 +240,157 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.223663</relevance>
+            <relevance>0.306125</relevance>
+            <count>2</count>
+            <text>NOAA</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.304785</relevance>
+            <count>1</count>
+            <text>GTE</text>
+            <disambiguated>
+                <name>GTE</name>
+                <website>http://web.archive.org/*/http:/www.gte.com</website>
+                <dbpedia>http://dbpedia.org/resource/GTE</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025rsk9</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwT0ZX5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/GTE</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.304207</relevance>
+            <count>1</count>
+            <text>UPI</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.303606</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.300181</relevance>
+            <count>1</count>
+            <text>San Diego</text>
+            <disambiguated>
+                <name>San Diego</name>
+                <website>http://www.sandiego.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/San_Diego</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.071vr</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.297954</relevance>
+            <count>1</count>
+            <text>WSJ</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.295495</relevance>
+            <count>1</count>
+            <text>Reuter</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.293378</relevance>
+            <count>1</count>
+            <text>NRAO</text>
+            <disambiguated>
+                <name>National Radio Astronomy Observatory</name>
+                <website>http://www.nrao.edu</website>
+                <dbpedia>http://dbpedia.org/resource/National_Radio_Astronomy_Observatory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01v5gn</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Radio_Astronomy_Observatory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.289766</relevance>
+            <count>1</count>
+            <text>National Radio Astronomy Observatory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.273311</relevance>
+            <count>1</count>
+            <text>U.S. Government</text>
+            <disambiguated>
+                <name>Federal government of the United States</name>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.272462</relevance>
+            <count>1</count>
+            <text>Department of Commerce</text>
+            <disambiguated>
+                <name>United States Department of Commerce</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.commerce.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Commerce</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j770</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Commerce</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.268905</relevance>
+            <count>1</count>
+            <text>Korou</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.266593</relevance>
+            <count>1</count>
+            <text>China.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.256237</relevance>
             <count>1</count>
             <text>WSMC</text>
             <disambiguated>
@@ -350,14 +405,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.22359</relevance>
-            <count>1</count>
-            <text>French Telecom</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.220019</relevance>
+            <relevance>0.252895</relevance>
             <count>1</count>
             <text>National Science Foundation</text>
             <disambiguated>
@@ -373,65 +422,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.216744</relevance>
-            <count>1</count>
-            <text>GTE</text>
-            <disambiguated>
-                <name>GTE</name>
-                <website>http://web.archive.org/*/http:/www.gte.com</website>
-                <dbpedia>http://dbpedia.org/resource/GTE</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025rsk9</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwT0ZX5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/GTE</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.216237</relevance>
+            <relevance>0.249664</relevance>
             <count>1</count>
             <text>California.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.213216</relevance>
+            <relevance>0.243144</relevance>
             <count>1</count>
             <text>Missile Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.209645</relevance>
-            <count>1</count>
-            <text>U.S. Government</text>
-            <disambiguated>
-                <name>Federal government of the United States</name>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.208563</relevance>
-            <count>1</count>
-            <text>Department of Commerce</text>
-            <disambiguated>
-                <name>United States Department of Commerce</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.commerce.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Commerce</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j770</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Commerce</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.207377</relevance>
-            <count>1</count>
-            <text>China.</text>
         </entity>
     </entities>
 </results>

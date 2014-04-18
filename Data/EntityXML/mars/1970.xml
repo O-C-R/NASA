@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.77873</relevance>
+            <relevance>0.737917</relevance>
             <count>4</count>
             <text>jpl</text>
             <disambiguated>
@@ -23,8 +23,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.687815</relevance>
-            <count>4</count>
+            <relevance>0.666956</relevance>
+            <count>5</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -45,7 +45,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.550391</relevance>
+            <relevance>0.481785</relevance>
             <count>3</count>
             <text>Charles A. Lindbergh</text>
             <disambiguated>
@@ -60,14 +60,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.47852</relevance>
-            <count>1</count>
-            <text>JPL Nuclear Power Sources Group</text>
-        </entity>
-        <entity>
             <type>Continent</type>
-            <relevance>0.472059</relevance>
+            <relevance>0.424809</relevance>
             <count>2</count>
             <text>Europe</text>
             <disambiguated>
@@ -78,46 +72,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.461701</relevance>
-            <count>2</count>
-            <text>Homo sapiens</text>
+            <type>Company</type>
+            <relevance>0.423976</relevance>
+            <count>1</count>
+            <text>JPL Nuclear Power Sources Group</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.460904</relevance>
-            <count>2</count>
-            <text>New York Times</text>
+            <relevance>0.41679</relevance>
+            <count>1</count>
+            <text>Patriot Ledger</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
+                <name>The Patriot Ledger</name>
                 <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.450103</relevance>
-            <count>2</count>
-            <text>Lost City</text>
-            <disambiguated>
-                <name>Lost City, West Virginia</name>
-                <dbpedia>http://dbpedia.org/resource/Lost_City,_West_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09x589</freebase>
-                <yago>http://yago-knowledge.org/resource/Lost_City,_West_Virginia</yago>
-                <geonames>http://sws.geonames.org/4813114/</geonames>
+                <website>http://www.patriotledger.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Patriot_Ledger</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0266kw1</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Patriot_Ledger</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.44766</relevance>
+            <relevance>0.414038</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -137,7 +113,57 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.441847</relevance>
+            <relevance>0.412703</relevance>
+            <count>2</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.379826</relevance>
+            <count>1</count>
+            <text>Quincy</text>
+            <disambiguated>
+                <name>Quincy, Massachusetts</name>
+                <website>http://www.quincyma.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Quincy,_Massachusetts</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0t_gg</freebase>
+                <yago>http://yago-knowledge.org/resource/Quincy,_Massachusetts</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>NaturalDisaster</type>
+            <relevance>0.359299</relevance>
+            <count>1</count>
+            <text>Meteorite</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.357107</relevance>
+            <count>2</count>
+            <text>Homo sapiens</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.350058</relevance>
+            <count>1</count>
+            <text>NASA&#x2019;s Institute for Space Studies</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.346264</relevance>
             <count>2</count>
             <text>New York Times Magazine</text>
             <disambiguated>
@@ -150,8 +176,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.346062</relevance>
+            <count>1</count>
+            <text>President</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.427792</relevance>
+            <relevance>0.345537</relevance>
             <count>2</count>
             <text>Okla.</text>
             <disambiguated>
@@ -169,20 +201,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.411144</relevance>
-            <count>1</count>
-            <text>NASA Hq.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.390711</relevance>
-            <count>1</count>
-            <text>NASA&#x2019;s Institute for Space Studies</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.383491</relevance>
+            <relevance>0.343518</relevance>
             <count>1</count>
             <text>President Franklin Roosevelt</text>
             <disambiguated>
@@ -197,52 +217,80 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>NaturalDisaster</type>
-            <relevance>0.364745</relevance>
-            <count>1</count>
-            <text>Meteorite</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.356493</relevance>
-            <count>1</count>
-            <text>Patriot Ledger</text>
-            <disambiguated>
-                <name>The Patriot Ledger</name>
-                <subType>Newspaper</subType>
-                <website>http://www.patriotledger.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Patriot_Ledger</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0266kw1</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Patriot_Ledger</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.356466</relevance>
-            <count>1</count>
-            <text>Smithsonian PAO</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.351889</relevance>
-            <count>1</count>
-            <text>Assistant Administrator for Public Affairs</text>
+            <type>City</type>
+            <relevance>0.337272</relevance>
+            <count>2</count>
+            <text>Lost City</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.35138</relevance>
+            <relevance>0.336227</relevance>
+            <count>1</count>
+            <text>Smithsonian Institution&#x2019;s Astrophysical Laboratory</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.335804</relevance>
+            <count>1</count>
+            <text>Mass</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.3334</relevance>
+            <count>1</count>
+            <text>carbon dioxide</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.322221</relevance>
+            <count>1</count>
+            <text>Wallops Station</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.321828</relevance>
+            <count>1</count>
+            <text>RTG</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.317794</relevance>
+            <count>1</count>
+            <text>Dr. Robert Jastrow</text>
+            <disambiguated>
+                <name>Robert Jastrow</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_Jastrow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ywh7</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_Jastrow</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.313824</relevance>
+            <count>1</count>
+            <text>Melvin Swerdling</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.313223</relevance>
             <count>1</count>
             <text>Air Corps</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.350343</relevance>
+            <relevance>0.312805</relevance>
             <count>1</count>
-            <text>Julian Scheer</text>
+            <text>Mr. Nixon</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.310109</relevance>
+            <count>1</count>
+            <text>Cape Kennedy</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.345607</relevance>
+            <relevance>0.307646</relevance>
             <count>1</count>
             <text>aec</text>
             <disambiguated>
@@ -255,7 +303,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.343209</relevance>
+            <relevance>0.30477</relevance>
             <count>1</count>
             <text>Eric F. Goldman</text>
             <disambiguated>
@@ -266,116 +314,91 @@
         </entity>
         <entity>
             <type>Region</type>
-            <relevance>0.340941</relevance>
+            <relevance>0.303876</relevance>
             <count>1</count>
             <text>Pacific</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.339376</relevance>
-            <count>1</count>
-            <text>Owen S. Merrill</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.337003</relevance>
-            <count>1</count>
-            <text>Naval Mission</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.336759</relevance>
-            <count>1</count>
-            <text>carbon dioxide</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.336698</relevance>
-            <count>1</count>
-            <text>Dr. Robert Jastrow</text>
-            <disambiguated>
-                <name>Robert Jastrow</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_Jastrow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ywh7</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_Jastrow</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.335088</relevance>
-            <count>1</count>
-            <text>Dostoevsky</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.333963</relevance>
-            <count>1</count>
-            <text>RTG</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.333818</relevance>
-            <count>1</count>
-            <text>na'ivet6</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.330309</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.326223</relevance>
-            <count>1</count>
-            <text>Melvin Swerdling</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.325031</relevance>
-            <count>1</count>
-            <text>Quincy</text>
-            <disambiguated>
-                <name>Quincy, Massachusetts</name>
-                <website>http://www.quincyma.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Quincy,_Massachusetts</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0t_gg</freebase>
-                <yago>http://yago-knowledge.org/resource/Quincy,_Massachusetts</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.323003</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.320951</relevance>
-            <count>1</count>
-            <text>Cape Kennedy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.319159</relevance>
-            <count>1</count>
-            <text>Smithsonian Institution&#x2019;s Astrophysical Laboratory</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.318199</relevance>
-            <count>1</count>
-            <text>Wallops Station</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.314926</relevance>
+            <relevance>0.302479</relevance>
             <count>1</count>
             <text>Viking Molecular Analysis</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.309621</relevance>
+            <relevance>0.300702</relevance>
+            <count>1</count>
+            <text>Owen S. Merrill</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.300112</relevance>
+            <count>1</count>
+            <text>Assistant Administrator for Public Affairs</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.298876</relevance>
+            <count>1</count>
+            <text>Naval Mission</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.298804</relevance>
+            <count>1</count>
+            <text>Julian Scheer</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.297575</relevance>
+            <count>1</count>
+            <text>Astronautics &amp; Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.297002</relevance>
+            <count>1</count>
+            <text>Dostoevsky</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296216</relevance>
+            <count>1</count>
+            <text>Dan Schneiderman</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.295978</relevance>
+            <count>1</count>
+            <text>na'ivet6</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.295348</relevance>
+            <count>1</count>
+            <text>power systems</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.293487</relevance>
+            <count>1</count>
+            <text>carbon monoxide</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.292826</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.29205</relevance>
+            <count>1</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.287856</relevance>
             <count>1</count>
             <text>Dr. George C. Pimentel</text>
             <disambiguated>
@@ -386,70 +409,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.30876</relevance>
-            <count>1</count>
-            <text>Astronautics &amp; Aeronautics</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.307539</relevance>
-            <count>1</count>
-            <text>power systems</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.307347</relevance>
-            <count>1</count>
-            <text>Dan Schneiderman</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.305964</relevance>
-            <count>1</count>
-            <text>carbon monoxide</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.303214</relevance>
-            <count>1</count>
-            <text>Book Review</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.297601</relevance>
-            <count>1</count>
-            <text>Kenneth C. Herr</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.297467</relevance>
+            <relevance>0.276566</relevance>
             <count>1</count>
             <text>Berkeley</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.296434</relevance>
+            <relevance>0.275753</relevance>
             <count>1</count>
-            <text>Mr. Nixon</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.294449</relevance>
-            <count>1</count>
-            <text>Director</text>
+            <text>Kenneth C. Herr</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.292865</relevance>
+            <relevance>0.272293</relevance>
             <count>1</count>
             <text>Univ. of California</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.290319</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.265761</relevance>
             <count>1</count>
-            <text>President</text>
+            <text>Book Review</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.263817</relevance>
+            <count>1</count>
+            <text>Director</text>
         </entity>
     </entities>
 </results>

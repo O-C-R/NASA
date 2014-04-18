@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.808072</relevance>
+            <relevance>0.85386</relevance>
             <count>18</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,25 +29,61 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.416479</relevance>
+            <relevance>0.497178</relevance>
             <count>4</count>
             <text>Mars</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.459399</relevance>
+            <count>6</count>
+            <text>Phoenix</text>
+            <disambiguated>
+                <name>Phoenix, Arizona</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.phoenix.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Phoenix,_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d35y</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az/counties/maricopa_county/phoenix</census>
+                <yago>http://yago-knowledge.org/resource/Phoenix,_Arizona</yago>
+                <geonames>http://sws.geonames.org/5308655/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.374989</relevance>
+            <relevance>0.453001</relevance>
             <count>1</count>
             <text>Mars&#x2019;s Borealis Basin</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.355174</relevance>
+            <relevance>0.370266</relevance>
             <count>4</count>
             <text>The Borealis Basin</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.35723</relevance>
+            <count>3</count>
+            <text>Andrea Thompson</text>
+            <disambiguated>
+                <name>Andrea Thompson</name>
+                <subType>Actor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Andrea_Thompson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04q719</freebase>
+                <yago>http://yago-knowledge.org/resource/Andrea_Thompson</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.339318</relevance>
+            <count>1</count>
+            <text>Mars&#x2019;s Gusev Crater</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.332484</relevance>
+            <relevance>0.331769</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -68,50 +104,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.324379</relevance>
-            <count>6</count>
-            <text>Phoenix</text>
-            <disambiguated>
-                <name>Phoenix, Arizona</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.phoenix.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Phoenix,_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d35y</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az/counties/maricopa_county/phoenix</census>
-                <yago>http://yago-knowledge.org/resource/Phoenix,_Arizona</yago>
-                <geonames>http://sws.geonames.org/5308655/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.306026</relevance>
-            <count>3</count>
-            <text>Andrea Thompson</text>
-            <disambiguated>
-                <name>Andrea Thompson</name>
-                <subType>Actor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Andrea_Thompson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04q719</freebase>
-                <yago>http://yago-knowledge.org/resource/Andrea_Thompson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.303403</relevance>
-            <count>1</count>
-            <text>Mars&#x2019;s Gusev Crater</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.258674</relevance>
+            <relevance>0.313067</relevance>
             <count>1</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.307108</relevance>
+            <count>2</count>
+            <text>Lander</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.234513</relevance>
+            <relevance>0.287916</relevance>
             <count>2</count>
             <text>New York Times</text>
             <disambiguated>
@@ -129,32 +135,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.224496</relevance>
-            <count>2</count>
-            <text>Lander</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.223307</relevance>
-            <count>1</count>
-            <text>NASA Spacecraft</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219949</relevance>
-            <count>1</count>
-            <text>Space and Aeronautics</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.215553</relevance>
-            <count>2</count>
-            <text>Kenneth Chang</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.209204</relevance>
+            <relevance>0.281926</relevance>
             <count>1</count>
             <text>US</text>
             <disambiguated>
@@ -173,54 +155,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.207846</relevance>
-            <count>1</count>
-            <text>Mary T. Zuber</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.20429</relevance>
-            <count>1</count>
-            <text>Alpha Particle X-Ray Spectrometer</text>
+            <type>GeographicFeature</type>
+            <relevance>0.278762</relevance>
+            <count>2</count>
+            <text>Mawrth Vallis</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.204086</relevance>
+            <relevance>0.277831</relevance>
+            <count>2</count>
+            <text>Janice L. Bishop</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.270167</relevance>
+            <count>1</count>
+            <text>NASA Spacecraft</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265385</relevance>
+            <count>2</count>
+            <text>Kenneth Chang</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.246305</relevance>
+            <count>1</count>
+            <text>Reconnaissance Imaging Spectrometer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.243299</relevance>
             <count>1</count>
             <text>Mikki M. Osterloo</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.199589</relevance>
-            <count>1</count>
-            <text>Shank</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.198724</relevance>
-            <count>1</count>
-            <text>University of Hawaii</text>
-            <disambiguated>
-                <name>University of Hawaii</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.hawaii.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Hawaii</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bn7d</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Hawaii</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.194158</relevance>
-            <count>1</count>
-            <text>Director of Strategic Investments</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.192254</relevance>
+            <relevance>0.241681</relevance>
             <count>1</count>
             <text>University of Arizona</text>
             <disambiguated>
@@ -237,56 +209,48 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.190521</relevance>
+            <type>Organization</type>
+            <relevance>0.236972</relevance>
             <count>1</count>
-            <text>W. Bruce Banerdt</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.189721</relevance>
-            <count>1</count>
-            <text>Reconnaissance Imaging Spectrometer</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.186147</relevance>
-            <count>2</count>
-            <text>Mawrth Vallis</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.181935</relevance>
-            <count>2</count>
-            <text>Janice L. Bishop</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.178483</relevance>
-            <count>1</count>
-            <text>M. M. Osterloo</text>
+            <text>University of Hawaii</text>
+            <disambiguated>
+                <name>University of Hawaii</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.hawaii.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Hawaii</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bn7d</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Hawaii</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.177831</relevance>
+            <relevance>0.231341</relevance>
             <count>1</count>
-            <text>Office of Program Analysis and Evaluation.</text>
+            <text>Alpha Particle X-Ray Spectrometer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.230814</relevance>
+            <count>1</count>
+            <text>Space and Aeronautics</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.177076</relevance>
-            <count>1</count>
-            <text>David Mosher</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.173564</relevance>
+            <relevance>0.216371</relevance>
             <count>1</count>
             <text>S. W. Squyres</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.215932</relevance>
+            <count>1</count>
+            <text>Mary T. Zuber</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.169782</relevance>
+            <relevance>0.2149</relevance>
             <count>1</count>
             <text>JPL</text>
             <disambiguated>
@@ -301,34 +265,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.160991</relevance>
+            <type>Person</type>
+            <relevance>0.212683</relevance>
             <count>1</count>
-            <text>Columbia Hills</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.160766</relevance>
-            <count>1</count>
-            <text>Solar System</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.158155</relevance>
-            <count>1</count>
-            <text>solar system.</text>
+            <text>M. M. Osterloo</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.156558</relevance>
+            <relevance>0.211069</relevance>
             <count>1</count>
             <text>Extraterrestrial Intelligence) Institute</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.153591</relevance>
+            <relevance>0.211009</relevance>
+            <count>1</count>
+            <text>David Mosher</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.206284</relevance>
+            <count>1</count>
+            <text>Shank</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.199209</relevance>
+            <count>1</count>
+            <text>Director of Strategic Investments</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.195136</relevance>
+            <count>1</count>
+            <text>W. Bruce Banerdt</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.194504</relevance>
+            <count>1</count>
+            <text>Solar System</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.191343</relevance>
+            <count>1</count>
+            <text>solar system.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.185827</relevance>
             <count>1</count>
             <text>Jeffrey C.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.180988</relevance>
+            <count>1</count>
+            <text>Office of Program Analysis and Evaluation.</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.180741</relevance>
+            <count>1</count>
+            <text>Columbia Hills</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.847257</relevance>
+            <relevance>0.88751</relevance>
             <count>36</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,8 +28,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.376334</relevance>
+            <count>10</count>
+            <text>ISS</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.318663</relevance>
+            <relevance>0.344815</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -50,26 +56,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.306848</relevance>
-            <count>8</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.239631</relevance>
+            <relevance>0.223518</relevance>
             <count>1</count>
             <text>Shuttle Radar Topography Mission</text>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.230667</relevance>
-            <count>2</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.219578</relevance>
+            <relevance>0.214854</relevance>
             <count>3</count>
             <text>KSC</text>
             <disambiguated>
@@ -87,19 +81,19 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.213321</relevance>
+            <relevance>0.208575</relevance>
             <count>3</count>
             <text>Cape Canaveral</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.202186</relevance>
+            <relevance>0.198289</relevance>
             <count>3</count>
             <text>ISTP</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.195558</relevance>
+            <relevance>0.19135</relevance>
             <count>3</count>
             <text>Florida</text>
             <disambiguated>
@@ -119,87 +113,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.181284</relevance>
-            <count>1</count>
-            <text>Rocketdyne</text>
-            <disambiguated>
-                <name>Rocketdyne</name>
-                <dbpedia>http://dbpedia.org/resource/Rocketdyne</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vhl6</freebase>
-                <yago>http://yago-knowledge.org/resource/Rocketdyne</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.171134</relevance>
-            <count>2</count>
-            <text>Rocketdyne</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.169318</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16446</relevance>
-            <count>3</count>
-            <text>HST</text>
-            <disambiguated>
-                <name>Harvard&#x2013;MIT Division of Health Sciences and Technology</name>
-                <dbpedia>http://dbpedia.org/resource/Harvard&#x2013;MIT_Division_of_Health_Sciences_and_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b_ss8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.164224</relevance>
-            <count>1</count>
-            <text>Space Station</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.162598</relevance>
-            <count>1</count>
-            <text>Boeing Rocketdyne</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.15929</relevance>
-            <count>2</count>
-            <text>William Harwood</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.15872</relevance>
-            <count>1</count>
-            <text>Boeing Company</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.158181</relevance>
+            <relevance>0.188249</relevance>
             <count>3</count>
             <text>PricewaterhouseCoopers</text>
             <disambiguated>
@@ -213,85 +127,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.15805</relevance>
-            <count>2</count>
-            <text>Columbia</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.15735</relevance>
-            <count>2</count>
-            <text>Commander</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.14794</relevance>
-            <count>1</count>
-            <text>Rocketdyne Propulsion</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.146968</relevance>
-            <count>1</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.146747</relevance>
-            <count>1</count>
-            <text>Power division</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.146642</relevance>
-            <count>2</count>
-            <text>RLV</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.144673</relevance>
-            <count>1</count>
-            <text>Orlando Sentinel</text>
-            <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.142372</relevance>
-            <count>1</count>
-            <text>Mobile Transporter</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.141362</relevance>
+            <relevance>0.182617</relevance>
             <count>1</count>
             <text>Space Launch Initiative</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.140995</relevance>
+            <relevance>0.17295</relevance>
+            <count>2</count>
+            <text>Rocketdyne</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.172021</relevance>
             <count>1</count>
             <text>President George W. Bush</text>
             <disambiguated>
@@ -319,15 +168,139 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.168648</relevance>
+            <count>1</count>
+            <text>Space Station</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.166911</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.159092</relevance>
+            <count>1</count>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.156835</relevance>
+            <count>2</count>
+            <text>William Harwood</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.15645</relevance>
+            <count>2</count>
+            <text>Columbia</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.155809</relevance>
+            <count>3</count>
+            <text>HST</text>
+            <disambiguated>
+                <name>Harvard&#x2013;MIT Division of Health Sciences and Technology</name>
+                <dbpedia>http://dbpedia.org/resource/Harvard&#x2013;MIT_Division_of_Health_Sciences_and_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b_ss8</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.155656</relevance>
+            <count>1</count>
+            <text>Rocketdyne</text>
+            <disambiguated>
+                <name>Rocketdyne</name>
+                <dbpedia>http://dbpedia.org/resource/Rocketdyne</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vhl6</freebase>
+                <yago>http://yago-knowledge.org/resource/Rocketdyne</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.155511</relevance>
+            <count>2</count>
+            <text>OSP</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.154982</relevance>
+            <count>2</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.151729</relevance>
+            <count>2</count>
+            <text>RLV</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.145748</relevance>
+            <count>1</count>
+            <text>Mobile Transporter</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.142596</relevance>
+            <count>1</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Crime</type>
-            <relevance>0.138634</relevance>
+            <relevance>0.140623</relevance>
             <count>1</count>
             <text>fraud</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.138352</relevance>
+            <count>1</count>
+            <text>United States</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.137731</relevance>
-            <count>2</count>
+            <relevance>0.137197</relevance>
+            <count>1</count>
             <text>DC</text>
             <disambiguated>
                 <name>Destiny's Child</name>
@@ -347,27 +320,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.137494</relevance>
+            <type>Organization</type>
+            <relevance>0.136941</relevance>
             <count>1</count>
-            <text>New York Times</text>
+            <text>DC</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Dixie Chicks</name>
+                <website>http://www.dixiechicks.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Dixie_Chicks</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018ndc</freebase>
+                <yago>http://yago-knowledge.org/resource/Dixie_Chicks</yago>
+                <musicBrainz>http://zitgist.com/music/artist/3248ed2d-bada-41b5-a7b6-ac88faa1f1ac</musicBrainz>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.134822</relevance>
+            <relevance>0.136825</relevance>
             <count>1</count>
             <text>Houston Chronicle</text>
             <disambiguated>
@@ -381,13 +349,85 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.134554</relevance>
+            <relevance>0.136653</relevance>
             <count>1</count>
             <text>Pricewaterhouse- Coopers</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.136065</relevance>
+            <count>1</count>
+            <text>Michael J. Bloomfield</text>
+            <disambiguated>
+                <name>Michael J. Bloomfield</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Michael_J._Bloomfield</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02dff9</freebase>
+                <yago>http://yago-knowledge.org/resource/Michael_J._Bloomfield</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.13585</relevance>
+            <count>1</count>
+            <text>Boeing Rocketdyne</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.134225</relevance>
+            <count>1</count>
+            <text>Boeing Company</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.133788</relevance>
+            <count>1</count>
+            <text>Expanding Station Research</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.132763</relevance>
+            <count>1</count>
+            <text>Warren E. Leary</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.130283</relevance>
+            <count>1</count>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.128466</relevance>
+            <count>2</count>
+            <text>Washington</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.133473</relevance>
+            <relevance>0.125494</relevance>
             <count>1</count>
             <text>ESA</text>
             <disambiguated>
@@ -406,27 +446,51 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.13268</relevance>
+            <relevance>0.124254</relevance>
             <count>1</count>
-            <text>Michael J. Bloomfield</text>
+            <text>Ellen Ochoa</text>
             <disambiguated>
-                <name>Michael J. Bloomfield</name>
+                <name>Ellen Ochoa</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Ellen_Ochoa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02xv59</freebase>
+                <yago>http://yago-knowledge.org/resource/Ellen_Ochoa</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.123414</relevance>
+            <count>1</count>
+            <text>Stephen N. Frick</text>
+            <disambiguated>
+                <name>Stephen Frick</name>
                 <subType>Astronaut</subType>
                 <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Michael_J._Bloomfield</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02dff9</freebase>
-                <yago>http://yago-knowledge.org/resource/Michael_J._Bloomfield</yago>
+                <dbpedia>http://dbpedia.org/resource/Stephen_Frick</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02dff_</freebase>
+                <yago>http://yago-knowledge.org/resource/Stephen_Frick</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.131928</relevance>
+            <relevance>0.123116</relevance>
             <count>1</count>
-            <text>official</text>
+            <text>Power division</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.12299</relevance>
+            <count>1</count>
+            <text>Lee M. E. Morin</text>
+            <disambiguated>
+                <name>Lee Morin</name>
+                <dbpedia>http://dbpedia.org/resource/Lee_Morin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02xn7f</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.131129</relevance>
+            <relevance>0.122321</relevance>
             <count>1</count>
             <text>JPL</text>
             <disambiguated>
@@ -441,26 +505,28 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.121889</relevance>
+            <count>1</count>
+            <text>Jerry L. Ross</text>
+            <disambiguated>
+                <name>Jerry L. Ross</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Jerry_L._Ross</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02fdwf</freebase>
+                <yago>http://yago-knowledge.org/resource/Jerry_L._Ross</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.130286</relevance>
+            <relevance>0.121874</relevance>
             <count>1</count>
-            <text>Expanding Station Research</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.129931</relevance>
-            <count>2</count>
-            <text>OSP</text>
+            <text>Rocketdyne Propulsion</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.129513</relevance>
-            <count>1</count>
-            <text>Gwyneth K. Shaw</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.129184</relevance>
+            <relevance>0.12111</relevance>
             <count>1</count>
             <text>Scott D. Altman</text>
             <disambiguated>
@@ -474,77 +540,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.127551</relevance>
-            <count>1</count>
-            <text>Warren E. Leary</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.126709</relevance>
-            <count>1</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.126432</relevance>
-            <count>2</count>
-            <text>Washington</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.120835</relevance>
-            <count>1</count>
-            <text>Ellen Ochoa</text>
-            <disambiguated>
-                <name>Ellen Ochoa</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Ellen_Ochoa</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xv59</freebase>
-                <yago>http://yago-knowledge.org/resource/Ellen_Ochoa</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.120019</relevance>
-            <count>1</count>
-            <text>Stephen N. Frick</text>
-            <disambiguated>
-                <name>Stephen Frick</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Stephen_Frick</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02dff_</freebase>
-                <yago>http://yago-knowledge.org/resource/Stephen_Frick</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.119607</relevance>
-            <count>1</count>
-            <text>Lee M. E. Morin</text>
-            <disambiguated>
-                <name>Lee Morin</name>
-                <dbpedia>http://dbpedia.org/resource/Lee_Morin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xn7f</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.118534</relevance>
-            <count>1</count>
-            <text>Jerry L. Ross</text>
-            <disambiguated>
-                <name>Jerry L. Ross</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Jerry_L._Ross</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02fdwf</freebase>
-                <yago>http://yago-knowledge.org/resource/Jerry_L._Ross</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.117719</relevance>
+            <relevance>0.121052</relevance>
             <count>1</count>
             <text>Steven L. Smith</text>
             <disambiguated>
@@ -557,16 +553,21 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.117145</relevance>
+            <relevance>0.118602</relevance>
             <count>1</count>
-            <text>Michael J. Massimino</text>
-            <disambiguated>
-                <name>Michael J. Massimino</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Michael_J._Massimino</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xn0n</freebase>
-                <yago>http://yago-knowledge.org/resource/Michael_J._Massimino</yago>
-            </disambiguated>
+            <text>Karen Masterson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.118013</relevance>
+            <count>1</count>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.115377</relevance>
+            <count>1</count>
+            <text>Gwyneth K. Shaw</text>
         </entity>
     </entities>
 </results>

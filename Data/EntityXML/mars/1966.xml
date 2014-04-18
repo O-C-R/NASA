@@ -7,9 +7,9 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.865881</relevance>
+            <relevance>0.873713</relevance>
             <count>25</count>
-            <text>NASA</text>
+            <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -28,14 +28,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.557859</relevance>
-            <count>8</count>
+            <type>Organization</type>
+            <relevance>0.601825</relevance>
+            <count>12</count>
             <text>jpl</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.316856</relevance>
+            <count>1</count>
+            <text>Director of NASA Occupational Medical Division</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.356941</relevance>
+            <relevance>0.315684</relevance>
             <count>8</count>
             <text>U.S.</text>
             <disambiguated>
@@ -54,30 +70,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.345013</relevance>
-            <count>2</count>
-            <text>jpl</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.304715</relevance>
+            <relevance>0.29945</relevance>
             <count>1</count>
             <text>Mars landing</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.292458</relevance>
+            <relevance>0.295284</relevance>
             <count>2</count>
             <text>Cal Tech</text>
             <disambiguated>
@@ -97,7 +97,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.28465</relevance>
+            <relevance>0.283698</relevance>
             <count>3</count>
             <text>Dr. Ernst J. Opik</text>
             <disambiguated>
@@ -112,47 +112,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.284143</relevance>
+            <relevance>0.282729</relevance>
             <count>1</count>
             <text>NASA Assistant Administrator for International Affairs</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.273389</relevance>
-            <count>2</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.270118</relevance>
-            <count>4</count>
-            <text>G. J. H. McCall</text>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.262575</relevance>
-            <count>1</count>
-            <text>Atacama</text>
-            <disambiguated>
-                <name>Atacama Desert</name>
-                <subType>Location</subType>
-                <subType>GeographicFeature</subType>
-                <geo>-24.5 -69.25</geo>
-                <dbpedia>http://dbpedia.org/resource/Atacama_Desert</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0117g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvkNvUZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Atacama_Desert</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.262124</relevance>
-            <count>2</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.260682</relevance>
+            <relevance>0.281459</relevance>
             <count>2</count>
             <text>Dr. Bruce C. Murray</text>
             <disambiguated>
@@ -164,43 +130,65 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.258296</relevance>
-            <count>1</count>
-            <text>Alan B. Binder</text>
+            <type>Company</type>
+            <relevance>0.274295</relevance>
+            <count>3</count>
+            <text>LaRC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.250912</relevance>
-            <count>2</count>
-            <text>Contract</text>
+            <relevance>0.273171</relevance>
+            <count>4</count>
+            <text>G. J. H. McCall</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.250714</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.255191</relevance>
             <count>1</count>
-            <text>Chile</text>
-            <disambiguated>
-                <name>Chile</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.thisischile.cl/</website>
-                <dbpedia>http://dbpedia.org/resource/Chile</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Chile</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.01p1v</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUkZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Chile</yago>
-            </disambiguated>
+            <text>carbon dioxide</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.248829</relevance>
+            <relevance>0.254708</relevance>
             <count>1</count>
             <text>Mariner</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.253658</relevance>
+            <count>1</count>
+            <text>General Electric Co.</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>OperatingSystem</type>
+            <relevance>0.250834</relevance>
+            <count>1</count>
+            <text>windows</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.248879</relevance>
+            <count>1</count>
+            <text>Astronautics &amp; Aeronautics</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.247885</relevance>
+            <relevance>0.247684</relevance>
+            <count>1</count>
+            <text>msfc</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.246823</relevance>
             <count>1</count>
             <text>Dr. Ernst Stuhlinger</text>
             <disambiguated>
@@ -212,26 +200,31 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.247729</relevance>
+            <type>Person</type>
+            <relevance>0.244244</relevance>
             <count>1</count>
-            <text>Director of NASA Occupational Medical Division</text>
+            <text>Dr. Robert B. Leighton</text>
+            <disambiguated>
+                <name>Robert B. Leighton</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_B._Leighton</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0511zn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.243167</relevance>
+            <count>1</count>
+            <text>David H. Stoddard</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.244171</relevance>
+            <relevance>0.242962</relevance>
             <count>1</count>
             <text>Cal Tech Associate Professor of Planetary Science</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.243677</relevance>
-            <count>1</count>
-            <text>Univ. of Arizona</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.241446</relevance>
+            <relevance>0.240668</relevance>
             <count>2</count>
             <text>France</text>
             <disambiguated>
@@ -252,7 +245,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.241382</relevance>
+            <relevance>0.240333</relevance>
             <count>1</count>
             <text>Arnold Frutkin</text>
             <disambiguated>
@@ -262,77 +255,50 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.235998</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.237864</relevance>
+            <count>2</count>
+            <text>Hospital Topics</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.232699</relevance>
             <count>1</count>
-            <text>Calama</text>
+            <text>Director of msfc Research Projects Laboratory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.232668</relevance>
+            <count>1</count>
+            <text>Martin Co.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.235986</relevance>
+            <relevance>0.232588</relevance>
             <count>1</count>
             <text>nas Space Science</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.23573</relevance>
+            <relevance>0.232424</relevance>
             <count>1</count>
             <text>space program</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.232381</relevance>
+            <count>1</count>
+            <text>R. P. Thompson</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.234631</relevance>
+            <relevance>0.23049</relevance>
             <count>2</count>
             <text>JPL.</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.233844</relevance>
-            <count>1</count>
-            <text>Director of msfc Research Projects Laboratory</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.233554</relevance>
-            <count>1</count>
-            <text>Richard W. Davies</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.233294</relevance>
-            <count>1</count>
-            <text>Beacon Valleys</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.233272</relevance>
-            <count>1</count>
-            <text>Goldstone Tracking Station</text>
-            <disambiguated>
-                <name>Goldstone Deep Space Communications Complex</name>
-                <subType>Location</subType>
-                <geo>35.42666666666667 -116.89</geo>
-                <website>http://deepspace.jpl.nasa.gov/dsn/</website>
-                <dbpedia>http://dbpedia.org/resource/Goldstone_Deep_Space_Communications_Complex</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02l09t</freebase>
-                <yago>http://yago-knowledge.org/resource/Goldstone_Deep_Space_Communications_Complex</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.230523</relevance>
-            <count>1</count>
-            <text>Wright</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.230296</relevance>
-            <count>1</count>
-            <text>Taylor</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.2293</relevance>
+            <relevance>0.228264</relevance>
             <count>1</count>
             <text>rand Corp.</text>
             <disambiguated>
@@ -343,7 +309,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.227949</relevance>
+            <relevance>0.227574</relevance>
             <count>1</count>
             <text>NYT</text>
             <disambiguated>
@@ -361,103 +327,59 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.224871</relevance>
+            <count>1</count>
+            <text>Astronautics &amp; Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223799</relevance>
+            <count>1</count>
+            <text>Alan B. Binder</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.223536</relevance>
+            <count>1</count>
+            <text>Goldstone Tracking Station</text>
+            <disambiguated>
+                <name>Goldstone Deep Space Communications Complex</name>
+                <subType>Location</subType>
+                <geo>35.42666666666667 -116.89</geo>
+                <website>http://deepspace.jpl.nasa.gov/dsn/</website>
+                <dbpedia>http://dbpedia.org/resource/Goldstone_Deep_Space_Communications_Complex</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02l09t</freebase>
+                <yago>http://yago-knowledge.org/resource/Goldstone_Deep_Space_Communications_Complex</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.226987</relevance>
+            <relevance>0.223254</relevance>
             <count>1</count>
             <text>Voyager</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.226861</relevance>
-            <count>1</count>
-            <text>Phoenix</text>
-            <disambiguated>
-                <name>Phoenix, Arizona</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.phoenix.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Phoenix,_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d35y</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az/counties/maricopa_county/phoenix</census>
-                <yago>http://yago-knowledge.org/resource/Phoenix,_Arizona</yago>
-                <geonames>http://sws.geonames.org/5308655/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.225978</relevance>
-            <count>1</count>
-            <text>Astronautics &amp; Aeronautics</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.222468</relevance>
-            <count>1</count>
-            <text>Astronautics &amp; Aeronautics</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.219192</relevance>
-            <count>1</count>
-            <text>Zond</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.217987</relevance>
-            <count>1</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.217765</relevance>
-            <count>1</count>
-            <text>130,000-ft. altitude&#x2014;where</text>
-        </entity>
-        <entity>
-            <type>OperatingSystem</type>
-            <relevance>0.21639</relevance>
-            <count>1</count>
-            <text>windows</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.216379</relevance>
-            <count>1</count>
-            <text>130,000-ft.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.215741</relevance>
+            <relevance>0.222643</relevance>
             <count>1</count>
             <text>Goldstone</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.215485</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.22136</relevance>
             <count>1</count>
-            <text>West Germany</text>
-            <disambiguated>
-                <name>West Germany</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
-            </disambiguated>
+            <text>Astronautics &amp; Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.218148</relevance>
+            <count>1</count>
+            <text>Zond</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.214177</relevance>
+            <relevance>0.217662</relevance>
             <count>1</count>
             <text>Crater Lake</text>
             <disambiguated>
@@ -475,22 +397,105 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.216367</relevance>
+            <count>1</count>
+            <text>Phoenix</text>
+            <disambiguated>
+                <name>Phoenix, Arizona</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.phoenix.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Phoenix,_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d35y</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az/counties/maricopa_county/phoenix</census>
+                <yago>http://yago-knowledge.org/resource/Phoenix,_Arizona</yago>
+                <geonames>http://sws.geonames.org/5308655/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.215751</relevance>
+            <count>1</count>
+            <text>wsmr</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.214455</relevance>
+            <count>1</count>
+            <text>West Germany</text>
+            <disambiguated>
+                <name>West Germany</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.213647</relevance>
+            <count>1</count>
+            <text>Indonesia</text>
+            <disambiguated>
+                <name>Indonesia</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.indonesia.go.id/id/index.php</website>
+                <dbpedia>http://dbpedia.org/resource/Indonesia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Indonesia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03ryn</freebase>
+                <yago>http://yago-knowledge.org/resource/Indonesia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.213135</relevance>
+            <relevance>0.212079</relevance>
             <count>1</count>
             <text>Merton E. Davies</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.212307</relevance>
+            <type>Region</type>
+            <relevance>0.211385</relevance>
             <count>1</count>
-            <text>Litton Industries, Inc.</text>
+            <text>Atacama</text>
+            <disambiguated>
+                <name>Atacama Desert</name>
+                <subType>Location</subType>
+                <subType>GeographicFeature</subType>
+                <geo>-24.5 -69.25</geo>
+                <dbpedia>http://dbpedia.org/resource/Atacama_Desert</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0117g</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvkNvUZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Atacama_Desert</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.210688</relevance>
+            <count>2</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.209783</relevance>
+            <count>1</count>
+            <text>Univ. of Arizona</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.212289</relevance>
+            <relevance>0.209201</relevance>
             <count>1</count>
-            <text>wsmr</text>
+            <text>1973&#x2014;was</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.208705</relevance>
+            <count>1</count>
+            <text>1967&#x2014;and</text>
         </entity>
     </entities>
 </results>

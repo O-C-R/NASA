@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.944628</relevance>
+            <relevance>0.784872</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,8 +28,27 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.353196</relevance>
+            <count>4</count>
+            <text>ESA</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.484862</relevance>
+            <relevance>0.306091</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -50,81 +69,104 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.444738</relevance>
-            <count>4</count>
-            <text>Victoria</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.425467</relevance>
-            <count>4</count>
-            <text>ESA</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.353411</relevance>
-            <count>1</count>
-            <text>Victoria impact crater</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.322409</relevance>
-            <count>1</count>
-            <text>Endurance crater</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.304244</relevance>
-            <count>3</count>
-            <text>Google Earth</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.293723</relevance>
+            <relevance>0.277544</relevance>
             <count>2</count>
             <text>Global Aerospace Corporation</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.286106</relevance>
+            <relevance>0.269332</relevance>
+            <count>1</count>
+            <text>Goodyear Aerospace</text>
+            <disambiguated>
+                <name>Goodyear Aerospace</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Goodyear_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bnxkf</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.267951</relevance>
+            <count>3</count>
+            <text>HyperCMST</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.256476</relevance>
+            <count>1</count>
+            <text>Endurance crater</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.242993</relevance>
+            <count>3</count>
+            <text>Google Earth</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.239712</relevance>
+            <count>1</count>
+            <text>Hypersonic Control Modeling</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.23725</relevance>
             <count>2</count>
             <text>Strofio</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.282281</relevance>
+            <relevance>0.234049</relevance>
             <count>2</count>
             <text>LaRa</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.281597</relevance>
-            <count>3</count>
-            <text>HyperCMST</text>
+            <type>GeographicFeature</type>
+            <relevance>0.233846</relevance>
+            <count>1</count>
+            <text>Victoria impact crater</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.225067</relevance>
+            <count>1</count>
+            <text>SBIR</text>
+            <disambiguated>
+                <name>Research</name>
+                <dbpedia>http://dbpedia.org/resource/Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06cs1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjqjZwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.281299</relevance>
+            <relevance>0.224313</relevance>
             <count>1</count>
             <text>Victoria</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.224263</relevance>
+            <count>4</count>
+            <text>Victoria</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.222246</relevance>
+            <count>1</count>
+            <text>Hypersonic Space Vehicles</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.276843</relevance>
+            <relevance>0.221877</relevance>
+            <count>1</count>
+            <text>Global Aerospace</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.220947</relevance>
             <count>3</count>
             <text>Google</text>
             <disambiguated>
@@ -143,26 +185,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.272753</relevance>
-            <count>1</count>
-            <text>Goodyear Aerospace</text>
-            <disambiguated>
-                <name>Goodyear Aerospace</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Goodyear_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bnxkf</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.26366</relevance>
+            <relevance>0.209384</relevance>
             <count>1</count>
             <text>Meridiani Planum</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.257773</relevance>
+            <relevance>0.205396</relevance>
             <count>1</count>
             <text>Steven W. Squyres</text>
             <disambiguated>
@@ -173,32 +203,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.239429</relevance>
-            <count>1</count>
-            <text>Global Aerospace</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.238594</relevance>
+            <relevance>0.197657</relevance>
             <count>1</count>
             <text>Strofio</text>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.237185</relevance>
+            <type>Person</type>
+            <relevance>0.187524</relevance>
             <count>1</count>
-            <text>Hypersonic Space Vehicles</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.234539</relevance>
-            <count>1</count>
-            <text>Hypersonic Control Modeling</text>
+            <text>Bill Christensen</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.234058</relevance>
+            <relevance>0.18612</relevance>
             <count>1</count>
             <text>Cornell University</text>
             <disambiguated>
@@ -219,7 +237,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.231867</relevance>
+            <relevance>0.184357</relevance>
             <count>1</count>
             <text>Andrea Thompson</text>
             <disambiguated>
@@ -233,7 +251,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.230875</relevance>
+            <relevance>0.183762</relevance>
             <count>1</count>
             <text>Carnegie Mellon University</text>
             <disambiguated>
@@ -251,46 +269,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.227292</relevance>
-            <count>1</count>
-            <text>Lead Scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224153</relevance>
-            <count>1</count>
-            <text>SBIR</text>
-            <disambiguated>
-                <name>Research</name>
-                <dbpedia>http://dbpedia.org/resource/Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06cs1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjqjZwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.220366</relevance>
+            <relevance>0.182467</relevance>
             <count>1</count>
             <text>Strofio</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.180337</relevance>
+            <count>1</count>
+            <text>Lead Scientist</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.220317</relevance>
+            <relevance>0.174331</relevance>
             <count>1</count>
             <text>Jessica Berman</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.217164</relevance>
+            <relevance>0.172246</relevance>
             <count>1</count>
             <text>America</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.200145</relevance>
-            <count>1</count>
-            <text>Bill Christensen</text>
         </entity>
     </entities>
 </results>

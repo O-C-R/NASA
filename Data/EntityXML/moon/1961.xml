@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.880411</relevance>
+            <relevance>0.814385</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,90 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.389543</relevance>
+            <relevance>0.432796</relevance>
             <count>2</count>
             <text>Apollo</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.340922</relevance>
+            <relevance>0.344105</relevance>
             <count>1</count>
             <text>NASA Michoud Operations Plant</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.309367</relevance>
+            <count>3</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.308076</relevance>
+            <count>1</count>
+            <text>New Delhi</text>
+            <disambiguated>
+                <name>New Delhi</name>
+                <subType>AdministrativeDivision</subType>
+                <website>http://www.ndmc.gov.in</website>
+                <dbpedia>http://dbpedia.org/resource/New_Delhi</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dlv0</freebase>
+                <yago>http://yago-knowledge.org/resource/New_Delhi</yago>
+                <geonames>http://sws.geonames.org/1261481/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.302732</relevance>
+            <count>1</count>
+            <text>Project Apollo</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.320764</relevance>
+            <relevance>0.288542</relevance>
+            <count>1</count>
+            <text>Gagarin</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.28401</relevance>
+            <count>1</count>
+            <text>Instrumentation Laboratory of MIT</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.264109</relevance>
+            <count>1</count>
+            <text>prime contractors</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.263632</relevance>
+            <count>1</count>
+            <text>Neil A. Armstrong</text>
+            <disambiguated>
+                <name>Neil Armstrong</name>
+                <subType>Astronaut</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.jsc.nasa.gov/Bios/htmlbios/armstrong-na.html</website>
+                <dbpedia>http://dbpedia.org/resource/Neil_Armstrong</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b6w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvrxFOZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Neil_Armstrong</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.263488</relevance>
             <count>1</count>
             <text>President Dwight D. Eisenhower</text>
             <disambiguated>
@@ -63,23 +134,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.313083</relevance>
-            <count>3</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
+            <type>Company</type>
+            <relevance>0.26307</relevance>
+            <count>1</count>
+            <text>Space Task Group</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.297052</relevance>
+            <relevance>0.262192</relevance>
             <count>1</count>
             <text>Carnegie Institution</text>
             <disambiguated>
@@ -91,192 +153,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.296386</relevance>
-            <count>1</count>
-            <text>Horace Babcock</text>
-            <disambiguated>
-                <name>Horace W. Babcock</name>
-                <subType>Academic</subType>
-                <subType>Astronomer</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Horace_W._Babcock</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02z1xq</freebase>
-                <yago>http://yago-knowledge.org/resource/Horace_W._Babcock</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294323</relevance>
-            <count>1</count>
-            <text>Philip Abelson</text>
-            <disambiguated>
-                <name>Philip Abelson</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Philip_Abelson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02bwjd</freebase>
-                <yago>http://yago-knowledge.org/resource/Philip_Abelson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.286375</relevance>
-            <count>1</count>
-            <text>prime contractor</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.283931</relevance>
-            <count>1</count>
-            <text>Project Apollo</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.281485</relevance>
-            <count>1</count>
-            <text>Case Institute of Technology</text>
-            <disambiguated>
-                <name>Case Western Reserve University</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.50416 -81.60845</geo>
-                <website>http://www.case.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Case_Western_Reserve_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01hjy5</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvV7DA5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Case_Western_Reserve_University</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.277312</relevance>
-            <count>1</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.270693</relevance>
-            <count>1</count>
-            <text>Gagarin</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.270635</relevance>
-            <count>1</count>
-            <text>New Delhi</text>
-            <disambiguated>
-                <name>New Delhi</name>
-                <subType>AdministrativeDivision</subType>
-                <website>http://www.ndmc.gov.in</website>
-                <dbpedia>http://dbpedia.org/resource/New_Delhi</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dlv0</freebase>
-                <yago>http://yago-knowledge.org/resource/New_Delhi</yago>
-                <geonames>http://sws.geonames.org/1261481/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.267259</relevance>
-            <count>1</count>
-            <text>Instrumentation Laboratory of MIT</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.265316</relevance>
-            <count>1</count>
-            <text>Boeing Co.</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.263486</relevance>
-            <count>1</count>
-            <text>Neil A. Armstrong</text>
-            <disambiguated>
-                <name>Neil Armstrong</name>
-                <subType>Astronaut</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.jsc.nasa.gov/Bios/htmlbios/armstrong-na.html</website>
-                <dbpedia>http://dbpedia.org/resource/Neil_Armstrong</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05b6w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvrxFOZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Neil_Armstrong</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.262269</relevance>
-            <count>1</count>
-            <text>terrestrial life</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.261397</relevance>
-            <count>1</count>
-            <text>Douglas Aircraft</text>
-            <disambiguated>
-                <name>Douglas Aircraft Company</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
-                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.257112</relevance>
-            <count>1</count>
-            <text>principal</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.252871</relevance>
-            <count>1</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.247026</relevance>
+            <relevance>0.261921</relevance>
             <count>1</count>
             <text>MIT</text>
             <disambiguated>
@@ -299,7 +177,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.24595</relevance>
+            <relevance>0.261604</relevance>
             <count>1</count>
             <text>San Antonio</text>
             <disambiguated>
@@ -312,8 +190,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.26009</relevance>
+            <count>1</count>
+            <text>Horace Babcock</text>
+            <disambiguated>
+                <name>Horace W. Babcock</name>
+                <subType>Academic</subType>
+                <subType>Astronomer</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Horace_W._Babcock</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02z1xq</freebase>
+                <yago>http://yago-knowledge.org/resource/Horace_W._Babcock</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.258433</relevance>
+            <count>1</count>
+            <text>Philip Abelson</text>
+            <disambiguated>
+                <name>Philip Abelson</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Philip_Abelson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02bwjd</freebase>
+                <yago>http://yago-knowledge.org/resource/Philip_Abelson</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.241331</relevance>
+            <relevance>0.256586</relevance>
             <count>1</count>
             <text>India</text>
             <disambiguated>
@@ -334,19 +243,70 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.239028</relevance>
+            <relevance>0.254905</relevance>
             <count>1</count>
             <text>School of Aerospace Medicine</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.250214</relevance>
+            <count>1</count>
+            <text>Instrumentation Laboratory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.246496</relevance>
+            <count>1</count>
+            <text>Boeing Co.</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.245651</relevance>
+            <count>1</count>
+            <text>C. Stark Draper</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.238913</relevance>
+            <relevance>0.244772</relevance>
             <count>1</count>
             <text>Gallup poll</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.244119</relevance>
+            <count>1</count>
+            <text>prime contractor</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.244068</relevance>
+            <count>1</count>
+            <text>Douglas Aircraft</text>
+            <disambiguated>
+                <name>Douglas Aircraft Company</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
+                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.238402</relevance>
+            <relevance>0.240629</relevance>
             <count>1</count>
             <text>New Orleans</text>
             <disambiguated>
@@ -359,32 +319,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.237809</relevance>
-            <count>1</count>
-            <text>prime contractors</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.23689</relevance>
-            <count>1</count>
-            <text>Space Task Group</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.23469</relevance>
-            <count>1</count>
-            <text>Instrumentation Laboratory</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.23049</relevance>
-            <count>1</count>
-            <text>C. Stark Draper</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.229526</relevance>
+            <relevance>0.234914</relevance>
             <count>1</count>
             <text>United States</text>
             <disambiguated>
@@ -403,34 +339,74 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.22894</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.22965</relevance>
             <count>1</count>
-            <text>ICBM</text>
+            <text>navigation systems</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.220578</relevance>
+            <type>Organization</type>
+            <relevance>0.229319</relevance>
             <count>1</count>
-            <text>La</text>
+            <text>Case Institute of Technology</text>
             <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+                <name>Case Western Reserve University</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.50416 -81.60845</geo>
+                <website>http://www.case.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Case_Western_Reserve_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01hjy5</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvV7DA5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Case_Western_Reserve_University</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.215455</relevance>
+            <relevance>0.227563</relevance>
             <count>1</count>
-            <text>navigation systems</text>
+            <text>terrestrial life</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.225893</relevance>
+            <count>1</count>
+            <text>Cleveland</text>
+            <disambiguated>
+                <name>Cleveland</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.city.cleveland.oh.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.223468</relevance>
+            <count>1</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.220064</relevance>
+            <count>1</count>
+            <text>ICBM</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.205343</relevance>
+            <count>1</count>
+            <text>principal</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.202233</relevance>
+            <count>1</count>
+            <text>La</text>
         </entity>
     </entities>
 </results>

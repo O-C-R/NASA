@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.924981</relevance>
+            <relevance>0.93226</relevance>
             <count>13</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,9 +28,34 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.431826</relevance>
+            <count>3</count>
+            <text>JWST</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.378328</relevance>
+            <count>1</count>
+            <text>Boeing TPS Program Manager</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.371397</relevance>
+            <count>4</count>
+            <text>Canadian Space Agency</text>
+            <disambiguated>
+                <name>Canadian Space Agency</name>
+                <website>http://www.space.gc.ca</website>
+                <dbpedia>http://dbpedia.org/resource/Canadian_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wjhc</freebase>
+                <yago>http://yago-knowledge.org/resource/Canadian_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.423041</relevance>
-            <count>2</count>
+            <relevance>0.341018</relevance>
+            <count>4</count>
             <text>Boeing Company</text>
             <disambiguated>
                 <name>Boeing</name>
@@ -47,28 +72,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.422131</relevance>
-            <count>4</count>
-            <text>Richard A. Mastracchio</text>
-            <disambiguated>
-                <name>Richard Mastracchio</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_Mastracchio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xn1b</freebase>
-                <yago>http://yago-knowledge.org/resource/Richard_Mastracchio</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.414122</relevance>
-            <count>1</count>
-            <text>Boeing TPS Program Manager</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.401672</relevance>
-            <count>3</count>
+            <relevance>0.32963</relevance>
+            <count>1</count>
             <text>Boeing</text>
             <disambiguated>
                 <name>Spirit AeroSystems</name>
@@ -81,44 +87,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.384259</relevance>
-            <count>3</count>
-            <text>JWST</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.360035</relevance>
-            <count>2</count>
-            <text>Orion</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.336582</relevance>
-            <count>1</count>
-            <text>Boeing Advanced Systems</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.323708</relevance>
-            <count>4</count>
-            <text>Canadian Space Agency</text>
-            <disambiguated>
-                <name>Canadian Space Agency</name>
-                <website>http://www.space.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canadian_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wjhc</freebase>
-                <yago>http://yago-knowledge.org/resource/Canadian_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.318942</relevance>
-            <count>1</count>
-            <text>MDU</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.310469</relevance>
+            <relevance>0.312743</relevance>
             <count>3</count>
             <text>U.S. Federal Aviation Administration</text>
             <disambiguated>
@@ -131,26 +100,75 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.292154</relevance>
+            <count>1</count>
+            <text>Laurier J. Boisvert</text>
+            <disambiguated>
+                <name>Laurier J. Boisvert</name>
+                <dbpedia>http://dbpedia.org/resource/Laurier_J._Boisvert</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03cxnpr</freebase>
+                <yago>http://yago-knowledge.org/resource/Laurier_J._Boisvert</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.285106</relevance>
+            <count>1</count>
+            <text>Deputy Administrator Shana L. Dale</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.302473</relevance>
+            <relevance>0.281948</relevance>
+            <count>1</count>
+            <text>Boeing Advanced Systems</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.281721</relevance>
+            <count>4</count>
+            <text>Richard A. Mastracchio</text>
+            <disambiguated>
+                <name>Richard Mastracchio</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_Mastracchio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02xn1b</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_Mastracchio</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.275228</relevance>
             <count>1</count>
             <text>Orion Spacecraft</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.283809</relevance>
-            <count>2</count>
-            <text>Clayton C. Anderson</text>
+            <type>JobTitle</type>
+            <relevance>0.266236</relevance>
+            <count>1</count>
+            <text>President and Chief Executive Officer</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.26355</relevance>
+            <relevance>0.266155</relevance>
             <count>1</count>
             <text>space tourism</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.264774</relevance>
+            <count>1</count>
+            <text>MDU</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.258446</relevance>
+            <count>2</count>
+            <text>Orion</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.255701</relevance>
+            <relevance>0.257901</relevance>
             <count>1</count>
             <text>U.S. Congress</text>
             <disambiguated>
@@ -167,65 +185,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.246932</relevance>
+            <type>Organization</type>
+            <relevance>0.248521</relevance>
             <count>1</count>
-            <text>Thomas Andrews</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.246596</relevance>
-            <count>1</count>
-            <text>Florida Today</text>
+            <text>ESA</text>
             <disambiguated>
-                <name>Florida Today</name>
-                <subType>Newspaper</subType>
-                <website>http://floridatoday.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
-                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.244319</relevance>
-            <count>1</count>
-            <text>Patrick Peterson</text>
-            <disambiguated>
-                <name>Patrick Peterson</name>
-                <subType>FootballPlayer</subType>
-                <website>http://www.lsusports.net/ViewArticle.dbml?SPSID=27812&amp;SPID=2164&amp;DB_LANG=C&amp;DB_OEM_ID=5200&amp;ATCLID=1382573&amp;Q_SEASON=2009</website>
-                <dbpedia>http://dbpedia.org/resource/Patrick_Peterson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05b1smw</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.243271</relevance>
-            <count>1</count>
-            <text>Thomas C. Duxbury</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.241385</relevance>
-            <count>1</count>
-            <text>EPOXI Project Manager</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235126</relevance>
-            <count>1</count>
-            <text>Laurier J. Boisvert</text>
-            <disambiguated>
-                <name>Laurier J. Boisvert</name>
-                <dbpedia>http://dbpedia.org/resource/Laurier_J._Boisvert</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03cxnpr</freebase>
-                <yago>http://yago-knowledge.org/resource/Laurier_J._Boisvert</yago>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.231675</relevance>
+            <relevance>0.241718</relevance>
             <count>1</count>
             <text>Canada</text>
             <disambiguated>
@@ -245,101 +225,121 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.238393</relevance>
+            <count>2</count>
+            <text>Clayton C. Anderson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.237456</relevance>
+            <count>1</count>
+            <text>official</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.22683</relevance>
+            <relevance>0.236769</relevance>
             <count>1</count>
             <text>Mission Control</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.225735</relevance>
-            <count>1</count>
-            <text>Mission Specialist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.22517</relevance>
-            <count>1</count>
-            <text>William Harwood</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.224877</relevance>
-            <count>1</count>
-            <text>Deputy Administrator Shana L. Dale</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.223556</relevance>
-            <count>1</count>
-            <text>FL</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.220921</relevance>
+            <relevance>0.231943</relevance>
             <count>1</count>
             <text>Future Cooperation</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.227043</relevance>
+            <count>1</count>
+            <text>Florida Today</text>
+            <disambiguated>
+                <name>Florida Today</name>
+                <subType>Newspaper</subType>
+                <website>http://floridatoday.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
+                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.22654</relevance>
+            <count>1</count>
+            <text>Thomas Andrews</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.224134</relevance>
+            <count>1</count>
+            <text>Patrick Peterson</text>
+            <disambiguated>
+                <name>Patrick Peterson</name>
+                <subType>FootballPlayer</subType>
+                <website>http://www.lsusports.net/ViewArticle.dbml?SPSID=27812&amp;SPID=2164&amp;DB_LANG=C&amp;DB_OEM_ID=5200&amp;ATCLID=1382573&amp;Q_SEASON=2009</website>
+                <dbpedia>http://dbpedia.org/resource/Patrick_Peterson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b1smw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219693</relevance>
+            <count>1</count>
+            <text>Thomas C. Duxbury</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.215576</relevance>
+            <count>1</count>
+            <text>developer</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.205226</relevance>
+            <count>1</count>
+            <text>EPOXI Project Manager</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.204833</relevance>
+            <count>1</count>
+            <text>William Harwood</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.204185</relevance>
+            <count>1</count>
+            <text>FL</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.217126</relevance>
+            <relevance>0.201149</relevance>
+            <count>1</count>
+            <text>STS-118</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.197408</relevance>
             <count>1</count>
             <text>Brevard</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.214794</relevance>
+            <relevance>0.19536</relevance>
             <count>1</count>
             <text>CBS</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.213506</relevance>
-            <count>1</count>
-            <text>developer</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.212575</relevance>
-            <count>1</count>
-            <text>STS-118</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.209915</relevance>
-            <count>1</count>
-            <text>President and Chief Executive Officer</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.204047</relevance>
+            <relevance>0.193094</relevance>
             <count>1</count>
             <text>Engineer</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.195756</relevance>
-            <count>1</count>
-            <text>ESA</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.187164</relevance>
+            <relevance>0.181499</relevance>
             <count>1</count>
-            <text>official</text>
+            <text>Mission Specialist</text>
         </entity>
     </entities>
 </results>

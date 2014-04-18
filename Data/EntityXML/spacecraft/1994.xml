@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.880469</relevance>
+            <relevance>0.888213</relevance>
             <count>22</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,25 +29,25 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.569547</relevance>
+            <relevance>0.63067</relevance>
             <count>6</count>
             <text>Space Station</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.391557</relevance>
-            <count>1</count>
-            <text>NASA Space Station</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.353201</relevance>
+            <relevance>0.39325</relevance>
             <count>2</count>
             <text>International Space Station</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.355579</relevance>
+            <count>1</count>
+            <text>NASA Space Station</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.305246</relevance>
+            <relevance>0.313443</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -67,13 +67,31 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.294669</relevance>
+            <relevance>0.297481</relevance>
             <count>1</count>
             <text>Space Station Mir</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.296466</relevance>
+            <count>1</count>
+            <text>Space Station Control Board</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.229095</relevance>
+            <count>1</count>
+            <text>Hubble Space Telescope</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.22519</relevance>
+            <count>1</count>
+            <text>Rockwell Space Systems Division</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.251034</relevance>
+            <relevance>0.210239</relevance>
             <count>3</count>
             <text>Reuters</text>
             <disambiguated>
@@ -86,32 +104,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.238227</relevance>
-            <count>1</count>
-            <text>Space Station Control Board</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.223061</relevance>
-            <count>1</count>
-            <text>Rockwell Space Systems Division</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.219185</relevance>
-            <count>1</count>
-            <text>Hubble Space Telescope</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.211185</relevance>
+            <relevance>0.2041</relevance>
             <count>1</count>
             <text>Congressional Quarterly</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.199824</relevance>
+            <relevance>0.195982</relevance>
             <count>2</count>
             <text>Russia</text>
             <disambiguated>
@@ -126,25 +126,31 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.193632</relevance>
+            <relevance>0.185791</relevance>
             <count>2</count>
             <text>USA Today</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.186136</relevance>
-            <count>1</count>
-            <text>Daniel Goldin</text>
+            <type>Organization</type>
+            <relevance>0.183742</relevance>
+            <count>2</count>
+            <text>Congress</text>
             <disambiguated>
-                <name>Daniel Goldin</name>
-                <dbpedia>http://dbpedia.org/resource/Daniel_Goldin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lgpl</freebase>
-                <yago>http://yago-knowledge.org/resource/Daniel_Goldin</yago>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.184269</relevance>
+            <relevance>0.180158</relevance>
             <count>1</count>
             <text>Canadian government</text>
             <disambiguated>
@@ -156,75 +162,80 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.183024</relevance>
+            <type>Person</type>
+            <relevance>0.178829</relevance>
             <count>1</count>
-            <text>data management</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.17668</relevance>
-            <count>1</count>
-            <text>Representative</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.174753</relevance>
-            <count>1</count>
-            <text>Pennsylvania</text>
+            <text>Daniel Goldin</text>
+            <disambiguated>
+                <name>Daniel Goldin</name>
+                <dbpedia>http://dbpedia.org/resource/Daniel_Goldin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lgpl</freebase>
+                <yago>http://yago-knowledge.org/resource/Daniel_Goldin</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.171491</relevance>
+            <relevance>0.173765</relevance>
             <count>1</count>
             <text>ground system</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.173467</relevance>
+            <count>1</count>
+            <text>Galileo Spacecraft</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.173129</relevance>
+            <count>1</count>
+            <text>Pennsylvania</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.170976</relevance>
+            <relevance>0.169319</relevance>
             <count>1</count>
             <text>Robert Walker</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.170541</relevance>
-            <count>2</count>
-            <text>Congress</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.166615</relevance>
+            <relevance>0.168094</relevance>
             <count>1</count>
             <text>Rockwell Aerospace</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.167763</relevance>
+            <count>1</count>
+            <text>Representative</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.164759</relevance>
+            <count>1</count>
+            <text>July.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.164256</relevance>
+            <count>1</count>
+            <text>Fiscal Year</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.164698</relevance>
+            <relevance>0.163029</relevance>
             <count>1</count>
             <text>House Science Committee</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.164079</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.16145</relevance>
             <count>1</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
+            <text>data management</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.163367</relevance>
+            <relevance>0.15956</relevance>
             <count>1</count>
             <text>Canada</text>
             <disambiguated>
@@ -244,8 +255,50 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.155166</relevance>
+            <count>1</count>
+            <text>Antelope Valley</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.153803</relevance>
+            <count>1</count>
+            <text>Solar Power</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.153358</relevance>
+            <count>1</count>
+            <text>Government Executive</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.151571</relevance>
+            <count>1</count>
+            <text>Administrator</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.150705</relevance>
+            <count>1</count>
+            <text>fiscal year</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.162693</relevance>
+            <relevance>0.150408</relevance>
+            <count>1</count>
+            <text>Wil Trafton</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.149303</relevance>
+            <count>1</count>
+            <text>Liberal government</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.149132</relevance>
             <count>1</count>
             <text>Larry DeLucas</text>
             <disambiguated>
@@ -257,82 +310,41 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.161973</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.147215</relevance>
             <count>1</count>
-            <text>Fiscal Year</text>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.158661</relevance>
-            <count>1</count>
-            <text>Administrator</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.154593</relevance>
-            <count>1</count>
-            <text>Wil Trafton</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.152988</relevance>
-            <count>1</count>
-            <text>Antelope Valley</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.15114</relevance>
-            <count>1</count>
-            <text>Solar Power</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.149634</relevance>
-            <count>1</count>
-            <text>Galileo Spacecraft</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.148021</relevance>
-            <count>1</count>
-            <text>fiscal year</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.144687</relevance>
-            <count>1</count>
-            <text>Government Executive</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.143669</relevance>
+            <relevance>0.130471</relevance>
             <count>1</count>
             <text>scientist</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.143305</relevance>
+            <relevance>0.13012</relevance>
             <count>1</count>
             <text>pharmaceutical companies</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.142084</relevance>
-            <count>1</count>
-            <text>July.</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.139971</relevance>
+            <relevance>0.129918</relevance>
             <count>1</count>
             <text>news agency</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.138112</relevance>
-            <count>1</count>
-            <text>Liberal government</text>
         </entity>
     </entities>
 </results>

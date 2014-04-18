@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.900203</relevance>
+            <relevance>0.90035</relevance>
             <count>44</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.632932</relevance>
+            <relevance>0.591017</relevance>
             <count>13</count>
             <text>John A. Volpe</text>
             <disambiguated>
@@ -45,14 +45,25 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.612446</relevance>
+            <relevance>0.530629</relevance>
             <count>19</count>
             <text>Secretary</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.47337</relevance>
+            <count>6</count>
+            <text>William H. Dana</text>
+            <disambiguated>
+                <name>Bill Dana (pilot)</name>
+                <dbpedia>http://dbpedia.org/resource/Bill_Dana_(pilot)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vgdn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.552281</relevance>
-            <count>12</count>
+            <relevance>0.465126</relevance>
+            <count>11</count>
             <text>FAA</text>
             <disambiguated>
                 <name>Federal Aviation Administration</name>
@@ -65,7 +76,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.438811</relevance>
+            <relevance>0.441956</relevance>
             <count>7</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -92,31 +103,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.422182</relevance>
-            <count>6</count>
-            <text>William H. Dana</text>
+            <type>Organization</type>
+            <relevance>0.418932</relevance>
+            <count>7</count>
+            <text>frc</text>
             <disambiguated>
-                <name>Bill Dana (pilot)</name>
-                <dbpedia>http://dbpedia.org/resource/Bill_Dana_(pilot)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vgdn</freebase>
+                <name>Federal Radio Commission</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/Federal_Radio_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gsrd</freebase>
+                <yago>http://yago-knowledge.org/resource/Federal_Radio_Commission</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.406198</relevance>
-            <count>6</count>
-            <text>B-52</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.405256</relevance>
-            <count>7</count>
-            <text>FRC</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.403602</relevance>
+            <relevance>0.411762</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -135,49 +136,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.377262</relevance>
-            <count>4</count>
-            <text>John A. Manke</text>
+            <type>Company</type>
+            <relevance>0.372166</relevance>
+            <count>6</count>
+            <text>B-52</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.374934</relevance>
-            <count>4</count>
+            <relevance>0.36705</relevance>
+            <count>5</count>
             <text>Director</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.369203</relevance>
-            <count>5</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Senate of Canada</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.parl.gc.ca/common/index.asp?Language=E</website>
-                <dbpedia>http://dbpedia.org/resource/Senate_of_Canada</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0x2sv</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r6EuBZo2kQdiQ5p-1ialt9w</opencyc>
-                <yago>http://yago-knowledge.org/resource/Senate_of_Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.362497</relevance>
-            <count>4</count>
-            <text>John A. Volpe.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.344008</relevance>
+            <relevance>0.359197</relevance>
             <count>6</count>
             <text>Dr. Ivan L. Bennett, Jr.</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.326798</relevance>
+            <count>4</count>
+            <text>John A. Manke</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.331425</relevance>
-            <count>6</count>
+            <relevance>0.326216</relevance>
+            <count>5</count>
             <text>usaf</text>
             <disambiguated>
                 <name>United States Air Force</name>
@@ -192,8 +177,55 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.324764</relevance>
+            <count>4</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.304665</relevance>
+            <relevance>0.309711</relevance>
+            <count>1</count>
+            <text>John D. Rockefeller III</text>
+            <disambiguated>
+                <name>John D. Rockefeller III</name>
+                <dbpedia>http://dbpedia.org/resource/John_D._Rockefeller_III</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026b4c</freebase>
+                <yago>http://yago-knowledge.org/resource/John_D._Rockefeller_III</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.296238</relevance>
+            <count>4</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.295427</relevance>
             <count>2</count>
             <text>Sen. John C. Stennis</text>
             <disambiguated>
@@ -207,8 +239,170 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.29082</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.284033</relevance>
+            <count>2</count>
+            <text>William D. Ruckelshaus</text>
+            <disambiguated>
+                <name>William Ruckelshaus</name>
+                <subType>BoardMember</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/William_Ruckelshaus</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02wjtk</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Ruckelshaus</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.278193</relevance>
+            <count>3</count>
+            <text>Dr. Edward E. David</text>
+            <disambiguated>
+                <name>Edward E. David Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Edward_E._David_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04zwytv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.274694</relevance>
+            <count>3</count>
+            <text>Dr. Joseph Weber</text>
+            <disambiguated>
+                <name>Joseph Weber</name>
+                <subType>Academic</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Joseph_Weber</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06trsk</freebase>
+                <yago>http://yago-knowledge.org/resource/Joseph_Weber</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.272872</relevance>
+            <count>1</count>
+            <text>Assistant Director for National and International Programs</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.272055</relevance>
+            <count>1</count>
+            <text>Sen. William Proxmire</text>
+            <disambiguated>
+                <name>William Proxmire</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/William_Proxmire</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02k47z</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Proxmire</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.271801</relevance>
+            <count>4</count>
+            <text>New York</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.271201</relevance>
+            <count>1</count>
+            <text>Assistant Director for Research</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.269613</relevance>
+            <count>1</count>
+            <text>Assistant Director for Institutional Programs</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.267905</relevance>
+            <count>1</count>
+            <text>Assistant Director for Education</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.267646</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.26519</relevance>
+            <count>2</count>
+            <text>Melvin R. Laird</text>
+            <disambiguated>
+                <name>Melvin R. Laird</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Melvin_R._Laird</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kskm</freebase>
+                <yago>http://yago-knowledge.org/resource/Melvin_R._Laird</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.264162</relevance>
+            <count>1</count>
+            <text>Office of Assistant Secretary of Transportation for Safety and Consumer Affairs</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.259499</relevance>
+            <count>2</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.259477</relevance>
+            <count>2</count>
+            <text>John D. Hodge</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.303989</relevance>
+            <relevance>0.258526</relevance>
             <count>3</count>
             <text>MIT</text>
             <disambiguated>
@@ -232,343 +426,144 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.296068</relevance>
-            <count>3</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.294208</relevance>
-            <count>3</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.291496</relevance>
-            <count>2</count>
-            <text>William D. Ruckelshaus</text>
-            <disambiguated>
-                <name>William Ruckelshaus</name>
-                <subType>BoardMember</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/William_Ruckelshaus</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02wjtk</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Ruckelshaus</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.289473</relevance>
-            <count>1</count>
-            <text>Deputy Director of KSC Launch Operations</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.289374</relevance>
-            <count>3</count>
-            <text>dot</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.287386</relevance>
-            <count>3</count>
-            <text>physicist</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.284202</relevance>
+            <relevance>0.258498</relevance>
             <count>1</count>
             <text>NASA Deputy Director for Planetary Programs</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.278644</relevance>
-            <count>1</count>
-            <text>Nixon Administration</text>
-            <disambiguated>
-                <name>Richard Nixon</name>
-                <subType>Person</subType>
-                <subType>FilmCharacter</subType>
-                <subType>MusicalArtist</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>Appointer</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>TVPersonality</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_Nixon</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06c97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVizFZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Richard_Nixon</yago>
-                <musicBrainz>http://zitgist.com/music/artist/056203cf-376f-412a-86f7-3ffa80157ef4</musicBrainz>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.275743</relevance>
+            <relevance>0.25626</relevance>
             <count>2</count>
-            <text>William T. Piper</text>
-            <disambiguated>
-                <name>William T. Piper</name>
-                <dbpedia>http://dbpedia.org/resource/William_T._Piper</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0904jf</freebase>
-                <yago>http://yago-knowledge.org/resource/William_T._Piper</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.275308</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
+            <text>Senate</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.275001</relevance>
+            <relevance>0.255261</relevance>
             <count>1</count>
-            <text>Deputy Secretary of Defense</text>
+            <text>Assistant Secretary of Transportation</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.25445</relevance>
+            <count>1</count>
+            <text>Deputy Director of KSC Launch Operations</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.271318</relevance>
+            <relevance>0.252679</relevance>
             <count>1</count>
-            <text>John J. Neilon</text>
+            <text>Mayor John V. Lindsay</text>
+            <disambiguated>
+                <name>John Lindsay</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Lindsay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01pm7q</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Lindsay</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.270423</relevance>
-            <count>4</count>
-            <text>New York Times</text>
+            <type>JobTitle</type>
+            <relevance>0.251912</relevance>
+            <count>1</count>
+            <text>FAA Office of Investigations and Security</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.2517</relevance>
+            <count>2</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.251107</relevance>
+            <count>2</count>
+            <text>faa</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.2698</relevance>
+            <relevance>0.250735</relevance>
+            <count>1</count>
+            <text>Lewis Levin</text>
+            <disambiguated>
+                <name>Lewis Charles Levin</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Lewis_Charles_Levin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08njzh</freebase>
+                <yago>http://yago-knowledge.org/resource/Lewis_Charles_Levin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.250704</relevance>
+            <count>1</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.250135</relevance>
+            <count>1</count>
+            <text>Office of Secretary of Transportation</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.24955</relevance>
             <count>3</count>
-            <text>Dr. Joseph Weber</text>
-            <disambiguated>
-                <name>Joseph Weber</name>
-                <subType>Academic</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Joseph_Weber</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06trsk</freebase>
-                <yago>http://yago-knowledge.org/resource/Joseph_Weber</yago>
-            </disambiguated>
+            <text>physicist</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.266911</relevance>
-            <count>1</count>
-            <text>John Walsh</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.265718</relevance>
-            <count>1</count>
-            <text>Air Force Scientific Advisory Board</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.262193</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.249523</relevance>
             <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.260963</relevance>
-            <count>1</count>
-            <text>John D. Rockefeller III</text>
-            <disambiguated>
-                <name>John D. Rockefeller III</name>
-                <dbpedia>http://dbpedia.org/resource/John_D._Rockefeller_III</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026b4c</freebase>
-                <yago>http://yago-knowledge.org/resource/John_D._Rockefeller_III</yago>
-            </disambiguated>
+            <text>Milky Way</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.260085</relevance>
-            <count>2</count>
-            <text>dod</text>
+            <relevance>0.248708</relevance>
+            <count>3</count>
+            <text>dot</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.259791</relevance>
-            <count>2</count>
-            <text>graduate student</text>
+            <type>Degree</type>
+            <relevance>0.24847</relevance>
+            <count>3</count>
+            <text>erts</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.258394</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
+            <type>Person</type>
+            <relevance>0.248367</relevance>
+            <count>1</count>
+            <text>Thomas W. Moore</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>Thomas W. Moore</name>
+                <dbpedia>http://dbpedia.org/resource/Thomas_W._Moore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qf4qr</freebase>
+                <yago>http://yago-knowledge.org/resource/Thomas_W._Moore</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.258287</relevance>
-            <count>2</count>
-            <text>Melvin R. Laird</text>
+            <relevance>0.248149</relevance>
+            <count>1</count>
+            <text>Sen. John L. McClellan</text>
             <disambiguated>
-                <name>Melvin R. Laird</name>
+                <name>John Little McClellan</name>
                 <subType>Politician</subType>
-                <subType>AwardWinner</subType>
                 <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
+                <subType>Senator</subType>
                 <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Melvin_R._Laird</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0kskm</freebase>
-                <yago>http://yago-knowledge.org/resource/Melvin_R._Laird</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.257677</relevance>
-            <count>1</count>
-            <text>John W. O&#x2019;Neill</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.256548</relevance>
-            <count>2</count>
-            <text>Senate Committee on Government Operations</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.256369</relevance>
-            <count>1</count>
-            <text>Unmanned Launch Operations.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.254765</relevance>
-            <count>1</count>
-            <text>Acting Director</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.254264</relevance>
-            <count>1</count>
-            <text>Piper Aircraft</text>
-            <disambiguated>
-                <name>Piper Aircraft</name>
-                <website>http://www.piper.com</website>
-                <dbpedia>http://dbpedia.org/resource/Piper_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ywpy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv62CbJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Piper_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.254116</relevance>
-            <count>1</count>
-            <text>Deputy Director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.253765</relevance>
-            <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.253472</relevance>
-            <count>1</count>
-            <text>Senate Armed Forces Committee</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.252768</relevance>
-            <count>1</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Martin</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <website>http://www.lockheedmartin.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hkqn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r4kH_kAh6EduVNwDggVaqog</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lockheed_Martin</yago>
-                <crunchbase>http://www.crunchbase.com/company/lockheed-martin</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.252687</relevance>
-            <count>1</count>
-            <text>John H. Pratt</text>
-            <disambiguated>
-                <name>John H. Pratt</name>
-                <dbpedia>http://dbpedia.org/resource/John_H._Pratt</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c0gf6</freebase>
-                <yago>http://yago-knowledge.org/resource/John_H._Pratt</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.252007</relevance>
-            <count>1</count>
-            <text>Nev.</text>
-            <disambiguated>
-                <name>Nevada</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nv.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Nevada</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059_c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNMpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nevada</yago>
+                <dbpedia>http://dbpedia.org/resource/John_Little_McClellan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01x9qg</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Little_McClellan</yago>
             </disambiguated>
         </entity>
     </entities>

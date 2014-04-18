@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.906792</relevance>
+            <relevance>0.827849</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +28,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.538345</relevance>
-            <count>3</count>
-            <text>Space Shuttle Columbia</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.51254</relevance>
+            <relevance>0.437699</relevance>
             <count>6</count>
             <text>NY Times</text>
             <disambiguated>
@@ -53,14 +47,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.386302</relevance>
+            <count>3</count>
+            <text>Space Shuttle Columbia</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.25799</relevance>
+            <relevance>0.228179</relevance>
             <count>2</count>
             <text>Columbia</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.257535</relevance>
+            <relevance>0.224124</relevance>
             <count>1</count>
             <text>Canadian Space Agency</text>
             <disambiguated>
@@ -73,7 +73,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.257366</relevance>
+            <relevance>0.22398</relevance>
             <count>1</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -92,40 +92,63 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.228847</relevance>
+            <relevance>0.196756</relevance>
             <count>1</count>
             <text>Columbia</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>Columbia, New York</name>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0y0fc</freebase>
+                <yago>http://yago-knowledge.org/resource/Columbia,_New_York</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.226041</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.180694</relevance>
             <count>1</count>
-            <text>Atmospheric Research</text>
+            <text>Cape Canaveral</text>
             <disambiguated>
-                <name>Atmospheric Research</name>
-                <subType>Journal</subType>
-                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
-                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
-                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.179888</relevance>
+            <count>1</count>
+            <text>Global Outpost</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.216253</relevance>
+            <relevance>0.177827</relevance>
+            <count>1</count>
+            <text>Dr. Roberta Bondar</text>
+            <disambiguated>
+                <name>Roberta Bondar</name>
+                <subType>Physician</subType>
+                <subType>Astronaut</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Roberta_Bondar</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jfk0</freebase>
+                <yago>http://yago-knowledge.org/resource/Roberta_Bondar</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.176994</relevance>
+            <count>1</count>
+            <text>Alexandria</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.173078</relevance>
             <count>1</count>
             <text>Robert L. Gibson</text>
             <disambiguated>
@@ -140,7 +163,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.213362</relevance>
+            <relevance>0.170247</relevance>
             <count>1</count>
             <text>Dulles Airport</text>
             <disambiguated>
@@ -159,7 +182,20 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.206445</relevance>
+            <relevance>0.16769</relevance>
+            <count>1</count>
+            <text>Dr. Ulf Merbold</text>
+            <disambiguated>
+                <name>Ulf Merbold</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Ulf_Merbold</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018pr7</freebase>
+                <yago>http://yago-knowledge.org/resource/Ulf_Merbold</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.164759</relevance>
             <count>1</count>
             <text>David M. Walker</text>
             <disambiguated>
@@ -173,77 +209,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.205964</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.162599</relevance>
             <count>1</count>
-            <text>Cape Canaveral</text>
+            <text>Atmospheric Research</text>
             <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.204477</relevance>
-            <count>1</count>
-            <text>Dr. Roberta Bondar</text>
-            <disambiguated>
-                <name>Roberta Bondar</name>
-                <subType>Physician</subType>
-                <subType>Astronaut</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Roberta_Bondar</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jfk0</freebase>
-                <yago>http://yago-knowledge.org/resource/Roberta_Bondar</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.203237</relevance>
-            <count>1</count>
-            <text>University Corporation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.19451</relevance>
-            <count>1</count>
-            <text>Pan Am Airbus</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.192687</relevance>
-            <count>1</count>
-            <text>Dr. Ulf Merbold</text>
-            <disambiguated>
-                <name>Ulf Merbold</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Ulf_Merbold</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018pr7</freebase>
-                <yago>http://yago-knowledge.org/resource/Ulf_Merbold</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.188977</relevance>
-            <count>1</count>
-            <text>Alexandria</text>
-            <disambiguated>
-                <name>Alexandria, New York</name>
-                <dbpedia>http://dbpedia.org/resource/Alexandria,_New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0y0nl</freebase>
-                <yago>http://yago-knowledge.org/resource/Alexandria,_New_York</yago>
+                <name>Atmospheric Research</name>
+                <subType>Journal</subType>
+                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
+                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
+                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.184066</relevance>
+            <relevance>0.161653</relevance>
             <count>1</count>
             <text>Florida</text>
             <disambiguated>
@@ -263,27 +244,33 @@
         </entity>
         <entity>
             <type>HealthCondition</type>
-            <relevance>0.181412</relevance>
+            <relevance>0.159499</relevance>
             <count>1</count>
             <text>headache</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.180706</relevance>
+            <relevance>0.158876</relevance>
             <count>1</count>
             <text>Commander</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.174621</relevance>
+            <relevance>0.153544</relevance>
             <count>1</count>
-            <text>Global Outpost</text>
+            <text>Pan Am Airbus</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.173936</relevance>
+            <relevance>0.151704</relevance>
             <count>1</count>
             <text>International Microgravity Laboratory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.143875</relevance>
+            <count>1</count>
+            <text>University Corporation</text>
         </entity>
     </entities>
 </results>

@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.901669</relevance>
+            <relevance>0.787593</relevance>
             <count>4</count>
             <text>Mir</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.662139</relevance>
+            <relevance>0.750888</relevance>
             <count>4</count>
             <text>Steven L. Smith</text>
             <disambiguated>
@@ -25,33 +25,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.584953</relevance>
-            <count>3</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.561661</relevance>
-            <count>2</count>
-            <text>Viktor M. Afanasyev</text>
-            <disambiguated>
-                <name>Viktor Mikhailovich Afanasyev</name>
-                <dbpedia>http://dbpedia.org/resource/Viktor_Mikhailovich_Afanasyev</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02tsr6</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.55587</relevance>
+            <relevance>0.597569</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -72,8 +47,22 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.569084</relevance>
+            <count>3</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.530504</relevance>
+            <relevance>0.56212</relevance>
             <count>3</count>
             <text>John M. Grunsfeld</text>
             <disambiguated>
@@ -86,34 +75,30 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.489012</relevance>
+            <relevance>0.52997</relevance>
+            <count>2</count>
+            <text>Viktor M. Afanasyev</text>
+            <disambiguated>
+                <name>Viktor Mikhailovich Afanasyev</name>
+                <dbpedia>http://dbpedia.org/resource/Viktor_Mikhailovich_Afanasyev</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02tsr6</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.457837</relevance>
             <count>2</count>
             <text>Sergei V. Avdeyev</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.469199</relevance>
+            <relevance>0.448978</relevance>
             <count>1</count>
             <text>Russian Space Station</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.416629</relevance>
-            <count>2</count>
-            <text>Russia</text>
-            <disambiguated>
-                <name>Russia</name>
-                <website>http://www.gov.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Russia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.403384</relevance>
+            <relevance>0.405969</relevance>
             <count>2</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -127,14 +112,29 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.379406</relevance>
+            <type>Country</type>
+            <relevance>0.402018</relevance>
+            <count>2</count>
+            <text>Russia</text>
+            <disambiguated>
+                <name>Russia</name>
+                <website>http://www.gov.ru/</website>
+                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Russia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.38736</relevance>
             <count>1</count>
-            <text>Jean-Pierre Haignere&#x301;</text>
+            <text>voltage regulator</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.36004</relevance>
+            <relevance>0.347918</relevance>
             <count>1</count>
             <text>Nikolai Pavlov</text>
             <disambiguated>
@@ -147,34 +147,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.353746</relevance>
-            <count>1</count>
-            <text>David Hoffman</text>
-            <disambiguated>
-                <name>David Hoffman</name>
-                <dbpedia>http://dbpedia.org/resource/David_Hoffman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pgh05</freebase>
-                <yago>http://yago-knowledge.org/resource/David_Hoffman</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.348784</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.339267</relevance>
+            <relevance>0.341776</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -191,7 +165,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.337896</relevance>
+            <relevance>0.340403</relevance>
             <count>1</count>
             <text>Washington Times</text>
             <disambiguated>
@@ -207,13 +181,45 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.333686</relevance>
+            <relevance>0.339662</relevance>
+            <count>1</count>
+            <text>David Hoffman</text>
+            <disambiguated>
+                <name>David Hoffman</name>
+                <dbpedia>http://dbpedia.org/resource/David_Hoffman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pgh05</freebase>
+                <yago>http://yago-knowledge.org/resource/David_Hoffman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.335583</relevance>
+            <count>1</count>
+            <text>Jean-Pierre Haignere&#x301;</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.334317</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.318656</relevance>
             <count>1</count>
             <text>Andrei Shukshin</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.328641</relevance>
+            <relevance>0.317106</relevance>
             <count>1</count>
             <text>Kansas City</text>
             <disambiguated>
@@ -228,14 +234,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.32777</relevance>
-            <count>1</count>
-            <text>voltage regulator</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.299816</relevance>
+            <relevance>0.302222</relevance>
             <count>1</count>
             <text>Marcia Dunn</text>
         </entity>

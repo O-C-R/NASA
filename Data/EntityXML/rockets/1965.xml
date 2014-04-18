@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.781865</relevance>
-            <count>61</count>
+            <relevance>0.781691</relevance>
+            <count>81</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -28,35 +28,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.562303</relevance>
-            <count>23</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.541665</relevance>
-            <count>20</count>
-            <text>Wash</text>
+            <type>JobTitle</type>
+            <relevance>0.575452</relevance>
+            <count>10</count>
+            <text>nasa Rpt. srl</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.462214</relevance>
+            <relevance>0.492875</relevance>
             <count>13</count>
             <text>Wallops Station</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.458334</relevance>
+            <count>20</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.451107</relevance>
+            <count>14</count>
+            <text>Va.</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.461053</relevance>
+            <relevance>0.44711</relevance>
             <count>21</count>
             <text>New York Times</text>
             <disambiguated>
@@ -74,59 +71,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.458275</relevance>
-            <count>14</count>
-            <text>Va.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.457825</relevance>
-            <count>15</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.4125</relevance>
-            <count>5</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
+            <type>Facility</type>
+            <relevance>0.411692</relevance>
+            <count>7</count>
+            <text>White Sands Missile Range</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.401112</relevance>
-            <count>7</count>
+            <relevance>0.392144</relevance>
+            <count>6</count>
             <text>nasa Rpt.</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.376961</relevance>
+            <relevance>0.374115</relevance>
             <count>14</count>
             <text>United States</text>
             <disambiguated>
@@ -146,7 +104,7 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.375215</relevance>
+            <relevance>0.372299</relevance>
             <count>5</count>
             <text>Wallops Island</text>
             <disambiguated>
@@ -162,25 +120,109 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.349752</relevance>
-            <count>4</count>
+            <relevance>0.367156</relevance>
+            <count>6</count>
             <text>Rocket</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.333724</relevance>
-            <count>7</count>
-            <text>White Sands Missile Range</text>
+            <type>Organization</type>
+            <relevance>0.362019</relevance>
+            <count>12</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.326476</relevance>
+            <relevance>0.341156</relevance>
             <count>2</count>
             <text>Nuclear Rocket Development Station</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.326755</relevance>
+            <count>9</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.323301</relevance>
+            <count>3</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.317362</relevance>
+            <count>5</count>
+            <text>Balt</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.303338</relevance>
+            <count>5</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.295132</relevance>
+            <count>4</count>
+            <text>Churchill</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.293809</relevance>
+            <count>5</count>
+            <text>Cape Kennedy</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.322984</relevance>
+            <relevance>0.29172</relevance>
             <count>5</count>
             <text>Canada</text>
             <disambiguated>
@@ -200,53 +242,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.318965</relevance>
-            <count>9</count>
-            <text>scientist</text>
+            <type>Company</type>
+            <relevance>0.287735</relevance>
+            <count>4</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.314147</relevance>
-            <count>6</count>
-            <text>Thiokol Chemical Corp.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.311656</relevance>
-            <count>5</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.301212</relevance>
-            <count>5</count>
-            <text>Cape Kennedy</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
+            <relevance>0.28742</relevance>
+            <count>4</count>
+            <text>NYT</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.29092</relevance>
+            <relevance>0.286399</relevance>
             <count>4</count>
             <text>Moscow</text>
             <disambiguated>
@@ -264,25 +281,132 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.290444</relevance>
+            <relevance>0.285706</relevance>
             <count>2</count>
             <text>NASA Wallops Station</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.28517</relevance>
-            <count>5</count>
-            <text>Balt</text>
+            <type>Country</type>
+            <relevance>0.285316</relevance>
+            <count>7</count>
+            <text>Brazil</text>
+            <disambiguated>
+                <name>Brazil</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>CompanyShareholder</subType>
+                <geo>-15.75 -47.95</geo>
+                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Brazil</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.282792</relevance>
+            <count>6</count>
+            <text>Thiokol Chemical Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.278934</relevance>
+            <count>4</count>
+            <text>Aerobee</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.262921</relevance>
+            <count>3</count>
+            <text>Atlantic Ocean</text>
+            <disambiguated>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.259322</relevance>
+            <count>4</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.256511</relevance>
+            <count>3</count>
+            <text>Poland</text>
+            <disambiguated>
+                <name>Poland</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>FilmFestivalFocus</subType>
+                <dbpedia>http://dbpedia.org/resource/Poland</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Poland</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05qhw</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjKypwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Poland</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.285152</relevance>
+            <relevance>0.256245</relevance>
             <count>2</count>
             <text>nasa msfc</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.252894</relevance>
+            <count>3</count>
+            <text>Churchill</text>
+            <disambiguated>
+                <name>Churchill, Manitoba</name>
+                <website>http://www.churchill.ca/</website>
+                <dbpedia>http://dbpedia.org/resource/Churchill,_Manitoba</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_mkt</freebase>
+                <yago>http://yago-knowledge.org/resource/Churchill,_Manitoba</yago>
+                <geonames>http://sws.geonames.org/5922110/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.25178</relevance>
+            <count>4</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.250538</relevance>
+            <count>4</count>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.25026</relevance>
+            <count>3</count>
+            <text>SRl</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.248882</relevance>
+            <count>3</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.248871</relevance>
+            <count>3</count>
+            <text>USNS Croatan</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.284978</relevance>
+            <relevance>0.246</relevance>
             <count>4</count>
             <text>Fla.</text>
             <disambiguated>
@@ -301,160 +425,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.284967</relevance>
-            <count>4</count>
-            <text>Aerobee</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.277451</relevance>
-            <count>4</count>
-            <text>France</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.267705</relevance>
-            <count>4</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.267638</relevance>
+            <relevance>0.245694</relevance>
             <count>3</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
+            <text>Marshall Star</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.265963</relevance>
-            <count>1</count>
-            <text>nasa Rpt. srl) Evaluation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.260756</relevance>
-            <count>3</count>
-            <text>Chrysler</text>
-            <disambiguated>
-                <name>Chrysler</name>
-                <subType>RocketManufacturer</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <website>http://www.chryslergroupllc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Chrysler</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01_bp</freebase>
-                <yago>http://yago-knowledge.org/resource/Chrysler</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.259456</relevance>
+            <type>Organization</type>
+            <relevance>0.243427</relevance>
             <count>4</count>
-            <text>Cape Kennedy</text>
+            <text>DOD</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.250943</relevance>
+            <relevance>0.243011</relevance>
             <count>3</count>
             <text>Daily News</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.249615</relevance>
-            <count>3</count>
-            <text>Memorandum of Understanding</text>
+            <type>Facility</type>
+            <relevance>0.242516</relevance>
+            <count>1</count>
+            <text>NASA&#x2019;s Wallops Station</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.248277</relevance>
-            <count>3</count>
-            <text>AFSC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.248082</relevance>
+            <type>Person</type>
+            <relevance>0.240439</relevance>
             <count>4</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
+            <text>Cape Kennedy</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.247882</relevance>
-            <count>4</count>
-            <text>official</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.245677</relevance>
-            <count>3</count>
-            <text>Univ. of Michigan</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.244906</relevance>
-            <count>4</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.24487</relevance>
-            <count>4</count>
-            <text>Churchill</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.244489</relevance>
-            <count>3</count>
-            <text>Washington</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.244314</relevance>
-            <count>3</count>
-            <text>Jackass Flats</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.242745</relevance>
-            <count>4</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.242092</relevance>
-            <count>3</count>
-            <text>USNS Croatan</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.241633</relevance>
-            <count>6</count>
-            <text>William Hines</text>
-            <disambiguated>
-                <name>William Hines</name>
-                <dbpedia>http://dbpedia.org/resource/William_Hines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dyp2h</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Hines</yago>
-            </disambiguated>
+            <relevance>0.238608</relevance>
+            <count>1</count>
+            <text>Director of NASA Nuclear Systems and Space Power and Manager</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.241236</relevance>
+            <relevance>0.237379</relevance>
             <count>3</count>
             <text>Indonesia</text>
             <disambiguated>
@@ -470,55 +478,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.237359</relevance>
-            <count>2</count>
-            <text>Va</text>
-            <disambiguated>
-                <name>Virginia</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.virginia.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Virginia</yago>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.237335</relevance>
+            <count>3</count>
+            <text>memorandum of understanding</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.23734</relevance>
-            <count>5</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.23732</relevance>
-            <count>4</count>
-            <text>Dr. Harold B. Finger</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.237173</relevance>
-            <count>2</count>
-            <text>Douglas Aircraft Co.</text>
-            <disambiguated>
-                <name>Douglas Aircraft Company</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
-                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.236227</relevance>
+            <relevance>0.235677</relevance>
             <count>3</count>
-            <text>GCA Corp.</text>
+            <text>afsc</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.234674</relevance>
+            <count>3</count>
+            <text>Univ. of Michigan</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.233556</relevance>
+            <count>3</count>
+            <text>representative</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.231198</relevance>
+            <count>1</count>
+            <text>Director of nasa-aec Space Nuclear Propulsion Office</text>
         </entity>
     </entities>
 </results>

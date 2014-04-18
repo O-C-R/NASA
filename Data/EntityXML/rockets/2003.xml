@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.8109</relevance>
+            <relevance>0.946246</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +28,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.793024</relevance>
-            <count>3</count>
-            <text>Alain Bensoussan</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.623261</relevance>
+            <relevance>0.449967</relevance>
             <count>1</count>
             <text>French Space Agency</text>
             <disambiguated>
@@ -49,7 +43,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.484537</relevance>
+            <relevance>0.40888</relevance>
             <count>1</count>
             <text>Ted Strong</text>
             <disambiguated>
@@ -59,73 +53,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.484414</relevance>
-            <count>1</count>
-            <text>Space News</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.461311</relevance>
-            <count>1</count>
-            <text>president</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.459621</relevance>
-            <count>1</count>
-            <text>France</text>
-            <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.457534</relevance>
-            <count>1</count>
-            <text>Claudie Haignere</text>
-            <disambiguated>
-                <name>Claudie Haigner&#xE9;</name>
-                <subType>Politician</subType>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Claudie_Haigner&#xE9;</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027jxx</freebase>
-                <yago>http://yago-knowledge.org/resource/Claudie_Haigner%C3%A9</yago>
-            </disambiguated>
+            <relevance>0.405557</relevance>
+            <count>3</count>
+            <text>Alain Bensoussan</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.454073</relevance>
+            <relevance>0.388783</relevance>
             <count>1</count>
             <text>Starchaser Industries Ltd.</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.453414</relevance>
-            <count>1</count>
-            <text>Bensoussan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.444042</relevance>
-            <count>1</count>
-            <text>French government</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.420098</relevance>
+            <relevance>0.356227</relevance>
             <count>1</count>
             <text>Arizona</text>
             <disambiguated>
@@ -145,23 +86,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.406549</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.349118</relevance>
             <count>1</count>
-            <text>Associated Press</text>
+            <text>Space News</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.333287</relevance>
+            <count>1</count>
+            <text>France</text>
             <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.384751</relevance>
+            <relevance>0.331469</relevance>
             <count>1</count>
             <text>Kingman</text>
             <disambiguated>
@@ -177,25 +130,72 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.383473</relevance>
+            <relevance>0.330856</relevance>
             <count>1</count>
-            <text>Peter B. de Selding</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.368042</relevance>
-            <count>1</count>
-            <text>Johns Hopkins University&#x2019;s Applied Physics Laboratory</text>
+            <text>Claudie Haignere</text>
+            <disambiguated>
+                <name>Claudie Haigner&#xE9;</name>
+                <subType>Politician</subType>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Claudie_Haigner&#xE9;</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027jxx</freebase>
+                <yago>http://yago-knowledge.org/resource/Claudie_Haigner%C3%A9</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.359735</relevance>
+            <relevance>0.326898</relevance>
+            <count>1</count>
+            <text>Bensoussan</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.320718</relevance>
+            <count>1</count>
+            <text>French government</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.311838</relevance>
             <count>1</count>
             <text>Fairfield</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.294723</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.293739</relevance>
+            <count>1</count>
+            <text>Johns Hopkins University&#x2019;s Applied Physics Laboratory</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.282662</relevance>
+            <count>1</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275877</relevance>
+            <count>1</count>
+            <text>Peter B. de Selding</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.339854</relevance>
+            <relevance>0.245392</relevance>
             <count>1</count>
             <text>The commission</text>
         </entity>

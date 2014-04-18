@@ -7,19 +7,18 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.902341</relevance>
+            <relevance>0.861733</relevance>
             <count>3</count>
             <text>Dr. Allen R. Sandage</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.806244</relevance>
+            <type>Country</type>
+            <relevance>0.79564</relevance>
             <count>3</count>
             <text>U.S.S.R.</text>
             <disambiguated>
                 <name>Soviet Union</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
                 <subType>GovernmentalJurisdiction</subType>
                 <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
@@ -28,8 +27,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.538004</relevance>
+            <count>1</count>
+            <text>British Interplanetary Society</text>
+            <disambiguated>
+                <name>British Interplanetary Society</name>
+                <website>http://www.bis-spaceflight.com/index.htm</website>
+                <dbpedia>http://dbpedia.org/resource/British_Interplanetary_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.053h7h</freebase>
+                <yago>http://yago-knowledge.org/resource/British_Interplanetary_Society</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.53575</relevance>
+            <count>1</count>
+            <text>life support systems</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.528615</relevance>
+            <count>1</count>
+            <text>Konstantin P. Feoktistov</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.506925</relevance>
+            <count>1</count>
+            <text>Milky Way</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.57443</relevance>
+            <relevance>0.498592</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -42,8 +72,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.494964</relevance>
+            <count>1</count>
+            <text>Gustav Tamman</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.520636</relevance>
+            <relevance>0.44966</relevance>
             <count>1</count>
             <text>California Institute of Technology</text>
             <disambiguated>
@@ -60,43 +96,6 @@
                 <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
                 <geonames>http://sws.geonames.org/6331816/</geonames>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.506368</relevance>
-            <count>1</count>
-            <text>Milky Way</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.49844</relevance>
-            <count>1</count>
-            <text>British Interplanetary Society</text>
-            <disambiguated>
-                <name>British Interplanetary Society</name>
-                <website>http://www.bis-spaceflight.com/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/British_Interplanetary_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.053h7h</freebase>
-                <yago>http://yago-knowledge.org/resource/British_Interplanetary_Society</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.494399</relevance>
-            <count>1</count>
-            <text>Gustav Tamman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.488348</relevance>
-            <count>1</count>
-            <text>Konstantin P. Feoktistov</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.462787</relevance>
-            <count>1</count>
-            <text>life support systems</text>
         </entity>
     </entities>
 </results>

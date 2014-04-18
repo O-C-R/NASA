@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.785078</relevance>
+            <relevance>0.921205</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.493819</relevance>
+            <relevance>0.442733</relevance>
             <count>1</count>
             <text>Woomera</text>
             <disambiguated>
@@ -43,19 +43,19 @@
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.468157</relevance>
+            <relevance>0.416503</relevance>
             <count>1</count>
             <text>Xray</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.429475</relevance>
+            <relevance>0.40795</relevance>
             <count>1</count>
             <text>Woomera</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.31194</relevance>
+            <relevance>0.344906</relevance>
             <count>1</count>
             <text>LRC</text>
             <disambiguated>
@@ -65,14 +65,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.297674</relevance>
-            <count>1</count>
-            <text>Australia Range</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.264729</relevance>
+            <relevance>0.310129</relevance>
             <count>1</count>
             <text>Dallas</text>
             <disambiguated>
@@ -83,28 +77,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.257217</relevance>
+            <type>Company</type>
+            <relevance>0.295216</relevance>
             <count>1</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
+            <text>Electronic Group</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.251759</relevance>
+            <relevance>0.294973</relevance>
             <count>1</count>
             <text>Texas</text>
             <disambiguated>
@@ -123,10 +103,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.249212</relevance>
+            <type>Country</type>
+            <relevance>0.278415</relevance>
             <count>1</count>
-            <text>Electronic Group</text>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.263814</relevance>
+            <count>1</count>
+            <text>Australia Range</text>
         </entity>
     </entities>
 </results>

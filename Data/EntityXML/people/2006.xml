@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.832591</relevance>
+            <relevance>0.861714</relevance>
             <count>22</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.307379</relevance>
+            <relevance>0.368483</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -50,14 +50,49 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.33654</relevance>
+            <count>3</count>
+            <text>National Academy of Sciences</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.300828</relevance>
+            <relevance>0.326392</relevance>
             <count>1</count>
             <text>Decadal Survey of Civil Aeronautics</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.320774</relevance>
+            <count>2</count>
+            <text>Tempel</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.313626</relevance>
+            <count>2</count>
+            <text>National Research Council</text>
+            <disambiguated>
+                <name>United States National Research Council</name>
+                <dbpedia>http://dbpedia.org/resource/United_States_National_Research_Council</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09d0q</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_National_Research_Council</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.307511</relevance>
+            <count>2</count>
+            <text>Northern Hemisphere</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.283402</relevance>
+            <relevance>0.306798</relevance>
             <count>3</count>
             <text>Michael E. Mann</text>
             <disambiguated>
@@ -69,7 +104,106 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.281499</relevance>
+            <relevance>0.30498</relevance>
+            <count>1</count>
+            <text>Aeronautics Research Mission Directorate</text>
+        </entity>
+        <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.301622</relevance>
+            <count>2</count>
+            <text>Nobel Prize</text>
+            <disambiguated>
+                <name>Nobel Prize</name>
+                <subType>Award</subType>
+                <website>http://nobelprize.org</website>
+                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.298791</relevance>
+            <count>3</count>
+            <text>John N. Bahcall</text>
+            <disambiguated>
+                <name>John N. Bahcall</name>
+                <subType>Academic</subType>
+                <subType>Astronomer</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/John_N._Bahcall</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.039w50</freebase>
+                <yago>http://yago-knowledge.org/resource/John_N._Bahcall</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.294247</relevance>
+            <count>1</count>
+            <text>Surface Temperature Reconstructions</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.292105</relevance>
+            <count>3</count>
+            <text>John C. Mather</text>
+            <disambiguated>
+                <name>John C. Mather</name>
+                <subType>Academic</subType>
+                <subType>Astronomer</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/John_C._Mather</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0krzq7</freebase>
+                <yago>http://yago-knowledge.org/resource/John_C._Mather</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.280872</relevance>
+            <count>1</count>
+            <text>Space and Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.276104</relevance>
+            <count>2</count>
+            <text>University of Maryland</text>
+            <disambiguated>
+                <name>University of Maryland, College Park</name>
+                <subType>AwardWinner</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>38.9875 -76.94</geo>
+                <website>http://www.umd.edu</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Maryland,_College_Park</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01jq34</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Maryland,_College_Park</yago>
+                <geonames>http://sws.geonames.org/6340070/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265816</relevance>
+            <count>2</count>
+            <text>George F. Smoot</text>
+            <disambiguated>
+                <name>George Smoot</name>
+                <subType>Astronomer</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <website>http://physics.berkeley.edu/index.php?option=com_dept_management&amp;act=people&amp;Itemid=312&amp;limitstart=0&amp;task=view&amp;id=15</website>
+                <dbpedia>http://dbpedia.org/resource/George_Smoot</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0krzqm</freebase>
+                <yago>http://yago-knowledge.org/resource/George_Smoot</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265651</relevance>
             <count>3</count>
             <text>NRC</text>
             <disambiguated>
@@ -90,73 +224,119 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.267312</relevance>
-            <count>2</count>
-            <text>Tempel</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.259776</relevance>
-            <count>1</count>
-            <text>Space and Aeronautics</text>
+            <relevance>0.259481</relevance>
+            <count>3</count>
+            <text>scientist</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.254457</relevance>
+            <relevance>0.258491</relevance>
             <count>1</count>
-            <text>Aeronautics Research Mission Directorate</text>
+            <text>Aeronautics Mission Directorate</text>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.246821</relevance>
-            <count>2</count>
-            <text>Northern Hemisphere</text>
+            <type>Sport</type>
+            <relevance>0.255906</relevance>
+            <count>1</count>
+            <text>hockey</text>
+            <disambiguated>
+                <name>Hockey</name>
+                <dbpedia>http://dbpedia.org/resource/Hockey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mr6</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjv9ZwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.253384</relevance>
+            <count>1</count>
+            <text>Royal Swedish Academy of Sciences</text>
+            <disambiguated>
+                <name>Royal Swedish Academy of Sciences</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <dbpedia>http://dbpedia.org/resource/Royal_Swedish_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dy4v</freebase>
+                <yago>http://yago-knowledge.org/resource/Royal_Swedish_Academy_of_Sciences</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.240291</relevance>
+            <relevance>0.251229</relevance>
+            <count>1</count>
+            <text>Michael F. A&#x2019;Hearn</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.24323</relevance>
             <count>3</count>
             <text>Lisa J. Porter</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.237057</relevance>
-            <count>3</count>
-            <text>National Academy of Sciences</text>
-            <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.233503</relevance>
+            <relevance>0.241722</relevance>
             <count>1</count>
-            <text>Surface Temperature Reconstructions</text>
+            <text>House Science Subcommittee</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.230086</relevance>
-            <count>2</count>
-            <text>University of Maryland</text>
+            <relevance>0.240155</relevance>
+            <count>1</count>
+            <text>House Science Committee</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.23821</relevance>
+            <count>1</count>
+            <text>Reuters</text>
             <disambiguated>
-                <name>University of Maryland, College Park</name>
-                <subType>AwardWinner</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>38.9875 -76.94</geo>
-                <website>http://www.umd.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Maryland,_College_Park</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01jq34</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Maryland,_College_Park</yago>
-                <geonames>http://sws.geonames.org/6340070/</geonames>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.237885</relevance>
+            <count>1</count>
+            <text>Nobel Foundation</text>
+            <disambiguated>
+                <name>Nobel Foundation</name>
+                <website>http://www.gustavus.edu/events/nobelconference/</website>
+                <dbpedia>http://dbpedia.org/resource/Nobel_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06sy26</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237845</relevance>
+            <count>1</count>
+            <text>Jessica M. Sunshine</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234478</relevance>
+            <count>1</count>
+            <text>Sherwood L. Boehlert</text>
+            <disambiguated>
+                <name>Sherwood Boehlert</name>
+                <subType>Politician</subType>
+                <subType>BoardMember</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Sherwood_Boehlert</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03dghb</freebase>
+                <yago>http://yago-knowledge.org/resource/Sherwood_Boehlert</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.228996</relevance>
+            <relevance>0.23427</relevance>
             <count>2</count>
             <text>U.S</text>
             <disambiguated>
@@ -176,161 +356,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.22242</relevance>
-            <count>1</count>
-            <text>House Science Subcommittee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.221746</relevance>
-            <count>2</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.216649</relevance>
-            <count>2</count>
-            <text>National Research Council</text>
-            <disambiguated>
-                <name>United States National Research Council</name>
-                <dbpedia>http://dbpedia.org/resource/United_States_National_Research_Council</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09d0q</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_National_Research_Council</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.216326</relevance>
-            <count>2</count>
-            <text>Nobel Prize</text>
-            <disambiguated>
-                <name>Nobel Prize</name>
-                <subType>Award</subType>
-                <website>http://nobelprize.org</website>
-                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.215696</relevance>
-            <count>1</count>
-            <text>Aeronautics Mission Directorate</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.21241</relevance>
-            <count>1</count>
-            <text>NRC&#x2019;s Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.212087</relevance>
-            <count>3</count>
-            <text>John N. Bahcall</text>
-            <disambiguated>
-                <name>John N. Bahcall</name>
-                <subType>Academic</subType>
-                <subType>Astronomer</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/John_N._Bahcall</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.039w50</freebase>
-                <yago>http://yago-knowledge.org/resource/John_N._Bahcall</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.21056</relevance>
-            <count>1</count>
-            <text>Nobel Foundation</text>
-            <disambiguated>
-                <name>Nobel Foundation</name>
-                <website>http://www.gustavus.edu/events/nobelconference/</website>
-                <dbpedia>http://dbpedia.org/resource/Nobel_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06sy26</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.209358</relevance>
-            <count>1</count>
-            <text>Michael F. A&#x2019;Hearn</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.205308</relevance>
-            <count>3</count>
-            <text>John C. Mather</text>
-            <disambiguated>
-                <name>John C. Mather</name>
-                <subType>Academic</subType>
-                <subType>Astronomer</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/John_C._Mather</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0krzq7</freebase>
-                <yago>http://yago-knowledge.org/resource/John_C._Mather</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Sport</type>
-            <relevance>0.204844</relevance>
-            <count>1</count>
-            <text>hockey</text>
-            <disambiguated>
-                <name>Hockey</name>
-                <dbpedia>http://dbpedia.org/resource/Hockey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mr6</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjv9ZwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.204703</relevance>
-            <count>1</count>
-            <text>Royal Swedish Academy of Sciences</text>
-            <disambiguated>
-                <name>Royal Swedish Academy of Sciences</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <dbpedia>http://dbpedia.org/resource/Royal_Swedish_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dy4v</freebase>
-                <yago>http://yago-knowledge.org/resource/Royal_Swedish_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.204195</relevance>
-            <count>2</count>
-            <text>Major General William W. Hoover</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.198508</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.198204</relevance>
-            <count>1</count>
-            <text>Jessica M. Sunshine</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.194966</relevance>
+            <relevance>0.233715</relevance>
             <count>1</count>
             <text>House of Representatives</text>
             <disambiguated>
@@ -345,14 +371,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.190089</relevance>
+            <type>Person</type>
+            <relevance>0.233504</relevance>
+            <count>2</count>
+            <text>Major General William W. Hoover</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.23268</relevance>
             <count>1</count>
-            <text>House Science Committee</text>
+            <text>rising temperatures</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.187999</relevance>
+            <relevance>0.229111</relevance>
+            <count>1</count>
+            <text>NRC&#x2019;s Committee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.225371</relevance>
             <count>1</count>
             <text>FAA</text>
             <disambiguated>
@@ -366,7 +404,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.18691</relevance>
+            <relevance>0.224292</relevance>
             <count>1</count>
             <text>Brown University</text>
             <disambiguated>
@@ -385,60 +423,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.186487</relevance>
-            <count>1</count>
-            <text>Sherwood L. Boehlert</text>
-            <disambiguated>
-                <name>Sherwood Boehlert</name>
-                <subType>Politician</subType>
-                <subType>BoardMember</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Sherwood_Boehlert</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03dghb</freebase>
-                <yago>http://yago-knowledge.org/resource/Sherwood_Boehlert</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.184594</relevance>
-            <count>1</count>
-            <text>rising temperatures</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.182712</relevance>
-            <count>1</count>
-            <text>press release</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.182454</relevance>
-            <count>1</count>
-            <text>National Medal of Science.</text>
-        </entity>
-        <entity>
-            <type>HealthCondition</type>
-            <relevance>0.180885</relevance>
-            <count>1</count>
-            <text>blood disorder</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.18034</relevance>
-            <count>1</count>
-            <text>William Hoover</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.180311</relevance>
-            <count>3</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.180043</relevance>
+            <relevance>0.222872</relevance>
             <count>1</count>
             <text>Berkeley</text>
             <disambiguated>
@@ -455,36 +441,55 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.178091</relevance>
+            <type>JobTitle</type>
+            <relevance>0.221997</relevance>
             <count>2</count>
-            <text>George F. Smoot</text>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.219254</relevance>
+            <count>1</count>
+            <text>press release</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.216196</relevance>
+            <count>1</count>
+            <text>National Medal of Science.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.216159</relevance>
+            <count>1</count>
+            <text>William Hoover</text>
+        </entity>
+        <entity>
+            <type>HealthCondition</type>
+            <relevance>0.214695</relevance>
+            <count>1</count>
+            <text>blood disorder</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.213399</relevance>
+            <count>1</count>
+            <text>University of California</text>
             <disambiguated>
-                <name>George Smoot</name>
-                <subType>Astronomer</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <website>http://physics.berkeley.edu/index.php?option=com_dept_management&amp;act=people&amp;Itemid=312&amp;limitstart=0&amp;task=view&amp;id=15</website>
-                <dbpedia>http://dbpedia.org/resource/George_Smoot</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0krzqm</freebase>
-                <yago>http://yago-knowledge.org/resource/George_Smoot</yago>
+                <name>UC Davis College of Letters and Science</name>
+                <dbpedia>http://dbpedia.org/resource/UC_Davis_College_of_Letters_and_Science</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mhh1</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.174235</relevance>
+            <relevance>0.204894</relevance>
             <count>1</count>
-            <text>co-chair</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.168429</relevance>
-            <count>1</count>
-            <text>executive</text>
+            <text>Chairman</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.166864</relevance>
+            <relevance>0.197861</relevance>
             <count>1</count>
             <text>George B. Field</text>
             <disambiguated>
@@ -495,27 +500,27 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.163473</relevance>
+            <relevance>0.193715</relevance>
             <count>1</count>
             <text>Lyman S. Spitzer Jr.</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.162177</relevance>
-            <count>1</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.159837</relevance>
+            <relevance>0.191558</relevance>
             <count>1</count>
             <text>National Academies</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.155157</relevance>
+            <type>JobTitle</type>
+            <relevance>0.187938</relevance>
             <count>1</count>
-            <text>University of California</text>
+            <text>co-chair</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.181647</relevance>
+            <count>1</count>
+            <text>executive</text>
         </entity>
     </entities>
 </results>

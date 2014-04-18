@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.772762</relevance>
+            <relevance>0.773823</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.427882</relevance>
+            <relevance>0.434458</relevance>
             <count>4</count>
             <text>NY Times</text>
             <disambiguated>
@@ -48,13 +48,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.369953</relevance>
+            <relevance>0.362488</relevance>
             <count>3</count>
             <text>USA Today</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.349517</relevance>
+            <relevance>0.315227</relevance>
             <count>2</count>
             <text>Arnold Schwarzenegger</text>
             <disambiguated>
@@ -82,7 +82,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.33811</relevance>
+            <relevance>0.308667</relevance>
             <count>2</count>
             <text>Columbia Pictures</text>
             <disambiguated>
@@ -102,7 +102,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.325204</relevance>
+            <relevance>0.303279</relevance>
             <count>1</count>
             <text>French National Space Agency</text>
             <disambiguated>
@@ -116,32 +116,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.317329</relevance>
-            <count>2</count>
-            <text>Europe</text>
+            <type>Organization</type>
+            <relevance>0.2988</relevance>
+            <count>1</count>
+            <text>ASRM</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.29378</relevance>
+            <count>1</count>
+            <text>Loral Corporation</text>
             <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
+                <name>Loral Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/Loral_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02dr24</freebase>
+                <yago>http://yago-knowledge.org/resource/Loral_Corporation</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.307597</relevance>
-            <count>2</count>
-            <text>Washington Technology</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.305595</relevance>
-            <count>2</count>
-            <text>Fleeter</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.293719</relevance>
+            <relevance>0.280912</relevance>
             <count>1</count>
             <text>Orbital Sciences</text>
             <disambiguated>
@@ -155,7 +149,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.287707</relevance>
+            <relevance>0.278632</relevance>
             <count>2</count>
             <text>Virginia</text>
             <disambiguated>
@@ -174,7 +168,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.271321</relevance>
+            <relevance>0.27419</relevance>
             <count>1</count>
             <text>General Dynamics Corporation</text>
             <disambiguated>
@@ -189,8 +183,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.274064</relevance>
+            <count>1</count>
+            <text>Commercial Development of Space</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.269937</relevance>
+            <count>1</count>
+            <text>NASA Center</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.263819</relevance>
+            <count>3</count>
+            <text>The Wall Street Journal</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.260933</relevance>
+            <count>1</count>
+            <text>White Sands Missile Range</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.260407</relevance>
+            <count>1</count>
+            <text>Loral Vought Systems</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.269196</relevance>
+            <relevance>0.260061</relevance>
             <count>1</count>
             <text>Columbia</text>
             <disambiguated>
@@ -201,32 +234,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.264898</relevance>
-            <count>1</count>
-            <text>Commercial Development of Space</text>
+            <type>Company</type>
+            <relevance>0.258129</relevance>
+            <count>2</count>
+            <text>Washington Technology</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.251073</relevance>
+            <count>2</count>
+            <text>Fleeter</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.263977</relevance>
+            <relevance>0.248284</relevance>
             <count>1</count>
-            <text>ASRM</text>
+            <text>Pentagon</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.263</relevance>
+            <type>Company</type>
+            <relevance>0.246952</relevance>
             <count>1</count>
-            <text>White Sands Missile Range</text>
+            <text>WSJ</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.261363</relevance>
+            <type>Country</type>
+            <relevance>0.245851</relevance>
             <count>1</count>
-            <text>NASA Center</text>
+            <text>Japan</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.254982</relevance>
+            <relevance>0.245354</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -242,44 +281,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.250306</relevance>
-            <count>1</count>
-            <text>WSJ</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.248481</relevance>
-            <count>1</count>
-            <text>French Guiana</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.246642</relevance>
-            <count>1</count>
-            <text>Loral Corporation</text>
-            <disambiguated>
-                <name>Loral Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/Loral_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02dr24</freebase>
-                <yago>http://yago-knowledge.org/resource/Loral_Corporation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.24607</relevance>
-            <count>1</count>
-            <text>Orbital Science Corporation</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243336</relevance>
-            <count>1</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.241697</relevance>
+            <relevance>0.239565</relevance>
             <count>1</count>
             <text>Wallops Island</text>
             <disambiguated>
@@ -294,8 +297,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Continent</type>
+            <relevance>0.236826</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.238694</relevance>
+            <relevance>0.236818</relevance>
             <count>1</count>
             <text>New Mexico</text>
             <disambiguated>
@@ -314,46 +329,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.236004</relevance>
-            <count>1</count>
-            <text>Fairfax</text>
-            <disambiguated>
-                <name>Fairfax, Virginia</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>USCounty</subType>
-                <geo>38.8525 -77.30416666666666</geo>
-                <website>http://www.fairfaxva.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Fairfax,_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mnzd</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/va/counties/fairfax/fairfax</census>
-                <yago>http://yago-knowledge.org/resource/Fairfax,_Virginia</yago>
-                <geonames>http://sws.geonames.org/4758023/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.232053</relevance>
-            <count>1</count>
-            <text>federal Ballistic Missile Defense Organization.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.230998</relevance>
-            <count>3</count>
-            <text>The Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.2301</relevance>
+            <relevance>0.236629</relevance>
             <count>1</count>
             <text>Huntsville</text>
             <disambiguated>
@@ -368,20 +344,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.22865</relevance>
+            <type>City</type>
+            <relevance>0.234899</relevance>
             <count>1</count>
-            <text>president</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.228546</relevance>
-            <count>1</count>
-            <text>Atlas</text>
+            <text>French Guiana</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.228153</relevance>
+            <relevance>0.234625</relevance>
             <count>1</count>
             <text>University of Alabama</text>
             <disambiguated>
@@ -397,8 +367,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.231372</relevance>
+            <count>1</count>
+            <text>Atlas</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.22993</relevance>
+            <count>1</count>
+            <text>federal Ballistic Missile Defense Organization.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.227705</relevance>
+            <count>1</count>
+            <text>Orbital Science Corporation</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226816</relevance>
+            <count>1</count>
+            <text>Office of Advanced Concepts and Technology.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223167</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.22172</relevance>
+            <count>1</count>
+            <text>Consortium for Materials Development</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.227862</relevance>
+            <relevance>0.219363</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -417,62 +423,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.225129</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224325</relevance>
-            <count>1</count>
-            <text>Office of Advanced Concepts and Technology.</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.21502</relevance>
+            <relevance>0.217093</relevance>
             <count>1</count>
-            <text>Consortium for Materials Development</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.213123</relevance>
-            <count>1</count>
-            <text>AeroAstro</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.212976</relevance>
-            <count>1</count>
-            <text>Loral Vought Systems</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.212005</relevance>
-            <count>1</count>
-            <text>Rich Fleet</text>
+            <text>president</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.204747</relevance>
+            <relevance>0.211314</relevance>
             <count>1</count>
-            <text>Japan</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.20288</relevance>
-            <count>1</count>
-            <text>PacAstro</text>
+            <text>Europe</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.202122</relevance>
+            <relevance>0.210395</relevance>
             <count>1</count>
             <text>Fl</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.199641</relevance>
+            <relevance>0.201899</relevance>
             <count>1</count>
             <text>The Washington Post</text>
             <disambiguated>
@@ -483,6 +453,30 @@
                 <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
                 <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.201105</relevance>
+            <count>1</count>
+            <text>AeroAstro</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.200242</relevance>
+            <count>1</count>
+            <text>Rich Fleet</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.199417</relevance>
+            <count>1</count>
+            <text>Fairfax</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.190845</relevance>
+            <count>1</count>
+            <text>PacAstro</text>
         </entity>
     </entities>
 </results>

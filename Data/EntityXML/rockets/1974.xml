@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.831351</relevance>
+            <relevance>0.768573</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.442015</relevance>
+            <relevance>0.453208</relevance>
             <count>3</count>
             <text>France</text>
             <disambiguated>
@@ -50,7 +50,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.352657</relevance>
+            <relevance>0.348973</relevance>
             <count>1</count>
             <text>Lockheed</text>
             <disambiguated>
@@ -64,7 +64,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.334538</relevance>
+            <relevance>0.330854</relevance>
             <count>1</count>
             <text>Lockheed</text>
             <disambiguated>
@@ -78,13 +78,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.32177</relevance>
+            <relevance>0.317858</relevance>
             <count>1</count>
             <text>Lockheed Propulsion Co.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.305017</relevance>
+            <relevance>0.301846</relevance>
             <count>2</count>
             <text>Thiokol</text>
             <disambiguated>
@@ -97,7 +97,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.283603</relevance>
+            <relevance>0.296791</relevance>
             <count>1</count>
             <text>Pierre Messmer</text>
             <disambiguated>
@@ -110,8 +110,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.275462</relevance>
+            <count>1</count>
+            <text>Britain</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.267017</relevance>
+            <count>1</count>
+            <text>Wolter</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.277783</relevance>
+            <relevance>0.266405</relevance>
+            <count>1</count>
+            <text>Thiokol Chemical Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.265559</relevance>
             <count>1</count>
             <text>Boeing</text>
             <disambiguated>
@@ -130,7 +148,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.275498</relevance>
+            <relevance>0.262843</relevance>
             <count>1</count>
             <text>Air Inter</text>
             <disambiguated>
@@ -143,37 +161,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.275462</relevance>
-            <count>1</count>
-            <text>Britain</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.269696</relevance>
-            <count>1</count>
-            <text>Thiokol Chemical Corp.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.264756</relevance>
-            <count>1</count>
-            <text>Wolter</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.262461</relevance>
-            <count>1</count>
-            <text>Randal</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.254059</relevance>
-            <count>1</count>
-            <text>General Accounting Office</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.250832</relevance>
+            <relevance>0.259637</relevance>
             <count>1</count>
             <text>U.K.</text>
             <disambiguated>
@@ -193,14 +181,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.256671</relevance>
+            <count>1</count>
+            <text>Randal</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.243388</relevance>
+            <relevance>0.253165</relevance>
             <count>1</count>
             <text>Labor Party</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.251101</relevance>
+            <count>1</count>
+            <text>General Accounting Office</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.237322</relevance>
+            <relevance>0.234472</relevance>
             <count>1</count>
             <text>Utah</text>
             <disambiguated>
@@ -219,9 +219,23 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.200822</relevance>
+            <relevance>0.218621</relevance>
             <count>1</count>
             <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

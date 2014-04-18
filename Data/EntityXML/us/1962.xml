@@ -7,13 +7,19 @@
     <entities>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.853742</relevance>
-            <count>19</count>
+            <relevance>0.946487</relevance>
+            <count>17</count>
             <text>Vandenberg afb</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.555456</relevance>
+            <count>5</count>
+            <text>Atlas icbm</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.535821</relevance>
+            <relevance>0.529382</relevance>
             <count>17</count>
             <text>United States</text>
             <disambiguated>
@@ -33,8 +39,32 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.490105</relevance>
-            <count>6</count>
+            <relevance>0.496402</relevance>
+            <count>3</count>
+            <text>usaf Atlas icbm</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.485801</relevance>
+            <count>3</count>
+            <text>Vandenberg afb</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.48569</relevance>
+            <count>5</count>
+            <text>Air Force</text>
+            <disambiguated>
+                <name>Air force</name>
+                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.470091</relevance>
+            <count>4</count>
             <text>usaf</text>
             <disambiguated>
                 <name>United States Air Force</name>
@@ -50,7 +80,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.454982</relevance>
+            <relevance>0.465353</relevance>
             <count>8</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -65,46 +95,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.433712</relevance>
-            <count>5</count>
-            <text>Atlas icbm</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.392438</relevance>
-            <count>3</count>
-            <text>Vandenberg afb</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.360865</relevance>
-            <count>5</count>
-            <text>Air Force</text>
-            <disambiguated>
-                <name>Air force</name>
-                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.33957</relevance>
-            <count>2</count>
-            <text>usaf Atlas icbm</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.311466</relevance>
-            <count>4</count>
-            <text>North American Aviation, Inc.</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.303414</relevance>
-            <count>5</count>
-            <text>Calif.</text>
+            <relevance>0.423699</relevance>
+            <count>6</count>
+            <text>California</text>
             <disambiguated>
                 <name>California</name>
                 <subType>Location</subType>
@@ -123,61 +117,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.302222</relevance>
+            <type>Company</type>
+            <relevance>0.414801</relevance>
             <count>4</count>
-            <text>New York City</text>
-            <disambiguated>
-                <name>New York City</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
-            </disambiguated>
+            <text>North American Aviation, Inc.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.291034</relevance>
-            <count>2</count>
-            <text>icbm</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.290837</relevance>
-            <count>3</count>
-            <text>North American</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.286621</relevance>
-            <count>1</count>
-            <text>Atlas F icbm</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.282301</relevance>
-            <count>5</count>
-            <text>United Auto Workers</text>
-            <disambiguated>
-                <name>United Auto Workers</name>
-                <subType>TradeUnion</subType>
-                <website>http://www.uaw.org</website>
-                <dbpedia>http://dbpedia.org/resource/United_Auto_Workers</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vdmd</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4robT3kCBKEdiRAAACs5b6Bw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Auto_Workers</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.27771</relevance>
+            <relevance>0.395486</relevance>
             <count>5</count>
             <text>nasa</text>
             <disambiguated>
@@ -199,20 +146,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.273322</relevance>
-            <count>3</count>
-            <text>International Association of Machinists</text>
-            <disambiguated>
-                <name>International Association of Machinists and Aerospace Workers</name>
-                <subType>TradeUnion</subType>
-                <website>http://www.goiam.org/</website>
-                <dbpedia>http://dbpedia.org/resource/International_Association_of_Machinists_and_Aerospace_Workers</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03dytp</freebase>
-            </disambiguated>
+            <relevance>0.344316</relevance>
+            <count>2</count>
+            <text>Atlas F icbm</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.344267</relevance>
+            <count>1</count>
+            <text>Vandenberg afb. usaf Minuteman icbm</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.343402</relevance>
+            <count>1</count>
+            <text>Vandenberg afb. usaf 564th Strategic Missile Squadron</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.33088</relevance>
+            <count>2</count>
+            <text>icbm</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.26672</relevance>
+            <relevance>0.329409</relevance>
             <count>3</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -240,13 +198,20 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261979</relevance>
+            <relevance>0.326557</relevance>
             <count>1</count>
-            <text>Vandenberg afb. norad</text>
+            <text>Air Force Office of Scientific Research</text>
+            <disambiguated>
+                <name>Air Force Research Laboratory</name>
+                <website>http://www.wpafb.af.mil/AFRL/</website>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Research_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.039h7m</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Research_Laboratory</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261061</relevance>
+            <relevance>0.311174</relevance>
             <count>2</count>
             <text>American Geophysical Union</text>
             <disambiguated>
@@ -260,41 +225,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.258884</relevance>
-            <count>2</count>
-            <text>Minuteman icbm</text>
+            <type>JobTitle</type>
+            <relevance>0.310381</relevance>
+            <count>3</count>
+            <text>President</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.257134</relevance>
-            <count>4</count>
-            <text>afsc</text>
+            <relevance>0.302919</relevance>
+            <count>2</count>
+            <text>American Physical Society</text>
             <disambiguated>
-                <name>American Friends Service Committee</name>
-                <subType>AwardWinner</subType>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.afsc.org</website>
-                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
+                <name>American Physical Society</name>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>PeriodicalPublisher</subType>
+                <website>http://www.aps.org/</website>
+                <dbpedia>http://dbpedia.org/resource/American_Physical_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gg1s</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Physical_Society</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.256927</relevance>
-            <count>1</count>
-            <text>usaf 564th Strategic Missile Squadron</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.254533</relevance>
-            <count>4</count>
-            <text>dod</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.254009</relevance>
+            <relevance>0.30169</relevance>
             <count>1</count>
             <text>Edwards afb</text>
             <disambiguated>
@@ -312,111 +266,67 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.253515</relevance>
-            <count>2</count>
-            <text>American Association</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.252019</relevance>
-            <count>3</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.251231</relevance>
-            <count>2</count>
-            <text>Air Force Cambridge Research Laboratories</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.250933</relevance>
-            <count>1</count>
-            <text>usaf Atlas icbm</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.248504</relevance>
-            <count>2</count>
-            <text>American Physical Society</text>
+            <relevance>0.301029</relevance>
+            <count>5</count>
+            <text>United Auto Workers</text>
             <disambiguated>
-                <name>American Physical Society</name>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>PeriodicalPublisher</subType>
-                <website>http://www.aps.org/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Physical_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gg1s</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Physical_Society</yago>
+                <name>United Auto Workers</name>
+                <subType>TradeUnion</subType>
+                <website>http://www.uaw.org</website>
+                <dbpedia>http://dbpedia.org/resource/United_Auto_Workers</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vdmd</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4robT3kCBKEdiRAAACs5b6Bw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Auto_Workers</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.243388</relevance>
+            <relevance>0.297565</relevance>
+            <count>4</count>
+            <text>afsc</text>
+            <disambiguated>
+                <name>Air Force Space Command</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.289741</relevance>
+            <count>3</count>
+            <text>North American</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.287869</relevance>
+            <count>1</count>
+            <text>usaf</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.285394</relevance>
             <count>1</count>
             <text>usaf Atlas-E icbm</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.24012</relevance>
-            <count>1</count>
-            <text>Soviet Air Force</text>
+            <relevance>0.284652</relevance>
+            <count>3</count>
+            <text>International Association of Machinists</text>
             <disambiguated>
-                <name>Soviet Air Forces</name>
-                <subType>ArmedForce</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Air_Forces</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01hg2h</freebase>
-                <yago>http://yago-knowledge.org/resource/Soviet_Air_Forces</yago>
+                <name>International Association of Machinists and Aerospace Workers</name>
+                <subType>TradeUnion</subType>
+                <website>http://www.goiam.org/</website>
+                <dbpedia>http://dbpedia.org/resource/International_Association_of_Machinists_and_Aerospace_Workers</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03dytp</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.239555</relevance>
-            <count>2</count>
-            <text>Kwajalein Island</text>
-            <disambiguated>
-                <name>Kwajalein Atoll</name>
-                <subType>Location</subType>
-                <subType>IslandGroup</subType>
-                <geo>8.716666666666667 167.73333333333332</geo>
-                <dbpedia>http://dbpedia.org/resource/Kwajalein_Atoll</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c_f8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235943</relevance>
-            <count>2</count>
-            <text>Dr. Loren K. Eiseley</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.234903</relevance>
-            <count>1</count>
-            <text>Air Force Office of Scientific Research</text>
-            <disambiguated>
-                <name>Air Force Research Laboratory</name>
-                <website>http://www.wpafb.af.mil/AFRL/</website>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Research_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.039h7m</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Research_Laboratory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.231143</relevance>
-            <count>1</count>
-            <text>Air Force Element</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.229357</relevance>
-            <count>1</count>
-            <text>Atlas F icbm</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.228386</relevance>
+            <relevance>0.284359</relevance>
             <count>1</count>
             <text>American Meteorological Society</text>
             <disambiguated>
@@ -429,115 +339,172 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.28404</relevance>
+            <count>1</count>
+            <text>Soviet Air Force</text>
+            <disambiguated>
+                <name>Soviet Air Forces</name>
+                <subType>ArmedForce</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Air_Forces</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01hg2h</freebase>
+                <yago>http://yago-knowledge.org/resource/Soviet_Air_Forces</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.28342</relevance>
+            <count>3</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.281845</relevance>
+            <count>3</count>
+            <text>Prof. Robert Ascher</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.281157</relevance>
+            <count>2</count>
+            <text>American Association</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.277638</relevance>
+            <count>4</count>
+            <text>New York City</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.27696</relevance>
+            <count>2</count>
+            <text>International Business Machine</text>
+            <disambiguated>
+                <name>IBM</name>
+                <subType>SoftwareLicense</subType>
+                <subType>OperatingSystemDeveloper</subType>
+                <subType>ProcessorManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>CompanyFounder</subType>
+                <subType>ProgrammingLanguageDesigner</subType>
+                <subType>ProgrammingLanguageDeveloper</subType>
+                <website>http://www.ibm.com/</website>
+                <dbpedia>http://dbpedia.org/resource/IBM</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03sc8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMoJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/IBM</yago>
+                <crunchbase>http://www.crunchbase.com/company/ibm</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.273746</relevance>
+            <count>2</count>
+            <text>Kwajalein Island</text>
+            <disambiguated>
+                <name>Kwajalein Atoll</name>
+                <subType>Location</subType>
+                <subType>IslandGroup</subType>
+                <geo>8.716666666666667 167.73333333333332</geo>
+                <dbpedia>http://dbpedia.org/resource/Kwajalein_Atoll</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c_f8</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.272402</relevance>
+            <count>1</count>
+            <text>North American Aviation Space</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.27046</relevance>
+            <count>1</count>
+            <text>American Helicopter Society</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.266607</relevance>
+            <count>1</count>
+            <text>Gen. Robert R. Williams</text>
+            <disambiguated>
+                <name>Robert R. Williams</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_R._Williams</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0280byh</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_R._Williams</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265442</relevance>
+            <count>1</count>
+            <text>Vandenberg afb.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.264206</relevance>
+            <count>2</count>
+            <text>Air Force Cambridge Research Laboratories</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.264132</relevance>
+            <count>1</count>
+            <text>American Institute of Physics</text>
+            <disambiguated>
+                <name>American Institute of Physics</name>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>PeriodicalPublisher</subType>
+                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Physics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06sk5w</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Institute_of_Physics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.263941</relevance>
+            <count>1</count>
+            <text>Sikorsky Aircraft</text>
+            <disambiguated>
+                <name>Sikorsky Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.sikorsky.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Sikorsky_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01ncxn</freebase>
+                <yago>http://yago-knowledge.org/resource/Sikorsky_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.260419</relevance>
+            <count>2</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
             <type>Region</type>
-            <relevance>0.228321</relevance>
+            <relevance>0.259258</relevance>
             <count>2</count>
             <text>Pacific</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.227865</relevance>
-            <count>1</count>
-            <text>U.S. Department of State</text>
-            <disambiguated>
-                <name>United States Department of State</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>AppointedRole</subType>
-                <website>http://www.state.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_State</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07vsl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvXeGY5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_State</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.227692</relevance>
-            <count>1</count>
-            <text>American Airlines</text>
-            <disambiguated>
-                <name>American Airlines</name>
-                <subType>Airline</subType>
-                <website>http://www.aa.com/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Airlines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0z07</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1WypwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/American_Airlines</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227112</relevance>
-            <count>1</count>
-            <text>U.S. Army</text>
-            <disambiguated>
-                <name>United States Army</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <subType>VideoGamePublisher</subType>
-                <website>http://www.army.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Army</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wh1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyd5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Army</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.222567</relevance>
-            <count>1</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.221249</relevance>
-            <count>1</count>
-            <text>American Management Association</text>
-            <disambiguated>
-                <name>American Management Association</name>
-                <dbpedia>http://dbpedia.org/resource/American_Management_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04f0qqh</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.220653</relevance>
-            <count>1</count>
-            <text>nih</text>
-            <disambiguated>
-                <name>National Institutes of Health</name>
-                <subType>GovernmentAgency</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>39.000443 -77.102394</geo>
-                <website>http://www.nih.gov/news/radio/nihpodcast.htm</website>
-                <dbpedia>http://dbpedia.org/resource/National_Institutes_of_Health</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0chvn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvoU9nZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Institutes_of_Health</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.21907</relevance>
-            <count>2</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.216459</relevance>
-            <count>2</count>
-            <text>officer</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.215482</relevance>
-            <count>1</count>
-            <text>mit. usaf Atlas E</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.215133</relevance>
+            <relevance>0.258877</relevance>
             <count>2</count>
             <text>General Dynamics</text>
             <disambiguated>
@@ -552,19 +519,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.215025</relevance>
+            <type>JobTitle</type>
+            <relevance>0.258691</relevance>
+            <count>2</count>
+            <text>Chief of Staff</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.257794</relevance>
+            <count>2</count>
+            <text>Dr. Loren K. Eiseley</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.256236</relevance>
             <count>1</count>
-            <text>North American Aviation</text>
+            <text>Aviatrix Jerrie Cobb</text>
             <disambiguated>
-                <name>North American Aviation</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/North_American_Aviation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gcl8</freebase>
-                <yago>http://yago-knowledge.org/resource/North_American_Aviation</yago>
+                <name>Jerrie Cobb</name>
+                <dbpedia>http://dbpedia.org/resource/Jerrie_Cobb</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03twch</freebase>
+                <yago>http://yago-knowledge.org/resource/Jerrie_Cobb</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.255741</relevance>
+            <count>1</count>
+            <text>Space and Information Division of North American Aviation</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.252568</relevance>
+            <count>1</count>
+            <text>Minuteman icbm</text>
         </entity>
     </entities>
 </results>

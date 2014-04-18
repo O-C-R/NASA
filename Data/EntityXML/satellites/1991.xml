@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.893862</relevance>
+            <relevance>0.891712</relevance>
             <count>47</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,23 +28,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.448633</relevance>
-            <count>14</count>
+            <type>PrintMedia</type>
+            <relevance>0.513513</relevance>
+            <count>15</count>
             <text>AP</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.426103</relevance>
+            <relevance>0.425561</relevance>
             <count>14</count>
             <text>United States</text>
             <disambiguated>
@@ -64,7 +55,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.402745</relevance>
+            <relevance>0.407279</relevance>
             <count>14</count>
             <text>New York Times</text>
             <disambiguated>
@@ -82,15 +73,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.401589</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.406078</relevance>
             <count>9</count>
             <text>UPI</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.372023</relevance>
-            <count>11</count>
+            <relevance>0.33028</relevance>
+            <count>10</count>
             <text>National Oceanic and Atmospheric Administration</text>
             <disambiguated>
                 <name>National Oceanic and Atmospheric Administration</name>
@@ -101,20 +92,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.312901</relevance>
-            <count>2</count>
-            <text>Infrared Astronomical Satellite</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.309786</relevance>
+            <relevance>0.322785</relevance>
             <count>2</count>
             <text>communications satellite</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.319204</relevance>
+            <count>2</count>
+            <text>Upper Atmosphere Research Satellite</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.302541</relevance>
+            <count>2</count>
+            <text>Infrared Astronomical Satellite</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.295564</relevance>
+            <count>5</count>
+            <text>Japan</text>
+            <disambiguated>
+                <name>Empire of Japan</name>
+                <subType>Location</subType>
+                <subType>Kingdom</subType>
+                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
+                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.295519</relevance>
+            <relevance>0.295215</relevance>
             <count>9</count>
             <text>The Los Angeles Times</text>
             <disambiguated>
@@ -130,20 +141,56 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.286305</relevance>
-            <count>1</count>
-            <text>Data Relay Satellite</text>
+            <type>PrintMedia</type>
+            <relevance>0.291087</relevance>
+            <count>8</count>
+            <text>The Wall Street Journal</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.285174</relevance>
-            <count>2</count>
-            <text>Upper Atmosphere Research Satellite</text>
+            <type>JobTitle</type>
+            <relevance>0.284727</relevance>
+            <count>4</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.267501</relevance>
+            <count>3</count>
+            <text>Discovery</text>
+            <disambiguated>
+                <name>Discovery Communications</name>
+                <subType>AwardWinner</subType>
+                <website>http://corporate.discovery.com</website>
+                <dbpedia>http://dbpedia.org/resource/Discovery_Communications</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.033709</freebase>
+                <yago>http://yago-knowledge.org/resource/Discovery_Communications</yago>
+                <crunchbase>http://www.crunchbase.com/company/discoverycommunications</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.26719</relevance>
+            <count>1</count>
+            <text>satellite service</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.26201</relevance>
+            <count>1</count>
+            <text>Navstar Global Positioning Satellite Systems</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.263364</relevance>
+            <relevance>0.255922</relevance>
             <count>3</count>
             <text>Defense Department</text>
             <disambiguated>
@@ -160,99 +207,78 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.258653</relevance>
-            <count>8</count>
-            <text>The Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.25797</relevance>
-            <count>1</count>
-            <text>satellite service</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.254804</relevance>
-            <count>1</count>
-            <text>Geostationary Operational Environmental Satellite</text>
+            <type>Organization</type>
+            <relevance>0.247596</relevance>
+            <count>3</count>
+            <text>Pentagon</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.247708</relevance>
-            <count>1</count>
-            <text>Navstar Global Positioning Satellite Systems</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.245777</relevance>
+            <relevance>0.241271</relevance>
             <count>4</count>
             <text>USA Today</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.243894</relevance>
-            <count>5</count>
-            <text>Japan</text>
+            <type>Facility</type>
+            <relevance>0.240163</relevance>
+            <count>1</count>
+            <text>Geostationary Operational Environmental Satellite</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.240284</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.237236</relevance>
             <count>1</count>
-            <text>AP</text>
+            <text>Satellite System</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.229336</relevance>
+            <count>2</count>
+            <text>Europe</text>
             <disambiguated>
-                <name>The Great Atlantic &amp; Pacific Tea Company</name>
-                <website>http://www.aptea.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Great_Atlantic_&amp;_Pacific_Tea_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.037rt4</freebase>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.239671</relevance>
+            <type>Organization</type>
+            <relevance>0.229306</relevance>
             <count>4</count>
-            <text>scientist</text>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.235981</relevance>
-            <count>2</count>
-            <text>Allan Bromley</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.235745</relevance>
-            <count>2</count>
-            <text>Commercial Development of Space</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.233695</relevance>
-            <count>2</count>
-            <text>Soviet Union</text>
+            <relevance>0.229181</relevance>
+            <count>1</count>
+            <text>Rick Howard</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>Rick Howard</name>
+                <subType>CompanyFounder</subType>
+                <subType>FilmProducer</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Rick_Howard</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.068_0l</freebase>
+                <yago>http://yago-knowledge.org/resource/Rick_Howard</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.228783</relevance>
+            <relevance>0.229168</relevance>
             <count>3</count>
             <text>Federal Communications Commission</text>
             <disambiguated>
@@ -267,88 +293,80 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.227675</relevance>
-            <count>1</count>
-            <text>Satellite System</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.223771</relevance>
+            <type>Organization</type>
+            <relevance>0.228505</relevance>
             <count>2</count>
-            <text>Europe</text>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.223195</relevance>
-            <count>2</count>
-            <text>Hughes Aircraft Company</text>
-            <disambiguated>
-                <name>Hughes Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.220653</relevance>
-            <count>3</count>
-            <text>Discovery</text>
-            <disambiguated>
-                <name>Discovery Communications</name>
-                <subType>AwardWinner</subType>
-                <website>http://corporate.discovery.com</website>
-                <dbpedia>http://dbpedia.org/resource/Discovery_Communications</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.033709</freebase>
-                <yago>http://yago-knowledge.org/resource/Discovery_Communications</yago>
-                <crunchbase>http://www.crunchbase.com/company/discoverycommunications</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.219974</relevance>
-            <count>1</count>
-            <text>British science journal Nature</text>
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.217328</relevance>
+            <relevance>0.226698</relevance>
+            <count>1</count>
+            <text>Data Relay Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.223007</relevance>
+            <count>2</count>
+            <text>CRRES</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219478</relevance>
+            <count>2</count>
+            <text>Howard Wolpe</text>
+            <disambiguated>
+                <name>Howard Wolpe</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Howard_Wolpe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04zr6n</freebase>
+                <yago>http://yago-knowledge.org/resource/Howard_Wolpe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.217839</relevance>
+            <count>1</count>
+            <text>Paul Hays</text>
+            <disambiguated>
+                <name>Paul Hays</name>
+                <dbpedia>http://dbpedia.org/resource/Paul_Hays</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.067mtl</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_Hays</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.217296</relevance>
             <count>2</count>
             <text>Ozone Mapping Spectrometer</text>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.213923</relevance>
-            <count>2</count>
-            <text>IUE</text>
+            <type>JobTitle</type>
+            <relevance>0.215022</relevance>
+            <count>1</count>
+            <text>Space Studies Board</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.211472</relevance>
-            <count>1</count>
-            <text>Washington Times</text>
-            <disambiguated>
-                <name>The Washington Times</name>
-                <subType>Company</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtontimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07qhs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r5oK-mhlAQdiYEfsxTW1S_Q</opencyc>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Times</yago>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.213684</relevance>
+            <count>2</count>
+            <text>Commercial Development of Space</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.210232</relevance>
+            <relevance>0.209847</relevance>
             <count>2</count>
             <text>Maryland</text>
             <disambiguated>
@@ -369,8 +387,50 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.208613</relevance>
+            <count>1</count>
+            <text>Telesat Canada</text>
+            <disambiguated>
+                <name>Telesat</name>
+                <dbpedia>http://dbpedia.org/resource/Telesat</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05d_g1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.208191</relevance>
+            <count>2</count>
+            <text>Hughes Aircraft Company</text>
+            <disambiguated>
+                <name>Hughes Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
+                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.207679</relevance>
+            <count>1</count>
+            <text>Radiation Effects</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.207572</relevance>
+            <count>1</count>
+            <text>power systems</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.205795</relevance>
+            <count>2</count>
+            <text>Atlantic</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.208158</relevance>
+            <relevance>0.203804</relevance>
             <count>1</count>
             <text>Pacific Ocean</text>
             <disambiguated>
@@ -385,104 +445,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.207657</relevance>
-            <count>3</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.206488</relevance>
-            <count>2</count>
-            <text>Department of Energy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.20639</relevance>
-            <count>1</count>
-            <text>President Bush</text>
-            <disambiguated>
-                <name>George H. W. Bush</name>
-                <subType>FilmCharacter</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>Appointer</subType>
-                <subType>BoardMember</subType>
-                <subType>ChivalricOrderMember</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <website>http://bushlibrary.tamu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/George_H._W._Bush</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.034ls</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUfpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/George_H._W._Bush</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.206061</relevance>
-            <count>1</count>
-            <text>Alaska</text>
-            <disambiguated>
-                <name>Alaska</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>64.0 -153.0</geo>
-                <website>http://www.alaska.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Alaska</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.205402</relevance>
-            <count>2</count>
-            <text>Poker Flat</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.205269</relevance>
-            <count>1</count>
-            <text>Hughes Communications</text>
-            <disambiguated>
-                <name>Hughes Communications</name>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Communications</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02868rb</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Communications</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.20174</relevance>
-            <count>1</count>
-            <text>GE Americom</text>
-            <disambiguated>
-                <name>SES Americom</name>
-                <website>http://www.ses-americom.com/</website>
-                <dbpedia>http://dbpedia.org/resource/SES_Americom</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07c31_</freebase>
-                <yago>http://yago-knowledge.org/resource/SES_Americom</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.199063</relevance>
-            <count>1</count>
-            <text>Glenn Olds</text>
-        </entity>
-        <entity>
             <type>Region</type>
-            <relevance>0.198171</relevance>
+            <relevance>0.201003</relevance>
             <count>1</count>
             <text>Caribbean</text>
             <disambiguated>
@@ -495,78 +459,76 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.19814</relevance>
-            <count>2</count>
-            <text>Atlantic</text>
+            <type>FieldTerminology</type>
+            <relevance>0.199324</relevance>
+            <count>1</count>
+            <text>solar radiation</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.197208</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.199283</relevance>
             <count>1</count>
-            <text>Department of Commerce and Economic Development</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.194767</relevance>
-            <count>1</count>
-            <text>DPA</text>
-            <disambiguated>
-                <name>Drug Policy Alliance</name>
-                <dbpedia>http://dbpedia.org/resource/Drug_Policy_Alliance</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.048h_7</freebase>
-                <yago>http://yago-knowledge.org/resource/Drug_Policy_Alliance</yago>
-            </disambiguated>
+            <text>navigation systems</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.194337</relevance>
+            <relevance>0.198825</relevance>
             <count>1</count>
-            <text>Florida Today</text>
-            <disambiguated>
-                <name>Florida Today</name>
-                <subType>Newspaper</subType>
-                <website>http://floridatoday.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
-                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.19306</relevance>
-            <count>1</count>
-            <text>Los Alamos National Laboratory</text>
-            <disambiguated>
-                <name>Los Alamos National Laboratory</name>
-                <subType>Location</subType>
-                <subType>OperatingSystemDeveloper</subType>
-                <geo>35.88166666666667 -106.29833333333333</geo>
-                <website>http://www.lanl.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Alamos_National_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09htk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rd8VQwOGRQdidN7zWo6fF0w</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Alamos_National_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5476844/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.192816</relevance>
-            <count>1</count>
-            <text>Atlantis</text>
+            <text>British science journal Nature</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.192657</relevance>
+            <relevance>0.198372</relevance>
             <count>1</count>
-            <text>TOMS</text>
+            <text>Federal Highway Administration</text>
             <disambiguated>
-                <name>TOMS Shoes</name>
-                <dbpedia>http://dbpedia.org/resource/TOMS_Shoes</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.053d95l</freebase>
-                <yago>http://yago-knowledge.org/resource/TOMS_Shoes</yago>
+                <name>Federal Highway Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.fhwa.dot.gov/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Highway_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04tzls</freebase>
+                <yago>http://yago-knowledge.org/resource/Federal_Highway_Administration</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196177</relevance>
+            <count>1</count>
+            <text>National Weather Service</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.195098</relevance>
+            <count>1</count>
+            <text>UARS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.195043</relevance>
+            <count>1</count>
+            <text>UARS</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.194884</relevance>
+            <count>1</count>
+            <text>Washington Times</text>
+            <disambiguated>
+                <name>The Washington Times</name>
+                <subType>Company</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtontimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07qhs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r5oK-mhlAQdiYEfsxTW1S_Q</opencyc>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.190969</relevance>
+            <count>1</count>
+            <text>Anik</text>
         </entity>
     </entities>
 </results>

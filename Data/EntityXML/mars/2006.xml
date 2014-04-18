@@ -6,14 +6,8 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Facility</type>
-            <relevance>0.90869</relevance>
-            <count>4</count>
-            <text>Mars Reconnaissance Orbiter</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.795113</relevance>
+            <relevance>0.929354</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -34,45 +28,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.913655</relevance>
+            <count>4</count>
+            <text>Mars Reconnaissance Orbiter</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.458578</relevance>
+            <relevance>0.577169</relevance>
             <count>2</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.389121</relevance>
+            <relevance>0.387743</relevance>
             <count>4</count>
             <text>MRO</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.26818</relevance>
-            <count>2</count>
-            <text>MGS</text>
-            <disambiguated>
-                <name>School</name>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.254627</relevance>
+            <relevance>0.258134</relevance>
             <count>1</count>
             <text>MRO</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.257386</relevance>
+            <count>2</count>
+            <text>MGS</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.200144</relevance>
+            <relevance>0.244628</relevance>
             <count>1</count>
             <text>MGS</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.188071</relevance>
+            <relevance>0.219416</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -91,7 +84,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.17005</relevance>
+            <relevance>0.207659</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -107,30 +100,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.164379</relevance>
+            <type>Person</type>
+            <relevance>0.189413</relevance>
             <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
+            <text>Thomas H. Maugh II</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.157847</relevance>
+            <relevance>0.184154</relevance>
             <count>1</count>
             <text>Damian Carrington</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.157545</relevance>
+            <relevance>0.183803</relevance>
             <count>1</count>
             <text>U.S</text>
             <disambiguated>
@@ -150,31 +133,41 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.154881</relevance>
+            <relevance>0.180694</relevance>
             <count>1</count>
             <text>Warren E. Leary</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.180567</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.154573</relevance>
+            <relevance>0.180335</relevance>
             <count>1</count>
             <text>Project Manager</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.154418</relevance>
-            <count>1</count>
-            <text>Thomas H. Maugh II</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.153582</relevance>
+            <relevance>0.179179</relevance>
             <count>1</count>
             <text>James Graf</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.150095</relevance>
+            <relevance>0.175111</relevance>
             <count>1</count>
             <text>New Scientist</text>
         </entity>

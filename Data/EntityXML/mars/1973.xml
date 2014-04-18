@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.780133</relevance>
+            <relevance>0.851476</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,8 +29,8 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.422479</relevance>
-            <count>3</count>
+            <relevance>0.499494</relevance>
+            <count>4</count>
             <text>U.S.S.R.</text>
             <disambiguated>
                 <name>Soviet Union</name>
@@ -43,14 +43,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.402791</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.37532</relevance>
             <count>1</count>
-            <text>NASA Associate Administrator for Space Sciences</text>
+            <text>Martian Grand Canyon</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.365785</relevance>
+            <relevance>0.36247</relevance>
             <count>2</count>
             <text>Cal Tech</text>
             <disambiguated>
@@ -68,19 +68,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.364521</relevance>
-            <count>1</count>
-            <text>Dr. Conway B. Leovy</text>
-            <disambiguated>
-                <name>Conway B. Leovy</name>
-                <dbpedia>http://dbpedia.org/resource/Conway_B._Leovy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04n1qm_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.352066</relevance>
+            <relevance>0.359935</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -99,46 +88,75 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.333765</relevance>
+            <type>JobTitle</type>
+            <relevance>0.353739</relevance>
             <count>1</count>
-            <text>California Institute of Technology</text>
-            <disambiguated>
-                <name>California Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.138577 -118.125494</geo>
-                <website>http://www.caltech.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
-                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/6331816/</geonames>
-            </disambiguated>
+            <text>NASA Associate Administrator for Space Sciences</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.328879</relevance>
+            <relevance>0.339529</relevance>
             <count>1</count>
-            <text>Dr. John E. Naugle</text>
+            <text>Tritonis Lacus</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.325042</relevance>
+            <type>Person</type>
+            <relevance>0.330851</relevance>
             <count>1</count>
-            <text>Mexico Univ.</text>
+            <text>Dr. Conway B. Leovy</text>
+            <disambiguated>
+                <name>Conway B. Leovy</name>
+                <dbpedia>http://dbpedia.org/resource/Conway_B._Leovy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04n1qm_</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.324628</relevance>
+            <relevance>0.323472</relevance>
             <count>1</count>
-            <text>Martian Grand Canyon</text>
+            <text>Chryse valley</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.317885</relevance>
+            <count>1</count>
+            <text>Interplanetary Exploration</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.317142</relevance>
+            <count>1</count>
+            <text>Alba</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.31424</relevance>
+            <count>1</count>
+            <text>Mare Acidalium</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.311741</relevance>
+            <count>1</count>
+            <text>United Press International</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.310295</relevance>
+            <count>1</count>
+            <text>Cydonia</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.317619</relevance>
+            <relevance>0.303721</relevance>
             <count>1</count>
             <text>NYT</text>
             <disambiguated>
@@ -157,93 +175,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.317415</relevance>
-            <count>1</count>
-            <text>Univ. of Washington</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.316889</relevance>
-            <count>1</count>
-            <text>geologist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.316606</relevance>
-            <count>1</count>
-            <text>Dr. Bradford A. Smith</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.316133</relevance>
-            <count>1</count>
-            <text>Jane&#x2019;s Surface Skimmers</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.311761</relevance>
-            <count>1</count>
-            <text>Murray</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.305227</relevance>
-            <count>1</count>
-            <text>Interplanetary Exploration</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.296741</relevance>
-            <count>1</count>
-            <text>Tritonis Lacus</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.294898</relevance>
-            <count>1</count>
-            <text>United Press International</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.293107</relevance>
-            <count>1</count>
-            <text>Univ. of Colorado</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.290647</relevance>
-            <count>1</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.289558</relevance>
-            <count>1</count>
-            <text>Malin</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.288946</relevance>
+            <relevance>0.301643</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -257,20 +189,118 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.300746</relevance>
+            <count>1</count>
+            <text>Jane&#x2019;s Surface Skimmers</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.284662</relevance>
+            <relevance>0.299996</relevance>
             <count>1</count>
             <text>Academician Georgy I. Petrov</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.283885</relevance>
+            <relevance>0.297478</relevance>
+            <count>1</count>
+            <text>Barth</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.290396</relevance>
+            <count>1</count>
+            <text>Dr. John E. Naugle</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289835</relevance>
+            <count>1</count>
+            <text>Institute of Space Research</text>
+            <disambiguated>
+                <name>National Institute for Space Research</name>
+                <website>http://www.inpe.br</website>
+                <dbpedia>http://dbpedia.org/resource/National_Institute_for_Space_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06wc7k_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289343</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.28665</relevance>
+            <count>1</count>
+            <text>Office of Space Science</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.284595</relevance>
+            <count>1</count>
+            <text>Univ. of Washington</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.28184</relevance>
+            <count>1</count>
+            <text>Deputy Director of Planetary Programs</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.280132</relevance>
+            <count>1</count>
+            <text>California Institute of Technology</text>
+            <disambiguated>
+                <name>California Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.138577 -118.125494</geo>
+                <website>http://www.caltech.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
+                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/6331816/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.276878</relevance>
+            <count>1</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.276792</relevance>
+            <count>1</count>
+            <text>Baykonur Cosmodrome</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.276079</relevance>
+            <count>1</count>
+            <text>geologist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275832</relevance>
+            <count>1</count>
+            <text>Dr. Bradford A. Smith</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275696</relevance>
             <count>1</count>
             <text>Gen. Georgy T. Reregovoy</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.280863</relevance>
+            <relevance>0.273119</relevance>
             <count>1</count>
             <text>Warsaw</text>
             <disambiguated>
@@ -283,37 +313,31 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.280309</relevance>
+            <relevance>0.271278</relevance>
             <count>1</count>
-            <text>Barth</text>
+            <text>Dr. S. Ichtiaque Rasool</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.275571</relevance>
+            <type>JobTitle</type>
+            <relevance>0.270882</relevance>
             <count>1</count>
-            <text>Alba</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.275014</relevance>
-            <count>1</count>
-            <text>Institute of Space Research</text>
-            <disambiguated>
-                <name>National Institute for Space Research</name>
-                <website>http://www.inpe.br</website>
-                <dbpedia>http://dbpedia.org/resource/National_Institute_for_Space_Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06wc7k_</freebase>
-            </disambiguated>
+            <text>Editor</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.274083</relevance>
+            <relevance>0.269855</relevance>
             <count>1</count>
-            <text>Office of Space Science</text>
+            <text>Univ. of Colorado</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265086</relevance>
+            <count>1</count>
+            <text>Roy Mc-Leavy</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.272524</relevance>
+            <relevance>0.264825</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -325,111 +349,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.272407</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.271783</relevance>
-            <count>1</count>
-            <text>Mare Acidalium</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.269489</relevance>
-            <count>1</count>
-            <text>Deputy Director of Planetary Programs</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.26872</relevance>
-            <count>1</count>
-            <text>Chryse valley</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.268376</relevance>
-            <count>1</count>
-            <text>Cydonia</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.26651</relevance>
-            <count>1</count>
-            <text>Editor</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.264894</relevance>
-            <count>1</count>
-            <text>France</text>
-            <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263433</relevance>
-            <count>1</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.260598</relevance>
-            <count>1</count>
-            <text>Roy Mc-Leavy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.259392</relevance>
-            <count>1</count>
-            <text>Dr. S. Ichtiaque Rasool</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.255472</relevance>
-            <count>1</count>
-            <text>commander</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.254368</relevance>
-            <count>1</count>
-            <text>Baykonur Cosmodrome</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.249705</relevance>
+            <relevance>0.263845</relevance>
             <count>1</count>
             <text>Director</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.249498</relevance>
+            <relevance>0.254051</relevance>
             <count>1</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -444,14 +371,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.247809</relevance>
+            <type>Organization</type>
+            <relevance>0.247848</relevance>
             <count>1</count>
-            <text>Daily News</text>
+            <text>New Mexico Univ.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.247735</relevance>
+            <count>1</count>
+            <text>commander</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.242492</relevance>
+            <relevance>0.246921</relevance>
             <count>1</count>
             <text>American Geophysical Union</text>
             <disambiguated>
@@ -465,8 +398,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.244131</relevance>
+            <count>1</count>
+            <text>France</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.240291</relevance>
+            <count>1</count>
+            <text>Murray</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.240092</relevance>
+            <count>1</count>
+            <text>Daily News</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.231392</relevance>
+            <relevance>0.235851</relevance>
             <count>1</count>
             <text>American Astronautical Society</text>
             <disambiguated>
@@ -476,6 +427,12 @@
                 <freebase>http://rdf.freebase.com/ns/m.0859bk</freebase>
                 <yago>http://yago-knowledge.org/resource/American_Astronautical_Society</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.217316</relevance>
+            <count>1</count>
+            <text>Malin</text>
         </entity>
     </entities>
 </results>

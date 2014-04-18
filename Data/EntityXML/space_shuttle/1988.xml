@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.818147</relevance>
+            <relevance>0.877692</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,20 +28,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.422488</relevance>
-            <count>3</count>
-            <text>Spacehab</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.360572</relevance>
+            <relevance>0.429386</relevance>
             <count>1</count>
             <text>Launch Complex</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.416868</relevance>
+            <count>3</count>
+            <text>Spacehab</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.344072</relevance>
+            <relevance>0.404176</relevance>
             <count>1</count>
             <text>Kennedy Space Center</text>
             <disambiguated>
@@ -58,64 +58,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.327841</relevance>
-            <count>1</count>
-            <text>Space Report</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.297715</relevance>
+            <relevance>0.292287</relevance>
             <count>1</count>
             <text>Commercial Space Initiative</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.29311</relevance>
-            <count>2</count>
-            <text>Department of Defense</text>
+            <type>JobTitle</type>
+            <relevance>0.289742</relevance>
+            <count>1</count>
+            <text>Space Report</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.292744</relevance>
+            <relevance>0.287124</relevance>
             <count>1</count>
             <text>Spacehab, Inc.</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.285791</relevance>
-            <count>2</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.277874</relevance>
-            <count>1</count>
-            <text>SLF</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.271226</relevance>
+            <relevance>0.280751</relevance>
             <count>1</count>
             <text>FRF</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.257303</relevance>
+            <type>JobTitle</type>
+            <relevance>0.268981</relevance>
+            <count>2</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.25994</relevance>
             <count>1</count>
-            <text>Inc.</text>
-            <disambiguated>
-                <name>Inc. (magazine)</name>
-                <subType>Magazine</subType>
-                <website>http://www.inc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Inc._(magazine)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07lc0_</freebase>
-                <yago>http://yago-knowledge.org/resource/Inc._(magazine)</yago>
-            </disambiguated>
+            <text>McDonnell Douglas Astronautics Company</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.254461</relevance>
+            <relevance>0.258053</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -134,7 +114,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.250688</relevance>
+            <relevance>0.254385</relevance>
             <count>1</count>
             <text>WSJ</text>
             <disambiguated>
@@ -148,20 +128,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.240984</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas Astronautics Company</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.240103</relevance>
-            <count>1</count>
-            <text>Florida</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.235213</relevance>
+            <relevance>0.252092</relevance>
             <count>1</count>
             <text>Huntsville</text>
             <disambiguated>
@@ -176,26 +144,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.231532</relevance>
-            <count>1</count>
-            <text>midMarch</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.23116</relevance>
-            <count>1</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.227862</relevance>
-            <count>1</count>
-            <text>Kennedy</text>
+            <type>Organization</type>
+            <relevance>0.247143</relevance>
+            <count>2</count>
+            <text>Department of Defense</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.22151</relevance>
+            <relevance>0.238143</relevance>
             <count>1</count>
             <text>Alabama</text>
             <disambiguated>
@@ -217,19 +173,77 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.219742</relevance>
+            <relevance>0.236392</relevance>
+            <count>1</count>
+            <text>SLF</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.236354</relevance>
+            <count>1</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.235883</relevance>
+            <count>1</count>
+            <text>Kennedy</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.224566</relevance>
+            <count>1</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.221944</relevance>
+            <count>1</count>
+            <text>Inc.</text>
+            <disambiguated>
+                <name>Inc. (magazine)</name>
+                <subType>Magazine</subType>
+                <website>http://www.inc.com</website>
+                <dbpedia>http://dbpedia.org/resource/Inc._(magazine)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07lc0_</freebase>
+                <yago>http://yago-knowledge.org/resource/Inc._(magazine)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.21573</relevance>
             <count>1</count>
             <text>Reagan administration</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.217375</relevance>
+            <relevance>0.213398</relevance>
             <count>1</count>
             <text>commercial applications</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.203982</relevance>
+            <relevance>0.211281</relevance>
+            <count>1</count>
+            <text>midMarch</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.200061</relevance>
             <count>1</count>
             <text>Shuttlebased</text>
         </entity>

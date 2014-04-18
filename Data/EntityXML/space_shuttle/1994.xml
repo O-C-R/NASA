@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.822944</relevance>
+            <relevance>0.880216</relevance>
             <count>43</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.502309</relevance>
+            <relevance>0.706697</relevance>
             <count>6</count>
             <text>Space Shuttle Columbia</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.414049</relevance>
+            <relevance>0.369745</relevance>
             <count>11</count>
             <text>Reuters</text>
             <disambiguated>
@@ -48,57 +48,50 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.356206</relevance>
+            <count>1</count>
+            <text>Space Shuttle orbiters</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.352097</relevance>
+            <count>1</count>
+            <text>Shuttle Columbia</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.359141</relevance>
+            <relevance>0.345168</relevance>
             <count>11</count>
             <text>AP</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.306266</relevance>
-            <count>8</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.300271</relevance>
-            <count>1</count>
-            <text>Space Shuttle orbiters</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.293528</relevance>
-            <count>1</count>
-            <text>Shuttle Columbia</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.288002</relevance>
+            <relevance>0.31725</relevance>
             <count>2</count>
             <text>Shuttle Discovery</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.271325</relevance>
-            <count>5</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
+            <relevance>0.316988</relevance>
+            <count>1</count>
+            <text>Shuttle Columbia</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.295453</relevance>
+            <count>6</count>
+            <text>Ulysses</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.29059</relevance>
+            <count>8</count>
+            <text>USA Today</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.245626</relevance>
+            <relevance>0.279181</relevance>
             <count>5</count>
             <text>California</text>
             <disambiguated>
@@ -119,14 +112,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.243057</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.2751</relevance>
+            <count>5</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.266552</relevance>
             <count>1</count>
             <text>Shuttle Columbia</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.236127</relevance>
+            <relevance>0.261812</relevance>
             <count>3</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -144,26 +156,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.231927</relevance>
-            <count>1</count>
-            <text>Shuttle Columbia</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.228338</relevance>
+            <relevance>0.24257</relevance>
             <count>1</count>
             <text>NASA Associate Administrator for Public Affairs</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.221869</relevance>
-            <count>6</count>
-            <text>Ulysses</text>
+            <type>Company</type>
+            <relevance>0.213671</relevance>
+            <count>1</count>
+            <text>Rockwell International Space Systems Division</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.202777</relevance>
+            <count>1</count>
+            <text>Columbia</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.186869</relevance>
+            <relevance>0.199508</relevance>
             <count>2</count>
             <text>Rockwell International Corporation</text>
             <disambiguated>
@@ -177,153 +189,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.179295</relevance>
-            <count>1</count>
-            <text>Rockwell International Space Systems Division</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.177955</relevance>
-            <count>2</count>
-            <text>Palmdale</text>
-            <disambiguated>
-                <name>Palmdale, California</name>
-                <geo>34.57944444444445 -118.11666666666666</geo>
-                <website>http://www.cityofpalmdale.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Palmdale,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r0r4</freebase>
-                <yago>http://yago-knowledge.org/resource/Palmdale,_California</yago>
-                <geonames>http://sws.geonames.org/5380698/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.172244</relevance>
-            <count>1</count>
-            <text>National Institutes of Health</text>
-            <disambiguated>
-                <name>National Institutes of Health</name>
-                <subType>GovernmentAgency</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>39.000443 -77.102394</geo>
-                <website>http://www.nih.gov/news/radio/nihpodcast.htm</website>
-                <dbpedia>http://dbpedia.org/resource/National_Institutes_of_Health</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0chvn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvoU9nZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Institutes_of_Health</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.171621</relevance>
-            <count>2</count>
-            <text>Sen Star</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.170666</relevance>
-            <count>1</count>
-            <text>French Space Agency</text>
-            <disambiguated>
-                <name>CNES</name>
-                <subType>Company</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/CNES</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.024fy1</freebase>
-                <yago>http://yago-knowledge.org/resource/CNES</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.17061</relevance>
-            <count>1</count>
-            <text>Canadian Space Agency</text>
-            <disambiguated>
-                <name>Canadian Space Agency</name>
-                <website>http://www.space.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canadian_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wjhc</freebase>
-                <yago>http://yago-knowledge.org/resource/Canadian_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.167437</relevance>
-            <count>1</count>
-            <text>U.S. Microgravity Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16388</relevance>
-            <count>1</count>
-            <text>National Space Development Agency of Japan</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.163765</relevance>
-            <count>1</count>
-            <text>Columbia</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.16119</relevance>
-            <count>1</count>
-            <text>Pratt &amp; Whitney</text>
-            <disambiguated>
-                <name>Pratt &amp; Whitney</name>
-                <subType>CompanyDivision</subType>
-                <subType>RocketEngineDesigner</subType>
-                <website>http://www.pw.utc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
-                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.156283</relevance>
-            <count>2</count>
-            <text>Lockheed</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.153726</relevance>
-            <count>1</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.153054</relevance>
+            <relevance>0.197253</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -342,31 +209,170 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.149691</relevance>
-            <count>1</count>
-            <text>16-day Microgravity Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.144984</relevance>
-            <count>1</count>
-            <text>Ukrainian Universal Hand Tool</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.141655</relevance>
-            <count>1</count>
-            <text>George Diller</text>
+            <type>StateOrCounty</type>
+            <relevance>0.19126</relevance>
+            <count>2</count>
+            <text>Michigan</text>
             <disambiguated>
-                <name>George Diller</name>
-                <dbpedia>http://dbpedia.org/resource/George_Diller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02w2pkq</freebase>
+                <name>Michigan</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.michigan.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Michigan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04rrx</freebase>
+                <yago>http://yago-knowledge.org/resource/Michigan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.19017</relevance>
+            <count>2</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Martin Aeronautics</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Aeronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04z0wr</freebase>
+                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Aeronautics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.189844</relevance>
+            <count>1</count>
+            <text>French Space Agency</text>
+            <disambiguated>
+                <name>CNES</name>
+                <subType>Company</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/CNES</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.024fy1</freebase>
+                <yago>http://yago-knowledge.org/resource/CNES</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.189779</relevance>
+            <count>1</count>
+            <text>Canadian Space Agency</text>
+            <disambiguated>
+                <name>Canadian Space Agency</name>
+                <website>http://www.space.gc.ca</website>
+                <dbpedia>http://dbpedia.org/resource/Canadian_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wjhc</freebase>
+                <yago>http://yago-knowledge.org/resource/Canadian_Space_Agency</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.140693</relevance>
+            <relevance>0.188564</relevance>
+            <count>2</count>
+            <text>Palmdale</text>
+            <disambiguated>
+                <name>Palmdale, California</name>
+                <geo>34.57944444444445 -118.11666666666666</geo>
+                <website>http://www.cityofpalmdale.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Palmdale,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r0r4</freebase>
+                <yago>http://yago-knowledge.org/resource/Palmdale,_California</yago>
+                <geonames>http://sws.geonames.org/5380698/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.182001</relevance>
+            <count>1</count>
+            <text>National Space Development Agency of Japan</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.179856</relevance>
+            <count>2</count>
+            <text>Sen Star</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.170512</relevance>
+            <count>1</count>
+            <text>National Institutes of Health</text>
+            <disambiguated>
+                <name>National Institutes of Health</name>
+                <subType>GovernmentAgency</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>39.000443 -77.102394</geo>
+                <website>http://www.nih.gov/news/radio/nihpodcast.htm</website>
+                <dbpedia>http://dbpedia.org/resource/National_Institutes_of_Health</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0chvn</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvoU9nZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Institutes_of_Health</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.16776</relevance>
+            <count>1</count>
+            <text>Pratt &amp; Whitney</text>
+            <disambiguated>
+                <name>Pratt &amp; Whitney</name>
+                <subType>CompanyDivision</subType>
+                <subType>RocketEngineDesigner</subType>
+                <website>http://www.pw.utc.com</website>
+                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
+                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.167624</relevance>
+            <count>1</count>
+            <text>16-day Microgravity Laboratory</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.166351</relevance>
+            <count>1</count>
+            <text>Kalamazoo Gazette</text>
+            <disambiguated>
+                <name>Kalamazoo Gazette</name>
+                <subType>Newspaper</subType>
+                <website>http://www.mlive.com/kzgazette/</website>
+                <dbpedia>http://dbpedia.org/resource/Kalamazoo_Gazette</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mcm41</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.162323</relevance>
+            <count>1</count>
+            <text>Ukrainian Universal Hand Tool</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.162027</relevance>
+            <count>1</count>
+            <text>global warming</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.158432</relevance>
+            <count>1</count>
+            <text>Grand Rapids Press</text>
+            <disambiguated>
+                <name>The Grand Rapids Press</name>
+                <website>http://www.mlive.com/grpress/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Grand_Rapids_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04lms2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.157469</relevance>
             <count>1</count>
             <text>Kiev</text>
             <disambiguated>
@@ -383,19 +389,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.140314</relevance>
-            <count>1</count>
-            <text>Myron S. Malkin</text>
-            <disambiguated>
-                <name>Myron Samuel Malkin</name>
-                <dbpedia>http://dbpedia.org/resource/Myron_Samuel_Malkin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07r2sh</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.140016</relevance>
+            <relevance>0.156711</relevance>
             <count>1</count>
             <text>Ukraine</text>
             <disambiguated>
@@ -413,8 +408,113 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.154829</relevance>
+            <count>1</count>
+            <text>Downey</text>
+            <disambiguated>
+                <name>Downey, California</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>33.93805555555556 -118.13083333333333</geo>
+                <website>http://www.downeyca.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Downey,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r066</freebase>
+                <yago>http://yago-knowledge.org/resource/Downey,_California</yago>
+                <geonames>http://sws.geonames.org/5343858/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.153619</relevance>
+            <count>1</count>
+            <text>Russia</text>
+            <disambiguated>
+                <name>Russia</name>
+                <website>http://www.gov.ru/</website>
+                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Russia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.153577</relevance>
+            <count>1</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Martin Aeronautics</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Aeronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04z0wr</freebase>
+                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Aeronautics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.152339</relevance>
+            <count>1</count>
+            <text>mid-1996</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.152086</relevance>
+            <count>1</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.137193</relevance>
+            <relevance>0.150852</relevance>
+            <count>1</count>
+            <text>George Diller</text>
+            <disambiguated>
+                <name>George Diller</name>
+                <dbpedia>http://dbpedia.org/resource/George_Diller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02w2pkq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.150592</relevance>
+            <count>1</count>
+            <text>Paton Welding Institute</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.150448</relevance>
+            <count>1</count>
+            <text>Upper Peninsula</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.150403</relevance>
+            <count>1</count>
+            <text>Hiawatha National Forest</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.150192</relevance>
+            <count>1</count>
+            <text>U.S. Microgravity Laboratory</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.148623</relevance>
             <count>1</count>
             <text>Gene Roddenberry</text>
             <disambiguated>
@@ -438,40 +538,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.136345</relevance>
-            <count>1</count>
-            <text>Kalamazoo Gazette</text>
-            <disambiguated>
-                <name>Kalamazoo Gazette</name>
-                <subType>Newspaper</subType>
-                <website>http://www.mlive.com/kzgazette/</website>
-                <dbpedia>http://dbpedia.org/resource/Kalamazoo_Gazette</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mcm41</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.13483</relevance>
-            <count>1</count>
-            <text>Paton Welding Institute</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.134005</relevance>
-            <count>1</count>
-            <text>Jerry M. Linenger</text>
-            <disambiguated>
-                <name>Jerry M. Linenger</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Jerry_M._Linenger</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02wt45</freebase>
-                <yago>http://yago-knowledge.org/resource/Jerry_M._Linenger</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.133717</relevance>
+            <relevance>0.148429</relevance>
             <count>1</count>
             <text>WSJ</text>
             <disambiguated>
@@ -485,14 +552,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.133504</relevance>
-            <count>1</count>
-            <text>Rockwell Corporation</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.132364</relevance>
+            <relevance>0.148371</relevance>
             <count>1</count>
             <text>Kathryn C. Thornton</text>
             <disambiguated>
@@ -505,89 +566,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.131781</relevance>
-            <count>2</count>
-            <text>Michigan</text>
+            <type>Region</type>
+            <relevance>0.148194</relevance>
+            <count>1</count>
+            <text>Kamchatka</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.146753</relevance>
+            <count>1</count>
+            <text>U.S. government</text>
             <disambiguated>
-                <name>Michigan</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.michigan.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Michigan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04rrx</freebase>
-                <yago>http://yago-knowledge.org/resource/Michigan</yago>
+                <name>Federal government of the United States</name>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.131401</relevance>
-            <count>1</count>
-            <text>Antelope Valley</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.131297</relevance>
-            <count>1</count>
-            <text>global warming</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.130453</relevance>
-            <count>1</count>
-            <text>Russia</text>
-            <disambiguated>
-                <name>Russia</name>
-                <website>http://www.gov.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Russia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.130438</relevance>
-            <count>1</count>
-            <text>Downey</text>
-            <disambiguated>
-                <name>Downey, California</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>33.93805555555556 -118.13083333333333</geo>
-                <website>http://www.downeyca.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Downey,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r066</freebase>
-                <yago>http://yago-knowledge.org/resource/Downey,_California</yago>
-                <geonames>http://sws.geonames.org/5343858/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.129448</relevance>
-            <count>1</count>
-            <text>Grand Rapids Press</text>
-            <disambiguated>
-                <name>The Grand Rapids Press</name>
-                <website>http://www.mlive.com/grpress/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Grand_Rapids_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04lms2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.128622</relevance>
-            <count>1</count>
-            <text>Nigeria.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.128539</relevance>
-            <count>1</count>
-            <text>consultant</text>
         </entity>
     </entities>
 </results>

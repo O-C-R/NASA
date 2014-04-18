@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.911176</relevance>
+            <relevance>0.911362</relevance>
             <count>55</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.652163</relevance>
+            <relevance>0.52778</relevance>
             <count>29</count>
             <text>U.S.</text>
             <disambiguated>
@@ -49,7 +49,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.519494</relevance>
+            <relevance>0.517744</relevance>
             <count>14</count>
             <text>USSR</text>
             <disambiguated>
@@ -63,8 +63,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.442532</relevance>
+            <count>11</count>
+            <text>FBIS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.430739</relevance>
+            <count>12</count>
+            <text>NOAA</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.403282</relevance>
+            <count>6</count>
+            <text>ESA</text>
+            <disambiguated>
+                <name>Academy</name>
+                <website>http://www.academyofathens.gr/</website>
+                <dbpedia>http://dbpedia.org/resource/Academy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0134hp</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.492102</relevance>
+            <relevance>0.383656</relevance>
             <count>11</count>
             <text>INTELSAT</text>
             <disambiguated>
@@ -79,8 +110,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Technology</type>
+            <relevance>0.373362</relevance>
+            <count>6</count>
+            <text>Landsat</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.354704</relevance>
+            <count>8</count>
+            <text>AvWk</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.472552</relevance>
+            <relevance>0.353893</relevance>
             <count>11</count>
             <text>U.S. Navy</text>
             <disambiguated>
@@ -94,33 +137,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.443119</relevance>
-            <count>11</count>
-            <text>FBIS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.439841</relevance>
-            <count>13</count>
-            <text>NOAA</text>
+            <type>Company</type>
+            <relevance>0.348973</relevance>
+            <count>4</count>
+            <text>The Communications Satellite Corporation</text>
             <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+                <name>COMSAT</name>
+                <dbpedia>http://dbpedia.org/resource/COMSAT</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y3sw</freebase>
+                <yago>http://yago-knowledge.org/resource/COMSAT</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.374457</relevance>
-            <count>6</count>
-            <text>Landsat</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.372723</relevance>
+            <relevance>0.33651</relevance>
             <count>4</count>
             <text>Indian Ocean</text>
             <disambiguated>
@@ -135,67 +165,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.36219</relevance>
-            <count>8</count>
-            <text>AvWk</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.350316</relevance>
-            <count>7</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.348677</relevance>
-            <count>4</count>
-            <text>The Communications Satellite Corporation</text>
-            <disambiguated>
-                <name>COMSAT</name>
-                <dbpedia>http://dbpedia.org/resource/COMSAT</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07y3sw</freebase>
-                <yago>http://yago-knowledge.org/resource/COMSAT</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.33404</relevance>
-            <count>1</count>
-            <text>Telecommunications Satellite Organization</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.329666</relevance>
-            <count>1</count>
-            <text>Satellite Business Systems</text>
-            <disambiguated>
-                <name>Satellite Business Systems</name>
-                <dbpedia>http://dbpedia.org/resource/Satellite_Business_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06_40h</freebase>
-                <yago>http://yago-knowledge.org/resource/Satellite_Business_Systems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.326671</relevance>
-            <count>4</count>
-            <text>U.S. Air Force</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.324987</relevance>
+            <relevance>0.321143</relevance>
             <count>4</count>
             <text>Indonesia</text>
             <disambiguated>
@@ -211,40 +182,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.319253</relevance>
-            <count>5</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.309532</relevance>
-            <count>7</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.305392</relevance>
-            <count>6</count>
-            <text>Japan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.305051</relevance>
-            <count>6</count>
-            <text>ESA</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.303153</relevance>
+            <relevance>0.307599</relevance>
             <count>5</count>
             <text>Canada</text>
             <disambiguated>
@@ -265,76 +204,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.303096</relevance>
+            <relevance>0.306957</relevance>
             <count>3</count>
-            <text>Atmospheric Administration</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.302071</relevance>
-            <count>1</count>
-            <text>Sf Satellite Digest</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.295147</relevance>
-            <count>2</count>
-            <text>China</text>
-            <disambiguated>
-                <name>China</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>35.0 105.0</geo>
-                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.293965</relevance>
-            <count>4</count>
-            <text>Telesat Canada</text>
-            <disambiguated>
-                <name>Telesat</name>
-                <dbpedia>http://dbpedia.org/resource/Telesat</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05d_g1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.291209</relevance>
-            <count>1</count>
-            <text>International Telecommunications Satellite Organization</text>
-            <disambiguated>
-                <name>International Telecommunications Satellite Organization</name>
-                <dbpedia>http://dbpedia.org/resource/International_Telecommunications_Satellite_Organization</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.043txcw</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.289709</relevance>
-            <count>3</count>
-            <text>General Electric</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.281999</relevance>
-            <count>2</count>
             <text>GSFC</text>
             <disambiguated>
                 <name>Goddard Space Flight Center</name>
@@ -349,8 +220,200 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.305805</relevance>
+            <count>3</count>
+            <text>Atmospheric Administration</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.302438</relevance>
+            <count>4</count>
+            <text>U.S. Air Force</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.296543</relevance>
+            <count>1</count>
+            <text>International Telecommunications Satellite Organization</text>
+            <disambiguated>
+                <name>International Telecommunications Satellite Organization</name>
+                <dbpedia>http://dbpedia.org/resource/International_Telecommunications_Satellite_Organization</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.043txcw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.293783</relevance>
+            <count>2</count>
+            <text>RCA</text>
+            <disambiguated>
+                <name>RCA</name>
+                <subType>ProcessorManufacturer</subType>
+                <subType>RecordLabel</subType>
+                <dbpedia>http://dbpedia.org/resource/RCA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06gst</freebase>
+                <yago>http://yago-knowledge.org/resource/RCA</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.290905</relevance>
+            <count>3</count>
+            <text>General Electric</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.288708</relevance>
+            <count>3</count>
+            <text>RCA</text>
+            <disambiguated>
+                <name>RCA</name>
+                <subType>Company</subType>
+                <subType>ProcessorManufacturer</subType>
+                <subType>RecordLabel</subType>
+                <dbpedia>http://dbpedia.org/resource/RCA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06gst</freebase>
+                <yago>http://yago-knowledge.org/resource/RCA</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.284514</relevance>
+            <count>1</count>
+            <text>Telecommunications Satellite Organization</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.283211</relevance>
+            <count>3</count>
+            <text>Wall Street Journal</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.280013</relevance>
+            <count>5</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.279116</relevance>
+            <count>1</count>
+            <text>Satellite Service</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.276315</relevance>
+            <count>1</count>
+            <text>Comsat General Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.274352</relevance>
+            <count>4</count>
+            <text>Telesat Canada</text>
+            <disambiguated>
+                <name>Telesat</name>
+                <dbpedia>http://dbpedia.org/resource/Telesat</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05d_g1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.273003</relevance>
+            <count>2</count>
+            <text>Comsat General</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.272593</relevance>
+            <count>2</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.272251</relevance>
+            <count>3</count>
+            <text>Marisats</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.27213</relevance>
+            <count>3</count>
+            <text>Moscow Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.269573</relevance>
+            <count>1</count>
+            <text>Federal Communications Commission</text>
+            <disambiguated>
+                <name>Federal Communications Commission</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.fcc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Communications_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fjdq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rviTbqZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Communications_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.26855</relevance>
+            <count>7</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.278256</relevance>
+            <relevance>0.259873</relevance>
             <count>2</count>
             <text>Moscow</text>
             <disambiguated>
@@ -368,7 +431,141 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.276923</relevance>
+            <relevance>0.259804</relevance>
+            <count>2</count>
+            <text>Maine</text>
+            <disambiguated>
+                <name>Maine</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.maine.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Maine</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01m66t</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi9qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Maine</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.25923</relevance>
+            <count>1</count>
+            <text>Fleet Satellite Communications</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.259033</relevance>
+            <count>1</count>
+            <text>Satellite Business Systems</text>
+            <disambiguated>
+                <name>Satellite Business Systems</name>
+                <dbpedia>http://dbpedia.org/resource/Satellite_Business_Systems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06_40h</freebase>
+                <yago>http://yago-knowledge.org/resource/Satellite_Business_Systems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.257828</relevance>
+            <count>4</count>
+            <text>FCC</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.25713</relevance>
+            <count>1</count>
+            <text>Office of Naval Research</text>
+            <disambiguated>
+                <name>Office of Naval Research</name>
+                <dbpedia>http://dbpedia.org/resource/Office_of_Naval_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05n42g</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.256841</relevance>
+            <count>4</count>
+            <text>Cts</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255828</relevance>
+            <count>7</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.254111</relevance>
+            <count>2</count>
+            <text>Africa</text>
+            <disambiguated>
+                <name>Africa</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
+                <yago>http://yago-knowledge.org/resource/Africa</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.253299</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.251893</relevance>
+            <count>1</count>
+            <text>TV</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.251545</relevance>
+            <count>2</count>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.250782</relevance>
+            <count>1</count>
+            <text>satellite system</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.250054</relevance>
+            <count>2</count>
+            <text>Norway</text>
+            <disambiguated>
+                <name>Norway</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>AwardDiscipline</subType>
+                <website>http://www.norway.no</website>
+                <dbpedia>http://dbpedia.org/resource/Norway</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Norway</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05b4w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVifKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Norway</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.249273</relevance>
             <count>3</count>
             <text>Arizona</text>
             <disambiguated>
@@ -388,184 +585,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.276585</relevance>
-            <count>1</count>
-            <text>Fleet Satellite Communications</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.27548</relevance>
-            <count>4</count>
-            <text>RCA</text>
-            <disambiguated>
-                <name>RCA</name>
-                <subType>Company</subType>
-                <subType>ProcessorManufacturer</subType>
-                <subType>RecordLabel</subType>
-                <dbpedia>http://dbpedia.org/resource/RCA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06gst</freebase>
-                <yago>http://yago-knowledge.org/resource/RCA</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.274212</relevance>
-            <count>3</count>
-            <text>Moscow Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.272225</relevance>
-            <count>4</count>
-            <text>FCC</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.265681</relevance>
-            <count>2</count>
-            <text>India</text>
-            <disambiguated>
-                <name>India</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>Region</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <geo>21.0 78.0</geo>
-                <website>http://india.gov.in/</website>
-                <dbpedia>http://dbpedia.org/resource/India</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/India</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c6w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj7XJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/India</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.262765</relevance>
-            <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Cabinet of Ministers (Soviet Union)</name>
-                <dbpedia>http://dbpedia.org/resource/Cabinet_of_Ministers_(Soviet_Union)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c3wlp1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Continent</type>
-            <relevance>0.259626</relevance>
-            <count>2</count>
-            <text>Africa</text>
-            <disambiguated>
-                <name>Africa</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
-                <yago>http://yago-knowledge.org/resource/Africa</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.259393</relevance>
-            <count>2</count>
-            <text>Comsat General</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.258698</relevance>
-            <count>1</count>
-            <text>satellite system</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.25813</relevance>
-            <count>2</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.257594</relevance>
-            <count>2</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.256371</relevance>
-            <count>1</count>
-            <text>North Atlantic Treaty Organization</text>
-            <disambiguated>
-                <name>NATO</name>
-                <subType>Location</subType>
-                <subType>MembershipOrganization</subType>
-                <geo>50.876155555555556 4.422011111111111</geo>
-                <website>http://www.nato.int/</website>
-                <dbpedia>http://dbpedia.org/resource/NATO</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059dn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjhTpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NATO</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.255806</relevance>
-            <count>2</count>
-            <text>NATO</text>
-            <disambiguated>
-                <name>National Association of Theatre Owners</name>
-                <website>http://www.natoonline.org/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Association_of_Theatre_Owners</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.031hx_</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Association_of_Theatre_Owners</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.255284</relevance>
-            <count>1</count>
-            <text>solar cells</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.254615</relevance>
+            <relevance>0.249101</relevance>
             <count>2</count>
             <text>Europe</text>
             <disambiguated>
@@ -577,7 +598,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.254491</relevance>
+            <relevance>0.248084</relevance>
             <count>2</count>
             <text>President Carter</text>
             <disambiguated>
@@ -595,59 +616,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.042kg</freebase>
                 <opencyc>http://sw.opencyc.org/concept/Mx4rwPvV45wpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Jimmy_Carter</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.2524</relevance>
-            <count>3</count>
-            <text>Marisats</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.249962</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-            <disambiguated>
-                <name>Marshall Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.249885</relevance>
-            <count>1</count>
-            <text>Ford Aerospace</text>
-            <disambiguated>
-                <name>Ford Aerospace</name>
-                <dbpedia>http://dbpedia.org/resource/Ford_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02dr4s</freebase>
-                <yago>http://yago-knowledge.org/resource/Ford_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.248172</relevance>
-            <count>1</count>
-            <text>PRC</text>
-            <disambiguated>
-                <name>China</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>35.0 105.0</geo>
-                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
             </disambiguated>
         </entity>
     </entities>

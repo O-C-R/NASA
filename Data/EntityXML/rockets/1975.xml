@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.956104</relevance>
+            <relevance>0.8554</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.670442</relevance>
+            <relevance>0.635542</relevance>
             <count>4</count>
             <text>United States</text>
             <disambiguated>
@@ -48,8 +48,34 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.558483</relevance>
+            <count>2</count>
+            <text>Nuclear Technology</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.526548</relevance>
+            <count>2</count>
+            <text>Japan</text>
+            <disambiguated>
+                <name>Empire of Japan</name>
+                <subType>Location</subType>
+                <subType>Kingdom</subType>
+                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
+                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.540379</relevance>
+            <relevance>0.513351</relevance>
+            <count>2</count>
+            <text>Izvestiya</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.502306</relevance>
             <count>2</count>
             <text>Dr. Karl Thom</text>
             <disambiguated>
@@ -59,26 +85,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.527542</relevance>
-            <count>2</count>
-            <text>Nuclear Technology</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.511093</relevance>
+            <relevance>0.498695</relevance>
             <count>2</count>
-            <text>Izvestiya</text>
+            <text>Gary L. Bennett</text>
+            <disambiguated>
+                <name>Gary L. Bennett</name>
+                <dbpedia>http://dbpedia.org/resource/Gary_L._Bennett</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025vwht</freebase>
+                <yago>http://yago-knowledge.org/resource/Gary_L._Bennett</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.496252</relevance>
+            <relevance>0.453473</relevance>
             <count>1</count>
             <text>natural gas</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.490963</relevance>
+            <relevance>0.451413</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -91,26 +117,27 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.446015</relevance>
+            <count>1</count>
+            <text>Thiokol</text>
+            <disambiguated>
+                <name>Thiokol</name>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Thiokol</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fj01</freebase>
+                <yago>http://yago-knowledge.org/resource/Thiokol</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.480629</relevance>
+            <relevance>0.441058</relevance>
             <count>1</count>
             <text>nuclear energy</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.453709</relevance>
-            <count>2</count>
-            <text>Gary L. Bennett</text>
-            <disambiguated>
-                <name>Gary L. Bennett</name>
-                <dbpedia>http://dbpedia.org/resource/Gary_L._Bennett</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025vwht</freebase>
-                <yago>http://yago-knowledge.org/resource/Gary_L._Bennett</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.438469</relevance>
+            <relevance>0.437597</relevance>
             <count>1</count>
             <text>AFSC</text>
             <disambiguated>
@@ -124,23 +151,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.436968</relevance>
-            <count>1</count>
-            <text>Arnold Engineering Development Center</text>
-            <disambiguated>
-                <name>Arnold Engineering Development Center</name>
-                <subType>Location</subType>
-                <subType>MilitaryUnit</subType>
-                <website>http://www.arnold.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Arnold_Engineering_Development_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04b9k7</freebase>
-                <yago>http://yago-knowledge.org/resource/Arnold_Engineering_Development_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.427981</relevance>
+            <relevance>0.43364</relevance>
             <count>1</count>
             <text>Kerguelen Island</text>
             <disambiguated>
@@ -154,45 +166,69 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.426266</relevance>
-            <count>2</count>
-            <text>Japan</text>
-            <disambiguated>
-                <name>Japan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MilitaryPost</subType>
-                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
-                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.430886</relevance>
+            <count>1</count>
+            <text>National Space Development Agency</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.425722</relevance>
+            <count>1</count>
+            <text>Washington Star</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.419706</relevance>
+            <relevance>0.425536</relevance>
             <count>1</count>
             <text>Arkhangelsk Oblast</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.413465</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.422547</relevance>
             <count>1</count>
-            <text>Thiokol</text>
+            <text>Wallops Island</text>
             <disambiguated>
-                <name>Thiokol</name>
-                <subType>RocketManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Thiokol</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fj01</freebase>
-                <yago>http://yago-knowledge.org/resource/Thiokol</yago>
+                <name>Wallops Island</name>
+                <subType>Location</subType>
+                <subType>Island</subType>
+                <geo>37.85 -75.46666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
+                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
+                <geonames>http://sws.geonames.org/4792009/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.418994</relevance>
+            <count>1</count>
+            <text>Arnold Engineering Development Center</text>
+            <disambiguated>
+                <name>Arnold Engineering Development Center</name>
+                <subType>Location</subType>
+                <subType>MilitaryUnit</subType>
+                <website>http://www.arnold.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Arnold_Engineering_Development_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04b9k7</freebase>
+                <yago>http://yago-knowledge.org/resource/Arnold_Engineering_Development_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.415579</relevance>
+            <count>1</count>
+            <text>editor</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.414796</relevance>
+            <count>1</count>
+            <text>Kiku</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.40876</relevance>
+            <relevance>0.414316</relevance>
             <count>1</count>
             <text>Kostroma</text>
             <disambiguated>
@@ -206,7 +242,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.408723</relevance>
+            <relevance>0.413527</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -223,91 +259,51 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.40022</relevance>
+            <relevance>0.405127</relevance>
             <count>1</count>
             <text>Toth</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.399208</relevance>
-            <count>1</count>
-            <text>Wallops Island</text>
-            <disambiguated>
-                <name>Wallops Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>37.85 -75.46666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
-                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
-                <geonames>http://sws.geonames.org/4792009/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.396505</relevance>
-            <count>1</count>
-            <text>Los Alamos Scientific Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.394716</relevance>
-            <count>1</count>
-            <text>National Space Development Agency</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.384533</relevance>
-            <count>1</count>
-            <text>Univ. of Pittsburgh</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.382391</relevance>
-            <count>1</count>
-            <text>Kiku</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.381693</relevance>
-            <count>1</count>
-            <text>Washington Star</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.372606</relevance>
-            <count>1</count>
-            <text>editor</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.371571</relevance>
-            <count>1</count>
-            <text>Earth.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.367174</relevance>
-            <count>1</count>
-            <text>Vologda Oblasts</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.360938</relevance>
+            <relevance>0.393788</relevance>
             <count>1</count>
             <text>Thiokol Corp</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.390005</relevance>
+            <count>1</count>
+            <text>Univ. of Pittsburgh</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.378517</relevance>
+            <count>1</count>
+            <text>Tanegashima</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.352586</relevance>
+            <relevance>0.372884</relevance>
+            <count>1</count>
+            <text>Vologda Oblasts</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.364197</relevance>
             <count>1</count>
             <text>Schneider</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.346651</relevance>
+            <type>Organization</type>
+            <relevance>0.362555</relevance>
             <count>1</count>
-            <text>Tanegashima</text>
+            <text>Los Alamos Scientific Laboratory</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.339587</relevance>
+            <count>1</count>
+            <text>Earth.</text>
         </entity>
     </entities>
 </results>

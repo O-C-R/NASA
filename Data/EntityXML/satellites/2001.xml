@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.858882</relevance>
-            <count>29</count>
+            <relevance>0.809603</relevance>
+            <count>28</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -28,9 +28,49 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.306115</relevance>
+            <count>5</count>
+            <text>United States</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.277454</relevance>
+            <count>3</count>
+            <text>Alaska</text>
+            <disambiguated>
+                <name>Alaska</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>64.0 -153.0</geo>
+                <website>http://www.alaska.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Alaska</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.312968</relevance>
-            <count>2</count>
+            <relevance>0.272831</relevance>
+            <count>3</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -50,54 +90,39 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.276995</relevance>
-            <count>5</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.25513</relevance>
+            <relevance>0.255458</relevance>
             <count>2</count>
             <text>Gerard A. Kriss</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.244761</relevance>
-            <count>3</count>
-            <text>Alaska</text>
+            <type>Company</type>
+            <relevance>0.234883</relevance>
+            <count>1</count>
+            <text>Boeing Satellite Systems</text>
             <disambiguated>
-                <name>Alaska</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>64.0 -153.0</geo>
-                <website>http://www.alaska.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Alaska</yago>
+                <name>Boeing Satellite Development Center</name>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Boeing_Satellite_Development_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04y7n5</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing_Satellite_Development_Center</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.227312</relevance>
+            <count>1</count>
+            <text>Submillimeter Wave Astronomy Satellite</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223946</relevance>
+            <count>2</count>
+            <text>Gary J. Melnick</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.234992</relevance>
+            <relevance>0.223401</relevance>
             <count>2</count>
             <text>Journal of Geophysical Research</text>
             <disambiguated>
@@ -110,33 +135,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.23361</relevance>
-            <count>1</count>
-            <text>Boeing Satellite Systems</text>
-            <disambiguated>
-                <name>Boeing Satellite Development Center</name>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Boeing_Satellite_Development_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04y7n5</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing_Satellite_Development_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.226762</relevance>
-            <count>3</count>
-            <text>CERES</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.220883</relevance>
-            <count>1</count>
-            <text>Submillimeter Wave Astronomy Satellite</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219646</relevance>
+            <relevance>0.219804</relevance>
             <count>1</count>
             <text>Johns Hopkins University</text>
             <disambiguated>
@@ -154,8 +154,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Continent</type>
+            <relevance>0.215998</relevance>
+            <count>2</count>
+            <text>Asia</text>
+            <disambiguated>
+                <name>Asia</name>
+                <subType>Location</subType>
+                <subType>FieldOfStudy</subType>
+                <dbpedia>http://dbpedia.org/resource/Asia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j0k</freebase>
+                <yago>http://yago-knowledge.org/resource/Asia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.213483</relevance>
+            <count>1</count>
+            <text>TDRS-H Satellite</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.212517</relevance>
+            <count>2</count>
+            <text>Astrophysical Journal Letters</text>
+            <disambiguated>
+                <name>The Astrophysical Journal</name>
+                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.218696</relevance>
+            <relevance>0.211265</relevance>
             <count>1</count>
             <text>Pine Island Glacier</text>
             <disambiguated>
@@ -169,48 +200,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.218538</relevance>
-            <count>2</count>
-            <text>Gary J. Melnick</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.212247</relevance>
-            <count>1</count>
-            <text>TDRS-H Satellite</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.205381</relevance>
-            <count>1</count>
-            <text>North America</text>
-            <disambiguated>
-                <name>North America</name>
-                <subType>Location</subType>
-                <geo>48.166666666666664 -100.16666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/North_America</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059g4</freebase>
-                <yago>http://yago-knowledge.org/resource/North_America</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.199283</relevance>
-            <count>2</count>
-            <text>Asia</text>
-            <disambiguated>
-                <name>Asia</name>
-                <subType>Location</subType>
-                <subType>FieldOfStudy</subType>
-                <dbpedia>http://dbpedia.org/resource/Asia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j0k</freebase>
-                <yago>http://yago-knowledge.org/resource/Asia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.196774</relevance>
+            <relevance>0.202928</relevance>
             <count>1</count>
             <text>Kodiak Island</text>
             <disambiguated>
@@ -227,188 +218,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.195888</relevance>
-            <count>1</count>
-            <text>USGS</text>
-            <disambiguated>
-                <name>United States Geological Survey</name>
-                <subType>GovernmentAgency</subType>
-                <subType>ReportIssuingInstitution</subType>
-                <website>http://www.usgs.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Geological_Survey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01b69s</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQnr0JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Geological_Survey</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.195542</relevance>
-            <count>1</count>
-            <text>Liming Zhou</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.195198</relevance>
-            <count>1</count>
-            <text>Terra</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.192446</relevance>
-            <count>1</count>
-            <text>Boston University</text>
-            <disambiguated>
-                <name>Boston University School of Education</name>
-                <subType>Location</subType>
-                <subType>University</subType>
-                <website>http://www.bu.edu/education/</website>
-                <dbpedia>http://dbpedia.org/resource/Boston_University_School_of_Education</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02q9m5x</freebase>
-                <yago>http://yago-knowledge.org/resource/Boston_University_School_of_Education</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.19146</relevance>
-            <count>2</count>
-            <text>Astrophysical Journal Letters</text>
-            <disambiguated>
-                <name>The Astrophysical Journal</name>
-                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.19003</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.189564</relevance>
-            <count>1</count>
-            <text>global warming</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.189485</relevance>
-            <count>1</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.188604</relevance>
-            <count>2</count>
-            <text>Sapphire</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.186929</relevance>
-            <count>1</count>
-            <text>Patagonia</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.186141</relevance>
-            <count>1</count>
-            <text>Energy System</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.185525</relevance>
-            <count>1</count>
-            <text>Antarctica Glacier</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.185316</relevance>
-            <count>1</count>
-            <text>researcher</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.183815</relevance>
-            <count>1</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.183787</relevance>
-            <count>1</count>
-            <text>Starshine</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.181355</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.180599</relevance>
-            <count>4</count>
-            <text>The Boeing Company</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.179676</relevance>
-            <count>1</count>
-            <text>L. Zhou</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179028</relevance>
+            <relevance>0.198617</relevance>
             <count>1</count>
             <text>ESA</text>
             <disambiguated>
@@ -426,8 +236,219 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.194549</relevance>
+            <count>2</count>
+            <text>Sapphire</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.191651</relevance>
+            <count>1</count>
+            <text>Terra</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.190255</relevance>
+            <count>1</count>
+            <text>researcher</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.18984</relevance>
+            <count>1</count>
+            <text>Starshine</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.189642</relevance>
+            <count>1</count>
+            <text>G. Ricker</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.178128</relevance>
+            <relevance>0.18874</relevance>
+            <count>1</count>
+            <text>USGS</text>
+            <disambiguated>
+                <name>United States Geological Survey</name>
+                <subType>GovernmentAgency</subType>
+                <subType>ReportIssuingInstitution</subType>
+                <website>http://www.usgs.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Geological_Survey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01b69s</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQnr0JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Geological_Survey</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.188283</relevance>
+            <count>1</count>
+            <text>North America</text>
+            <disambiguated>
+                <name>North America</name>
+                <subType>Location</subType>
+                <geo>48.166666666666664 -100.16666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/North_America</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059g4</freebase>
+                <yago>http://yago-knowledge.org/resource/North_America</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.187839</relevance>
+            <count>1</count>
+            <text>Italy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.187135</relevance>
+            <count>3</count>
+            <text>CERES</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.186545</relevance>
+            <count>1</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.183507</relevance>
+            <count>1</count>
+            <text>Patagonia</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.182854</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.181042</relevance>
+            <count>1</count>
+            <text>SWAS</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.180368</relevance>
+            <count>1</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.178057</relevance>
+            <count>4</count>
+            <text>The Boeing Company</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.178017</relevance>
+            <count>1</count>
+            <text>UT</text>
+            <disambiguated>
+                <name>University of Texas at Austin</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>30.28614 -97.73942</geo>
+                <website>http://www.utexas.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Texas_at_Austin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07w0v</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViuH5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/University_of_Texas_at_Austin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.17783</relevance>
+            <count>1</count>
+            <text>Antarctica Glacier</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.177297</relevance>
+            <count>1</count>
+            <text>Liming Zhou</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.177022</relevance>
+            <count>1</count>
+            <text>Energy System</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.176778</relevance>
+            <count>1</count>
+            <text>Solar System</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.175919</relevance>
+            <count>1</count>
+            <text>text messages</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.17527</relevance>
+            <count>1</count>
+            <text>Boston University</text>
+            <disambiguated>
+                <name>Boston University School of Education</name>
+                <subType>Location</subType>
+                <subType>University</subType>
+                <website>http://www.bu.edu/education/</website>
+                <dbpedia>http://dbpedia.org/resource/Boston_University_School_of_Education</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02q9m5x</freebase>
+                <yago>http://yago-knowledge.org/resource/Boston_University_School_of_Education</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.173574</relevance>
+            <count>1</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.173128</relevance>
             <count>3</count>
             <text>NOAA</text>
             <disambiguated>
@@ -439,8 +460,62 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.171248</relevance>
+            <count>1</count>
+            <text>Spacewarn Bulletin</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.171016</relevance>
+            <count>1</count>
+            <text>global warming</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.16926</relevance>
+            <count>1</count>
+            <text>Hansen</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.16775</relevance>
+            <count>1</count>
+            <text>Harvard- Smithsonian Center for Astrophysics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.166187</relevance>
+            <count>1</count>
+            <text>TDRS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.164571</relevance>
+            <count>1</count>
+            <text>SWAS</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.164019</relevance>
+            <count>1</count>
+            <text>Kenneth Chang</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.161884</relevance>
+            <count>1</count>
+            <text>United States.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.161838</relevance>
+            <count>1</count>
+            <text>L. Zhou</text>
+        </entity>
+        <entity>
             <type>Continent</type>
-            <relevance>0.17766</relevance>
+            <relevance>0.160531</relevance>
             <count>1</count>
             <text>Europe</text>
             <disambiguated>
@@ -449,84 +524,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
                 <yago>http://yago-knowledge.org/resource/Europe</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.17566</relevance>
-            <count>1</count>
-            <text>SWAS</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.174469</relevance>
-            <count>1</count>
-            <text>Hansen</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.171587</relevance>
-            <count>1</count>
-            <text>Solar System</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.170295</relevance>
-            <count>1</count>
-            <text>text messages</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.169865</relevance>
-            <count>1</count>
-            <text>G. Ricker</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.168492</relevance>
-            <count>1</count>
-            <text>Italy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.1679</relevance>
-            <count>1</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.167478</relevance>
-            <count>1</count>
-            <text>Kenneth Chang</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.165648</relevance>
-            <count>1</count>
-            <text>Spacewarn Bulletin</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.165294</relevance>
-            <count>1</count>
-            <text>United States.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.165216</relevance>
-            <count>1</count>
-            <text>TDRS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.162557</relevance>
-            <count>1</count>
-            <text>Harvard- Smithsonian Center for Astrophysics</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.159189</relevance>
-            <count>1</count>
-            <text>SWAS</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.925058</relevance>
+            <relevance>0.926346</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +28,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.566592</relevance>
+            <count>2</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.520741</relevance>
+            <relevance>0.458191</relevance>
             <count>1</count>
             <text>NASA administrator</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.449059</relevance>
+            <count>1</count>
+            <text>solar power</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.443244</relevance>
+            <count>2</count>
+            <text>project manager</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.465912</relevance>
+            <relevance>0.441899</relevance>
             <count>1</count>
             <text>AVCO Corporation</text>
             <disambiguated>
@@ -46,14 +64,65 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.436941</relevance>
+            <type>City</type>
+            <relevance>0.371321</relevance>
+            <count>1</count>
+            <text>1984-1985</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.35631</relevance>
             <count>2</count>
-            <text>MSFC</text>
+            <text>The New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.35385</relevance>
+            <count>1</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.353196</relevance>
+            <count>1</count>
+            <text>Rockwell International</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.351607</relevance>
+            <count>1</count>
+            <text>Garrett AiResearch</text>
+            <disambiguated>
+                <name>Garrett AiResearch</name>
+                <dbpedia>http://dbpedia.org/resource/Garrett_AiResearch</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04_1m1v</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.392059</relevance>
+            <relevance>0.346301</relevance>
             <count>1</count>
             <text>President Carter</text>
             <disambiguated>
@@ -75,7 +144,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.390537</relevance>
+            <relevance>0.345267</relevance>
             <count>1</count>
             <text>Dr. Robert A. Frosch</text>
             <disambiguated>
@@ -86,91 +155,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.380762</relevance>
-            <count>2</count>
-            <text>The New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.374823</relevance>
-            <count>2</count>
-            <text>project manager</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.370833</relevance>
-            <count>1</count>
-            <text>Rockwell International</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.369992</relevance>
-            <count>1</count>
-            <text>Garrett AiResearch</text>
-            <disambiguated>
-                <name>Garrett AiResearch</name>
-                <dbpedia>http://dbpedia.org/resource/Garrett_AiResearch</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04_1m1v</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.362536</relevance>
-            <count>1</count>
-            <text>solar power</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.332994</relevance>
+            <relevance>0.343078</relevance>
             <count>1</count>
             <text>Luther E. Powell</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.332699</relevance>
-            <count>1</count>
-            <text>1984-1985</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.327144</relevance>
+            <relevance>0.337647</relevance>
             <count>1</count>
             <text>G. Kenneth Sievers</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.326261</relevance>
+            <relevance>0.307853</relevance>
             <count>1</count>
             <text>carbon monoxide</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.315527</relevance>
-            <count>1</count>
-            <text>Spacelab</text>
         </entity>
     </entities>
 </results>

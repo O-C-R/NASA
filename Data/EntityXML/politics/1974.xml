@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.84788</relevance>
+            <relevance>0.855795</relevance>
             <count>11</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,67 +29,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.481679</relevance>
+            <relevance>0.546676</relevance>
             <count>4</count>
             <text>House Committee on Science</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.446972</relevance>
+            <relevance>0.37542</relevance>
             <count>1</count>
             <text>Senior Vice President of Lockheed Aircraft Corp.</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.403283</relevance>
-            <count>4</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.34699</relevance>
-            <count>2</count>
-            <text>vice president</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.345685</relevance>
-            <count>3</count>
-            <text>Elmer S. ``Todd'' Groo</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.345537</relevance>
+            <relevance>0.354029</relevance>
             <count>1</count>
             <text>Astronautics&#x2019; Subcommittee on Aeronautics and Space Technology</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.32986</relevance>
+            <type>Person</type>
+            <relevance>0.351593</relevance>
             <count>3</count>
-            <text>The House</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.324246</relevance>
-            <count>1</count>
-            <text>nasa Deputy Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.324137</relevance>
-            <count>1</count>
-            <text>Astronautics&#x2019; Subcommittee on Energy</text>
+            <text>Elmer S. ``Todd'' Groo</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.316007</relevance>
-            <count>1</count>
-            <text>Subcommittee on Aeronautics and Space Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.307722</relevance>
+            <relevance>0.345587</relevance>
             <count>1</count>
             <text>House of Representatives</text>
             <disambiguated>
@@ -104,51 +68,139 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.340901</relevance>
+            <count>1</count>
+            <text>Astronautics&#x2019; Subcommittee on Energy</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.337903</relevance>
+            <count>2</count>
+            <text>vice president</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.332193</relevance>
+            <count>1</count>
+            <text>nasa Deputy Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.326535</relevance>
+            <count>1</count>
+            <text>Subcommittee on Aeronautics and Space Technology</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.32457</relevance>
+            <count>3</count>
+            <text>The House</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.319497</relevance>
+            <count>4</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.298868</relevance>
+            <relevance>0.305988</relevance>
             <count>1</count>
             <text>nasa Hq.</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.28072</relevance>
+            <count>1</count>
+            <text>intercity passengers&#x2014;the Subcommittee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.274233</relevance>
+            <count>1</count>
+            <text>Housing and Urban Development</text>
+            <disambiguated>
+                <name>United States Department of Housing and Urban Development</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <geo>38.88406 -77.02266</geo>
+                <website>http://www.hud.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Housing_and_Urban_Development</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jbk9</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265401</relevance>
+            <count>1</count>
+            <text>National Bureau of Standards</text>
+            <disambiguated>
+                <name>National Institute of Standards and Technology</name>
+                <subType>GovernmentAgency</subType>
+                <subType>SoftwareDeveloper</subType>
+                <website>http://nist.time.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05hhw</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.262244</relevance>
+            <count>1</count>
+            <text>National Science Foundation</text>
+            <disambiguated>
+                <name>National Science Foundation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AcademicInstitution</subType>
+                <website>http://www.nsf.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.25993</relevance>
+            <count>1</count>
+            <text>General Services Administration</text>
+            <disambiguated>
+                <name>General Services Administration</name>
+                <subType>GovernmentAgency</subType>
+                <subType>TopLevelDomainRegistry</subType>
+                <website>http://www.gsa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/General_Services_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026vq4</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Services_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.275227</relevance>
+            <relevance>0.256897</relevance>
             <count>1</count>
             <text>Vice President</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.274527</relevance>
+            <relevance>0.25538</relevance>
             <count>1</count>
-            <text>intercity passengers&#x2014;the Subcommittee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.265672</relevance>
-            <count>2</count>
-            <text>Nelson A. Rockefeller</text>
+            <text>Senate</text>
             <disambiguated>
-                <name>Nelson Rockefeller</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>Collector</subType>
-                <subType>OfficeHolder</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USVicePresident</subType>
-                <dbpedia>http://dbpedia.org/resource/Nelson_Rockefeller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05jd_</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv4_3AZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nelson_Rockefeller</yago>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.259268</relevance>
-            <count>1</count>
-            <text>World War II</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.258157</relevance>
+            <relevance>0.254085</relevance>
             <count>1</count>
             <text>President Ford</text>
             <disambiguated>
@@ -172,57 +224,39 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.254979</relevance>
+            <type>Organization</type>
+            <relevance>0.251008</relevance>
             <count>1</count>
-            <text>Clarence L.</text>
+            <text>General Aviation Programs</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.253182</relevance>
+            <relevance>0.242282</relevance>
             <count>1</count>
             <text>National Medal of Science</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.248828</relevance>
-            <count>1</count>
-            <text>Senate</text>
+            <type>Person</type>
+            <relevance>0.241944</relevance>
+            <count>2</count>
+            <text>Nelson A. Rockefeller</text>
             <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.243558</relevance>
-            <count>1</count>
-            <text>coal energy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.241152</relevance>
-            <count>1</count>
-            <text>Housing and Urban Development</text>
-            <disambiguated>
-                <name>United States Department of Housing and Urban Development</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <geo>38.88406 -77.02266</geo>
-                <website>http://www.hud.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Housing_and_Urban_Development</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jbk9</freebase>
+                <name>Nelson Rockefeller</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>Collector</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>USVicePresident</subType>
+                <dbpedia>http://dbpedia.org/resource/Nelson_Rockefeller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05jd_</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv4_3AZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nelson_Rockefeller</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.234793</relevance>
+            <relevance>0.241619</relevance>
             <count>1</count>
             <text>Kansas</text>
             <disambiguated>
@@ -241,34 +275,58 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.241538</relevance>
+            <count>1</count>
+            <text>coal energy</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.233484</relevance>
+            <relevance>0.239055</relevance>
             <count>1</count>
             <text>General Aviation Manufacturers Assn</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.232067</relevance>
+            <type>JobTitle</type>
+            <relevance>0.234374</relevance>
             <count>1</count>
-            <text>National Bureau of Standards</text>
+            <text>Associate Administrator for Center Operations</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.229553</relevance>
+            <count>1</count>
+            <text>Senate.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.222304</relevance>
+            <count>1</count>
+            <text>World War II</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.218434</relevance>
+            <count>1</count>
+            <text>New York</text>
             <disambiguated>
-                <name>National Institute of Standards and Technology</name>
-                <subType>GovernmentAgency</subType>
-                <subType>SoftwareDeveloper</subType>
-                <website>http://nist.time.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05hhw</freebase>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.231821</relevance>
-            <count>1</count>
-            <text>General Aviation Programs</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.231306</relevance>
+            <relevance>0.212799</relevance>
             <count>1</count>
             <text>United States</text>
             <disambiguated>
@@ -287,72 +345,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.228924</relevance>
-            <count>1</count>
-            <text>Associate Administrator for Center Operations</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.22639</relevance>
-            <count>1</count>
-            <text>National Science Foundation</text>
-            <disambiguated>
-                <name>National Science Foundation</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AcademicInstitution</subType>
-                <website>http://www.nsf.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225875</relevance>
-            <count>1</count>
-            <text>General Services Administration</text>
-            <disambiguated>
-                <name>General Services Administration</name>
-                <subType>GovernmentAgency</subType>
-                <subType>TopLevelDomainRegistry</subType>
-                <website>http://www.gsa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/General_Services_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026vq4</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Services_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.212478</relevance>
-            <count>1</count>
-            <text>Senate.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.211699</relevance>
-            <count>1</count>
-            <text>New York</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.202431</relevance>
-            <count>1</count>
-            <text>United States.</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.201477</relevance>
+            <relevance>0.206403</relevance>
             <count>1</count>
             <text>ibm World Trade Corp.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.20065</relevance>
+            <relevance>0.205572</relevance>
             <count>1</count>
             <text>George W. Cherry</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.203815</relevance>
+            <count>1</count>
+            <text>Clarence L.</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.188944</relevance>
+            <count>1</count>
+            <text>United States.</text>
         </entity>
     </entities>
 </results>

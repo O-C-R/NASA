@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.844541</relevance>
+            <relevance>0.840687</relevance>
             <count>44</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
@@ -29,19 +29,33 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.797556</relevance>
+            <relevance>0.794287</relevance>
             <count>37</count>
             <text>space program</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.587454</relevance>
+            <relevance>0.713627</relevance>
             <count>22</count>
             <text>nasa Administrator</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.534554</relevance>
+            <count>24</count>
+            <text>James E. Webb</text>
+            <disambiguated>
+                <name>James E. Webb</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
+                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.501093</relevance>
+            <relevance>0.496925</relevance>
             <count>30</count>
             <text>United States</text>
             <disambiguated>
@@ -60,28 +74,54 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.443298</relevance>
-            <count>24</count>
-            <text>James E. Webb</text>
+            <type>JobTitle</type>
+            <relevance>0.325781</relevance>
+            <count>10</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.325606</relevance>
+            <count>11</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.320954</relevance>
+            <count>1</count>
+            <text>nasa Director of Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.313719</relevance>
+            <count>3</count>
+            <text>Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.308136</relevance>
+            <count>4</count>
+            <text>nasa</text>
             <disambiguated>
-                <name>James E. Webb</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
-                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.344317</relevance>
-            <count>5</count>
-            <text>Deputy Administrator Dr. Hugh L. Dryden</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.336794</relevance>
+            <relevance>0.296207</relevance>
             <count>6</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -108,48 +148,46 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.294625</relevance>
+            <count>5</count>
+            <text>Deputy Administrator Dr. Hugh L. Dryden</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.291683</relevance>
+            <count>9</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289122</relevance>
+            <count>8</count>
+            <text>Federal Aviation Agency</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.335785</relevance>
+            <relevance>0.275571</relevance>
             <count>2</count>
             <text>nasa Goddard Space Flight Center</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.3265</relevance>
-            <count>11</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.314559</relevance>
-            <count>3</count>
-            <text>Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.307044</relevance>
-            <count>3</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
+            <relevance>0.270801</relevance>
+            <count>2</count>
+            <text>National Aeronautics and Space Council</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.298831</relevance>
+            <relevance>0.268862</relevance>
             <count>7</count>
             <text>NYT</text>
             <disambiguated>
@@ -167,60 +205,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.291168</relevance>
-            <count>10</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.288888</relevance>
-            <count>2</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.280057</relevance>
-            <count>6</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
+            <type>PrintMedia</type>
+            <relevance>0.264492</relevance>
+            <count>1</count>
+            <text>Review of Space Research</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.272968</relevance>
+            <relevance>0.263669</relevance>
             <count>1</count>
             <text>nasa Marshall Space Flight Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.271198</relevance>
+            <relevance>0.256884</relevance>
             <count>2</count>
-            <text>National Aeronautics and Space Council</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.266521</relevance>
-            <count>1</count>
-            <text>nasa Director of Space Sciences</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.263245</relevance>
-            <count>1</count>
-            <text>Special Assistant to nasa Administrator</text>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261142</relevance>
+            <relevance>0.256591</relevance>
             <count>7</count>
             <text>Congress</text>
             <disambiguated>
@@ -238,33 +242,150 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.254431</relevance>
-            <count>7</count>
-            <text>Federal Aviation Agency</text>
+            <relevance>0.25441</relevance>
+            <count>1</count>
+            <text>Center for Space Research</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.251918</relevance>
+            <count>1</count>
+            <text>Review of Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.250421</relevance>
+            <count>1</count>
+            <text>Goddard Institute for Space Studies</text>
             <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+                <name>Goddard Institute for Space Studies</name>
+                <geo>40.80544 -73.96536</geo>
+                <website>http://www.giss.nasa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Goddard_Institute_for_Space_Studies</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
+                <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.242706</relevance>
+            <count>2</count>
+            <text>space exploration</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.240988</relevance>
+            <count>1</count>
+            <text>AF Space Systems Div.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.236558</relevance>
+            <count>6</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.234539</relevance>
+            <count>3</count>
+            <text>National Academy of Sciences</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.248872</relevance>
+            <relevance>0.233081</relevance>
+            <count>1</count>
+            <text>Special Assistant to nasa Administrator</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.230717</relevance>
+            <count>3</count>
+            <text>Boston</text>
+            <disambiguated>
+                <name>Boston</name>
+                <website>http://www.cityofboston.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.229866</relevance>
             <count>1</count>
             <text>nasa Deputy Associate Administrator for Industry Affairs</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.243055</relevance>
-            <count>9</count>
-            <text>scientist</text>
+            <relevance>0.227611</relevance>
+            <count>1</count>
+            <text>nasa Assistant Administrator for Technology Utilization and Policy Planning</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.238734</relevance>
+            <relevance>0.226652</relevance>
+            <count>3</count>
+            <text>Dr. Homer E. Newell</text>
+            <disambiguated>
+                <name>Homer E. Newell, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
+                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.225275</relevance>
+            <count>1</count>
+            <text>nasa Deputy Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.221562</relevance>
+            <count>1</count>
+            <text>Space Systems Division</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.215079</relevance>
+            <count>1</count>
+            <text>Deep Space Instrumentation Facility</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.214957</relevance>
+            <count>1</count>
+            <text>Office of Space Sciences</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.210703</relevance>
+            <count>1</count>
+            <text>nasa Director of Advanced Research and Technology</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.210046</relevance>
+            <count>3</count>
+            <text>gross national product</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.207245</relevance>
             <count>4</count>
             <text>President Eisenhower</text>
             <disambiguated>
@@ -287,48 +408,30 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.237506</relevance>
+            <relevance>0.206186</relevance>
             <count>1</count>
-            <text>nasa Assistant Administrator</text>
+            <text>Director of nasa Headquarters&#x2019; Administrative Services</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.225977</relevance>
-            <count>1</count>
-            <text>Review of Space Research</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.224602</relevance>
+            <type>Organization</type>
+            <relevance>0.205332</relevance>
             <count>3</count>
-            <text>Boston</text>
+            <text>usaf</text>
             <disambiguated>
-                <name>Boston</name>
-                <website>http://www.cityofboston.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.2215</relevance>
-            <count>3</count>
-            <text>National Academy of Sciences</text>
-            <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.221456</relevance>
-            <count>1</count>
-            <text>nasa Assistant Administrator for Technology Utilization and Policy Planning</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219944</relevance>
+            <relevance>0.204185</relevance>
             <count>3</count>
             <text>Government</text>
             <disambiguated>
@@ -340,170 +443,71 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.217512</relevance>
-            <count>1</count>
-            <text>Goddard Institute for Space Studies</text>
-            <disambiguated>
-                <name>Goddard Institute for Space Studies</name>
-                <geo>40.80544 -73.96536</geo>
-                <website>http://www.giss.nasa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Goddard_Institute_for_Space_Studies</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
-                <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.216332</relevance>
-            <count>3</count>
-            <text>Dr. Homer E. Newell</text>
-            <disambiguated>
-                <name>Homer E. Newell, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
-                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.215782</relevance>
-            <count>1</count>
-            <text>Center for Space Research</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.213503</relevance>
-            <count>1</count>
-            <text>Space Systems Division</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.213313</relevance>
-            <count>1</count>
-            <text>Review of Space Sciences</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.21099</relevance>
-            <count>1</count>
-            <text>faa Deputy Administrator for Supersonic Transport Development</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.210845</relevance>
+            <relevance>0.203959</relevance>
             <count>4</count>
             <text>Gordon M. Bain</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.210193</relevance>
-            <count>2</count>
-            <text>space exploration</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.209845</relevance>
-            <count>3</count>
-            <text>consultant</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.208001</relevance>
-            <count>1</count>
-            <text>Deputy Assistant Administrator for Public Affairs</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.206436</relevance>
-            <count>1</count>
-            <text>nasa Deputy Administrator</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.205894</relevance>
-            <count>1</count>
-            <text>nasa Leg</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.200767</relevance>
-            <count>2</count>
-            <text>Administrator</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.19987</relevance>
-            <count>1</count>
-            <text>nasa Wallops Station</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.197928</relevance>
-            <count>1</count>
-            <text>nasa Director of Advanced Research and Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.197833</relevance>
-            <count>1</count>
-            <text>AF Space Systems Div.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.196345</relevance>
+            <relevance>0.201319</relevance>
             <count>2</count>
-            <text>Rockets</text>
+            <text>Goldstone Tracking Station</text>
             <disambiguated>
-                <name>Rockets (band)</name>
-                <subType>MusicalArtist</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockets_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p3l0v</freebase>
+                <name>Goldstone Deep Space Communications Complex</name>
+                <subType>Location</subType>
+                <geo>35.42666666666667 -116.89</geo>
+                <website>http://deepspace.jpl.nasa.gov/dsn/</website>
+                <dbpedia>http://dbpedia.org/resource/Goldstone_Deep_Space_Communications_Complex</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02l09t</freebase>
+                <yago>http://yago-knowledge.org/resource/Goldstone_Deep_Space_Communications_Complex</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.201026</relevance>
+            <count>2</count>
+            <text>Fiscal Year</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.198582</relevance>
+            <count>4</count>
+            <text>California</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.198412</relevance>
+            <count>1</count>
+            <text>nasa Press Conf</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.195572</relevance>
+            <relevance>0.19807</relevance>
             <count>1</count>
             <text>nasa Director of Advanced Research</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.19382</relevance>
-            <count>4</count>
-            <text>India</text>
-            <disambiguated>
-                <name>India</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>Region</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <geo>21.0 78.0</geo>
-                <website>http://india.gov.in/</website>
-                <dbpedia>http://dbpedia.org/resource/India</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/India</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c6w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj7XJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/India</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.19268</relevance>
-            <count>3</count>
-            <text>L.A. Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
+            <type>JobTitle</type>
+            <relevance>0.197534</relevance>
+            <count>2</count>
+            <text>Administrator</text>
         </entity>
     </entities>
 </results>

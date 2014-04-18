@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.837331</relevance>
+            <relevance>0.828044</relevance>
             <count>5</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -23,19 +23,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.49824</relevance>
+            <relevance>0.496655</relevance>
             <count>2</count>
             <text>Tass Inti Svc</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.446351</relevance>
+            <relevance>0.349867</relevance>
             <count>2</count>
             <text>Salyut</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.34278</relevance>
+            <count>2</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.328403</relevance>
+            <count>1</count>
+            <text>Moscow Tass</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.427045</relevance>
+            <relevance>0.324553</relevance>
             <count>2</count>
             <text>Col. Jean-Loup Chretien</text>
             <disambiguated>
@@ -47,14 +59,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.393256</relevance>
-            <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.386029</relevance>
+            <relevance>0.319996</relevance>
             <count>2</count>
             <text>Valentin Lebedev</text>
             <disambiguated>
@@ -66,111 +72,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.378996</relevance>
-            <count>1</count>
-            <text>Moscow Tass</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.370874</relevance>
+            <relevance>0.307434</relevance>
             <count>2</count>
             <text>Anatoliy Berezovoy</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.336764</relevance>
-            <count>1</count>
-            <text>Soyuz</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.316358</relevance>
-            <count>1</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.310759</relevance>
+            <relevance>0.300631</relevance>
             <count>1</count>
             <text>Salyut</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.29735</relevance>
-            <count>1</count>
-            <text>French President</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294139</relevance>
-            <count>1</count>
-            <text>Vladimir Dzhanibekov</text>
-            <disambiguated>
-                <name>Vladimir Dzhanibekov</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Vladimir_Dzhanibekov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.024b0z</freebase>
-                <yago>http://yago-knowledge.org/resource/Vladimir_Dzhanibekov</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.290572</relevance>
-            <count>1</count>
-            <text>Alexandr Ivanchenkov</text>
-            <disambiguated>
-                <name>Aleksandr Ivanchenkov</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Aleksandr_Ivanchenkov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03klxc</freebase>
-                <yago>http://yago-knowledge.org/resource/Aleksandr_Ivanchenkov</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.288804</relevance>
-            <count>1</count>
-            <text>Maj. Patrick Baudry</text>
-            <disambiguated>
-                <name>Patrick Baudry</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Patrick_Baudry</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ttbh</freebase>
-                <yago>http://yago-knowledge.org/resource/Patrick_Baudry</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.286964</relevance>
-            <count>1</count>
-            <text>Valery Giscard</text>
-            <disambiguated>
-                <name>Val&#xE9;ry Giscard d'Estaing</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>ChivalricOrderMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Val&#xE9;ry_Giscard_d'Estaing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0kn91</freebase>
-                <yago>http://yago-knowledge.org/resource/Val%C3%A9ry_Giscard_d'Estaing</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.285099</relevance>
+            <relevance>0.251258</relevance>
             <count>1</count>
             <text>Indian Ocean</text>
             <disambiguated>
@@ -186,7 +101,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.269109</relevance>
+            <relevance>0.236557</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -205,8 +120,42 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.235096</relevance>
+            <count>1</count>
+            <text>United Press International</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.233973</relevance>
+            <count>1</count>
+            <text>Soyuz</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.232435</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.266393</relevance>
+            <relevance>0.23014</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -224,42 +173,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.2658</relevance>
-            <count>1</count>
-            <text>United Press International</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.263144</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.258151</relevance>
+            <relevance>0.229823</relevance>
             <count>1</count>
             <text>Maj. Gen. Alexey Leonov</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.229281</relevance>
+            <count>1</count>
+            <text>French President</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.25685</relevance>
+            <relevance>0.227837</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -273,14 +200,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.252378</relevance>
+            <type>City</type>
+            <relevance>0.227569</relevance>
             <count>1</count>
-            <text>Kapustin Yar</text>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.251816</relevance>
+            <relevance>0.223294</relevance>
             <count>1</count>
             <text>UPI</text>
             <disambiguated>
@@ -294,10 +233,71 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.222698</relevance>
+            <count>1</count>
+            <text>Kapustin Yar</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.222698</relevance>
+            <count>1</count>
+            <text>Maj. Patrick Baudry</text>
+            <disambiguated>
+                <name>Patrick Baudry</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Patrick_Baudry</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ttbh</freebase>
+                <yago>http://yago-knowledge.org/resource/Patrick_Baudry</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.221268</relevance>
+            <count>1</count>
+            <text>Valery Giscard</text>
+            <disambiguated>
+                <name>Val&#xE9;ry Giscard d'Estaing</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>ChivalricOrderMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Val&#xE9;ry_Giscard_d'Estaing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kn91</freebase>
+                <yago>http://yago-knowledge.org/resource/Val%C3%A9ry_Giscard_d'Estaing</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.208972</relevance>
+            <count>1</count>
+            <text>Vladimir Dzhanibekov</text>
+            <disambiguated>
+                <name>Vladimir Dzhanibekov</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Vladimir_Dzhanibekov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.024b0z</freebase>
+                <yago>http://yago-knowledge.org/resource/Vladimir_Dzhanibekov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Region</type>
-            <relevance>0.235291</relevance>
+            <relevance>0.20608</relevance>
             <count>1</count>
             <text>Pacific Ocean.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.205018</relevance>
+            <count>1</count>
+            <text>Alexandr Ivanchenkov</text>
+            <disambiguated>
+                <name>Aleksandr Ivanchenkov</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Aleksandr_Ivanchenkov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03klxc</freebase>
+                <yago>http://yago-knowledge.org/resource/Aleksandr_Ivanchenkov</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

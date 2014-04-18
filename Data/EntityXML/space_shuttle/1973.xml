@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.883462</relevance>
+            <relevance>0.771675</relevance>
             <count>21</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,64 +29,25 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.493132</relevance>
+            <relevance>0.473481</relevance>
             <count>3</count>
             <text>European Space Research Organization</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.397378</relevance>
+            <relevance>0.414875</relevance>
             <count>4</count>
             <text>Rockwell International Corp</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.316715</relevance>
-            <count>1</count>
-            <text>Air and Space Museum</text>
-            <disambiguated>
-                <name>National Air and Space Museum</name>
-                <subType>Organization</subType>
-                <subType>Location</subType>
-                <subType>TouristAttraction</subType>
-                <subType>Building</subType>
-                <subType>Museum</subType>
-                <subType>FilmProducer</subType>
-                <geo>38.888333333333335 -77.02</geo>
-                <website>http://www.nasm.si.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Air_and_Space_Museum</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gbmc</freebase>
-                <geonames>http://sws.geonames.org/4139712/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.314986</relevance>
-            <count>1</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.30745</relevance>
+            <relevance>0.36755</relevance>
             <count>3</count>
             <text>McDonnell Douglas Astronautics Co.</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.304072</relevance>
+            <relevance>0.331752</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -106,13 +67,39 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.301991</relevance>
+            <relevance>0.314738</relevance>
             <count>1</count>
             <text>European Space Research</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.310484</relevance>
+            <count>1</count>
+            <text>Kennedy Space Center.</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.308512</relevance>
+            <count>1</count>
+            <text>Air and Space Museum</text>
+            <disambiguated>
+                <name>National Air and Space Museum</name>
+                <subType>Organization</subType>
+                <subType>Location</subType>
+                <subType>TouristAttraction</subType>
+                <subType>Building</subType>
+                <subType>Museum</subType>
+                <subType>FilmProducer</subType>
+                <geo>38.888333333333335 -77.02</geo>
+                <website>http://www.nasm.si.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Air_and_Space_Museum</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gbmc</freebase>
+                <geonames>http://sws.geonames.org/4139712/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.301418</relevance>
+            <relevance>0.307555</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -133,86 +120,51 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.297296</relevance>
-            <count>1</count>
-            <text>European Space Research Organization Council</text>
+            <type>Drug</type>
+            <relevance>0.305369</relevance>
+            <count>5</count>
+            <text>growth hormone</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.291909</relevance>
+            <relevance>0.304338</relevance>
             <count>1</count>
-            <text>Kennedy Space Center.</text>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.288245</relevance>
+            <relevance>0.299128</relevance>
             <count>1</count>
             <text>European Spacelab</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.283797</relevance>
+            <relevance>0.298495</relevance>
             <count>2</count>
             <text>Grumman Aerospace Corp.</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.280191</relevance>
+            <type>Organization</type>
+            <relevance>0.286211</relevance>
             <count>1</count>
-            <text>ltv Aerospace Corp</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.275436</relevance>
-            <count>2</count>
-            <text>msc Roundup</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.275199</relevance>
-            <count>2</count>
-            <text>esro</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.267616</relevance>
-            <count>1</count>
-            <text>Messerschmitt-Boeklow-Blohm GmbH</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.266542</relevance>
-            <count>1</count>
-            <text>nasa Director of Facilities</text>
-        </entity>
-        <entity>
-            <type>Drug</type>
-            <relevance>0.266439</relevance>
-            <count>5</count>
-            <text>growth hormone</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.266275</relevance>
-            <count>1</count>
-            <text>Johnson Space Center</text>
+            <text>European Space Research Organization Council</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.265177</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.260279</relevance>
-            <count>1</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.256131</relevance>
+            <relevance>0.28236</relevance>
             <count>1</count>
             <text>Manned Spacecraft Center</text>
             <disambiguated>
@@ -226,26 +178,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.253179</relevance>
-            <count>2</count>
-            <text>Martin Marietta Corp.</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.24931</relevance>
+            <type>Facility</type>
+            <relevance>0.278113</relevance>
             <count>1</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
+            <text>Johnson Space Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.241452</relevance>
+            <relevance>0.276863</relevance>
             <count>1</count>
             <text>General Dynamics Corp.</text>
             <disambiguated>
@@ -260,8 +200,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.272519</relevance>
+            <count>1</count>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.241349</relevance>
+            <relevance>0.26715</relevance>
             <count>1</count>
             <text>Massachusetts Institute of Technology</text>
             <disambiguated>
@@ -284,8 +230,107 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.264247</relevance>
+            <count>1</count>
+            <text>Fairchild Hiller Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.259099</relevance>
+            <count>2</count>
+            <text>msc Roundup</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.258347</relevance>
+            <count>1</count>
+            <text>ltv Aerospace Corp</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.256564</relevance>
+            <count>1</count>
+            <text>nasa Director of Facilities</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255489</relevance>
+            <count>2</count>
+            <text>Dr. Richard E. Grindeland</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.234072</relevance>
+            <relevance>0.25472</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.250661</relevance>
+            <count>1</count>
+            <text>technical support</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.242034</relevance>
+            <count>1</count>
+            <text>Charles S. Draper Laboratory</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.24117</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.239796</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.235719</relevance>
+            <count>2</count>
+            <text>Martin Marietta Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.232747</relevance>
+            <count>1</count>
+            <text>House Committee on Appropriations Subcommittee</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.232523</relevance>
+            <count>1</count>
+            <text>Spcwe Technology</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.232187</relevance>
+            <count>1</count>
+            <text>Rep. Edward P. Boland</text>
+            <disambiguated>
+                <name>Edward Boland</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Edward_Boland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vvm1</freebase>
+                <yago>http://yago-knowledge.org/resource/Edward_Boland</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.22793</relevance>
             <count>1</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -302,14 +347,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.232247</relevance>
+            <type>Organization</type>
+            <relevance>0.226617</relevance>
             <count>1</count>
-            <text>Rockwell</text>
+            <text>Air Force</text>
+            <disambiguated>
+                <name>Air force</name>
+                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.224782</relevance>
+            <count>3</count>
+            <text>Mars</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.224138</relevance>
+            <count>1</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.228504</relevance>
+            <relevance>0.222768</relevance>
             <count>1</count>
             <text>Md</text>
             <disambiguated>
@@ -330,41 +406,63 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.227945</relevance>
-            <count>1</count>
-            <text>Fairchild Hiller Corp.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227658</relevance>
-            <count>1</count>
-            <text>House Committee on Appropriations Subcommittee</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.227561</relevance>
+            <relevance>0.222503</relevance>
             <count>1</count>
-            <text>Rep. Edward P. Boland</text>
+            <text>Marquis Childs</text>
             <disambiguated>
-                <name>Edward Boland</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Edward_Boland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vvm1</freebase>
-                <yago>http://yago-knowledge.org/resource/Edward_Boland</yago>
+                <name>Marquis Childs</name>
+                <dbpedia>http://dbpedia.org/resource/Marquis_Childs</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dyqv3</freebase>
+                <yago>http://yago-knowledge.org/resource/Marquis_Childs</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.225813</relevance>
+            <type>City</type>
+            <relevance>0.221068</relevance>
+            <count>2</count>
+            <text>esro</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.221018</relevance>
             <count>1</count>
-            <text>technical support</text>
+            <text>Pasadena</text>
+            <disambiguated>
+                <name>Pasadena, California</name>
+                <subType>AdministrativeDivision</subType>
+                <geo>34.15611111111111 -118.13194444444444</geo>
+                <website>http://www.cityofpasadena.net/</website>
+                <dbpedia>http://dbpedia.org/resource/Pasadena,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mzww</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/pasadena</census>
+                <yago>http://yago-knowledge.org/resource/Pasadena,_California</yago>
+                <geonames>http://sws.geonames.org/5381396/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.219678</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.219434</relevance>
+            <count>1</count>
+            <text>Messerschmitt-Boeklow-Blohm GmbH</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.22418</relevance>
+            <relevance>0.218375</relevance>
             <count>1</count>
             <text>Smithsonian Institution</text>
             <disambiguated>
@@ -383,7 +481,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.221908</relevance>
+            <relevance>0.21617</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -402,136 +500,33 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.219917</relevance>
-            <count>2</count>
-            <text>Dr. Richard E. Grindeland</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.216674</relevance>
-            <count>1</count>
-            <text>Charles S. Draper Laboratory</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.216345</relevance>
-            <count>3</count>
-            <text>Mars</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.215773</relevance>
-            <count>1</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.215027</relevance>
-            <count>1</count>
-            <text>Senate Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.213764</relevance>
-            <count>1</count>
-            <text>MSFC PAO</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.212766</relevance>
-            <count>1</count>
-            <text>Pasadena</text>
-            <disambiguated>
-                <name>Pasadena, California</name>
-                <subType>AdministrativeDivision</subType>
-                <geo>34.15611111111111 -118.13194444444444</geo>
-                <website>http://www.cityofpasadena.net/</website>
-                <dbpedia>http://dbpedia.org/resource/Pasadena,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mzww</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/pasadena</census>
-                <yago>http://yago-knowledge.org/resource/Pasadena,_California</yago>
-                <geonames>http://sws.geonames.org/5381396/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.209916</relevance>
-            <count>1</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.209819</relevance>
-            <count>1</count>
-            <text>Marquis Childs</text>
-            <disambiguated>
-                <name>Marquis Childs</name>
-                <dbpedia>http://dbpedia.org/resource/Marquis_Childs</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dyqv3</freebase>
-                <yago>http://yago-knowledge.org/resource/Marquis_Childs</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.208362</relevance>
-            <count>1</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.207152</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.207123</relevance>
+            <relevance>0.215421</relevance>
             <count>1</count>
             <text>Dr. Bruce Murray</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.206956</relevance>
+            <type>Organization</type>
+            <relevance>0.21482</relevance>
             <count>1</count>
-            <text>Spcwe Technology</text>
+            <text>Technology Center</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.213019</relevance>
+            <count>1</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.209809</relevance>
+            <count>1</count>
+            <text>Janssen</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.206848</relevance>
+            <relevance>0.20709</relevance>
             <count>1</count>
-            <text>FY</text>
+            <text>Univ. of California</text>
         </entity>
     </entities>
 </results>

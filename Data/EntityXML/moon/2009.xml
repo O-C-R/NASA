@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.898986</relevance>
+            <relevance>0.830187</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,26 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.877273</relevance>
+            <relevance>0.817555</relevance>
             <count>5</count>
             <text>lunar probe</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.590571</relevance>
+            <count>4</count>
+            <text>ISRO</text>
+            <disambiguated>
+                <name>Indian Space Research Organisation</name>
+                <website>http://www.isro.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Indian_Space_Research_Organisation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03zwkz</freebase>
+                <yago>http://yago-knowledge.org/resource/Indian_Space_Research_Organisation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.549105</relevance>
+            <relevance>0.515982</relevance>
             <count>5</count>
             <text>China</text>
             <disambiguated>
@@ -53,27 +66,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.467705</relevance>
-            <count>4</count>
-            <text>ISRO</text>
-            <disambiguated>
-                <name>Indian Space Research Organisation</name>
-                <website>http://www.isro.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Indian_Space_Research_Organisation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03zwkz</freebase>
-                <yago>http://yago-knowledge.org/resource/Indian_Space_Research_Organisation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.445587</relevance>
+            <relevance>0.459379</relevance>
             <count>1</count>
             <text>Moon Craft</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.45222</relevance>
+            <count>3</count>
+            <text>Chandrayaan</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.433868</relevance>
+            <count>3</count>
+            <text>Kaguya</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.40851</relevance>
+            <count>1</count>
+            <text>Regolith Excavation Challenge</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.399859</relevance>
+            <count>1</count>
+            <text>Lunar Mission</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.430498</relevance>
+            <relevance>0.389368</relevance>
             <count>4</count>
             <text>Japan Aerospace Exploration Agency</text>
             <disambiguated>
@@ -87,26 +111,55 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.429026</relevance>
+            <type>City</type>
+            <relevance>0.377109</relevance>
             <count>1</count>
-            <text>Lunar Mission</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.41672</relevance>
-            <count>3</count>
             <text>Kaguya</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.392517</relevance>
+            <relevance>0.363035</relevance>
             <count>1</count>
-            <text>Regolith Excavation Challenge</text>
+            <text>People&#x2019;s Republic of China&#x2019;s State Administration of Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.338016</relevance>
+            <count>2</count>
+            <text>Chief Madhavan Nair</text>
+            <disambiguated>
+                <name>G. Madhavan Nair</name>
+                <subType>Academic</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/G._Madhavan_Nair</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027t1db</freebase>
+                <yago>http://yago-knowledge.org/resource/G._Madhavan_Nair</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.337842</relevance>
+            <count>1</count>
+            <text>Beijing</text>
+            <disambiguated>
+                <name>Beijing</name>
+                <geo>39.91388888888889 116.39166666666667</geo>
+                <website>http://www.beijing.gov.cn/</website>
+                <dbpedia>http://dbpedia.org/resource/Beijing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.047txg</freebase>
+                <yago>http://yago-knowledge.org/resource/Beijing</yago>
+                <geonames>http://sws.geonames.org/1816670/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.317686</relevance>
+            <count>1</count>
+            <text>Paul&#x2019;s Robotics of Worcester</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.375011</relevance>
+            <relevance>0.317682</relevance>
             <count>2</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -120,73 +173,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.359961</relevance>
-            <count>1</count>
-            <text>Kaguya</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.358759</relevance>
-            <count>2</count>
-            <text>Chief Madhavan Nair</text>
-            <disambiguated>
-                <name>G. Madhavan Nair</name>
-                <subType>Academic</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/G._Madhavan_Nair</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027t1db</freebase>
-                <yago>http://yago-knowledge.org/resource/G._Madhavan_Nair</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.341209</relevance>
-            <count>3</count>
-            <text>Chandrayaan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.319895</relevance>
-            <count>1</count>
-            <text>People&#x2019;s Republic of China&#x2019;s State Administration of Science</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.307733</relevance>
-            <count>1</count>
-            <text>Heidelberg</text>
-            <disambiguated>
-                <name>Heidelberg</name>
-                <subType>GermanUrbanDistrict</subType>
-                <subType>Dedicatee</subType>
-                <website>http://www.heidelberg.de/</website>
-                <dbpedia>http://dbpedia.org/resource/Heidelberg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm5m</freebase>
-                <yago>http://yago-knowledge.org/resource/Heidelberg</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.305548</relevance>
-            <count>1</count>
-            <text>Paul&#x2019;s Robotics of Worcester</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301932</relevance>
-            <count>1</count>
-            <text>Frank Postberg</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.30168</relevance>
-            <count>1</count>
-            <text>Max Planck Institute for Nuclear Physics</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.301269</relevance>
+            <relevance>0.312497</relevance>
             <count>2</count>
             <text>California</text>
             <disambiguated>
@@ -207,40 +195,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.300955</relevance>
-            <count>1</count>
-            <text>Germany</text>
-            <disambiguated>
-                <name>Germany</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.deutschland.de/</website>
-                <dbpedia>http://dbpedia.org/resource/Germany</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Germany</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0cn004</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj4PJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Germany</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.300646</relevance>
-            <count>1</count>
-            <text>Beijing</text>
-            <disambiguated>
-                <name>Beijing</name>
-                <geo>39.91388888888889 116.39166666666667</geo>
-                <website>http://www.beijing.gov.cn/</website>
-                <dbpedia>http://dbpedia.org/resource/Beijing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.047txg</freebase>
-                <yago>http://yago-knowledge.org/resource/Beijing</yago>
-                <geonames>http://sws.geonames.org/1816670/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.294412</relevance>
+            <relevance>0.30561</relevance>
             <count>1</count>
             <text>Massachusetts</text>
             <disambiguated>
@@ -258,29 +214,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.294182</relevance>
-            <count>1</count>
-            <text>Bulgarian Academy of Sciences</text>
-            <disambiguated>
-                <name>Bulgarian Academy of Sciences</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.bas.bg/cgi-bin/e-cms/vis/vis.pl?s=001&amp;p=0184</website>
-                <dbpedia>http://dbpedia.org/resource/Bulgarian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0693cq</freebase>
-                <yago>http://yago-knowledge.org/resource/Bulgarian_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.293331</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.288957</relevance>
+            <relevance>0.300522</relevance>
             <count>1</count>
             <text>Gardena</text>
             <disambiguated>
@@ -295,55 +230,59 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.285119</relevance>
-            <count>1</count>
-            <text>Ed Johnson</text>
-            <disambiguated>
-                <name>Ed Johnson (baseball)</name>
-                <dbpedia>http://dbpedia.org/resource/Ed_Johnson_(baseball)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j29wqh</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.277688</relevance>
+            <relevance>0.289946</relevance>
             <count>1</count>
             <text>Rancho Palos Verde</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.274211</relevance>
+            <type>Organization</type>
+            <relevance>0.287544</relevance>
             <count>1</count>
-            <text>Terra Engineering</text>
+            <text>Industry for National Defense</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.273729</relevance>
+            <type>City</type>
+            <relevance>0.287453</relevance>
             <count>1</count>
-            <text>Doordarshan</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.273458</relevance>
-            <count>1</count>
-            <text>Xinhua News Agency</text>
+            <text>Heidelberg</text>
+            <disambiguated>
+                <name>Heidelberg</name>
+                <subType>GermanUrbanDistrict</subType>
+                <subType>Dedicatee</subType>
+                <website>http://www.heidelberg.de/</website>
+                <dbpedia>http://dbpedia.org/resource/Heidelberg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cm5m</freebase>
+                <yago>http://yago-knowledge.org/resource/Heidelberg</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.272208</relevance>
+            <relevance>0.286079</relevance>
             <count>1</count>
             <text>Shino Yuasa</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.272001</relevance>
+            <relevance>0.285841</relevance>
             <count>1</count>
             <text>press release</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.285704</relevance>
+            <count>1</count>
+            <text>Terra Engineering</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.285025</relevance>
+            <count>1</count>
+            <text>Xinhua News Agency</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.271009</relevance>
+            <relevance>0.283528</relevance>
             <count>1</count>
             <text>Japan</text>
             <disambiguated>
@@ -360,28 +299,89 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.269881</relevance>
+            <type>Person</type>
+            <relevance>0.281195</relevance>
             <count>1</count>
-            <text>Bloomberg News</text>
+            <text>Frank Postberg</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.281118</relevance>
+            <count>1</count>
+            <text>Germany</text>
+            <disambiguated>
+                <name>Germany</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.deutschland.de/</website>
+                <dbpedia>http://dbpedia.org/resource/Germany</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Germany</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0cn004</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj4PJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Germany</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.269247</relevance>
+            <relevance>0.280657</relevance>
             <count>1</count>
             <text>BBC News</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.279987</relevance>
+            <count>1</count>
+            <text>Max Planck Institute for Nuclear Physics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.275895</relevance>
+            <count>1</count>
+            <text>Bulgarian Academy of Sciences</text>
+            <disambiguated>
+                <name>Bulgarian Academy of Sciences</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.bas.bg/cgi-bin/e-cms/vis/vis.pl?s=001&amp;p=0184</website>
+                <dbpedia>http://dbpedia.org/resource/Bulgarian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0693cq</freebase>
+                <yago>http://yago-knowledge.org/resource/Bulgarian_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.263836</relevance>
+            <relevance>0.275478</relevance>
             <count>1</count>
             <text>Team Braundo</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.250261</relevance>
+            <type>JobTitle</type>
+            <relevance>0.273177</relevance>
             <count>1</count>
-            <text>Industry for National Defense</text>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.267481</relevance>
+            <count>1</count>
+            <text>Ed Johnson</text>
+            <disambiguated>
+                <name>Ed Johnson (baseball)</name>
+                <dbpedia>http://dbpedia.org/resource/Ed_Johnson_(baseball)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j29wqh</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.25579</relevance>
+            <count>1</count>
+            <text>Doordarshan</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.251519</relevance>
+            <count>1</count>
+            <text>Bloomberg News</text>
         </entity>
     </entities>
 </results>

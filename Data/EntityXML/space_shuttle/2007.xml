@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.950699</relevance>
-            <count>37</count>
+            <relevance>0.832744</relevance>
+            <count>38</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,13 +29,20 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.411142</relevance>
-            <count>11</count>
+            <relevance>0.319978</relevance>
+            <count>10</count>
             <text>ISS</text>
+            <disambiguated>
+                <name>School</name>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.361977</relevance>
+            <relevance>0.307496</relevance>
             <count>5</count>
             <text>SPACEHAB</text>
             <disambiguated>
@@ -48,7 +55,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.343225</relevance>
+            <relevance>0.292429</relevance>
             <count>4</count>
             <text>SPACEHAB</text>
             <disambiguated>
@@ -60,7 +67,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.271803</relevance>
+            <relevance>0.253448</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -82,86 +89,43 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.243851</relevance>
+            <relevance>0.240656</relevance>
             <count>1</count>
             <text>NASA Government</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.174684</relevance>
+            <count>1</count>
+            <text>Ares</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.220096</relevance>
+            <relevance>0.174568</relevance>
             <count>4</count>
             <text>Whitney Rocketdyne</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.217587</relevance>
-            <count>1</count>
-            <text>Benjamin A. NASA</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.211608</relevance>
-            <count>1</count>
-            <text>Commander Frederick W. Sturckow</text>
-            <disambiguated>
-                <name>Frederick W. Sturckow</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Frederick_W._Sturckow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030dr_</freebase>
-                <yago>http://yago-knowledge.org/resource/Frederick_W._Sturckow</yago>
-            </disambiguated>
+            <type>Company</type>
+            <relevance>0.172889</relevance>
+            <count>2</count>
+            <text>KSC</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.210757</relevance>
+            <relevance>0.16748</relevance>
             <count>4</count>
             <text>Pratt</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.201657</relevance>
-            <count>2</count>
-            <text>Columbia</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.199595</relevance>
-            <count>1</count>
-            <text>Commander Fyodor N. Yurchikhin</text>
-            <disambiguated>
-                <name>Fyodor Yurchikhin</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Fyodor_Yurchikhin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0323r_</freebase>
-                <yago>http://yago-knowledge.org/resource/Fyodor_Yurchikhin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.198805</relevance>
+            <relevance>0.165461</relevance>
             <count>2</count>
             <text>California</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.198567</relevance>
+            <relevance>0.164321</relevance>
             <count>2</count>
             <text>Houston Chronicle</text>
             <disambiguated>
@@ -174,80 +138,85 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.196582</relevance>
+            <type>City</type>
+            <relevance>0.160049</relevance>
             <count>2</count>
-            <text>KSC</text>
+            <text>Columbia</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.159498</relevance>
+            <count>1</count>
+            <text>Commander Frederick W. Sturckow</text>
+            <disambiguated>
+                <name>Frederick W. Sturckow</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Frederick_W._Sturckow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030dr_</freebase>
+                <yago>http://yago-knowledge.org/resource/Frederick_W._Sturckow</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.195004</relevance>
+            <relevance>0.158152</relevance>
             <count>2</count>
             <text>Engineer</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.191524</relevance>
+            <relevance>0.153271</relevance>
             <count>1</count>
             <text>Ares</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.188984</relevance>
-            <count>1</count>
-            <text>Space Power Facility</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.186736</relevance>
-            <count>2</count>
-            <text>Commander</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.185354</relevance>
-            <count>1</count>
-            <text>Atlantis</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.185232</relevance>
-            <count>1</count>
-            <text>Armed Services Board of Contract Appeals</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.18357</relevance>
+            <relevance>0.1512</relevance>
             <count>2</count>
             <text>Mark Carreau</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.180483</relevance>
+            <relevance>0.1509</relevance>
             <count>1</count>
             <text>Space Station</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.170082</relevance>
+            <type>JobTitle</type>
+            <relevance>0.150744</relevance>
             <count>1</count>
-            <text>Oleg V. Kotov</text>
+            <text>Armed Services Board of Contract Appeals</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.149293</relevance>
+            <count>1</count>
+            <text>Alliant Techsystems</text>
+            <disambiguated>
+                <name>Alliant Techsystems</name>
+                <subType>RocketManufacturer</subType>
+                <website>http://www.atk.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Alliant_Techsystems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02bck_</freebase>
+                <yago>http://yago-knowledge.org/resource/Alliant_Techsystems</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.167443</relevance>
+            <relevance>0.148692</relevance>
             <count>1</count>
-            <text>Maggie Reid</text>
+            <text>Commander Fyodor N. Yurchikhin</text>
+            <disambiguated>
+                <name>Fyodor Yurchikhin</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Fyodor_Yurchikhin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0323r_</freebase>
+                <yago>http://yago-knowledge.org/resource/Fyodor_Yurchikhin</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.166282</relevance>
-            <count>1</count>
-            <text>William Harwood</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.16599</relevance>
+            <relevance>0.144148</relevance>
             <count>1</count>
             <text>Daniel M. Tani</text>
             <disambiguated>
@@ -259,14 +228,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.165863</relevance>
+            <type>Person</type>
+            <relevance>0.143401</relevance>
             <count>1</count>
-            <text>Canoga Park</text>
+            <text>Peggy A. Whitson</text>
+            <disambiguated>
+                <name>Peggy Whitson</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Peggy_Whitson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02df79</freebase>
+                <yago>http://yago-knowledge.org/resource/Peggy_Whitson</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.165723</relevance>
+            <relevance>0.141301</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -284,27 +260,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.165663</relevance>
-            <count>1</count>
-            <text>Sandusky</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.165149</relevance>
-            <count>1</count>
-            <text>Peggy A. Whitson</text>
-            <disambiguated>
-                <name>Peggy Whitson</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Peggy_Whitson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02df79</freebase>
-                <yago>http://yago-knowledge.org/resource/Peggy_Whitson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.163933</relevance>
+            <relevance>0.139777</relevance>
             <count>1</count>
             <text>John Schwartz</text>
             <disambiguated>
@@ -317,26 +274,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.138684</relevance>
+            <count>2</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.137875</relevance>
+            <count>1</count>
+            <text>Atlantis</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.162136</relevance>
+            <relevance>0.136042</relevance>
             <count>2</count>
             <text>ARCTUS</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.158866</relevance>
+            <type>Organization</type>
+            <relevance>0.135961</relevance>
             <count>1</count>
-            <text>Ares</text>
+            <text>Space Power Facility</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.157393</relevance>
+            <type>Person</type>
+            <relevance>0.133533</relevance>
             <count>1</count>
-            <text>ARCTUS</text>
+            <text>Edmond Lococo</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.15733</relevance>
+            <relevance>0.132119</relevance>
             <count>1</count>
             <text>Aviation Week</text>
             <disambiguated>
@@ -350,14 +319,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.157207</relevance>
+            <type>Organization</type>
+            <relevance>0.131961</relevance>
             <count>1</count>
-            <text>Jeffrey M. Hanley</text>
+            <text>ARCTUS</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.13117</relevance>
+            <count>1</count>
+            <text>Bloomberg</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.156029</relevance>
+            <relevance>0.131024</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -371,40 +346,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.153332</relevance>
-            <count>2</count>
-            <text>US</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.148774</relevance>
-            <count>1</count>
-            <text>Alliant Techsystems</text>
-            <disambiguated>
-                <name>Alliant Techsystems</name>
-                <subType>RocketManufacturer</subType>
-                <website>http://www.atk.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Alliant_Techsystems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02bck_</freebase>
-                <yago>http://yago-knowledge.org/resource/Alliant_Techsystems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.148409</relevance>
-            <count>1</count>
-            <text>Bettina Haymann Chavanne</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.145285</relevance>
-            <count>1</count>
-            <text>Marcia Dunn</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.14224</relevance>
+            <relevance>0.129963</relevance>
             <count>1</count>
             <text>Scott J. Kelly</text>
             <disambiguated>
@@ -414,44 +357,82 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.140596</relevance>
+            <type>Country</type>
+            <relevance>0.129598</relevance>
             <count>1</count>
-            <text>RDM</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.140413</relevance>
-            <count>1</count>
-            <text>Houston Business Journal</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.137853</relevance>
-            <count>1</count>
-            <text>Lloyd</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.136617</relevance>
-            <count>1</count>
-            <text>London</text>
+            <text>US</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.134912</relevance>
+            <relevance>0.126017</relevance>
             <count>1</count>
             <text>Orion.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.131169</relevance>
+            <relevance>0.124884</relevance>
             <count>1</count>
-            <text>Edmond Lococo</text>
+            <text>Jeffrey M. Hanley</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.129044</relevance>
+            <relevance>0.124758</relevance>
+            <count>1</count>
+            <text>Oleg V. Kotov</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.124099</relevance>
+            <count>1</count>
+            <text>Bettina Haymann Chavanne</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.122729</relevance>
+            <count>1</count>
+            <text>Maggie Reid</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.121936</relevance>
+            <count>1</count>
+            <text>William Harwood</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.121481</relevance>
+            <count>1</count>
+            <text>Marcia Dunn</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.121446</relevance>
+            <count>1</count>
+            <text>Sandusky</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.119729</relevance>
+            <count>1</count>
+            <text>Canoga Park</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.11848</relevance>
             <count>1</count>
             <text>Tracy E. Caldwell</text>
             <disambiguated>
@@ -459,6 +440,54 @@
                 <dbpedia>http://dbpedia.org/resource/Tracy_Caldwell_Dyson</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.05x03g</freebase>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.118423</relevance>
+            <count>1</count>
+            <text>Charles O. Hobaugh</text>
+            <disambiguated>
+                <name>Charles O. Hobaugh</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Charles_O._Hobaugh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vqww</freebase>
+                <yago>http://yago-knowledge.org/resource/Charles_O._Hobaugh</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.118283</relevance>
+            <count>1</count>
+            <text>Richard A. Mastracchio</text>
+            <disambiguated>
+                <name>Richard Mastracchio</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_Mastracchio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02xn1b</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_Mastracchio</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.117215</relevance>
+            <count>1</count>
+            <text>Barbara R. Morgan</text>
+            <disambiguated>
+                <name>Barbara Morgan</name>
+                <subType>Astronaut</subType>
+                <subType>Hobbyist</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Barbara_Morgan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.024h1r</freebase>
+                <yago>http://yago-knowledge.org/resource/Barbara_Morgan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.115978</relevance>
+            <count>1</count>
+            <text>US</text>
         </entity>
     </entities>
 </results>

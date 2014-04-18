@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.824694</relevance>
+            <relevance>0.768152</relevance>
             <count>15</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.636672</relevance>
+            <relevance>0.640329</relevance>
             <count>10</count>
             <text>U.S.</text>
             <disambiguated>
@@ -49,7 +49,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.63371</relevance>
+            <relevance>0.618536</relevance>
             <count>6</count>
             <text>NYT</text>
             <disambiguated>
@@ -67,8 +67,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.534493</relevance>
+            <count>5</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.566109</relevance>
+            <relevance>0.533473</relevance>
             <count>5</count>
             <text>John A. Volpe</text>
             <disambiguated>
@@ -83,20 +89,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.556799</relevance>
-            <count>5</count>
-            <text>Secretary</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.483459</relevance>
+            <type>Person</type>
+            <relevance>0.503398</relevance>
             <count>4</count>
-            <text>President</text>
+            <text>Sen. William Proxmire</text>
+            <disambiguated>
+                <name>William Proxmire</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/William_Proxmire</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02k47z</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Proxmire</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.469889</relevance>
+            <relevance>0.47528</relevance>
+            <count>3</count>
+            <text>Aerospace Minister Michael R. D. Heseltine</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.468146</relevance>
+            <count>4</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.459912</relevance>
             <count>3</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -123,47 +144,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.455992</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.431656</relevance>
             <count>3</count>
-            <text>Aerospace Minister Michael R. D. Heseltine</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.429899</relevance>
-            <count>4</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.421046</relevance>
-            <count>3</count>
-            <text>NYT</text>
+            <text>Wall Street Journal</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.404868</relevance>
+            <relevance>0.42858</relevance>
             <count>4</count>
             <text>Moscow</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.383295</relevance>
+            <type>JobTitle</type>
+            <relevance>0.423738</relevance>
             <count>4</count>
-            <text>Sen. William Proxmire</text>
-            <disambiguated>
-                <name>William Proxmire</name>
-                <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/William_Proxmire</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02k47z</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Proxmire</yago>
-            </disambiguated>
+            <text>Chairman</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.376467</relevance>
+            <relevance>0.405302</relevance>
             <count>2</count>
             <text>William P. Rogers</text>
             <disambiguated>
@@ -176,8 +185,211 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.401077</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.390373</relevance>
+            <count>1</count>
+            <text>Lockheed Aircraft Corp</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.382948</relevance>
+            <count>2</count>
+            <text>Secretary of State</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.36589</relevance>
+            <count>2</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.366226</relevance>
+            <relevance>0.364404</relevance>
+            <count>2</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.348731</relevance>
+            <count>2</count>
+            <text>faa</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.345931</relevance>
+            <count>1</count>
+            <text>Admiral Alan Shepard</text>
+            <disambiguated>
+                <name>Alan Shepard</name>
+                <subType>FilmCharacter</subType>
+                <subType>TVCharacter</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Alan_Shepard</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0h2_l</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvqZMtJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Alan_Shepard</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.345155</relevance>
+            <count>2</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.34321</relevance>
+            <count>2</count>
+            <text>John W. Young</text>
+            <disambiguated>
+                <name>John Young (astronaut)</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Young_(astronaut)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01s64b</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Young_(astronaut)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.339116</relevance>
+            <count>3</count>
+            <text>Jr.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.33759</relevance>
+            <count>2</count>
+            <text>Presidential Science Adviser</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.334427</relevance>
+            <count>2</count>
+            <text>GAO</text>
+            <disambiguated>
+                <name>Government Accountability Office</name>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.gao.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.332083</relevance>
+            <count>1</count>
+            <text>British Aerospace</text>
+            <disambiguated>
+                <name>British Aerospace</name>
+                <subType>Company</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <dbpedia>http://dbpedia.org/resource/British_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cth8</freebase>
+                <yago>http://yago-knowledge.org/resource/British_Aerospace</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.328694</relevance>
+            <count>1</count>
+            <text>United Nations Outer Space Committee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.328388</relevance>
+            <count>1</count>
+            <text>U.N. General Assembly</text>
+            <disambiguated>
+                <name>United Nations General Assembly</name>
+                <website>http://www.un.org/ga</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_General_Assembly</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vp7</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvl56KZwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.32676</relevance>
+            <count>2</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.320106</relevance>
+            <count>2</count>
+            <text>Lawrence Livermore Laboratory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.319025</relevance>
+            <count>1</count>
+            <text>Northrop Aircraft</text>
+            <disambiguated>
+                <name>Northrop Corporation</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Northrop_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01frmh</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.318501</relevance>
+            <count>2</count>
+            <text>White House</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.309254</relevance>
+            <count>2</count>
+            <text>Senate Committee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.305896</relevance>
             <count>4</count>
             <text>John F. Kennedy</text>
             <disambiguated>
@@ -205,7 +417,33 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.356866</relevance>
+            <relevance>0.304866</relevance>
+            <count>1</count>
+            <text>Academician Sergei Vavilov</text>
+            <disambiguated>
+                <name>Sergey Ivanovich Vavilov</name>
+                <subType>Academic</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Sergey_Ivanovich_Vavilov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.039p17</freebase>
+                <yago>http://yago-knowledge.org/resource/Sergey_Ivanovich_Vavilov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.304167</relevance>
+            <count>1</count>
+            <text>British Airways Board</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.303361</relevance>
+            <count>1</count>
+            <text>nasa Ann</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.301752</relevance>
             <count>1</count>
             <text>William M. Allen</text>
             <disambiguated>
@@ -216,8 +454,36 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.301048</relevance>
+            <count>1</count>
+            <text>Airbus</text>
+            <disambiguated>
+                <name>Airbus</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.airbus.com</website>
+                <dbpedia>http://dbpedia.org/resource/Airbus</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015zfz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rMWa14i9dQdiA35I-d_uJMg</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.35539</relevance>
+            <relevance>0.300869</relevance>
+            <count>1</count>
+            <text>Joseph Weizenbaum</text>
+            <disambiguated>
+                <name>Joseph Weizenbaum</name>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Joseph_Weizenbaum</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042p5</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjwhpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Joseph_Weizenbaum</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.300463</relevance>
             <count>2</count>
             <text>John H. Shaffer</text>
             <disambiguated>
@@ -227,210 +493,63 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.355238</relevance>
-            <count>2</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.354262</relevance>
-            <count>2</count>
-            <text>Secretary of State</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.350416</relevance>
-            <count>3</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.34629</relevance>
-            <count>2</count>
-            <text>Senate Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.338878</relevance>
-            <count>2</count>
-            <text>President Lyndon B. Johnson</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson</name>
-                <subType>FilmCharacter</subType>
-                <subType>MusicalArtist</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>AwardWinner</subType>
-                <subType>Dedicatee</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f7fy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUQJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson</yago>
-                <musicBrainz>http://zitgist.com/music/artist/a40998e6-3496-44d5-9032-79e313be07b5</musicBrainz>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.338449</relevance>
+            <type>Company</type>
+            <relevance>0.300378</relevance>
             <count>1</count>
-            <text>Boeing Co</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.332814</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
+            <text>General Electric Co.</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.329776</relevance>
-            <count>2</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.329104</relevance>
-            <count>2</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.328708</relevance>
+            <relevance>0.299569</relevance>
+            <count>1</count>
+            <text>John K. Northrop</text>
+            <disambiguated>
+                <name>Jack Northrop</name>
+                <dbpedia>http://dbpedia.org/resource/Jack_Northrop</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03981m</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.299528</relevance>
+            <count>1</count>
+            <text>Dr. John Bardeen</text>
+            <disambiguated>
+                <name>John Bardeen</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Inventor</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Bardeen</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0403x</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Bardeen</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.29763</relevance>
+            <count>1</count>
+            <text>NASA Hq.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.297609</relevance>
             <count>2</count>
             <text>Dr. William J. Hargis</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.325323</relevance>
-            <count>1</count>
-            <text>consultant</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.325223</relevance>
-            <count>2</count>
-            <text>Lawrence Livermore Laboratory</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.324572</relevance>
-            <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.322636</relevance>
-            <count>1</count>
-            <text>British Aerospace</text>
-            <disambiguated>
-                <name>British Aerospace</name>
-                <subType>Company</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <dbpedia>http://dbpedia.org/resource/British_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cth8</freebase>
-                <yago>http://yago-knowledge.org/resource/British_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.322056</relevance>
-            <count>1</count>
-            <text>West Palm Beach</text>
-            <disambiguated>
-                <name>West Palm Beach, Florida</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.cityofwpb.com/</website>
-                <dbpedia>http://dbpedia.org/resource/West_Palm_Beach,_Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rql_</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/fl/counties/palm_beach_county/west_palm_beach</census>
-                <yago>http://yago-knowledge.org/resource/West_Palm_Beach,_Florida</yago>
-                <geonames>http://sws.geonames.org/4177887/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.320419</relevance>
-            <count>1</count>
-            <text>Northrop Aircraft</text>
-            <disambiguated>
-                <name>Northrop Corporation</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Northrop_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01frmh</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.318475</relevance>
-            <count>1</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.317052</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.313554</relevance>
+            <relevance>0.297554</relevance>
             <count>2</count>
             <text>Dr. Wernher von Braun</text>
             <disambiguated>
@@ -447,53 +566,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.310799</relevance>
-            <count>2</count>
-            <text>John W. Young</text>
-            <disambiguated>
-                <name>John Young (astronaut)</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Young_(astronaut)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01s64b</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Young_(astronaut)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.309533</relevance>
+            <type>Company</type>
+            <relevance>0.297498</relevance>
             <count>1</count>
-            <text>Dr. John Bardeen</text>
-            <disambiguated>
-                <name>John Bardeen</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>Inventor</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Bardeen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0403x</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Bardeen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.30583</relevance>
-            <count>1</count>
-            <text>Academician Sergei Vavilov</text>
-            <disambiguated>
-                <name>Sergey Ivanovich Vavilov</name>
-                <subType>Academic</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Sergey_Ivanovich_Vavilov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.039p17</freebase>
-                <yago>http://yago-knowledge.org/resource/Sergey_Ivanovich_Vavilov</yago>
-            </disambiguated>
+            <text>TriStar</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.304118</relevance>
+            <relevance>0.294758</relevance>
             <count>1</count>
             <text>National Institutes of Health</text>
             <disambiguated>
@@ -509,150 +589,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.303411</relevance>
-            <count>1</count>
-            <text>Boeing Co.</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.302191</relevance>
-            <count>1</count>
-            <text>Swedish Royal Academy of Sciences</text>
-            <disambiguated>
-                <name>Royal Swedish Academy of Sciences</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <dbpedia>http://dbpedia.org/resource/Royal_Swedish_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dy4v</freebase>
-                <yago>http://yago-knowledge.org/resource/Royal_Swedish_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301469</relevance>
-            <count>1</count>
-            <text>Sen. Hugh Scott</text>
-            <disambiguated>
-                <name>Hugh Scott</name>
-                <subType>Politician</subType>
-                <subType>BoardMember</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Hugh_Scott</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.039myb</freebase>
-                <yago>http://yago-knowledge.org/resource/Hugh_Scott</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301161</relevance>
-            <count>2</count>
-            <text>James R. Knott</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.300878</relevance>
-            <count>1</count>
-            <text>John K. Northrop</text>
-            <disambiguated>
-                <name>Jack Northrop</name>
-                <dbpedia>http://dbpedia.org/resource/Jack_Northrop</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03981m</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.297743</relevance>
-            <count>2</count>
-            <text>Dr. Christian B. Anfinsen</text>
-            <disambiguated>
-                <name>Christian B. Anfinsen</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Christian_B._Anfinsen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.031d3h</freebase>
-                <yago>http://yago-knowledge.org/resource/Christian_B._Anfinsen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.29772</relevance>
+            <relevance>0.294506</relevance>
             <count>1</count>
-            <text>local law enforcement</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.297524</relevance>
-            <count>1</count>
-            <text>Joseph Weizenbaum</text>
-            <disambiguated>
-                <name>Joseph Weizenbaum</name>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Joseph_Weizenbaum</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042p5</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjwhpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Joseph_Weizenbaum</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.296119</relevance>
-            <count>1</count>
-            <text>Dr. Donald Blessing Rice</text>
-            <disambiguated>
-                <name>Donald Rice</name>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Donald_Rice</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03npmlt</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.29576</relevance>
-            <count>1</count>
-            <text>Dr. John R. Schrieffer</text>
-            <disambiguated>
-                <name>John Robert Schrieffer</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Robert_Schrieffer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.023ckx</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Robert_Schrieffer</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.29552</relevance>
-            <count>1</count>
-            <text>Admiral Alan Shepard</text>
-            <disambiguated>
-                <name>Alan Shepard</name>
-                <subType>FilmCharacter</subType>
-                <subType>TVCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Alan_Shepard</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h2_l</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvqZMtJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Alan_Shepard</yago>
-            </disambiguated>
+            <text>mass media</text>
         </entity>
     </entities>
 </results>
