@@ -8,11 +8,20 @@ import java.util.Map;
 import processing.pdf.*;
 
 
-// main controlling vars
-float splineMinAngleInDegrees = .05f; // .02 for high
+// *** main spline numbers *** //
+float splineMinAngleInDegrees = .1f; // .02 for high
 float splineMinDistance = 13f; // minimum distance between makeing a facet
 int splineDivisionAmount = 150; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
+
+
+// *** child spline numbers *** // 
+float minimumSplineSpacing = 7f; // 4f is a good ht; // *** change this to set the minimum spline ht
+float maximumPercentSplineSpacing = .25;
+float childMaxPercentMultiplier = 1.95; // 2 would be the same as the parent // *** change this to alter falloff of children size
+float testSplineSpacing = minimumSplineSpacing;
+
+
 
 boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
 float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
@@ -28,7 +37,7 @@ float wiggleRoom = 48f; // how much the word can move around instead of being pr
 
 // when divding up the splabels into the middlesplines
 float maxSplineHeight = 19f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-float splineCurvePointDistance = 10f; // the approx distance between curve points
+//float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 int[] yearRange = {
   1961, 
@@ -52,7 +61,7 @@ Term blankTerm = new Term(); // blank term used to gather x position.  used main
 String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
 //String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
 String[] bucketsToUse = {
-  //"debug", 
+  "debug", 
   //"administrative", 
   //"astronaut", 
   //"mars", 
@@ -139,9 +148,12 @@ boolean exportNow = false;
 
 //
 void setup() {
-  //size(5300, 1800); // for draft
+  //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
-  size(1200, 500);
+
+  //size(4800, 1200); // good
+  ///size(1200, 500); // small for debug
+  size(2200, 800); // small for debug
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
@@ -168,13 +180,8 @@ void setup() {
   orderBucketTerms(); // this will not only order the terms in each bucket by their seriesSum, but will also do the same for each bucket's Pos and also make the ordered indices for each term
 
   makeMasterSpLabels();
-  makeVariationSplines(); // this will make it so that the middle lines are a bit weighted.  otherwise they will be evenly distributed
-  //  //splitMasterSpLabelsByPercent(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by percent
-  splitMasterSpLabelsVertically(maxSplineHeight, splineCurvePointDistance); // this will generate the middleSplines for each splabel by straight up vertical 
-  assignSpLabelNeighbors(); // this does the top and bottom neighbors for the spline labels
 
-    // do the great divide
-  if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
+  // then press 'm' or 'n' to make or read in the splines
 } // end setup
 
 //
@@ -185,7 +192,10 @@ void draw() {
     println("starting export to PDF");
   }
 
-  background(bgColor);
+//  background(bgColor);
+
+
+
 
   // draw dates
   drawDates();
@@ -194,10 +204,32 @@ void draw() {
     fill(sp.c);
     sp.display();
 
+
+
     if (splinesOn) sp.displaySplines();
     if (facetsOn) sp.displayFacetPoints();
 
-    if (variationOn) sp.displayVariationSpline();
+    if (sp.topSpline != null && sp.bottomSpline != null) {
+      noFill();
+      if (sp.middleMain != null) {
+        stroke(100);
+        sp.middleMain.get(0).display();
+        sp.middleMain.get(0).displayCurvePoints();
+        stroke(100);
+        sp.middleMain.get(1).display();
+        sp.middleMain.get(1).displayCurvePoints();
+      }
+      if (sp.middleTops != null) {
+        for (ArrayList<Spline> tops : sp.middleTops) {
+          for (Spline s : tops) s.display();
+        }
+      }
+      if (sp.middleBottoms != null) {
+        for (ArrayList<Spline> bottoms : sp.middleBottoms) {
+          for (Spline s : bottoms) s.display();
+        }
+      }
+    }
   }
 
 
@@ -249,7 +281,7 @@ void keyReleased() {
   if (key == 'p') {
     timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
     saveFrame("output/" + timeStamp + ".png");
-    exportNow = true;
+    //exportNow = true;
   }
   if (keyCode == UP || keyCode == DOWN) {
   }
@@ -317,6 +349,26 @@ void keyReleased() {
     shiftIsDown = false;
   }
 
+  // MAKE OR READ IN THE SPLINES
+  if (key == 'm') {
+    //splitMasterSpLabelsVertically(maxSplineHeight, minimumSplineSpacing, maximumPercentSplineSpacing); // this will generate the middleSplines for each splabel by straight up vertical
+    //exportSplines(); 
+
+    /*
+     // do the great divide
+     if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
+     */
+  }
+  if (key == 'n') {
+    readInSplinesForSpLabels();
+    /* ????????
+     
+     // do the great divide
+     if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
+     */
+  }
+
+
   loop();
 } // end keyReleased
 
@@ -363,13 +415,13 @@ void doPopulate(int toMake) {
   int counter = 0;
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
-    for (int i = 0; i < bucketsAL.size(); i++) {
-      Bucket b = bucketsAL.get(i);
-      //Bucket b = bucketsAL.get(2);
-      status = tryToPopulateBucketWithNextTerm(b);
-
-      if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
-    }
+    //for (int i = 0; i < bucketsAL.size(); i++) {
+    //Bucket b = bucketsAL.get(i);
+    //println("NAME: " + b.name);
+    Bucket b = bucketsAL.get(0);
+    status = tryToPopulateBucketWithNextTerm(b);
+    if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
+    //}
     counter++;
     int thisPercent = (int)(100 * ((float)counter / toMake));
     if (thisPercent != lastPercent) {

@@ -5,10 +5,9 @@ class SpLabel {
   ArrayList<Label> labels = new ArrayList<Label>();
   Spline topSpline = null; // top masterSpline
   Spline bottomSpline = null; // bottom masterSpline
-  Spline topNeighborSpline = null; // if there is a SpLabel above it, this will be the first spline above the topSpline
-  Spline bottomNeighborSpline = null; // same for the bottom
+  //Spline topNeighborSpline = null; // if there is a SpLabel above it, this will be the first spline above the topSpline
+  //Spline bottomNeighborSpline = null; // same for the bottom
 
-  Spline variationSpline = null; // this is the one that sort of bounces within the top and bottom splines.  used to distribute the spacing of the middleSplines
   float minimumVariation = .01; // will not go within this % of the edge
   float variationNumber = .02; // control the noise variation.. arbitrary, needs testing
   float randomNumber = random(100); // used as a sort of seed
@@ -21,6 +20,10 @@ class SpLabel {
   // skipZone and
   HashMap<Integer, Float> skipZones = new HashMap<Integer, Float>(); // ok because the years serve as the mapped x marker.  round to integer
 
+  // MIDDLE SPLINES
+  ArrayList<Spline>middleMain = null; // the two main lines that go in the middle of the splabel
+  ArrayList<ArrayList<Spline>> middleTops = null; // when making the children and grandchildren they will be stored here
+  ArrayList<ArrayList<Spline>> middleBottoms = null;
 
 
   float[] data = new float[0];
@@ -47,50 +50,65 @@ class SpLabel {
   } // end saveMaxHeight
 
   //
-  void blendSPLabelSplinesByPercent(int count, float splineCPDistance) {
-    if (variationSpline == null) middleSplines = blendSplinesByDistance(topSpline, bottomSpline, count, splineCPDistance);
-    else middleSplines = blendSplinesByDistanceWithWeight(topSpline, bottomSpline, count, splineCPDistance, variationSpline);
-  } // end blendSPLabelSplinesByPercent
-
-  //
-  void blendSPLabelSplinesVertically(int count, float splineCPDistance) {
+  void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing) {
+    /*
     if (variationSpline == null) {
-      middleSplines = blendSplinesVertically(topSpline, bottomSpline, count, splineCPDistance);
-      println("made middleSplines size of: " + middleSplines.size());
+     middleSplines = blendSplinesVertically(topSpline, bottomSpline, count, splineCPDistance);
+     println("made middleSplines size of: " + middleSplines.size());
+     }
+     else {
+     middleSplines = blendSplinesVerticallyWithWeight(topSpline, bottomSpline, count, splineCPDistance, variationSpline);
+     println("made middleSplines size of: " + middleSplines.size());
+     }
+     */
+
+    middleMain = middleMakerVertical(topSpline, bottomSpline, splineCPDistance, maximumPercentSplineSpacing);
+
+    // do the top and the bottom
+    // bottom first
+
+
+    ArrayList<Spline> lastGeneration = makeCutoffSplines2(bottomSpline, middleMain.get(1), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+    if (lastGeneration != null) {
+      if (middleBottoms == null) middleBottoms = new ArrayList<ArrayList<Spline>>();
+      middleBottoms.add(lastGeneration);
     }
-    else {
-      middleSplines = blendSplinesVerticallyWithWeight(topSpline, bottomSpline, count, splineCPDistance, variationSpline);
-      println("made middleSplines size of: " + middleSplines.size());
+
+    for (int k = 0; k < 200; k++) { // arbitrary limit
+      ArrayList<Spline> temp = new ArrayList<Spline>();
+      for (int i = 0; i < lastGeneration.size(); i++) {
+        ArrayList<Spline> newGeneration = makeCutoffSplines2(bottomSpline, lastGeneration.get(i), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+        temp.addAll(newGeneration);
+      }
+      middleBottoms.add(temp);
+      println("k: " + k + " bottom temp.size(): " + temp.size());
+      lastGeneration = temp;
+      if (temp.size() == 0) break;
     }
+
+
+
+    lastGeneration = makeCutoffSplines2(topSpline, middleMain.get(0), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+    if (lastGeneration != null) {
+      if (middleTops == null) middleTops = new ArrayList<ArrayList<Spline>>();
+      middleTops.add(lastGeneration);
+    }
+    for (int k = 0; k < 200; k++) { // arbitrary limit
+      ArrayList<Spline> temp = new ArrayList<Spline>();
+      for (int i = 0; i < lastGeneration.size(); i++) {
+        ArrayList<Spline> newGeneration = makeCutoffSplines2(topSpline, lastGeneration.get(i), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+        temp.addAll(newGeneration);
+      }
+      middleTops.add(temp);
+      println("k: " + k + " top temp.size(): " + temp.size());
+      lastGeneration = temp;
+      if (temp.size() == 0) break;
+    }
+
+    println("done making divisions");
   } // end blendSPLabelSplinesVertically 
 
-  //
-  // this is the one that wiggles between the top and bottom
-  void makeVariationSpline() {
-    variationSpline = new Spline();
-    int divisions = 14 * (int)((float)topSpline.totalDistance / (topSpline.curvePoints.size()));
-    for (int i = 0; i < divisions; i++) {
-      float thisPercent = map(i, 0, divisions - 1, 0, 1);
-      PVector pointA = topSpline.getPointAlongSpline(thisPercent).get(0);
-      PVector dirA = pointA.get();
-      dirA.y += 1; // make it point vertically
-      ArrayList<PVector> intersect = bottomSpline.getPointByIntersection(pointA, dirA);
-      if ( intersect == null) continue; // cutout if no middle
-      PVector pointB = intersect.get(0);
 
-      //float countPercent = map(noise(i * variationNumber + randomNumber), 0, 1, minimumVariation, 1 - minimumVariation); // this is what actually controls the variation
-      // for now make it the middle
-      float countPercent = .5;
-
-      PVector newPointA = pointA.get();
-      newPointA.mult(1 - countPercent);
-      PVector newPointB = pointB.get();
-      newPointB.mult(countPercent);
-      newPointA.add(newPointB);
-      variationSpline.addCurvePoint(newPointA);
-    }
-    variationSpline.makeFacetPoints(topSpline.minAngleInDegrees, topSpline.minDistance, topSpline.divisionAmount, topSpline.flipUp);
-  } // end makeVariationSpline
 
 
   // TO DO FUNCTIONS
@@ -116,6 +134,8 @@ class SpLabel {
 
     Label newLabel = new Label(label, textAlign);
 
+
+/*
     // first determine which splines are above and below the given one
     Spline buddySplineTop = null;
     Spline buddySplineBottom = null;
@@ -158,6 +178,10 @@ class SpLabel {
         }
       }
     }
+*/
+
+
+/*
 
     boolean validLabel = false;
     // then go through and find the maximum or minimum heights to use if !varySize
@@ -174,6 +198,8 @@ class SpLabel {
 
     if (validLabel) return newLabel;
     else return null;
+    */
+    return null;
   } // end makeLabel
 
     //
@@ -266,7 +292,7 @@ class SpLabel {
     }
   } // end display
 
-  //
+    //
   void displaySplines() {
     noFill();
     stroke(c, 100);
@@ -283,13 +309,6 @@ class SpLabel {
     if (isOnBottom) text(bucketName + "-" + data[data.length - 1] + " maxH: " + (int)maxHeight + " id: " + tempNumericalId + " dist: " + bottomSpline.totalDistance, bottomSpline.curvePoints.get(bottomSpline.curvePoints.size() - 1).x, bottomSpline.curvePoints.get(bottomSpline.curvePoints.size() - 1).y);
   } // end displaySplines
 
-  //
-  void displayVariationSpline() {
-    noFill();
-    stroke(255, 0, 0, 50);
-    strokeWeight(1);
-    if (variationSpline != null) variationSpline.display();
-  } // end displayVariationSpline
 
   //
   void displayFacetPoints() {
@@ -300,7 +319,7 @@ class SpLabel {
     for (Spline s : middleSplines) s.displayFacetPoints();
   } // end displayFacetPoints
 
-  //
+    //
   void makeNewLabel() {
   } // end makeNewLabel
 
@@ -315,6 +334,8 @@ class SpLabel {
 
     return available;
   } // end findAvailableHeightForX
+  
+ 
 } // end class SpLabel
 
 //

@@ -17,6 +17,11 @@ class Spline {
   boolean facetsMade = false;
 
   //
+  Spline() {
+    
+  } // end default constructor
+
+  //
   // in this version the curvepoints will actually not try to double up,
   //  but instead will try to work backwards to establish the 'correct' first and last points
   void addCurvePoint(PVector p) {
@@ -803,6 +808,33 @@ class Spline {
       line(facetPoints[i].x, facetPoints[i].y, up.x, up.y);
     }
   } // end displayFacetPoints
+
+
+
+  //
+  JSONObject makeJSONFromCurvePoints() {
+    JSONObject json = new JSONObject();
+    JSONArray jar = new JSONArray();
+    for (int i = 1; i < curvePoints.size() - 1; i++) {
+      JSONObject pt = new JSONObject();
+      pt.setFloat("x", curvePoints.get(i).x);
+      pt.setFloat("y", curvePoints.get(i).y);
+      jar.setJSONObject(i - 1, pt);
+    }
+    json.setJSONArray("curvePoints", jar);
+    return json;
+  } // end makeJSON
+
+  //
+  Spline(JSONObject json) {
+    if (curvePoints != null) curvePoints.clear();
+    JSONArray jar = json.getJSONArray("curvePoints");
+    JSONObject pt;
+    for (int i = 0; i < jar.size(); i++) {
+      pt = jar.getJSONObject(i);
+      this.addCurvePoint(new PVector(pt.getFloat("x"), pt.getFloat("y")));
+    }
+  } // end constructor from json
 } // end class Spline
 
 

@@ -16,33 +16,20 @@ ArrayList<SpLabel> orderSpLabels(ArrayList<SpLabel> topList, ArrayList<SpLabel> 
   return ordered;
 } // end orderSpLabels
 
-//
-void makeVariationSplines() {
-  for (SpLabel sp : splabels) {
-    sp.makeVariationSpline();
-  }
-} // endmakeVariationSplines
-
 
 //
-void splitMasterSpLabelsByPercent(float maxLineHeight, float splineCPDistance) {
-  println("in splitMasterSpLabelsByPercent");
-  for (SpLabel sp : splabels) {
-    int dividingNumber = ceil(sp.maxHeight / maxLineHeight);
-    sp.blendSPLabelSplinesByPercent(dividingNumber, splineCPDistance);
-  }
-} // end splitMasterSpLabelsByPercent
-
-//
-void splitMasterSpLabelsVertically(float maxLineHeight, float splineCPDistance) {
+void splitMasterSpLabelsVertically(float maxLineHeight, float splineCPDistance, float maximumPercentSplineSpacing) {
+  int breakCount = 0;
   println("in splitMasterSpLabelsVertical");
   for (SpLabel sp : splabels) {
     int dividingNumber = ceil(sp.maxHeight / maxLineHeight);
-    sp.blendSPLabelSplinesVertically(dividingNumber, splineCPDistance);
+    sp.blendSPLabelSplinesVertically(dividingNumber, splineCPDistance, maximumPercentSplineSpacing);
+    if (breakCount > 1) break; // manual override
   }
 } // end splitMasterSpLabelsVertical
 
 //
+/*
 void assignSpLabelNeighbors() {
   for (int i = 0; i < splabels.size(); i++) {
     if (i > 0) {
@@ -59,6 +46,7 @@ void assignSpLabelNeighbors() {
     }
   }
 } // end assignSpLabelNeighbors
+*/
 
 //
 void splitMiddleSpLabel(float divideAmount) {
@@ -92,7 +80,6 @@ void splitMiddleSpLabel(float divideAmount) {
     for (Spline spline : sp.middleSplines) {
       spline.shift(shiftVector);
     }
-    if (sp.variationSpline != null) sp.variationSpline.shift(shiftVector);
   }
 
   // shift the middle splabel splines
@@ -101,13 +88,10 @@ void splitMiddleSpLabel(float divideAmount) {
     middleSpLabel.middleSplines.get(i).shift(shiftVector);
   }
   // make the new middle spline for the middleSpLabel
-  if (middleSpLabel.variationSpline != null) middleSpLabel.middleAdjustSpline = middleSpLabel.variationSpline;
-  else {
-    middleSpLabel.middleAdjustSpline = new Spline();
-    middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(0, height / 2));
-    middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(width, height / 2));
-    middleSpLabel.middleAdjustSpline.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
-  }
+  middleSpLabel.middleAdjustSpline = new Spline();
+  middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(0, height / 2));
+  middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(width, height / 2));
+  middleSpLabel.middleAdjustSpline.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
 } // end splitMiddleSpLabel
 
 
