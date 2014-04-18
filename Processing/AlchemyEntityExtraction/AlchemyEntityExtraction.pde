@@ -3,7 +3,7 @@ String apiKey = "6de45b31bb7f7f4a1e45926549d1ce288a8cff5b";
 String filePath = "../../Data/BucketText/";
 String xmlPath = "../../Data/EntityXML/";
 
-int startYear = 1961;
+int startYear = 1958;
 int endYear = 2009;
 
 import java.net.URLEncoder;
