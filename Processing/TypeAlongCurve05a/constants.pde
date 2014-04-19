@@ -28,6 +28,12 @@ final int dateColor = #4D489F;
 final int bgColor = #0B0A19;
 
 
+// how to make the splines
+final int MAKE_SPLINES_TOP_ONLY = 0; // will make the heights from the bottom of the two splines.  eg. baseline text
+final int MAKE_SPLINES_BOTTOM_ONLY = 1; // will make the heights from the top of the two splines.  eg. top aligned text
+final int MAKE_SPLINES_MIXED = 2; // will split the splines in half, making it go up from the bottom middle, and down from the same bottom middle
+
+
 //
 //
 //

@@ -53,7 +53,7 @@ class SpLabel {
   } // end saveMaxHeight
 
   //
-  void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing) {
+  void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing, int distributionType) {
     /*
     if (variationSpline == null) {
      middleSplines = blendSplinesVertically(topSpline, bottomSpline, count, splineCPDistance);
@@ -108,44 +108,7 @@ class SpLabel {
       if (temp.size() == 0) break;
     }
 
-    // make the ordered lists
-    // make the orderedTopSplines, start from middle and go up
-    ArrayList<Spline> splineList = new ArrayList<Spline>();
-    splineList.add(middleMain.get(1));
-    orderedTopSplines.add(splineList);
-    splineList = new ArrayList<Spline>();
-    splineList.add(middleMain.get(0));
-    orderedTopSplines.add(splineList);
-    for (int i = 0; i < middleTops.size(); i++) {
-      splineList = new ArrayList<Spline>();
-      if (middleTops.get(i).size() > 0) {
-        splineList.addAll(middleTops.get(i));
-        orderedTopSplines.add(splineList);
-        splineList.add(topSpline); // always add the top as a catch
-      }
-    }
-    splineList = new ArrayList<Spline>();
-    splineList.add(topSpline);
-    orderedTopSplines.add(splineList);
-    splineList.add(bottomSpline); // always add the bottom as a catch
-
-    // make the orderedBottomSplines
-    splineList = new ArrayList<Spline>();
-    splineList.add(middleMain.get(1).getCopy());
-    orderedBottomSplines.add(splineList);
-    for (int i = 0; i < middleBottoms.size(); i++) {
-      splineList = new ArrayList<Spline>();
-      if (middleBottoms.get(i).size() > 0) {
-        splineList.addAll(middleBottoms.get(i));
-        orderedBottomSplines.add(splineList);
-        splineList.add(bottomSpline); // always add the bottom as a catch
-      }
-    }
-    splineList = new ArrayList<Spline>();
-    splineList.add(bottomSpline);
-    orderedBottomSplines.add(splineList);
-
-
+    makeOrderedLists(this, distributionType);
 
     println("done making divisions");
   } // end blendSPLabelSplinesVertically 
@@ -352,14 +315,26 @@ class SpLabel {
       middleMain.get(1).display();
     }    
 
+    /*
     if (middleTops != null) {
-      for (ArrayList<Spline> tops : middleTops) {
+     for (ArrayList<Spline> tops : middleTops) {
+     for (Spline s : tops) s.display();
+     }
+     }
+     if (middleBottoms != null) {
+     for (ArrayList<Spline> bottoms : middleBottoms) {
+     for (Spline s : bottoms) s.display();
+     }
+     }
+     */
+    if (orderedTopSplines != null) {
+      for (ArrayList<Spline> tops : orderedTopSplines) {
         for (Spline s : tops) s.display();
       }
     }
-    if (middleBottoms != null) {
-      for (ArrayList<Spline> bottoms : middleBottoms) {
-        for (Spline s : bottoms) s.display();
+    if (orderedBottomSplines != null) {
+      for (ArrayList<Spline> tops : orderedBottomSplines) {
+        for (Spline s : tops) s.display();
       }
     }
 

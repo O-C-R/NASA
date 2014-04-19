@@ -40,7 +40,7 @@ float maxSplineHeight = 19f; // when dividing up the splines to generate the mid
 //float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 int[] yearRange = {
-  1961, 
+  1958, 
   2009 // fix this later
 };
 int[] constrainRange = {
@@ -142,6 +142,7 @@ boolean variationOn = false;
 boolean shiftIsDown = false;
 boolean debugOn = false;
 boolean displayHeightsOn = true;
+boolean disableSplineMaking = true; // also disables export
 
 // other stuff
 String timeStamp = "";
@@ -180,6 +181,8 @@ void setup() {
 
   orderBucketTerms(); // this will not only order the terms in each bucket by their seriesSum, but will also do the same for each bucket's Pos and also make the ordered indices for each term
 
+
+  println("making masterSpLabels");
   makeMasterSpLabels();
 
   // then press 'm' or 'n' to make or read in the splines
@@ -328,9 +331,13 @@ void keyReleased() {
   }
 
   // MAKE OR READ IN THE SPLINES
-  if (key == 'm') {
+  if (key == 'n') {
+    if (disableSplineMaking) {
+      println("disableSplineMaking set to true, will NOT make new splines");
+      return;
+    }
+
     splitMasterSpLabelsVertically(maxSplineHeight, minimumSplineSpacing, maximumPercentSplineSpacing); // this will generate the middleSplines for each splabel by straight up vertical
-    exportSplines(); 
 
     /*
      // do the great divide
@@ -338,13 +345,22 @@ void keyReleased() {
      */
   }
   if (key == 'h') {
-    println("making heights");
+    if (disableSplineMaking) {
+      println("disableSplineMaking set to true, will NOT make new heights");
+      return;
+    }
+    println("making HEIGHTS");
     for (SpLabel sp : splabels) {
-      println("for splabel: " + sp.bucketName);
-      makeSpLabelHeights(sp);
+      makeSpLabelHeights(sp); 
       println("done with making heights for: " + sp.bucketName);
       //break; // debug break;
     }
+  }
+  if (key == 'x') {
+    if (disableSplineMaking) {
+      println("disableSplineMaking set to true, will NOT export");
+     return;
+    } 
     exportSplines();
   }
   if (key == 'z') {
@@ -356,7 +372,9 @@ void keyReleased() {
   }
 
 
-  loop();
+  if (keyCode != TAB && keyCode != CONTROL) {
+    loop();
+  }
 } // end keyReleased
 
 

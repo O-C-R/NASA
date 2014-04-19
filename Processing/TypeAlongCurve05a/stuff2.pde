@@ -23,79 +23,83 @@ void splitMasterSpLabelsVertically(float maxLineHeight, float splineCPDistance, 
   println("in splitMasterSpLabelsVertical");
   for (SpLabel sp : splabels) {
     int dividingNumber = ceil(sp.maxHeight / maxLineHeight);
-    sp.blendSPLabelSplinesVertically(dividingNumber, splineCPDistance, maximumPercentSplineSpacing);
+    int distributionType = MAKE_SPLINES_MIXED;
+    if (sp.isOnTop && sp.isOnBottom) distributionType = MAKE_SPLINES_MIXED; 
+    else if (sp.isOnTop) distributionType = MAKE_SPLINES_TOP_ONLY;
+    else if (sp.isOnBottom) distributionType = MAKE_SPLINES_BOTTOM_ONLY;
+    sp.blendSPLabelSplinesVertically(dividingNumber, splineCPDistance, maximumPercentSplineSpacing, distributionType);
   }
 } // end splitMasterSpLabelsVertical
 
 //
 /*
 void assignSpLabelNeighbors() {
-  for (int i = 0; i < splabels.size(); i++) {
-    if (i > 0) {
-      if (splabels.get(i - 1).middleSplines.size() > 0) splabels.get(i).topNeighborSpline = splabels.get(i - 1).middleSplines.get(splabels.get(i - 1).middleSplines.size() - 1);
-      else {
-        if (splabels.get(i - 1).topSpline != null) splabels.get(i).bottomNeighborSpline = splabels.get(i - 1).topSpline;
-      }
-    }
-    if (i < splabels.size() - 1) {
-      if (splabels.get(i + 1).middleSplines.size() > 0) splabels.get(i).bottomNeighborSpline = splabels.get(i + 1).middleSplines.get(0);
-      else {
-        if (splabels.get(i + 1).bottomSpline != null) splabels.get(i).bottomNeighborSpline = splabels.get(i + 1).bottomSpline;
-      }
-    }
-  }
-} // end assignSpLabelNeighbors
-*/
+ for (int i = 0; i < splabels.size(); i++) {
+ if (i > 0) {
+ if (splabels.get(i - 1).middleSplines.size() > 0) splabels.get(i).topNeighborSpline = splabels.get(i - 1).middleSplines.get(splabels.get(i - 1).middleSplines.size() - 1);
+ else {
+ if (splabels.get(i - 1).topSpline != null) splabels.get(i).bottomNeighborSpline = splabels.get(i - 1).topSpline;
+ }
+ }
+ if (i < splabels.size() - 1) {
+ if (splabels.get(i + 1).middleSplines.size() > 0) splabels.get(i).bottomNeighborSpline = splabels.get(i + 1).middleSplines.get(0);
+ else {
+ if (splabels.get(i + 1).bottomSpline != null) splabels.get(i).bottomNeighborSpline = splabels.get(i + 1).bottomSpline;
+ }
+ }
+ }
+ } // end assignSpLabelNeighbors
+ */
 
 //
 void splitMiddleSpLabel(float divideAmount) {
   /*
   PVector shiftVector = new PVector(0, -divideAmount);
-
-  // define the middle splabel
-  // shift all splabels above this one up by the divideAmount
-  // shift all middle splines of the middle splabel up by the divide amount
-  // generate a new middle spline for the middle splabel for the text to be measured against for height
-  SpLabel middleSpLabel = null;
-  for (SpLabel sp : splabels) {
-    if (sp.isMiddleSpLabel) {
-      middleSpLabel = sp;
-      break;
-    }
-  }
-
-  // skip out if the middle label is null
-  if (middleSpLabel == null) return;
-
-  // grab the top splabels
-  ArrayList<SpLabel> topLabels = new ArrayList<SpLabel>();
-  for (SpLabel sp : splabels) { 
-    if (sp != middleSpLabel && sp.isOnTop) {
-      topLabels.add(sp);
-    }
-  }
-  
-  
-  // shift top spLabels by amt
-  for (SpLabel sp : topLabels) {
-    sp.topSpline.shift(shiftVector);
-    for (Spline spline : sp.middleSplines) {
-      spline.shift(shiftVector);
-    }
-  }
-  
-
-  // shift the middle splabel splines
-  middleSpLabel.topSpline.shift(shiftVector);
-  for (int i = 0; i < floor((float)middleSpLabel.middleSplines.size() / 2); i++) {
-    middleSpLabel.middleSplines.get(i).shift(shiftVector);
-  }
-  // make the new middle spline for the middleSpLabel
-  middleSpLabel.middleAdjustSpline = new Spline();
-  middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(0, height / 2));
-  middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(width, height / 2));
-  middleSpLabel.middleAdjustSpline.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
-  */
+   
+   // define the middle splabel
+   // shift all splabels above this one up by the divideAmount
+   // shift all middle splines of the middle splabel up by the divide amount
+   // generate a new middle spline for the middle splabel for the text to be measured against for height
+   SpLabel middleSpLabel = null;
+   for (SpLabel sp : splabels) {
+   if (sp.isMiddleSpLabel) {
+   middleSpLabel = sp;
+   break;
+   }
+   }
+   
+   // skip out if the middle label is null
+   if (middleSpLabel == null) return;
+   
+   // grab the top splabels
+   ArrayList<SpLabel> topLabels = new ArrayList<SpLabel>();
+   for (SpLabel sp : splabels) { 
+   if (sp != middleSpLabel && sp.isOnTop) {
+   topLabels.add(sp);
+   }
+   }
+   
+   
+   // shift top spLabels by amt
+   for (SpLabel sp : topLabels) {
+   sp.topSpline.shift(shiftVector);
+   for (Spline spline : sp.middleSplines) {
+   spline.shift(shiftVector);
+   }
+   }
+   
+   
+   // shift the middle splabel splines
+   middleSpLabel.topSpline.shift(shiftVector);
+   for (int i = 0; i < floor((float)middleSpLabel.middleSplines.size() / 2); i++) {
+   middleSpLabel.middleSplines.get(i).shift(shiftVector);
+   }
+   // make the new middle spline for the middleSpLabel
+   middleSpLabel.middleAdjustSpline = new Spline();
+   middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(0, height / 2));
+   middleSpLabel.middleAdjustSpline.addCurvePoint(new PVector(width, height / 2));
+   middleSpLabel.middleAdjustSpline.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
+   */
 } // end splitMiddleSpLabel
 
 

@@ -23,8 +23,22 @@ void exportSplines() {
       }
       bottoms.setJSONArray(i, layer);
     }
-    json.setJSONArray("bottoms", bottoms);    
-    saveJSONObject(json, "splines/splines-"+ splabels.get(k).bucketName + "-" + width + "-" + height + ".json");
+    json.setJSONArray("bottoms", bottoms);
+
+    // save top and bottom and middles
+    if (splabels.get(k).topSpline != null) json.setJSONObject("topSpline", splabels.get(k).topSpline.getJSON());
+    if (splabels.get(k).bottomSpline != null) json.setJSONObject("bottomSpline", splabels.get(k).bottomSpline.getJSON());
+    if (splabels.get(k).middleMain != null) {
+      if (splabels.get(k).middleMain.size() == 2) {
+        json.setJSONObject("middleTop", splabels.get(k).middleMain.get(0).getJSON());
+        json.setJSONObject("middleBottom", splabels.get(k).middleMain.get(1).getJSON());
+      }
+    }
+
+
+    String exportName = "splines-"+ splabels.get(k).bucketName + "-" + width + "-" + height;
+    saveJSONObject(json, "splines/" + exportName + ".json");
+    println(" finished exporting splabel: " + exportName);
   }
   println("done exporting splabel splines");
 } // end exportSplines
@@ -36,6 +50,7 @@ void readInSplinesForSpLabels() {
   for (SpLabel sp : splabels) {
     String targetJSONFile = "splines/splines-"+ sp.bucketName + "-" + width + "-" + height + ".json";
     try {
+
       JSONObject json = loadJSONObject(targetJSONFile);
       println("  reading in for " + sp.bucketName);
       sp.orderedTopSplines = new ArrayList<ArrayList<Spline>>();
@@ -49,6 +64,7 @@ void readInSplinesForSpLabels() {
         }
         sp.orderedTopSplines.add(layerSplines);
       }
+      println("    added " + sp.orderedTopSplines.size() + " top splines");
 
       JSONArray bottoms = json.getJSONArray("bottoms");
       for (int i = 0; i < bottoms.size(); i++) {
@@ -59,7 +75,20 @@ void readInSplinesForSpLabels() {
         }
         sp.orderedBottomSplines.add(layerSplines);
       }
-      println("  done reading in " + sp.bucketName);
+      println("    added " + sp.orderedBottomSplines.size() + " bottom splines");
+
+
+      if (json.hasKey("middleTop") && json.hasKey("middleBottom")) {
+        sp.middleMain = new ArrayList<Spline>();
+        sp.middleMain.clear();
+        sp.middleMain.add(new Spline(json.getJSONObject("middleTop")));
+        sp.middleMain.add(new Spline(json.getJSONObject("middleBottom")));
+      }
+
+      if (json.hasKey("topSpline")) sp.topSpline = new Spline(json.getJSONObject("topSpline"));
+      if (json.hasKey("bottomSpline")) sp.topSpline = new Spline(json.getJSONObject("bottomSpline"));
+
+      println("  done reading in " + sp.bucketName + " orderedTopSplines: " + sp.orderedTopSplines.size() + " orderedBottomSplines: " + sp.orderedBottomSplines.size());
     }
     catch (Exception e) {
       println("could not load/find " + targetJSONFile);

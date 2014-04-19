@@ -257,6 +257,9 @@ class Spline {
     for (int i = 0; i < runningDistances.length - 1; i++) {
       low = runningDistances[i];
       high = runningDistances[i + 1];
+
+
+
       if (targetDistance == low) {
         newPoint.add(facetPoints[i]);
         newPoint.add(facetUps[i]);
@@ -323,6 +326,8 @@ class Spline {
       // otherwise continue
     }
 
+
+
     return newPoint;
   } // end getPointAlongSpline
 
@@ -383,10 +388,13 @@ class Spline {
     float thisDist = 0f;
     float closestDist = 0f;
     PVector thisPt, a, b, intersectPoint;
+    thisPt = null;
     for (int i = 0; i < facetPoints.length - 1; i++) {
       a = facetPoints[i];
       b = facetPoints[i + 1];
+
       thisPt = OCR3D.find2DRaySegmentIntersection(startLine, endLine, a, b);
+
       if (thisPt != null) {
         thisDist = startLine.dist(thisPt); 
         if (thisDist < closestDist || closestPt == null) {
@@ -412,7 +420,6 @@ class Spline {
     //noFill();
     //stroke(255, 0, 255);
     //ellipse(closestPt.x, closestPt.y, 10, 10);
-
     return getPointAlongSpline(targetPercent);
   } // end getPointByIntersection
 
@@ -876,6 +883,9 @@ class Spline {
     jar = new JSONArray();
     for (int i = 0; i < facetUps.length; i++) jar.setJSONObject(i, getPVectorJSON(facetUps[i]));
     json.setJSONArray("facetUps", jar);
+    jar = new JSONArray();
+    for (int i = 0; i < facetRights.length; i++) jar.setJSONObject(i, getPVectorJSON(facetUps[i]));
+    json.setJSONArray("facetRights", jar);
     jar = new JSONArray();
     for (int i = 0; i < distances.length; i++) jar.setFloat(i, distances[i]);
     json.setJSONArray("distances", jar);
