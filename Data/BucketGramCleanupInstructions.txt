@@ -1,0 +1,47 @@
+Buckets to look at:
+moon
+research_and_development
+rockets
+russia
+satellites
+space_shuttle
+
+Files to look at:
+cd nns
+jj nns
+jj vbg nn
+jj vbg nns
+jj vbg
+vbg nns
+
+FieldTerminology
+GeographicFeature
+Person
+
+
+***Examples of what to do****
+Generally – 
+if an obvious term comes up multiple times, eg. solar system, combine the numbers/values
+Delete terms that clearly shouldn’t be in the diagram [most likely in the gram series]
+
+Grams:
+000 miles >> delete - misread by the system, so doesn’t make sense anymore because it is missing the quantity
+000 lbs >> delete - same as before
+using nasa’s >> delete - out of context, doesn’t really work alone
+
+Entities:
+nasa Leg >> delete - doesn’t make sense
+Kelly Johnson (engineer) >> Kelly Johnson - get rid if ( )
+President-elect Kennedy >> delete - kind of weird
+Sean O’Keefe―President George W. Bush >> delete - malformed
+George Brydges Rodney, 1st Baron Rodney >> delete/George Brydges Rodney
+solar system && solar system. >> combine - when two of the same are in a file [with minor differences such as a period]
+
+// hold off on these files for now
+nn
+vbg
+//  but if we need to go through them later:
+Delete words that clearly don’t belong, eg: i, use, jr, c, msc, mi, etc.
+
+
+When done, drop into the appropriate folder in BucketGramsAllCLEAN

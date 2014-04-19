@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Country</type>
-            <relevance>0.849391</relevance>
+            <relevance>0.759723</relevance>
             <count>5</count>
             <text>USSR</text>
             <disambiguated>
@@ -22,7 +22,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.610106</relevance>
+            <relevance>0.647761</relevance>
+            <count>3</count>
+            <text>Soyuz</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.532837</relevance>
+            <count>2</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.507602</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.481561</relevance>
+            <count>1</count>
+            <text>Rockwell International Space Div.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.472538</relevance>
             <count>1</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -40,32 +64,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.609968</relevance>
-            <count>3</count>
-            <text>Soyuz</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.536303</relevance>
-            <count>2</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.511235</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.466421</relevance>
-            <count>1</count>
-            <text>Rockwell International Space Div.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.434029</relevance>
+            <relevance>0.458646</relevance>
             <count>2</count>
             <text>Col. Boris Volynov</text>
             <disambiguated>
@@ -78,13 +78,26 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.422041</relevance>
+            <relevance>0.456093</relevance>
+            <count>3</count>
+            <text>Dr. Konstantin Feoktistov</text>
+            <disambiguated>
+                <name>Konstantin Feoktistov</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Konstantin_Feoktistov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bsfk</freebase>
+                <yago>http://yago-knowledge.org/resource/Konstantin_Feoktistov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.44041</relevance>
             <count>2</count>
             <text>Lt. Col. Vitaly Zholobov</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.41761</relevance>
+            <relevance>0.420008</relevance>
             <count>2</count>
             <text>Moscow</text>
             <disambiguated>
@@ -102,20 +115,18 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.416124</relevance>
-            <count>3</count>
-            <text>Dr. Konstantin Feoktistov</text>
+            <relevance>0.41557</relevance>
+            <count>2</count>
+            <text>Academician Georgy Petrov</text>
             <disambiguated>
-                <name>Konstantin Feoktistov</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Konstantin_Feoktistov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bsfk</freebase>
-                <yago>http://yago-knowledge.org/resource/Konstantin_Feoktistov</yago>
+                <name>Georgy Petrov</name>
+                <dbpedia>http://dbpedia.org/resource/Georgy_Petrov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bx_5rw</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.416089</relevance>
+            <relevance>0.411273</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -136,8 +147,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.401992</relevance>
+            <count>2</count>
+            <text>Izvestia</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.412972</relevance>
+            <relevance>0.385677</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -156,37 +173,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.402703</relevance>
-            <count>2</count>
-            <text>Academician Georgy Petrov</text>
-            <disambiguated>
-                <name>Georgy Petrov</name>
-                <dbpedia>http://dbpedia.org/resource/Georgy_Petrov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bx_5rw</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.379731</relevance>
-            <count>1</count>
-            <text>Tass</text>
-            <disambiguated>
-                <name>Tass, Hungary</name>
-                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
-                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.366327</relevance>
-            <count>1</count>
-            <text>Western Europe</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.346955</relevance>
+            <relevance>0.383465</relevance>
             <count>1</count>
             <text>Kazakhstan</text>
             <disambiguated>
@@ -202,14 +190,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.345285</relevance>
-            <count>2</count>
-            <text>France</text>
+            <type>PrintMedia</type>
+            <relevance>0.36903</relevance>
+            <count>1</count>
+            <text>Christian Science Monitor</text>
+            <disambiguated>
+                <name>The Christian Science Monitor</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.csmonitor.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Christian_Science_Monitor</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01h5gh</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Christian_Science_Monitor</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.361162</relevance>
+            <count>1</count>
+            <text>Tass</text>
+            <disambiguated>
+                <name>Tass, Hungary</name>
+                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
+                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.342693</relevance>
+            <relevance>0.360855</relevance>
             <count>1</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -224,139 +233,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.342158</relevance>
-            <count>1</count>
-            <text>British journal New Scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.340824</relevance>
-            <count>1</count>
-            <text>Vitaly Sevastyanov</text>
-            <disambiguated>
-                <name>Vitaly Sevastyanov</name>
-                <dbpedia>http://dbpedia.org/resource/Vitaly_Sevastyanov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c43g</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.337116</relevance>
-            <count>1</count>
-            <text>Baltimore</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.336335</relevance>
+            <type>Country</type>
+            <relevance>0.355864</relevance>
             <count>2</count>
-            <text>Izvestia</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.335842</relevance>
-            <count>1</count>
-            <text>Ariane</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.332621</relevance>
-            <count>1</count>
-            <text>Christian Science Monitor</text>
+            <text>France</text>
             <disambiguated>
-                <name>The Christian Science Monitor</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.csmonitor.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Christian_Science_Monitor</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01h5gh</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Christian_Science_Monitor</yago>
+                <name>France</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmDirector</subType>
+                <geo>47.0 2.0</geo>
+                <website>http://www.service-public.fr/etranger/english.html</website>
+                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/France</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.332006</relevance>
+            <type>Region</type>
+            <relevance>0.325664</relevance>
             <count>1</count>
-            <text>Pyotr Klimuk</text>
-            <disambiguated>
-                <name>Pyotr Klimuk</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Pyotr_Klimuk</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01z6j5</freebase>
-                <yago>http://yago-knowledge.org/resource/Pyotr_Klimuk</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.32765</relevance>
-            <count>1</count>
-            <text>Europa</text>
-            <disambiguated>
-                <name>EuropaCorp</name>
-                <website>http://www.europacorp-corporate.com/</website>
-                <dbpedia>http://dbpedia.org/resource/EuropaCorp</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04mwxk3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.322745</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.320549</relevance>
-            <count>1</count>
-            <text>Grumman Aerospace Corp.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.315151</relevance>
-            <count>1</count>
-            <text>aerospace technology</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.314542</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.309409</relevance>
-            <count>1</count>
-            <text>UPI</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.309245</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas Astronautics Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.30861</relevance>
-            <count>1</count>
-            <text>Grumman</text>
-            <disambiguated>
-                <name>Grumman</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
-                <yago>http://yago-knowledge.org/resource/Grumman</yago>
-            </disambiguated>
+            <text>Western Europe</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.304852</relevance>
-            <count>1</count>
-            <text>Volynov</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.304679</relevance>
+            <relevance>0.324702</relevance>
             <count>1</count>
             <text>Tyuratam</text>
             <disambiguated>
@@ -369,34 +274,144 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.302351</relevance>
+            <type>Person</type>
+            <relevance>0.324666</relevance>
             <count>1</count>
-            <text>Bulletin of the USSR Academy of Sciences</text>
+            <text>McDonnell Douglas</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.323181</relevance>
+            <count>1</count>
+            <text>Volynov</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.322825</relevance>
+            <count>1</count>
+            <text>Vitaly Sevastyanov</text>
+            <disambiguated>
+                <name>Vitaly Sevastyanov</name>
+                <dbpedia>http://dbpedia.org/resource/Vitaly_Sevastyanov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c43g</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.319519</relevance>
+            <count>1</count>
+            <text>Ariane</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.302084</relevance>
+            <relevance>0.316413</relevance>
             <count>1</count>
-            <text>Boeing Aerospace Co.</text>
+            <text>MSFC</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.315913</relevance>
+            <count>1</count>
+            <text>Pyotr Klimuk</text>
+            <disambiguated>
+                <name>Pyotr Klimuk</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Pyotr_Klimuk</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01z6j5</freebase>
+                <yago>http://yago-knowledge.org/resource/Pyotr_Klimuk</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.313659</relevance>
+            <count>1</count>
+            <text>Grumman Aerospace Corp.</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.296178</relevance>
+            <relevance>0.313602</relevance>
             <count>1</count>
             <text>news agency</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.31235</relevance>
+            <count>1</count>
+            <text>Europa</text>
+            <disambiguated>
+                <name>EuropaCorp</name>
+                <website>http://www.europacorp-corporate.com/</website>
+                <dbpedia>http://dbpedia.org/resource/EuropaCorp</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04mwxk3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.312348</relevance>
+            <count>1</count>
+            <text>Boeing Aerospace Co.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.310446</relevance>
+            <count>1</count>
+            <text>Grumman</text>
+            <disambiguated>
+                <name>Grumman</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
+                <yago>http://yago-knowledge.org/resource/Grumman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.302274</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas Astronautics Corp.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.299036</relevance>
+            <count>1</count>
+            <text>aerospace technology</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.2938</relevance>
+            <count>1</count>
+            <text>UPI</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.286343</relevance>
+            <count>1</count>
+            <text>Bulletin of the USSR Academy of Sciences</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.295919</relevance>
+            <relevance>0.280159</relevance>
             <count>1</count>
             <text>Voskhod</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.267069</relevance>
+            <relevance>0.277653</relevance>
             <count>1</count>
             <text>1973&#x2014;and</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.271019</relevance>
+            <count>1</count>
+            <text>Baltimore</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.269108</relevance>
+            <count>1</count>
+            <text>British journal New Scientist</text>
         </entity>
     </entities>
 </results>

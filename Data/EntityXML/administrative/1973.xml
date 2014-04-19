@@ -6,8 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.893182</relevance>
+            <count>14</count>
+            <text>nasa Administrator</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.908755</relevance>
+            <relevance>0.850574</relevance>
             <count>35</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +34,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.837434</relevance>
-            <count>17</count>
-            <text>NASA Administrator.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.621891</relevance>
+            <relevance>0.622353</relevance>
             <count>17</count>
             <text>Dr. James C. Fletcher</text>
             <disambiguated>
@@ -49,7 +49,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.513085</relevance>
+            <relevance>0.477572</relevance>
             <count>17</count>
             <text>United States</text>
             <disambiguated>
@@ -69,9 +69,9 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.386588</relevance>
+            <relevance>0.445151</relevance>
             <count>17</count>
-            <text>The Federal Aviation Administration</text>
+            <text>Federal Aviation Administration</text>
             <disambiguated>
                 <name>Federal Aviation Administration</name>
                 <website>http://www.faa.gov/</website>
@@ -82,20 +82,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.395592</relevance>
+            <count>3</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.349431</relevance>
+            <relevance>0.340853</relevance>
             <count>2</count>
             <text>NASA Activities</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.346728</relevance>
+            <relevance>0.329739</relevance>
             <count>1</count>
             <text>NASA Deputy Administrator</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.302427</relevance>
+            <count>1</count>
+            <text>NASA Deputy Assistant Administrator for Equal Opportunity</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.331574</relevance>
+            <relevance>0.284893</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -116,60 +128,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.307648</relevance>
-            <count>1</count>
-            <text>NASA Deputy Assistant Administrator for Equal Opportunity</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.288729</relevance>
+            <relevance>0.278675</relevance>
             <count>1</count>
             <text>NASA Space Program Advisory Council</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.262564</relevance>
-            <count>1</count>
-            <text>NASA Ames Research Center Electrodynamics Branch</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.250004</relevance>
-            <count>3</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244792</relevance>
-            <count>5</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244026</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.23975</relevance>
-            <count>2</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Australian Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.aph.gov.au/Senate/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
-                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.233275</relevance>
-            <count>2</count>
+            <relevance>0.265253</relevance>
+            <count>4</count>
             <text>Senate</text>
             <disambiguated>
                 <name>United States Senate</name>
@@ -183,50 +150,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.232149</relevance>
+            <type>Organization</type>
+            <relevance>0.248965</relevance>
             <count>2</count>
-            <text>faa</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
+            <text>U.S. Civil Aircraft</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.248129</relevance>
+            <count>1</count>
+            <text>NASA Ames Research Center Electrodynamics Branch</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.23067</relevance>
+            <relevance>0.24509</relevance>
+            <count>2</count>
+            <text>Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.241886</relevance>
             <count>3</count>
             <text>Secretary</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.229128</relevance>
-            <count>2</count>
-            <text>U.S. Civil Aircraft</text>
+            <relevance>0.240443</relevance>
+            <count>5</count>
+            <text>FY</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.228292</relevance>
-            <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.238486</relevance>
+            <count>3</count>
+            <text>space program</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.225891</relevance>
+            <relevance>0.234484</relevance>
             <count>2</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -241,23 +202,220 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.224289</relevance>
-            <count>3</count>
-            <text>Dr. Philip Handler</text>
+            <type>Company</type>
+            <relevance>0.232099</relevance>
+            <count>2</count>
+            <text>faa</text>
             <disambiguated>
-                <name>Philip Handler</name>
-                <subType>Academic</subType>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.224923</relevance>
+            <count>1</count>
+            <text>Tidbinbilla Deep Space Communications Complex</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.222559</relevance>
+            <count>2</count>
+            <text>Claude S. Brinegar</text>
+            <disambiguated>
+                <name>Claude Brinegar</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Claude_Brinegar</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0450sr</freebase>
+                <yago>http://yago-knowledge.org/resource/Claude_Brinegar</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.221648</relevance>
+            <count>2</count>
+            <text>Canberra</text>
+            <disambiguated>
+                <name>Canberra</name>
+                <geo>-35.3075 149.12441666666666</geo>
+                <dbpedia>http://dbpedia.org/resource/Canberra</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dp90</freebase>
+                <yago>http://yago-knowledge.org/resource/Canberra</yago>
+                <geonames>http://sws.geonames.org/6301342/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.217675</relevance>
+            <count>1</count>
+            <text>Deputy Associate Administrator of Plans</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.217463</relevance>
+            <count>2</count>
+            <text>Madrid</text>
+            <disambiguated>
+                <name>Madrid</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>40.4 -3.6833333333333336</geo>
+                <website>http://www.munimadrid.es/</website>
+                <dbpedia>http://dbpedia.org/resource/Madrid</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.056_y</freebase>
+                <yago>http://yago-knowledge.org/resource/Madrid</yago>
+                <geonames>http://sws.geonames.org/3117735/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.216782</relevance>
+            <count>2</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.216096</relevance>
+            <count>2</count>
+            <text>Alexander P. Butterfield</text>
+            <disambiguated>
+                <name>Alexander Butterfield</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Alexander_Butterfield</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_2fs</freebase>
+                <yago>http://yago-knowledge.org/resource/Alexander_Butterfield</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.215209</relevance>
+            <count>2</count>
+            <text>Australia</text>
+            <disambiguated>
+                <name>Australia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.214763</relevance>
+            <count>2</count>
+            <text>Calif.</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.21167</relevance>
+            <count>2</count>
+            <text>Goldstone</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.211614</relevance>
+            <count>1</count>
+            <text>Milky Way</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.209245</relevance>
+            <count>5</count>
+            <text>Mrs. Ruth Bates Harris</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.208062</relevance>
+            <count>2</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
                 <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Philip_Handler</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02r1_z8</freebase>
-                <yago>http://yago-knowledge.org/resource/Philip_Handler</yago>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.221523</relevance>
+            <relevance>0.20567</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.205615</relevance>
+            <count>2</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.205244</relevance>
+            <count>2</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.203389</relevance>
+            <count>1</count>
+            <text>Assistant Administrator for Equal Opportunity</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.201809</relevance>
+            <count>1</count>
+            <text>Deputy Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.201145</relevance>
             <count>1</count>
             <text>National Space Club</text>
             <disambiguated>
@@ -267,42 +425,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.216902</relevance>
-            <count>1</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.216027</relevance>
+            <relevance>0.201054</relevance>
             <count>1</count>
             <text>Associate Administrator for Organization and Management</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.215728</relevance>
+            <relevance>0.198491</relevance>
             <count>1</count>
-            <text>Westinghouse Electric Co.</text>
+            <text>Jet Propulsion Laboratory</text>
             <disambiguated>
-                <name>Westinghouse Electric Company</name>
-                <website>http://www.westinghousenuclear.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Westinghouse_Electric_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01jksw</freebase>
-                <yago>http://yago-knowledge.org/resource/Westinghouse_Electric_Company</yago>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.197172</relevance>
+            <count>1</count>
+            <text>Boeing</text>
+            <disambiguated>
+                <name>Spirit AeroSystems</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.spiritaero.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
+                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.215545</relevance>
+            <relevance>0.196889</relevance>
             <count>1</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -329,271 +489,62 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.214463</relevance>
+            <type>City</type>
+            <relevance>0.196846</relevance>
             <count>1</count>
-            <text>Manned Spacecraft Center</text>
+            <text>Karaganda</text>
             <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+                <name>Karaganda</name>
+                <website>http://www.karaganda.kz</website>
+                <dbpedia>http://dbpedia.org/resource/Karaganda</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01nlrz</freebase>
+                <yago>http://yago-knowledge.org/resource/Karaganda</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.213141</relevance>
-            <count>2</count>
-            <text>Canberra</text>
-            <disambiguated>
-                <name>Canberra</name>
-                <geo>-35.3075 149.12441666666666</geo>
-                <dbpedia>http://dbpedia.org/resource/Canberra</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dp90</freebase>
-                <yago>http://yago-knowledge.org/resource/Canberra</yago>
-                <geonames>http://sws.geonames.org/6301342/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.211984</relevance>
-            <count>5</count>
-            <text>Mrs. Ruth Bates Harris</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.21172</relevance>
-            <count>2</count>
-            <text>Claude S. Brinegar</text>
-            <disambiguated>
-                <name>Claude Brinegar</name>
-                <subType>Politician</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Claude_Brinegar</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0450sr</freebase>
-                <yago>http://yago-knowledge.org/resource/Claude_Brinegar</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.211057</relevance>
-            <count>2</count>
-            <text>Moscow</text>
+            <relevance>0.193311</relevance>
+            <count>1</count>
+            <text>psychokinesis</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.210358</relevance>
+            <relevance>0.191611</relevance>
             <count>1</count>
-            <text>International Atomic Energy Agency</text>
-            <disambiguated>
-                <name>International Atomic Energy Agency</name>
-                <subType>AwardWinner</subType>
-                <geo>48.23388888888889 16.41611111111111</geo>
-                <website>http://www.iaea.org</website>
-                <dbpedia>http://dbpedia.org/resource/International_Atomic_Energy_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03w28</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvk5wBpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/International_Atomic_Energy_Agency</yago>
-            </disambiguated>
+            <text>Univ. of Maryland</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.210325</relevance>
-            <count>2</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
+            <type>Technology</type>
+            <relevance>0.191278</relevance>
+            <count>1</count>
+            <text>Soyuz</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.210197</relevance>
+            <relevance>0.19122</relevance>
             <count>1</count>
-            <text>Lyndon B. Johnson</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson</name>
-                <subType>FilmCharacter</subType>
-                <subType>MusicalArtist</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>AwardWinner</subType>
-                <subType>Dedicatee</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f7fy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUQJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson</yago>
-                <musicBrainz>http://zitgist.com/music/artist/a40998e6-3496-44d5-9032-79e313be07b5</musicBrainz>
-            </disambiguated>
+            <text>William I. Thompson</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.209363</relevance>
+            <type>Degree</type>
+            <relevance>0.190334</relevance>
             <count>1</count>
-            <text>Tidbinbilla Deep Space Communications Complex</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.209116</relevance>
-            <count>1</count>
-            <text>Deputy Administrator</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.208948</relevance>
-            <count>2</count>
-            <text>Madrid</text>
-            <disambiguated>
-                <name>Madrid</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>40.4 -3.6833333333333336</geo>
-                <website>http://www.munimadrid.es/</website>
-                <dbpedia>http://dbpedia.org/resource/Madrid</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.056_y</freebase>
-                <yago>http://yago-knowledge.org/resource/Madrid</yago>
-                <geonames>http://sws.geonames.org/3117735/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.208343</relevance>
-            <count>1</count>
-            <text>Houston</text>
-            <disambiguated>
-                <name>Houston</name>
-                <website>http://www.houstontx.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.207551</relevance>
-            <count>2</count>
-            <text>Spain</text>
-            <disambiguated>
-                <name>Kingdom of Spain (Napoleonic)</name>
-                <dbpedia>http://dbpedia.org/resource/Kingdom_of_Spain_(Napoleonic)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm9lkx</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.206937</relevance>
-            <count>1</count>
-            <text>Assistant Administrator for Equal Opportunity</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.206794</relevance>
-            <count>2</count>
-            <text>Australia</text>
-            <disambiguated>
-                <name>Australia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <geo>-35.3 149.13333333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Australia</yago>
-                <geonames>http://sws.geonames.org/2077456/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.206355</relevance>
-            <count>2</count>
-            <text>Calif.</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
+            <text>10-yr</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.205359</relevance>
+            <relevance>0.187488</relevance>
             <count>1</count>
-            <text>Soviet Academy of Sciences</text>
+            <text>Lewis Research Center</text>
             <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.205039</relevance>
-            <count>1</count>
-            <text>Aerospace and Electronic Systems Center</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.204345</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.203049</relevance>
-            <count>2</count>
-            <text>Goldstone</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.201106</relevance>
-            <count>2</count>
-            <text>Dr. Gerald F. Tape</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.200699</relevance>
-            <count>1</count>
-            <text>coverage area</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.200688</relevance>
-            <count>1</count>
-            <text>Deputy Associate Administrator of Plans</text>
         </entity>
     </entities>
 </results>

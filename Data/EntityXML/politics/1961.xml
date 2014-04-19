@@ -7,19 +7,13 @@
     <entities>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.951898</relevance>
+            <relevance>0.938949</relevance>
             <count>2</count>
             <text>Vice President Chairman</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.717797</relevance>
-            <count>2</count>
-            <text>National Aeronautics and Space Council</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.715268</relevance>
+            <relevance>0.840996</relevance>
             <count>3</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -46,8 +40,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.708023</relevance>
+            <count>2</count>
+            <text>National Aeronautics and Space Council</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.614866</relevance>
+            <count>3</count>
+            <text>chairman</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.581806</relevance>
+            <relevance>0.578965</relevance>
             <count>1</count>
             <text>Vice President Lyndon B. Johnson</text>
             <disambiguated>
@@ -72,32 +78,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.553527</relevance>
-            <count>2</count>
-            <text>House Committee on Science and Astronautics</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.428534</relevance>
+            <relevance>0.444722</relevance>
             <count>1</count>
             <text>Vice President</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.417958</relevance>
-            <count>3</count>
-            <text>chairman</text>
+            <type>Organization</type>
+            <relevance>0.430779</relevance>
+            <count>2</count>
+            <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.388901</relevance>
+            <relevance>0.403654</relevance>
             <count>1</count>
             <text>National Space Council</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.355052</relevance>
+            <relevance>0.400806</relevance>
+            <count>1</count>
+            <text>Space Sciences Committee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.354546</relevance>
             <count>2</count>
             <text>Senate</text>
             <disambiguated>
@@ -112,14 +118,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.352377</relevance>
+            <type>Person</type>
+            <relevance>0.301639</relevance>
             <count>1</count>
-            <text>Space Sciences Committee</text>
+            <text>Senator Robert S. Kerr</text>
+            <disambiguated>
+                <name>Robert S. Kerr</name>
+                <subType>Politician</subType>
+                <subType>Governor</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Robert_S._Kerr</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05tnvb</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_S._Kerr</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.295186</relevance>
+            <relevance>0.296396</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -140,8 +155,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.279719</relevance>
+            <count>1</count>
+            <text>Senate Aeronautical</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.282861</relevance>
+            <relevance>0.272277</relevance>
             <count>1</count>
             <text>Senator Hubert Humphrey</text>
             <disambiguated>
@@ -159,22 +180,22 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.270568</relevance>
+            <relevance>0.25256</relevance>
             <count>1</count>
-            <text>Senator Robert S. Kerr</text>
+            <text>Congressman Overton Brooks</text>
             <disambiguated>
-                <name>Robert S. Kerr</name>
+                <name>Overton Brooks</name>
                 <subType>Politician</subType>
-                <subType>Governor</subType>
+                <subType>MilitaryPerson</subType>
                 <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_S._Kerr</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05tnvb</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_S._Kerr</yago>
+                <dbpedia>http://dbpedia.org/resource/Overton_Brooks</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bz3m</freebase>
+                <yago>http://yago-knowledge.org/resource/Overton_Brooks</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.258524</relevance>
+            <relevance>0.252029</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -193,29 +214,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.249879</relevance>
+            <type>Facility</type>
+            <relevance>0.194578</relevance>
             <count>1</count>
-            <text>Congressman Overton Brooks</text>
-            <disambiguated>
-                <name>Overton Brooks</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Overton_Brooks</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bz3m</freebase>
-                <yago>http://yago-knowledge.org/resource/Overton_Brooks</yago>
-            </disambiguated>
+            <text>Betkesda Naval Hospital</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.247059</relevance>
-            <count>1</count>
-            <text>Senate Aeronautical</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.198403</relevance>
+            <relevance>0.191232</relevance>
             <count>1</count>
             <text>United Nations</text>
             <disambiguated>
@@ -226,32 +232,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.192352</relevance>
-            <count>1</count>
-            <text>Betkesda Naval Hospital</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.188937</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.170495</relevance>
+            <relevance>0.172326</relevance>
             <count>1</count>
             <text>Louisiana</text>
             <disambiguated>
@@ -270,8 +252,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.168656</relevance>
+            <count>1</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.163763</relevance>
+            <relevance>0.147798</relevance>
             <count>1</count>
             <text>U.S.S.R.</text>
             <disambiguated>

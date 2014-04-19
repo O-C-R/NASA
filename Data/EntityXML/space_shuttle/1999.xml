@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.842878</relevance>
+            <relevance>0.793827</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,26 +28,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.770268</relevance>
-            <count>2</count>
-            <text>Columbia</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.640481</relevance>
+            <relevance>0.668154</relevance>
             <count>2</count>
             <text>hydrogen fuel</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.501395</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.595548</relevance>
             <count>2</count>
-            <text>Commander</text>
+            <text>Columbia</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.460228</relevance>
+            <relevance>0.420057</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -68,8 +62,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.395172</relevance>
+            <count>2</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.459922</relevance>
+            <relevance>0.367937</relevance>
             <count>2</count>
             <text>Florida</text>
             <disambiguated>
@@ -88,8 +88,29 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.354572</relevance>
+            <count>1</count>
+            <text>Marcia Dunn</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.352129</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.430404</relevance>
+            <relevance>0.344323</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -106,7 +127,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.419998</relevance>
+            <relevance>0.335998</relevance>
             <count>1</count>
             <text>Eileen M. Collins</text>
             <disambiguated>
@@ -120,39 +141,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.416918</relevance>
-            <count>1</count>
-            <text>Ronald D. Dittemore</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.40966</relevance>
-            <count>1</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.408249</relevance>
+            <relevance>0.326599</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.403193</relevance>
+            <relevance>0.322555</relevance>
             <count>1</count>
             <text>KSC</text>
             <disambiguated>
@@ -170,34 +166,32 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.390213</relevance>
+            <relevance>0.322454</relevance>
             <count>1</count>
-            <text>Marcia Dunn</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.387503</relevance>
-            <count>1</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.386331</relevance>
-            <count>1</count>
-            <text>Warren E. Leary</text>
+            <text>Ronald D. Dittemore</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.382943</relevance>
+            <relevance>0.317084</relevance>
+            <count>1</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.306354</relevance>
             <count>1</count>
             <text>Atlanta Journal</text>
             <disambiguated>
@@ -208,6 +202,12 @@
                 <freebase>http://rdf.freebase.com/ns/m.02xt43</freebase>
                 <yago>http://yago-knowledge.org/resource/The_Atlanta_Journal-Constitution</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.29833</relevance>
+            <count>1</count>
+            <text>Warren E. Leary</text>
         </entity>
     </entities>
 </results>

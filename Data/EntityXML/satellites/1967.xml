@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.784121</relevance>
+            <relevance>0.927872</relevance>
             <count>65</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
@@ -28,8 +28,24 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.877261</relevance>
+            <count>43</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.675292</relevance>
+            <relevance>0.8448</relevance>
             <count>41</count>
             <text>United States</text>
             <disambiguated>
@@ -49,35 +65,13 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.660554</relevance>
+            <relevance>0.823862</relevance>
             <count>11</count>
             <text>satellite system</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.653681</relevance>
-            <count>44</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.64215</relevance>
-            <count>18</count>
-            <text>ComSatCorp</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.617591</relevance>
+            <relevance>0.767253</relevance>
             <count>39</count>
             <text>The New York Times</text>
             <disambiguated>
@@ -95,10 +89,28 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.69445</relevance>
+            <count>17</count>
+            <text>ComSatCorp</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.586357</relevance>
+            <count>5</count>
+            <text>communications satellite</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.559805</relevance>
+            <count>7</count>
+            <text>gsfc</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.483946</relevance>
+            <relevance>0.557687</relevance>
             <count>9</count>
-            <text>Atlantic</text>
+            <text>Atlantic Oceans</text>
             <disambiguated>
                 <name>Atlantic Ocean</name>
                 <geo>-52.35 -68.35</geo>
@@ -109,14 +121,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.476408</relevance>
-            <count>5</count>
-            <text>communications satellite</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.475166</relevance>
+            <relevance>0.553739</relevance>
             <count>11</count>
             <text>Intelsat</text>
             <disambiguated>
@@ -131,20 +137,52 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.527269</relevance>
+            <count>6</count>
+            <text>Pacific</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.517679</relevance>
+            <count>5</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.497895</relevance>
+            <count>6</count>
+            <text>Ford Foundation</text>
+            <disambiguated>
+                <name>Ford Foundation</name>
+                <subType>Non-ProfitOrganisation</subType>
+                <website>http://www.fordfound.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Ford_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mzw0</freebase>
+                <yago>http://yago-knowledge.org/resource/Ford_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.49775</relevance>
+            <count>6</count>
+            <text>earth station</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.45469</relevance>
-            <count>7</count>
-            <text>gsfc</text>
+            <relevance>0.485172</relevance>
+            <count>6</count>
+            <text>wtr</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.428027</relevance>
+            <relevance>0.48367</relevance>
             <count>8</count>
             <text>President Johnson</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.414231</relevance>
+            <relevance>0.478789</relevance>
             <count>6</count>
             <text>Europe</text>
             <disambiguated>
@@ -156,14 +194,26 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.413868</relevance>
-            <count>5</count>
-            <text>NYT</text>
+            <relevance>0.454641</relevance>
+            <count>4</count>
+            <text>comsat</text>
+            <disambiguated>
+                <name>COMSAT</name>
+                <dbpedia>http://dbpedia.org/resource/COMSAT</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y3sw</freebase>
+                <yago>http://yago-knowledge.org/resource/COMSAT</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.401577</relevance>
-            <count>9</count>
+            <relevance>0.449844</relevance>
+            <count>1</count>
+            <text>National Environmental Satellite Center&#x2019;s Satellite Experiment Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.449079</relevance>
+            <count>8</count>
             <text>usaf</text>
             <disambiguated>
                 <name>United States Air Force</name>
@@ -178,8 +228,25 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.447572</relevance>
+            <count>6</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.447017</relevance>
+            <count>4</count>
+            <text>James McCormack</text>
+            <disambiguated>
+                <name>James McCormack</name>
+                <dbpedia>http://dbpedia.org/resource/James_McCormack</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hhqwpg</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.393603</relevance>
+            <relevance>0.437461</relevance>
             <count>6</count>
             <text>Congress</text>
             <disambiguated>
@@ -196,87 +263,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.39113</relevance>
-            <count>6</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.384133</relevance>
-            <count>5</count>
-            <text>Federal Communications Commission</text>
-            <disambiguated>
-                <name>Federal Communications Commission</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.fcc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Communications_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fjdq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rviTbqZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Communications_Commission</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.383141</relevance>
-            <count>6</count>
-            <text>Pacific</text>
-            <disambiguated>
-                <name>Pacific Ocean</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.37345</relevance>
-            <count>5</count>
-            <text>WTR</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.372802</relevance>
-            <count>6</count>
-            <text>earth station</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.357325</relevance>
-            <count>6</count>
-            <text>Ford Foundation</text>
-            <disambiguated>
-                <name>Ford Foundation</name>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.fordfound.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Ford_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mzw0</freebase>
-                <yago>http://yago-knowledge.org/resource/Ford_Foundation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.356206</relevance>
-            <count>4</count>
-            <text>Aviation Week</text>
-            <disambiguated>
-                <name>Aviation Week &amp; Space Technology</name>
-                <subType>ConsumerProduct</subType>
-                <subType>Magazine</subType>
-                <website>http://www.aviationweek.com</website>
-                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
-                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.351837</relevance>
+            <relevance>0.429627</relevance>
             <count>4</count>
             <text>Government</text>
             <disambiguated>
@@ -288,32 +276,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.351701</relevance>
+            <type>Company</type>
+            <relevance>0.426269</relevance>
             <count>5</count>
-            <text>Space Research</text>
+            <text>usaf</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.345047</relevance>
-            <count>2</count>
-            <text>National Environmental Satellite Center</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.342287</relevance>
+            <type>JobTitle</type>
+            <relevance>0.425007</relevance>
             <count>4</count>
-            <text>Comsat</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.340455</relevance>
-            <count>5</count>
-            <text>dod</text>
+            <text>chairman</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.339416</relevance>
+            <relevance>0.424197</relevance>
             <count>5</count>
             <text>AT&amp;T</text>
             <disambiguated>
@@ -328,133 +304,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.338381</relevance>
-            <count>1</count>
-            <text>National Environmental Satellite Center&#x2019;s Satellite Experiment Laboratory</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.335681</relevance>
-            <count>4</count>
-            <text>ESSA</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.335482</relevance>
-            <count>5</count>
-            <text>Australia</text>
-            <disambiguated>
-                <name>Australia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <geo>-35.3 149.13333333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Australia</yago>
-                <geonames>http://sws.geonames.org/2077456/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.327332</relevance>
-            <count>1</count>
-            <text>Nimbus-D Meteorological Satellite</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.322008</relevance>
-            <count>3</count>
-            <text>Comsat</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.32138</relevance>
+            <relevance>0.420777</relevance>
             <count>4</count>
-            <text>Secretary</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.316142</relevance>
-            <count>4</count>
-            <text>comsat</text>
-            <disambiguated>
-                <name>COMSAT</name>
-                <dbpedia>http://dbpedia.org/resource/COMSAT</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07y3sw</freebase>
-                <yago>http://yago-knowledge.org/resource/COMSAT</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.314053</relevance>
-            <count>4</count>
-            <text>James McCormack</text>
-            <disambiguated>
-                <name>James McCormack</name>
-                <dbpedia>http://dbpedia.org/resource/James_McCormack</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hhqwpg</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.313792</relevance>
-            <count>3</count>
-            <text>Hughes Aircraft Co.</text>
-            <disambiguated>
-                <name>Hughes Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.313288</relevance>
-            <count>4</count>
-            <text>ESRO</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.31268</relevance>
-            <count>4</count>
-            <text>AFSC</text>
-            <disambiguated>
-                <name>American Friends Service Committee</name>
-                <subType>AwardWinner</subType>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.afsc.org</website>
-                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.309402</relevance>
-            <count>4</count>
-            <text>usaf</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.309295</relevance>
-            <count>4</count>
-            <text>America</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.297133</relevance>
-            <count>1</count>
-            <text>Large Astronomical Satellite</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.293991</relevance>
-            <count>3</count>
             <text>France</text>
             <disambiguated>
                 <name>France</name>
@@ -473,50 +325,72 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.293981</relevance>
-            <count>3</count>
-            <text>Cosmos CLXVI</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.29221</relevance>
-            <count>3</count>
-            <text>Aero Tech</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.292121</relevance>
-            <count>1</count>
-            <text>Satellite service</text>
+            <type>City</type>
+            <relevance>0.420516</relevance>
+            <count>4</count>
+            <text>ESSA</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.291388</relevance>
-            <count>3</count>
-            <text>Brazil</text>
+            <relevance>0.4183</relevance>
+            <count>5</count>
+            <text>Australia</text>
             <disambiguated>
-                <name>Brazil</name>
+                <name>Australia</name>
                 <subType>Location</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>CompanyShareholder</subType>
-                <geo>-15.75 -47.95</geo>
-                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Brazil</yago>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.29002</relevance>
+            <type>Organization</type>
+            <relevance>0.411447</relevance>
+            <count>5</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.403344</relevance>
+            <count>3</count>
+            <text>Comsat</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.400415</relevance>
+            <count>5</count>
+            <text>Space Research</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.391096</relevance>
             <count>4</count>
-            <text>Data Acquisition Network</text>
+            <text>Comsat</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.388063</relevance>
+            <count>4</count>
+            <text>AFSC</text>
+            <disambiguated>
+                <name>American Friends Service Committee</name>
+                <subType>AwardWinner</subType>
+                <subType>Non-ProfitOrganisation</subType>
+                <website>http://www.afsc.org</website>
+                <dbpedia>http://dbpedia.org/resource/American_Friends_Service_Committee</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017rlk</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Friends_Service_Committee</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.289555</relevance>
+            <relevance>0.38762</relevance>
             <count>4</count>
             <text>RCA</text>
             <disambiguated>
@@ -529,10 +403,107 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.38678</relevance>
+            <count>2</count>
+            <text>National Environmental Satellite Center</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.383868</relevance>
+            <count>4</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.382674</relevance>
+            <count>4</count>
+            <text>ESRO</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.372384</relevance>
+            <count>4</count>
+            <text>America</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.367845</relevance>
+            <count>1</count>
+            <text>Large Astronomical Satellite</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.367564</relevance>
+            <count>5</count>
+            <text>Federal Communications Commission</text>
+            <disambiguated>
+                <name>Federal Communications Commission</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.fcc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Communications_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fjdq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rviTbqZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Communications_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.364338</relevance>
+            <count>4</count>
+            <text>Data Acquisition Network</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.359838</relevance>
+            <count>1</count>
+            <text>Nimbus-D Meteorological Satellite</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.358089</relevance>
+            <count>4</count>
+            <text>Esro II</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.356921</relevance>
+            <count>3</count>
+            <text>Cosmos CLXVI</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.287591</relevance>
+            <relevance>0.354803</relevance>
             <count>3</count>
             <text>Rosman</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.35391</relevance>
+            <count>1</count>
+            <text>Lincoln Experimental Satellite</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.352164</relevance>
+            <count>3</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.349495</relevance>
+            <count>3</count>
+            <text>Brazil</text>
         </entity>
     </entities>
 </results>

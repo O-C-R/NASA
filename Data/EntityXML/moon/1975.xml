@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.731247</relevance>
+            <relevance>0.886343</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.512117</relevance>
+            <relevance>0.729236</relevance>
             <count>2</count>
             <text>Pioneer</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.630241</relevance>
+            <count>2</count>
+            <text>Soyuz</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.59195</relevance>
+            <count>1</count>
+            <text>Pioneer II</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.467856</relevance>
+            <relevance>0.589944</relevance>
             <count>2</count>
             <text>Richard Nixon</text>
             <disambiguated>
@@ -62,20 +74,57 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.568765</relevance>
+            <count>2</count>
+            <text>Apollo</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.458946</relevance>
+            <relevance>0.555261</relevance>
             <count>2</count>
             <text>Lee Winfrey</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.445215</relevance>
+            <type>Person</type>
+            <relevance>0.525712</relevance>
+            <count>1</count>
+            <text>Pope Paul VI</text>
+            <disambiguated>
+                <name>Pope Paul VI</name>
+                <subType>ReligiousLeader</subType>
+                <dbpedia>http://dbpedia.org/resource/Pope_Paul_VI</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05_k7</freebase>
+                <yago>http://yago-knowledge.org/resource/Pope_Paul_VI</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.501586</relevance>
             <count>2</count>
-            <text>Soyuz</text>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.485473</relevance>
+            <count>1</count>
+            <text>Rome</text>
+            <disambiguated>
+                <name>Rome</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>ItalianComune</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <website>http://www-personal.umich.edu/~bkh/rome/5-20-3.htm</website>
+                <dbpedia>http://dbpedia.org/resource/Rome</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06c62</freebase>
+                <yago>http://yago-knowledge.org/resource/Rome</yago>
+                <geonames>http://sws.geonames.org/3169070/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.418813</relevance>
+            <relevance>0.479875</relevance>
             <count>2</count>
             <text>The Los Angeles Times</text>
             <disambiguated>
@@ -91,47 +140,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.416605</relevance>
-            <count>2</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.407743</relevance>
+            <type>Organization</type>
+            <relevance>0.466248</relevance>
             <count>1</count>
-            <text>Pioneer II</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.390739</relevance>
-            <count>2</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.381511</relevance>
-            <count>1</count>
-            <text>Philadelphia Inquirer</text>
+            <text>Soviet Air Force</text>
             <disambiguated>
-                <name>The Philadelphia Inquirer</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.philly.com/inquirer/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Philadelphia_Inquirer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0p_b7</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Philadelphia_Inquirer</yago>
+                <name>Soviet Air Forces</name>
+                <subType>ArmedForce</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Air_Forces</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01hg2h</freebase>
+                <yago>http://yago-knowledge.org/resource/Soviet_Air_Forces</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.367405</relevance>
-            <count>1</count>
-            <text>TV critic</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.366391</relevance>
+            <relevance>0.464681</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -145,21 +168,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.36486</relevance>
+            <type>Person</type>
+            <relevance>0.46094</relevance>
             <count>1</count>
-            <text>Soviet Air Force</text>
+            <text>General Vladimir Shatalov</text>
             <disambiguated>
-                <name>Soviet Air Forces</name>
-                <subType>ArmedForce</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Air_Forces</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01hg2h</freebase>
-                <yago>http://yago-knowledge.org/resource/Soviet_Air_Forces</yago>
+                <name>Vladimir Shatalov</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Vladimir_Shatalov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c050</freebase>
+                <yago>http://yago-knowledge.org/resource/Vladimir_Shatalov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.456075</relevance>
+            <count>1</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.364603</relevance>
+            <relevance>0.455172</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -178,38 +218,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.359971</relevance>
+            <type>Facility</type>
+            <relevance>0.452076</relevance>
             <count>1</count>
-            <text>General Vladimir Shatalov</text>
-            <disambiguated>
-                <name>Vladimir Shatalov</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Vladimir_Shatalov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c050</freebase>
-                <yago>http://yago-knowledge.org/resource/Vladimir_Shatalov</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.356801</relevance>
-            <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
+            <text>north pole</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.353971</relevance>
+            <relevance>0.448922</relevance>
             <count>1</count>
             <text>Vladimir Kotelnikov</text>
             <disambiguated>
@@ -223,32 +239,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.347566</relevance>
+            <relevance>0.442336</relevance>
             <count>1</count>
             <text>NASA Associate Deputy Administrator</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.341933</relevance>
-            <count>1</count>
-            <text>Pope Paul VI</text>
-            <disambiguated>
-                <name>Pope Paul VI</name>
-                <subType>ReligiousLeader</subType>
-                <dbpedia>http://dbpedia.org/resource/Pope_Paul_VI</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05_k7</freebase>
-                <yago>http://yago-knowledge.org/resource/Pope_Paul_VI</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.340321</relevance>
-            <count>1</count>
-            <text>ASTP</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.340208</relevance>
+            <relevance>0.434759</relevance>
             <count>1</count>
             <text>Aleksey A. Leonov</text>
             <disambiguated>
@@ -261,71 +258,79 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.339239</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.433713</relevance>
+            <count>1</count>
+            <text>Philadelphia Inquirer</text>
+            <disambiguated>
+                <name>The Philadelphia Inquirer</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.philly.com/inquirer/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Philadelphia_Inquirer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0p_b7</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Philadelphia_Inquirer</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.433289</relevance>
             <count>1</count>
             <text>ASTP</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.32679</relevance>
+            <type>Organization</type>
+            <relevance>0.431847</relevance>
             <count>1</count>
-            <text>Rome</text>
-            <disambiguated>
-                <name>Rome, Adams County, Wisconsin</name>
-                <geo>44.2025 -89.81833333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Rome,_Adams_County,_Wisconsin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.010zdw</freebase>
-                <yago>http://yago-knowledge.org/resource/Rome,_Adams_County,_Wisconsin</yago>
-            </disambiguated>
+            <text>ASTP</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.410593</relevance>
+            <count>1</count>
+            <text>Apollo news center</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.397566</relevance>
+            <count>1</count>
+            <text>TV critic</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.396012</relevance>
+            <count>1</count>
+            <text>Salyut</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.313406</relevance>
+            <relevance>0.387388</relevance>
+            <count>1</count>
+            <text>Willis Shapley</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.38572</relevance>
+            <count>1</count>
+            <text>Houston</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.385078</relevance>
             <count>1</count>
             <text>Brezhnev</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.312956</relevance>
+            <relevance>0.384479</relevance>
             <count>1</count>
             <text>P Inq</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.311048</relevance>
-            <count>1</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.310403</relevance>
-            <count>1</count>
-            <text>north pole</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.304387</relevance>
-            <count>1</count>
-            <text>Willis Shapley</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.298866</relevance>
+            <relevance>0.377349</relevance>
             <count>1</count>
             <text>Acting President</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.297344</relevance>
-            <count>1</count>
-            <text>Apollo news center</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.279329</relevance>
-            <count>1</count>
-            <text>Houston</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.778751</relevance>
+            <relevance>0.826895</relevance>
             <count>19</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,19 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.53697</relevance>
+            <relevance>0.491379</relevance>
             <count>7</count>
             <text>MSFC</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.440467</relevance>
+            <relevance>0.443986</relevance>
             <count>6</count>
             <text>director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.353809</relevance>
+            <relevance>0.363096</relevance>
             <count>3</count>
             <text>Dr. William R. Lucas</text>
             <disambiguated>
@@ -53,7 +53,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.353636</relevance>
+            <relevance>0.354441</relevance>
             <count>5</count>
             <text>Dr. John A. Eddy</text>
             <disambiguated>
@@ -65,50 +65,41 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.335111</relevance>
-            <count>4</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.315867</relevance>
+            <relevance>0.35211</relevance>
             <count>1</count>
             <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.306049</relevance>
-            <count>2</count>
-            <text>Spacelab</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.298876</relevance>
-            <count>1</count>
-            <text>Shuttle orbiter Enterprise</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.283891</relevance>
-            <count>3</count>
-            <text>KSC</text>
             <disambiguated>
-                <name>Kennedy Space Center</name>
+                <name>Marshall Space Flight Center</name>
                 <subType>Location</subType>
-                <subType>Facility</subType>
                 <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
+                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.279988</relevance>
+            <relevance>0.336186</relevance>
+            <count>4</count>
+            <text>LaRC</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.291149</relevance>
+            <count>2</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.290234</relevance>
+            <count>3</count>
+            <text>William A. Brooksbank</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.288393</relevance>
             <count>2</count>
             <text>Boeing</text>
             <disambiguated>
@@ -126,26 +117,207 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.279097</relevance>
-            <count>3</count>
-            <text>William A. Brooksbank</text>
+            <type>Company</type>
+            <relevance>0.283062</relevance>
+            <count>2</count>
+            <text>DFRC</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.281581</relevance>
+            <count>1</count>
+            <text>Shuttle projects office</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.277848</relevance>
+            <count>2</count>
+            <text>USAF</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.27332</relevance>
+            <count>1</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.278421</relevance>
+            <relevance>0.270059</relevance>
+            <count>1</count>
+            <text>Yuri Gagarin</text>
+            <disambiguated>
+                <name>Yuri Gagarin</name>
+                <subType>Astronaut</subType>
+                <subType>DisasterVictim</subType>
+                <subType>TVCharacter</subType>
+                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
+                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.264777</relevance>
+            <count>1</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.25875</relevance>
+            <count>1</count>
+            <text>Richard T. Whitcomb</text>
+            <disambiguated>
+                <name>Richard T. Whitcomb</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_T._Whitcomb</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01rrq3</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_T._Whitcomb</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.258458</relevance>
             <count>2</count>
-            <text>Dr. John R. Carruthers</text>
+            <text>Maj. Gen. Kenneth R. Chapman</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.256788</relevance>
+            <count>1</count>
+            <text>Palmdale</text>
+            <disambiguated>
+                <name>Palmdale, California</name>
+                <geo>34.57944444444445 -118.11666666666666</geo>
+                <website>http://www.cityofpalmdale.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Palmdale,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r0r4</freebase>
+                <yago>http://yago-knowledge.org/resource/Palmdale,_California</yago>
+                <geonames>http://sws.geonames.org/5380698/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.252624</relevance>
+            <count>1</count>
+            <text>Calif.</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.264415</relevance>
+            <relevance>0.24489</relevance>
             <count>1</count>
-            <text>Natl Inq</text>
+            <text>Shuttle orbiter Enterprise</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.242286</relevance>
+            <count>1</count>
+            <text>Atmospheric Research</text>
+            <disambiguated>
+                <name>Atmospheric Research</name>
+                <subType>Journal</subType>
+                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
+                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
+                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.240715</relevance>
+            <count>1</count>
+            <text>chief engineer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.240475</relevance>
+            <count>1</count>
+            <text>Food and Drug Administration</text>
+            <disambiguated>
+                <name>Food and Drug Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.fda.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Food_and_Drug_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.032mx</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.263335</relevance>
+            <relevance>0.240363</relevance>
+            <count>1</count>
+            <text>Edmund Halley</text>
+            <disambiguated>
+                <name>Edmond Halley</name>
+                <subType>Academic</subType>
+                <subType>Astronomer</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Edmond_Halley</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bsbf</freebase>
+                <yago>http://yago-knowledge.org/resource/Edmond_Halley</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.240022</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.239491</relevance>
             <count>1</count>
             <text>Donald K. Slayton</text>
             <disambiguated>
@@ -158,92 +330,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.259775</relevance>
-            <count>1</count>
-            <text>JPL</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.257183</relevance>
-            <count>1</count>
-            <text>Richard T. Whitcomb</text>
-            <disambiguated>
-                <name>Richard T. Whitcomb</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_T._Whitcomb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01rrq3</freebase>
-                <yago>http://yago-knowledge.org/resource/Richard_T._Whitcomb</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.255106</relevance>
-            <count>1</count>
-            <text>Huntsville</text>
-            <disambiguated>
-                <name>Huntsville, Alabama</name>
-                <geo>34.7 -86.58333333333333</geo>
-                <website>http://www.hsvcity.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
-                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
-                <geonames>http://sws.geonames.org/4068590/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.254619</relevance>
-            <count>1</count>
-            <text>Turin</text>
-            <disambiguated>
-                <name>Turin</name>
-                <subType>ItalianComune</subType>
-                <subType>OlympicHostCity</subType>
-                <website>http://www.comune.torino.it</website>
-                <dbpedia>http://dbpedia.org/resource/Turin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07mgr</freebase>
-                <yago>http://yago-knowledge.org/resource/Turin</yago>
-                <geonames>http://sws.geonames.org/3165524/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.250726</relevance>
-            <count>1</count>
-            <text>N.Y.</text>
-            <disambiguated>
-                <name>New York</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>43.0 -75.0</geo>
-                <website>http://www.ny.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
-                <yago>http://yago-knowledge.org/resource/New_York</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.243687</relevance>
+            <relevance>0.239442</relevance>
             <count>2</count>
             <text>Alex Haley</text>
             <disambiguated>
@@ -261,125 +349,110 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.24315</relevance>
-            <count>1</count>
-            <text>Fred W. Haise</text>
-            <disambiguated>
-                <name>Fred Haise</name>
-                <subType>Astronaut</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Fred_Haise</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01__bq</freebase>
-                <yago>http://yago-knowledge.org/resource/Fred_Haise</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.242682</relevance>
-            <count>1</count>
-            <text>project engineer</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.241694</relevance>
-            <count>2</count>
-            <text>Donald Lynn</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.240787</relevance>
-            <count>2</count>
-            <text>DFRC</text>
-            <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.239771</relevance>
-            <count>1</count>
-            <text>Redstone Arsenal</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.239116</relevance>
-            <count>1</count>
-            <text>Atmospheric Research</text>
-            <disambiguated>
-                <name>Atmospheric Research</name>
-                <subType>Journal</subType>
-                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
-                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
-                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.237149</relevance>
-            <count>1</count>
-            <text>Edmund Halley</text>
-            <disambiguated>
-                <name>Edmond Halley</name>
-                <subType>Academic</subType>
-                <subType>Astronomer</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Edmond_Halley</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bsbf</freebase>
-                <yago>http://yago-knowledge.org/resource/Edmond_Halley</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.236911</relevance>
-            <count>1</count>
-            <text>image processing</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.236673</relevance>
-            <count>1</count>
-            <text>Bell Labs</text>
-            <disambiguated>
-                <name>Bell Labs</name>
-                <subType>OperatingSystemDeveloper</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>40.683404 -74.400744</geo>
-                <dbpedia>http://dbpedia.org/resource/Bell_Labs</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0179y</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rpRSbKCtBQdiKxbsnwz9B5w</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.235779</relevance>
+            <relevance>0.239292</relevance>
             <count>2</count>
-            <text>x-ray</text>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.235329</relevance>
+            <relevance>0.237374</relevance>
+            <count>1</count>
+            <text>Harold Ledford</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237014</relevance>
+            <count>1</count>
+            <text>Thomas J. Lee</text>
+            <disambiguated>
+                <name>T. Jack Lee</name>
+                <dbpedia>http://dbpedia.org/resource/T._Jack_Lee</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0266_z4</freebase>
+                <yago>http://yago-knowledge.org/resource/T._Jack_Lee</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.236888</relevance>
             <count>1</count>
             <text>Robert T. Jones</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.23503</relevance>
+            <relevance>0.236388</relevance>
             <count>1</count>
-            <text>Food and Drug Administration</text>
+            <text>ASTP</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.236003</relevance>
+            <count>1</count>
+            <text>S. Korolev</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.235158</relevance>
+            <count>3</count>
+            <text>KSC</text>
             <disambiguated>
-                <name>Food and Drug Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.fda.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Food_and_Drug_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.032mx</freebase>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234538</relevance>
+            <count>1</count>
+            <text>Donald P. Hearth</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234438</relevance>
+            <count>1</count>
+            <text>Lt. Gen. William</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234132</relevance>
+            <count>1</count>
+            <text>John G. McTigue</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.234122</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -401,64 +474,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.232927</relevance>
-            <count>1</count>
-            <text>Donald P. Hearth</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.232298</relevance>
-            <count>1</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.231849</relevance>
-            <count>1</count>
-            <text>Italy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230582</relevance>
-            <count>2</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.230063</relevance>
-            <count>2</count>
-            <text>Jean Lorre</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.229411</relevance>
+            <relevance>0.232612</relevance>
             <count>1</count>
             <text>King Louis XIV</text>
             <disambiguated>
@@ -477,20 +493,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.228456</relevance>
-            <count>1</count>
-            <text>Thomas J. Lee</text>
-            <disambiguated>
-                <name>T. Jack Lee</name>
-                <dbpedia>http://dbpedia.org/resource/T._Jack_Lee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0266_z4</freebase>
-                <yago>http://yago-knowledge.org/resource/T._Jack_Lee</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.228125</relevance>
+            <relevance>0.231264</relevance>
             <count>1</count>
             <text>Mexico</text>
             <disambiguated>
@@ -508,81 +512,77 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.227027</relevance>
+            <type>Person</type>
+            <relevance>0.227714</relevance>
             <count>1</count>
-            <text>USSR</text>
+            <text>Roy Gibson</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>Roy Gibson</name>
+                <subType>Academic</subType>
+                <dbpedia>http://dbpedia.org/resource/Roy_Gibson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07khzlx</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225738</relevance>
-            <count>1</count>
-            <text>Shuttle projects office</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.225158</relevance>
-            <count>2</count>
-            <text>GE</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.225046</relevance>
-            <count>1</count>
-            <text>LA Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224435</relevance>
-            <count>1</count>
-            <text>Hq Office of Applications</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.222555</relevance>
+            <relevance>0.226578</relevance>
             <count>1</count>
-            <text>Yuri Gagarin</text>
+            <text>John Richardson</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.225935</relevance>
+            <count>1</count>
+            <text>Huntsville</text>
             <disambiguated>
-                <name>Yuri Gagarin</name>
-                <subType>Astronaut</subType>
-                <subType>DisasterVictim</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
-                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
+                <name>Huntsville, Alabama</name>
+                <geo>34.7 -86.58333333333333</geo>
+                <website>http://www.hsvcity.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
+                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
+                <geonames>http://sws.geonames.org/4068590/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.22506</relevance>
+            <count>1</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.22411</relevance>
+            <count>1</count>
+            <text>Jewel W. Moody</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.221707</relevance>
+            <relevance>0.223754</relevance>
             <count>1</count>
             <text>Canada</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.221044</relevance>
+            <type>Organization</type>
+            <relevance>0.221396</relevance>
             <count>1</count>
-            <text>John Richardson</text>
+            <text>Rocketdyne Division of Rockwell</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.221218</relevance>
+            <count>1</count>
+            <text>Advancement of Science</text>
         </entity>
     </entities>
 </results>

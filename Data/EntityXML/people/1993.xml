@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.795376</relevance>
+            <relevance>0.950939</relevance>
             <count>5</count>
             <text>New York Times</text>
             <disambiguated>
@@ -25,8 +25,22 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.600137</relevance>
+            <count>3</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.708753</relevance>
+            <relevance>0.567737</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -47,22 +61,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.615618</relevance>
-            <count>3</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.551983</relevance>
+            <relevance>0.560683</relevance>
             <count>2</count>
             <text>John Lukacs</text>
             <disambiguated>
@@ -75,43 +75,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.488959</relevance>
-            <count>2</count>
-            <text>Michael Oppenheimer</text>
-            <disambiguated>
-                <name>Michael Oppenheimer</name>
-                <dbpedia>http://dbpedia.org/resource/Michael_Oppenheimer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g1tkg</freebase>
-                <yago>http://yago-knowledge.org/resource/Michael_Oppenheimer</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.451129</relevance>
-            <count>2</count>
-            <text>Edward Frieman</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.412914</relevance>
+            <relevance>0.541938</relevance>
             <count>2</count>
             <text>John Bolton</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.411357</relevance>
-            <count>1</count>
-            <text>Civil Aeronautics Board</text>
-            <disambiguated>
-                <name>Civil Aeronautics Board (Philippines)</name>
-                <website>http://www.cab.gov.ph</website>
-                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.408989</relevance>
+            <relevance>0.411677</relevance>
             <count>2</count>
             <text>Texas</text>
             <disambiguated>
@@ -130,20 +100,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.406281</relevance>
+            <type>Person</type>
+            <relevance>0.410855</relevance>
             <count>2</count>
-            <text>director</text>
+            <text>Michael Oppenheimer</text>
+            <disambiguated>
+                <name>Michael Oppenheimer</name>
+                <dbpedia>http://dbpedia.org/resource/Michael_Oppenheimer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g1tkg</freebase>
+                <yago>http://yago-knowledge.org/resource/Michael_Oppenheimer</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.398669</relevance>
-            <count>1</count>
-            <text>G. Joseph Minetti</text>
+            <relevance>0.404887</relevance>
+            <count>2</count>
+            <text>Dr. John Peoples Jr.</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.385949</relevance>
+            <relevance>0.391853</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -160,19 +136,105 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.383669</relevance>
+            <relevance>0.383709</relevance>
             <count>2</count>
-            <text>Dr. John Peoples Jr.</text>
+            <text>Edward Frieman</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.375968</relevance>
+            <count>1</count>
+            <text>Civil Aeronautics Board</text>
+            <disambiguated>
+                <name>Civil Aeronautics Board (Philippines)</name>
+                <website>http://www.cab.gov.ph</website>
+                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.361025</relevance>
+            <relevance>0.369653</relevance>
             <count>1</count>
             <text>Schrage</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.360673</relevance>
+            <relevance>0.369633</relevance>
+            <count>1</count>
+            <text>Buderim</text>
+            <disambiguated>
+                <name>Buderim</name>
+                <dbpedia>http://dbpedia.org/resource/Buderim</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05t_90</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.365283</relevance>
+            <count>1</count>
+            <text>Australia</text>
+            <disambiguated>
+                <name>Australia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.357207</relevance>
+            <count>2</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.356812</relevance>
+            <count>1</count>
+            <text>Scripps Institution of Oceanography</text>
+            <disambiguated>
+                <name>Scripps Institution of Oceanography</name>
+                <geo>32.865437 -117.253626</geo>
+                <dbpedia>http://dbpedia.org/resource/Scripps_Institution_of_Oceanography</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gpf0</freebase>
+                <yago>http://yago-knowledge.org/resource/Scripps_Institution_of_Oceanography</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.356315</relevance>
+            <count>1</count>
+            <text>Michael Schrage</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.348122</relevance>
+            <count>1</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.346095</relevance>
             <count>1</count>
             <text>New York</text>
             <disambiguated>
@@ -192,91 +254,43 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.359977</relevance>
-            <count>1</count>
-            <text>Scripps Institution of Oceanography</text>
-            <disambiguated>
-                <name>Scripps Institution of Oceanography</name>
-                <geo>32.865437 -117.253626</geo>
-                <dbpedia>http://dbpedia.org/resource/Scripps_Institution_of_Oceanography</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gpf0</freebase>
-                <yago>http://yago-knowledge.org/resource/Scripps_Institution_of_Oceanography</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.350461</relevance>
-            <count>1</count>
-            <text>Michael Schrage</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.349522</relevance>
-            <count>1</count>
-            <text>John B. Corliss</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.343624</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.338979</relevance>
-            <count>1</count>
-            <text>Joseph George Sobala</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.324268</relevance>
-            <count>1</count>
-            <text>Environmental Defense Fund</text>
-            <disambiguated>
-                <name>Environmental Defense Fund</name>
-                <dbpedia>http://dbpedia.org/resource/Environmental_Defense_Fund</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05btjs</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.32301</relevance>
+            <relevance>0.343465</relevance>
             <count>1</count>
             <text>Fermi National Accelerator Laboratory</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.322929</relevance>
+            <relevance>0.342217</relevance>
+            <count>1</count>
+            <text>G. Joseph Minetti</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.336421</relevance>
             <count>1</count>
             <text>Edward Farhi</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.321742</relevance>
+            <type>Person</type>
+            <relevance>0.33431</relevance>
             <count>1</count>
-            <text>LaJolla</text>
-            <disambiguated>
-                <name>La Jolla</name>
-                <dbpedia>http://dbpedia.org/resource/La_Jolla</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.015zxh</freebase>
-            </disambiguated>
+            <text>John B. Corliss</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.328976</relevance>
+            <count>1</count>
+            <text>Joseph George Sobala</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.328949</relevance>
+            <count>1</count>
+            <text>founding director</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.319143</relevance>
+            <relevance>0.326965</relevance>
             <count>1</count>
             <text>New Mexico</text>
             <disambiguated>
@@ -294,104 +308,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.309313</relevance>
+            <type>City</type>
+            <relevance>0.31891</relevance>
             <count>1</count>
-            <text>founding director</text>
+            <text>LaJolla</text>
+            <disambiguated>
+                <name>La Jolla</name>
+                <dbpedia>http://dbpedia.org/resource/La_Jolla</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015zxh</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.307834</relevance>
-            <count>1</count>
-            <text>chairman</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.300167</relevance>
+            <relevance>0.312714</relevance>
             <count>1</count>
             <text>Professor of Physics</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.299025</relevance>
-            <count>1</count>
-            <text>Cold War</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.297998</relevance>
-            <count>1</count>
-            <text>editor</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.29791</relevance>
+            <relevance>0.311169</relevance>
             <count>1</count>
-            <text>Lawrence Livermore Lab</text>
+            <text>Environmental Defense Fund</text>
             <disambiguated>
-                <name>Lawrence Livermore National Laboratory</name>
-                <subType>OperatingSystemDeveloper</subType>
-                <website>http://www.llnl.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Lawrence_Livermore_National_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09qyt</freebase>
-                <yago>http://yago-knowledge.org/resource/Lawrence_Livermore_National_Laboratory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.297611</relevance>
-            <count>1</count>
-            <text>University of California</text>
-            <disambiguated>
-                <name>University of California</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.universityofcalifornia.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07vgd</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rKyzuauGOQdifYftp2IqKug</opencyc>
-                <yago>http://yago-knowledge.org/resource/University_of_California</yago>
+                <name>Environmental Defense Fund</name>
+                <dbpedia>http://dbpedia.org/resource/Environmental_Defense_Fund</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05btjs</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.296587</relevance>
+            <relevance>0.308592</relevance>
             <count>1</count>
-            <text>Los Alamos</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.295228</relevance>
-            <count>1</count>
-            <text>Australia</text>
-            <disambiguated>
-                <name>Australia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <geo>-35.3 149.13333333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Australia</yago>
-                <geonames>http://sws.geonames.org/2077456/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.293482</relevance>
-            <count>1</count>
-            <text>Buderim</text>
-            <disambiguated>
-                <name>Buderim</name>
-                <dbpedia>http://dbpedia.org/resource/Buderim</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05t_90</freebase>
-            </disambiguated>
+            <text>Queensland</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.291073</relevance>
+            <relevance>0.307897</relevance>
             <count>1</count>
             <text>Illinois</text>
             <disambiguated>
@@ -410,46 +362,94 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.289617</relevance>
+            <type>Organization</type>
+            <relevance>0.305904</relevance>
             <count>1</count>
-            <text>scientist</text>
+            <text>Lawrence Livermore Lab</text>
+            <disambiguated>
+                <name>Lawrence Livermore National Laboratory</name>
+                <subType>OperatingSystemDeveloper</subType>
+                <website>http://www.llnl.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Lawrence_Livermore_National_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09qyt</freebase>
+                <yago>http://yago-knowledge.org/resource/Lawrence_Livermore_National_Laboratory</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.288634</relevance>
+            <type>Organization</type>
+            <relevance>0.304894</relevance>
             <count>1</count>
-            <text>consultant</text>
+            <text>University of California</text>
+            <disambiguated>
+                <name>University of California</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.universityofcalifornia.edu</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vgd</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rKyzuauGOQdifYftp2IqKug</opencyc>
+                <yago>http://yago-knowledge.org/resource/University_of_California</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.283038</relevance>
+            <relevance>0.30455</relevance>
+            <count>1</count>
+            <text>Los Alamos</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.303818</relevance>
+            <count>1</count>
+            <text>Cold War</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.290648</relevance>
             <count>1</count>
             <text>New York.</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.27915</relevance>
-            <count>1</count>
-            <text>California.</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.269735</relevance>
+            <relevance>0.28688</relevance>
             <count>1</count>
             <text>Congress</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.285462</relevance>
+            <count>1</count>
+            <text>editor</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.265858</relevance>
+            <relevance>0.284511</relevance>
             <count>1</count>
             <text>Dr. Ray F. Schwitters</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.23697</relevance>
+            <type>JobTitle</type>
+            <relevance>0.283574</relevance>
             <count>1</count>
-            <text>Queensland</text>
+            <text>chairman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.27686</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.276472</relevance>
+            <count>1</count>
+            <text>California.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.27606</relevance>
+            <count>1</count>
+            <text>consultant</text>
         </entity>
     </entities>
 </results>

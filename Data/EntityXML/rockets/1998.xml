@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.945765</relevance>
+            <relevance>0.941642</relevance>
             <count>15</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,8 +28,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.383494</relevance>
+            <count>2</count>
+            <text>Wernher von Braun</text>
+            <disambiguated>
+                <name>Wernher von Braun</name>
+                <subType>AwardWinner</subType>
+                <subType>Inventor</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>TVActor</subType>
+                <subType>TVCharacter</subType>
+                <dbpedia>http://dbpedia.org/resource/Wernher_von_Braun</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0850x</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv4by9JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Wernher_von_Braun</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.392301</relevance>
+            <relevance>0.367438</relevance>
             <count>2</count>
             <text>Puerto Rico</text>
             <disambiguated>
@@ -41,7 +59,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.360806</relevance>
+            <relevance>0.359525</relevance>
             <count>3</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -56,34 +74,57 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.343823</relevance>
+            <relevance>0.341455</relevance>
             <count>2</count>
             <text>Albert E. Schuler</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.312252</relevance>
+            <type>Organization</type>
+            <relevance>0.329109</relevance>
             <count>2</count>
-            <text>Orlando Sentinel</text>
+            <text>KSC</text>
             <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.303857</relevance>
+            <count>2</count>
+            <text>Heinrich K. Paetz</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.299734</relevance>
+            <count>2</count>
+            <text>FL</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.29539</relevance>
+            <count>2</count>
+            <text>Florida Today</text>
+            <disambiguated>
+                <name>Florida Today</name>
                 <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+                <website>http://floridatoday.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
+                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.304897</relevance>
-            <count>1</count>
-            <text>Puerto Ricans</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.304206</relevance>
+            <relevance>0.288676</relevance>
             <count>1</count>
             <text>Puerto Rico</text>
             <disambiguated>
@@ -105,7 +146,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.301689</relevance>
+            <relevance>0.286741</relevance>
             <count>1</count>
             <text>National Space Society</text>
             <disambiguated>
@@ -118,61 +159,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.300708</relevance>
+            <relevance>0.28592</relevance>
             <count>1</count>
             <text>Coqui Dos</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.285612</relevance>
+            <type>Country</type>
+            <relevance>0.285047</relevance>
             <count>1</count>
-            <text>Wernher von Braun</text>
-            <disambiguated>
-                <name>Wernher von Braun</name>
-                <subType>AwardWinner</subType>
-                <subType>Inventor</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>TVActor</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Wernher_von_Braun</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0850x</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv4by9JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Wernher_von_Braun</yago>
-            </disambiguated>
+            <text>Puerto Ricans</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.268876</relevance>
+            <type>City</type>
+            <relevance>0.275196</relevance>
             <count>2</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
+            <text>Brevard</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.26616</relevance>
-            <count>1</count>
-            <text>Huntsville Alabama L5 Society</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.264914</relevance>
-            <count>1</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.262427</relevance>
+            <relevance>0.271803</relevance>
             <count>1</count>
             <text>MSFC</text>
             <disambiguated>
@@ -186,14 +191,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.263468</relevance>
+            <count>2</count>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.260774</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.252396</relevance>
+            <count>1</count>
+            <text>Huntsville Alabama L5 Society</text>
+        </entity>
+        <entity>
             <type>OperatingSystem</type>
-            <relevance>0.262005</relevance>
+            <relevance>0.250004</relevance>
             <count>1</count>
             <text>Dos</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.246426</relevance>
+            <count>2</count>
+            <text>HAL5</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.258154</relevance>
+            <relevance>0.245584</relevance>
             <count>1</count>
             <text>U.S. Navy</text>
             <disambiguated>
@@ -208,7 +246,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.253548</relevance>
+            <relevance>0.241156</relevance>
             <count>1</count>
             <text>James A. Van Allen</text>
             <disambiguated>
@@ -223,52 +261,51 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.247342</relevance>
-            <count>2</count>
-            <text>FL</text>
+            <type>Company</type>
+            <relevance>0.239307</relevance>
+            <count>1</count>
+            <text>MSFC</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.246877</relevance>
-            <count>2</count>
-            <text>Heinrich K. Paetz</text>
+            <type>Drug</type>
+            <relevance>0.238235</relevance>
+            <count>1</count>
+            <text>nitrous oxide</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.246003</relevance>
+            <relevance>0.233566</relevance>
             <count>1</count>
             <text>Vega Baja</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.245687</relevance>
-            <count>2</count>
-            <text>Florida Today</text>
+            <type>Person</type>
+            <relevance>0.233292</relevance>
+            <count>1</count>
+            <text>William R. Corliss</text>
             <disambiguated>
-                <name>Florida Today</name>
-                <subType>Newspaper</subType>
-                <website>http://floridatoday.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
-                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
+                <name>William R. Corliss</name>
+                <website>http://groups.yahoo.com/group/sourcebookdiscussion/</website>
+                <dbpedia>http://dbpedia.org/resource/William_R._Corliss</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.048h35</freebase>
+                <yago>http://yago-knowledge.org/resource/William_R._Corliss</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.240444</relevance>
+            <relevance>0.227711</relevance>
             <count>1</count>
             <text>Tortuguero Recreation Area</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.237136</relevance>
-            <count>2</count>
-            <text>HAL5</text>
+            <type>Person</type>
+            <relevance>0.223118</relevance>
+            <count>1</count>
+            <text>Robyn Suriano</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.234263</relevance>
+            <relevance>0.222486</relevance>
             <count>1</count>
             <text>Mexico</text>
             <disambiguated>
@@ -286,63 +323,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.229856</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Drug</type>
-            <relevance>0.229247</relevance>
-            <count>1</count>
-            <text>nitrous oxide</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227417</relevance>
-            <count>1</count>
-            <text>U.S. Navy- University of Iowa</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.225182</relevance>
-            <count>2</count>
-            <text>Brevard</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.224755</relevance>
-            <count>1</count>
-            <text>Mario Maldonado</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.224578</relevance>
-            <count>1</count>
-            <text>William R. Corliss</text>
-            <disambiguated>
-                <name>William R. Corliss</name>
-                <website>http://groups.yahoo.com/group/sourcebookdiscussion/</website>
-                <dbpedia>http://dbpedia.org/resource/William_R._Corliss</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.048h35</freebase>
-                <yago>http://yago-knowledge.org/resource/William_R._Corliss</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.220013</relevance>
-            <count>1</count>
-            <text>Robyn Suriano</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.219965</relevance>
-            <count>1</count>
-            <text>Lance Oliver</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.21086</relevance>
+            <relevance>0.219068</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -360,20 +342,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.214669</relevance>
+            <count>1</count>
+            <text>U.S. Navy- University of Iowa</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.212195</relevance>
+            <count>1</count>
+            <text>Mario Maldonado</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.199505</relevance>
+            <relevance>0.208053</relevance>
             <count>1</count>
             <text>Alabama Ca</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.207652</relevance>
+            <count>1</count>
+            <text>Lance Oliver</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.1941</relevance>
+            <relevance>0.202465</relevance>
             <count>1</count>
             <text>Technical Information Office</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.182534</relevance>
+            <relevance>0.190837</relevance>
             <count>1</count>
             <text>DC</text>
         </entity>

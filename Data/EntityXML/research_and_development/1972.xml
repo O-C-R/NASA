@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.781132</relevance>
-            <count>102</count>
+            <relevance>0.93361</relevance>
+            <count>62</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,13 +29,28 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.594118</relevance>
-            <count>18</count>
+            <relevance>0.844499</relevance>
+            <count>17</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.483908</relevance>
+            <relevance>0.793105</relevance>
+            <count>44</count>
+            <text>Manned Spacecraft Center</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.641328</relevance>
             <count>10</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -52,14 +67,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.421476</relevance>
-            <count>8</count>
-            <text>Flight Research Centers</text>
+            <type>Company</type>
+            <relevance>0.571117</relevance>
+            <count>17</count>
+            <text>advanced aircraft</text>
+            <disambiguated>
+                <name>Advanced Aircraft</name>
+                <dbpedia>http://dbpedia.org/resource/Advanced_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0409dh</freebase>
+                <yago>http://yago-knowledge.org/resource/Advanced_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.557679</relevance>
+            <count>9</count>
+            <text>Langley Research Center</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.40814</relevance>
+            <relevance>0.536587</relevance>
             <count>16</count>
             <text>United States</text>
             <disambiguated>
@@ -79,7 +106,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.389737</relevance>
+            <relevance>0.466694</relevance>
+            <count>9</count>
+            <text>Flight Research Centers</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.459209</relevance>
             <count>11</count>
             <text>National Science Foundation</text>
             <disambiguated>
@@ -95,111 +128,60 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.388397</relevance>
-            <count>16</count>
-            <text>advanced aircraft</text>
-            <disambiguated>
-                <name>Advanced Aircraft</name>
-                <dbpedia>http://dbpedia.org/resource/Advanced_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0409dh</freebase>
-                <yago>http://yago-knowledge.org/resource/Advanced_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.371817</relevance>
+            <relevance>0.456654</relevance>
             <count>6</count>
             <text>Ames Research Center</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.366749</relevance>
-            <count>9</count>
-            <text>Langley Research Center</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.351274</relevance>
+            <relevance>0.421079</relevance>
             <count>8</count>
             <text>Thomas C. McMurtry</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.396437</relevance>
+            <count>6</count>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.394652</relevance>
+            <count>6</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.342467</relevance>
+            <relevance>0.380876</relevance>
             <count>7</count>
             <text>scientist</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.328792</relevance>
-            <count>5</count>
-            <text>Lewis Research Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.321279</relevance>
-            <count>5</count>
-            <text>Manned Spacecraft Center</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.298374</relevance>
-            <count>3</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.295366</relevance>
-            <count>6</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.290341</relevance>
+            <relevance>0.370706</relevance>
             <count>3</count>
             <text>Flight Research Center</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.268534</relevance>
-            <count>1</count>
-            <text>NASA Flight Research Center</text>
+            <type>FieldTerminology</type>
+            <relevance>0.366579</relevance>
+            <count>9</count>
+            <text>aerospace industry</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.262665</relevance>
-            <count>5</count>
-            <text>Univ. of California</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.26254</relevance>
-            <count>6</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.257746</relevance>
-            <count>2</count>
+            <relevance>0.363886</relevance>
+            <count>3</count>
             <text>Langley Research Center</text>
             <disambiguated>
                 <name>Langley Research Center</name>
@@ -212,14 +194,66 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.256838</relevance>
-            <count>9</count>
-            <text>aerospace industry</text>
+            <type>Organization</type>
+            <relevance>0.353752</relevance>
+            <count>5</count>
+            <text>Univ. of California</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.353273</relevance>
+            <count>1</count>
+            <text>NASA Flight Research Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.350811</relevance>
+            <count>6</count>
+            <text>frc</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.343022</relevance>
+            <count>5</count>
+            <text>Lewis Research Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.342419</relevance>
+            <count>6</count>
+            <text>Marshall Star</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.25653</relevance>
+            <relevance>0.340773</relevance>
+            <count>2</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.340036</relevance>
+            <count>1</count>
+            <text>NASA Office of Space Science</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.339242</relevance>
             <count>3</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -234,8 +268,235 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.331255</relevance>
+            <count>6</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.318528</relevance>
+            <count>3</count>
+            <text>Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.315606</relevance>
+            <count>3</count>
+            <text>Boeing Co.</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.305695</relevance>
+            <count>3</count>
+            <text>National Research Council</text>
+            <disambiguated>
+                <name>United States National Research Council</name>
+                <dbpedia>http://dbpedia.org/resource/United_States_National_Research_Council</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09d0q</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_National_Research_Council</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.301461</relevance>
+            <count>5</count>
+            <text>California</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.298899</relevance>
+            <count>1</count>
+            <text>NASA Office of Aeronautics and Space Technology</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.297684</relevance>
+            <count>3</count>
+            <text>Huntsville</text>
+            <disambiguated>
+                <name>Huntsville, Alabama</name>
+                <geo>34.7 -86.58333333333333</geo>
+                <website>http://www.hsvcity.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Huntsville,_Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q8sw</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/madison_county/huntsville</census>
+                <yago>http://yago-knowledge.org/resource/Huntsville,_Alabama</yago>
+                <geonames>http://sws.geonames.org/4068590/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.296696</relevance>
+            <count>3</count>
+            <text>Environmental Protection Agency</text>
+            <disambiguated>
+                <name>United States Environmental Protection Agency</name>
+                <website>http://www.epa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Environmental_Protection_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g0lh</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Environmental_Protection_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.295385</relevance>
+            <count>2</count>
+            <text>Sikorsky Aircraft</text>
+            <disambiguated>
+                <name>Sikorsky Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.sikorsky.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Sikorsky_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01ncxn</freebase>
+                <yago>http://yago-knowledge.org/resource/Sikorsky_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.286028</relevance>
+            <count>3</count>
+            <text>LeRC</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.285588</relevance>
+            <count>3</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.284431</relevance>
+            <count>2</count>
+            <text>Massachusetts Institute of Technology</text>
+            <disambiguated>
+                <name>Massachusetts Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>PeriodicalPublisher</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>JobTitle</subType>
+                <subType>University</subType>
+                <geo>42.35982 -71.09211</geo>
+                <website>http://web.mit.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Massachusetts_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04rwx</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjBwZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Massachusetts_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/4943351/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.282567</relevance>
+            <count>1</count>
+            <text>United Aircraft Corp</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.281533</relevance>
+            <count>3</count>
+            <text>Alabama</text>
+            <disambiguated>
+                <name>Alabama</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>33.0 -86.66666666666667</geo>
+                <website>http://www.alabama.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alabama</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gyh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAzpwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al</census>
+                <yago>http://yago-knowledge.org/resource/Alabama</yago>
+                <geonames>http://sws.geonames.org/4829764/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.279943</relevance>
+            <count>1</count>
+            <text>Solar Observatory Marshall Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.278969</relevance>
+            <count>3</count>
+            <text>Wallops Station</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.278409</relevance>
+            <count>1</count>
+            <text>Justice Dept</text>
+            <disambiguated>
+                <name>United States Department of Justice</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.usdoj.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Justice</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dtj5</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Justice</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.277702</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.276445</relevance>
+            <count>1</count>
+            <text>Goddard Space Flight Center</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.250666</relevance>
+            <relevance>0.275745</relevance>
             <count>6</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -262,146 +523,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.25001</relevance>
+            <type>City</type>
+            <relevance>0.273784</relevance>
             <count>3</count>
-            <text>Boeing Co.</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.249334</relevance>
-            <count>1</count>
-            <text>NASA Office of Aeronautics and Space Technology</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.248101</relevance>
-            <count>2</count>
-            <text>Global Atmospheric Research</text>
+            <text>San Diego</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.247846</relevance>
-            <count>4</count>
-            <text>frc</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.247665</relevance>
-            <count>6</count>
-            <text>Marshall Star</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.246183</relevance>
-            <count>3</count>
-            <text>LeRC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.245762</relevance>
-            <count>2</count>
-            <text>Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244481</relevance>
-            <count>3</count>
-            <text>National Research Council</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.244268</relevance>
-            <count>6</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243531</relevance>
-            <count>3</count>
-            <text>Environmental Protection Agency</text>
-            <disambiguated>
-                <name>United States Environmental Protection Agency</name>
-                <website>http://www.epa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Environmental_Protection_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g0lh</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Environmental_Protection_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.232457</relevance>
-            <count>3</count>
-            <text>Director</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.230576</relevance>
-            <count>2</count>
-            <text>Space Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230198</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.229421</relevance>
-            <count>1</count>
-            <text>Research Assistant to Director of Ames Research Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.228131</relevance>
-            <count>3</count>
-            <text>Wallops Station</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.223578</relevance>
-            <count>1</count>
-            <text>NASA Office of Space Science</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.223046</relevance>
-            <count>2</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Corporation</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.221346</relevance>
+            <relevance>0.273111</relevance>
             <count>3</count>
             <text>MSFC</text>
             <disambiguated>
@@ -415,120 +544,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.221022</relevance>
-            <count>4</count>
-            <text>Arizona</text>
-            <disambiguated>
-                <name>Arizona</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>34.0 -112.0</geo>
-                <website>http://www.az.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0vmt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMapwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az</census>
-                <yago>http://yago-knowledge.org/resource/Arizona</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.217123</relevance>
-            <count>2</count>
-            <text>Massachusetts Institute of Technology</text>
-            <disambiguated>
-                <name>Massachusetts Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>PeriodicalPublisher</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>JobTitle</subType>
-                <subType>University</subType>
-                <geo>42.35982 -71.09211</geo>
-                <website>http://web.mit.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Massachusetts_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04rwx</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjBwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Massachusetts_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/4943351/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.216491</relevance>
-            <count>1</count>
-            <text>Marshall Space Flight Center Astrionics Laboratory</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.214268</relevance>
+            <relevance>0.272259</relevance>
             <count>2</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.2138</relevance>
-            <count>3</count>
-            <text>Dr. Philip Handler</text>
-            <disambiguated>
-                <name>Philip Handler</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Philip_Handler</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02r1_z8</freebase>
-                <yago>http://yago-knowledge.org/resource/Philip_Handler</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.213334</relevance>
-            <count>1</count>
-            <text>Goddard Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.212296</relevance>
-            <count>2</count>
-            <text>developer</text>
+            <text>Global Atmospheric Research</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.211526</relevance>
+            <relevance>0.268691</relevance>
             <count>1</count>
-            <text>Southwest Research Institute</text>
-            <disambiguated>
-                <name>Southwest Research Institute</name>
-                <geo>29.4438 -98.613</geo>
-                <dbpedia>http://dbpedia.org/resource/Southwest_Research_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05yc8_</freebase>
-                <yago>http://yago-knowledge.org/resource/Southwest_Research_Institute</yago>
-            </disambiguated>
+            <text>Utility Tactical Transport Aircraft System</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.211482</relevance>
+            <type>Organization</type>
+            <relevance>0.267254</relevance>
             <count>3</count>
-            <text>Jr.</text>
+            <text>DOD</text>
         </entity>
     </entities>
 </results>

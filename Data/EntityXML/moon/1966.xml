@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.851975</relevance>
-            <count>47</count>
+            <relevance>0.902694</relevance>
+            <count>48</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,20 +29,20 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.692034</relevance>
+            <relevance>0.735107</relevance>
             <count>22</count>
             <text>Apollo</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.689433</relevance>
+            <relevance>0.730137</relevance>
             <count>18</count>
             <text>Spacecraft</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.660957</relevance>
-            <count>25</count>
+            <relevance>0.660115</relevance>
+            <count>26</count>
             <text>New York Times</text>
             <disambiguated>
                 <name>The New York Times</name>
@@ -59,8 +59,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.647968</relevance>
+            <count>21</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.633746</relevance>
+            <relevance>0.624565</relevance>
             <count>17</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -75,14 +81,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.599727</relevance>
-            <count>21</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.553361</relevance>
+            <relevance>0.555719</relevance>
             <count>16</count>
             <text>United States</text>
             <disambiguated>
@@ -102,49 +102,65 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.474103</relevance>
+            <relevance>0.484989</relevance>
             <count>5</count>
             <text>Apollo Spacecraft</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.432692</relevance>
-            <count>5</count>
-            <text>Apollo Applications</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.427175</relevance>
+            <relevance>0.433553</relevance>
             <count>6</count>
             <text>President Johnson</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.424644</relevance>
+            <relevance>0.41898</relevance>
             <count>10</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.376021</relevance>
-            <count>4</count>
-            <text>NYT</text>
+            <relevance>0.379537</relevance>
+            <count>5</count>
+            <text>Apollo Applications</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.355471</relevance>
+            <count>3</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.354703</relevance>
+            <relevance>0.352365</relevance>
             <count>4</count>
             <text>Balt</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.326911</relevance>
+            <type>Person</type>
+            <relevance>0.339607</relevance>
             <count>4</count>
-            <text>director</text>
+            <text>Walter Sullivan</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.324574</relevance>
+            <relevance>0.316196</relevance>
             <count>4</count>
             <text>Jodrell Bank Experimental Station</text>
             <disambiguated>
@@ -159,8 +175,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.313655</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.320421</relevance>
+            <relevance>0.313492</relevance>
             <count>6</count>
             <text>Sir Bernard Lovell</text>
             <disambiguated>
@@ -173,14 +195,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.318651</relevance>
-            <count>4</count>
-            <text>Lem</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.311679</relevance>
+            <relevance>0.303788</relevance>
             <count>3</count>
             <text>ksc</text>
             <disambiguated>
@@ -197,44 +213,198 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.30115</relevance>
+            <count>3</count>
+            <text>engineer</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.29661</relevance>
+            <count>4</count>
+            <text>nuclear power</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.311503</relevance>
+            <relevance>0.294118</relevance>
             <count>3</count>
             <text>msc</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.31127</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.299421</relevance>
-            <count>3</count>
-            <text>Pravda</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.29917</relevance>
-            <count>4</count>
-            <text>Walter Sullivan</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294039</relevance>
+            <relevance>0.293214</relevance>
             <count>3</count>
             <text>Pres. Doc.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.284076</relevance>
+            <relevance>0.2901</relevance>
             <count>2</count>
             <text>Lunar Orbiters</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.287404</relevance>
+            <count>3</count>
+            <text>Pravda</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.286997</relevance>
+            <count>2</count>
+            <text>nasa Ann.</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.286807</relevance>
+            <count>1</count>
+            <text>nasa&#x2019;s Lunar Orbiter</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.286676</relevance>
+            <count>4</count>
+            <text>Lem</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.28529</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.280556</relevance>
+            <count>4</count>
+            <text>Chairman Dr. Glenn T. Seaborg</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.279095</relevance>
+            <count>4</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.277706</relevance>
+            <count>1</count>
+            <text>NASA Deputy Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.276059</relevance>
+            <count>2</count>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.271622</relevance>
+            <count>5</count>
+            <text>Mstislav Keldysh</text>
+            <disambiguated>
+                <name>Mstislav Keldysh</name>
+                <subType>Inventor</subType>
+                <dbpedia>http://dbpedia.org/resource/Mstislav_Keldysh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.081lm5</freebase>
+                <yago>http://yago-knowledge.org/resource/Mstislav_Keldysh</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.278761</relevance>
+            <relevance>0.270262</relevance>
+            <count>4</count>
+            <text>U.N.</text>
+            <disambiguated>
+                <name>U.N. (group)</name>
+                <dbpedia>http://dbpedia.org/resource/U.N._(group)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gn3c5</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.267162</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.266945</relevance>
+            <count>1</count>
+            <text>U.N. Outer Space Legal Subcommittee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.26584</relevance>
+            <count>1</count>
+            <text>Soviet Academy of Sciences</text>
+            <disambiguated>
+                <name>Russian Academy of Sciences</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>55.710794444444446 37.57781388888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.265619</relevance>
+            <count>3</count>
+            <text>Seattle Times</text>
+            <disambiguated>
+                <name>The Seattle Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>Newspaper</subType>
+                <website>http://seattletimes.nwsource.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Seattle_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027w30</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Seattle_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.264813</relevance>
+            <count>1</count>
+            <text>AEC</text>
+            <disambiguated>
+                <name>United States Atomic Energy Commission</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Atomic_Energy_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmm_</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Atomic_Energy_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.262979</relevance>
+            <count>2</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.261</relevance>
             <count>2</count>
             <text>U.N. General Assembly</text>
             <disambiguated>
@@ -247,25 +417,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.276967</relevance>
-            <count>8</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.275947</relevance>
-            <count>1</count>
-            <text>nasa&#x2019;s Lunar Orbiter</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.275851</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.275018</relevance>
+            <relevance>0.260285</relevance>
             <count>2</count>
             <text>Johnson Administration</text>
             <disambiguated>
@@ -291,8 +443,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.260176</relevance>
+            <count>2</count>
+            <text>nuclear energy</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.27165</relevance>
+            <relevance>0.259157</relevance>
             <count>2</count>
             <text>Arthur J. Goldberg</text>
             <disambiguated>
@@ -305,143 +463,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.26885</relevance>
-            <count>4</count>
-            <text>nuclear power</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.26848</relevance>
-            <count>3</count>
-            <text>Seattle Times</text>
-            <disambiguated>
-                <name>The Seattle Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>Newspaper</subType>
-                <website>http://seattletimes.nwsource.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Seattle_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027w30</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Seattle_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.268039</relevance>
-            <count>1</count>
-            <text>NASA Deputy Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.266793</relevance>
-            <count>2</count>
-            <text>Los Angeles</text>
-            <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.265845</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.263099</relevance>
-            <count>4</count>
-            <text>Chairman Dr. Glenn T. Seaborg</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.262388</relevance>
-            <count>2</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.261776</relevance>
-            <count>1</count>
-            <text>LUNA xm</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.256462</relevance>
-            <count>2</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.255262</relevance>
-            <count>1</count>
-            <text>lunar mission</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.254687</relevance>
-            <count>2</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.254261</relevance>
+            <relevance>0.259132</relevance>
             <count>2</count>
             <text>U.K.</text>
             <disambiguated>
@@ -461,105 +484,62 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.252707</relevance>
-            <count>1</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.252413</relevance>
+            <type>City</type>
+            <relevance>0.258698</relevance>
             <count>2</count>
-            <text>Calif.</text>
+            <text>Los Angeles</text>
             <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
+                <name>Los Angeles</name>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.252067</relevance>
-            <count>1</count>
-            <text>Arnold Engineering Development Center</text>
-            <disambiguated>
-                <name>Arnold Engineering Development Center</name>
-                <subType>Location</subType>
-                <subType>MilitaryUnit</subType>
-                <website>http://www.arnold.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Arnold_Engineering_Development_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04b9k7</freebase>
-                <yago>http://yago-knowledge.org/resource/Arnold_Engineering_Development_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251945</relevance>
-            <count>3</count>
-            <text>U.N.</text>
-            <disambiguated>
-                <name>United Nations</name>
-                <subType>MembershipOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>TouristAttraction</subType>
-                <website>http://www.un.org/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t65</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkMNpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Nations</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.250647</relevance>
-            <count>1</count>
-            <text>Bendix Corp.</text>
-            <disambiguated>
-                <name>Bendix Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/Bendix_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04wvy1</freebase>
-                <yago>http://yago-knowledge.org/resource/Bendix_Corporation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.249789</relevance>
-            <count>1</count>
-            <text>fiscal year</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.249332</relevance>
-            <count>1</count>
-            <text>Subrahmanyan Chandrasekhar</text>
+            <relevance>0.255819</relevance>
+            <count>2</count>
+            <text>Alexander Vinogradov</text>
             <disambiguated>
-                <name>Subrahmanyan Chandrasekhar</name>
-                <subType>Academic</subType>
-                <subType>Astronomer</subType>
-                <subType>AwardWinner</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Subrahmanyan_Chandrasekhar</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.012g8l</freebase>
-                <yago>http://yago-knowledge.org/resource/Subrahmanyan_Chandrasekhar</yago>
+                <name>Alexander Vinogradov</name>
+                <dbpedia>http://dbpedia.org/resource/Alexander_Vinogradov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04_1l46</freebase>
+                <yago>http://yago-knowledge.org/resource/Alexander_Vinogradov</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.249105</relevance>
+            <type>JobTitle</type>
+            <relevance>0.253995</relevance>
+            <count>2</count>
+            <text>professor</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.252662</relevance>
             <count>1</count>
-            <text>Project Apollo communications</text>
+            <text>clean room</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.251272</relevance>
+            <count>1</count>
+            <text>Joshua Lederberg</text>
+            <disambiguated>
+                <name>Joshua Lederberg</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Joshua_Lederberg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02h68m</freebase>
+                <yago>http://yago-knowledge.org/resource/Joshua_Lederberg</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

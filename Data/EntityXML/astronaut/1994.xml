@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.797125</relevance>
+            <relevance>0.865128</relevance>
             <count>14</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,10 +28,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.219786</relevance>
+            <type>Facility</type>
+            <relevance>0.32482</relevance>
             <count>2</count>
-            <text>Thomas D. Jones</text>
+            <text>Proton Treatment Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.249279</relevance>
+            <count>2</count>
+            <text>Astronaut Tom Jones</text>
             <disambiguated>
                 <name>Thomas David Jones</name>
                 <subType>Astronaut</subType>
@@ -42,25 +48,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.210767</relevance>
-            <count>2</count>
-            <text>Japan</text>
-            <disambiguated>
-                <name>Japan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MilitaryPost</subType>
-                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
-                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.204049</relevance>
+            <relevance>0.228236</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -80,7 +68,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.198801</relevance>
+            <relevance>0.227901</relevance>
             <count>1</count>
             <text>Atomic Energy Commission</text>
             <disambiguated>
@@ -92,35 +80,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.198236</relevance>
-            <count>2</count>
-            <text>Proton Treatment Center</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.197113</relevance>
+            <type>Organization</type>
+            <relevance>0.227624</relevance>
             <count>1</count>
-            <text>Deputy Commandant of Midshipmen</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.193296</relevance>
-            <count>1</count>
-            <text>Colorado Springs</text>
+            <text>Loma Linda University</text>
             <disambiguated>
-                <name>Colorado Springs, Colorado</name>
-                <website>http://www.springsgov.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Colorado_Springs,_Colorado</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vsl</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/co/counties/el_paso_county/colorado_springs</census>
-                <yago>http://yago-knowledge.org/resource/Colorado_Springs,_Colorado</yago>
-                <geonames>http://sws.geonames.org/5417598/</geonames>
+                <name>Loma Linda University</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.053 -117.261</geo>
+                <website>http://www.llu.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Loma_Linda_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.056gv2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvWcBn5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Loma_Linda_University</yago>
+                <geonames>http://sws.geonames.org/5367703/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.219988</relevance>
+            <count>2</count>
+            <text>Endeavour</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.192599</relevance>
+            <relevance>0.219672</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -139,67 +125,41 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.191318</relevance>
+            <relevance>0.218636</relevance>
             <count>1</count>
             <text>Lieutenant Colonel Tom Akers</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.185773</relevance>
-            <count>2</count>
-            <text>Endeavour</text>
+            <type>JobTitle</type>
+            <relevance>0.217532</relevance>
+            <count>1</count>
+            <text>Deputy Commandant of Midshipmen</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.185479</relevance>
+            <relevance>0.216108</relevance>
             <count>1</count>
-            <text>Florida</text>
+            <text>California</text>
             <disambiguated>
-                <name>Florida</name>
+                <name>California</name>
                 <subType>Location</subType>
                 <subType>PoliticalDistrict</subType>
                 <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
                 <subType>GovernmentalJurisdiction</subType>
                 <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.184303</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.182494</relevance>
-            <count>1</count>
-            <text>New Orleans</text>
-            <disambiguated>
-                <name>New Orleans</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>29.96472222222222 -90.07055555555556</geo>
-                <website>http://www.cityofno.com</website>
-                <dbpedia>http://dbpedia.org/resource/New_Orleans</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2tj</freebase>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.181769</relevance>
+            <relevance>0.208003</relevance>
             <count>1</count>
             <text>Chiaki Mukai</text>
             <disambiguated>
@@ -211,44 +171,59 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.18153</relevance>
-            <count>1</count>
-            <text>Fort Lauderdale</text>
+            <type>Country</type>
+            <relevance>0.206174</relevance>
+            <count>2</count>
+            <text>Japan</text>
             <disambiguated>
-                <name>Fort Lauderdale, Florida</name>
-                <subType>Facility</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>26.135833333333334 -80.14194444444445</geo>
-                <website>http://www.fortlauderdale.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Fort_Lauderdale,_Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rj0z</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/fl/counties/broward_county/fort_lauderdale</census>
-                <yago>http://yago-knowledge.org/resource/Fort_Lauderdale,_Florida</yago>
-                <geonames>http://sws.geonames.org/4155966/</geonames>
+                <name>Japan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MilitaryPost</subType>
+                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
+                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.181316</relevance>
+            <relevance>0.206011</relevance>
             <count>1</count>
             <text>Flight Crew Operations</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.181283</relevance>
+            <relevance>0.205977</relevance>
             <count>1</count>
             <text>Deputy Director</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.178927</relevance>
+            <relevance>0.204709</relevance>
             <count>1</count>
             <text>International Microgravity Laboratory Project</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.202951</relevance>
+            <count>1</count>
+            <text>Colorado Springs</text>
+            <disambiguated>
+                <name>Colorado Springs, Colorado</name>
+                <website>http://www.springsgov.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Colorado_Springs,_Colorado</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vsl</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/co/counties/el_paso_county/colorado_springs</census>
+                <yago>http://yago-knowledge.org/resource/Colorado_Springs,_Colorado</yago>
+                <geonames>http://sws.geonames.org/5417598/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.174619</relevance>
+            <relevance>0.199924</relevance>
             <count>2</count>
             <text>Arkansas</text>
             <disambiguated>
@@ -269,13 +244,27 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.17445</relevance>
+            <relevance>0.198453</relevance>
             <count>1</count>
             <text>Steve Holly</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.196385</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.171038</relevance>
+            <relevance>0.195868</relevance>
             <count>1</count>
             <text>Spokane</text>
             <disambiguated>
@@ -290,7 +279,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.170579</relevance>
+            <relevance>0.195328</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -308,26 +297,54 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.194695</relevance>
+            <count>1</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.167594</relevance>
+            <relevance>0.191613</relevance>
             <count>1</count>
             <text>Japanese Prime Minister</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.167466</relevance>
+            <relevance>0.191486</relevance>
             <count>1</count>
             <text>spaceflights</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.167086</relevance>
+            <type>City</type>
+            <relevance>0.19071</relevance>
             <count>1</count>
-            <text>Charles F. Bolden Jr.</text>
+            <text>New Orleans</text>
+            <disambiguated>
+                <name>New Orleans</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>29.96472222222222 -90.07055555555556</geo>
+                <website>http://www.cityofno.com</website>
+                <dbpedia>http://dbpedia.org/resource/New_Orleans</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2tj</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.166446</relevance>
+            <relevance>0.190596</relevance>
             <count>1</count>
             <text>Oregon</text>
             <disambiguated>
@@ -349,98 +366,81 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.165511</relevance>
+            <relevance>0.189033</relevance>
             <count>1</count>
             <text>Space Activities Commission</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.188755</relevance>
+            <count>1</count>
+            <text>Fort Lauderdale</text>
+            <disambiguated>
+                <name>Fort Lauderdale, Florida</name>
+                <subType>Facility</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>26.135833333333334 -80.14194444444445</geo>
+                <website>http://www.fortlauderdale.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Fort_Lauderdale,_Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rj0z</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/fl/counties/broward_county/fort_lauderdale</census>
+                <yago>http://yago-knowledge.org/resource/Fort_Lauderdale,_Florida</yago>
+                <geonames>http://sws.geonames.org/4155966/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.16474</relevance>
+            <relevance>0.188357</relevance>
             <count>1</count>
             <text>USA Today</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.163918</relevance>
+            <relevance>0.187216</relevance>
             <count>1</count>
             <text>Tustomu Hata</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.15925</relevance>
+            <type>Person</type>
+            <relevance>0.184426</relevance>
             <count>1</count>
-            <text>Marine Corps</text>
+            <text>Charles F. Bolden Jr.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.159229</relevance>
+            <relevance>0.182011</relevance>
             <count>1</count>
             <text>Advisory Committee</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.156162</relevance>
+            <relevance>0.178508</relevance>
             <count>1</count>
             <text>Washington</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.154961</relevance>
+            <relevance>0.175754</relevance>
             <count>1</count>
-            <text>Loma Linda University</text>
-            <disambiguated>
-                <name>Loma Linda University</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.053 -117.261</geo>
-                <website>http://www.llu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Loma_Linda_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.056gv2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWcBn5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Loma_Linda_University</yago>
-                <geonames>http://sws.geonames.org/5367703/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.150073</relevance>
-            <count>1</count>
-            <text>California</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
+            <text>Marine Corps</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.149533</relevance>
+            <relevance>0.170775</relevance>
             <count>1</count>
             <text>researcher</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.148439</relevance>
+            <relevance>0.166907</relevance>
             <count>1</count>
-            <text>Naval Academy.</text>
+            <text>Aerospace Education Center.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.14622</relevance>
+            <relevance>0.163335</relevance>
             <count>1</count>
-            <text>Aerospace Education Center.</text>
+            <text>Naval Academy.</text>
         </entity>
     </entities>
 </results>

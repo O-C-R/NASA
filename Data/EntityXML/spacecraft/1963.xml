@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.867598</relevance>
+            <relevance>0.842771</relevance>
             <count>6</count>
             <text>nasa</text>
             <disambiguated>
@@ -29,19 +29,31 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.635338</relevance>
+            <relevance>0.679369</relevance>
             <count>2</count>
             <text>nasa Manned Spacecraft Center</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.568196</relevance>
+            <count>1</count>
+            <text>Space Co.</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.602378</relevance>
+            <relevance>0.527882</relevance>
+            <count>1</count>
+            <text>Space Technology Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.517906</relevance>
             <count>1</count>
             <text>Senate Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.500447</relevance>
+            <relevance>0.460139</relevance>
             <count>3</count>
             <text>Defense Department</text>
             <disambiguated>
@@ -58,20 +70,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.491999</relevance>
-            <count>1</count>
-            <text>Space Technology Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.474279</relevance>
-            <count>1</count>
-            <text>Space Co.</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.439631</relevance>
+            <relevance>0.452974</relevance>
             <count>2</count>
             <text>NYT</text>
             <disambiguated>
@@ -89,8 +89,21 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.448535</relevance>
+            <count>2</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Corporation</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.437495</relevance>
+            <relevance>0.444622</relevance>
             <count>2</count>
             <text>usaf</text>
             <disambiguated>
@@ -107,7 +120,18 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.409022</relevance>
+            <relevance>0.441479</relevance>
+            <count>2</count>
+            <text>Georg von Tiesenhausen</text>
+            <disambiguated>
+                <name>Georg von Tiesenhausen</name>
+                <dbpedia>http://dbpedia.org/resource/Georg_von_Tiesenhausen</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05s_zlg</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.420413</relevance>
             <count>2</count>
             <text>Dr. James E. Roberts</text>
             <disambiguated>
@@ -117,22 +141,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.401141</relevance>
-            <count>2</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Martin Space Systems</name>
-                <subType>CompanyDivision</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
-                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.396725</relevance>
+            <relevance>0.401073</relevance>
             <count>2</count>
             <text>L.A</text>
             <disambiguated>
@@ -149,81 +159,36 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.380468</relevance>
-            <count>2</count>
-            <text>Georg von Tiesenhausen</text>
+            <type>PrintMedia</type>
+            <relevance>0.383012</relevance>
+            <count>1</count>
+            <text>Houston Chronicle</text>
             <disambiguated>
-                <name>Georg von Tiesenhausen</name>
-                <dbpedia>http://dbpedia.org/resource/Georg_von_Tiesenhausen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05s_zlg</freebase>
+                <name>Houston Chronicle</name>
+                <subType>Newspaper</subType>
+                <website>http://chron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.37147</relevance>
+            <type>Organization</type>
+            <relevance>0.378175</relevance>
             <count>1</count>
-            <text>Brockway McMillan</text>
+            <text>Lockheed</text>
             <disambiguated>
-                <name>Brockway McMillan</name>
-                <dbpedia>http://dbpedia.org/resource/Brockway_McMillan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07s6ys6</freebase>
+                <name>Lockheed Corporation</name>
+                <subType>Company</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.355599</relevance>
-            <count>1</count>
-            <text>Sen. Clinton P. Anderson</text>
-            <disambiguated>
-                <name>Clinton Presba Anderson</name>
-                <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Clinton_Presba_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pjjl</freebase>
-                <yago>http://yago-knowledge.org/resource/Clinton_Presba_Anderson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.35054</relevance>
-            <count>1</count>
-            <text>Under Secretary</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.349496</relevance>
-            <count>1</count>
-            <text>Gemini</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.346459</relevance>
-            <count>1</count>
-            <text>usaf</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.336267</relevance>
-            <count>1</count>
-            <text>Lockheed Co</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.32741</relevance>
-            <count>1</count>
-            <text>Douglas Aircraft Missiles</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.325914</relevance>
-            <count>1</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.325737</relevance>
+            <relevance>0.351661</relevance>
             <count>2</count>
             <text>General Electric Co.</text>
             <disambiguated>
@@ -237,8 +202,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.346077</relevance>
+            <count>1</count>
+            <text>U.S. Patent Office</text>
+            <disambiguated>
+                <name>United States Patent and Trademark Office</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.uspto.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Patent_and_Trademark_Office</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fzds</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.339232</relevance>
+            <count>1</count>
+            <text>Lockheed Co</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.333267</relevance>
+            <count>1</count>
+            <text>Mark II</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.323111</relevance>
+            <relevance>0.332932</relevance>
+            <count>1</count>
+            <text>msc</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.332347</relevance>
             <count>1</count>
             <text>Saturn</text>
             <disambiguated>
@@ -252,54 +248,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.321705</relevance>
+            <type>City</type>
+            <relevance>0.331246</relevance>
             <count>1</count>
-            <text>Mark II</text>
+            <text>Boston</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.321217</relevance>
+            <type>Company</type>
+            <relevance>0.330309</relevance>
             <count>1</count>
-            <text>Douglas Aircraft Co</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.319445</relevance>
-            <count>1</count>
-            <text>Houston Chronicle</text>
-            <disambiguated>
-                <name>Houston Chronicle</name>
-                <subType>Newspaper</subType>
-                <website>http://chron.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
-            </disambiguated>
+            <text>Douglas Aircraft Missiles</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.316915</relevance>
+            <relevance>0.329181</relevance>
+            <count>1</count>
+            <text>S. B. Kramer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.32882</relevance>
             <count>1</count>
             <text>Mark I</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.315682</relevance>
+            <type>Facility</type>
+            <relevance>0.323927</relevance>
             <count>1</count>
-            <text>Lockheed</text>
+            <text>Douglas Aircraft Co</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.323277</relevance>
+            <count>1</count>
+            <text>Brockway McMillan</text>
             <disambiguated>
-                <name>Lockheed Martin Space Systems</name>
-                <subType>CompanyDivision</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
-                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
+                <name>Brockway McMillan</name>
+                <dbpedia>http://dbpedia.org/resource/Brockway_McMillan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07s6ys6</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.312833</relevance>
+            <relevance>0.315156</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -320,8 +311,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.314856</relevance>
+            <count>1</count>
+            <text>usaf</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.301773</relevance>
+            <relevance>0.310346</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -340,20 +337,41 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.309444</relevance>
+            <count>1</count>
+            <text>Sen. Clinton P. Anderson</text>
+            <disambiguated>
+                <name>Clinton Presba Anderson</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Clinton_Presba_Anderson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02pjjl</freebase>
+                <yago>http://yago-knowledge.org/resource/Clinton_Presba_Anderson</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.309101</relevance>
+            <count>1</count>
+            <text>E. H. Visscher</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.300206</relevance>
+            <relevance>0.302439</relevance>
             <count>1</count>
             <text>dod</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.297567</relevance>
+            <relevance>0.301917</relevance>
             <count>1</count>
-            <text>Daily</text>
+            <text>Gemini</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.291832</relevance>
+            <relevance>0.300477</relevance>
             <count>1</count>
             <text>New York</text>
             <disambiguated>
@@ -372,53 +390,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.291102</relevance>
-            <count>1</count>
-            <text>U.S. Patent Office</text>
-            <disambiguated>
-                <name>United States Patent and Trademark Office</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.uspto.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Patent_and_Trademark_Office</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fzds</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.291088</relevance>
-            <count>1</count>
-            <text>Boston</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.284097</relevance>
+            <relevance>0.294848</relevance>
             <count>1</count>
-            <text>msc</text>
+            <text>Daily</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.281917</relevance>
+            <relevance>0.292802</relevance>
             <count>1</count>
             <text>scientist</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.275475</relevance>
+            <type>JobTitle</type>
+            <relevance>0.289912</relevance>
             <count>1</count>
-            <text>S. B. Kramer</text>
+            <text>Under Secretary</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.280218</relevance>
+            <count>1</count>
+            <text>Chairman</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.270331</relevance>
+            <relevance>0.280002</relevance>
             <count>1</count>
             <text>Launch Operations Center</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.254335</relevance>
-            <count>1</count>
-            <text>E. H. Visscher</text>
         </entity>
     </entities>
 </results>

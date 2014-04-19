@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.944125</relevance>
+            <relevance>0.840083</relevance>
             <count>28</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,8 +29,8 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.442966</relevance>
-            <count>10</count>
+            <relevance>0.369346</relevance>
+            <count>15</count>
             <text>The Boeing Company</text>
             <disambiguated>
                 <name>Boeing</name>
@@ -47,56 +47,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.441165</relevance>
-            <count>5</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Spirit AeroSystems</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.spiritaero.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
-                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.366449</relevance>
-            <count>3</count>
-            <text>aerospace industry</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.337494</relevance>
-            <count>2</count>
-            <text>McDonnell Douglas Corporation</text>
-            <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.333266</relevance>
-            <count>3</count>
-            <text>McDonnell Douglas</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.317115</relevance>
+            <relevance>0.275472</relevance>
             <count>4</count>
             <text>Paul F. Holloway</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.306831</relevance>
+            <relevance>0.258775</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -118,7 +76,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.286771</relevance>
+            <relevance>0.252523</relevance>
             <count>2</count>
             <text>Langley Research Center</text>
             <disambiguated>
@@ -132,8 +90,97 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.243756</relevance>
+            <count>3</count>
+            <text>McDonnell Douglas</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.243547</relevance>
+            <count>2</count>
+            <text>McDonnell Douglas Corporation</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.239811</relevance>
+            <count>3</count>
+            <text>aerospace industry</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.229736</relevance>
+            <count>2</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.229267</relevance>
+            <count>2</count>
+            <text>U.S. Naval Research Laboratory</text>
+            <disambiguated>
+                <name>United States Naval Research Laboratory</name>
+                <subType>Location</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Naval_Research_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0255xh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rXU9SuozLQdiN9Lv0zFJaQA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Naval_Research_Laboratory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.225667</relevance>
+            <count>1</count>
+            <text>Spaceborne Imaging</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.223269</relevance>
+            <count>1</count>
+            <text>Comet Hyakutake</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.222552</relevance>
+            <count>1</count>
+            <text>LARC</text>
+            <disambiguated>
+                <name>London Action Resource Centre</name>
+                <subType>Location</subType>
+                <subType>Building</subType>
+                <geo>51.517 -0.064</geo>
+                <dbpedia>http://dbpedia.org/resource/London_Action_Resource_Centre</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gjrf</freebase>
+                <yago>http://yago-knowledge.org/resource/London_Action_Resource_Centre</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.282559</relevance>
+            <relevance>0.222496</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -152,27 +199,182 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.281436</relevance>
+            <type>Organization</type>
+            <relevance>0.220097</relevance>
             <count>2</count>
-            <text>New York Times</text>
+            <text>AXAF</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.216989</relevance>
+            <count>1</count>
+            <text>Langley Director Paul F. Holloway</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.216976</relevance>
+            <count>2</count>
+            <text>Adriana C. Ocampo</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.215886</relevance>
+            <count>4</count>
+            <text>THUNDER</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.212555</relevance>
+            <count>1</count>
+            <text>Chad</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Chadlington</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>EnglishCivilParish</subType>
+                <dbpedia>http://dbpedia.org/resource/Chadlington</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02y20w</freebase>
+                <yago>http://yago-knowledge.org/resource/Chadlington</yago>
+                <geonames>http://sws.geonames.org/2653411/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.280684</relevance>
+            <relevance>0.210891</relevance>
+            <count>1</count>
+            <text>Lunar and Planetary Science Conference</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.209676</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.209638</relevance>
+            <count>1</count>
+            <text>Hyakutake</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.202577</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.202125</relevance>
+            <count>2</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.20051</relevance>
+            <count>1</count>
+            <text>Malcolm W. Browne</text>
+            <disambiguated>
+                <name>Malcolm Browne</name>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Malcolm_Browne</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02x6h1t</freebase>
+                <yago>http://yago-knowledge.org/resource/Malcolm_Browne</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.19805</relevance>
+            <count>1</count>
+            <text>Center&#x2019;s Director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.197593</relevance>
+            <count>2</count>
+            <text>MSFC</text>
+            <disambiguated>
+                <name>Marshall Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
+                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.196665</relevance>
+            <count>1</count>
+            <text>geologist</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.196211</relevance>
+            <count>1</count>
+            <text>Langley</text>
+            <disambiguated>
+                <name>Langley, Virginia</name>
+                <dbpedia>http://dbpedia.org/resource/Langley,_Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04c20vk</freebase>
+                <yago>http://yago-knowledge.org/resource/Langley,_Virginia</yago>
+                <geonames>http://sws.geonames.org/4768583/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.19511</relevance>
+            <count>1</count>
+            <text>William Harwood</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.194186</relevance>
+            <count>1</count>
+            <text>Brazilian Space Agency</text>
+            <disambiguated>
+                <name>Brazilian Space Agency</name>
+                <subType>SpaceAgency</subType>
+                <geo>-2.3333333333333335 -44.4</geo>
+                <website>http://www.aeb.gov.br</website>
+                <dbpedia>http://dbpedia.org/resource/Brazilian_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01s90v</freebase>
+                <yago>http://yago-knowledge.org/resource/Brazilian_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.194012</relevance>
+            <count>2</count>
+            <text>Holloway</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.193305</relevance>
+            <count>1</count>
+            <text>Large Angle Spectrometric Coronagraph</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.193257</relevance>
             <count>2</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -189,93 +391,26 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.26819</relevance>
+            <relevance>0.19298</relevance>
             <count>1</count>
-            <text>Airbus Industrie</text>
+            <text>Rockwell</text>
             <disambiguated>
-                <name>Airbus</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.airbus.com</website>
-                <dbpedia>http://dbpedia.org/resource/Airbus</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.015zfz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rMWa14i9dQdiA35I-d_uJMg</opencyc>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.259953</relevance>
-            <count>1</count>
-            <text>LARC</text>
-            <disambiguated>
-                <name>London Action Resource Centre</name>
-                <subType>Location</subType>
-                <subType>Building</subType>
-                <geo>51.517 -0.064</geo>
-                <dbpedia>http://dbpedia.org/resource/London_Action_Resource_Centre</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gjrf</freebase>
-                <yago>http://yago-knowledge.org/resource/London_Action_Resource_Centre</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.252677</relevance>
-            <count>1</count>
-            <text>Largest Aerospace Company</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.252266</relevance>
+            <relevance>0.192847</relevance>
             <count>1</count>
-            <text>Langley Director Paul F. Holloway</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251903</relevance>
-            <count>2</count>
-            <text>U.S. Naval Research Laboratory</text>
-            <disambiguated>
-                <name>United States Naval Research Laboratory</name>
-                <subType>Location</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Naval_Research_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0255xh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rXU9SuozLQdiN9Lv0zFJaQA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Naval_Research_Laboratory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.247562</relevance>
-            <count>2</count>
-            <text>MSFC</text>
-            <disambiguated>
-                <name>Marshall Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244343</relevance>
-            <count>1</count>
-            <text>Brazilian Space Agency</text>
-            <disambiguated>
-                <name>Brazilian Space Agency</name>
-                <subType>SpaceAgency</subType>
-                <geo>-2.3333333333333335 -44.4</geo>
-                <website>http://www.aeb.gov.br</website>
-                <dbpedia>http://dbpedia.org/resource/Brazilian_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01s90v</freebase>
-                <yago>http://yago-knowledge.org/resource/Brazilian_Space_Agency</yago>
-            </disambiguated>
+            <text>Gustaf Arrhenius</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.242266</relevance>
+            <relevance>0.192567</relevance>
             <count>1</count>
             <text>South Atlantic Ocean</text>
             <disambiguated>
@@ -288,20 +423,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.241011</relevance>
+            <type>Degree</type>
+            <relevance>0.192274</relevance>
             <count>1</count>
-            <text>Comet Hyakutake</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.240366</relevance>
-            <count>1</count>
-            <text>Spaceborne Imaging</text>
+            <text>Distinguished Service Medal</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.237974</relevance>
+            <relevance>0.189161</relevance>
             <count>1</count>
             <text>Journal of Geophysical Research</text>
             <disambiguated>
@@ -314,20 +443,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.237623</relevance>
+            <type>Degree</type>
+            <relevance>0.188822</relevance>
             <count>1</count>
-            <text>Europe</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.236628</relevance>
-            <count>2</count>
-            <text>USA Today</text>
+            <text>LARC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.236334</relevance>
+            <relevance>0.188651</relevance>
             <count>1</count>
             <text>National Transportation Safety Board</text>
             <disambiguated>
@@ -340,73 +463,61 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.236284</relevance>
+            <type>City</type>
+            <relevance>0.186828</relevance>
             <count>1</count>
-            <text>Washington Times</text>
+            <text>New York</text>
             <disambiguated>
-                <name>The Washington Times</name>
-                <subType>Company</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtontimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07qhs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r5oK-mhlAQdiYEfsxTW1S_Q</opencyc>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Times</yago>
+                <name>Manhattan</name>
+                <subType>GeographicFeature</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Island</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <geo>40.72833333333333 -73.99416666666667</geo>
+                <website>http://www.mbpo.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Manhattan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cc56</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvXXHUpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Manhattan</yago>
+                <geonames>http://sws.geonames.org/5125771/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.23523</relevance>
+            <relevance>0.186628</relevance>
             <count>1</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.234453</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.185676</relevance>
             <count>1</count>
-            <text>New York</text>
+            <text>Virginia</text>
             <disambiguated>
-                <name>New York City</name>
+                <name>Virginia</name>
+                <subType>Location</subType>
                 <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.234235</relevance>
+            <type>Person</type>
+            <relevance>0.185573</relevance>
             <count>1</count>
-            <text>Jets</text>
-            <disambiguated>
-                <name>Junior Engineering Technical Society</name>
-                <dbpedia>http://dbpedia.org/resource/Junior_Engineering_Technical_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm9356</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.233937</relevance>
-            <count>1</count>
-            <text>Rochester</text>
-            <disambiguated>
-                <name>Rochester, Ulster County, New York</name>
-                <dbpedia>http://dbpedia.org/resource/Rochester,_Ulster_County,_New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ybcb</freebase>
-                <yago>http://yago-knowledge.org/resource/Rochester,_Ulster_County,_New_York</yago>
-            </disambiguated>
+            <text>J. Mojzsis</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.232345</relevance>
+            <relevance>0.184779</relevance>
             <count>1</count>
             <text>South America</text>
             <disambiguated>
@@ -418,183 +529,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.231994</relevance>
-            <count>1</count>
-            <text>David E. Sanger</text>
-            <disambiguated>
-                <name>David E. Sanger</name>
-                <dbpedia>http://dbpedia.org/resource/David_E._Sanger</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bbbc6</freebase>
-                <yago>http://yago-knowledge.org/resource/David_E._Sanger</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.23168</relevance>
-            <count>1</count>
-            <text>Peter Kaplan</text>
-            <disambiguated>
-                <name>Peter Kaplan</name>
-                <dbpedia>http://dbpedia.org/resource/Peter_Kaplan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f3bw7</freebase>
-                <yago>http://yago-knowledge.org/resource/Peter_Kaplan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.231149</relevance>
-            <count>1</count>
-            <text>Center&#x2019;s Director</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.230893</relevance>
-            <count>1</count>
-            <text>New York</text>
-            <disambiguated>
-                <name>New York</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>43.0 -75.0</geo>
-                <website>http://www.ny.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
-                <yago>http://yago-knowledge.org/resource/New_York</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.229456</relevance>
-            <count>2</count>
-            <text>Adriana C. Ocampo</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.228793</relevance>
-            <count>1</count>
-            <text>Langley</text>
-            <disambiguated>
-                <name>Langley, Virginia</name>
-                <dbpedia>http://dbpedia.org/resource/Langley,_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04c20vk</freebase>
-                <yago>http://yago-knowledge.org/resource/Langley,_Virginia</yago>
-                <geonames>http://sws.geonames.org/4768583/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.228012</relevance>
-            <count>1</count>
-            <text>Hyakutake</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.22709</relevance>
-            <count>1</count>
-            <text>Long Island</text>
-            <disambiguated>
-                <name>Long Island</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Island</subType>
-                <geo>40.8 -73.3</geo>
-                <dbpedia>http://dbpedia.org/resource/Long_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04n3l</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvps-EZwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.22621</relevance>
-            <count>2</count>
-            <text>AXAF</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.226076</relevance>
-            <count>1</count>
-            <text>Chad</text>
-            <disambiguated>
-                <name>Chadlington</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>EnglishCivilParish</subType>
-                <dbpedia>http://dbpedia.org/resource/Chadlington</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02y20w</freebase>
-                <yago>http://yago-knowledge.org/resource/Chadlington</yago>
-                <geonames>http://sws.geonames.org/2653411/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.225539</relevance>
-            <count>2</count>
-            <text>Holloway</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.223861</relevance>
-            <count>1</count>
-            <text>Malcolm W. Browne</text>
-            <disambiguated>
-                <name>Malcolm Browne</name>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Malcolm_Browne</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02x6h1t</freebase>
-                <yago>http://yago-knowledge.org/resource/Malcolm_Browne</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.223806</relevance>
-            <count>1</count>
-            <text>Distinguished Service Medal</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.22369</relevance>
-            <count>1</count>
-            <text>LARC</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.223152</relevance>
-            <count>1</count>
-            <text>Lunar and Planetary Science Conference</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.222945</relevance>
+            <relevance>0.183839</relevance>
             <count>1</count>
             <text>Rockwell International&#x2019;s Aerospace Holdings</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.222634</relevance>
+            <type>Company</type>
+            <relevance>0.183118</relevance>
             <count>1</count>
-            <text>Washington Post</text>
+            <text>Largest Aerospace Company</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.183094</relevance>
+            <count>1</count>
+            <text>Rochester</text>
             <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <name>Rochester, Ulster County, New York</name>
+                <dbpedia>http://dbpedia.org/resource/Rochester,_Ulster_County,_New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ybcb</freebase>
+                <yago>http://yago-knowledge.org/resource/Rochester,_Ulster_County,_New_York</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.222006</relevance>
+            <relevance>0.182613</relevance>
             <count>1</count>
-            <text>TWA Probe</text>
+            <text>Airbus Industrie</text>
+            <disambiguated>
+                <name>Airbus</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.airbus.com</website>
+                <dbpedia>http://dbpedia.org/resource/Airbus</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015zfz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rMWa14i9dQdiA35I-d_uJMg</opencyc>
+            </disambiguated>
         </entity>
     </entities>
 </results>

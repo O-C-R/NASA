@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.816411</relevance>
+            <relevance>0.780971</relevance>
             <count>21</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,26 +28,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.439918</relevance>
-            <count>1</count>
-            <text>Edwards Rocket Test Center</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.416971</relevance>
+            <relevance>0.557416</relevance>
             <count>1</count>
             <text>National Nuclear Rocket Development Center</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.364133</relevance>
-            <count>4</count>
-            <text>Wallops Station</text>
+            <relevance>0.475796</relevance>
+            <count>1</count>
+            <text>Edwards Rocket Test Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.357607</relevance>
+            <relevance>0.414164</relevance>
             <count>5</count>
             <text>USAF</text>
             <disambiguated>
@@ -63,20 +57,53 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.325939</relevance>
+            <type>Facility</type>
+            <relevance>0.37787</relevance>
             <count>4</count>
-            <text>Calif</text>
+            <text>Wallops Station</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.365829</relevance>
+            <count>3</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.309932</relevance>
-            <count>4</count>
-            <text>Army</text>
+            <relevance>0.362475</relevance>
+            <count>3</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.336274</relevance>
+            <count>3</count>
+            <text>Calif</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.295169</relevance>
+            <relevance>0.319481</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -95,76 +122,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.266049</relevance>
-            <count>2</count>
-            <text>Atlantic Missile Range</text>
+            <type>Organization</type>
+            <relevance>0.319396</relevance>
+            <count>4</count>
+            <text>Army</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.265721</relevance>
+            <relevance>0.316854</relevance>
             <count>3</count>
             <text>United Technology Corp.</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.25141</relevance>
-            <count>3</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.243097</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.241847</relevance>
-            <count>3</count>
-            <text>The Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.238137</relevance>
-            <count>2</count>
-            <text>Wallops Island</text>
-            <disambiguated>
-                <name>Wallops Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>37.85 -75.46666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
-                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
-                <geonames>http://sws.geonames.org/4792009/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.236532</relevance>
-            <count>2</count>
+            <relevance>0.311316</relevance>
+            <count>3</count>
             <text>Calif.</text>
             <disambiguated>
                 <name>California</name>
@@ -184,27 +156,225 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.232193</relevance>
-            <count>1</count>
-            <text>Israel</text>
+            <type>City</type>
+            <relevance>0.295511</relevance>
+            <count>2</count>
+            <text>New Orleans</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.281992</relevance>
+            <count>2</count>
+            <text>Wallops Island</text>
             <disambiguated>
-                <name>Israel</name>
+                <name>Wallops Island</name>
                 <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmArtDirector</subType>
-                <geo>31.0 35.0</geo>
-                <website>http://www.knesset.gov.il/</website>
-                <dbpedia>http://dbpedia.org/resource/Israel</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Israel</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.062yqq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViP55wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Israel</yago>
+                <subType>Island</subType>
+                <geo>37.85 -75.46666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
+                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
+                <geonames>http://sws.geonames.org/4792009/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.274828</relevance>
+            <count>2</count>
+            <text>Sunnyvale</text>
+            <disambiguated>
+                <name>Sunnyvale, California</name>
+                <subType>AdministrativeDivision</subType>
+                <geo>37.368766666666666 -122.03705555555555</geo>
+                <website>http://www.sunnyvale.ca.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Sunnyvale,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r6ff</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/santa_clara_county/san_jose/sunnyvale</census>
+                <yago>http://yago-knowledge.org/resource/Sunnyvale,_California</yago>
+                <geonames>http://sws.geonames.org/5400075/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.272409</relevance>
+            <count>2</count>
+            <text>Martin Co.</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.263131</relevance>
+            <count>1</count>
+            <text>Italy</text>
+            <disambiguated>
+                <name>Italy</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>41.9 12.483333333333333</geo>
+                <website>http://www.italia.it/en/home.html</website>
+                <dbpedia>http://dbpedia.org/resource/Italy</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Italy</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03rjj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjMgZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Italy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.262768</relevance>
+            <count>2</count>
+            <text>Ira H. Abbott</text>
+            <disambiguated>
+                <name>Ira H. Abbott</name>
+                <dbpedia>http://dbpedia.org/resource/Ira_H._Abbott</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gvcwf</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.260509</relevance>
+            <count>1</count>
+            <text>Langley Aeronautical Laboratory</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.253165</relevance>
+            <count>1</count>
+            <text>Pacific</text>
+            <disambiguated>
+                <name>Pacific Ocean</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.25205</relevance>
+            <count>1</count>
+            <text>Gemini</text>
+            <disambiguated>
+                <name>Gemini Sound Products</name>
+                <dbpedia>http://dbpedia.org/resource/Gemini_Sound_Products</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b8nz7</freebase>
+                <yago>http://yago-knowledge.org/resource/Gemini_Sound_Products</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.251127</relevance>
+            <count>2</count>
+            <text>Aerojet-General Corp.</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.248772</relevance>
+            <count>1</count>
+            <text>Atlantic Missile Range</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.248399</relevance>
+            <count>1</count>
+            <text>Michoud Ordnance Plant</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.2477</relevance>
+            <count>1</count>
+            <text>Space Nuclear Propulsion Office</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.246734</relevance>
+            <count>1</count>
+            <text>Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.246488</relevance>
+            <count>1</count>
+            <text>Point Mugu</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.246191</relevance>
+            <count>1</count>
+            <text>NACA</text>
+            <disambiguated>
+                <name>National Advisory Committee for Aeronautics</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/National_Advisory_Committee_for_Aeronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01b9vn</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Advisory_Committee_for_Aeronautics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.245238</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.245028</relevance>
+            <count>1</count>
+            <text>Sacramento</text>
+            <disambiguated>
+                <name>Sacramento, California</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>38.555605 -121.468926</geo>
+                <website>http://www.cityofsacramento.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Sacramento,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07bcn</freebase>
+                <yago>http://yago-knowledge.org/resource/Sacramento,_California</yago>
+                <geonames>http://sws.geonames.org/5389489/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.244816</relevance>
+            <count>1</count>
+            <text>Robert Gilruth</text>
+            <disambiguated>
+                <name>Robert R. Gilruth</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_R._Gilruth</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xn0q</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_R._Gilruth</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.244127</relevance>
+            <count>1</count>
+            <text>Pacific Missile Range</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.243842</relevance>
+            <count>1</count>
+            <text>Director of Advanced Research and Technology</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.226831</relevance>
+            <relevance>0.243373</relevance>
             <count>1</count>
             <text>Nevada</text>
             <disambiguated>
@@ -222,70 +392,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.225029</relevance>
-            <count>2</count>
-            <text>Sunnyvale</text>
-            <disambiguated>
-                <name>Sunnyvale, California</name>
-                <subType>AdministrativeDivision</subType>
-                <geo>37.368766666666666 -122.03705555555555</geo>
-                <website>http://www.sunnyvale.ca.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Sunnyvale,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r6ff</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/santa_clara_county/san_jose/sunnyvale</census>
-                <yago>http://yago-knowledge.org/resource/Sunnyvale,_California</yago>
-                <geonames>http://sws.geonames.org/5400075/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.222167</relevance>
-            <count>2</count>
-            <text>New Orleans</text>
-            <disambiguated>
-                <name>New Orleans</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>29.96472222222222 -90.07055555555556</geo>
-                <website>http://www.cityofno.com</website>
-                <dbpedia>http://dbpedia.org/resource/New_Orleans</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2tj</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.221419</relevance>
+            <type>Company</type>
+            <relevance>0.242491</relevance>
             <count>1</count>
-            <text>Sardinia</text>
-            <disambiguated>
-                <name>Kingdom of Sardinia</name>
-                <subType>Location</subType>
-                <subType>Kingdom</subType>
-                <dbpedia>http://dbpedia.org/resource/Kingdom_of_Sardinia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01tdpv</freebase>
-            </disambiguated>
+            <text>Palaemon</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.219764</relevance>
-            <count>1</count>
-            <text>Cosmonaut Gherman S. Titov</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.215322</relevance>
-            <count>1</count>
-            <text>Pacific Missile Range</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.21509</relevance>
-            <count>2</count>
-            <text>Martin Co.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.215042</relevance>
+            <relevance>0.241542</relevance>
             <count>1</count>
             <text>Nikita Khrushchev</text>
             <disambiguated>
@@ -301,8 +415,89 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.241418</relevance>
+            <count>1</count>
+            <text>Vitro Engineering Co.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.240728</relevance>
+            <count>1</count>
+            <text>supervisor</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.240358</relevance>
+            <count>1</count>
+            <text>McDon-nel Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.239493</relevance>
+            <count>1</count>
+            <text>Municipal Auditorium</text>
+            <disambiguated>
+                <name>Municipal Auditorium (New Orleans)</name>
+                <subType>Location</subType>
+                <subType>SportsFacility</subType>
+                <geo>29.961388888888887 -90.06916666666666</geo>
+                <dbpedia>http://dbpedia.org/resource/Municipal_Auditorium_(New_Orleans)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09hzm3</freebase>
+                <yago>http://yago-knowledge.org/resource/Municipal_Auditorium_(New_Orleans)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.237018</relevance>
+            <count>1</count>
+            <text>United Aircraft</text>
+            <disambiguated>
+                <name>United Aircraft</name>
+                <dbpedia>http://dbpedia.org/resource/United_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0h1bw7s</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.236842</relevance>
+            <count>1</count>
+            <text>Denver</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.235042</relevance>
+            <count>1</count>
+            <text>Wallops</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.230783</relevance>
+            <count>1</count>
+            <text>Virginia</text>
+            <disambiguated>
+                <name>Virginia</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.230178</relevance>
+            <count>1</count>
+            <text>White Sands Missile Range</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.214152</relevance>
+            <relevance>0.229699</relevance>
             <count>1</count>
             <text>University of Michigan</text>
             <disambiguated>
@@ -321,243 +516,41 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.212019</relevance>
-            <count>1</count>
-            <text>Los Alamos Scientific Laboratory</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.207985</relevance>
-            <count>1</count>
-            <text>Point Arguello</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.2056</relevance>
-            <count>2</count>
-            <text>Aerojet-General Corp.</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.202576</relevance>
-            <count>1</count>
-            <text>Point Mugu</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.201648</relevance>
-            <count>1</count>
-            <text>White Sands Missile Range</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.201172</relevance>
-            <count>1</count>
-            <text>Vidsel</text>
-            <disambiguated>
-                <name>Vidsel</name>
-                <dbpedia>http://dbpedia.org/resource/Vidsel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02zf11</freebase>
-                <geonames>http://sws.geonames.org/601981/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.199982</relevance>
-            <count>1</count>
-            <text>Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.199058</relevance>
-            <count>1</count>
-            <text>Wallops</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.198275</relevance>
-            <count>1</count>
-            <text>Space Nuclear Propulsion Office</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.197869</relevance>
-            <count>1</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.197625</relevance>
-            <count>1</count>
-            <text>Sacramento</text>
-            <disambiguated>
-                <name>Sacramento, California</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>38.555605 -121.468926</geo>
-                <website>http://www.cityofsacramento.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Sacramento,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07bcn</freebase>
-                <yago>http://yago-knowledge.org/resource/Sacramento,_California</yago>
-                <geonames>http://sws.geonames.org/5389489/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.197125</relevance>
-            <count>1</count>
-            <text>South Pole</text>
-        </entity>
-        <entity>
             <type>Region</type>
-            <relevance>0.197049</relevance>
+            <relevance>0.228506</relevance>
             <count>1</count>
             <text>Pacific</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.193901</relevance>
+            <type>Region</type>
+            <relevance>0.227997</relevance>
             <count>1</count>
-            <text>Marshal Kiril S. Moskalenko</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.193851</relevance>
-            <count>1</count>
-            <text>General Electric&#x2019;s Space Sciences Laboratory</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.192885</relevance>
-            <count>1</count>
-            <text>Municipal Auditorium</text>
-            <disambiguated>
-                <name>Municipal Auditorium (New Orleans)</name>
-                <subType>Location</subType>
-                <subType>SportsFacility</subType>
-                <geo>29.961388888888887 -90.06916666666666</geo>
-                <dbpedia>http://dbpedia.org/resource/Municipal_Auditorium_(New_Orleans)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09hzm3</freebase>
-                <yago>http://yago-knowledge.org/resource/Municipal_Auditorium_(New_Orleans)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.190978</relevance>
-            <count>1</count>
-            <text>Red Square</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.190336</relevance>
-            <count>1</count>
-            <text>Kwajalein atoll</text>
-            <disambiguated>
-                <name>Kwajalein Atoll</name>
-                <subType>Location</subType>
-                <subType>IslandGroup</subType>
-                <geo>8.716666666666667 167.73333333333332</geo>
-                <dbpedia>http://dbpedia.org/resource/Kwajalein_Atoll</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c_f8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.190303</relevance>
-            <count>1</count>
-            <text>United Aircraft</text>
-            <disambiguated>
-                <name>United Aircraft</name>
-                <dbpedia>http://dbpedia.org/resource/United_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h1bw7s</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.18808</relevance>
-            <count>1</count>
-            <text>Atlantic</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.187848</relevance>
-            <count>1</count>
-            <text>Gemini</text>
-            <disambiguated>
-                <name>GeminiJets</name>
-                <dbpedia>http://dbpedia.org/resource/GeminiJets</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02xx8h</freebase>
-                <yago>http://yago-knowledge.org/resource/GeminiJets</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.186505</relevance>
-            <count>1</count>
-            <text>Argo</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.185971</relevance>
-            <count>1</count>
-            <text>Denver</text>
-            <disambiguated>
-                <name>Denver</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.denvergov.org</website>
-                <dbpedia>http://dbpedia.org/resource/Denver</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02cl1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.181612</relevance>
-            <count>1</count>
-            <text>Robert Gilruth</text>
-            <disambiguated>
-                <name>Robert R. Gilruth</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_R._Gilruth</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xn0q</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_R._Gilruth</yago>
-            </disambiguated>
+            <text>Central Pacific</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.180766</relevance>
+            <relevance>0.225917</relevance>
             <count>1</count>
-            <text>Yugoslavia</text>
+            <text>Israel</text>
+            <disambiguated>
+                <name>Israel</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmArtDirector</subType>
+                <geo>31.0 35.0</geo>
+                <website>http://www.knesset.gov.il/</website>
+                <dbpedia>http://dbpedia.org/resource/Israel</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Israel</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.062yqq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViP55wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Israel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.225085</relevance>
+            <count>1</count>
+            <text>Cosmonaut Gherman S. Titov</text>
         </entity>
     </entities>
 </results>

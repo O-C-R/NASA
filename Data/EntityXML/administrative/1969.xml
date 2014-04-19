@@ -6,8 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.944047</relevance>
+            <count>12</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.939475</relevance>
+            <relevance>0.871246</relevance>
             <count>21</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +35,13 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.873617</relevance>
+            <relevance>0.733974</relevance>
             <count>15</count>
             <text>space program</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.866203</relevance>
-            <count>12</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.645709</relevance>
+            <relevance>0.705844</relevance>
             <count>18</count>
             <text>Dr. Thomas O. Paine</text>
             <disambiguated>
@@ -53,7 +53,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.512613</relevance>
+            <relevance>0.544218</relevance>
             <count>12</count>
             <text>United States</text>
             <disambiguated>
@@ -73,69 +73,93 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.374902</relevance>
+            <relevance>0.356698</relevance>
             <count>3</count>
             <text>Administrator</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.371363</relevance>
+            <relevance>0.349932</relevance>
             <count>7</count>
             <text>President</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.362285</relevance>
-            <count>5</count>
-            <text>Dr. Lee A. DuBridge</text>
+            <type>JobTitle</type>
+            <relevance>0.347993</relevance>
+            <count>1</count>
+            <text>NASA Deputy Administrator.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.331856</relevance>
+            <count>3</count>
+            <text>New York Times</text>
             <disambiguated>
-                <name>Lee Alvin DuBridge</name>
-                <dbpedia>http://dbpedia.org/resource/Lee_Alvin_DuBridge</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.037rbr</freebase>
-                <yago>http://yago-knowledge.org/resource/Lee_Alvin_DuBridge</yago>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.356556</relevance>
+            <type>JobTitle</type>
+            <relevance>0.331338</relevance>
             <count>1</count>
-            <text>Space program</text>
+            <text>Deputy Administrator of nasa</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.351321</relevance>
+            <relevance>0.31906</relevance>
+            <count>3</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.315669</relevance>
+            <count>2</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.303079</relevance>
             <count>2</count>
             <text>Senate Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.345604</relevance>
-            <count>5</count>
-            <text>President Lyndon B. Johnson</text>
+            <type>Country</type>
+            <relevance>0.297978</relevance>
+            <count>4</count>
+            <text>U.S.S.R.</text>
             <disambiguated>
-                <name>Lyndon B. Johnson</name>
-                <subType>FilmCharacter</subType>
-                <subType>MusicalArtist</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>AwardWinner</subType>
-                <subType>Dedicatee</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f7fy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUQJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson</yago>
-                <musicBrainz>http://zitgist.com/music/artist/a40998e6-3496-44d5-9032-79e313be07b5</musicBrainz>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.330267</relevance>
+            <relevance>0.296003</relevance>
             <count>4</count>
             <text>James E. Webb</text>
             <disambiguated>
@@ -148,20 +172,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.322571</relevance>
+            <type>Company</type>
+            <relevance>0.294404</relevance>
             <count>1</count>
-            <text>Deputy Administrator of nasa</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.31728</relevance>
-            <count>3</count>
-            <text>DOD</text>
+            <text>NASA Hq.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.313011</relevance>
+            <relevance>0.294019</relevance>
             <count>2</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -188,120 +206,76 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.307237</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.291557</relevance>
             <count>1</count>
-            <text>Space Council.</text>
+            <text>Space program</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.290872</relevance>
-            <count>1</count>
-            <text>NASA Deputy Administrator.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.28906</relevance>
-            <count>3</count>
-            <text>New York Times</text>
+            <type>Person</type>
+            <relevance>0.285803</relevance>
+            <count>5</count>
+            <text>President Lyndon B. Johnson</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
+                <name>Lyndon B. Johnson</name>
+                <subType>FilmCharacter</subType>
+                <subType>MusicalArtist</subType>
+                <subType>Politician</subType>
+                <subType>President</subType>
                 <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <subType>Dedicatee</subType>
+                <subType>MilitaryCommander</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>USPresident</subType>
+                <subType>USVicePresident</subType>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f7fy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUQJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson</yago>
+                <musicBrainz>http://zitgist.com/music/artist/a40998e6-3496-44d5-9032-79e313be07b5</musicBrainz>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.284868</relevance>
+            <count>5</count>
+            <text>Dr. Lee A. DuBridge</text>
+            <disambiguated>
+                <name>Lee Alvin DuBridge</name>
+                <dbpedia>http://dbpedia.org/resource/Lee_Alvin_DuBridge</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.037rbr</freebase>
+                <yago>http://yago-knowledge.org/resource/Lee_Alvin_DuBridge</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.276972</relevance>
+            <count>1</count>
+            <text>space exploration</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.281057</relevance>
+            <relevance>0.273231</relevance>
             <count>1</count>
             <text>Spanish Space Research Council</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.276071</relevance>
-            <count>2</count>
-            <text>Science Adviser</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.273208</relevance>
-            <count>4</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.272142</relevance>
-            <count>2</count>
-            <text>White House</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.270091</relevance>
-            <count>2</count>
-            <text>Washington</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.269593</relevance>
-            <count>2</count>
-            <text>Gen. Luis Azcarrago</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268136</relevance>
-            <count>2</count>
-            <text>Dr. T. Keith Glennan</text>
-            <disambiguated>
-                <name>T. Keith Glennan</name>
-                <dbpedia>http://dbpedia.org/resource/T._Keith_Glennan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lk2k</freebase>
-                <yago>http://yago-knowledge.org/resource/T._Keith_Glennan</yago>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.266777</relevance>
+            <count>1</count>
+            <text>new media</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.267812</relevance>
+            <relevance>0.264378</relevance>
             <count>1</count>
             <text>Program Manager</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.261981</relevance>
-            <count>1</count>
-            <text>Case Institute of Technology</text>
-            <disambiguated>
-                <name>Case Western Reserve University</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.50416 -81.60845</geo>
-                <website>http://www.case.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Case_Western_Reserve_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01hjy5</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvV7DA5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Case_Western_Reserve_University</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.261933</relevance>
+            <relevance>0.262382</relevance>
             <count>2</count>
             <text>U.S. News &amp; World Report</text>
             <disambiguated>
@@ -314,40 +288,136 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.258852</relevance>
+            <type>Organization</type>
+            <relevance>0.259794</relevance>
             <count>1</count>
-            <text>NASA Hq.</text>
+            <text>Clarkson College of Technology</text>
+            <disambiguated>
+                <name>Clarkson University</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>44.663495 -74.99907</geo>
+                <website>http://www.clarkson.edu</website>
+                <dbpedia>http://dbpedia.org/resource/Clarkson_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02l8j1</freebase>
+                <yago>http://yago-knowledge.org/resource/Clarkson_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.258734</relevance>
+            <count>1</count>
+            <text>America</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.254165</relevance>
+            <relevance>0.257369</relevance>
+            <count>1</count>
+            <text>George M. Low</text>
+            <disambiguated>
+                <name>George Low</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/George_Low</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02wt7c</freebase>
+                <yago>http://yago-knowledge.org/resource/George_Low</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.255222</relevance>
             <count>2</count>
-            <text>Albert F. Siepert</text>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.25448</relevance>
+            <count>1</count>
+            <text>Apollo</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.254007</relevance>
+            <relevance>0.252729</relevance>
             <count>1</count>
-            <text>space exploration</text>
+            <text>solar system</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.252559</relevance>
+            <type>JobTitle</type>
+            <relevance>0.25259</relevance>
+            <count>2</count>
+            <text>Science Adviser</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.252121</relevance>
             <count>1</count>
-            <text>Inc.</text>
+            <text>solar systems</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.251781</relevance>
+            <count>1</count>
+            <text>Potsdam</text>
             <disambiguated>
-                <name>Inc. (magazine)</name>
-                <subType>Magazine</subType>
-                <website>http://www.inc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Inc._(magazine)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07lc0_</freebase>
-                <yago>http://yago-knowledge.org/resource/Inc._(magazine)</yago>
+                <name>Potsdam (village), New York</name>
+                <subType>MusicalAlbum</subType>
+                <geo>44.670833333333334 -74.98416666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Potsdam_(village),_New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01mg3y</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny/counties/st_lawrence_county/potsdam</census>
+                <yago>http://yago-knowledge.org/resource/Potsdam_(village),_New_York</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.249771</relevance>
+            <count>2</count>
+            <text>White House</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.249069</relevance>
+            <count>1</count>
+            <text>N.Y.</text>
+            <disambiguated>
+                <name>New York</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>43.0 -75.0</geo>
+                <website>http://www.ny.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
+                <yago>http://yago-knowledge.org/resource/New_York</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.248313</relevance>
+            <relevance>0.248491</relevance>
+            <count>1</count>
+            <text>Space Council.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.24538</relevance>
             <count>1</count>
             <text>Department of the Navy</text>
             <disambiguated>
@@ -361,72 +431,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.247561</relevance>
-            <count>2</count>
-            <text>Senate</text>
+            <type>Person</type>
+            <relevance>0.241461</relevance>
+            <count>1</count>
+            <text>Sputnik</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.246141</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.241282</relevance>
             <count>1</count>
-            <text>Scientific Research</text>
+            <text>Solar System</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.244022</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.238936</relevance>
             <count>1</count>
-            <text>President of Associated Universities</text>
+            <text>nuclear power</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.243891</relevance>
+            <type>Person</type>
+            <relevance>0.235704</relevance>
             <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
+            <text>Lord</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.243393</relevance>
+            <type>Person</type>
+            <relevance>0.234133</relevance>
             <count>1</count>
-            <text>nrc&#x2019;s Committee</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.242807</relevance>
-            <count>1</count>
-            <text>dod</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240076</relevance>
-            <count>1</count>
-            <text>Aerospace Industries Assn</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.239594</relevance>
-            <count>1</count>
-            <text>Assistant to Chairman</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.238201</relevance>
-            <count>1</count>
-            <text>Chairman</text>
+            <text>Eugene S. Burcher</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.237644</relevance>
+            <relevance>0.229122</relevance>
             <count>1</count>
             <text>New York</text>
             <disambiguated>
@@ -445,32 +481,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.237173</relevance>
-            <count>1</count>
-            <text>Eugene S. Burcher</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.236698</relevance>
-            <count>1</count>
-            <text>Executive Secretary</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.236399</relevance>
-            <count>1</count>
-            <text>aec</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.236298</relevance>
-            <count>1</count>
-            <text>Urban Coalition</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.233688</relevance>
+            <relevance>0.226969</relevance>
             <count>1</count>
             <text>Smithsonian Institution</text>
             <disambiguated>
@@ -488,16 +500,60 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>HealthCondition</type>
-            <relevance>0.231834</relevance>
+            <type>Person</type>
+            <relevance>0.226162</relevance>
             <count>1</count>
-            <text>tremors</text>
+            <text>Gerhard Stoltenberg</text>
+            <disambiguated>
+                <name>Gerhard Stoltenberg</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Gerhard_Stoltenberg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.048cxv</freebase>
+                <yago>http://yago-knowledge.org/resource/Gerhard_Stoltenberg</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.225518</relevance>
+            <count>2</count>
+            <text>Dr. T. Keith Glennan</text>
+            <disambiguated>
+                <name>T. Keith Glennan</name>
+                <dbpedia>http://dbpedia.org/resource/T._Keith_Glennan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lk2k</freebase>
+                <yago>http://yago-knowledge.org/resource/T._Keith_Glennan</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>ProfessionalDegree</type>
-            <relevance>0.231219</relevance>
+            <relevance>0.225355</relevance>
             <count>1</count>
             <text>Doctor of Science</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224611</relevance>
+            <count>1</count>
+            <text>Univ. of Michigan&#x2019;s Institute for Social Research</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224306</relevance>
+            <count>1</count>
+            <text>Case Institute of Technology</text>
+            <disambiguated>
+                <name>Case Western Reserve University</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.50416 -81.60845</geo>
+                <website>http://www.case.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Case_Western_Reserve_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01hjy5</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvV7DA5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Case_Western_Reserve_University</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.796421</relevance>
+            <relevance>0.960016</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.44797</relevance>
+            <relevance>0.537564</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -44,19 +44,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.420362</relevance>
+            <relevance>0.494171</relevance>
             <count>4</count>
             <text>LRO</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.368351</relevance>
-            <count>3</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.333986</relevance>
+            <relevance>0.391219</relevance>
             <count>2</count>
             <text>IBEX</text>
             <disambiguated>
@@ -70,13 +64,52 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.302336</relevance>
+            <relevance>0.362804</relevance>
             <count>2</count>
             <text>Hensel Phelps</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.338843</relevance>
+            <count>3</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.315633</relevance>
+            <count>2</count>
+            <text>Iran</text>
+            <disambiguated>
+                <name>Iran</name>
+                <geo>32.0 53.0</geo>
+                <dbpedia>http://dbpedia.org/resource/Iran</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Iran</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03shp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj11JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Iran</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.304154</relevance>
+            <count>2</count>
+            <text>Agence France-Presse</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.293703</relevance>
+            <count>1</count>
+            <text>IBEX</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.282499</relevance>
+            <count>1</count>
+            <text>Solar System</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.234212</relevance>
+            <relevance>0.281054</relevance>
             <count>1</count>
             <text>Orlando</text>
             <disambiguated>
@@ -92,28 +125,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.232051</relevance>
-            <count>1</count>
-            <text>Kwajalein Atoll</text>
-            <disambiguated>
-                <name>Kwajalein Atoll</name>
-                <subType>Location</subType>
-                <subType>IslandGroup</subType>
-                <geo>8.716666666666667 167.73333333333332</geo>
-                <dbpedia>http://dbpedia.org/resource/Kwajalein_Atoll</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c_f8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.229445</relevance>
-            <count>1</count>
-            <text>IBEX</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.228983</relevance>
+            <relevance>0.27478</relevance>
             <count>1</count>
             <text>Florida</text>
             <disambiguated>
@@ -132,53 +145,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.224243</relevance>
-            <count>2</count>
-            <text>Iran</text>
+            <type>GeographicFeature</type>
+            <relevance>0.270388</relevance>
+            <count>1</count>
+            <text>Kwajalein Atoll</text>
             <disambiguated>
-                <name>Iran</name>
-                <geo>32.0 53.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Iran</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Iran</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03shp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj11JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Iran</yago>
+                <name>Kwajalein Atoll</name>
+                <subType>Location</subType>
+                <subType>IslandGroup</subType>
+                <geo>8.716666666666667 167.73333333333332</geo>
+                <dbpedia>http://dbpedia.org/resource/Kwajalein_Atoll</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c_f8</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.220034</relevance>
-            <count>1</count>
-            <text>Solar System</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.218014</relevance>
+            <relevance>0.261617</relevance>
             <count>1</count>
             <text>KSC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.211978</relevance>
+            <relevance>0.256585</relevance>
             <count>1</count>
             <text>Kavoshgar</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.206328</relevance>
-            <count>2</count>
-            <text>Agence France-Presse</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.20614</relevance>
+            <relevance>0.249534</relevance>
             <count>1</count>
             <text>state-run media</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.177022</relevance>
+            <relevance>0.225937</relevance>
             <count>1</count>
             <text>Spacewarn Bulletin</text>
         </entity>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.803301</relevance>
+            <relevance>0.863892</relevance>
             <count>18</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.421444</relevance>
-            <count>5</count>
+            <relevance>0.487831</relevance>
+            <count>6</count>
             <text>Mars</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.385178</relevance>
+            <relevance>0.33342</relevance>
             <count>4</count>
             <text>JPL</text>
             <disambiguated>
@@ -50,22 +50,25 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.309018</relevance>
+            <type>Person</type>
+            <relevance>0.331047</relevance>
+            <count>4</count>
+            <text>A. Thomas Young</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.318593</relevance>
             <count>2</count>
-            <text>DFRC</text>
+            <text>Dr. Gerald A. Soffen</text>
             <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+                <name>Gerald Soffen</name>
+                <dbpedia>http://dbpedia.org/resource/Gerald_Soffen</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026tzb6</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.298125</relevance>
+            <relevance>0.306604</relevance>
             <count>2</count>
             <text>Aviation Week</text>
             <disambiguated>
@@ -79,55 +82,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.29811</relevance>
-            <count>3</count>
-            <text>AvWk</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.28959</relevance>
-            <count>4</count>
-            <text>A. Thomas Young</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.274797</relevance>
+            <relevance>0.273881</relevance>
             <count>2</count>
             <text>solar system</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.258766</relevance>
-            <count>2</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.251294</relevance>
-            <count>1</count>
-            <text>Dr. Noel W. Hinners</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.246103</relevance>
-            <count>2</count>
-            <text>Dr. Gerald A. Soffen</text>
-            <disambiguated>
-                <name>Gerald Soffen</name>
-                <dbpedia>http://dbpedia.org/resource/Gerald_Soffen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026tzb6</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.245405</relevance>
-            <count>1</count>
-            <text>Voyager</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.239234</relevance>
+            <relevance>0.263422</relevance>
             <count>1</count>
             <text>Saturn</text>
             <disambiguated>
@@ -141,39 +103,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.237707</relevance>
-            <count>1</count>
-            <text>James S. Martin, Jr.</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.23732</relevance>
-            <count>1</count>
-            <text>associate administrator</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.229553</relevance>
-            <count>1</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
+            <relevance>0.257865</relevance>
+            <count>2</count>
+            <text>director</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.228475</relevance>
+            <relevance>0.256911</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -192,14 +129,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.22693</relevance>
+            <type>Company</type>
+            <relevance>0.249675</relevance>
+            <count>2</count>
+            <text>DFRC</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.2494</relevance>
             <count>1</count>
-            <text>lander</text>
+            <text>Paris</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.226436</relevance>
+            <relevance>0.247129</relevance>
             <count>1</count>
             <text>Academy of Sciences</text>
             <disambiguated>
@@ -212,8 +163,63 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.244659</relevance>
+            <count>1</count>
+            <text>project scientist</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.243191</relevance>
+            <count>1</count>
+            <text>Voyager</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.236542</relevance>
+            <count>1</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.229022</relevance>
+            <count>1</count>
+            <text>NYT</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.228372</relevance>
+            <count>1</count>
+            <text>Dr. Noel W. Hinners</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.225548</relevance>
+            <relevance>0.227035</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -234,32 +240,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.222134</relevance>
-            <count>2</count>
-            <text>Jan 7/77</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.220689</relevance>
+            <type>Organization</type>
+            <relevance>0.2268</relevance>
             <count>1</count>
-            <text>Paris</text>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.225973</relevance>
+            <count>3</count>
+            <text>AvWk</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.220523</relevance>
+            <relevance>0.222063</relevance>
             <count>1</count>
             <text>Adam I. Braufman</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.221565</relevance>
+            <count>2</count>
+            <text>Jan 7/77</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.219981</relevance>
+            <relevance>0.221493</relevance>
             <count>1</count>
             <text>Institute of Technology</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.218781</relevance>
+            <relevance>0.22029</relevance>
             <count>1</count>
             <text>Canberra</text>
             <disambiguated>
@@ -272,8 +284,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.21848</relevance>
+            <count>1</count>
+            <text>lander</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.215879</relevance>
+            <relevance>0.217369</relevance>
             <count>1</count>
             <text>Australia</text>
             <disambiguated>
@@ -291,44 +309,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.215812</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.216686</relevance>
             <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
+            <text>power supply</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.215412</relevance>
+            <relevance>0.214727</relevance>
             <count>1</count>
-            <text>project scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.213076</relevance>
-            <count>1</count>
-            <text>Dr. Jose Chirivella</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.213005</relevance>
-            <count>1</count>
-            <text>Dale Reed</text>
+            <text>associate administrator</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.212085</relevance>
+            <relevance>0.213619</relevance>
             <count>1</count>
             <text>Goldstone</text>
         </entity>
@@ -339,38 +333,44 @@
             <text>shut down</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.20884</relevance>
-            <count>1</count>
-            <text>FY</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.206085</relevance>
+            <relevance>0.207596</relevance>
             <count>1</count>
             <text>Mass</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.202415</relevance>
-            <count>1</count>
-            <text>power supply</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.178876</relevance>
+            <relevance>0.200176</relevance>
             <count>1</count>
             <text>Halley</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.199825</relevance>
+            <count>1</count>
+            <text>Dale Reed</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.199793</relevance>
+            <count>1</count>
+            <text>Dr. Jose Chirivella</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.199374</relevance>
+            <count>1</count>
+            <text>James S. Martin, Jr.</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.170287</relevance>
+            <relevance>0.193426</relevance>
             <count>1</count>
             <text>the outlook</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.165241</relevance>
+            <relevance>0.186155</relevance>
             <count>1</count>
             <text>Encke</text>
         </entity>

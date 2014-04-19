@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.948789</relevance>
+            <relevance>0.882431</relevance>
             <count>11</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.515474</relevance>
+            <relevance>0.486633</relevance>
             <count>4</count>
             <text>Japan</text>
             <disambiguated>
@@ -47,92 +47,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.415518</relevance>
+            <relevance>0.431325</relevance>
+            <count>2</count>
+            <text>Dr. Frederick L. Scarf</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.424449</relevance>
             <count>3</count>
             <text>Tass</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.394298</relevance>
-            <count>2</count>
-            <text>Dr. Walter B. Olstad</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.368077</relevance>
+            <relevance>0.381739</relevance>
             <count>2</count>
             <text>principal investigator</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.36199</relevance>
-            <count>1</count>
-            <text>Professor Tatsuzo Obayashi</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.359299</relevance>
-            <count>2</count>
-            <text>associate administrator</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.358656</relevance>
-            <count>1</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.33936</relevance>
-            <count>1</count>
-            <text>University of Tokyo</text>
-            <disambiguated>
-                <name>University of Tokyo</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>35.71333333333333 139.76222222222222</geo>
-                <website>http://www.u-tokyo.ac.jp/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Tokyo</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017lvd</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Tokyo</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.33089</relevance>
-            <count>1</count>
-            <text>National Space Development Agency</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.323805</relevance>
-            <count>1</count>
-            <text>Dr. Wubbo Ockels</text>
-            <disambiguated>
-                <name>Wubbo Ockels</name>
-                <subType>Astronaut</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Wubbo_Ockels</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sb5_</freebase>
-                <yago>http://yago-knowledge.org/resource/Wubbo_Ockels</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.322935</relevance>
-            <count>1</count>
-            <text>Dr. Ukichiro Nakaya</text>
-            <disambiguated>
-                <name>Ukichiro Nakaya</name>
-                <subType>Academic</subType>
-                <dbpedia>http://dbpedia.org/resource/Ukichiro_Nakaya</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04n4v8c</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.321167</relevance>
+            <relevance>0.36388</relevance>
             <count>1</count>
             <text>Journal of Geophysical Research</text>
             <disambiguated>
@@ -145,8 +78,48 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.35493</relevance>
+            <count>2</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.336167</relevance>
+            <count>2</count>
+            <text>Dr. Walter B. Olstad</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.328812</relevance>
+            <count>1</count>
+            <text>University of Iowa</text>
+            <disambiguated>
+                <name>University of Iowa</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.655833333333334 -91.525</geo>
+                <website>http://www.uiowa.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Iowa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01j_9c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwBa-f5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/University_of_Iowa</yago>
+                <geonames>http://sws.geonames.org/4879820/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.32006</relevance>
+            <relevance>0.327768</relevance>
             <count>1</count>
             <text>Moscow</text>
             <disambiguated>
@@ -164,32 +137,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.319801</relevance>
-            <count>1</count>
-            <text>Dr. Ulf Merbold</text>
-            <disambiguated>
-                <name>Ulf Merbold</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Ulf_Merbold</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018pr7</freebase>
-                <yago>http://yago-knowledge.org/resource/Ulf_Merbold</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.317988</relevance>
-            <count>1</count>
-            <text>19S3</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.314992</relevance>
-            <count>2</count>
-            <text>Dr. Frederick L. Scarf</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.311511</relevance>
+            <relevance>0.319885</relevance>
             <count>1</count>
             <text>Vladimir Dzhanibekov</text>
             <disambiguated>
@@ -203,7 +151,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.308928</relevance>
+            <relevance>0.31734</relevance>
             <count>1</count>
             <text>UPI</text>
             <disambiguated>
@@ -218,13 +166,204 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.306914</relevance>
+            <relevance>0.314137</relevance>
+            <count>1</count>
+            <text>TRW Inc.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.31278</relevance>
+            <count>1</count>
+            <text>Professor Tatsuzo Obayashi</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.311539</relevance>
+            <count>1</count>
+            <text>Yuri Gagarin</text>
+            <disambiguated>
+                <name>Yuri Gagarin</name>
+                <subType>Astronaut</subType>
+                <subType>DisasterVictim</subType>
+                <subType>TVCharacter</subType>
+                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
+                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.310328</relevance>
+            <count>1</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.31011</relevance>
+            <count>2</count>
+            <text>associate administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.309389</relevance>
+            <count>1</count>
+            <text>National Space Development Agency</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.306445</relevance>
+            <count>1</count>
+            <text>Baykonur cosmodrome</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.305439</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.30505</relevance>
+            <count>1</count>
+            <text>Vladimir Kovalenok</text>
+            <disambiguated>
+                <name>Vladimir Kovalyonok</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Vladimir_Kovalyonok</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lr4n</freebase>
+                <yago>http://yago-knowledge.org/resource/Vladimir_Kovalyonok</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.303896</relevance>
+            <count>1</count>
+            <text>Dr. Wubbo Ockels</text>
+            <disambiguated>
+                <name>Wubbo Ockels</name>
+                <subType>Astronaut</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Wubbo_Ockels</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sb5_</freebase>
+                <yago>http://yago-knowledge.org/resource/Wubbo_Ockels</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.303551</relevance>
+            <count>1</count>
+            <text>Dr. Ukichiro Nakaya</text>
+            <disambiguated>
+                <name>Ukichiro Nakaya</name>
+                <subType>Academic</subType>
+                <dbpedia>http://dbpedia.org/resource/Ukichiro_Nakaya</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04n4v8c</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.30258</relevance>
+            <count>1</count>
+            <text>Dr. Donald Gurnett</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.302152</relevance>
+            <count>1</count>
+            <text>United Press International</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.30015</relevance>
+            <count>1</count>
+            <text>Dr. Ulf Merbold</text>
+            <disambiguated>
+                <name>Ulf Merbold</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Ulf_Merbold</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018pr7</freebase>
+                <yago>http://yago-knowledge.org/resource/Ulf_Merbold</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296827</relevance>
+            <count>1</count>
+            <text>Dr. William Kurth</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.296788</relevance>
+            <count>1</count>
+            <text>Mongolia</text>
+            <disambiguated>
+                <name>Mongolia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.mongoliatourism.gov.mn/</website>
+                <dbpedia>http://dbpedia.org/resource/Mongolia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Mongolia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.04w8f</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvZUBd5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Mongolia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.295362</relevance>
             <count>1</count>
             <text>Olstad</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.294963</relevance>
+            <count>1</count>
+            <text>University of Tokyo</text>
+            <disambiguated>
+                <name>University of Tokyo</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>35.71333333333333 139.76222222222222</geo>
+                <website>http://www.u-tokyo.ac.jp/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Tokyo</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017lvd</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Tokyo</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.2895</relevance>
+            <count>1</count>
+            <text>Mongolian People&#x2019;s Republic</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.287929</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.305149</relevance>
+            <relevance>0.28558</relevance>
             <count>1</count>
             <text>Byron Lichtenberg</text>
             <disambiguated>
@@ -238,7 +377,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.305064</relevance>
+            <relevance>0.285452</relevance>
             <count>1</count>
             <text>Drs. Owen Garriott</text>
             <disambiguated>
@@ -254,28 +393,44 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.30327</relevance>
+            <relevance>0.283219</relevance>
             <count>1</count>
-            <text>Yuri Gagarin</text>
+            <text>Edwin C. Kilgore</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.282932</relevance>
+            <count>1</count>
+            <text>William A. Brence</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.282057</relevance>
+            <count>1</count>
+            <text>Viktor Savinykh</text>
             <disambiguated>
-                <name>Yuri Gagarin</name>
+                <name>Viktor Savinykh</name>
                 <subType>Astronaut</subType>
-                <subType>DisasterVictim</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
-                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
+                <dbpedia>http://dbpedia.org/resource/Viktor_Savinykh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03klf4</freebase>
+                <yago>http://yago-knowledge.org/resource/Viktor_Savinykh</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.300891</relevance>
+            <relevance>0.281344</relevance>
             <count>1</count>
             <text>Asahi Shibmun</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.280749</relevance>
+            <count>1</count>
+            <text>Jugderdemidyn Gurragcha</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.29907</relevance>
+            <relevance>0.280686</relevance>
             <count>1</count>
             <text>West Germany</text>
             <disambiguated>
@@ -290,8 +445,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.280467</relevance>
+            <count>1</count>
+            <text>Office of Management</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.298569</relevance>
+            <relevance>0.280227</relevance>
             <count>1</count>
             <text>United States</text>
             <disambiguated>
@@ -311,219 +472,51 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.298447</relevance>
+            <relevance>0.279761</relevance>
             <count>1</count>
             <text>physicist</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.297293</relevance>
-            <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.296675</relevance>
-            <count>1</count>
-            <text>Vladimir Kovalenok</text>
-            <disambiguated>
-                <name>Vladimir Kovalyonok</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Vladimir_Kovalyonok</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lr4n</freebase>
-                <yago>http://yago-knowledge.org/resource/Vladimir_Kovalyonok</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.294484</relevance>
-            <count>1</count>
-            <text>United Press International</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.293507</relevance>
-            <count>1</count>
-            <text>Edwin C. Kilgore</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.293204</relevance>
-            <count>1</count>
-            <text>William A. Brence</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.293001</relevance>
-            <count>1</count>
-            <text>Baykonur cosmodrome</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.289012</relevance>
-            <count>1</count>
-            <text>Mongolia</text>
-            <disambiguated>
-                <name>Mongolia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.mongoliatourism.gov.mn/</website>
-                <dbpedia>http://dbpedia.org/resource/Mongolia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Mongolia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.04w8f</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvZUBd5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mongolia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.287351</relevance>
+            <relevance>0.276797</relevance>
             <count>1</count>
             <text>WFC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.286268</relevance>
+            <relevance>0.276004</relevance>
             <count>1</count>
             <text>C. Robert Nysmith</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.284399</relevance>
-            <count>1</count>
-            <text>Robert Parker</text>
-            <disambiguated>
-                <name>Robert A. Parker</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_A._Parker</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02m0fl</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_A._Parker</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Region</type>
-            <relevance>0.283869</relevance>
+            <relevance>0.274045</relevance>
             <count>1</count>
             <text>Arctic</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.281509</relevance>
+            <type>Facility</type>
+            <relevance>0.272559</relevance>
             <count>1</count>
-            <text>Mongolian People&#x2019;s Republic</text>
+            <text>Langley laboratory</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.280721</relevance>
-            <count>2</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.27394</relevance>
+            <type>Facility</type>
+            <relevance>0.272333</relevance>
             <count>1</count>
-            <text>Viktor Savinykh</text>
-            <disambiguated>
-                <name>Viktor Savinykh</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Viktor_Savinykh</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03klf4</freebase>
-                <yago>http://yago-knowledge.org/resource/Viktor_Savinykh</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.272685</relevance>
-            <count>1</count>
-            <text>Jugderdemidyn Gurragcha</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.272437</relevance>
-            <count>1</count>
-            <text>Netherlands</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.264249</relevance>
-            <count>1</count>
-            <text>Office of Management</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.262728</relevance>
-            <count>1</count>
-            <text>Michael Lampton</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.262177</relevance>
-            <count>1</count>
-            <text>Canada&#x2019;s National Research Council</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.26187</relevance>
-            <count>1</count>
-            <text>University of Iowa</text>
-            <disambiguated>
-                <name>University of Iowa</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.655833333333334 -91.525</geo>
-                <website>http://www.uiowa.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Iowa</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01j_9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwBa-f5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/University_of_Iowa</yago>
-                <geonames>http://sws.geonames.org/4879820/</geonames>
-            </disambiguated>
+            <text>transonic tunnel</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.261842</relevance>
+            <relevance>0.270873</relevance>
+            <count>1</count>
+            <text>Office of Management Operations</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.269577</relevance>
             <count>1</count>
             <text>commander</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.260841</relevance>
-            <count>1</count>
-            <text>researcher</text>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.258067</relevance>
-            <count>1</count>
-            <text>Pacific</text>
         </entity>
     </entities>
 </results>

@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.939777</relevance>
-            <count>53</count>
+            <relevance>0.940533</relevance>
+            <count>52</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,29 +29,13 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.504054</relevance>
+            <relevance>0.548902</relevance>
             <count>10</count>
             <text>Calif</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.477664</relevance>
-            <count>11</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.44962</relevance>
+            <relevance>0.540635</relevance>
             <count>8</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -78,14 +62,24 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.44445</relevance>
-            <count>8</count>
-            <text>John A. Manke</text>
+            <type>Organization</type>
+            <relevance>0.535542</relevance>
+            <count>11</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.443703</relevance>
+            <relevance>0.532797</relevance>
             <count>14</count>
             <text>United States</text>
             <disambiguated>
@@ -104,8 +98,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.48305</relevance>
+            <count>7</count>
+            <text>Rosamond</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.430344</relevance>
+            <relevance>0.4702</relevance>
             <count>8</count>
             <text>John A. Volpe</text>
             <disambiguated>
@@ -120,8 +120,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.465671</relevance>
+            <count>11</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.429987</relevance>
+            <relevance>0.435536</relevance>
             <count>6</count>
             <text>William H. Dana</text>
             <disambiguated>
@@ -131,98 +137,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.407301</relevance>
-            <count>7</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.398693</relevance>
-            <count>7</count>
-            <text>Rosamond</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.387712</relevance>
-            <count>11</count>
-            <text>Secretary</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.381462</relevance>
+            <type>Person</type>
+            <relevance>0.432932</relevance>
             <count>8</count>
-            <text>faa</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.375085</relevance>
-            <count>6</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.368209</relevance>
-            <count>6</count>
-            <text>USAF</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.342569</relevance>
-            <count>2</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
+            <text>John A. Manke</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.335341</relevance>
-            <count>5</count>
+            <relevance>0.4281</relevance>
+            <count>7</count>
             <text>President Kennedy</text>
             <disambiguated>
                 <name>John F. Kennedy</name>
@@ -248,14 +171,95 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.388695</relevance>
+            <count>8</count>
+            <text>faa</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.3294</relevance>
+            <relevance>0.379199</relevance>
             <count>5</count>
             <text>Sen. William F. Proxmire</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.362122</relevance>
+            <count>6</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.358904</relevance>
+            <count>5</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.351448</relevance>
+            <count>7</count>
+            <text>Congress</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.348091</relevance>
+            <count>2</count>
+            <text>nasa</text>
+            <disambiguated>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.345529</relevance>
+            <count>7</count>
+            <text>President</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.328669</relevance>
+            <relevance>0.314507</relevance>
             <count>6</count>
             <text>New York Times</text>
             <disambiguated>
@@ -273,9 +277,71 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.305934</relevance>
+            <count>3</count>
+            <text>Four Corners</text>
+            <disambiguated>
+                <name>Four Corners, Contra Costa County, California</name>
+                <geo>37.95638888888889 -122.03944444444444</geo>
+                <dbpedia>http://dbpedia.org/resource/Four_Corners,_Contra_Costa_County,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05zxls4</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.328416</relevance>
+            <relevance>0.301336</relevance>
+            <count>5</count>
+            <text>Jr.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.293399</relevance>
+            <count>2</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289173</relevance>
+            <count>3</count>
+            <text>usn</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.288586</relevance>
+            <count>2</count>
+            <text>Sen. Edward W. Brooke</text>
+            <disambiguated>
+                <name>Edward Brooke</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Edward_Brooke</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lbrm</freebase>
+                <yago>http://yago-knowledge.org/resource/Edward_Brooke</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.287546</relevance>
             <count>4</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.284634</relevance>
+            <count>2</count>
             <text>Sen. Edward M. Kennedy</text>
             <disambiguated>
                 <name>Ted Kennedy</name>
@@ -296,8 +362,154 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.284207</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.282814</relevance>
+            <count>2</count>
+            <text>John H. Shaffer</text>
+            <disambiguated>
+                <name>John H. Shaffer</name>
+                <dbpedia>http://dbpedia.org/resource/John_H._Shaffer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qvkdq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.282525</relevance>
+            <count>2</count>
+            <text>St. John</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.27551</relevance>
+            <count>2</count>
+            <text>Executive Secretary</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.272508</relevance>
+            <count>2</count>
+            <text>William Hines</text>
+            <disambiguated>
+                <name>William Hines</name>
+                <dbpedia>http://dbpedia.org/resource/William_Hines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dyp2h</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Hines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.271569</relevance>
+            <count>1</count>
+            <text>Prof. Albert Einstein</text>
+            <disambiguated>
+                <name>Albert Einstein</name>
+                <subType>FilmCharacter</subType>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>BoardMember</subType>
+                <subType>DietFollower</subType>
+                <subType>Inventor</subType>
+                <subType>OperaCharacter</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Albert_Einstein</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jcx</freebase>
+                <yago>http://yago-knowledge.org/resource/Albert_Einstein</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.266119</relevance>
+            <count>3</count>
+            <text>Lockheed Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265221</relevance>
+            <count>2</count>
+            <text>Yuri Gagarin</text>
+            <disambiguated>
+                <name>Yuri Gagarin</name>
+                <subType>Astronaut</subType>
+                <subType>DisasterVictim</subType>
+                <subType>TVCharacter</subType>
+                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
+                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265119</relevance>
+            <count>3</count>
+            <text>Tektite Aquanauts Richard A. Waller</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.261879</relevance>
+            <count>1</count>
+            <text>Boeing</text>
+            <disambiguated>
+                <name>Spirit AeroSystems</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.spiritaero.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
+                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.261569</relevance>
+            <count>2</count>
+            <text>Sens</text>
+            <disambiguated>
+                <name>Sens</name>
+                <website>http://www.mairie-sens.fr/</website>
+                <dbpedia>http://dbpedia.org/resource/Sens</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.046drw</freebase>
+                <geonames>http://sws.geonames.org/2975050/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.260589</relevance>
+            <count>2</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.260115</relevance>
+            <count>2</count>
+            <text>Prime contractor</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.319209</relevance>
+            <relevance>0.259944</relevance>
             <count>3</count>
             <text>Calif.</text>
             <disambiguated>
@@ -318,92 +530,80 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.317682</relevance>
-            <count>3</count>
-            <text>Four Corners</text>
+            <type>Company</type>
+            <relevance>0.258408</relevance>
+            <count>1</count>
+            <text>General Electric Co.</text>
             <disambiguated>
-                <name>Four Corners, Contra Costa County, California</name>
-                <geo>37.95638888888889 -122.03944444444444</geo>
-                <dbpedia>http://dbpedia.org/resource/Four_Corners,_Contra_Costa_County,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05zxls4</freebase>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.306357</relevance>
-            <count>5</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.299957</relevance>
-            <count>4</count>
-            <text>dod</text>
+            <type>GeographicFeature</type>
+            <relevance>0.257167</relevance>
+            <count>2</count>
+            <text>Virgin Islands</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.294009</relevance>
+            <relevance>0.25686</relevance>
             <count>2</count>
-            <text>John H. Shaffer</text>
+            <text>Dr. John S. Foster</text>
             <disambiguated>
-                <name>John H. Shaffer</name>
-                <dbpedia>http://dbpedia.org/resource/John_H._Shaffer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qvkdq</freebase>
+                <name>John Stuart Foster</name>
+                <subType>Academic</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Stuart_Foster</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d2b_x</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Stuart_Foster</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.292319</relevance>
-            <count>3</count>
-            <text>Washington</text>
+            <type>PrintMedia</type>
+            <relevance>0.256307</relevance>
+            <count>2</count>
+            <text>Physical Review Letters</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>Physical Review Letters</name>
+                <subType>Journal</subType>
+                <website>http://prl.aps.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Physical_Review_Letters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_j5j</freebase>
+                <yago>http://yago-knowledge.org/resource/Physical_Review_Letters</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.255659</relevance>
+            <count>1</count>
+            <text>executive secretary</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.29059</relevance>
-            <count>2</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.289599</relevance>
-            <count>2</count>
-            <text>St. John</text>
+            <relevance>0.254241</relevance>
+            <count>1</count>
+            <text>U.S. Coast Guard</text>
+            <disambiguated>
+                <name>United States Coast Guard</name>
+                <subType>ArmedForce</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>Profession</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Coast_Guard</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07xhy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQw1k5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Coast_Guard</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.28094</relevance>
-            <count>3</count>
-            <text>Tektite Aquanauts Richard A. Waller</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.27779</relevance>
+            <relevance>0.254218</relevance>
             <count>2</count>
-            <text>Spessard L. Holland</text>
+            <text>Sen. Spessard L. Holland</text>
             <disambiguated>
                 <name>Spessard Holland</name>
                 <subType>Politician</subType>
@@ -417,7 +617,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.274577</relevance>
+            <relevance>0.253741</relevance>
             <count>3</count>
             <text>Sen. Edward J. Gurney</text>
             <disambiguated>
@@ -430,38 +630,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.27342</relevance>
-            <count>1</count>
-            <text>Federal Government</text>
-            <disambiguated>
-                <name>Federal government of the United States</name>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.272607</relevance>
-            <count>1</count>
-            <text>John Finney</text>
-            <disambiguated>
-                <name>John Finney</name>
-                <dbpedia>http://dbpedia.org/resource/John_Finney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.054_3xv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.270748</relevance>
-            <count>2</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.266487</relevance>
+            <relevance>0.252001</relevance>
             <count>2</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -479,161 +649,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.265481</relevance>
-            <count>2</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.264578</relevance>
+            <type>Facility</type>
+            <relevance>0.250212</relevance>
             <count>1</count>
-            <text>NASA Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263403</relevance>
-            <count>1</count>
-            <text>Senate Committee on Interior and Insular Affairs.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263366</relevance>
-            <count>3</count>
-            <text>usn</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.260458</relevance>
-            <count>2</count>
-            <text>Physical Review Letters</text>
-            <disambiguated>
-                <name>Physical Review Letters</name>
-                <subType>Journal</subType>
-                <website>http://prl.aps.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Physical_Review_Letters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_j5j</freebase>
-                <yago>http://yago-knowledge.org/resource/Physical_Review_Letters</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.260328</relevance>
-            <count>2</count>
-            <text>Sens</text>
-            <disambiguated>
-                <name>Sens</name>
-                <website>http://www.mairie-sens.fr/</website>
-                <dbpedia>http://dbpedia.org/resource/Sens</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.046drw</freebase>
-                <geonames>http://sws.geonames.org/2975050/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.259331</relevance>
-            <count>2</count>
-            <text>Star</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.258787</relevance>
-            <count>1</count>
-            <text>Under Secretary</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.258567</relevance>
-            <count>2</count>
-            <text>Virgin Islands</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.258289</relevance>
-            <count>2</count>
-            <text>Sen. Edward W. Brooke</text>
-            <disambiguated>
-                <name>Edward Brooke</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Edward_Brooke</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lbrm</freebase>
-                <yago>http://yago-knowledge.org/resource/Edward_Brooke</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.257684</relevance>
-            <count>2</count>
-            <text>William Hines</text>
-            <disambiguated>
-                <name>William Hines</name>
-                <dbpedia>http://dbpedia.org/resource/William_Hines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dyp2h</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Hines</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.255591</relevance>
-            <count>2</count>
-            <text>chairman</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251587</relevance>
-            <count>2</count>
-            <text>Univ. of Colorado</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.251039</relevance>
-            <count>2</count>
-            <text>Executive Secretary</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.250383</relevance>
-            <count>2</count>
-            <text>Yuri Gagarin</text>
-            <disambiguated>
-                <name>Yuri Gagarin</name>
-                <subType>Astronaut</subType>
-                <subType>DisasterVictim</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
-                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.248765</relevance>
-            <count>2</count>
-            <text>John G. Van Derwalker</text>
+            <text>Argonne National Laboratory</text>
         </entity>
     </entities>
 </results>

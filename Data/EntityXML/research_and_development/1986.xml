@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.828516</relevance>
-            <count>19</count>
+            <relevance>0.827801</relevance>
+            <count>20</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.240777</relevance>
+            <relevance>0.243326</relevance>
             <count>4</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -44,29 +44,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.235394</relevance>
-            <count>2</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.21798</relevance>
-            <count>1</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.211232</relevance>
+            <relevance>0.225897</relevance>
             <count>2</count>
             <text>LA Times</text>
             <disambiguated>
@@ -82,8 +61,29 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.222889</relevance>
+            <count>1</count>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.220013</relevance>
+            <count>2</count>
+            <text>Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.210919</relevance>
+            <relevance>0.198105</relevance>
             <count>2</count>
             <text>Cleveland</text>
             <disambiguated>
@@ -99,7 +99,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.207508</relevance>
+            <relevance>0.1949</relevance>
             <count>2</count>
             <text>Ohio</text>
             <disambiguated>
@@ -117,23 +117,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.197262</relevance>
+            <type>Person</type>
+            <relevance>0.186918</relevance>
             <count>1</count>
-            <text>WSJ</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
+            <text>Linwood B. Callis</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.189032</relevance>
+            <relevance>0.185577</relevance>
             <count>2</count>
             <text>California</text>
             <disambiguated>
@@ -154,14 +145,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.183269</relevance>
+            <type>JobTitle</type>
+            <relevance>0.182425</relevance>
             <count>1</count>
-            <text>Stirling</text>
+            <text>scientist</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.178547</relevance>
+            <relevance>0.181801</relevance>
             <count>2</count>
             <text>Calspan Corporation</text>
             <disambiguated>
@@ -171,8 +162,83 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.181027</relevance>
+            <count>1</count>
+            <text>Stirling</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.180013</relevance>
+            <count>1</count>
+            <text>WSJ</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.17596</relevance>
+            <relevance>0.172747</relevance>
+            <count>1</count>
+            <text>Marshall Problem Assessment Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.17122</relevance>
+            <count>1</count>
+            <text>Director Lew Allen</text>
+            <disambiguated>
+                <name>Lew Allen</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.af.mil/bios/bio.asp?bioID=4508</website>
+                <dbpedia>http://dbpedia.org/resource/Lew_Allen</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jkl0</freebase>
+                <yago>http://yago-knowledge.org/resource/Lew_Allen</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.169951</relevance>
+            <count>1</count>
+            <text>Pratt &amp; Whitney</text>
+            <disambiguated>
+                <name>Pratt &amp; Whitney</name>
+                <subType>CompanyDivision</subType>
+                <subType>RocketEngineDesigner</subType>
+                <website>http://www.pw.utc.com</website>
+                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
+                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.169891</relevance>
+            <count>1</count>
+            <text>Department of Energy</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.169461</relevance>
+            <count>1</count>
+            <text>solar energy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.167395</relevance>
+            <count>1</count>
+            <text>Marshall</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.163428</relevance>
             <count>1</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -189,128 +255,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.171986</relevance>
-            <count>1</count>
-            <text>Department of Energy</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.171574</relevance>
-            <count>1</count>
-            <text>solar energy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.170738</relevance>
-            <count>1</count>
-            <text>Director Lew Allen</text>
-            <disambiguated>
-                <name>Lew Allen</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.af.mil/bios/bio.asp?bioID=4508</website>
-                <dbpedia>http://dbpedia.org/resource/Lew_Allen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jkl0</freebase>
-                <yago>http://yago-knowledge.org/resource/Lew_Allen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.17055</relevance>
-            <count>1</count>
-            <text>Stirling Technology Company</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.169334</relevance>
-            <count>1</count>
-            <text>Pratt &amp; Whitney</text>
-            <disambiguated>
-                <name>Pratt &amp; Whitney</name>
-                <subType>CompanyDivision</subType>
-                <subType>RocketEngineDesigner</subType>
-                <website>http://www.pw.utc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
-                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.168546</relevance>
-            <count>2</count>
-            <text>Thomas Paine</text>
-            <disambiguated>
-                <name>Thomas Paine</name>
-                <subType>Inventor</subType>
-                <subType>Philosopher</subType>
-                <dbpedia>http://dbpedia.org/resource/Thomas_Paine</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07kwl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPOO95wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Thomas_Paine</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.168536</relevance>
-            <count>1</count>
-            <text>Marshall Problem Assessment Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.168094</relevance>
-            <count>1</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.166289</relevance>
-            <count>1</count>
-            <text>Fluid Mechanics Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.165754</relevance>
-            <count>1</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.164504</relevance>
-            <count>1</count>
-            <text>GE</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.163681</relevance>
-            <count>1</count>
-            <text>Marshall</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.16278</relevance>
-            <count>1</count>
-            <text>General Electric</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.160227</relevance>
-            <count>1</count>
-            <text>Mechanical Technical, Inc.</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.158705</relevance>
+            <relevance>0.162116</relevance>
             <count>1</count>
             <text>Huntsville</text>
             <disambiguated>
@@ -325,25 +271,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.157281</relevance>
+            <type>Organization</type>
+            <relevance>0.160687</relevance>
             <count>1</count>
-            <text>Pasadena</text>
-            <disambiguated>
-                <name>Pasadena, California</name>
-                <subType>AdministrativeDivision</subType>
-                <geo>34.15611111111111 -118.13194444444444</geo>
-                <website>http://www.cityofpasadena.net/</website>
-                <dbpedia>http://dbpedia.org/resource/Pasadena,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mzww</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/pasadena</census>
-                <yago>http://yago-knowledge.org/resource/Pasadena,_California</yago>
-                <geonames>http://sws.geonames.org/5381396/</geonames>
-            </disambiguated>
+            <text>Pentagon</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.15708</relevance>
+            <relevance>0.160456</relevance>
             <count>1</count>
             <text>Alabama</text>
             <disambiguated>
@@ -365,7 +300,84 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.155102</relevance>
+            <relevance>0.157743</relevance>
+            <count>1</count>
+            <text>Pasadena</text>
+            <disambiguated>
+                <name>Pasadena, California</name>
+                <subType>AdministrativeDivision</subType>
+                <geo>34.15611111111111 -118.13194444444444</geo>
+                <website>http://www.cityofpasadena.net/</website>
+                <dbpedia>http://dbpedia.org/resource/Pasadena,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mzww</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ca/counties/los_angeles_county/pasadena</census>
+                <yago>http://yago-knowledge.org/resource/Pasadena,_California</yago>
+                <geonames>http://sws.geonames.org/5381396/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.157625</relevance>
+            <count>2</count>
+            <text>Thomas Paine</text>
+            <disambiguated>
+                <name>Thomas Paine</name>
+                <subType>Inventor</subType>
+                <subType>Philosopher</subType>
+                <dbpedia>http://dbpedia.org/resource/Thomas_Paine</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07kwl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPOO95wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Thomas_Paine</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.156527</relevance>
+            <count>1</count>
+            <text>GE</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.15479</relevance>
+            <count>1</count>
+            <text>General Electric</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.154433</relevance>
+            <count>1</count>
+            <text>Fluid Mechanics Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.153635</relevance>
+            <count>1</count>
+            <text>Safety Issue Assessment Center</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.152038</relevance>
+            <count>1</count>
+            <text>Stirling Technology Company</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.151482</relevance>
+            <count>1</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.14823</relevance>
             <count>1</count>
             <text>Edwards</text>
             <disambiguated>
@@ -376,7 +388,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.154566</relevance>
+            <relevance>0.144214</relevance>
             <count>1</count>
             <text>Carl Sagan</text>
             <disambiguated>
@@ -398,32 +410,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.149682</relevance>
+            <type>Company</type>
+            <relevance>0.143632</relevance>
             <count>1</count>
-            <text>Safety Issue Assessment Center</text>
+            <text>Mechanical Technical, Inc.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.148655</relevance>
-            <count>1</count>
-            <text>Congress</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.147378</relevance>
+            <relevance>0.140266</relevance>
             <count>1</count>
             <text>HIDEC</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.147106</relevance>
+            <relevance>0.140009</relevance>
             <count>1</count>
             <text>Control program</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.138695</relevance>
+            <count>1</count>
+            <text>Congress</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.146512</relevance>
+            <relevance>0.136197</relevance>
             <count>1</count>
             <text>Kathryn Sullivan</text>
             <disambiguated>
@@ -434,33 +446,26 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.141621</relevance>
+            <relevance>0.131604</relevance>
             <count>1</count>
-            <text>Linwood B. Callis</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.139992</relevance>
-            <count>1</count>
-            <text>scientist</text>
+            <text>George Field</text>
+            <disambiguated>
+                <name>George Field (actor)</name>
+                <dbpedia>http://dbpedia.org/resource/George_Field_(actor)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ks81r</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.132037</relevance>
+            <relevance>0.121684</relevance>
             <count>1</count>
             <text>Laurel Wilkening</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.130797</relevance>
+            <relevance>0.120535</relevance>
             <count>1</count>
             <text>Jack Kerrebrock</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.127003</relevance>
-            <count>1</count>
-            <text>George Field</text>
         </entity>
     </entities>
 </results>

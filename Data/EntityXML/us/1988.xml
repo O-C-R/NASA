@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.914356</relevance>
+            <relevance>0.949337</relevance>
             <count>2</count>
             <text>Cape Canaveral Air Force Station</text>
             <disambiguated>
@@ -22,7 +22,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.795816</relevance>
+            <relevance>0.806837</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -44,13 +44,36 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.674736</relevance>
+            <relevance>0.723607</relevance>
             <count>2</count>
             <text>Air Force</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.620465</relevance>
+            <relevance>0.672808</relevance>
+            <count>1</count>
+            <text>Launch Complex</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.62756</relevance>
+            <count>1</count>
+            <text>U.S. Air Force</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.573384</relevance>
             <count>1</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -68,55 +91,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.559051</relevance>
-            <count>1</count>
-            <text>Launch Complex</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.52883</relevance>
-            <count>1</count>
-            <text>U.S. Air Force</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.435917</relevance>
-            <count>1</count>
-            <text>GGS laboratories</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.420513</relevance>
-            <count>1</count>
-            <text>Delta IIs</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.383055</relevance>
-            <count>1</count>
-            <text>Global Geospace Science</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.374252</relevance>
+            <relevance>0.447095</relevance>
             <count>1</count>
             <text>East Coast Delta</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.423399</relevance>
+            <count>1</count>
+            <text>Delta IIs</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.356837</relevance>
+            <relevance>0.421155</relevance>
             <count>1</count>
             <text>Delta</text>
             <disambiguated>
@@ -130,8 +118,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.374857</relevance>
+            <count>1</count>
+            <text>GGS laboratories</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.371382</relevance>
+            <count>1</count>
+            <text>twopad Complex</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.344463</relevance>
+            <relevance>0.357444</relevance>
             <count>2</count>
             <text>Florida</text>
             <disambiguated>
@@ -150,8 +150,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.324926</relevance>
+            <count>1</count>
+            <text>Global Geospace Science</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.340089</relevance>
+            <relevance>0.31985</relevance>
             <count>2</count>
             <text>California</text>
             <disambiguated>
@@ -173,19 +179,37 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.316612</relevance>
+            <relevance>0.318889</relevance>
             <count>1</count>
             <text>McDonnell Douglas Astronautics Company</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.307567</relevance>
+            <type>Organization</type>
+            <relevance>0.28256</relevance>
             <count>1</count>
-            <text>twopad Complex</text>
+            <text>International SolarTerrestrial Physics Program</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.282133</relevance>
+            <count>1</count>
+            <text>Department of Defense</text>
+            <disambiguated>
+                <name>United States Department of Defense</name>
+                <subType>ArmedForce</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.defenselink.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.306848</relevance>
+            <relevance>0.263979</relevance>
             <count>1</count>
             <text>New Jersey</text>
             <disambiguated>
@@ -204,13 +228,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.305087</relevance>
-            <count>1</count>
-            <text>International SolarTerrestrial Physics Program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.30379</relevance>
+            <relevance>0.26137</relevance>
             <count>1</count>
             <text>Princeton</text>
             <disambiguated>
@@ -229,7 +247,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.303708</relevance>
+            <relevance>0.261362</relevance>
             <count>1</count>
             <text>General Electric</text>
             <disambiguated>
@@ -243,26 +261,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.258277</relevance>
-            <count>1</count>
-            <text>Department of Defense</text>
-            <disambiguated>
-                <name>United States Department of Defense</name>
-                <subType>ArmedForce</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.defenselink.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.252484</relevance>
+            <relevance>0.254222</relevance>
             <count>1</count>
             <text>Huntington</text>
         </entity>

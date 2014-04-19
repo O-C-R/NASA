@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.950241</relevance>
+            <relevance>0.772873</relevance>
             <count>14</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.907673</relevance>
+            <relevance>0.580895</relevance>
             <count>6</count>
             <text>NASA administrator</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.524975</relevance>
+            <relevance>0.490493</relevance>
             <count>5</count>
             <text>Federal Aviation Administration</text>
             <disambiguated>
@@ -49,13 +49,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.470149</relevance>
+            <relevance>0.372938</relevance>
             <count>3</count>
             <text>LaRC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.465196</relevance>
+            <relevance>0.363347</relevance>
             <count>3</count>
             <text>Dr. Robert A. Frosch</text>
             <disambiguated>
@@ -66,14 +66,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.394861</relevance>
-            <count>2</count>
-            <text>associate administrator</text>
+            <type>Country</type>
+            <relevance>0.335996</relevance>
+            <count>4</count>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.389407</relevance>
+            <relevance>0.335283</relevance>
+            <count>3</count>
+            <text>AvWk</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.315709</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -94,28 +114,71 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.375597</relevance>
-            <count>4</count>
-            <text>U.S.</text>
+            <type>Company</type>
+            <relevance>0.275824</relevance>
+            <count>1</count>
+            <text>Douglas Aircraft Co.</text>
             <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
+                <name>Douglas Aircraft Company</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
+                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.275644</relevance>
+            <count>1</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.273177</relevance>
+            <count>2</count>
+            <text>Wallace Buzzard</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.271922</relevance>
+            <count>2</count>
+            <text>President Carter</text>
+            <disambiguated>
+                <name>Jimmy Carter</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>USPresident</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Jimmy_Carter</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042kg</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPvV45wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Jimmy_Carter</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.2714</relevance>
+            <count>1</count>
+            <text>deputy administrator</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.373501</relevance>
+            <relevance>0.270019</relevance>
             <count>1</count>
             <text>Mojave desert</text>
             <disambiguated>
@@ -129,19 +192,53 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.358624</relevance>
+            <relevance>0.265199</relevance>
             <count>1</count>
             <text>JSC</text>
             <disambiguated>
-                <name>Company</name>
-                <dbpedia>http://dbpedia.org/resource/Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bxgrp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjQNpwpEbGdrcN5Y29ycA</opencyc>
+                <name>Johnson State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.jsc.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Johnson_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02m0vy</freebase>
+                <yago>http://yago-knowledge.org/resource/Johnson_State_College</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.262473</relevance>
+            <count>1</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.261552</relevance>
+            <count>1</count>
+            <text>Space Museum</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.261245</relevance>
+            <count>2</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.260897</relevance>
+            <count>1</count>
+            <text>Civil Aviation Organization</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.259488</relevance>
+            <count>2</count>
+            <text>associate administrator</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.351016</relevance>
+            <relevance>0.251916</relevance>
             <count>1</count>
             <text>Carl Sagan</text>
             <disambiguated>
@@ -163,14 +260,31 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.350652</relevance>
-            <count>2</count>
-            <text>Wallace Buzzard</text>
+            <type>Facility</type>
+            <relevance>0.251138</relevance>
+            <count>1</count>
+            <text>Wright Patterson AFB</text>
+            <disambiguated>
+                <name>Wright-Patterson Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>39.823055555555555 -84.04944444444445</geo>
+                <website>http://www.wpafb.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Wright-Patterson_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013jsh</freebase>
+                <yago>http://yago-knowledge.org/resource/Wright-Patterson_Air_Force_Base</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.250072</relevance>
+            <count>1</count>
+            <text>Project RECOUP</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.347648</relevance>
+            <relevance>0.248383</relevance>
             <count>1</count>
             <text>Jacques Yves Cousteau</text>
             <disambiguated>
@@ -180,42 +294,96 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.247076</relevance>
+            <count>1</count>
+            <text>ICAO</text>
+            <disambiguated>
+                <name>International Civil Aviation Organization</name>
+                <geo>45.500277777777775 -73.56416666666667</geo>
+                <website>http://www.icao.int</website>
+                <dbpedia>http://dbpedia.org/resource/International_Civil_Aviation_Organization</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03w2s</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvY-QdZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/International_Civil_Aviation_Organization</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.245531</relevance>
+            <count>2</count>
+            <text>Secretary General Kurt Waldheim</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.3432</relevance>
+            <relevance>0.244786</relevance>
             <count>1</count>
             <text>assistant administrator</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.340527</relevance>
-            <count>3</count>
-            <text>AvWk</text>
+            <type>Organization</type>
+            <relevance>0.241308</relevance>
+            <count>2</count>
+            <text>USAF</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.333393</relevance>
+            <type>Organization</type>
+            <relevance>0.238641</relevance>
             <count>1</count>
-            <text>Calif.</text>
+            <text>British government</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23854</relevance>
+            <count>1</count>
+            <text>Senate Space Committee</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.237249</relevance>
+            <count>1</count>
+            <text>Lockheed-Georgia Co.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.236299</relevance>
+            <count>1</count>
+            <text>Gov. Edmund G. Brown</text>
             <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
+                <name>Jerry Brown</name>
+                <subType>Politician</subType>
+                <subType>Governor</subType>
+                <website>http://www.jerrybrown.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Jerry_Brown</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017pf5</freebase>
+                <yago>http://yago-knowledge.org/resource/Jerry_Brown</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.233604</relevance>
+            <count>1</count>
+            <text>Buenos Aires</text>
+            <disambiguated>
+                <name>Landmarks in Buenos Aires</name>
+                <dbpedia>http://dbpedia.org/resource/Landmarks_in_Buenos_Aires</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05c0xgq</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.324263</relevance>
+            <relevance>0.233205</relevance>
             <count>1</count>
             <text>Los Angeles</text>
             <disambiguated>
@@ -232,224 +400,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.324198</relevance>
-            <count>1</count>
-            <text>Aviation Week</text>
-            <disambiguated>
-                <name>Aviation Week &amp; Space Technology</name>
-                <subType>ConsumerProduct</subType>
-                <subType>Magazine</subType>
-                <website>http://www.aviationweek.com</website>
-                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
-                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.323275</relevance>
-            <count>1</count>
-            <text>Wright Patterson AFB</text>
-            <disambiguated>
-                <name>Wright-Patterson Air Force Base</name>
-                <subType>Location</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Airport</subType>
-                <geo>39.823055555555555 -84.04944444444445</geo>
-                <website>http://www.wpafb.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Wright-Patterson_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013jsh</freebase>
-                <yago>http://yago-knowledge.org/resource/Wright-Patterson_Air_Force_Base</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.322015</relevance>
-            <count>1</count>
-            <text>Civil Aviation Organization</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.321188</relevance>
-            <count>2</count>
-            <text>chairman</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.321024</relevance>
-            <count>1</count>
-            <text>Space Museum</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.315733</relevance>
-            <count>1</count>
-            <text>Gov. Edmund G. Brown</text>
-            <disambiguated>
-                <name>Jerry Brown</name>
-                <subType>Politician</subType>
-                <subType>Governor</subType>
-                <website>http://www.jerrybrown.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Jerry_Brown</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017pf5</freebase>
-                <yago>http://yago-knowledge.org/resource/Jerry_Brown</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.315256</relevance>
-            <count>2</count>
-            <text>President Carter</text>
-            <disambiguated>
-                <name>Jimmy Carter</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>AwardNominee</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>USPresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Jimmy_Carter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042kg</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPvV45wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Jimmy_Carter</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.314809</relevance>
-            <count>1</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.313223</relevance>
-            <count>1</count>
-            <text>United Bank of Calif</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.310632</relevance>
-            <count>2</count>
-            <text>USAF</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.305831</relevance>
-            <count>1</count>
-            <text>Douglas Aircraft Co.</text>
-            <disambiguated>
-                <name>Douglas Aircraft Company</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Douglas_Aircraft_Company</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cp1t</freebase>
-                <yago>http://yago-knowledge.org/resource/Douglas_Aircraft_Company</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.305515</relevance>
-            <count>1</count>
-            <text>Gerard K.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.305377</relevance>
-            <count>2</count>
-            <text>Secretary General Kurt Waldheim</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.305007</relevance>
-            <count>1</count>
-            <text>ICAO</text>
-            <disambiguated>
-                <name>International Civil Aviation Organization</name>
-                <geo>45.500277777777775 -73.56416666666667</geo>
-                <website>http://www.icao.int</website>
-                <dbpedia>http://dbpedia.org/resource/International_Civil_Aviation_Organization</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03w2s</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvY-QdZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/International_Civil_Aviation_Organization</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.302415</relevance>
-            <count>2</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.300128</relevance>
-            <count>1</count>
-            <text>deputy administrator</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.299613</relevance>
-            <count>1</count>
-            <text>WFC</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.299389</relevance>
-            <count>1</count>
-            <text>Harold E. Gartrell</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294522</relevance>
-            <count>1</count>
-            <text>British government</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.292577</relevance>
-            <count>1</count>
-            <text>Aeronautic Assn</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.292401</relevance>
-            <count>1</count>
-            <text>assistant manager</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.289877</relevance>
-            <count>1</count>
-            <text>Ray Kline</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.288303</relevance>
-            <count>1</count>
-            <text>Buenos Aires</text>
-            <disambiguated>
-                <name>Landmarks in Buenos Aires</name>
-                <dbpedia>http://dbpedia.org/resource/Landmarks_in_Buenos_Aires</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05c0xgq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.287642</relevance>
+            <relevance>0.233065</relevance>
             <count>1</count>
             <text>JFK International Airport</text>
             <disambiguated>
@@ -467,35 +419,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.282485</relevance>
+            <type>Person</type>
+            <relevance>0.231701</relevance>
             <count>1</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
+            <text>Leo Daspit</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.280963</relevance>
-            <count>2</count>
-            <text>Groo</text>
+            <type>StateOrCounty</type>
+            <relevance>0.230653</relevance>
+            <count>1</count>
+            <text>Calif</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.280843</relevance>
+            <relevance>0.228869</relevance>
             <count>1</count>
             <text>United Nations</text>
             <disambiguated>
@@ -512,14 +449,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.279623</relevance>
+            <type>Country</type>
+            <relevance>0.227978</relevance>
             <count>1</count>
-            <text>military equipment</text>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.279611</relevance>
+            <relevance>0.227862</relevance>
             <count>1</count>
             <text>Dr. James C. Fletcher</text>
             <disambiguated>
@@ -532,37 +478,91 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.227352</relevance>
+            <count>1</count>
+            <text>Christopher C. Kraft</text>
+            <disambiguated>
+                <name>Christopher C. Kraft, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vcvg</freebase>
+                <yago>http://yago-knowledge.org/resource/Christopher_C._Kraft,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.22677</relevance>
+            <count>1</count>
+            <text>Aeronautic Assn</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226056</relevance>
+            <count>1</count>
+            <text>Frank Moss</text>
+            <disambiguated>
+                <name>Frank Moss (politician)</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Frank_Moss_(politician)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01zqc4</freebase>
+                <yago>http://yago-knowledge.org/resource/Frank_Moss_(politician)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Degree</type>
-            <relevance>0.278152</relevance>
+            <relevance>0.225593</relevance>
             <count>1</count>
             <text>ICAO</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.277862</relevance>
-            <count>1</count>
-            <text>Senate Space Committee</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.277121</relevance>
-            <count>1</count>
-            <text>Leo Daspit</text>
+            <relevance>0.224532</relevance>
+            <count>2</count>
+            <text>Bradford Johnston</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.273627</relevance>
+            <type>City</type>
+            <relevance>0.223567</relevance>
             <count>1</count>
-            <text>USSR</text>
+            <text>Hampton</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>Hampton, Virginia</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>USCounty</subType>
+                <geo>37.03472222222222 -76.36</geo>
+                <website>http://www.hampton.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Hampton,_Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mnsf</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/va/counties/hampton/hampton</census>
+                <yago>http://yago-knowledge.org/resource/Hampton,_Virginia</yago>
+                <geonames>http://sws.geonames.org/4762894/</geonames>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.223112</relevance>
+            <count>1</count>
+            <text>United Bank of Calif</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.221733</relevance>
+            <count>1</count>
+            <text>project manager</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.221522</relevance>
+            <count>1</count>
+            <text>Langley Researcher</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.221276</relevance>
+            <count>2</count>
+            <text>chairman</text>
         </entity>
     </entities>
 </results>

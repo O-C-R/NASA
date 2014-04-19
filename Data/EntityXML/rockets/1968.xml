@@ -6,15 +6,9 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.863561</relevance>
-            <count>30</count>
-            <text>nasa Rpt</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.833186</relevance>
-            <count>97</count>
+            <relevance>0.832625</relevance>
+            <count>92</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -34,14 +28,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.813498</relevance>
+            <count>30</count>
+            <text>nasa Rpt</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.768462</relevance>
+            <relevance>0.771715</relevance>
             <count>26</count>
-            <text>nasa Wallops Station</text>
+            <text>NASA Wallops Station</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.66005</relevance>
+            <relevance>0.657958</relevance>
             <count>22</count>
             <text>nasa</text>
             <disambiguated>
@@ -63,7 +63,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.45929</relevance>
+            <relevance>0.463062</relevance>
             <count>72</count>
             <text>Rockets</text>
             <disambiguated>
@@ -74,26 +74,92 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.402658</relevance>
+            <count>2</count>
+            <text>nasa Rpt SRL</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.381363</relevance>
+            <count>15</count>
+            <text>WSMR</text>
+            <disambiguated>
+                <name>WSMR (FM)</name>
+                <subType>RadioStation</subType>
+                <geo>27.100277777777777 -82.37166666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/WSMR_(FM)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03cwpmx</freebase>
+                <yago>http://yago-knowledge.org/resource/WSMR_(FM)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.406343</relevance>
+            <relevance>0.376512</relevance>
             <count>23</count>
             <text>Churchill Research Range</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.333828</relevance>
-            <count>1</count>
-            <text>nasa Rpt SRL</text>
+            <type>Company</type>
+            <relevance>0.257626</relevance>
+            <count>2</count>
+            <text>nasa Rpts srl</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.329893</relevance>
-            <count>15</count>
-            <text>wsmr</text>
+            <type>Facility</type>
+            <relevance>0.251623</relevance>
+            <count>1</count>
+            <text>Thumba Equatorial Rocket Launching Station</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.241485</relevance>
+            <count>6</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.237668</relevance>
+            <count>3</count>
+            <text>GSFC</text>
+            <disambiguated>
+                <name>Goddard Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>GovernmentAgency</subType>
+                <geo>38.996944444444445 -76.84833333333333</geo>
+                <website>http://www.nasa.gov/centers/goddard/home/</website>
+                <dbpedia>http://dbpedia.org/resource/Goddard_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmpb</freebase>
+                <yago>http://yago-knowledge.org/resource/Goddard_Space_Flight_Center</yago>
+                <geonames>http://sws.geonames.org/4356342/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.235071</relevance>
+            <count>1</count>
+            <text>nasa&#x2019;s Michoud Assembly Facility</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.232042</relevance>
+            <count>5</count>
+            <text>California</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.265996</relevance>
+            <relevance>0.218863</relevance>
             <count>6</count>
             <text>Sweden</text>
             <disambiguated>
@@ -112,111 +178,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.248584</relevance>
-            <count>2</count>
-            <text>nasa Rpts srl</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.240873</relevance>
-            <count>6</count>
-            <text>Aerobee</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.234309</relevance>
-            <count>3</count>
-            <text>GSFC</text>
-            <disambiguated>
-                <name>Goddard Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>GovernmentAgency</subType>
-                <geo>38.996944444444445 -76.84833333333333</geo>
-                <website>http://www.nasa.gov/centers/goddard/home/</website>
-                <dbpedia>http://dbpedia.org/resource/Goddard_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmpb</freebase>
-                <yago>http://yago-knowledge.org/resource/Goddard_Space_Flight_Center</yago>
-                <geonames>http://sws.geonames.org/4356342/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.232544</relevance>
-            <count>1</count>
-            <text>nasa&#x2019;s Michoud Assembly Facility</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.220727</relevance>
-            <count>1</count>
-            <text>Thumba Equatorial Rocket Launching Station</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.21756</relevance>
-            <count>5</count>
-            <text>aurora</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.214702</relevance>
-            <count>4</count>
-            <text>Max Planck Institute</text>
-            <disambiguated>
-                <name>Max Planck Society</name>
-                <website>http://www.mpg.de</website>
-                <dbpedia>http://dbpedia.org/resource/Max_Planck_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02wsd8</freebase>
-                <yago>http://yago-knowledge.org/resource/Max_Planck_Society</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.214009</relevance>
-            <count>5</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.212203</relevance>
-            <count>1</count>
-            <text>NASA Office of Advanced Research and Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.208213</relevance>
-            <count>4</count>
-            <text>Univ. of Michigan</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.195005</relevance>
-            <count>3</count>
-            <text>Kiruna</text>
-            <disambiguated>
-                <name>Kiruna</name>
-                <website>http://kiruna.se/</website>
-                <dbpedia>http://dbpedia.org/resource/Kiruna</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0zv2v</freebase>
-                <yago>http://yago-knowledge.org/resource/Kiruna</yago>
-                <geonames>http://sws.geonames.org/605155/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.192527</relevance>
+            <relevance>0.216452</relevance>
             <count>5</count>
             <text>NYT</text>
             <disambiguated>
@@ -234,25 +197,52 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.213484</relevance>
+            <count>1</count>
+            <text>NASA Office of Advanced Research and Technology</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.191767</relevance>
-            <count>3</count>
-            <text>Germany</text>
+            <relevance>0.208367</relevance>
+            <count>4</count>
+            <text>Norway</text>
             <disambiguated>
-                <name>Germany</name>
+                <name>Norway</name>
                 <subType>Location</subType>
+                <subType>HumanLanguage</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.deutschland.de/</website>
-                <dbpedia>http://dbpedia.org/resource/Germany</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Germany</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0cn004</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj4PJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Germany</yago>
+                <subType>Kingdom</subType>
+                <subType>AwardDiscipline</subType>
+                <website>http://www.norway.no</website>
+                <dbpedia>http://dbpedia.org/resource/Norway</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Norway</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05b4w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVifKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Norway</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.205078</relevance>
+            <count>5</count>
+            <text>aurora</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.201875</relevance>
+            <count>4</count>
+            <text>San Diego</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.199576</relevance>
+            <count>4</count>
+            <text>Univ. of New</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.190102</relevance>
+            <relevance>0.194861</relevance>
             <count>5</count>
             <text>Alaska</text>
             <disambiguated>
@@ -271,20 +261,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.185401</relevance>
-            <count>5</count>
-            <text>California</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.184545</relevance>
-            <count>4</count>
-            <text>Univ. of New</text>
+            <type>City</type>
+            <relevance>0.186025</relevance>
+            <count>3</count>
+            <text>Andoya</text>
+            <disambiguated>
+                <name>And&#xF8;y</name>
+                <dbpedia>http://dbpedia.org/resource/And&#xF8;y</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018btc</freebase>
+                <yago>http://yago-knowledge.org/resource/And%C3%B8y</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.184287</relevance>
+            <relevance>0.186011</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -304,57 +294,78 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.183649</relevance>
-            <count>4</count>
-            <text>San Diego</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.183419</relevance>
-            <count>4</count>
-            <text>Norway</text>
-            <disambiguated>
-                <name>Norway</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <website>http://www.norway.no</website>
-                <dbpedia>http://dbpedia.org/resource/Norway</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Norway</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05b4w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVifKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Norway</yago>
-            </disambiguated>
+            <relevance>0.185659</relevance>
+            <count>5</count>
+            <text>Aerobee</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.181767</relevance>
+            <relevance>0.185294</relevance>
             <count>5</count>
             <text>Point Barrow</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.177231</relevance>
+            <type>Country</type>
+            <relevance>0.181307</relevance>
             <count>3</count>
-            <text>Univ. of Colorado</text>
+            <text>Germany</text>
+            <disambiguated>
+                <name>Germany</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.deutschland.de/</website>
+                <dbpedia>http://dbpedia.org/resource/Germany</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Germany</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0cn004</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj4PJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.180727</relevance>
+            <count>4</count>
+            <text>Max Planck Institute</text>
+            <disambiguated>
+                <name>Max Planck Society</name>
+                <website>http://www.mpg.de</website>
+                <dbpedia>http://dbpedia.org/resource/Max_Planck_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02wsd8</freebase>
+                <yago>http://yago-knowledge.org/resource/Max_Planck_Society</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.174819</relevance>
+            <count>4</count>
+            <text>Univ. of Michigan</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.174618</relevance>
+            <count>2</count>
+            <text>Churchill</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.167028</relevance>
+            <relevance>0.170425</relevance>
             <count>3</count>
             <text>LaRC.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.166418</relevance>
+            <relevance>0.169929</relevance>
             <count>2</count>
-            <text>Parachute</text>
+            <text>Maj. Jerauld R. Gentry</text>
+            <disambiguated>
+                <name>Jerauld R. Gentry</name>
+                <dbpedia>http://dbpedia.org/resource/Jerauld_R._Gentry</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zspl8</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.166361</relevance>
+            <relevance>0.166391</relevance>
             <count>3</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -372,61 +383,54 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.165359</relevance>
-            <count>3</count>
-            <text>Andoya</text>
-            <disambiguated>
-                <name>And&#xF8;y</name>
-                <dbpedia>http://dbpedia.org/resource/And&#xF8;y</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018btc</freebase>
-                <yago>http://yago-knowledge.org/resource/And%C3%B8y</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.162828</relevance>
+            <type>Company</type>
+            <relevance>0.166259</relevance>
             <count>2</count>
-            <text>Dr. Wernher von Braun</text>
-            <disambiguated>
-                <name>Wernher von Braun</name>
-                <subType>AwardWinner</subType>
-                <subType>Inventor</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>TVActor</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Wernher_von_Braun</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0850x</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv4by9JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Wernher_von_Braun</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.162515</relevance>
-            <count>2</count>
-            <text>Maj. Jerauld R. Gentry</text>
-            <disambiguated>
-                <name>Jerauld R. Gentry</name>
-                <dbpedia>http://dbpedia.org/resource/Jerauld_R._Gentry</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zspl8</freebase>
-            </disambiguated>
+            <text>BMwF</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.160683</relevance>
+            <relevance>0.16479</relevance>
             <count>2</count>
-            <text>Aerobee</text>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.15955</relevance>
-            <count>2</count>
-            <text>United Technology Center</text>
+            <relevance>0.164573</relevance>
+            <count>1</count>
+            <text>Indian National Committee for Space Research</text>
+            <disambiguated>
+                <name>Indian National Committee for Space Research</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/Indian_National_Committee_for_Space_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rbq68</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.164299</relevance>
+            <count>3</count>
+            <text>Kiruna</text>
+            <disambiguated>
+                <name>Kiruna</name>
+                <website>http://kiruna.se/</website>
+                <dbpedia>http://dbpedia.org/resource/Kiruna</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0zv2v</freebase>
+                <yago>http://yago-knowledge.org/resource/Kiruna</yago>
+                <geonames>http://sws.geonames.org/605155/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.155017</relevance>
+            <relevance>0.161483</relevance>
             <count>2</count>
             <text>France</text>
             <disambiguated>
@@ -446,90 +450,128 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.154863</relevance>
+            <type>Organization</type>
+            <relevance>0.160694</relevance>
+            <count>2</count>
+            <text>German Federal Ministry for Scientific Research</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.160486</relevance>
             <count>1</count>
-            <text>United Aircraft Corp.</text>
+            <text>St. Louis</text>
             <disambiguated>
-                <name>United Aircraft and Transport Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/United_Aircraft_and_Transport_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rwbc</freebase>
+                <name>St. Louis, Missouri</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://stlouis.missouri.org</website>
+                <dbpedia>http://dbpedia.org/resource/St._Louis,_Missouri</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06wxw</freebase>
+                <yago>http://yago-knowledge.org/resource/St._Louis,_Missouri</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.159379</relevance>
+            <count>1</count>
+            <text>Atmospheric Research</text>
+            <disambiguated>
+                <name>Atmospheric Research</name>
+                <subType>Journal</subType>
+                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
+                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
+                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.154416</relevance>
+            <relevance>0.158623</relevance>
             <count>2</count>
             <text>Bermuda</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.158488</relevance>
+            <count>1</count>
+            <text>Anne Morrow</text>
+            <disambiguated>
+                <name>Anne Morrow Lindbergh</name>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>HallOfFameInductee</subType>
+                <dbpedia>http://dbpedia.org/resource/Anne_Morrow_Lindbergh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017dz3</freebase>
+                <yago>http://yago-knowledge.org/resource/Anne_Morrow_Lindbergh</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.157916</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas Corp.</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.152327</relevance>
+            <relevance>0.157905</relevance>
             <count>2</count>
             <text>acs</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.152226</relevance>
-            <count>1</count>
-            <text>Director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.152148</relevance>
-            <count>2</count>
-            <text>Univ. of Maryland</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.150267</relevance>
-            <count>2</count>
-            <text>Reuters</text>
             <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+                <name>141st Air Control Squadron</name>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/141st_Air_Control_Squadron</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b6ft00</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.14853</relevance>
-            <count>1</count>
-            <text>gca Corp.</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.147637</relevance>
-            <count>1</count>
-            <text>Battelle Memorial Institute</text>
-            <disambiguated>
-                <name>Battelle Memorial Institute</name>
-                <website>http://www.battelle.org</website>
-                <dbpedia>http://dbpedia.org/resource/Battelle_Memorial_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02m9dl</freebase>
-                <yago>http://yago-knowledge.org/resource/Battelle_Memorial_Institute</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.147031</relevance>
-            <count>1</count>
-            <text>Churchill</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.146829</relevance>
+            <relevance>0.1569</relevance>
             <count>2</count>
-            <text>scientist</text>
+            <text>Rice Univ.</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.156195</relevance>
+            <count>1</count>
+            <text>Fort Churchill</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.146077</relevance>
+            <relevance>0.155979</relevance>
             <count>1</count>
-            <text>Aerospace Technology</text>
+            <text>human waste</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.155123</relevance>
+            <count>1</count>
+            <text>Marc 42A2</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.15468</relevance>
+            <count>1</count>
+            <text>Adelaide</text>
+            <disambiguated>
+                <name>Adelaide</name>
+                <dbpedia>http://dbpedia.org/resource/Adelaide</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mgp</freebase>
+                <yago>http://yago-knowledge.org/resource/Adelaide</yago>
+                <geonames>http://sws.geonames.org/2078025/</geonames>
+            </disambiguated>
         </entity>
     </entities>
 </results>

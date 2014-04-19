@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.869886</relevance>
-            <count>18</count>
+            <relevance>0.862022</relevance>
+            <count>20</count>
             <text>NASA</text>
             <disambiguated>
                 <name>Lyndon B. Johnson Space Center</name>
@@ -22,20 +22,37 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.706878</relevance>
+            <relevance>0.682852</relevance>
             <count>5</count>
             <text>NASA Manned Spacecraft Center</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.610272</relevance>
+            <count>10</count>
+            <text>USAF</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.612638</relevance>
+            <relevance>0.605776</relevance>
             <count>7</count>
-            <text>msc Roundup</text>
+            <text>MSC Roundup</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.600501</relevance>
-            <count>9</count>
+            <relevance>0.577706</relevance>
+            <count>7</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -55,27 +72,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.575142</relevance>
-            <count>10</count>
-            <text>USAF</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.553125</relevance>
+            <relevance>0.456402</relevance>
             <count>8</count>
-            <text>NYT</text>
+            <text>nyt</text>
             <disambiguated>
                 <name>The New York Times</name>
                 <subType>Organization</subType>
@@ -92,13 +92,13 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.493874</relevance>
+            <relevance>0.446289</relevance>
             <count>8</count>
             <text>AP</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.43299</relevance>
+            <relevance>0.43156</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -118,7 +118,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.399915</relevance>
+            <relevance>0.401168</relevance>
             <count>4</count>
             <text>Houston Post</text>
             <disambiguated>
@@ -130,22 +130,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.378537</relevance>
-            <count>3</count>
-            <text>Astronaut L. Gordon Cooper</text>
-            <disambiguated>
-                <name>Gordon Cooper</name>
-                <subType>FilmCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Gordon_Cooper</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01w_pp</freebase>
-                <yago>http://yago-knowledge.org/resource/Gordon_Cooper</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.367199</relevance>
+            <relevance>0.377365</relevance>
             <count>4</count>
             <text>Astronaut M. Scott Carpenter</text>
             <disambiguated>
@@ -160,7 +145,22 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.350288</relevance>
+            <relevance>0.376923</relevance>
+            <count>3</count>
+            <text>Astronaut L. Gordon Cooper</text>
+            <disambiguated>
+                <name>Gordon Cooper</name>
+                <subType>FilmCharacter</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Gordon_Cooper</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01w_pp</freebase>
+                <yago>http://yago-knowledge.org/resource/Gordon_Cooper</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.354486</relevance>
             <count>4</count>
             <text>Capt. Theodore C. Freeman</text>
             <disambiguated>
@@ -174,37 +174,134 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.349146</relevance>
+            <relevance>0.320606</relevance>
             <count>3</count>
             <text>AFSC</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.32757</relevance>
-            <count>1</count>
-            <text>NASA Assistant Administrator for Public Affairs</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.318495</relevance>
+            <relevance>0.31308</relevance>
             <count>5</count>
             <text>scientist</text>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.296471</relevance>
+            <type>Person</type>
+            <relevance>0.309614</relevance>
+            <count>4</count>
+            <text>Maj. Edwin Aldrin, Jr.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.294245</relevance>
             <count>1</count>
-            <text>msc Release</text>
+            <text>NASA Director of Space Medicine</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.295714</relevance>
+            <relevance>0.293335</relevance>
+            <count>1</count>
+            <text>Northrop Space Laboratories</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.290464</relevance>
+            <count>1</count>
+            <text>NASA Assistant Administrator for Public Affairs</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.286565</relevance>
+            <count>1</count>
+            <text>NASA Office of Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.285345</relevance>
+            <count>1</count>
+            <text>msc Release 64-69</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.28179</relevance>
             <count>2</count>
             <text>NYT</text>
         </entity>
         <entity>
+            <type>Degree</type>
+            <relevance>0.281543</relevance>
+            <count>1</count>
+            <text>msc Release</text>
+        </entity>
+        <entity>
+            <type>HealthCondition</type>
+            <relevance>0.281324</relevance>
+            <count>2</count>
+            <text>orthostatic hypotension</text>
+            <disambiguated>
+                <name>Orthostatic hypotension</name>
+                <subType>DiseaseOrMedicalCondition</subType>
+                <subType>RiskFactor</subType>
+                <subType>Symptom</subType>
+                <subType>Disease</subType>
+                <dbpedia>http://dbpedia.org/resource/Orthostatic_hypotension</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0pv4d</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.278426</relevance>
+            <count>1</count>
+            <text>USAf&#x2019;s Aerospace Research Pilot School</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.267658</relevance>
+            <count>2</count>
+            <text>Geneva</text>
+            <disambiguated>
+                <name>Geneva</name>
+                <subType>AdministrativeDivision</subType>
+                <website>http://ville-ge.ch</website>
+                <dbpedia>http://dbpedia.org/resource/Geneva</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03902</freebase>
+                <yago>http://yago-knowledge.org/resource/Geneva</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.266048</relevance>
+            <count>2</count>
+            <text>Aerospace Medical Association</text>
+            <disambiguated>
+                <name>Aerospace Medical Association</name>
+                <dbpedia>http://dbpedia.org/resource/Aerospace_Medical_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04793ls</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.263867</relevance>
+            <count>1</count>
+            <text>Maj. Edwin E. Aldrin</text>
+            <disambiguated>
+                <name>Buzz Aldrin</name>
+                <subType>Astronaut</subType>
+                <subType>AwardWinner</subType>
+                <subType>HallOfFameInductee</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OperaCharacter</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <website>http://www.buzzaldrin.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Buzz_Aldrin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hfml</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwRbTgJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Buzz_Aldrin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.284587</relevance>
+            <relevance>0.260176</relevance>
             <count>2</count>
             <text>Calif.</text>
             <disambiguated>
@@ -226,8 +323,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.277295</relevance>
-            <count>2</count>
+            <relevance>0.25999</relevance>
+            <count>1</count>
             <text>usn</text>
             <disambiguated>
                 <name>United States Navy</name>
@@ -240,165 +337,116 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.276576</relevance>
-            <count>1</count>
-            <text>NASA Director of Space Medicine</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.275862</relevance>
+            <relevance>0.259001</relevance>
             <count>2</count>
-            <text>Aerospace Medical Association</text>
-            <disambiguated>
-                <name>Aerospace Medical Association</name>
-                <dbpedia>http://dbpedia.org/resource/Aerospace_Medical_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04793ls</freebase>
-            </disambiguated>
+            <text>dod</text>
         </entity>
         <entity>
-            <type>HealthCondition</type>
-            <relevance>0.269078</relevance>
+            <type>Person</type>
+            <relevance>0.257815</relevance>
             <count>2</count>
-            <text>orthostatic hypotension</text>
-            <disambiguated>
-                <name>Orthostatic hypotension</name>
-                <subType>DiseaseOrMedicalCondition</subType>
-                <subType>RiskFactor</subType>
-                <subType>Symptom</subType>
-                <subType>Disease</subType>
-                <dbpedia>http://dbpedia.org/resource/Orthostatic_hypotension</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0pv4d</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.269007</relevance>
-            <count>1</count>
-            <text>NASA Office of Space Science and Applications</text>
+            <text>Prof. Vasily V. Parin</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.263806</relevance>
-            <count>1</count>
-            <text>Goodyear Aerospace Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.263729</relevance>
+            <relevance>0.256473</relevance>
             <count>1</count>
             <text>msc</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.256339</relevance>
+            <count>1</count>
+            <text>usaf Space Systems Div.</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.26208</relevance>
+            <relevance>0.253066</relevance>
             <count>1</count>
             <text>Astronaut Maneuvering Unit</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.253043</relevance>
+            <count>1</count>
+            <text>Idaho</text>
+            <disambiguated>
+                <name>Idaho</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <dbpedia>http://dbpedia.org/resource/Idaho</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03s5t</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVindZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Idaho</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.262003</relevance>
+            <relevance>0.252627</relevance>
             <count>1</count>
             <text>msc Release</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.260739</relevance>
-            <count>4</count>
-            <text>Maj. Edwin Aldrin, Jr.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.260295</relevance>
-            <count>2</count>
-            <text>Geneva</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.258367</relevance>
+            <relevance>0.251219</relevance>
             <count>1</count>
-            <text>USAf&#x2019;s Aerospace Research Pilot School</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.256747</relevance>
-            <count>1</count>
-            <text>El Centro</text>
-            <disambiguated>
-                <name>El Centro, California</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>32.79194444444445 -115.56305555555555</geo>
-                <dbpedia>http://dbpedia.org/resource/El_Centro,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qzq8</freebase>
-                <yago>http://yago-knowledge.org/resource/El_Centro,_California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.255523</relevance>
-            <count>1</count>
-            <text>Julian Scheer</text>
+            <text>usaf Tropic Survival School</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.252784</relevance>
+            <relevance>0.248164</relevance>
+            <count>1</count>
+            <text>USN Project Sea Lab</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.246482</relevance>
+            <count>1</count>
+            <text>T-33</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.246276</relevance>
+            <count>1</count>
+            <text>Outer Space Legal Subcommittee</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.246012</relevance>
+            <count>1</count>
+            <text>Aero Propulsion Laboratory</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.243743</relevance>
             <count>1</count>
             <text>MSC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.252254</relevance>
-            <count>1</count>
-            <text>usaf Space Systems Div.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.248763</relevance>
+            <relevance>0.242406</relevance>
             <count>2</count>
-            <text>dod</text>
+            <text>San Diego Union</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.247754</relevance>
+            <type>City</type>
+            <relevance>0.241518</relevance>
             <count>1</count>
-            <text>Denver Post</text>
+            <text>Houston</text>
             <disambiguated>
-                <name>The Denver Post</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.denverpost.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Denver_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.055b_5</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Denver_Post</yago>
+                <name>Houston</name>
+                <website>http://www.houstontx.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.247382</relevance>
-            <count>1</count>
-            <text>Gemini</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.245394</relevance>
-            <count>1</count>
-            <text>Aero Propulsion Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.241692</relevance>
-            <count>1</count>
-            <text>usaf Tropic Survival School</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.240395</relevance>
-            <count>1</count>
-            <text>Field Enterprises Educational Corp.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.236503</relevance>
+            <relevance>0.240133</relevance>
             <count>1</count>
             <text>R. Walter Cunningham</text>
             <disambiguated>
@@ -410,53 +458,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.236468</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.238926</relevance>
             <count>1</count>
-            <text>heart rate</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.236316</relevance>
-            <count>1</count>
-            <text>C-130</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.235729</relevance>
-            <count>1</count>
-            <text>Time Inc.</text>
+            <text>N.Y.</text>
             <disambiguated>
-                <name>Time Inc.</name>
-                <subType>AwardWinner</subType>
-                <subType>PeriodicalPublisher</subType>
-                <website>http://timeinc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Time_Inc.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02pbf3k</freebase>
-                <yago>http://yago-knowledge.org/resource/Time_Inc.</yago>
+                <name>New York</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>43.0 -75.0</geo>
+                <website>http://www.ny.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
+                <yago>http://yago-knowledge.org/resource/New_York</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.235704</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.238655</relevance>
             <count>1</count>
-            <text>Public Affairs Officer</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.235489</relevance>
-            <count>1</count>
-            <text>Editor and Publisher</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235316</relevance>
-            <count>1</count>
-            <text>Paul P. Haney</text>
+            <text>Life magazine</text>
+            <disambiguated>
+                <name>Life (magazine)</name>
+                <subType>Magazine</subType>
+                <website>http://www.Life.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Life_(magazine)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.019n3s</freebase>
+                <yago>http://yago-knowledge.org/resource/Life_(magazine)</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.234731</relevance>
+            <relevance>0.238217</relevance>
             <count>2</count>
             <text>Capt. Joe Engle</text>
             <disambiguated>
@@ -468,24 +508,24 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.232019</relevance>
+            <type>Company</type>
+            <relevance>0.236498</relevance>
             <count>1</count>
-            <text>USn&#x2019;s Sea Lab</text>
+            <text>Honeywell</text>
+            <disambiguated>
+                <name>Honeywell</name>
+                <website>http://www.honeywell.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Honeywell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gx66</freebase>
+                <yago>http://yago-knowledge.org/resource/Honeywell</yago>
+                <crunchbase>http://www.crunchbase.com/company/honeywell</crunchbase>
+            </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.231977</relevance>
+            <type>Organization</type>
+            <relevance>0.236445</relevance>
             <count>1</count>
-            <text>Life magazine</text>
-            <disambiguated>
-                <name>Life (magazine)</name>
-                <subType>Magazine</subType>
-                <website>http://www.Life.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Life_(magazine)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.019n3s</freebase>
-                <yago>http://yago-knowledge.org/resource/Life_(magazine)</yago>
-            </disambiguated>
+            <text>Field Enterprises Educational Corp.&#x2014;also</text>
         </entity>
     </entities>
 </results>

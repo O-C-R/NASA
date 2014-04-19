@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.887055</relevance>
+            <relevance>0.890114</relevance>
             <count>165</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.43936</relevance>
+            <relevance>0.548688</relevance>
             <count>7</count>
             <text>NASA Lewis Research Center</text>
             <disambiguated>
@@ -43,8 +43,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.317244</relevance>
+            <count>9</count>
+            <text>Marshall Space Flight center</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.297421</relevance>
+            <relevance>0.296848</relevance>
             <count>15</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -60,7 +66,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.291839</relevance>
+            <relevance>0.296796</relevance>
             <count>18</count>
             <text>California</text>
             <disambiguated>
@@ -81,26 +87,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.281399</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Policy Coordination and International Relations</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.278976</relevance>
-            <count>9</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.273002</relevance>
+            <relevance>0.280456</relevance>
             <count>1</count>
             <text>NASA Dryden Flight Research Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.27236</relevance>
+            <relevance>0.250967</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -122,7 +116,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.268168</relevance>
+            <relevance>0.248836</relevance>
             <count>10</count>
             <text>Pasadena</text>
             <disambiguated>
@@ -138,14 +132,80 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.240864</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Policy Coordination and International Relations</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.23737</relevance>
+            <count>8</count>
+            <text>Cleveland</text>
+            <disambiguated>
+                <name>Cleveland</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.city.cleveland.oh.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.220625</relevance>
+            <count>6</count>
+            <text>Antelope Valley</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.219755</relevance>
+            <count>6</count>
+            <text>aerospace industry</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.218142</relevance>
+            <count>5</count>
+            <text>LA Times</text>
+            <disambiguated>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.217531</relevance>
+            <count>6</count>
+            <text>Langley Research Center</text>
+            <disambiguated>
+                <name>Langley Research Center</name>
+                <subType>AircraftDesigner</subType>
+                <geo>37.09277 -76.38133</geo>
+                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
+                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.238237</relevance>
+            <relevance>0.216809</relevance>
             <count>4</count>
             <text>Dryden Flight Research Center</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.233986</relevance>
+            <relevance>0.207483</relevance>
             <count>9</count>
             <text>Virginia</text>
             <disambiguated>
@@ -164,82 +224,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.22361</relevance>
+            <relevance>0.201191</relevance>
             <count>6</count>
             <text>director</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.220242</relevance>
-            <count>6</count>
-            <text>Langley Research Center</text>
-            <disambiguated>
-                <name>Langley Research Center</name>
-                <subType>AircraftDesigner</subType>
-                <geo>37.09277 -76.38133</geo>
-                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
-                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.202956</relevance>
-            <count>2</count>
-            <text>Marshall Space Flight Center</text>
-            <disambiguated>
-                <name>Marshall Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.193291</relevance>
-            <count>6</count>
-            <text>aerospace industry</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.192628</relevance>
-            <count>8</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.191094</relevance>
-            <count>5</count>
-            <text>LA Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.191006</relevance>
+            <relevance>0.197522</relevance>
             <count>6</count>
             <text>Huntsville</text>
             <disambiguated>
@@ -255,7 +246,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.187735</relevance>
+            <relevance>0.194784</relevance>
             <count>6</count>
             <text>Alabama</text>
             <disambiguated>
@@ -276,8 +267,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.189026</relevance>
+            <count>4</count>
+            <text>Los Angeles</text>
+            <disambiguated>
+                <name>Los Angeles</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.177876</relevance>
+            <relevance>0.172646</relevance>
+            <count>3</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.168024</relevance>
             <count>4</count>
             <text>National Science Foundation</text>
             <disambiguated>
@@ -294,7 +316,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.17457</relevance>
+            <relevance>0.167299</relevance>
             <count>6</count>
             <text>Ohio</text>
             <disambiguated>
@@ -312,46 +334,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.174372</relevance>
-            <count>3</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.171967</relevance>
-            <count>3</count>
-            <text>Computer Sciences Corporation</text>
-            <disambiguated>
-                <name>Computer Sciences Corporation</name>
-                <website>http://www.csc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Computer_Sciences_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03s0d3</freebase>
-                <yago>http://yago-knowledge.org/resource/Computer_Sciences_Corporation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.168623</relevance>
-            <count>6</count>
-            <text>Antelope Valley</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.166789</relevance>
+            <relevance>0.165968</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -370,56 +354,109 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.16388</relevance>
+            <type>Organization</type>
+            <relevance>0.163371</relevance>
             <count>5</count>
-            <text>Hampton</text>
+            <text>AITP</text>
             <disambiguated>
-                <name>Hampton, Virginia</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>USCounty</subType>
-                <geo>37.03472222222222 -76.36</geo>
-                <website>http://www.hampton.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Hampton,_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mnsf</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/va/counties/hampton/hampton</census>
-                <yago>http://yago-knowledge.org/resource/Hampton,_Virginia</yago>
-                <geonames>http://sws.geonames.org/4762894/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.161797</relevance>
-            <count>4</count>
-            <text>Los Angeles</text>
-            <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+                <name>Association of Information Technology Professionals</name>
+                <website>http://www.aitp.org</website>
+                <dbpedia>http://dbpedia.org/resource/Association_of_Information_Technology_Professionals</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.076z4q</freebase>
+                <yago>http://yago-knowledge.org/resource/Association_of_Information_Technology_Professionals</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.158134</relevance>
-            <count>1</count>
-            <text>Office of Space Flight</text>
+            <relevance>0.162469</relevance>
+            <count>2</count>
+            <text>Marshall Space Flight Center</text>
+            <disambiguated>
+                <name>Marshall Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
+                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.162338</relevance>
+            <count>3</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.15924</relevance>
+            <count>5</count>
+            <text>Hampton</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.157905</relevance>
+            <relevance>0.157577</relevance>
             <count>3</count>
             <text>scientist</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.155219</relevance>
+            <count>2</count>
+            <text>Office of Advanced Concepts and Technology</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.154233</relevance>
+            <count>2</count>
+            <text>Martin Marietta Corporation</text>
+            <disambiguated>
+                <name>Martin Marietta</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Martin_Marietta</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02hk3j</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvqIyApwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Martin_Marietta</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.152095</relevance>
+            <count>1</count>
+            <text>Space Sciences Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.151907</relevance>
+            <count>2</count>
+            <text>Central State University</text>
+            <disambiguated>
+                <name>Central State University</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.centralstate.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Central_State_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05th6q</freebase>
+                <yago>http://yago-knowledge.org/resource/Central_State_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.157903</relevance>
+            <relevance>0.151256</relevance>
             <count>2</count>
             <text>Mount Palomar Observatory</text>
             <disambiguated>
@@ -433,205 +470,149 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.156894</relevance>
-            <count>2</count>
-            <text>Space Act Cooperative Agreements</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.153844</relevance>
-            <count>5</count>
-            <text>AITP</text>
-            <disambiguated>
-                <name>Association of Information Technology Professionals</name>
-                <website>http://www.aitp.org</website>
-                <dbpedia>http://dbpedia.org/resource/Association_of_Information_Technology_Professionals</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.076z4q</freebase>
-                <yago>http://yago-knowledge.org/resource/Association_of_Information_Technology_Professionals</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.151573</relevance>
-            <count>3</count>
-            <text>Associate Administrator</text>
+            <relevance>0.148207</relevance>
+            <count>1</count>
+            <text>Aerospace Industry Technology</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.149632</relevance>
+            <type>Company</type>
+            <relevance>0.1478</relevance>
             <count>2</count>
-            <text>National Space Agency of Ukraine</text>
+            <text>Reuters</text>
             <disambiguated>
-                <name>State Space Agency of Ukraine</name>
-                <dbpedia>http://dbpedia.org/resource/State_Space_Agency_of_Ukraine</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0511mb</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.148562</relevance>
-            <count>1</count>
-            <text>Lewis Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.148409</relevance>
-            <count>1</count>
-            <text>Ames Dryden Flight Research Facility</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.148351</relevance>
-            <count>1</count>
-            <text>Clark-Atlanta University</text>
-            <disambiguated>
-                <name>Clark Atlanta University</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>Facility</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>OlympicVenue</subType>
-                <subType>SportsFacility</subType>
-                <subType>University</subType>
-                <geo>33.75083333333333 -84.41027777777778</geo>
-                <website>http://www.cau.edu</website>
-                <dbpedia>http://dbpedia.org/resource/Clark_Atlanta_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03818y</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv6_9XpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Clark_Atlanta_University</yago>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.145452</relevance>
-            <count>2</count>
-            <text>Pennsylvania State University</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.145017</relevance>
-            <count>3</count>
-            <text>Government</text>
+            <relevance>0.146263</relevance>
+            <count>1</count>
+            <text>Dryden Flight Research Center</text>
             <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.142392</relevance>
+            <relevance>0.145653</relevance>
+            <count>2</count>
+            <text>Huntsville News</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.143849</relevance>
+            <count>1</count>
+            <text>AITP</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.143608</relevance>
+            <count>2</count>
+            <text>San Diego</text>
+            <disambiguated>
+                <name>San Diego</name>
+                <website>http://www.sandiego.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/San_Diego</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.071vr</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.141978</relevance>
+            <count>2</count>
+            <text>Space Act Cooperative Agreements</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.140602</relevance>
+            <count>1</count>
+            <text>Lockheed Corporation</text>
+            <disambiguated>
+                <name>Lockheed Corporation</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.140212</relevance>
             <count>2</count>
             <text>Science magazine</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.142295</relevance>
+            <type>Person</type>
+            <relevance>0.139091</relevance>
             <count>2</count>
-            <text>Earth sciences</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.141296</relevance>
-            <count>4</count>
-            <text>The Boeing Company</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.140616</relevance>
-            <count>1</count>
-            <text>Senate Governmental Affairs</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.140589</relevance>
-            <count>2</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.140309</relevance>
-            <count>2</count>
-            <text>Compton Gamma-Ray Observatory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.139114</relevance>
-            <count>1</count>
-            <text>NASA.</text>
+            <text>Harry Craft Jr.</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.138763</relevance>
-            <count>1</count>
-            <text>Aerospace Industry Technology Program</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.138095</relevance>
-            <count>1</count>
-            <text>Chicxulub crater</text>
-            <disambiguated>
-                <name>Chicxulub crater</name>
-                <subType>Location</subType>
-                <geo>21.4 -89.51666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Chicxulub_crater</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017l3r</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.136935</relevance>
+            <relevance>0.139071</relevance>
             <count>2</count>
-            <text>Washington</text>
+            <text>geophysicist</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.138844</relevance>
+            <count>1</count>
+            <text>Ames Dryden Flight Research Facility</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.138533</relevance>
+            <count>2</count>
+            <text>Ulysses</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.138452</relevance>
+            <count>3</count>
+            <text>Computer Sciences Corporation</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>Computer Sciences Corporation</name>
+                <website>http://www.csc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Computer_Sciences_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03s0d3</freebase>
+                <yago>http://yago-knowledge.org/resource/Computer_Sciences_Corporation</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.136706</relevance>
+            <type>Facility</type>
+            <relevance>0.137784</relevance>
             <count>1</count>
-            <text>Mexico</text>
+            <text>California Museum of Science and Industry</text>
             <disambiguated>
-                <name>Mexico</name>
+                <name>California Science Center</name>
+                <subType>Organization</subType>
                 <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmCinematographer</subType>
-                <website>http://www.gob.mx/wb/egobierno/egob_General_Information</website>
-                <dbpedia>http://dbpedia.org/resource/Mexico</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Mexico</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0b90_r</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkAiZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mexico</yago>
+                <subType>GovernmentAgency</subType>
+                <subType>Building</subType>
+                <subType>Museum</subType>
+                <geo>34.01555555555556 -118.28583333333333</geo>
+                <website>http://www.californiasciencecenter.org/</website>
+                <dbpedia>http://dbpedia.org/resource/California_Science_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.073tj2</freebase>
+                <yago>http://yago-knowledge.org/resource/California_Science_Center</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.137599</relevance>
+            <count>2</count>
+            <text>Earth sciences</text>
         </entity>
     </entities>
 </results>

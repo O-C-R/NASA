@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.794171</relevance>
-            <count>61</count>
+            <relevance>0.928623</relevance>
+            <count>58</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
                 <name>NASA</name>
@@ -28,8 +28,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.780199</relevance>
+            <count>18</count>
+            <text>Wash</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.651201</relevance>
+            <relevance>0.69983</relevance>
             <count>19</count>
             <text>usaf</text>
             <disambiguated>
@@ -45,34 +51,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.617017</relevance>
-            <count>18</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.593939</relevance>
-            <count>17</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.526926</relevance>
+            <relevance>0.663302</relevance>
             <count>12</count>
             <text>New York Times</text>
             <disambiguated>
@@ -91,7 +71,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.466422</relevance>
+            <relevance>0.655731</relevance>
             <count>10</count>
             <text>Administrator William F. McKee</text>
             <disambiguated>
@@ -102,59 +82,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.439041</relevance>
-            <count>9</count>
-            <text>John B. McKay</text>
+            <type>Country</type>
+            <relevance>0.640163</relevance>
+            <count>17</count>
+            <text>United States</text>
             <disambiguated>
-                <name>John B. McKay</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/John_B._McKay</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042z67</freebase>
-                <yago>http://yago-knowledge.org/resource/John_B._McKay</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.437393</relevance>
-            <count>6</count>
-            <text>William J. Coughlin</text>
-            <disambiguated>
-                <name>William J. Coughlin</name>
-                <dbpedia>http://dbpedia.org/resource/William_J._Coughlin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cp5jn</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.423627</relevance>
-            <count>6</count>
-            <text>Capt. Joseph H. Engle</text>
-            <disambiguated>
-                <name>Joe Engle</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Joe_Engle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j40f</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.407366</relevance>
-            <count>7</count>
-            <text>Roy William Johnson</text>
-            <disambiguated>
-                <name>William Johnson (Australian politician)</name>
-                <subType>Politician</subType>
-                <subType>MemberOfParliament</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/William_Johnson_(Australian_politician)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04645bb</freebase>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.376339</relevance>
+            <relevance>0.5846</relevance>
             <count>10</count>
             <text>Federal Aviation Agency</text>
             <disambiguated>
@@ -167,21 +116,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.371517</relevance>
-            <count>5</count>
-            <text>William Hines</text>
-            <disambiguated>
-                <name>William Hines</name>
-                <dbpedia>http://dbpedia.org/resource/William_Hines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dyp2h</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Hines</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.355436</relevance>
-            <count>6</count>
+            <relevance>0.543418</relevance>
+            <count>11</count>
             <text>NASA</text>
             <disambiguated>
                 <name>Lyndon B. Johnson Space Center</name>
@@ -194,20 +131,62 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.350306</relevance>
-            <count>5</count>
-            <text>Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.344913</relevance>
-            <count>2</count>
-            <text>NASA Deputy Associate Administrator for Industry Affairs</text>
+            <type>Person</type>
+            <relevance>0.538562</relevance>
+            <count>9</count>
+            <text>John B. McKay</text>
+            <disambiguated>
+                <name>John B. McKay</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/John_B._McKay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042z67</freebase>
+                <yago>http://yago-knowledge.org/resource/John_B._McKay</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.344732</relevance>
+            <relevance>0.524701</relevance>
+            <count>6</count>
+            <text>William J. Coughlin</text>
+            <disambiguated>
+                <name>William J. Coughlin</name>
+                <dbpedia>http://dbpedia.org/resource/William_J._Coughlin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cp5jn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.515115</relevance>
+            <count>9</count>
+            <text>Administrator</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.513206</relevance>
+            <count>7</count>
+            <text>Roy William Johnson</text>
+            <disambiguated>
+                <name>William Johnson (cricketer, born 1962)</name>
+                <dbpedia>http://dbpedia.org/resource/William_Johnson_(cricketer,_born_1962)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dlm49r</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.476117</relevance>
+            <count>6</count>
+            <text>Capt. Joseph H. Engle</text>
+            <disambiguated>
+                <name>Joe Engle</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Joe_Engle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j40f</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.471012</relevance>
             <count>4</count>
             <text>Administrator James E. Webb</text>
             <disambiguated>
@@ -221,48 +200,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.343185</relevance>
+            <relevance>0.436734</relevance>
+            <count>2</count>
+            <text>NASA Deputy Associate Administrator for Industry Affairs</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.414622</relevance>
             <count>1</count>
-            <text>NASA Assistant Associate Administrator for Advanced Research and Technology</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.324333</relevance>
-            <count>1</count>
-            <text>Director of NASA Office of Grants and Research Contracts</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.306839</relevance>
-            <count>1</count>
-            <text>nasa Ann.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.306629</relevance>
-            <count>3</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.305559</relevance>
-            <count>3</count>
-            <text>Edwards afb</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294787</relevance>
-            <count>4</count>
-            <text>Sen. Joseph S. Clark</text>
-            <disambiguated>
-                <name>Joseph S. Clark, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Joseph_S._Clark,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03ww2x</freebase>
-            </disambiguated>
+            <text>X-15 Flight usaf</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.293755</relevance>
+            <relevance>0.411465</relevance>
             <count>4</count>
             <text>Washington</text>
             <disambiguated>
@@ -280,30 +230,123 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.409215</relevance>
+            <count>5</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.403506</relevance>
+            <count>5</count>
+            <text>William Hines</text>
+            <disambiguated>
+                <name>William Hines</name>
+                <dbpedia>http://dbpedia.org/resource/William_Hines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dyp2h</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Hines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.293439</relevance>
+            <relevance>0.384419</relevance>
             <count>1</count>
             <text>NASA Associate Administrator for Space Science and Applications</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.287985</relevance>
-            <count>2</count>
-            <text>Soviet Union</text>
+            <type>City</type>
+            <relevance>0.379691</relevance>
+            <count>3</count>
+            <text>New York</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.37356</relevance>
+            <count>3</count>
+            <text>Edwards afb</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.372991</relevance>
+            <count>3</count>
+            <text>Gen. Joseph S. Bleymaier Jr.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.369279</relevance>
+            <count>4</count>
+            <text>Sen. Joseph S. Clark</text>
+            <disambiguated>
+                <name>Joseph S. Clark, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Joseph_S._Clark,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03ww2x</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.362763</relevance>
+            <count>3</count>
+            <text>Van A. Shepard</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.362411</relevance>
+            <count>1</count>
+            <text>Rep. William S. Moorhead</text>
+            <disambiguated>
+                <name>William S. Moorhead</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/William_S._Moorhead</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dnpfq</freebase>
+                <yago>http://yago-knowledge.org/resource/William_S._Moorhead</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.361316</relevance>
+            <count>1</count>
+            <text>NASA Assistant Administrator for Management Development</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.355712</relevance>
+            <count>4</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.349801</relevance>
+            <count>1</count>
+            <text>NASA Assistant Associate Administrator for Advanced Research and Technology</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.283549</relevance>
+            <relevance>0.349198</relevance>
             <count>1</count>
             <text>nasa</text>
             <disambiguated>
@@ -324,34 +367,69 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.28131</relevance>
-            <count>3</count>
-            <text>New York</text>
+            <type>Person</type>
+            <relevance>0.343254</relevance>
+            <count>2</count>
+            <text>Capt. William J. Knight</text>
             <disambiguated>
-                <name>New York City</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
+                <name>William J. Knight</name>
+                <subType>Politician</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/William_J._Knight</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vgkq</freebase>
+                <yago>http://yago-knowledge.org/resource/William_J._Knight</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.281105</relevance>
-            <count>4</count>
-            <text>director</text>
+            <type>Person</type>
+            <relevance>0.341415</relevance>
+            <count>3</count>
+            <text>Jr.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.280829</relevance>
+            <relevance>0.340488</relevance>
+            <count>2</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.338364</relevance>
+            <count>2</count>
+            <text>John Konrad</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.336652</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.334678</relevance>
+            <count>2</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.333903</relevance>
+            <count>2</count>
+            <text>A1 White</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.332962</relevance>
             <count>2</count>
             <text>Rockets</text>
             <disambiguated>
@@ -363,129 +441,43 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.279694</relevance>
+            <relevance>0.331899</relevance>
             <count>1</count>
             <text>NASA Manned Spacecraft Center</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.275786</relevance>
+            <type>Person</type>
+            <relevance>0.331768</relevance>
             <count>2</count>
-            <text>space program</text>
+            <text>Col. John H. Glenn, Jr.</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.275284</relevance>
-            <count>3</count>
-            <text>Gen. Joseph S. Bleymaier Jr.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.274287</relevance>
+            <type>Company</type>
+            <relevance>0.329652</relevance>
             <count>1</count>
-            <text>Federal government</text>
-            <disambiguated>
-                <name>Federal government of the United States</name>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
+            <text>NASA Hq.</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.274116</relevance>
-            <count>3</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.273909</relevance>
+            <type>Person</type>
+            <relevance>0.329432</relevance>
             <count>1</count>
-            <text>NASA Assistant Administrator for Management Development</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.271692</relevance>
-            <count>3</count>
-            <text>Chicago</text>
-            <disambiguated>
-                <name>Chicago</name>
-                <website>http://www.cityofchicago.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
-                <yago>http://yago-knowledge.org/resource/Chicago</yago>
-                <geonames>http://sws.geonames.org/4887398/</geonames>
-            </disambiguated>
+            <text>John F. Mason</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.271646</relevance>
-            <count>4</count>
-            <text>Sen. William Proxmire</text>
-            <disambiguated>
-                <name>William Proxmire</name>
-                <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/William_Proxmire</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02k47z</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Proxmire</yago>
-            </disambiguated>
+            <relevance>0.325907</relevance>
+            <count>2</count>
+            <text>John xxm</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.269804</relevance>
-            <count>1</count>
-            <text>Yuri Gagarin</text>
-            <disambiguated>
-                <name>Yuri Gagarin</name>
-                <subType>Astronaut</subType>
-                <subType>DisasterVictim</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
-                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268119</relevance>
-            <count>1</count>
-            <text>William Dana</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.263682</relevance>
-            <count>4</count>
-            <text>administrator</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.262988</relevance>
-            <count>3</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.258598</relevance>
+            <relevance>0.324775</relevance>
             <count>3</count>
             <text>William Rieke</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.25804</relevance>
+            <relevance>0.324234</relevance>
             <count>1</count>
             <text>John W. Young</text>
             <disambiguated>
@@ -498,68 +490,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.256628</relevance>
-            <count>1</count>
-            <text>John L. Sloop</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.256296</relevance>
-            <count>2</count>
-            <text>Martin Co.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.25575</relevance>
-            <count>2</count>
-            <text>Col. John H. Glenn, Jr.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.255203</relevance>
+            <relevance>0.322166</relevance>
             <count>1</count>
-            <text>Le Bourget</text>
+            <text>Aerospace Corp.</text>
             <disambiguated>
-                <name>Le Bourget</name>
-                <geo>48.937777777777775 2.428888888888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Le_Bourget</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.040kfj</freebase>
-                <yago>http://yago-knowledge.org/resource/Le_Bourget</yago>
-                <geonames>http://sws.geonames.org/3005082/</geonames>
+                <name>The Aerospace Corporation</name>
+                <website>http://www.aero.org/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Aerospace_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07c5f4</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Aerospace_Corporation</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.253883</relevance>
+            <relevance>0.319635</relevance>
             <count>1</count>
-            <text>Special Assistant to Administrator</text>
+            <text>Director of NASA Office of Grants and Research Contracts</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.253736</relevance>
+            <relevance>0.315099</relevance>
             <count>2</count>
-            <text>A1 White</text>
+            <text>Martin Co.</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.253581</relevance>
+            <type>Company</type>
+            <relevance>0.3097</relevance>
             <count>1</count>
-            <text>France</text>
+            <text>Flight Test Group</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.308368</relevance>
+            <count>3</count>
+            <text>Chicago</text>
             <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
+                <name>Chicago</name>
+                <website>http://www.cityofchicago.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
+                <yago>http://yago-knowledge.org/resource/Chicago</yago>
+                <geonames>http://sws.geonames.org/4887398/</geonames>
             </disambiguated>
         </entity>
     </entities>

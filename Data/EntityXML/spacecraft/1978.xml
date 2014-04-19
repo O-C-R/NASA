@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.89906</relevance>
+            <relevance>0.948515</relevance>
             <count>10</count>
             <text>Salyut</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.429053</relevance>
+            <relevance>0.491345</relevance>
             <count>8</count>
             <text>USSR</text>
             <disambiguated>
@@ -28,19 +28,41 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.332076</relevance>
-            <count>2</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.290099</relevance>
+            <relevance>0.376202</relevance>
             <count>4</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.24827</relevance>
+            <relevance>0.37281</relevance>
+            <count>3</count>
+            <text>Soyuz</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.345451</relevance>
+            <count>2</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.242405</relevance>
+            <count>2</count>
+            <text>East Germany</text>
+            <disambiguated>
+                <name>East Germany</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.thelivesofothers.com</website>
+                <dbpedia>http://dbpedia.org/resource/East_Germany</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03f2w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViiOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/East_Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.23607</relevance>
             <count>3</count>
             <text>Vladimir Kovalenok</text>
             <disambiguated>
@@ -52,40 +74,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.204081</relevance>
+            <type>City</type>
+            <relevance>0.226618</relevance>
             <count>2</count>
-            <text>Washington Post</text>
+            <text>Moscow</text>
             <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.198565</relevance>
+            <relevance>0.219216</relevance>
             <count>1</count>
             <text>space program</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.192411</relevance>
-            <count>2</count>
-            <text>Moscow</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.190665</relevance>
+            <type>Person</type>
+            <relevance>0.215073</relevance>
             <count>1</count>
-            <text>Tass</text>
+            <text>Sigmund Jahn</text>
+            <disambiguated>
+                <name>Sigmund J&#xE4;hn</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Sigmund_J&#xE4;hn</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.018rsq</freebase>
+                <yago>http://yago-knowledge.org/resource/Sigmund_J%C3%A4hn</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.188491</relevance>
+            <relevance>0.211675</relevance>
             <count>1</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -100,8 +127,27 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.210966</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.204961</relevance>
+            <count>1</count>
+            <text>Valery Bykovsky</text>
+            <disambiguated>
+                <name>Valery Bykovsky</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Valery_Bykovsky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bm_w</freebase>
+                <yago>http://yago-knowledge.org/resource/Valery_Bykovsky</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.177969</relevance>
+            <relevance>0.198311</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -120,43 +166,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.157577</relevance>
+            <type>JobTitle</type>
+            <relevance>0.186311</relevance>
+            <count>1</count>
+            <text>commander</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.184072</relevance>
             <count>2</count>
-            <text>East Germany</text>
+            <text>The Washington Post</text>
             <disambiguated>
-                <name>East Germany</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <website>http://www.thelivesofothers.com</website>
-                <dbpedia>http://dbpedia.org/resource/East_Germany</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03f2w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViiOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/East_Germany</yago>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.154649</relevance>
-            <count>1</count>
-            <text>Sigmund Jahn</text>
-            <disambiguated>
-                <name>Sigmund J&#xE4;hn</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Sigmund_J&#xE4;hn</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.018rsq</freebase>
-                <yago>http://yago-knowledge.org/resource/Sigmund_J%C3%A4hn</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.153073</relevance>
-            <count>1</count>
-            <text>Alexander Ivanchenkov</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.151751</relevance>
+            <relevance>0.171094</relevance>
             <count>1</count>
             <text>Konstantin Feoktistov</text>
             <disambiguated>
@@ -169,62 +200,49 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.149308</relevance>
+            <relevance>0.165116</relevance>
             <count>1</count>
             <text>life-support systems</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.146154</relevance>
-            <count>1</count>
-            <text>Valery Bykovsky</text>
-            <disambiguated>
-                <name>Valery Bykovsky</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Valery_Bykovsky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bm_w</freebase>
-                <yago>http://yago-knowledge.org/resource/Valery_Bykovsky</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.144563</relevance>
+            <relevance>0.162938</relevance>
             <count>1</count>
             <text>UPI</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.141563</relevance>
+            <relevance>0.15955</relevance>
             <count>1</count>
             <text>lOtons</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.139077</relevance>
-            <count>1</count>
-            <text>news agency</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.138698</relevance>
+            <relevance>0.156222</relevance>
             <count>1</count>
             <text>Novosti</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.135825</relevance>
+            <relevance>0.15453</relevance>
             <count>1</count>
             <text>energy research</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.134043</relevance>
+            <type>Person</type>
+            <relevance>0.153735</relevance>
             <count>1</count>
-            <text>commander</text>
+            <text>Alexander Ivanchenkov</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.153652</relevance>
+            <count>1</count>
+            <text>news agency</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.132323</relevance>
+            <relevance>0.148999</relevance>
             <count>1</count>
             <text>Aerospace Daily</text>
         </entity>

@@ -7,9 +7,9 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.935778</relevance>
-            <count>47</count>
-            <text>NASA</text>
+            <relevance>0.938448</relevance>
+            <count>46</count>
+            <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -29,8 +29,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.731495</relevance>
-            <count>27</count>
+            <relevance>0.618024</relevance>
+            <count>26</count>
             <text>faa</text>
             <disambiguated>
                 <name>Federal Aviation Administration</name>
@@ -42,19 +42,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.530109</relevance>
-            <count>10</count>
-            <text>John H. Shaffer</text>
-            <disambiguated>
-                <name>John H. Shaffer</name>
-                <dbpedia>http://dbpedia.org/resource/John_H._Shaffer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qvkdq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.483332</relevance>
+            <relevance>0.52775</relevance>
             <count>11</count>
             <text>frc</text>
             <disambiguated>
@@ -67,13 +56,35 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.456838</relevance>
+            <relevance>0.51754</relevance>
             <count>10</count>
-            <text>Dr. Edward E. David, Jr.</text>
+            <text>John H. Shaffer</text>
+            <disambiguated>
+                <name>John H. Shaffer</name>
+                <dbpedia>http://dbpedia.org/resource/John_H._Shaffer</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qvkdq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.49474</relevance>
+            <count>7</count>
+            <text>William H. Dana</text>
+            <disambiguated>
+                <name>Bill Dana (pilot)</name>
+                <dbpedia>http://dbpedia.org/resource/Bill_Dana_(pilot)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vgdn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.447138</relevance>
+            <count>7</count>
+            <text>Administrator</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.449192</relevance>
+            <relevance>0.41093</relevance>
             <count>10</count>
             <text>U.S.</text>
             <disambiguated>
@@ -93,7 +104,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.449161</relevance>
+            <relevance>0.401325</relevance>
             <count>6</count>
             <text>John A. Volpe</text>
             <disambiguated>
@@ -108,31 +119,85 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.438359</relevance>
-            <count>7</count>
-            <text>William H. Dana</text>
+            <type>Company</type>
+            <relevance>0.383933</relevance>
+            <count>3</count>
+            <text>nasa</text>
             <disambiguated>
-                <name>Bill Dana (pilot)</name>
-                <dbpedia>http://dbpedia.org/resource/Bill_Dana_(pilot)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vgdn</freebase>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.372958</relevance>
+            <count>10</count>
+            <text>Dr. Edward E. David, Jr.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.365522</relevance>
+            <count>5</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.354713</relevance>
+            <count>4</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.349589</relevance>
+            <count>6</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.431677</relevance>
+            <relevance>0.348167</relevance>
             <count>7</count>
             <text>Secretary</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.41597</relevance>
-            <count>7</count>
-            <text>Administrator</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.414647</relevance>
+            <relevance>0.345208</relevance>
             <count>5</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -159,54 +224,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.392824</relevance>
-            <count>3</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.370561</relevance>
-            <count>5</count>
-            <text>John A. Manke</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.357043</relevance>
-            <count>5</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.352003</relevance>
+            <relevance>0.342242</relevance>
             <count>5</count>
             <text>Sen. William Proxmire</text>
             <disambiguated>
@@ -220,14 +239,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.33903</relevance>
-            <count>4</count>
-            <text>White House</text>
+            <type>Person</type>
+            <relevance>0.319421</relevance>
+            <count>5</count>
+            <text>John A. Manke</text>
+        </entity>
+        <entity>
+            <type>Product</type>
+            <relevance>0.312405</relevance>
+            <count>3</count>
+            <text>B-52</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.322977</relevance>
+            <relevance>0.312192</relevance>
             <count>2</count>
             <text>faa</text>
             <disambiguated>
@@ -240,14 +265,62 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.31063</relevance>
+            <count>5</count>
+            <text>DOT</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.320945</relevance>
+            <relevance>0.308153</relevance>
+            <count>1</count>
+            <text>NASA Assistant Administrator for Policy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.307592</relevance>
             <count>4</count>
-            <text>Chairman</text>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.305307</relevance>
+            <count>3</count>
+            <text>Dr. William R. Lucas</text>
+            <disambiguated>
+                <name>William R. Lucas</name>
+                <dbpedia>http://dbpedia.org/resource/William_R._Lucas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0266_s9</freebase>
+                <yago>http://yago-knowledge.org/resource/William_R._Lucas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.304751</relevance>
+            <count>3</count>
+            <text>Dr. William D. McElroy</text>
+            <disambiguated>
+                <name>William D. McElroy</name>
+                <dbpedia>http://dbpedia.org/resource/William_D._McElroy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.092trl</freebase>
+                <yago>http://yago-knowledge.org/resource/William_D._McElroy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.303641</relevance>
+            <count>4</count>
+            <text>White House</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.302533</relevance>
+            <count>4</count>
+            <text>President</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.320797</relevance>
+            <relevance>0.298448</relevance>
             <count>7</count>
             <text>California</text>
             <disambiguated>
@@ -269,62 +342,97 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.313737</relevance>
+            <relevance>0.294545</relevance>
             <count>2</count>
-            <text>faa Administrator</text>
+            <text>Deputy Assistant Secretary of Transportation for Environment and Urban Systems</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.312282</relevance>
-            <count>6</count>
-            <text>New York Times</text>
+            <type>Company</type>
+            <relevance>0.292336</relevance>
+            <count>3</count>
+            <text>Grumman Aerospace Corp.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.289698</relevance>
+            <count>2</count>
+            <text>FAA Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.288662</relevance>
+            <count>2</count>
+            <text>msfc Deputy Director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.277585</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Advanced Research</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.273308</relevance>
+            <count>4</count>
+            <text>John E. Hirten</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.268225</relevance>
+            <count>1</count>
+            <text>nasa&#x2019;s Assistant Director for Lunar Sample</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.268044</relevance>
+            <count>2</count>
+            <text>Arkansas</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Arkansas</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>34.8 -92.2</geo>
+                <website>http://www.arkansas.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Arkansas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0vbk</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVijHZwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ar</census>
+                <yago>http://yago-knowledge.org/resource/Arkansas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.265817</relevance>
+            <count>2</count>
+            <text>B-52</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.264857</relevance>
+            <count>2</count>
+            <text>Rep. John F. Seiberling</text>
+            <disambiguated>
+                <name>John F. Seiberling</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_F._Seiberling</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b_2_p</freebase>
+                <yago>http://yago-knowledge.org/resource/John_F._Seiberling</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.308154</relevance>
-            <count>5</count>
-            <text>Director</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.302626</relevance>
-            <count>5</count>
-            <text>DOT</text>
-        </entity>
-        <entity>
-            <type>Product</type>
-            <relevance>0.300829</relevance>
-            <count>3</count>
-            <text>B-52</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.298079</relevance>
-            <count>3</count>
-            <text>Senate</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.296468</relevance>
+            <relevance>0.259669</relevance>
             <count>1</count>
-            <text>usaf Flight Test Center</text>
+            <text>Director of msfc&#x2019;s Program Development Directorate</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.294971</relevance>
+            <relevance>0.257871</relevance>
             <count>2</count>
             <text>Sen. Edward M. Kennedy</text>
             <disambiguated>
@@ -346,175 +454,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.292605</relevance>
-            <count>4</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.288506</relevance>
-            <count>2</count>
-            <text>Rep. John F. Seiberling</text>
-            <disambiguated>
-                <name>John F. Seiberling</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/John_F._Seiberling</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b_2_p</freebase>
-                <yago>http://yago-knowledge.org/resource/John_F._Seiberling</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.285839</relevance>
-            <count>1</count>
-            <text>nasa&#x2019;s Assistant Director for Lunar Sample</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.279831</relevance>
-            <count>2</count>
-            <text>Donald H. Lilienthal</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.273152</relevance>
-            <count>2</count>
-            <text>N.J.</text>
-            <disambiguated>
-                <name>New Jersey</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nj.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.273021</relevance>
-            <count>3</count>
-            <text>Dr. William R. Lucas</text>
-            <disambiguated>
-                <name>William R. Lucas</name>
-                <dbpedia>http://dbpedia.org/resource/William_R._Lucas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0266_s9</freebase>
-                <yago>http://yago-knowledge.org/resource/William_R._Lucas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.272924</relevance>
-            <count>1</count>
-            <text>Director of faa Office of Environmental Quality</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.27052</relevance>
-            <count>1</count>
-            <text>faa v/stol r&amp;d</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.269533</relevance>
-            <count>3</count>
-            <text>Ohio</text>
-            <disambiguated>
-                <name>Ohio</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.ohio.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Ohio</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.26538</relevance>
-            <count>2</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.261901</relevance>
-            <count>1</count>
-            <text>NASA Assistant Administrator for Policy</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.261551</relevance>
-            <count>1</count>
-            <text>Assistant Deputy Chief of Staff</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.2592</relevance>
-            <count>1</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.258757</relevance>
-            <count>2</count>
-            <text>Arkansas</text>
-            <disambiguated>
-                <name>Arkansas</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>34.8 -92.2</geo>
-                <website>http://www.arkansas.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Arkansas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0vbk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVijHZwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ar</census>
-                <yago>http://yago-knowledge.org/resource/Arkansas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.25809</relevance>
-            <count>2</count>
-            <text>msfc Deputy Director</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.258028</relevance>
+            <relevance>0.2577</relevance>
             <count>1</count>
             <text>Huntsville Times</text>
             <disambiguated>
@@ -527,26 +468,56 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.257816</relevance>
+            <type>Person</type>
+            <relevance>0.257317</relevance>
             <count>2</count>
-            <text>Deputy Chief of Staff</text>
+            <text>Donald H. Lilienthal</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.257114</relevance>
-            <count>1</count>
-            <text>Orion</text>
+            <type>Organization</type>
+            <relevance>0.257247</relevance>
+            <count>2</count>
+            <text>Stanford Univ.</text>
             <disambiguated>
-                <name>Orion Telescopes &amp; Binoculars</name>
-                <dbpedia>http://dbpedia.org/resource/Orion_Telescopes_&amp;_Binoculars</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gm0g9</freebase>
-                <yago>http://yago-knowledge.org/resource/Orion_Telescopes_&amp;_Binoculars</yago>
+                <name>Stanford University</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>SportsAssociation</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>ChivalricOrderMember</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>37.43 -122.17</geo>
+                <website>http://www.stanford.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Stanford_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06pwq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkIB5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Stanford_University</yago>
+                <geonames>http://sws.geonames.org/5398590/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.256975</relevance>
+            <count>2</count>
+            <text>John F. Kennedy International Airport</text>
+            <disambiguated>
+                <name>John F. Kennedy International Airport</name>
+                <subType>Location</subType>
+                <subType>Airport</subType>
+                <subType>TransportTerminus</subType>
+                <geo>40.639722222222225 -73.77888888888889</geo>
+                <website>http://www.jfk.aero/kennedy.html</website>
+                <dbpedia>http://dbpedia.org/resource/John_F._Kennedy_International_Airport</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0p1l2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvZFfYpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/John_F._Kennedy_International_Airport</yago>
+                <geonames>http://sws.geonames.org/5122732/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.255111</relevance>
+            <relevance>0.255249</relevance>
             <count>2</count>
             <text>Virginia</text>
             <disambiguated>
@@ -564,37 +535,62 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.254042</relevance>
+            <type>Person</type>
+            <relevance>0.254902</relevance>
             <count>1</count>
-            <text>Director of sst Development</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.253459</relevance>
-            <count>1</count>
-            <text>Patuxent Naval Air Station</text>
+            <text>Dr. Edward Teller</text>
             <disambiguated>
-                <name>Naval Air Station Patuxent River</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <geo>38.28611111111111 -76.41166666666666</geo>
-                <website>http://08614.*A</website>
-                <dbpedia>http://dbpedia.org/resource/Naval_Air_Station_Patuxent_River</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05z0ht</freebase>
-                <yago>http://yago-knowledge.org/resource/Naval_Air_Station_Patuxent_River</yago>
-                <geonames>http://sws.geonames.org/6326960/</geonames>
+                <name>Edward Teller</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Inventor</subType>
+                <subType>OperaCharacter</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Edward_Teller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09f79</freebase>
+                <yago>http://yago-knowledge.org/resource/Edward_Teller</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.25304</relevance>
+            <relevance>0.254465</relevance>
             <count>1</count>
-            <text>NASA Associate Administrator for Advanced Research</text>
+            <text>nsf Director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.253678</relevance>
+            <count>1</count>
+            <text>Director of sst Development</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.252964</relevance>
+            <count>2</count>
+            <text>N.J.</text>
+            <disambiguated>
+                <name>New Jersey</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.nj.gov</website>
+                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.252923</relevance>
+            <count>2</count>
+            <text>NYT</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.252777</relevance>
+            <relevance>0.252451</relevance>
             <count>1</count>
             <text>Little Rock</text>
             <disambiguated>

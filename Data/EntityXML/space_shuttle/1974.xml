@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.929957</relevance>
+            <relevance>0.803687</relevance>
             <count>25</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,55 +29,75 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.374734</relevance>
+            <relevance>0.305176</relevance>
             <count>4</count>
             <text>Rockwell International Corp</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.338266</relevance>
-            <count>1</count>
-            <text>Space Division</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.293266</relevance>
-            <count>1</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.28851</relevance>
-            <count>1</count>
-            <text>Goddard Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.275348</relevance>
-            <count>1</count>
-            <text>Johnson Space Center&#x2019;s Bioscience Payloads Office</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.274952</relevance>
-            <count>1</count>
-            <text>space exploration</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.272558</relevance>
+            <relevance>0.295857</relevance>
             <count>2</count>
             <text>European Space Research Organization</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.268327</relevance>
+            <relevance>0.272309</relevance>
             <count>4</count>
             <text>Spacelab</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.261076</relevance>
+            <count>1</count>
+            <text>Space Division</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255039</relevance>
+            <count>1</count>
+            <text>Johnson Space Center&#x2019;s Bioscience Payloads Office</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.235611</relevance>
+            <count>2</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.230335</relevance>
+            <count>1</count>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.22617</relevance>
+            <count>1</count>
+            <text>Goddard Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.215616</relevance>
+            <count>1</count>
+            <text>space exploration</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.214033</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.254482</relevance>
+            <relevance>0.193097</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -96,233 +116,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.241076</relevance>
-            <count>2</count>
-            <text>Huntsville Times</text>
-            <disambiguated>
-                <name>The Huntsville Times</name>
-                <subType>Newspaper</subType>
-                <website>http://www.al.com/huntsvilletimes/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Huntsville_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02qkjl8</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Huntsville_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.222513</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.219128</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.217994</relevance>
-            <count>2</count>
-            <text>Spacelab</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.210207</relevance>
-            <count>1</count>
-            <text>Grumman</text>
-            <disambiguated>
-                <name>Grumman</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
-                <yago>http://yago-knowledge.org/resource/Grumman</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.208651</relevance>
-            <count>1</count>
-            <text>Grumman Aircraft Corp.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.20561</relevance>
-            <count>1</count>
-            <text>Michoud Assembly Facility</text>
-            <disambiguated>
-                <name>Michoud Assembly Facility</name>
-                <subType>Location</subType>
-                <geo>30.025 -89.915</geo>
-                <dbpedia>http://dbpedia.org/resource/Michoud_Assembly_Facility</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04lwhq</freebase>
-                <yago>http://yago-knowledge.org/resource/Michoud_Assembly_Facility</yago>
-                <geonames>http://sws.geonames.org/4333215/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.203028</relevance>
-            <count>1</count>
-            <text>prime contractor</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.195116</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas Corp.</text>
-            <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.193328</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.188146</relevance>
-            <count>1</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.18798</relevance>
-            <count>1</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Corporation</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.183682</relevance>
-            <count>1</count>
-            <text>Mariner</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.183481</relevance>
-            <count>1</count>
-            <text>Nicholas von Hoffman</text>
-            <disambiguated>
-                <name>Nicholas von Hoffman</name>
-                <dbpedia>http://dbpedia.org/resource/Nicholas_von_Hoffman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04dvbs</freebase>
-                <yago>http://yago-knowledge.org/resource/Nicholas_von_Hoffman</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.182036</relevance>
-            <count>1</count>
-            <text>technical support</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.180414</relevance>
-            <count>1</count>
-            <text>Deputy Director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179345</relevance>
-            <count>1</count>
-            <text>Ames Research Center</text>
-            <disambiguated>
-                <name>Ames Research Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CompanyDivision</subType>
-                <subType>AircraftDesigner</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>37.415229 -122.06265</geo>
-                <website>http://www.nasa.gov/ames</website>
-                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.176626</relevance>
-            <count>1</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.176176</relevance>
-            <count>1</count>
-            <text>Martin Marietta Corp.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.17517</relevance>
-            <count>1</count>
-            <text>Lockheed-California Co.</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.173945</relevance>
-            <count>1</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.173608</relevance>
+            <relevance>0.190673</relevance>
             <count>1</count>
             <text>International Business Machines Corp.</text>
             <disambiguated>
@@ -344,13 +139,230 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.17295</relevance>
+            <relevance>0.187311</relevance>
             <count>1</count>
-            <text>Donald P. Hearth</text>
+            <text>Nicholas von Hoffman</text>
+            <disambiguated>
+                <name>Nicholas von Hoffman</name>
+                <dbpedia>http://dbpedia.org/resource/Nicholas_von_Hoffman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04dvbs</freebase>
+                <yago>http://yago-knowledge.org/resource/Nicholas_von_Hoffman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.183759</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas Corp.</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.179087</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.177994</relevance>
+            <count>1</count>
+            <text>Grumman</text>
+            <disambiguated>
+                <name>Grumman</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
+                <yago>http://yago-knowledge.org/resource/Grumman</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.170886</relevance>
+            <relevance>0.177967</relevance>
+            <count>1</count>
+            <text>Mississippi Test Facility</text>
+            <disambiguated>
+                <name>John C. Stennis Space Center</name>
+                <subType>Location</subType>
+                <geo>30.362766666666666 -89.6002</geo>
+                <website>http://www.ssc.nasa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/John_C._Stennis_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0331xh</freebase>
+                <yago>http://yago-knowledge.org/resource/John_C._Stennis_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.176487</relevance>
+            <count>1</count>
+            <text>Grumman Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.175774</relevance>
+            <count>1</count>
+            <text>Algernon Blair Industrial Contractors</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.174904</relevance>
+            <count>1</count>
+            <text>Michoud Assembly Facility</text>
+            <disambiguated>
+                <name>Michoud Assembly Facility</name>
+                <subType>Location</subType>
+                <geo>30.025 -89.915</geo>
+                <dbpedia>http://dbpedia.org/resource/Michoud_Assembly_Facility</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04lwhq</freebase>
+                <yago>http://yago-knowledge.org/resource/Michoud_Assembly_Facility</yago>
+                <geonames>http://sws.geonames.org/4333215/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.174717</relevance>
+            <count>1</count>
+            <text>Army</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.172681</relevance>
+            <count>1</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.171932</relevance>
+            <count>1</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Corporation</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.169025</relevance>
+            <count>1</count>
+            <text>Lockheed Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.165724</relevance>
+            <count>1</count>
+            <text>Ames Research Center</text>
+            <disambiguated>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.164371</relevance>
+            <count>2</count>
+            <text>Huntsville Times</text>
+            <disambiguated>
+                <name>The Huntsville Times</name>
+                <subType>Newspaper</subType>
+                <website>http://www.al.com/huntsvilletimes/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Huntsville_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02qkjl8</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Huntsville_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.161531</relevance>
+            <count>1</count>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.161429</relevance>
+            <count>1</count>
+            <text>Martin Marietta Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.159571</relevance>
+            <count>1</count>
+            <text>Mariner</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.159081</relevance>
+            <count>1</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.15867</relevance>
+            <count>1</count>
+            <text>Dr. F. Story Musgrave</text>
+            <disambiguated>
+                <name>Story Musgrave</name>
+                <subType>Astronaut</subType>
+                <website>http://www.storymusgrave.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Story_Musgrave</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.021jmc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvsxZGZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Story_Musgrave</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.157955</relevance>
             <count>1</count>
             <text>United Kingdom</text>
             <disambiguated>
@@ -371,104 +383,92 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.155966</relevance>
+            <count>1</count>
+            <text>prime contractor</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.167425</relevance>
+            <relevance>0.155332</relevance>
             <count>1</count>
             <text>Dr. D. J. Shapland</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.165025</relevance>
+            <relevance>0.154045</relevance>
             <count>1</count>
             <text>aerospace company</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.163992</relevance>
-            <count>1</count>
-            <text>Dr. F. Story Musgrave</text>
-            <disambiguated>
-                <name>Story Musgrave</name>
-                <subType>Astronaut</subType>
-                <website>http://www.storymusgrave.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Story_Musgrave</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.021jmc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvsxZGZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Story_Musgrave</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.163473</relevance>
+            <relevance>0.152246</relevance>
             <count>1</count>
             <text>Galileo II Convair</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.16209</relevance>
-            <count>1</count>
-            <text>Mississippi Test Facility</text>
-            <disambiguated>
-                <name>John C. Stennis Space Center</name>
-                <subType>Location</subType>
-                <geo>30.362766666666666 -89.6002</geo>
-                <website>http://www.ssc.nasa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/John_C._Stennis_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0331xh</freebase>
-                <yago>http://yago-knowledge.org/resource/John_C._Stennis_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.160623</relevance>
-            <count>1</count>
-            <text>representative</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.160149</relevance>
-            <count>1</count>
-            <text>Algernon Blair Industrial Contractors</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.160033</relevance>
+            <relevance>0.149096</relevance>
             <count>1</count>
             <text>J. De Waard</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.159158</relevance>
+            <type>JobTitle</type>
+            <relevance>0.143415</relevance>
             <count>1</count>
-            <text>Office of Personnel</text>
+            <text>technical support</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.152634</relevance>
-            <count>1</count>
-            <text>Army</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.151587</relevance>
+            <relevance>0.142716</relevance>
             <count>1</count>
             <text>arc Aerospace Sci Div</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.142414</relevance>
+            <count>1</count>
+            <text>representative</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.142064</relevance>
+            <count>1</count>
+            <text>Deputy Director</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.146887</relevance>
+            <relevance>0.138423</relevance>
             <count>1</count>
             <text>Pentagon</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.136563</relevance>
+            <count>1</count>
+            <text>Lockheed-California Co.</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.137953</relevance>
+            <relevance>0.135584</relevance>
+            <count>1</count>
+            <text>Donald P. Hearth</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.128963</relevance>
             <count>1</count>
             <text>Dr. Dennis R. Morrison</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.126739</relevance>
+            <count>1</count>
+            <text>Office of Personnel</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.131281</relevance>
+            <relevance>0.121352</relevance>
             <count>1</count>
             <text>The Netherlands</text>
             <disambiguated>

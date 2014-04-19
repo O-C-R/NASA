@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.916476</relevance>
+            <relevance>0.887767</relevance>
             <count>7</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.416533</relevance>
+            <relevance>0.452351</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,57 +35,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.322025</relevance>
+            <relevance>0.327193</relevance>
             <count>5</count>
             <text>Herbert V. Frey</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.280863</relevance>
+            <relevance>0.248242</relevance>
             <count>1</count>
             <text>Global Surveyor</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.154476</relevance>
-            <count>1</count>
-            <text>Arden L. Albee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.14951</relevance>
-            <count>1</count>
-            <text>Project Scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.13264</relevance>
-            <count>1</count>
-            <text>Red Planet.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.128773</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.128305</relevance>
+            <relevance>0.132353</relevance>
             <count>1</count>
             <text>reset button</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.127633</relevance>
+            <relevance>0.131492</relevance>
             <count>1</count>
             <text>Christian Science Monitor</text>
             <disambiguated>
@@ -100,7 +68,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.125035</relevance>
+            <relevance>0.12879</relevance>
             <count>1</count>
             <text>Brown University</text>
             <disambiguated>
@@ -119,22 +87,54 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.127941</relevance>
+            <count>1</count>
+            <text>Red Planet.</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.121959</relevance>
+            <relevance>0.125795</relevance>
             <count>1</count>
             <text>James W. Head</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.120612</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.124606</relevance>
             <count>1</count>
-            <text>William Harwood</text>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.117377</relevance>
+            <relevance>0.124236</relevance>
+            <count>1</count>
+            <text>Arden L. Albee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.121389</relevance>
+            <count>1</count>
+            <text>Project Scientist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.121275</relevance>
             <count>1</count>
             <text>Robert C. Cowen</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.116338</relevance>
+            <count>1</count>
+            <text>William Harwood</text>
         </entity>
     </entities>
 </results>

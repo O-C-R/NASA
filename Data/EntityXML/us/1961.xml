@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.874249</relevance>
-            <count>23</count>
+            <relevance>0.875758</relevance>
+            <count>21</count>
             <text>U.S. Air Force</text>
             <disambiguated>
                 <name>United States Air Force</name>
@@ -24,7 +24,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.616142</relevance>
+            <relevance>0.600452</relevance>
             <count>7</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -43,7 +43,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.515142</relevance>
+            <relevance>0.50129</relevance>
             <count>5</count>
             <text>Edwards Air Force Base</text>
             <disambiguated>
@@ -61,7 +61,25 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.462481</relevance>
+            <relevance>0.380147</relevance>
+            <count>3</count>
+            <text>Air Force</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.364176</relevance>
+            <count>2</count>
+            <text>Italian Air Force</text>
+            <disambiguated>
+                <name>Italian Air Force</name>
+                <subType>ArmedForce</subType>
+                <dbpedia>http://dbpedia.org/resource/Italian_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01kdbm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.353942</relevance>
             <count>5</count>
             <text>Air Force Systems Command</text>
             <disambiguated>
@@ -74,30 +92,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.363512</relevance>
-            <count>1</count>
-            <text>Langley Air Force Base</text>
-            <disambiguated>
-                <name>Joint Base Langley&#x2013;Eustis</name>
-                <dbpedia>http://dbpedia.org/resource/Joint_Base_Langley&#x2013;Eustis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b74xm0</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.342158</relevance>
-            <count>2</count>
-            <text>Italian Air Force</text>
-            <disambiguated>
-                <name>Italian Air Force</name>
-                <subType>ArmedForce</subType>
-                <dbpedia>http://dbpedia.org/resource/Italian_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01kdbm</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.295285</relevance>
+            <relevance>0.347314</relevance>
             <count>1</count>
             <text>Randolph Air Force Base</text>
             <disambiguated>
@@ -114,7 +109,24 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.287265</relevance>
+            <relevance>0.316327</relevance>
+            <count>1</count>
+            <text>Brooks Air Force Base</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.314396</relevance>
+            <count>1</count>
+            <text>Langley Air Force Base</text>
+            <disambiguated>
+                <name>Joint Base Langley&#x2013;Eustis</name>
+                <dbpedia>http://dbpedia.org/resource/Joint_Base_Langley&#x2013;Eustis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b74xm0</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.305658</relevance>
             <count>1</count>
             <text>Holloman Air Force Base</text>
             <disambiguated>
@@ -133,51 +145,28 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.285944</relevance>
+            <relevance>0.291235</relevance>
             <count>1</count>
             <text>Eglin Air Force Base</text>
             <disambiguated>
-                <name>Eglin Air Force Base</name>
+                <name>Northwest Florida Regional Airport</name>
                 <subType>Location</subType>
-                <subType>MilitaryPost</subType>
                 <subType>Airport</subType>
-                <geo>30.483333333333334 -86.53111111111112</geo>
-                <website>http://www.eglin.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Eglin_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0pyfg</freebase>
-                <yago>http://yago-knowledge.org/resource/Eglin_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/6301745/</geonames>
+                <geo>30.483333333333334 -86.52527777777777</geo>
+                <website>http://www.flyvps.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Northwest_Florida_Regional_Airport</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01q6d0</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.270171</relevance>
+            <relevance>0.27825</relevance>
             <count>1</count>
-            <text>Brooks Air Force Base</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.25547</relevance>
-            <count>7</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
+            <text>Carswell Air Force Base</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.250868</relevance>
+            <relevance>0.271277</relevance>
             <count>1</count>
             <text>Air Force Association</text>
             <disambiguated>
@@ -188,26 +177,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.249647</relevance>
-            <count>1</count>
-            <text>Carswell Air Force Base</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.246897</relevance>
+            <relevance>0.252625</relevance>
             <count>1</count>
             <text>Air Force Office of Aerospace Research</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.233363</relevance>
+            <relevance>0.235294</relevance>
             <count>1</count>
             <text>major Air Force</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.22958</relevance>
+            <relevance>0.20277</relevance>
             <count>4</count>
             <text>American Association</text>
             <disambiguated>
@@ -220,13 +203,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.22771</relevance>
-            <count>1</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.203534</relevance>
+            <relevance>0.19748</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -247,8 +224,28 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.196064</relevance>
+            <count>7</count>
+            <text>United States</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.195278</relevance>
+            <relevance>0.195729</relevance>
             <count>3</count>
             <text>Maj. Robert White</text>
             <disambiguated>
@@ -262,7 +259,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.169551</relevance>
+            <relevance>0.179998</relevance>
             <count>2</count>
             <text>North American Aviation</text>
             <disambiguated>
@@ -276,14 +273,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.164707</relevance>
-            <count>1</count>
-            <text>Discoverer</text>
+            <type>Degree</type>
+            <relevance>0.164641</relevance>
+            <count>2</count>
+            <text>Advancement of Science</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.164066</relevance>
+            <relevance>0.164323</relevance>
             <count>2</count>
             <text>Europe</text>
             <disambiguated>
@@ -294,69 +291,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.160308</relevance>
-            <count>1</count>
-            <text>Discoverer XXXV</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.158097</relevance>
-            <count>2</count>
-            <text>USIA</text>
-            <disambiguated>
-                <name>United States Information Agency</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Information_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bsn4</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Information_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.157911</relevance>
-            <count>2</count>
-            <text>Advancement of Science</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.156512</relevance>
-            <count>3</count>
-            <text>Lt. Gen. Bernard A. Schriever</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.15597</relevance>
-            <count>2</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.155622</relevance>
-            <count>1</count>
-            <text>American Institute of Biological Sciences</text>
-            <disambiguated>
-                <name>American Institute of Biological Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Biological_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c_t2l</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Institute_of_Biological_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.154716</relevance>
-            <count>2</count>
-            <text>Advancement of Science</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.154714</relevance>
+            <relevance>0.163851</relevance>
             <count>2</count>
             <text>School of Aerospace Medicine</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.150982</relevance>
+            <relevance>0.153103</relevance>
+            <count>1</count>
+            <text>National Aeronautic Association</text>
+            <disambiguated>
+                <name>National Aeronautic Association</name>
+                <dbpedia>http://dbpedia.org/resource/National_Aeronautic_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042yzw</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Aeronautic_Association</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.15175</relevance>
+            <count>2</count>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.150423</relevance>
             <count>2</count>
             <text>U.S. Navy</text>
             <disambiguated>
@@ -370,101 +342,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.149752</relevance>
-            <count>1</count>
-            <text>Dr. Glenn T. Seaborg</text>
-            <disambiguated>
-                <name>Glenn T. Seaborg</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>ElementDiscoverer</subType>
-                <subType>Scientist</subType>
-                <website>http://nobelprize.org/chemistry/laureates/1951/seaborg-bio.html</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_T._Seaborg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03flm</freebase>
-                <yago>http://yago-knowledge.org/resource/Glenn_T._Seaborg</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.148761</relevance>
-            <count>2</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.145616</relevance>
-            <count>2</count>
-            <text>AFSC</text>
-            <disambiguated>
-                <name>Air Force Space Command</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.144444</relevance>
-            <count>1</count>
-            <text>Jacqueline Cochran</text>
-            <disambiguated>
-                <name>Jacqueline Cochran</name>
-                <subType>HallOfFameInductee</subType>
-                <website>http://www.jacquelinecochranregionalairport.com/default.asp</website>
-                <dbpedia>http://dbpedia.org/resource/Jacqueline_Cochran</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01hf8_</freebase>
-                <yago>http://yago-knowledge.org/resource/Jacqueline_Cochran</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.143051</relevance>
-            <count>1</count>
-            <text>Chicago</text>
-            <disambiguated>
-                <name>Chicago</name>
-                <website>http://www.cityofchicago.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
-                <yago>http://yago-knowledge.org/resource/Chicago</yago>
-                <geonames>http://sws.geonames.org/4887398/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.142317</relevance>
-            <count>1</count>
-            <text>Atomic Energy Commission</text>
-            <disambiguated>
-                <name>United States Atomic Energy Commission</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Atomic_Energy_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dmm_</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Atomic_Energy_Commission</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.141081</relevance>
-            <count>1</count>
-            <text>Maj. Robert Rushworth</text>
-            <disambiguated>
-                <name>Robert A. Rushworth</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_A._Rushworth</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042zdk</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_A._Rushworth</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.139965</relevance>
+            <relevance>0.146275</relevance>
             <count>2</count>
             <text>Washington</text>
             <disambiguated>
@@ -482,20 +361,117 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.139895</relevance>
-            <count>1</count>
-            <text>Northrop</text>
+            <type>StateOrCounty</type>
+            <relevance>0.144983</relevance>
+            <count>2</count>
+            <text>Calif</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.137647</relevance>
+            <type>Organization</type>
+            <relevance>0.144189</relevance>
             <count>2</count>
-            <text>Commander</text>
+            <text>AFSC</text>
+            <disambiguated>
+                <name>Air Force Space Command</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.142895</relevance>
+            <count>2</count>
+            <text>USIA</text>
+            <disambiguated>
+                <name>United States Information Agency</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Information_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bsn4</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Information_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.142368</relevance>
+            <count>2</count>
+            <text>Advancement of Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.142127</relevance>
+            <count>1</count>
+            <text>B. Appel</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.140506</relevance>
+            <count>1</count>
+            <text>Charles A. Lindbergh</text>
+            <disambiguated>
+                <name>Charles August Lindbergh</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Charles_August_Lindbergh</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0732wk</freebase>
+                <yago>http://yago-knowledge.org/resource/Charles_August_Lindbergh</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.13717</relevance>
+            <relevance>0.140387</relevance>
+            <count>1</count>
+            <text>Atlantic Missile Range</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.139605</relevance>
+            <count>1</count>
+            <text>U.S. Aerospace Industries</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.139214</relevance>
+            <count>1</count>
+            <text>space&#x2014;217,000 feet&#x2014;</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.137131</relevance>
+            <count>2</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.136389</relevance>
+            <count>1</count>
+            <text>J. Slider</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.134701</relevance>
+            <count>1</count>
+            <text>Europe</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.134204</relevance>
+            <count>1</count>
+            <text>Maj. Robert Rushworth</text>
+            <disambiguated>
+                <name>Robert A. Rushworth</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Robert_A._Rushworth</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042zdk</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_A._Rushworth</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.132327</relevance>
             <count>1</count>
             <text>Tushino Airport</text>
             <disambiguated>
@@ -505,78 +481,77 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.136974</relevance>
-            <count>1</count>
-            <text>National Telemetering Conference</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.135495</relevance>
-            <count>2</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.132283</relevance>
+            <count>3</count>
+            <text>Lt. Gen. Bernard A. Schriever</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.133906</relevance>
+            <relevance>0.131603</relevance>
             <count>1</count>
-            <text>Forrest S. Petersen</text>
+            <text>Maj. Gen. Albert Boyd</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.131286</relevance>
+            <count>1</count>
+            <text>Curtis E. LeMay</text>
             <disambiguated>
-                <name>Forrest S. Petersen</name>
-                <subType>Astronaut</subType>
+                <name>Curtis LeMay</name>
+                <subType>Hobbyist</subType>
                 <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Forrest_S._Petersen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042zwd</freebase>
-                <yago>http://yago-knowledge.org/resource/Forrest_S._Petersen</yago>
+                <dbpedia>http://dbpedia.org/resource/Curtis_LeMay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hj5l</freebase>
+                <yago>http://yago-knowledge.org/resource/Curtis_LeMay</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.13118</relevance>
+            <count>1</count>
+            <text>Discoverer</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.129942</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.13299</relevance>
+            <relevance>0.129821</relevance>
             <count>1</count>
-            <text>National Aeronautic Association</text>
-            <disambiguated>
-                <name>National Aeronautic Association</name>
-                <dbpedia>http://dbpedia.org/resource/National_Aeronautic_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042yzw</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Aeronautic_Association</yago>
-            </disambiguated>
+            <text>Rocketdyne Division of North American Aviation</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.129649</relevance>
+            <count>1</count>
+            <text>North American</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.131598</relevance>
+            <relevance>0.129294</relevance>
             <count>1</count>
-            <text>executive director</text>
+            <text>scientist</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.131308</relevance>
+            <type>Facility</type>
+            <relevance>0.129283</relevance>
             <count>1</count>
-            <text>Lt. Col. Robert B. Robinson</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.131299</relevance>
-            <count>1</count>
-            <text>Dr. Hiden T. Cox</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.131215</relevance>
-            <count>1</count>
-            <text>Capt. James F. McCullough</text>
+            <text>North American Aviation</text>
         </entity>
     </entities>
 </results>

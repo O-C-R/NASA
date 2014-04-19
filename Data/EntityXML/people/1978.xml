@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.844622</relevance>
+            <relevance>0.945839</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.516668</relevance>
+            <relevance>0.653321</relevance>
             <count>4</count>
             <text>INTELSAT</text>
             <disambiguated>
@@ -44,31 +44,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.484053</relevance>
-            <count>5</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.48059</relevance>
+            <relevance>0.624026</relevance>
             <count>4</count>
             <text>Dr. Joseph Heyman</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.426674</relevance>
-            <count>2</count>
+            <relevance>0.615945</relevance>
+            <count>4</count>
             <text>JPL</text>
             <disambiguated>
                 <name>Jet Propulsion Laboratory</name>
@@ -83,13 +67,43 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.408687</relevance>
-            <count>2</count>
-            <text>JPL</text>
+            <relevance>0.597147</relevance>
+            <count>6</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>Australian Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.aph.gov.au/Senate/index.htm</website>
+                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
+                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.389439</relevance>
+            <relevance>0.511649</relevance>
+            <count>1</count>
+            <text>NAA</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.498993</relevance>
             <count>2</count>
             <text>KSC</text>
             <disambiguated>
@@ -107,34 +121,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.353888</relevance>
-            <count>2</count>
-            <text>Melvin Zisfein</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.352512</relevance>
+            <relevance>0.471496</relevance>
             <count>1</count>
-            <text>deputy director</text>
+            <text>William Wisner</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.349109</relevance>
-            <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Australian Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.aph.gov.au/Senate/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
-                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
-            </disambiguated>
+            <relevance>0.469962</relevance>
+            <count>2</count>
+            <text>congress</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.464375</relevance>
+            <count>2</count>
+            <text>St. Louis</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.344336</relevance>
+            <relevance>0.461167</relevance>
             <count>2</count>
             <text>Sen. William Proxmire</text>
             <disambiguated>
@@ -148,48 +153,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.34087</relevance>
-            <count>2</count>
-            <text>St. Louis</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.338624</relevance>
-            <count>2</count>
-            <text>JSC</text>
+            <type>Person</type>
+            <relevance>0.459661</relevance>
+            <count>1</count>
+            <text>Robert Mucklestone</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.335052</relevance>
+            <relevance>0.458949</relevance>
             <count>1</count>
-            <text>H. William Wood</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.328789</relevance>
-            <count>1</count>
-            <text>Washington Univ.</text>
+            <text>Sheila Scott</text>
             <disambiguated>
-                <name>Washington University in St. Louis</name>
-                <subType>University</subType>
-                <geo>38.64652 -90.30655</geo>
-                <website>http://www.wustl.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington_University_in_St._Louis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g2jl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWW6l5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington_University_in_St._Louis</yago>
+                <name>Sheila Scott</name>
+                <dbpedia>http://dbpedia.org/resource/Sheila_Scott</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06c9lr</freebase>
+                <yago>http://yago-knowledge.org/resource/Sheila_Scott</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.325056</relevance>
-            <count>2</count>
-            <text>ComSatCorp</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.320526</relevance>
+            <relevance>0.456885</relevance>
             <count>1</count>
             <text>Air and Space Museum</text>
             <disambiguated>
@@ -208,26 +191,117 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.441539</relevance>
+            <count>2</count>
+            <text>Paris</text>
+        </entity>
+        <entity>
+            <type>Automobile</type>
+            <relevance>0.437107</relevance>
+            <count>1</count>
+            <text>Bonanza</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.435319</relevance>
+            <count>1</count>
+            <text>Smithsonian&#x2019;s Air and Space Museum</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.319782</relevance>
+            <relevance>0.432248</relevance>
             <count>1</count>
-            <text>Senate Armed Services Committee</text>
+            <text>Washington Univ.</text>
+            <disambiguated>
+                <name>Washington University in St. Louis</name>
+                <subType>University</subType>
+                <geo>38.64652 -90.30655</geo>
+                <website>http://www.wustl.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington_University_in_St._Louis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g2jl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvWW6l5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington_University_in_St._Louis</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.318987</relevance>
+            <relevance>0.432146</relevance>
             <count>1</count>
-            <text>NandKishore Chitre</text>
+            <text>Harold Benham</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.317488</relevance>
+            <relevance>0.4284</relevance>
+            <count>1</count>
+            <text>Dr. Alvin Marks</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.427719</relevance>
+            <count>2</count>
+            <text>Melvin Zisfein</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.426065</relevance>
+            <count>2</count>
+            <text>JSC</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.426013</relevance>
+            <count>1</count>
+            <text>deputy director</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.425343</relevance>
             <count>2</count>
             <text>Sen. William Roth</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.316894</relevance>
+            <relevance>0.422239</relevance>
+            <count>1</count>
+            <text>Senate Armed Services Committee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.404598</relevance>
+            <count>1</count>
+            <text>Sen. John Stennis</text>
+            <disambiguated>
+                <name>John C. Stennis</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_C._Stennis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fyp6</freebase>
+                <yago>http://yago-knowledge.org/resource/John_C._Stennis</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.403151</relevance>
+            <count>1</count>
+            <text>H. William Wood</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.399881</relevance>
+            <count>2</count>
+            <text>Edward Divita</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.398137</relevance>
+            <count>1</count>
+            <text>Frank Haile</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.397957</relevance>
             <count>1</count>
             <text>Smithsonian Institution</text>
             <disambiguated>
@@ -246,136 +320,84 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.314914</relevance>
+            <relevance>0.397208</relevance>
             <count>1</count>
-            <text>Francis Latapie</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.314753</relevance>
-            <count>1</count>
-            <text>William Geddes</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.31311</relevance>
-            <count>1</count>
-            <text>William Wisner</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.311945</relevance>
-            <count>1</count>
-            <text>associate administrator</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.309246</relevance>
-            <count>1</count>
-            <text>Smithsonian&#x2019;s Air and Space Museum</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.307371</relevance>
-            <count>1</count>
-            <text>Sheila Scott</text>
+            <text>President Carter</text>
             <disambiguated>
-                <name>Sheila Scott</name>
-                <dbpedia>http://dbpedia.org/resource/Sheila_Scott</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06c9lr</freebase>
-                <yago>http://yago-knowledge.org/resource/Sheila_Scott</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.306493</relevance>
-            <count>1</count>
-            <text>Robert Mucklestone</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.306158</relevance>
-            <count>1</count>
-            <text>Sen. John Stennis</text>
-            <disambiguated>
-                <name>John C. Stennis</name>
+                <name>Jimmy Carter</name>
                 <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/John_C._Stennis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fyp6</freebase>
-                <yago>http://yago-knowledge.org/resource/John_C._Stennis</yago>
+                <subType>President</subType>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>USPresident</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Jimmy_Carter</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042kg</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPvV45wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Jimmy_Carter</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.305377</relevance>
+            <type>Country</type>
+            <relevance>0.396004</relevance>
             <count>1</count>
-            <text>physicist</text>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.304697</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.394627</relevance>
+            <count>1</count>
+            <text>Washington.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.393965</relevance>
+            <count>1</count>
+            <text>Paul Garber</text>
+            <disambiguated>
+                <name>Paul Garber</name>
+                <dbpedia>http://dbpedia.org/resource/Paul_Garber</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03y90_w</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.392314</relevance>
             <count>2</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
+            <text>ComSatCorp</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.303591</relevance>
+            <relevance>0.392258</relevance>
             <count>1</count>
-            <text>Dr. William Cassidy</text>
+            <text>Jack Rood</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.302012</relevance>
-            <count>1</count>
-            <text>Andrea Caruso</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.301022</relevance>
-            <count>1</count>
-            <text>Dr. Brian Mason</text>
-            <disambiguated>
-                <name>Brian Mason</name>
-                <dbpedia>http://dbpedia.org/resource/Brian_Mason</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03zfgk</freebase>
-                <yago>http://yago-knowledge.org/resource/Brian_Mason</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.300249</relevance>
-            <count>1</count>
-            <text>Industrial Research</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.29657</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.295705</relevance>
+            <relevance>0.390095</relevance>
             <count>1</count>
             <text>William Kirhofer</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.294728</relevance>
+            <relevance>0.389468</relevance>
             <count>1</count>
             <text>Sen. Alan Cranston</text>
             <disambiguated>
@@ -389,14 +411,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.294307</relevance>
-            <count>1</count>
-            <text>open-heart surgery</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.293992</relevance>
+            <relevance>0.388148</relevance>
             <count>1</count>
             <text>Hughes Aircraft Co.</text>
             <disambiguated>
@@ -408,38 +424,73 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.291433</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.386136</relevance>
             <count>1</count>
-            <text>Canaveral Council of Technical Societies</text>
+            <text>open-heart surgery</text>
         </entity>
         <entity>
-            <type>Automobile</type>
-            <relevance>0.291255</relevance>
+            <type>Organization</type>
+            <relevance>0.384156</relevance>
             <count>1</count>
-            <text>Bonanza</text>
+            <text>U.S. embassy</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.289884</relevance>
+            <relevance>0.384004</relevance>
             <count>1</count>
-            <text>Reginald Westlake</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.28977</relevance>
-            <count>1</count>
-            <text>Langley Researcher</text>
+            <text>NandKishore Chitre</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.286999</relevance>
+            <relevance>0.379638</relevance>
             <count>1</count>
-            <text>Chicago</text>
+            <text>Los Angeles</text>
+            <disambiguated>
+                <name>Los Angeles</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.379456</relevance>
+            <count>1</count>
+            <text>NSF</text>
+            <disambiguated>
+                <name>National Science Foundation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AcademicInstitution</subType>
+                <website>http://www.nsf.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.014psl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rxzG84ozEQdiJ4LhxGCHwyQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Science_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.379215</relevance>
+            <count>1</count>
+            <text>Dr. William Cassidy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.379133</relevance>
+            <count>1</count>
+            <text>Francis Latapie</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.286985</relevance>
+            <relevance>0.378891</relevance>
             <count>1</count>
             <text>General Electric Co.</text>
             <disambiguated>
@@ -454,27 +505,32 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.286498</relevance>
+            <relevance>0.378535</relevance>
             <count>1</count>
-            <text>Harold Benham</text>
+            <text>Maxie Anderson</text>
+            <disambiguated>
+                <name>Maxie Anderson</name>
+                <dbpedia>http://dbpedia.org/resource/Maxie_Anderson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04crt_2</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.284158</relevance>
+            <relevance>0.378032</relevance>
             <count>1</count>
-            <text>Dr. Alvin Marks</text>
+            <text>Dr. Brian Mason</text>
+            <disambiguated>
+                <name>Brian Mason</name>
+                <dbpedia>http://dbpedia.org/resource/Brian_Mason</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03zfgk</freebase>
+                <yago>http://yago-knowledge.org/resource/Brian_Mason</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.282312</relevance>
+            <type>City</type>
+            <relevance>0.376638</relevance>
             <count>1</count>
-            <text>Emeric Podraczky</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.281008</relevance>
-            <count>1</count>
-            <text>Washington.</text>
+            <text>Chicago</text>
         </entity>
     </entities>
 </results>

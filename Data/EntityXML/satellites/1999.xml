@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.816134</relevance>
+            <relevance>0.881305</relevance>
             <count>19</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,31 +29,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.236603</relevance>
+            <relevance>0.405821</relevance>
             <count>5</count>
             <text>Mario Dario Grossi</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.225883</relevance>
-            <count>3</count>
-            <text>Brazil</text>
-            <disambiguated>
-                <name>Brazil</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>CompanyShareholder</subType>
-                <geo>-15.75 -47.95</geo>
-                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Brazil</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.208445</relevance>
+            <relevance>0.257235</relevance>
             <count>1</count>
             <text>Italian Space Agency</text>
             <disambiguated>
@@ -67,25 +49,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.181692</relevance>
-            <count>1</count>
-            <text>China</text>
-            <disambiguated>
-                <name>Taiwan</name>
-                <subType>Location</subType>
-                <subType>GeographicFeature</subType>
-                <subType>Island</subType>
-                <geo>23.766666666666666 121.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Taiwan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Taiwan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06f32</freebase>
-                <yago>http://yago-knowledge.org/resource/Taiwan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.180287</relevance>
+            <relevance>0.240529</relevance>
             <count>1</count>
             <text>Harvard-Smithsonian Center for Astrophysics</text>
             <disambiguated>
@@ -97,8 +62,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.223395</relevance>
+            <count>2</count>
+            <text>National Ice Center</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.174044</relevance>
+            <relevance>0.21418</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -116,8 +87,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.214151</relevance>
+            <count>1</count>
+            <text>Boston</text>
+            <disambiguated>
+                <name>Boston</name>
+                <website>http://www.cityofboston.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.213887</relevance>
+            <count>1</count>
+            <text>Massachusetts</text>
+            <disambiguated>
+                <name>Massachusetts</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.mass.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Massachusetts</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05k7sb</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi4QpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Massachusetts</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.17318</relevance>
+            <relevance>0.210065</relevance>
             <count>1</count>
             <text>Tierra del Fuego</text>
             <disambiguated>
@@ -134,34 +136,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.172014</relevance>
-            <count>1</count>
-            <text>Luis Meira Filho</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.170501</relevance>
-            <count>1</count>
-            <text>US</text>
+            <relevance>0.205635</relevance>
+            <count>3</count>
+            <text>Brazil</text>
             <disambiguated>
-                <name>United States</name>
+                <name>Brazil</name>
                 <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
+                <subType>CompanyShareholder</subType>
+                <geo>-15.75 -47.95</geo>
+                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Brazil</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.169357</relevance>
+            <relevance>0.205467</relevance>
             <count>1</count>
             <text>Thwaites glacier</text>
             <disambiguated>
@@ -176,45 +170,31 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.167022</relevance>
+            <relevance>0.204036</relevance>
             <count>1</count>
             <text>SeaWinds</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.164302</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.163945</relevance>
+            <relevance>0.199253</relevance>
             <count>1</count>
             <text>Darrell R. Branscome</text>
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.163403</relevance>
+            <relevance>0.198595</relevance>
             <count>1</count>
             <text>Wide- Field Infrared Explorer</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.161467</relevance>
+            <relevance>0.192815</relevance>
             <count>1</count>
-            <text>President</text>
+            <text>physicist</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.158704</relevance>
+            <relevance>0.192511</relevance>
             <count>1</count>
             <text>South America</text>
             <disambiguated>
@@ -227,25 +207,36 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.157186</relevance>
+            <relevance>0.191677</relevance>
             <count>1</count>
-            <text>Brazil.</text>
+            <text>China</text>
+            <disambiguated>
+                <name>Taiwan</name>
+                <subType>Location</subType>
+                <subType>GeographicFeature</subType>
+                <subType>Island</subType>
+                <geo>23.766666666666666 121.0</geo>
+                <dbpedia>http://dbpedia.org/resource/Taiwan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Taiwan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.06f32</freebase>
+                <yago>http://yago-knowledge.org/resource/Taiwan</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.154978</relevance>
+            <relevance>0.188737</relevance>
             <count>1</count>
             <text>Deputy Associate Administrator (Enterprise Development</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.153935</relevance>
-            <count>2</count>
-            <text>National Ice Center</text>
+            <relevance>0.18859</relevance>
+            <count>1</count>
+            <text>WIRE Mishap Investigation Board</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.153723</relevance>
+            <relevance>0.186935</relevance>
             <count>1</count>
             <text>Brigham Young University</text>
             <disambiguated>
@@ -265,14 +256,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.153721</relevance>
+            <type>Person</type>
+            <relevance>0.184432</relevance>
             <count>1</count>
-            <text>WIRE Mishap Investigation Board</text>
+            <text>Wolfgang Saxon</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.182536</relevance>
+            <count>1</count>
+            <text>engineer</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.149688</relevance>
+            <relevance>0.182028</relevance>
             <count>1</count>
             <text>Utah</text>
             <disambiguated>
@@ -290,14 +287,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.148606</relevance>
-            <count>1</count>
-            <text>Wolfgang Saxon</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.14831</relevance>
+            <relevance>0.180393</relevance>
             <count>1</count>
             <text>Maryland</text>
             <disambiguated>
@@ -311,71 +302,80 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.178833</relevance>
+            <count>1</count>
+            <text>US</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.145948</relevance>
+            <relevance>0.17784</relevance>
             <count>1</count>
             <text>David G. Long</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.145321</relevance>
+            <type>Person</type>
+            <relevance>0.177807</relevance>
             <count>1</count>
-            <text>Boston</text>
-            <disambiguated>
-                <name>Boston</name>
-                <website>http://www.cityofboston.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.145136</relevance>
-            <count>1</count>
-            <text>Massachusetts</text>
-            <disambiguated>
-                <name>Massachusetts</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.mass.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Massachusetts</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05k7sb</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi4QpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Massachusetts</yago>
-            </disambiguated>
+            <text>Luis Meira Filho</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.14309</relevance>
+            <relevance>0.174624</relevance>
             <count>1</count>
             <text>Antarctic Peninsula</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.1716</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.138863</relevance>
+            <relevance>0.169646</relevance>
             <count>1</count>
             <text>Suitland</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.167885</relevance>
+            <count>1</count>
+            <text>President</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.134597</relevance>
+            <relevance>0.1643</relevance>
             <count>1</count>
             <text>Argentina.</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.126259</relevance>
+            <type>Country</type>
+            <relevance>0.163298</relevance>
             <count>1</count>
-            <text>physicist</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.117794</relevance>
-            <count>1</count>
-            <text>engineer</text>
+            <text>Brazil.</text>
         </entity>
     </entities>
 </results>

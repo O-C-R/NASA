@@ -7,9 +7,9 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.950424</relevance>
-            <count>28</count>
-            <text>nasa</text>
+            <relevance>0.790908</relevance>
+            <count>38</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -28,30 +28,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.745102</relevance>
-            <count>14</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.664415</relevance>
+            <relevance>0.528087</relevance>
             <count>20</count>
             <text>New York Times</text>
             <disambiguated>
@@ -69,14 +47,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.600739</relevance>
-            <count>16</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.53596</relevance>
+            <relevance>0.522685</relevance>
             <count>22</count>
             <text>United States</text>
             <disambiguated>
@@ -95,20 +67,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.500862</relevance>
-            <count>8</count>
-            <text>Space exploration</text>
+            <type>StateOrCounty</type>
+            <relevance>0.488058</relevance>
+            <count>16</count>
+            <text>Wash</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.497922</relevance>
-            <count>3</count>
-            <text>NASA Associate Administrator for Space Science and Applications</text>
+            <type>FieldTerminology</type>
+            <relevance>0.453248</relevance>
+            <count>10</count>
+            <text>space exploration</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.45255</relevance>
+            <relevance>0.378935</relevance>
             <count>9</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -123,79 +95,32 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.44249</relevance>
+            <relevance>0.364147</relevance>
             <count>6</count>
             <text>NYT</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.412187</relevance>
+            <relevance>0.347922</relevance>
+            <count>3</count>
+            <text>NASA Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.343452</relevance>
+            <count>4</count>
+            <text>NASA Langley Research Center</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.326342</relevance>
             <count>8</count>
             <text>scientist</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.403926</relevance>
-            <count>6</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.402701</relevance>
-            <count>5</count>
-            <text>West Germany</text>
-            <disambiguated>
-                <name>West Germany</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.396847</relevance>
-            <count>8</count>
-            <text>AFSC</text>
-            <disambiguated>
-                <name>Air Force Systems Command</name>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Systems_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05_36j</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Systems_Command</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.386978</relevance>
-            <count>1</count>
-            <text>NASA Deputy Associate Administrator for Space Science</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.384695</relevance>
+            <relevance>0.308842</relevance>
             <count>2</count>
-            <text>NASA Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.371436</relevance>
-            <count>4</count>
-            <text>Bochum Observatory</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.368172</relevance>
-            <count>5</count>
-            <text>Moscow</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.351288</relevance>
-            <count>1</count>
             <text>NASA Ames Research Center</text>
             <disambiguated>
                 <name>Ames Research Center</name>
@@ -211,61 +136,177 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.34764</relevance>
-            <count>3</count>
-            <text>NASA Langley Research Center</text>
+            <type>Person</type>
+            <relevance>0.29793</relevance>
+            <count>6</count>
+            <text>President Johnson</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.347226</relevance>
+            <relevance>0.29729</relevance>
             <count>2</count>
             <text>NASA Associate Administrator for Advanced Research and Technology</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.296314</relevance>
+            <count>2</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>NASA</name>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
+                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.338467</relevance>
+            <relevance>0.287196</relevance>
             <count>1</count>
-            <text>nasa Deputy Associate Administrator</text>
+            <text>NASA Deputy Associate Administrator for Space Science</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.337903</relevance>
-            <count>3</count>
-            <text>usaf</text>
+            <relevance>0.284508</relevance>
+            <count>8</count>
+            <text>AFSC</text>
             <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
+                <name>Air Force Systems Command</name>
                 <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Systems_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05_36j</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Systems_Command</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.329836</relevance>
+            <type>City</type>
+            <relevance>0.283978</relevance>
+            <count>5</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.269218</relevance>
+            <count>2</count>
+            <text>nasa Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265579</relevance>
+            <count>1</count>
+            <text>European Space Research Organization</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.260524</relevance>
             <count>3</count>
-            <text>Dr. Homer E. Newell</text>
+            <text>Trib.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255495</relevance>
+            <count>3</count>
+            <text>FY</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.252883</relevance>
+            <count>2</count>
+            <text>NASA Flight Research Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.249495</relevance>
+            <count>3</count>
+            <text>Pres. Doc.</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.248841</relevance>
+            <count>3</count>
+            <text>aerospace industry</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.24846</relevance>
+            <count>3</count>
+            <text>California</text>
             <disambiguated>
-                <name>Homer E. Newell, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
-                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.328024</relevance>
+            <relevance>0.246913</relevance>
             <count>5</count>
             <text>Director</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.245488</relevance>
+            <count>3</count>
+            <text>Wilford</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.244956</relevance>
+            <count>5</count>
+            <text>West Germany</text>
+            <disambiguated>
+                <name>West Germany</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.244635</relevance>
+            <count>1</count>
+            <text>European Space Research Institute</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.241872</relevance>
+            <count>3</count>
+            <text>Sullivan</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.240393</relevance>
+            <count>4</count>
+            <text>Robert Hotz</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.323207</relevance>
+            <relevance>0.239881</relevance>
             <count>5</count>
             <text>Reuters</text>
             <disambiguated>
@@ -278,89 +319,52 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.320518</relevance>
-            <count>3</count>
-            <text>Deputy Director</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.313584</relevance>
-            <count>3</count>
-            <text>Trib.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.304168</relevance>
-            <count>3</count>
-            <text>aerospace industry</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.302156</relevance>
-            <count>3</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.301642</relevance>
-            <count>2</count>
-            <text>jodrell Bank Experimental Station</text>
-            <disambiguated>
-                <name>Jodrell Bank Observatory</name>
-                <subType>Organization</subType>
-                <subType>Location</subType>
-                <geo>53.23625 -2.307138888888889</geo>
-                <website>http://www.jb.man.ac.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/Jodrell_Bank_Observatory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01606j</freebase>
-                <yago>http://yago-knowledge.org/resource/Jodrell_Bank_Observatory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.300697</relevance>
-            <count>3</count>
-            <text>Wilford</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.299092</relevance>
-            <count>2</count>
-            <text>space exploration.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.296674</relevance>
-            <count>3</count>
-            <text>Sullivan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.291749</relevance>
-            <count>3</count>
-            <text>FY</text>
+            <relevance>0.239846</relevance>
+            <count>4</count>
+            <text>Bochum Observatory</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.291733</relevance>
+            <relevance>0.23901</relevance>
+            <count>1</count>
+            <text>nasa Deputy Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.236256</relevance>
             <count>4</count>
             <text>President</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.289882</relevance>
-            <count>2</count>
-            <text>Midwest Research Institute</text>
+            <type>Person</type>
+            <relevance>0.233225</relevance>
+            <count>3</count>
+            <text>Dr. Homer E. Newell</text>
             <disambiguated>
-                <name>MRIGlobal</name>
-                <dbpedia>http://dbpedia.org/resource/MRIGlobal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026rxwj</freebase>
+                <name>Homer E. Newell, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
+                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.229538</relevance>
+            <count>1</count>
+            <text>Robert A. Rushworth</text>
+            <disambiguated>
+                <name>Robert A. Rushworth</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Robert_A._Rushworth</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.042zdk</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_A._Rushworth</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.289664</relevance>
+            <relevance>0.228982</relevance>
             <count>2</count>
             <text>N.Y.</text>
             <disambiguated>
@@ -382,100 +386,120 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.288606</relevance>
-            <count>3</count>
-            <text>Mt</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.283974</relevance>
-            <count>3</count>
-            <text>Dr. Ivan L. Bennett, Jr.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.282839</relevance>
-            <count>2</count>
-            <text>Smithsonian Astrophysical Observatory</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.282458</relevance>
-            <count>3</count>
-            <text>Soviet Union</text>
+            <relevance>0.228289</relevance>
+            <count>1</count>
+            <text>World Meteorological Organization</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>World Meteorological Organization</name>
+                <website>http://www.wmo.int/</website>
+                <dbpedia>http://dbpedia.org/resource/World_Meteorological_Organization</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0841c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvqJ3Z5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/World_Meteorological_Organization</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.281911</relevance>
+            <type>Facility</type>
+            <relevance>0.227542</relevance>
             <count>2</count>
-            <text>nasa Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.281345</relevance>
-            <count>4</count>
-            <text>Robert Hotz</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.279697</relevance>
-            <count>3</count>
-            <text>Pres. Doc.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.278051</relevance>
-            <count>3</count>
-            <text>Commander Gen. Bernard A. Schriever</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.277159</relevance>
-            <count>1</count>
-            <text>NASA Ames Research Center</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.277114</relevance>
-            <count>1</count>
-            <text>Robert A. Rushworth</text>
+            <text>jodrell Bank Experimental Station</text>
             <disambiguated>
-                <name>Robert A. Rushworth</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_A._Rushworth</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.042zdk</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_A._Rushworth</yago>
+                <name>Jodrell Bank Observatory</name>
+                <subType>Organization</subType>
+                <subType>Location</subType>
+                <geo>53.23625 -2.307138888888889</geo>
+                <website>http://www.jb.man.ac.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/Jodrell_Bank_Observatory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01606j</freebase>
+                <yago>http://yago-knowledge.org/resource/Jodrell_Bank_Observatory</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.274741</relevance>
-            <count>1</count>
-            <text>NASA Assistant Administrator for International Affairs</text>
+            <relevance>0.227013</relevance>
+            <count>3</count>
+            <text>Deputy Director</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.225697</relevance>
+            <count>2</count>
+            <text>Washington Daily News</text>
+            <disambiguated>
+                <name>Washington Daily News</name>
+                <dbpedia>http://dbpedia.org/resource/Washington_Daily_News</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07s7grl</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.225589</relevance>
+            <count>2</count>
+            <text>Sen. Daniel B. Brewster</text>
+            <disambiguated>
+                <name>Daniel Brewster</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Daniel_Brewster</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.050dzl</freebase>
+                <yago>http://yago-knowledge.org/resource/Daniel_Brewster</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.27442</relevance>
+            <relevance>0.225304</relevance>
             <count>2</count>
             <text>Orbiting Geophysical Observatory</text>
         </entity>
         <entity>
-            <type>Holiday</type>
-            <relevance>0.271858</relevance>
+            <type>Person</type>
+            <relevance>0.225005</relevance>
+            <count>3</count>
+            <text>Dr. Ivan L. Bennett, Jr.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.22497</relevance>
             <count>2</count>
-            <text>Aviation Week</text>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.22366</relevance>
+            <count>3</count>
+            <text>Commander Gen. Bernard A. Schriever</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.223072</relevance>
+            <count>1</count>
+            <text>NASA Assistant Administrator for International Affairs</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.223034</relevance>
+            <count>1</count>
+            <text>dod Deputy Director for Strategic and Space Systems</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.222932</relevance>
+            <count>2</count>
+            <text>Smithsonian Astrophysical Observatory</text>
         </entity>
     </entities>
 </results>

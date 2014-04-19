@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.953068</relevance>
+            <relevance>0.952902</relevance>
             <count>4</count>
             <text>Clementine</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.549308</relevance>
+            <relevance>0.528425</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -32,7 +32,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.468522</relevance>
+            <relevance>0.52151</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -54,7 +54,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.437686</relevance>
+            <relevance>0.445102</relevance>
             <count>2</count>
             <text>USA Today</text>
         </entity>
@@ -78,7 +78,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.376092</relevance>
+            <relevance>0.392262</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -95,7 +95,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.361076</relevance>
+            <relevance>0.359108</relevance>
             <count>1</count>
             <text>Reuters</text>
             <disambiguated>
@@ -108,14 +108,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.3354</relevance>
-            <count>1</count>
-            <text>Van Allen</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.334101</relevance>
+            <relevance>0.350949</relevance>
             <count>1</count>
             <text>Puerto Rico</text>
             <disambiguated>
@@ -137,7 +131,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.319382</relevance>
+            <relevance>0.345343</relevance>
             <count>1</count>
             <text>Fred Espenak</text>
             <disambiguated>
@@ -147,14 +141,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.317131</relevance>
-            <count>1</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.314461</relevance>
+            <relevance>0.340091</relevance>
             <count>1</count>
             <text>El Paso</text>
             <disambiguated>
@@ -169,45 +157,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.31029</relevance>
+            <type>Company</type>
+            <relevance>0.335242</relevance>
             <count>1</count>
-            <text>New England</text>
+            <text>Van Allen</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.317446</relevance>
+            <count>1</count>
+            <text>Ohio</text>
             <disambiguated>
-                <name>New England</name>
+                <name>Ohio</name>
                 <subType>Location</subType>
-                <geo>44.205555555555556 -70.306425</geo>
-                <dbpedia>http://dbpedia.org/resource/New_England</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.029jpy</freebase>
-                <yago>http://yago-knowledge.org/resource/New_England</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.308425</relevance>
-            <count>1</count>
-            <text>Spence Armstrong</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.302415</relevance>
-            <count>1</count>
-            <text>Toledo</text>
-            <disambiguated>
-                <name>Toledo, Ohio</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <geo>41.66555555555556 -83.57527777777777</geo>
-                <website>http://www.toledo.oh.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Toledo,_Ohio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07l5z</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/oh/counties/lucas_county/toledo</census>
-                <yago>http://yago-knowledge.org/resource/Toledo,_Ohio</yago>
-                <geonames>http://sws.geonames.org/5174035/</geonames>
+                <subType>USState</subType>
+                <website>http://www.ohio.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Ohio</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.300053</relevance>
+            <relevance>0.315806</relevance>
             <count>1</count>
             <text>Alabama</text>
             <disambiguated>
@@ -229,26 +205,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.293495</relevance>
-            <count>1</count>
-            <text>Ohio</text>
-            <disambiguated>
-                <name>Ohio</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.ohio.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Ohio</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.291884</relevance>
+            <relevance>0.315685</relevance>
             <count>1</count>
             <text>Texas</text>
             <disambiguated>
@@ -267,8 +224,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Region</type>
+            <relevance>0.30862</relevance>
+            <count>1</count>
+            <text>New England</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.306498</relevance>
+            <count>1</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.300717</relevance>
+            <count>1</count>
+            <text>Toledo</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.297616</relevance>
+            <count>1</count>
+            <text>Spence Armstrong</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.275388</relevance>
+            <relevance>0.291231</relevance>
             <count>1</count>
             <text>Montana</text>
             <disambiguated>
@@ -286,14 +267,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.271915</relevance>
-            <count>1</count>
-            <text>Office of Human Resources and Education</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.26206</relevance>
+            <relevance>0.277867</relevance>
             <count>1</count>
             <text>Arkansas</text>
             <disambiguated>
@@ -314,7 +289,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.261658</relevance>
+            <relevance>0.277451</relevance>
             <count>1</count>
             <text>Louisiana</text>
             <disambiguated>
@@ -334,7 +309,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.260932</relevance>
+            <relevance>0.276676</relevance>
             <count>1</count>
             <text>Kentucky</text>
             <disambiguated>
@@ -351,6 +326,12 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVi0u5wpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Kentucky</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.26141</relevance>
+            <count>1</count>
+            <text>Office of Human Resources and Education</text>
         </entity>
     </entities>
 </results>

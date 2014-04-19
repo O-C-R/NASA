@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.847656</relevance>
+            <relevance>0.847952</relevance>
             <count>48</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.408403</relevance>
+            <relevance>0.477309</relevance>
             <count>8</count>
             <text>MSFC</text>
             <disambiguated>
@@ -43,14 +43,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.240076</relevance>
-            <count>4</count>
+            <type>Organization</type>
+            <relevance>0.261755</relevance>
+            <count>5</count>
             <text>NSTL</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.238949</relevance>
+            <relevance>0.240568</relevance>
             <count>4</count>
             <text>Rockwell International</text>
             <disambiguated>
@@ -64,8 +64,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.236783</relevance>
+            <count>3</count>
+            <text>Martin Marietta Aerospace</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.233238</relevance>
+            <relevance>0.231978</relevance>
             <count>4</count>
             <text>KSC</text>
             <disambiguated>
@@ -83,31 +89,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.230834</relevance>
-            <count>3</count>
-            <text>Martin Marietta Aerospace</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.225233</relevance>
-            <count>3</count>
-            <text>Columbia</text>
-            <disambiguated>
-                <name>Columbia, New York</name>
-                <dbpedia>http://dbpedia.org/resource/Columbia,_New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0y0fc</freebase>
-                <yago>http://yago-knowledge.org/resource/Columbia,_New_York</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.215974</relevance>
-            <count>3</count>
-            <text>Washington Star</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.190969</relevance>
+            <relevance>0.224792</relevance>
             <count>2</count>
             <text>Martin Marietta</text>
             <disambiguated>
@@ -122,32 +104,99 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.19073</relevance>
+            <relevance>0.21276</relevance>
+            <count>3</count>
+            <text>Washington Star</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.194847</relevance>
+            <count>1</count>
+            <text>Space Technology</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.192033</relevance>
             <count>2</count>
-            <text>New York Times</text>
+            <text>power systems</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.190237</relevance>
+            <count>3</count>
+            <text>Columbia</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Columbia, New York</name>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0y0fc</freebase>
+                <yago>http://yago-knowledge.org/resource/Columbia,_New_York</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.186327</relevance>
+            <count>3</count>
+            <text>solar cells</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.190511</relevance>
+            <relevance>0.183307</relevance>
             <count>1</count>
             <text>National Space Technology Laboratories</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.19006</relevance>
+            <relevance>0.182987</relevance>
+            <count>2</count>
+            <text>JSC</text>
+            <disambiguated>
+                <name>Joint-stock company</name>
+                <dbpedia>http://dbpedia.org/resource/Joint-stock_company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_jrm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.182773</relevance>
+            <count>2</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.180151</relevance>
+            <count>2</count>
+            <text>solar energy</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.179504</relevance>
+            <count>1</count>
+            <text>Hughes Aircraft</text>
+            <disambiguated>
+                <name>Hughes Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
+                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.176041</relevance>
             <count>4</count>
             <text>ESA</text>
             <disambiguated>
@@ -165,20 +214,105 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.187186</relevance>
-            <count>1</count>
-            <text>Space Technology</text>
+            <type>FieldTerminology</type>
+            <relevance>0.175422</relevance>
+            <count>2</count>
+            <text>transportation systems</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.187127</relevance>
+            <relevance>0.175111</relevance>
+            <count>1</count>
+            <text>real time</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.174558</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.172224</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.167161</relevance>
+            <count>1</count>
+            <text>TRW</text>
+            <disambiguated>
+                <name>TRW</name>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/TRW</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01m5n0</freebase>
+                <yago>http://yago-knowledge.org/resource/TRW</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.167039</relevance>
             <count>2</count>
-            <text>solar energy</text>
+            <text>Mississippi</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.166258</relevance>
+            <count>1</count>
+            <text>ARC</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.165266</relevance>
+            <count>1</count>
+            <text>Skylab</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.185727</relevance>
+            <relevance>0.164072</relevance>
+            <count>1</count>
+            <text>Launch Complex</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.157694</relevance>
+            <count>1</count>
+            <text>Delta</text>
+            <disambiguated>
+                <name>Delta Air Lines</name>
+                <subType>Airline</subType>
+                <website>http://www.delta.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Delta_Air_Lines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0k9ts</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv5BRgpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Delta_Air_Lines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.156722</relevance>
             <count>1</count>
             <text>Cape Canaveral Air Force Station</text>
             <disambiguated>
@@ -192,8 +326,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.155507</relevance>
+            <count>1</count>
+            <text>Chester M. Lee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.15539</relevance>
+            <count>1</count>
+            <text>official</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.182846</relevance>
+            <relevance>0.155305</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -212,204 +358,53 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.182736</relevance>
+            <type>City</type>
+            <relevance>0.154456</relevance>
             <count>2</count>
-            <text>JSC</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
+            <text>Spacelab</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.1793</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
+            <type>PrintMedia</type>
+            <relevance>0.154323</relevance>
+            <count>2</count>
+            <text>New York Times</text>
             <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.17581</relevance>
-            <count>1</count>
-            <text>Ball Aerospace Division</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.173964</relevance>
-            <count>2</count>
-            <text>Sen. John Glenn</text>
+            <relevance>0.153299</relevance>
+            <count>1</count>
+            <text>Harold Brown</text>
             <disambiguated>
-                <name>John Glenn</name>
-                <subType>FilmCharacter</subType>
+                <name>Harold Brown (Secretary of Defense)</name>
                 <subType>Politician</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <website>http://www11.jsc.nasa.gov/Bios/htmlbios/glenn-j.html</website>
-                <dbpedia>http://dbpedia.org/resource/John_Glenn</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g0yh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwJ6IupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/John_Glenn</yago>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Harold_Brown_(Secretary_of_Defense)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sx84</freebase>
+                <yago>http://yago-knowledge.org/resource/Harold_Brown_(Secretary_of_Defense)</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.171334</relevance>
-            <count>2</count>
-            <text>Mississippi</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.171303</relevance>
-            <count>2</count>
-            <text>power systems</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.171002</relevance>
+            <type>Facility</type>
+            <relevance>0.149628</relevance>
             <count>1</count>
-            <text>Scott Carpenter</text>
-            <disambiguated>
-                <name>Scott Carpenter</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.scottcarpenter.com</website>
-                <dbpedia>http://dbpedia.org/resource/Scott_Carpenter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wz44</freebase>
-                <yago>http://yago-knowledge.org/resource/Scott_Carpenter</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.16492</relevance>
-            <count>2</count>
-            <text>transportation systems</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.163777</relevance>
-            <count>1</count>
-            <text>Gordon Cooper</text>
-            <disambiguated>
-                <name>Gordon Cooper</name>
-                <subType>FilmCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Gordon_Cooper</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01w_pp</freebase>
-                <yago>http://yago-knowledge.org/resource/Gordon_Cooper</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.163536</relevance>
-            <count>1</count>
-            <text>American Monument Association</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.16156</relevance>
-            <count>1</count>
-            <text>NSTA</text>
-            <disambiguated>
-                <name>National Science Teachers Association</name>
-                <website>http://www.nsta.org/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Science_Teachers_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cymrk</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Science_Teachers_Association</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.160202</relevance>
-            <count>1</count>
-            <text>NSTL</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.158672</relevance>
-            <count>1</count>
-            <text>Walter Schirra</text>
-            <disambiguated>
-                <name>Wally Schirra</name>
-                <subType>FilmCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.wallyschirra.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
-                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.156662</relevance>
-            <count>1</count>
-            <text>ARC</text>
-            <disambiguated>
-                <name>Scientology</name>
-                <subType>Religion</subType>
-                <website>http://www.scientology.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Scientology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06nzl</freebase>
-                <yago>http://yago-knowledge.org/resource/Scientology</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.15582</relevance>
-            <count>3</count>
-            <text>solar cells</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.155557</relevance>
-            <count>1</count>
-            <text>Hughes Aircraft</text>
-            <disambiguated>
-                <name>Hughes Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.155233</relevance>
-            <count>1</count>
-            <text>McDonnell Douglas</text>
-            <disambiguated>
-                <name>McDonnell Douglas</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
-            </disambiguated>
+            <text>United Slates</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.15447</relevance>
+            <relevance>0.149173</relevance>
             <count>1</count>
             <text>Bay St. Louis</text>
             <disambiguated>
@@ -422,14 +417,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.153307</relevance>
+            <type>Organization</type>
+            <relevance>0.147859</relevance>
             <count>1</count>
-            <text>Launch Complex</text>
+            <text>NSTA</text>
+            <disambiguated>
+                <name>National Science Teachers Association</name>
+                <website>http://www.nsta.org/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Teachers_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cymrk</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Science_Teachers_Association</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.147299</relevance>
+            <count>1</count>
+            <text>director</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.148648</relevance>
+            <relevance>0.147221</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -450,117 +458,87 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.14785</relevance>
-            <count>1</count>
-            <text>TRW</text>
-            <disambiguated>
-                <name>TRW</name>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/TRW</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01m5n0</freebase>
-                <yago>http://yago-knowledge.org/resource/TRW</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.147634</relevance>
-            <count>1</count>
-            <text>Skylab</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.147462</relevance>
-            <count>1</count>
-            <text>real time</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.147321</relevance>
-            <count>1</count>
-            <text>Harold Brown</text>
+            <relevance>0.145961</relevance>
+            <count>2</count>
+            <text>Sen. John Glenn</text>
             <disambiguated>
-                <name>Harold Brown (Secretary of Defense)</name>
+                <name>John Glenn</name>
+                <subType>FilmCharacter</subType>
                 <subType>Politician</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Harold_Brown_(Secretary_of_Defense)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sx84</freebase>
-                <yago>http://yago-knowledge.org/resource/Harold_Brown_(Secretary_of_Defense)</yago>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <website>http://www11.jsc.nasa.gov/Bios/htmlbios/glenn-j.html</website>
+                <dbpedia>http://dbpedia.org/resource/John_Glenn</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g0yh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwJ6IupwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/John_Glenn</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.146642</relevance>
-            <count>1</count>
-            <text>shut down</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.145082</relevance>
-            <count>1</count>
-            <text>Fla.</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.143897</relevance>
-            <count>1</count>
-            <text>Solar Energy Corporation</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.143469</relevance>
-            <count>1</count>
-            <text>official</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.143097</relevance>
-            <count>1</count>
-            <text>Chester M. Lee</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.138992</relevance>
+            <relevance>0.144681</relevance>
             <count>1</count>
             <text>Rocketdyne</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.137879</relevance>
-            <count>2</count>
-            <text>Spacelab</text>
+            <type>Company</type>
+            <relevance>0.143901</relevance>
+            <count>1</count>
+            <text>Solar Energy Corporation</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.137152</relevance>
+            <type>Person</type>
+            <relevance>0.143142</relevance>
             <count>1</count>
-            <text>United Slates</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.137058</relevance>
-            <count>1</count>
-            <text>Mississippi.</text>
+            <text>Scott Carpenter</text>
+            <disambiguated>
+                <name>Scott Carpenter</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.scottcarpenter.com</website>
+                <dbpedia>http://dbpedia.org/resource/Scott_Carpenter</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wz44</freebase>
+                <yago>http://yago-knowledge.org/resource/Scott_Carpenter</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.134971</relevance>
+            <relevance>0.142142</relevance>
             <count>1</count>
-            <text>director</text>
+            <text>Ball Aerospace Division</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.140712</relevance>
+            <count>1</count>
+            <text>Senate Committee on Commerce</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.139382</relevance>
+            <count>1</count>
+            <text>Defense Secretary</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.138339</relevance>
+            <count>1</count>
+            <text>shut down</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.136772</relevance>
+            <count>1</count>
+            <text>W&amp;J Construction Company</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.136622</relevance>
+            <count>1</count>
+            <text>Missile Center</text>
         </entity>
     </entities>
 </results>

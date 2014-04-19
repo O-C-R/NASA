@@ -7,13 +7,30 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.958087</relevance>
+            <relevance>0.95526</relevance>
             <count>1</count>
             <text>U.S. Space Station Alpha</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.815555</relevance>
+            <count>1</count>
+            <text>Sen. Dale Bumpers</text>
+            <disambiguated>
+                <name>Dale Bumpers</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Dale_Bumpers</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01rtp0</freebase>
+                <yago>http://yago-knowledge.org/resource/Dale_Bumpers</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.892021</relevance>
+            <relevance>0.760948</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -34,31 +51,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.841355</relevance>
-            <count>1</count>
-            <text>Sen. Dale Bumpers</text>
-            <disambiguated>
-                <name>Dale Bumpers</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Dale_Bumpers</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01rtp0</freebase>
-                <yago>http://yago-knowledge.org/resource/Dale_Bumpers</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.596793</relevance>
+            <relevance>0.56889</relevance>
             <count>1</count>
             <text>Htsvl Tms</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.583337</relevance>
+            <relevance>0.540794</relevance>
             <count>1</count>
             <text>Senate</text>
             <disambiguated>
@@ -74,7 +74,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.517894</relevance>
+            <relevance>0.516452</relevance>
             <count>1</count>
             <text>Reuters</text>
             <disambiguated>

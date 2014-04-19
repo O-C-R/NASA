@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.758316</relevance>
+            <relevance>0.822001</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.580936</relevance>
+            <relevance>0.580447</relevance>
             <count>5</count>
             <text>Apollo</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.565339</relevance>
+            <relevance>0.517917</relevance>
             <count>10</count>
             <text>U.S.</text>
             <disambiguated>
@@ -55,25 +55,37 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.466924</relevance>
-            <count>6</count>
+            <relevance>0.51669</relevance>
+            <count>7</count>
             <text>Lunokhod</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.439407</relevance>
-            <count>2</count>
-            <text>Apollo</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.438924</relevance>
+            <relevance>0.418793</relevance>
             <count>2</count>
             <text>lunar mission</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.411919</relevance>
+            <count>2</count>
+            <text>Apollo</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.369183</relevance>
+            <count>1</count>
+            <text>Tass</text>
+            <disambiguated>
+                <name>Tass, Hungary</name>
+                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
+                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.423818</relevance>
+            <relevance>0.362404</relevance>
             <count>5</count>
             <text>The New York Times</text>
             <disambiguated>
@@ -92,7 +104,7 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.40133</relevance>
+            <relevance>0.358707</relevance>
             <count>3</count>
             <text>Lonar Crater</text>
             <disambiguated>
@@ -106,29 +118,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.357775</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.357058</relevance>
+            <relevance>0.351156</relevance>
             <count>2</count>
             <text>Le Monnier Crater</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.35695</relevance>
+            <relevance>0.3503</relevance>
             <count>3</count>
             <text>Dr. Harrison H. Schmitt</text>
             <disambiguated>
@@ -144,165 +141,53 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.346537</relevance>
-            <count>2</count>
-            <text>Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.345953</relevance>
+            <relevance>0.348767</relevance>
             <count>1</count>
             <text>Lunar Receiving Laboratory</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.340197</relevance>
+            <type>Country</type>
+            <relevance>0.346373</relevance>
             <count>2</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.334343</relevance>
-            <count>1</count>
-            <text>Kennedy Space Center</text>
+            <text>U.S.S.R.</text>
             <disambiguated>
-                <name>Kennedy Space Center</name>
+                <name>Soviet Union</name>
                 <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.324039</relevance>
-            <count>1</count>
-            <text>energy crisis</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.321529</relevance>
-            <count>1</count>
-            <text>Tass</text>
-            <disambiguated>
-                <name>Tass, Hungary</name>
-                <dbpedia>http://dbpedia.org/resource/Tass,_Hungary</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026kvyg</freebase>
-                <yago>http://yago-knowledge.org/resource/Tass,_Hungary</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.309688</relevance>
-            <count>1</count>
-            <text>food shortages</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.308935</relevance>
-            <count>1</count>
-            <text>oil spill</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.308904</relevance>
-            <count>1</count>
-            <text>Space Astronomy</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.306627</relevance>
+            <relevance>0.339497</relevance>
             <count>1</count>
             <text>luna terra</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.306349</relevance>
-            <count>3</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.30537</relevance>
-            <count>1</count>
+            <type>Person</type>
+            <relevance>0.338583</relevance>
+            <count>2</count>
             <text>Tass</text>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.303424</relevance>
-            <count>1</count>
-            <text>Skylab</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.299992</relevance>
+            <relevance>0.327973</relevance>
             <count>1</count>
             <text>Apollo</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.297461</relevance>
-            <count>1</count>
-            <text>Otten</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294441</relevance>
-            <count>2</count>
-            <text>Don Fuqua</text>
-            <disambiguated>
-                <name>Don Fuqua</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Don_Fuqua</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0286dl2</freebase>
-                <yago>http://yago-knowledge.org/resource/Don_Fuqua</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.293592</relevance>
+            <relevance>0.325302</relevance>
             <count>1</count>
             <text>Fra Mauro</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.293545</relevance>
-            <count>2</count>
-            <text>Eugene A. Cernan</text>
-            <disambiguated>
-                <name>Eugene Cernan</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://marklarson.com/genecernan/</website>
-                <dbpedia>http://dbpedia.org/resource/Eugene_Cernan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01rv5w</freebase>
-                <yago>http://yago-knowledge.org/resource/Eugene_Cernan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.29166</relevance>
-            <count>1</count>
-            <text>South Ray</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.291051</relevance>
+            <relevance>0.325255</relevance>
             <count>2</count>
             <text>Los Angeles</text>
             <disambiguated>
@@ -319,65 +204,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.288664</relevance>
-            <count>2</count>
-            <text>Warsaw</text>
-            <disambiguated>
-                <name>Warsaw, Illinois</name>
-                <geo>40.355173 -91.432928</geo>
-                <dbpedia>http://dbpedia.org/resource/Warsaw,_Illinois</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0s7xt</freebase>
-                <yago>http://yago-knowledge.org/resource/Warsaw,_Illinois</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.285793</relevance>
-            <count>1</count>
-            <text>Optical Astronomy</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.282738</relevance>
-            <count>2</count>
-            <text>Richard T. Davies</text>
-            <disambiguated>
-                <name>Ponty Davies</name>
-                <dbpedia>http://dbpedia.org/resource/Ponty_Davies</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c3xzfh</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.282279</relevance>
+            <relevance>0.323102</relevance>
             <count>1</count>
-            <text>President Henryk Jablonski</text>
-            <disambiguated>
-                <name>Henryk Jab&#x142;o&#x144;ski</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Henryk_Jab&#x142;o&#x144;ski</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03gfqc</freebase>
-                <yago>http://yago-knowledge.org/resource/Henryk_Jab%C5%82o%C5%84ski</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.282123</relevance>
-            <count>1</count>
-            <text>Radio Astronomy</text>
+            <text>South Ray</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.281361</relevance>
+            <relevance>0.311945</relevance>
+            <count>3</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.311247</relevance>
             <count>1</count>
-            <text>solar radiation</text>
+            <text>Anthony Michaelis</text>
         </entity>
         <entity>
             <type>Holiday</type>
-            <relevance>0.280559</relevance>
+            <relevance>0.309981</relevance>
             <count>1</count>
             <text>Christmas</text>
             <disambiguated>
@@ -389,60 +235,165 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.306753</relevance>
+            <count>1</count>
+            <text>Space Astronomy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.306432</relevance>
+            <count>2</count>
+            <text>Univ. of Houston</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.305804</relevance>
+            <count>1</count>
+            <text>Tex.</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.279055</relevance>
+            <relevance>0.299472</relevance>
+            <count>2</count>
+            <text>Don Fuqua</text>
+            <disambiguated>
+                <name>Don Fuqua</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Don_Fuqua</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0286dl2</freebase>
+                <yago>http://yago-knowledge.org/resource/Don_Fuqua</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.299099</relevance>
+            <count>1</count>
+            <text>Northern Hemisphere</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.297405</relevance>
+            <count>1</count>
+            <text>Kennedy Space Center</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.29647</relevance>
+            <count>1</count>
+            <text>Kohoutek</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.295246</relevance>
+            <count>1</count>
+            <text>Clear Lake City</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.291789</relevance>
+            <count>1</count>
+            <text>solar radiation</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.289851</relevance>
+            <count>1</count>
+            <text>Microbreccias</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.289333</relevance>
             <count>1</count>
             <text>Petrographically</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.278526</relevance>
+            <relevance>0.288905</relevance>
             <count>1</count>
             <text>Geology Investigation Team</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.278068</relevance>
+            <type>Drug</type>
+            <relevance>0.287476</relevance>
             <count>1</count>
-            <text>Microbreccias</text>
+            <text>nicotine</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.276818</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.286236</relevance>
             <count>1</count>
-            <text>Poland</text>
-            <disambiguated>
-                <name>People's Republic of Poland</name>
-                <dbpedia>http://dbpedia.org/resource/People's_Republic_of_Poland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01zs00</freebase>
-                <yago>http://yago-knowledge.org/resource/People's_Republic_of_Poland</yago>
-            </disambiguated>
+            <text>Comet Kohoutek</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.275198</relevance>
-            <count>1</count>
-            <text>National Academy of Sciences</text>
+            <type>PrintMedia</type>
+            <relevance>0.285449</relevance>
+            <count>2</count>
+            <text>Wall Street Journal</text>
             <disambiguated>
-                <name>National Academy of Sciences</name>
-                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.274522</relevance>
-            <count>1</count>
-            <text>Polish Council of State</text>
-            <disambiguated>
-                <name>Polish Council of State</name>
-                <dbpedia>http://dbpedia.org/resource/Polish_Council_of_State</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03np13</freebase>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.273177</relevance>
+            <relevance>0.28437</relevance>
+            <count>1</count>
+            <text>Frederiksson</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.283896</relevance>
+            <count>1</count>
+            <text>Optical Astronomy</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.280225</relevance>
+            <count>1</count>
+            <text>Radio Astronomy</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.279868</relevance>
+            <count>1</count>
+            <text>Taurus Massif</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.278554</relevance>
+            <count>2</count>
+            <text>Eugene A. Cernan</text>
+            <disambiguated>
+                <name>Eugene Cernan</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://marklarson.com/genecernan/</website>
+                <dbpedia>http://dbpedia.org/resource/Eugene_Cernan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01rv5w</freebase>
+                <yago>http://yago-knowledge.org/resource/Eugene_Cernan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.27818</relevance>
             <count>2</count>
             <text>Lou Frey</text>
             <disambiguated>
@@ -456,7 +407,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.272438</relevance>
+            <relevance>0.277353</relevance>
             <count>1</count>
             <text>Neil Armstrong</text>
             <disambiguated>
@@ -472,28 +423,52 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.27107</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.274786</relevance>
             <count>1</count>
-            <text>National Register of Historic Places</text>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.274326</relevance>
+            <count>1</count>
+            <text>Kohoutek</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.273616</relevance>
+            <count>1</count>
+            <text>energy crisis</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.269879</relevance>
+            <relevance>0.273357</relevance>
             <count>1</count>
-            <text>Interior&#x2019;s National Park Service</text>
+            <text>National Academy of Sciences</text>
+            <disambiguated>
+                <name>National Academy of Sciences</name>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ckt_</freebase>
+            </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.269702</relevance>
-            <count>1</count>
-            <text>Taurus Massif</text>
+            <type>City</type>
+            <relevance>0.273184</relevance>
+            <count>2</count>
+            <text>Warsaw</text>
+            <disambiguated>
+                <name>Warsaw, Illinois</name>
+                <geo>40.355173 -91.432928</geo>
+                <dbpedia>http://dbpedia.org/resource/Warsaw,_Illinois</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0s7xt</freebase>
+                <yago>http://yago-knowledge.org/resource/Warsaw,_Illinois</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.269514</relevance>
+            <type>Company</type>
+            <relevance>0.270293</relevance>
             <count>1</count>
-            <text>Northern Hemisphere</text>
+            <text>SCI Systems, Inc.</text>
         </entity>
     </entities>
 </results>

@@ -7,26 +7,20 @@
     <entities>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.85681</relevance>
-            <count>43</count>
+            <relevance>0.898511</relevance>
+            <count>63</count>
             <text>communications satellite</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.751605</relevance>
-            <count>21</count>
-            <text>Communications Satellite</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.665905</relevance>
+            <relevance>0.722511</relevance>
             <count>15</count>
-            <text>Communications Satellite Corp</text>
+            <text>Communications Satellite Corp.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.643032</relevance>
-            <count>78</count>
+            <relevance>0.63922</relevance>
+            <count>80</count>
             <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
@@ -47,29 +41,14 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.527146</relevance>
+            <relevance>0.52358</relevance>
             <count>49</count>
             <text>Wash</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.482046</relevance>
-            <count>28</count>
-            <text>AP</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.447475</relevance>
-            <count>45</count>
+            <relevance>0.473883</relevance>
+            <count>44</count>
             <text>United States</text>
             <disambiguated>
                 <name>United States</name>
@@ -88,8 +67,8 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.412449</relevance>
-            <count>20</count>
+            <relevance>0.443284</relevance>
+            <count>23</count>
             <text>New York Times</text>
             <disambiguated>
                 <name>The New York Times</name>
@@ -106,16 +85,53 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.424528</relevance>
+            <count>28</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.391965</relevance>
+            <count>15</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.386313</relevance>
+            <relevance>0.382246</relevance>
             <count>9</count>
             <text>nasa station</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.351695</relevance>
+            <count>9</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.381983</relevance>
+            <relevance>0.348189</relevance>
             <count>11</count>
-            <text>President John F. Kennedy</text>
+            <text>President Kennedy</text>
             <disambiguated>
                 <name>John F. Kennedy</name>
                 <subType>FilmCharacter</subType>
@@ -140,30 +156,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.342781</relevance>
+            <count>18</count>
+            <text>usaf</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.340861</relevance>
+            <count>11</count>
+            <text>Tiros</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.381702</relevance>
+            <relevance>0.339113</relevance>
             <count>4</count>
             <text>satellite system</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.357479</relevance>
-            <count>13</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.338745</relevance>
+            <relevance>0.339065</relevance>
             <count>10</count>
             <text>United Kingdom</text>
             <disambiguated>
@@ -183,8 +195,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.33846</relevance>
+            <count>2</count>
+            <text>Commercial Communications Satellite</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.338539</relevance>
+            <relevance>0.332955</relevance>
             <count>11</count>
             <text>New Jersey</text>
             <disambiguated>
@@ -202,48 +220,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.328357</relevance>
-            <count>2</count>
-            <text>Commercial Communications Satellite</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.328063</relevance>
-            <count>5</count>
-            <text>Federal Communications Commission</text>
-            <disambiguated>
-                <name>Federal Communications Commission</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.fcc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Communications_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fjdq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rviTbqZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Communications_Commission</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.324636</relevance>
-            <count>9</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.313639</relevance>
+            <relevance>0.31606</relevance>
             <count>9</count>
             <text>dod</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.31352</relevance>
-            <count>13</count>
-            <text>Tiros</text>
+            <type>Company</type>
+            <relevance>0.302821</relevance>
+            <count>4</count>
+            <text>Syncom communications</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.309951</relevance>
+            <relevance>0.30197</relevance>
             <count>5</count>
             <text>nasa</text>
             <disambiguated>
@@ -265,14 +255,8 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.299673</relevance>
-            <count>13</count>
-            <text>usaf</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.297137</relevance>
-            <count>6</count>
+            <relevance>0.298327</relevance>
+            <count>7</count>
             <text>Bell Telephone Laboratories</text>
             <disambiguated>
                 <name>Bell Labs</name>
@@ -285,14 +269,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.296526</relevance>
-            <count>7</count>
-            <text>Tass</text>
+            <type>Organization</type>
+            <relevance>0.293296</relevance>
+            <count>4</count>
+            <text>Federal Communications Commission</text>
+            <disambiguated>
+                <name>Federal Communications Commission</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.fcc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Communications_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fjdq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rviTbqZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Communications_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.28663</relevance>
+            <count>5</count>
+            <text>dod</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.286303</relevance>
+            <relevance>0.280755</relevance>
             <count>7</count>
             <text>Andover</text>
             <disambiguated>
@@ -304,42 +304,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.272098</relevance>
-            <count>5</count>
-            <text>Komsomolskaya Pravda</text>
+            <type>Facility</type>
+            <relevance>0.27885</relevance>
+            <count>1</count>
+            <text>Goddard Scientific Satellite Symposium</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.269218</relevance>
+            <relevance>0.277624</relevance>
             <count>2</count>
             <text>National Weather Satellite Center</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.268415</relevance>
-            <count>6</count>
-            <text>U.S. Weather Bureau</text>
-            <disambiguated>
-                <name>National Weather Service</name>
-                <subType>GovernmentAgency</subType>
-                <subType>MeteorologicalService</subType>
-                <website>http://www.weather.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Weather_Service</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01q4np</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwNqh5pwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Weather_Service</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.266439</relevance>
-            <count>6</count>
-            <text>Nigeria.</text>
+            <type>Company</type>
+            <relevance>0.277066</relevance>
+            <count>1</count>
+            <text>Tetrahedral Research Satellite</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.265285</relevance>
+            <relevance>0.2746</relevance>
             <count>7</count>
             <text>Washington</text>
             <disambiguated>
@@ -358,13 +342,53 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.261798</relevance>
-            <count>4</count>
-            <text>Syncom communications</text>
+            <relevance>0.264762</relevance>
+            <count>9</count>
+            <text>ComSatCorp</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.257552</relevance>
+            <count>7</count>
+            <text>U.S. Weather Bureau</text>
+            <disambiguated>
+                <name>National Weather Service</name>
+                <subType>GovernmentAgency</subType>
+                <subType>MeteorologicalService</subType>
+                <website>http://www.weather.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Weather_Service</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01q4np</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwNqh5pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Weather_Service</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255907</relevance>
+            <count>1</count>
+            <text>Bochum Institute for Satellite and Space Research</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.254052</relevance>
+            <count>7</count>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.260753</relevance>
+            <relevance>0.252461</relevance>
+            <count>5</count>
+            <text>NTT</text>
+            <disambiguated>
+                <name>Nippon Telegraph and Telephone</name>
+                <website>http://www.ntt.co.jp/index_e.html</website>
+                <dbpedia>http://dbpedia.org/resource/Nippon_Telegraph_and_Telephone</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c3fq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.250327</relevance>
             <count>8</count>
             <text>at&amp;t</text>
             <disambiguated>
@@ -379,73 +403,77 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.257351</relevance>
+            <type>Person</type>
+            <relevance>0.247629</relevance>
             <count>4</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
+            <text>Finney</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.255378</relevance>
-            <count>5</count>
-            <text>England</text>
+            <type>JobTitle</type>
+            <relevance>0.24526</relevance>
+            <count>4</count>
+            <text>Pres. Rpt. on Space</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.25529</relevance>
+            <relevance>0.244794</relevance>
+            <count>7</count>
+            <text>U.S. Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.244122</relevance>
             <count>1</count>
-            <text>Bochum Institute for Satellite and Space Research</text>
+            <text>Communications Satellite</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.255182</relevance>
-            <count>6</count>
-            <text>Lagos Harbor</text>
+            <relevance>0.242144</relevance>
+            <count>4</count>
+            <text>Nutley</text>
+            <disambiguated>
+                <name>Nutley, New Jersey</name>
+                <geo>40.8196 -74.15877</geo>
+                <website>http://www.nutleynj.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Nutley,_New_Jersey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0xmq1</freebase>
+                <yago>http://yago-knowledge.org/resource/Nutley,_New_Jersey</yago>
+                <geonames>http://sws.geonames.org/5102076/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.255013</relevance>
+            <relevance>0.241867</relevance>
             <count>2</count>
             <text>Satellite Corporation</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.2519</relevance>
-            <count>4</count>
-            <text>dod</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.248959</relevance>
+            <type>City</type>
+            <relevance>0.23913</relevance>
             <count>5</count>
-            <text>NTT</text>
+            <text>Rio de Janeiro</text>
             <disambiguated>
-                <name>Nippon Telegraph and Telephone</name>
-                <website>http://www.ntt.co.jp/index_e.html</website>
-                <dbpedia>http://dbpedia.org/resource/Nippon_Telegraph_and_Telephone</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c3fq</freebase>
+                <name>Rio de Janeiro</name>
+                <geo>-22.905392 -43.177128</geo>
+                <website>http://www.rio.rj.gov.br/</website>
+                <dbpedia>http://dbpedia.org/resource/Rio_de_Janeiro</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06gmr</freebase>
+                <yago>http://yago-knowledge.org/resource/Rio_de_Janeiro</yago>
+                <geonames>http://sws.geonames.org/3451190/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.244386</relevance>
-            <count>9</count>
-            <text>ComSatCorp.</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.244352</relevance>
+            <relevance>0.237934</relevance>
             <count>6</count>
             <text>France</text>
             <disambiguated>
@@ -465,85 +493,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.242359</relevance>
-            <count>1</count>
-            <text>Tetrahedral Research Satellite</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.241832</relevance>
-            <count>4</count>
-            <text>Pres. Rpt. on Space</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.24013</relevance>
-            <count>3</count>
-            <text>communications network</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.240108</relevance>
-            <count>4</count>
-            <text>Finney</text>
+            <type>City</type>
+            <relevance>0.237798</relevance>
+            <count>5</count>
+            <text>Tiros</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.240105</relevance>
+            <relevance>0.237142</relevance>
+            <count>4</count>
+            <text>Paris</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.236189</relevance>
+            <count>4</count>
+            <text>Brazil</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.233839</relevance>
+            <count>8</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.232963</relevance>
             <count>5</count>
-            <text>Rio de Janeiro</text>
+            <text>England</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.232477</relevance>
+            <count>5</count>
+            <text>Komsomolskaya Pravda</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.228794</relevance>
+            <count>4</count>
+            <text>Cape Canaveral</text>
             <disambiguated>
-                <name>Rio de Janeiro</name>
-                <geo>-22.905392 -43.177128</geo>
-                <website>http://www.rio.rj.gov.br/</website>
-                <dbpedia>http://dbpedia.org/resource/Rio_de_Janeiro</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06gmr</freebase>
-                <yago>http://yago-knowledge.org/resource/Rio_de_Janeiro</yago>
-                <geonames>http://sws.geonames.org/3451190/</geonames>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.239815</relevance>
-            <count>2</count>
-            <text>Tetrahedral Research Satellites</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.239088</relevance>
-            <count>1</count>
-            <text>nasa Communications Systems</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.237212</relevance>
-            <count>4</count>
-            <text>pmr</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.236411</relevance>
-            <count>6</count>
-            <text>Kingsport</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.236403</relevance>
-            <count>4</count>
-            <text>London</text>
+            <relevance>0.227867</relevance>
+            <count>3</count>
+            <text>Reuters</text>
             <disambiguated>
-                <name>London</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>51.50805555555556 -0.12472222222222222</geo>
-                <website>http://www.london.gov.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/London</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04jpl</freebase>
-                <yago>http://yago-knowledge.org/resource/London</yago>
-                <geonames>http://sws.geonames.org/2643743/</geonames>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
             </disambiguated>
         </entity>
     </entities>

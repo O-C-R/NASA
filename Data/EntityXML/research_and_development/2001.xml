@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.860648</relevance>
+            <relevance>0.855293</relevance>
             <count>25</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,31 +29,31 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.565378</relevance>
+            <relevance>0.706622</relevance>
             <count>7</count>
             <text>Chandra X-ray Observatory</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.541444</relevance>
-            <count>8</count>
-            <text>Milky Way</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.532016</relevance>
+            <relevance>0.500188</relevance>
             <count>13</count>
             <text>black holes</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.496885</relevance>
+            <relevance>0.497861</relevance>
             <count>6</count>
             <text>Chandra</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.414095</relevance>
+            <count>8</count>
+            <text>Milky Way</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.325776</relevance>
+            <relevance>0.319382</relevance>
             <count>3</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -67,10 +67,68 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.306136</relevance>
+            <type>JobTitle</type>
+            <relevance>0.295895</relevance>
+            <count>4</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.290598</relevance>
             <count>2</count>
-            <text>European Space Agency</text>
+            <text>black hole</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.289799</relevance>
+            <count>4</count>
+            <text>United States</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.286413</relevance>
+            <count>2</count>
+            <text>Daniel Wang</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.280101</relevance>
+            <count>2</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.279034</relevance>
+            <count>3</count>
+            <text>Jennifer A. Lewis</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.278048</relevance>
+            <count>2</count>
+            <text>ESA</text>
             <disambiguated>
                 <name>European Space Agency</name>
                 <subType>Company</subType>
@@ -86,8 +144,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.274666</relevance>
+            <count>1</count>
+            <text>Infrared Space Observatory</text>
+            <disambiguated>
+                <name>Infrared Space Observatory</name>
+                <subType>AstronomicalObservatory</subType>
+                <website>http://sci.esa.int/science-e/www/area/index.cfm?fareaid=18</website>
+                <dbpedia>http://dbpedia.org/resource/Infrared_Space_Observatory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lnwn</freebase>
+                <yago>http://yago-knowledge.org/resource/Infrared_Space_Observatory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.273473</relevance>
+            <count>2</count>
+            <text>W. M. Keck Observatory</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.273219</relevance>
+            <count>2</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.304475</relevance>
+            <relevance>0.272019</relevance>
             <count>1</count>
             <text>Space Telescope Science Institute</text>
             <disambiguated>
@@ -100,28 +197,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.302617</relevance>
-            <count>2</count>
-            <text>W. M. Keck Observatory</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.298779</relevance>
-            <count>2</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.269463</relevance>
+            <count>3</count>
+            <text>Farhad Zadeh</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.289889</relevance>
+            <relevance>0.263917</relevance>
             <count>2</count>
             <text>Hawaii</text>
             <disambiguated>
@@ -141,338 +224,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.289219</relevance>
-            <count>4</count>
-            <text>Florida</text>
-            <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.278473</relevance>
-            <count>4</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.277958</relevance>
-            <count>1</count>
-            <text>Infrared Space Observatory</text>
-            <disambiguated>
-                <name>Infrared Space Observatory</name>
-                <subType>AstronomicalObservatory</subType>
-                <website>http://sci.esa.int/science-e/www/area/index.cfm?fareaid=18</website>
-                <dbpedia>http://dbpedia.org/resource/Infrared_Space_Observatory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lnwn</freebase>
-                <yago>http://yago-knowledge.org/resource/Infrared_Space_Observatory</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.273664</relevance>
-            <count>4</count>
-            <text>Director</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.266085</relevance>
-            <count>1</count>
-            <text>Kailash C. Sahu</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.265649</relevance>
-            <count>1</count>
-            <text>Stephen P. Maran</text>
-            <disambiguated>
-                <name>Stephen P. Maran</name>
-                <dbpedia>http://dbpedia.org/resource/Stephen_P._Maran</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0js_x00</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.265336</relevance>
-            <count>2</count>
-            <text>Roy D. Bridges Jr.</text>
-            <disambiguated>
-                <name>Roy D. Bridges, Jr.</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Roy_D._Bridges,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ttdp</freebase>
-                <yago>http://yago-knowledge.org/resource/Roy_D._Bridges,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.259937</relevance>
-            <count>1</count>
-            <text>American Astronomical Society</text>
-            <disambiguated>
-                <name>American Astronomical Society</name>
-                <subType>AwardPresentingOrganization</subType>
-                <dbpedia>http://dbpedia.org/resource/American_Astronomical_Society</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01nm9m</freebase>
-                <yago>http://yago-knowledge.org/resource/American_Astronomical_Society</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.25971</relevance>
-            <count>2</count>
-            <text>Ken Ebisawa</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.25887</relevance>
-            <count>1</count>
-            <text>space exploration.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.255487</relevance>
-            <count>2</count>
-            <text>black hole</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.254113</relevance>
-            <count>1</count>
-            <text>Kathy Sawyer</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.253768</relevance>
-            <count>1</count>
-            <text>Albert Einstein</text>
-            <disambiguated>
-                <name>Albert Einstein</name>
-                <subType>FilmCharacter</subType>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>BoardMember</subType>
-                <subType>DietFollower</subType>
-                <subType>Inventor</subType>
-                <subType>OperaCharacter</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Albert_Einstein</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0jcx</freebase>
-                <yago>http://yago-knowledge.org/resource/Albert_Einstein</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.253013</relevance>
-            <count>5</count>
-            <text>Charles Elachi</text>
-            <disambiguated>
-                <name>Charles Elachi</name>
-                <website>http://www.jpl.nasa.gov/bios/elachi/</website>
-                <dbpedia>http://dbpedia.org/resource/Charles_Elachi</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06xry7</freebase>
-                <yago>http://yago-knowledge.org/resource/Charles_Elachi</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251464</relevance>
-            <count>6</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.251428</relevance>
-            <count>2</count>
-            <text>Daniel Wang</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.250119</relevance>
-            <count>1</count>
-            <text>ISS</text>
-            <disambiguated>
-                <name>School</name>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.248705</relevance>
-            <count>1</count>
-            <text>Anne L. Kinney</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.246912</relevance>
-            <count>1</count>
-            <text>x-ray</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.246014</relevance>
-            <count>1</count>
-            <text>Lensing Cluster Abell</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.242725</relevance>
-            <count>1</count>
-            <text>Kailash C. Sahu</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.241297</relevance>
-            <count>1</count>
-            <text>Hard X-ray Emission</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.239141</relevance>
-            <count>1</count>
-            <text>Sahu</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.238028</relevance>
-            <count>3</count>
-            <text>Farhad Zadeh</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235028</relevance>
-            <count>2</count>
-            <text>Richard S. Ellis</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.234954</relevance>
-            <count>1</count>
-            <text>Astrophysical Journal Letters</text>
-            <disambiguated>
-                <name>The Astrophysical Journal</name>
-                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.234822</relevance>
-            <count>2</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.233367</relevance>
-            <count>1</count>
-            <text>Florida Space Research Institute</text>
-            <disambiguated>
-                <name>Florida Space Research Institute</name>
-                <dbpedia>http://dbpedia.org/resource/Florida_Space_Research_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g8_8l</freebase>
-                <yago>http://yago-knowledge.org/resource/Florida_Space_Research_Institute</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.232915</relevance>
-            <count>1</count>
-            <text>X-ray Orbiter</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.231894</relevance>
-            <count>1</count>
-            <text>California Institute of Technology</text>
-            <disambiguated>
-                <name>California Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.138577 -118.125494</geo>
-                <website>http://www.caltech.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
-                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/6331816/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.231715</relevance>
-            <count>1</count>
-            <text>Comet Borrelly</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.230328</relevance>
-            <count>1</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230002</relevance>
+            <relevance>0.261129</relevance>
             <count>1</count>
             <text>Massachusetts Institute of Technology</text>
             <disambiguated>
@@ -495,20 +248,256 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.228288</relevance>
+            <type>Technology</type>
+            <relevance>0.259506</relevance>
             <count>1</count>
-            <text>William Harwood</text>
+            <text>x-ray</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.225049</relevance>
-            <count>3</count>
-            <text>Jennifer A. Lewis</text>
+            <relevance>0.24926</relevance>
+            <count>5</count>
+            <text>Charles Elachi</text>
+            <disambiguated>
+                <name>Charles Elachi</name>
+                <website>http://www.jpl.nasa.gov/bios/elachi/</website>
+                <dbpedia>http://dbpedia.org/resource/Charles_Elachi</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06xry7</freebase>
+                <yago>http://yago-knowledge.org/resource/Charles_Elachi</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.224867</relevance>
+            <relevance>0.248881</relevance>
+            <count>1</count>
+            <text>Frederick K. Baganoff</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.247758</relevance>
+            <count>6</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.245982</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.243938</relevance>
+            <count>1</count>
+            <text>Comet Borrelly</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237181</relevance>
+            <count>1</count>
+            <text>Stephen P. Maran</text>
+            <disambiguated>
+                <name>Stephen P. Maran</name>
+                <dbpedia>http://dbpedia.org/resource/Stephen_P._Maran</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0js_x00</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.236599</relevance>
+            <count>1</count>
+            <text>Kailash C. Sahu</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.235921</relevance>
+            <count>1</count>
+            <text>X-ray Orbiter</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.235878</relevance>
+            <count>1</count>
+            <text>Lensing Cluster Abell</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.234922</relevance>
+            <count>2</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.233332</relevance>
+            <count>1</count>
+            <text>University of Massachusetts</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.232275</relevance>
+            <count>1</count>
+            <text>professor</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.230965</relevance>
+            <count>1</count>
+            <text>American Astronomical Society</text>
+            <disambiguated>
+                <name>American Astronomical Society</name>
+                <subType>AwardPresentingOrganization</subType>
+                <dbpedia>http://dbpedia.org/resource/American_Astronomical_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01nm9m</freebase>
+                <yago>http://yago-knowledge.org/resource/American_Astronomical_Society</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.230177</relevance>
+            <count>1</count>
+            <text>BAE Systems</text>
+            <disambiguated>
+                <name>BAE Systems</name>
+                <subType>AircraftManufacturer</subType>
+                <geo>51.27361111111111 -0.7666666666666667</geo>
+                <website>http://www.baesystems.com/</website>
+                <dbpedia>http://dbpedia.org/resource/BAE_Systems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cf6w</freebase>
+                <yago>http://yago-knowledge.org/resource/BAE_Systems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.22847</relevance>
+            <count>2</count>
+            <text>Lockheed Martin</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.228083</relevance>
+            <count>1</count>
+            <text>Hard X-ray Emission</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.227426</relevance>
+            <count>1</count>
+            <text>space exploration.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226208</relevance>
+            <count>1</count>
+            <text>ISS</text>
+            <disambiguated>
+                <name>School</name>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226136</relevance>
+            <count>2</count>
+            <text>Richard S. Ellis</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.226108</relevance>
+            <count>1</count>
+            <text>Astrophysical Journal Letters</text>
+            <disambiguated>
+                <name>The Astrophysical Journal</name>
+                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.225658</relevance>
+            <count>1</count>
+            <text>Kathy Sawyer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.225435</relevance>
+            <count>1</count>
+            <text>Albert Einstein</text>
+            <disambiguated>
+                <name>Albert Einstein</name>
+                <subType>FilmCharacter</subType>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>BoardMember</subType>
+                <subType>DietFollower</subType>
+                <subType>Inventor</subType>
+                <subType>OperaCharacter</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Albert_Einstein</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0jcx</freebase>
+                <yago>http://yago-knowledge.org/resource/Albert_Einstein</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.22398</relevance>
+            <count>4</count>
+            <text>Florida</text>
+            <disambiguated>
+                <name>Florida</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>28.133333333333333 -81.63166666666666</geo>
+                <website>http://www.myflorida.com</website>
+                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Florida</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.222991</relevance>
+            <count>1</count>
+            <text>California Institute of Technology</text>
+            <disambiguated>
+                <name>California Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.138577 -118.125494</geo>
+                <website>http://www.caltech.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
+                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/6331816/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.221211</relevance>
             <count>1</count>
             <text>Usha Lee McFarling</text>
             <disambiguated>
@@ -519,48 +508,44 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.223253</relevance>
+            <relevance>0.220567</relevance>
             <count>1</count>
             <text>F. Thi</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.222917</relevance>
+            <type>Person</type>
+            <relevance>0.220275</relevance>
             <count>1</count>
-            <text>Northwestern University</text>
+            <text>John Noble Wilford</text>
             <disambiguated>
-                <name>Northwestern University</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.054853 -87.673945</geo>
-                <website>http://www.northwestern.edu</website>
-                <dbpedia>http://dbpedia.org/resource/Northwestern_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017j69</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWKLz5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Northwestern_University</yago>
+                <name>John Noble Wilford</name>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Noble_Wilford</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059_x2l</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.222714</relevance>
+            <type>Person</type>
+            <relevance>0.219448</relevance>
             <count>1</count>
-            <text>Italy</text>
+            <text>William Harwood</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.218249</relevance>
+            <count>1</count>
+            <text>Los Angeles Times</text>
             <disambiguated>
-                <name>Italy</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>41.9 12.483333333333333</geo>
-                <website>http://www.italia.it/en/home.html</website>
-                <dbpedia>http://dbpedia.org/resource/Italy</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Italy</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03rjj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjMgZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Italy</yago>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
             </disambiguated>
         </entity>
     </entities>

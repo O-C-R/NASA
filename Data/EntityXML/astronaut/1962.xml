@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.872775</relevance>
+            <relevance>0.943817</relevance>
             <count>17</count>
             <text>Astronaut Walter M. Schirra</text>
             <disambiguated>
@@ -23,7 +23,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.650667</relevance>
+            <relevance>0.703126</relevance>
             <count>12</count>
             <text>Astronaut M. Scott Carpenter</text>
             <disambiguated>
@@ -38,8 +38,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.394885</relevance>
-            <count>11</count>
+            <relevance>0.477671</relevance>
+            <count>15</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
                 <name>NASA</name>
@@ -60,7 +60,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.304499</relevance>
+            <relevance>0.333857</relevance>
+            <count>2</count>
+            <text>Astronaut Glenn</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.321312</relevance>
             <count>7</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -88,66 +94,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.273587</relevance>
-            <count>2</count>
-            <text>Astronaut Glenn</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.268285</relevance>
-            <count>5</count>
-            <text>Manned Spacecraft Center</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259582</relevance>
-            <count>5</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.243609</relevance>
+            <relevance>0.313484</relevance>
             <count>6</count>
             <text>Lt. Col. John H. Glenn</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.243524</relevance>
-            <count>1</count>
-            <text>Astronaut Leroy Gordon Cooper</text>
-            <disambiguated>
-                <name>Gordon Cooper</name>
-                <subType>FilmCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Gordon_Cooper</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01w_pp</freebase>
-                <yago>http://yago-knowledge.org/resource/Gordon_Cooper</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.239549</relevance>
+            <relevance>0.279005</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -167,107 +120,85 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.236656</relevance>
-            <count>5</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.234911</relevance>
-            <count>4</count>
-            <text>Maj. Virgil I. Grissom</text>
+            <relevance>0.267019</relevance>
+            <count>1</count>
+            <text>Astronaut Leroy Gordon Cooper</text>
             <disambiguated>
-                <name>Gus Grissom</name>
+                <name>Gordon Cooper</name>
                 <subType>FilmCharacter</subType>
                 <subType>Astronaut</subType>
                 <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Gus_Grissom</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.094lb</freebase>
-                <yago>http://yago-knowledge.org/resource/Gus_Grissom</yago>
+                <dbpedia>http://dbpedia.org/resource/Gordon_Cooper</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01w_pp</freebase>
+                <yago>http://yago-knowledge.org/resource/Gordon_Cooper</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.234148</relevance>
-            <count>3</count>
-            <text>Project Mercury</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.226281</relevance>
-            <count>1</count>
-            <text>Special Assistant for Astronaut Affairs</text>
+            <type>Organization</type>
+            <relevance>0.255061</relevance>
+            <count>5</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.217827</relevance>
+            <relevance>0.251102</relevance>
             <count>2</count>
             <text>nasa Manned Spacecraft Center</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.189966</relevance>
-            <count>2</count>
-            <text>Mercury</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.186881</relevance>
-            <count>1</count>
-            <text>nasa</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Automobile</type>
-            <relevance>0.186178</relevance>
-            <count>2</count>
-            <text>Kearsarge</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.182641</relevance>
-            <count>2</count>
-            <text>Cape Canaveral</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.182564</relevance>
+            <relevance>0.249529</relevance>
+            <count>5</count>
+            <text>Jr.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.242282</relevance>
             <count>2</count>
-            <text>Robert White</text>
+            <text>Manned Spacecraft Center</text>
             <disambiguated>
-                <name>Robert White (guitarist)</name>
-                <subType>MusicalArtist</subType>
-                <subType>Guitarist</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_White_(guitarist)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ffp2m</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_White_(guitarist)</yago>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.176437</relevance>
-            <count>2</count>
-            <text>aircraft carrier</text>
+            <type>JobTitle</type>
+            <relevance>0.235102</relevance>
+            <count>1</count>
+            <text>Special Assistant for Astronaut Affairs</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.231523</relevance>
+            <count>3</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.231421</relevance>
+            <count>3</count>
+            <text>Project Mercury</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.175922</relevance>
-            <count>2</count>
+            <relevance>0.229311</relevance>
+            <count>3</count>
             <text>Washington</text>
             <disambiguated>
                 <name>Washington, D.C.</name>
@@ -284,21 +215,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.171949</relevance>
+            <type>Company</type>
+            <relevance>0.225789</relevance>
             <count>2</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
+            <text>Mercury</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.167998</relevance>
+            <relevance>0.221927</relevance>
             <count>2</count>
             <text>Cape Canaveral</text>
             <disambiguated>
@@ -314,8 +238,55 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.212892</relevance>
+            <count>2</count>
+            <text>Cape Canaveral</text>
+        </entity>
+        <entity>
+            <type>Automobile</type>
+            <relevance>0.21115</relevance>
+            <count>2</count>
+            <text>Kearsarge</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.200833</relevance>
+            <count>2</count>
+            <text>aircraft carrier</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.196031</relevance>
+            <count>2</count>
+            <text>Robert White</text>
+            <disambiguated>
+                <name>Robert White (guitarist)</name>
+                <subType>MusicalArtist</subType>
+                <subType>Guitarist</subType>
+                <dbpedia>http://dbpedia.org/resource/Robert_White_(guitarist)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ffp2m</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_White_(guitarist)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.19191</relevance>
+            <count>4</count>
+            <text>Maj. Virgil I. Grissom</text>
+            <disambiguated>
+                <name>Gus Grissom</name>
+                <subType>FilmCharacter</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Gus_Grissom</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.094lb</freebase>
+                <yago>http://yago-knowledge.org/resource/Gus_Grissom</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.165901</relevance>
+            <relevance>0.190599</relevance>
             <count>2</count>
             <text>Texas</text>
             <disambiguated>
@@ -334,8 +305,49 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.188751</relevance>
+            <count>2</count>
+            <text>California</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.186142</relevance>
+            <count>1</count>
+            <text>Statue of Liberty</text>
+            <disambiguated>
+                <name>Statue of Liberty</name>
+                <subType>Location</subType>
+                <subType>Artwork</subType>
+                <subType>TouristAttraction</subType>
+                <subType>Building</subType>
+                <website>http://www.nps.gov/stli/index.htm</website>
+                <dbpedia>http://dbpedia.org/resource/Statue_of_Liberty</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.072p8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvgEMDZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Statue_of_Liberty</yago>
+                <geonames>http://sws.geonames.org/5139572/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.164148</relevance>
+            <relevance>0.185932</relevance>
             <count>1</count>
             <text>Pacific Ocean</text>
             <disambiguated>
@@ -350,36 +362,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.163234</relevance>
-            <count>1</count>
-            <text>Indian Ocean</text>
-            <disambiguated>
-                <name>Indian Ocean</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>-20.0 80.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Indian_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Indian_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03rz4</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViH35wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.16245</relevance>
-            <count>2</count>
-            <text>Premier Khrushchev</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.162366</relevance>
-            <count>1</count>
-            <text>Mercury Operations</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.162098</relevance>
+            <relevance>0.184457</relevance>
             <count>1</count>
             <text>Kennedy Administration</text>
             <disambiguated>
@@ -407,42 +391,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.160773</relevance>
-            <count>2</count>
-            <text>California</text>
+            <type>City</type>
+            <relevance>0.183931</relevance>
+            <count>1</count>
+            <text>Denver</text>
             <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
+                <name>Denver</name>
                 <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.denvergov.org</website>
+                <dbpedia>http://dbpedia.org/resource/Denver</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02cl1</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.158932</relevance>
-            <count>2</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.158261</relevance>
-            <count>1</count>
-            <text>Cape Colony Inn</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.15811</relevance>
+            <relevance>0.183854</relevance>
             <count>1</count>
             <text>Atlantic</text>
             <disambiguated>
@@ -455,20 +420,75 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.157371</relevance>
+            <type>Organization</type>
+            <relevance>0.182805</relevance>
             <count>2</count>
-            <text>Houston</text>
+            <text>nasa Distinguished Service Medal</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.181792</relevance>
+            <count>1</count>
+            <text>Chicago</text>
             <disambiguated>
-                <name>Houston</name>
-                <website>http://www.houstontx.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
+                <name>Chicago</name>
+                <website>http://www.cityofchicago.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Chicago</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01_d4</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/il/counties/cook_county/chicago</census>
+                <yago>http://yago-knowledge.org/resource/Chicago</yago>
+                <geonames>http://sws.geonames.org/4887398/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.181691</relevance>
+            <count>1</count>
+            <text>Rome</text>
+            <disambiguated>
+                <name>Rome, Adams County, Wisconsin</name>
+                <geo>44.2025 -89.81833333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Rome,_Adams_County,_Wisconsin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.010zdw</freebase>
+                <yago>http://yago-knowledge.org/resource/Rome,_Adams_County,_Wisconsin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.181542</relevance>
+            <count>1</count>
+            <text>Sweden</text>
+            <disambiguated>
+                <name>Sweden</name>
+                <subType>SportsTeam</subType>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <website>http://www.sweden.se/</website>
+                <dbpedia>http://dbpedia.org/resource/Sweden</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sweden</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d0vqn</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjevpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Sweden</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.178607</relevance>
+            <count>1</count>
+            <text>Africa</text>
+            <disambiguated>
+                <name>Africa</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
+                <yago>http://yago-knowledge.org/resource/Africa</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.155927</relevance>
+            <relevance>0.178197</relevance>
             <count>1</count>
             <text>General Electric Co.</text>
             <disambiguated>
@@ -482,32 +502,67 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.154344</relevance>
+            <type>Organization</type>
+            <relevance>0.176952</relevance>
             <count>1</count>
-            <text>President&#x2019;s Scientific Advisory Committee</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.151406</relevance>
-            <count>1</count>
-            <text>nasa Administrator</text>
+            <text>U.S. Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.151375</relevance>
-            <count>2</count>
-            <text>nasa Distinguished Service Medal</text>
+            <relevance>0.17588</relevance>
+            <count>1</count>
+            <text>U.S. Post Office</text>
+            <disambiguated>
+                <name>United States Postal Service</name>
+                <website>http://www.usps.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Postal_Service</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dcms</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQtijpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Postal_Service</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Degree</type>
-            <relevance>0.151187</relevance>
+            <type>City</type>
+            <relevance>0.173988</relevance>
             <count>1</count>
-            <text>Doctorate of Space Science</text>
+            <text>London</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.173878</relevance>
+            <count>1</count>
+            <text>Langley afb</text>
+            <disambiguated>
+                <name>Joint Base Langley&#x2013;Eustis</name>
+                <dbpedia>http://dbpedia.org/resource/Joint_Base_Langley&#x2013;Eustis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b74xm0</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.17228</relevance>
+            <count>1</count>
+            <text>Sistine Chapel of Vatican</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.172062</relevance>
+            <count>1</count>
+            <text>Mercury Operations</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.150993</relevance>
+            <relevance>0.171821</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -525,106 +580,88 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.170976</relevance>
+            <count>2</count>
+            <text>Australia</text>
+            <disambiguated>
+                <name>Australia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <geo>-35.3 149.13333333333333</geo>
+                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Australia</yago>
+                <geonames>http://sws.geonames.org/2077456/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.170819</relevance>
+            <count>2</count>
+            <text>smu</text>
+            <disambiguated>
+                <name>Southern Methodist University</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>32.844114 -96.784874</geo>
+                <website>http://www.smu.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Southern_Methodist_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02fgdx</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv9WzaJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Southern_Methodist_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.170469</relevance>
+            <count>1</count>
+            <text>Indian Ocean</text>
+            <disambiguated>
+                <name>Indian Ocean</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>-20.0 80.0</geo>
+                <dbpedia>http://dbpedia.org/resource/Indian_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Indian_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03rz4</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViH35wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.150103</relevance>
+            <relevance>0.169897</relevance>
             <count>1</count>
             <text>mi.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.148555</relevance>
-            <count>2</count>
-            <text>smu</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.148288</relevance>
+            <relevance>0.169894</relevance>
             <count>1</count>
-            <text>C. Leo DeOrsey</text>
+            <text>Mormon Tabernacle Choir</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.148231</relevance>
+            <relevance>0.169122</relevance>
             <count>1</count>
-            <text>London</text>
+            <text>Durban</text>
             <disambiguated>
-                <name>London</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>51.50805555555556 -0.12472222222222222</geo>
-                <website>http://www.london.gov.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/London</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04jpl</freebase>
-                <yago>http://yago-knowledge.org/resource/London</yago>
-                <geonames>http://sws.geonames.org/2643743/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.147932</relevance>
-            <count>1</count>
-            <text>Mitchell</text>
-            <disambiguated>
-                <name>Mitchell, Indiana</name>
-                <website>http://www.mitchell-in.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Mitchell,_Indiana</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0snfr</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/in/counties/lawrence_county/marion_township/mitchell</census>
-                <yago>http://yago-knowledge.org/resource/Mitchell,_Indiana</yago>
+                <name>Durban</name>
+                <website>http://www.durban.gov.za/</website>
+                <dbpedia>http://dbpedia.org/resource/Durban</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03c2njs</freebase>
+                <yago>http://yago-knowledge.org/resource/Durban</yago>
+                <geonames>http://sws.geonames.org/1007311/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.147423</relevance>
+            <relevance>0.16908</relevance>
             <count>1</count>
-            <text>Indiana</text>
-            <disambiguated>
-                <name>Indiana</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>40.0 -86.0</geo>
-                <website>http://www.in.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Indiana</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03v1s</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi2RJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Indiana</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.145964</relevance>
-            <count>1</count>
-            <text>Statue of Liberty</text>
-            <disambiguated>
-                <name>Statue of Liberty</name>
-                <subType>Location</subType>
-                <subType>Artwork</subType>
-                <subType>TouristAttraction</subType>
-                <subType>Building</subType>
-                <website>http://www.nps.gov/stli/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Statue_of_Liberty</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.072p8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvgEMDZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Statue_of_Liberty</yago>
-                <geonames>http://sws.geonames.org/5139572/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.145857</relevance>
-            <count>1</count>
-            <text>attorney</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.14545</relevance>
-            <count>1</count>
-            <text>Virgil I.</text>
+            <text>Colorado.</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.834851</relevance>
+            <relevance>0.849476</relevance>
             <count>26</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,49 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.350419</relevance>
-            <count>4</count>
+            <relevance>0.392234</relevance>
+            <count>5</count>
             <text>LaRC</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.286291</relevance>
+            <relevance>0.26755</relevance>
             <count>3</count>
             <text>ARC</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.243579</relevance>
+            <count>3</count>
+            <text>energy research</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.243229</relevance>
+            <count>4</count>
+            <text>TVA</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.237063</relevance>
+            <count>3</count>
+            <text>Einstein</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.235647</relevance>
+            <count>2</count>
+            <text>Heao</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.235562</relevance>
+            <count>2</count>
+            <text>Heao</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.253483</relevance>
+            <relevance>0.233189</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -60,8 +90,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.224684</relevance>
+            <count>1</count>
+            <text>Dr. Thomas A. Mutch</text>
+            <disambiguated>
+                <name>Thomas A. Mutch</name>
+                <dbpedia>http://dbpedia.org/resource/Thomas_A._Mutch</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03rr6h</freebase>
+                <yago>http://yago-knowledge.org/resource/Thomas_A._Mutch</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.234416</relevance>
+            <relevance>0.224445</relevance>
             <count>2</count>
             <text>New York Times</text>
             <disambiguated>
@@ -79,47 +121,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.220803</relevance>
-            <count>1</count>
-            <text>Langley Research Center</text>
-            <disambiguated>
-                <name>Langley Research Center</name>
-                <subType>AircraftDesigner</subType>
-                <geo>37.09277 -76.38133</geo>
-                <website>http://www.nasa.gov/centers/langley/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Langley_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmps</freebase>
-                <yago>http://yago-knowledge.org/resource/Langley_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.219368</relevance>
+            <relevance>0.216043</relevance>
             <count>1</count>
             <text>LaRC</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.219164</relevance>
-            <count>2</count>
-            <text>Heao</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.215252</relevance>
-            <count>3</count>
-            <text>Einstein</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.213804</relevance>
+            <type>Organization</type>
+            <relevance>0.212081</relevance>
             <count>1</count>
-            <text>cardiovascular system</text>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.203653</relevance>
+            <relevance>0.198778</relevance>
             <count>1</count>
             <text>GSFC</text>
             <disambiguated>
@@ -135,14 +160,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.20079</relevance>
+            <type>Organization</type>
+            <relevance>0.198235</relevance>
             <count>1</count>
-            <text>Sperry</text>
+            <text>DOE</text>
+            <disambiguated>
+                <name>Education</name>
+                <subType>FieldOfStudy</subType>
+                <subType>OrganizationSector</subType>
+                <subType>ProfessionalField</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Education</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02jfc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvzBhv5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.197149</relevance>
+            <count>1</count>
+            <text>associate administrator</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.200716</relevance>
+            <relevance>0.195898</relevance>
             <count>1</count>
             <text>Indian Ocean</text>
             <disambiguated>
@@ -157,50 +198,66 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.200605</relevance>
+            <type>Company</type>
+            <relevance>0.19416</relevance>
             <count>2</count>
-            <text>Heao</text>
+            <text>Boeing Company</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Holiday</type>
+            <relevance>0.193661</relevance>
+            <count>1</count>
+            <text>Christmas</text>
+            <disambiguated>
+                <name>Christmas</name>
+                <dbpedia>http://dbpedia.org/resource/Christmas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vq3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPfXpZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Christmas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.193117</relevance>
+            <count>1</count>
+            <text>Japan</text>
+            <disambiguated>
+                <name>Empire of Japan</name>
+                <subType>Location</subType>
+                <subType>Kingdom</subType>
+                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
+                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.192684</relevance>
+            <count>1</count>
+            <text>hp</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.19784</relevance>
+            <relevance>0.192422</relevance>
             <count>1</count>
             <text>Wallops Flight Center</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.197276</relevance>
-            <count>1</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Spirit AeroSystems</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.spiritaero.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
-                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.19703</relevance>
-            <count>4</count>
-            <text>TVA</text>
-            <disambiguated>
-                <name>Tennessee Valley Authority</name>
-                <subType>Company</subType>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.tva.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Tennessee_Valley_Authority</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fh30</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rUsX_DNcYQdaeStS-M01h6w</opencyc>
-                <yago>http://yago-knowledge.org/resource/Tennessee_Valley_Authority</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.196777</relevance>
+            <relevance>0.191883</relevance>
             <count>1</count>
             <text>Johns Hopkins University</text>
             <disambiguated>
@@ -218,28 +275,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.195259</relevance>
-            <count>1</count>
-            <text>Dr. Harold Sandler</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.194657</relevance>
-            <count>1</count>
-            <text>North America</text>
-            <disambiguated>
-                <name>North America</name>
-                <subType>Location</subType>
-                <geo>48.166666666666664 -100.16666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/North_America</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059g4</freebase>
-                <yago>http://yago-knowledge.org/resource/North_America</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.193812</relevance>
+            <relevance>0.191338</relevance>
             <count>1</count>
             <text>U.S. Coast Guard</text>
             <disambiguated>
@@ -254,38 +291,202 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.192304</relevance>
+            <type>Organization</type>
+            <relevance>0.191145</relevance>
             <count>1</count>
-            <text>Sperry Support Services</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.191557</relevance>
-            <count>1</count>
-            <text>Dr. Thomas A. Mutch</text>
+            <text>Pennsylvania State University</text>
             <disambiguated>
-                <name>Thomas A. Mutch</name>
-                <dbpedia>http://dbpedia.org/resource/Thomas_A._Mutch</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03rr6h</freebase>
-                <yago>http://yago-knowledge.org/resource/Thomas_A._Mutch</yago>
+                <name>Penn State World Campus</name>
+                <subType>Location</subType>
+                <subType>University</subType>
+                <website>http://www.worldcampus.psu.edu</website>
+                <dbpedia>http://dbpedia.org/resource/Penn_State_World_Campus</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025v123</freebase>
+                <yago>http://yago-knowledge.org/resource/Penn_State_World_Campus</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.190797</relevance>
+            <type>Organization</type>
+            <relevance>0.190943</relevance>
+            <count>3</count>
+            <text>Naval Research Laboratory</text>
+            <disambiguated>
+                <name>United States Naval Research Laboratory</name>
+                <subType>Location</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Naval_Research_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0255xh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rXU9SuozLQdiN9Lv0zFJaQA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Naval_Research_Laboratory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.190757</relevance>
             <count>1</count>
-            <text>X-ray</text>
+            <text>solar energy</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.190497</relevance>
+            <count>1</count>
+            <text>Va.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.190229</relevance>
+            <count>1</count>
+            <text>Dynamic Engineering Inc.</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.189885</relevance>
+            <count>1</count>
+            <text>North America</text>
+            <disambiguated>
+                <name>North America</name>
+                <subType>Location</subType>
+                <geo>48.166666666666664 -100.16666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/North_America</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059g4</freebase>
+                <yago>http://yago-knowledge.org/resource/North_America</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.188634</relevance>
+            <count>1</count>
+            <text>Sperry</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.188591</relevance>
+            <count>1</count>
+            <text>Lewis Research Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.187119</relevance>
+            <count>1</count>
+            <text>SMM observatory</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.186852</relevance>
+            <count>1</count>
+            <text>cardiovascular system</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.188739</relevance>
+            <relevance>0.186264</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.186111</relevance>
+            <count>1</count>
+            <text>Michigan State University</text>
+            <disambiguated>
+                <name>Michigan State University</name>
+                <subType>Location</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.723387 -84.481366</geo>
+                <website>http://www.msu.edu</website>
+                <dbpedia>http://dbpedia.org/resource/Michigan_State_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01j_cy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwNcDiZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Michigan_State_University</yago>
+                <geonames>http://sws.geonames.org/5001843/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.185981</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.185155</relevance>
+            <count>1</count>
+            <text>Britain</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.185119</relevance>
+            <count>1</count>
+            <text>Dr. Harold Sandler</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.184733</relevance>
+            <count>1</count>
+            <text>West Germany</text>
+            <disambiguated>
+                <name>West Germany</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/West_Germany</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.082fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjtbZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/West_Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.18418</relevance>
+            <count>1</count>
+            <text>India</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.183838</relevance>
+            <count>1</count>
+            <text>Delta</text>
+            <disambiguated>
+                <name>Delta Air Lines</name>
+                <subType>Airline</subType>
+                <website>http://www.delta.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Delta_Air_Lines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0k9ts</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv5BRgpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Delta_Air_Lines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.183832</relevance>
             <count>1</count>
             <text>Black Brants</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.188335</relevance>
+            <relevance>0.183514</relevance>
             <count>1</count>
             <text>Kenya</text>
             <disambiguated>
@@ -303,75 +504,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.188059</relevance>
-            <count>3</count>
-            <text>energy research</text>
-        </entity>
-        <entity>
-            <type>Holiday</type>
-            <relevance>0.188041</relevance>
+            <type>Technology</type>
+            <relevance>0.183278</relevance>
             <count>1</count>
-            <text>Christmas</text>
-            <disambiguated>
-                <name>Christmas</name>
-                <dbpedia>http://dbpedia.org/resource/Christmas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vq3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPfXpZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Christmas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.18751</relevance>
-            <count>2</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.187385</relevance>
-            <count>3</count>
-            <text>Naval Research Laboratory</text>
-            <disambiguated>
-                <name>United States Naval Research Laboratory</name>
-                <subType>Location</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Naval_Research_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0255xh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rXU9SuozLQdiN9Lv0zFJaQA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Naval_Research_Laboratory</yago>
-            </disambiguated>
+            <text>X-ray</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.186843</relevance>
+            <relevance>0.183008</relevance>
             <count>1</count>
-            <text>DFRC</text>
+            <text>Bell Helicopter Textron</text>
             <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+                <name>Bell Helicopter</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.bellhelicopter.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Bell_Helicopter</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02k1h6</freebase>
+                <yago>http://yago-knowledge.org/resource/Bell_Helicopter</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.186283</relevance>
+            <relevance>0.181493</relevance>
             <count>1</count>
             <text>New Mexico</text>
             <disambiguated>
@@ -389,167 +543,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.186278</relevance>
-            <count>1</count>
-            <text>project scientist</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.185945</relevance>
-            <count>1</count>
-            <text>Boeing Company</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.185925</relevance>
-            <count>1</count>
-            <text>Lt. Cdr</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.185577</relevance>
-            <count>2</count>
-            <text>Kenneth Williams</text>
-            <disambiguated>
-                <name>Kenneth Williams</name>
-                <subType>Actor</subType>
-                <subType>MusicalArtist</subType>
-                <subType>BroadcastArtist</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Kenneth_Williams</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0970k</freebase>
-                <yago>http://yago-knowledge.org/resource/Kenneth_Williams</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.184948</relevance>
-            <count>1</count>
-            <text>hp</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.18226</relevance>
-            <count>1</count>
-            <text>Bell Helicopter Textron</text>
-            <disambiguated>
-                <name>Bell Helicopter</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.bellhelicopter.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Bell_Helicopter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02k1h6</freebase>
-                <yago>http://yago-knowledge.org/resource/Bell_Helicopter</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.181935</relevance>
+            <relevance>0.181065</relevance>
             <count>1</count>
-            <text>DOE</text>
-            <disambiguated>
-                <name>Education</name>
-                <subType>FieldOfStudy</subType>
-                <subType>OrganizationSector</subType>
-                <subType>ProfessionalField</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Education</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02jfc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvzBhv5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.181096</relevance>
-            <count>1</count>
-            <text>Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.180164</relevance>
-            <count>1</count>
-            <text>solar energy</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.179736</relevance>
-            <count>1</count>
-            <text>Dynamic Engineering Inc.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179475</relevance>
-            <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179099</relevance>
-            <count>1</count>
-            <text>Pennsylvania State University</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.178533</relevance>
-            <count>1</count>
-            <text>Computer Science Corporation</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.178298</relevance>
-            <count>1</count>
-            <text>Lewis Research Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.177625</relevance>
-            <count>1</count>
-            <text>Los Alamos Scientific Laboratory</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.176456</relevance>
-            <count>1</count>
-            <text>SMM observatory</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.176298</relevance>
-            <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
+            <text>JPL</text>
             <disambiguated>
                 <name>Jet Propulsion Laboratory</name>
                 <subType>Location</subType>
@@ -562,21 +559,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.176137</relevance>
+            <type>Organization</type>
+            <relevance>0.180773</relevance>
             <count>1</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
+            <text>ARC</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.179712</relevance>
+            <count>1</count>
+            <text>Sperry Support Services</text>
         </entity>
     </entities>
 </results>

@@ -7,20 +7,13 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.872925</relevance>
+            <relevance>0.815027</relevance>
             <count>5</count>
             <text>Pioneer</text>
-            <disambiguated>
-                <name>Pioneer Corporation</name>
-                <website>http://www.pioneerelectronics.com/PUSA/</website>
-                <dbpedia>http://dbpedia.org/resource/Pioneer_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03q6rq</freebase>
-                <yago>http://yago-knowledge.org/resource/Pioneer_Corporation</yago>
-            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.549724</relevance>
+            <relevance>0.76273</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -42,13 +35,38 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.363994</relevance>
+            <relevance>0.363768</relevance>
             <count>2</count>
             <text>solar system</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.239605</relevance>
+            <relevance>0.306239</relevance>
+            <count>1</count>
+            <text>TRW</text>
+            <disambiguated>
+                <name>TRW</name>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/TRW</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01m5n0</freebase>
+                <yago>http://yago-knowledge.org/resource/TRW</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.295273</relevance>
+            <count>1</count>
+            <text>Earth</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.286662</relevance>
+            <count>1</count>
+            <text>Duke Reiber</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.280251</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -62,27 +80,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.22825</relevance>
-            <count>1</count>
-            <text>TRW</text>
-            <disambiguated>
-                <name>TRW</name>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/TRW</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01m5n0</freebase>
-                <yago>http://yago-knowledge.org/resource/TRW</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.215146</relevance>
-            <count>1</count>
-            <text>Duke Reiber</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.209713</relevance>
+            <relevance>0.242791</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -99,12 +98,6 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/United_States</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.194121</relevance>
-            <count>1</count>
-            <text>Earth</text>
         </entity>
     </entities>
 </results>

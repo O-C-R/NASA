@@ -6,20 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.840632</relevance>
-            <count>14</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.804068</relevance>
+            <relevance>0.800746</relevance>
             <count>25</count>
             <text>space program</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.766787</relevance>
+            <relevance>0.762338</relevance>
             <count>29</count>
             <text>NASA</text>
             <disambiguated>
@@ -40,8 +34,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.677926</relevance>
+            <count>14</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.691685</relevance>
+            <relevance>0.606059</relevance>
             <count>23</count>
             <text>Dr. James C. Fletcher</text>
             <disambiguated>
@@ -54,8 +54,28 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.446235</relevance>
+            <count>16</count>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.481202</relevance>
+            <relevance>0.443531</relevance>
             <count>8</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -82,41 +102,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.446383</relevance>
-            <count>16</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.370672</relevance>
+            <relevance>0.347983</relevance>
             <count>2</count>
             <text>nasa Deputy Associate Administrator for Planning</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.350184</relevance>
-            <count>6</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.347379</relevance>
-            <count>7</count>
+            <relevance>0.343379</relevance>
+            <count>6</count>
             <text>Congress</text>
             <disambiguated>
                 <name>United States Congress</name>
@@ -132,26 +126,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.321894</relevance>
-            <count>2</count>
-            <text>NASA Deputy Administrator</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.314697</relevance>
-            <count>1</count>
-            <text>nasa Public Affairs Program</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.309244</relevance>
-            <count>1</count>
-            <text>Space program</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.30789</relevance>
+            <relevance>0.340335</relevance>
             <count>6</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -166,28 +142,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.280048</relevance>
-            <count>1</count>
-            <text>Acting NASA Administrator</text>
+            <relevance>0.333611</relevance>
+            <count>2</count>
+            <text>NASA Deputy Administrator</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.273529</relevance>
-            <count>2</count>
-            <text>Soviet Academy of Sciences</text>
-            <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.270147</relevance>
+            <count>5</count>
+            <text>Anatoly Fedoseyev</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.268286</relevance>
+            <relevance>0.269395</relevance>
             <count>4</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -200,63 +167,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.260315</relevance>
+            <count>1</count>
+            <text>Space Program Advisory Council</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.258592</relevance>
+            <count>1</count>
+            <text>nasa Public Affairs Program</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.259601</relevance>
+            <relevance>0.258421</relevance>
+            <count>1</count>
+            <text>Space program</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.244469</relevance>
+            <count>3</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.243277</relevance>
             <count>1</count>
             <text>space exploration</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.243824</relevance>
+            <relevance>0.240678</relevance>
             <count>1</count>
             <text>Deputy Administrator</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.24262</relevance>
-            <count>5</count>
-            <text>Anatoly Fedoseyev</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.242279</relevance>
-            <count>2</count>
-            <text>Dr. Wernher von Braun</text>
-            <disambiguated>
-                <name>Wernher von Braun</name>
-                <subType>AwardWinner</subType>
-                <subType>Inventor</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>TVActor</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Wernher_von_Braun</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0850x</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv4by9JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Wernher_von_Braun</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.24205</relevance>
-            <count>4</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.240527</relevance>
+            <relevance>0.23923</relevance>
             <count>3</count>
             <text>President Kennedy</text>
             <disambiguated>
@@ -283,63 +231,63 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.238095</relevance>
+            <count>1</count>
+            <text>Acting NASA Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.232762</relevance>
+            <count>6</count>
+            <text>President</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.23968</relevance>
+            <relevance>0.229399</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.228511</relevance>
             <count>2</count>
-            <text>Senate</text>
+            <text>Dr. Wernher von Braun</text>
             <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+                <name>Wernher von Braun</name>
+                <subType>AwardWinner</subType>
+                <subType>Inventor</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>TVActor</subType>
+                <subType>TVCharacter</subType>
+                <dbpedia>http://dbpedia.org/resource/Wernher_von_Braun</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0850x</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv4by9JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Wernher_von_Braun</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.239645</relevance>
-            <count>1</count>
-            <text>nasa Administrator.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.238346</relevance>
-            <count>3</count>
-            <text>consultant</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.233739</relevance>
-            <count>1</count>
-            <text>Soviet Party Congress</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.232459</relevance>
-            <count>3</count>
-            <text>USN</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230002</relevance>
-            <count>1</count>
-            <text>Space Program Advisory Council</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.227903</relevance>
+            <relevance>0.227014</relevance>
+            <count>4</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.225381</relevance>
             <count>3</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -355,8 +303,161 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.223292</relevance>
+            <count>1</count>
+            <text>nasa Administrator.</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.226481</relevance>
+            <relevance>0.219343</relevance>
+            <count>1</count>
+            <text>Space Systems</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.217713</relevance>
+            <count>1</count>
+            <text>technology needs</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.216999</relevance>
+            <count>3</count>
+            <text>Dr. George M. Low</text>
+            <disambiguated>
+                <name>George Low</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/George_Low</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02wt7c</freebase>
+                <yago>http://yago-knowledge.org/resource/George_Low</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.210252</relevance>
+            <count>2</count>
+            <text>JPL</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.210163</relevance>
+            <count>2</count>
+            <text>Astronautics &amp; Aeronautics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.209631</relevance>
+            <count>2</count>
+            <text>Soviet Academy of Sciences</text>
+            <disambiguated>
+                <name>Russian Academy of Sciences</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>55.710794444444446 37.57781388888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.207065</relevance>
+            <count>1</count>
+            <text>White House</text>
+            <disambiguated>
+                <name>White House</name>
+                <subType>Location</subType>
+                <subType>House</subType>
+                <subType>TouristAttraction</subType>
+                <subType>Building</subType>
+                <website>http://www.whitehouse.gov</website>
+                <dbpedia>http://dbpedia.org/resource/White_House</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.081sq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvyXliZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/White_House</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.205923</relevance>
+            <count>2</count>
+            <text>James A. Belson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.203929</relevance>
+            <count>4</count>
+            <text>project manager</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.201929</relevance>
+            <count>2</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.201836</relevance>
+            <count>2</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.201334</relevance>
+            <count>1</count>
+            <text>frc Deputy Director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.199497</relevance>
+            <count>1</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196697</relevance>
+            <count>1</count>
+            <text>AIAA</text>
+            <disambiguated>
+                <name>American Institute of Aeronautics and Astronautics</name>
+                <subType>Non-ProfitOrganisation</subType>
+                <website>http://www.aiaa.org/</website>
+                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Aeronautics_and_Astronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03474k</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.195765</relevance>
             <count>2</count>
             <text>Ford Motor Co.</text>
             <disambiguated>
@@ -373,164 +474,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.225387</relevance>
-            <count>1</count>
-            <text>Armed Forces Journal</text>
-            <disambiguated>
-                <name>Armed Forces Journal</name>
-                <dbpedia>http://dbpedia.org/resource/Armed_Forces_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gz20c</freebase>
-                <yago>http://yago-knowledge.org/resource/Armed_Forces_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.221275</relevance>
-            <count>2</count>
-            <text>James A. Belson</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.22058</relevance>
-            <count>1</count>
-            <text>President of Soviet Academy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.219933</relevance>
-            <count>3</count>
-            <text>Dr. George M. Low</text>
-            <disambiguated>
-                <name>George Low</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/George_Low</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02wt7c</freebase>
-                <yago>http://yago-knowledge.org/resource/George_Low</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.218492</relevance>
-            <count>1</count>
-            <text>Dulles International Airport</text>
-            <disambiguated>
-                <name>Washington Dulles International Airport</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <subType>TransportTerminus</subType>
-                <geo>38.94444444444444 -77.45583333333333</geo>
-                <website>http://www.mwaa.com/dulles/dulles.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Washington_Dulles_International_Airport</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0842b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r2CoXaDSAEdaAAACQJ5pZBw</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington_Dulles_International_Airport</yago>
-                <geonames>http://sws.geonames.org/4792325/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.217889</relevance>
+            <relevance>0.195721</relevance>
             <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.214388</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
+            <text>Soviet Party Congress</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.212344</relevance>
-            <count>2</count>
-            <text>Paul Sawyer</text>
-            <disambiguated>
-                <name>Paul Sawyer</name>
-                <dbpedia>http://dbpedia.org/resource/Paul_Sawyer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gmflf8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.211918</relevance>
-            <count>1</count>
-            <text>Space Systems</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.211236</relevance>
-            <count>2</count>
-            <text>dod</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.208853</relevance>
-            <count>1</count>
-            <text>Dr. Glenn T. Seaborg</text>
-            <disambiguated>
-                <name>Glenn T. Seaborg</name>
-                <subType>Academic</subType>
-                <subType>AwardWinner</subType>
-                <subType>ElementDiscoverer</subType>
-                <subType>Scientist</subType>
-                <website>http://nobelprize.org/chemistry/laureates/1951/seaborg-bio.html</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_T._Seaborg</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03flm</freebase>
-                <yago>http://yago-knowledge.org/resource/Glenn_T._Seaborg</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.206555</relevance>
-            <count>1</count>
-            <text>New York</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.204088</relevance>
-            <count>1</count>
-            <text>frc Deputy Director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.201831</relevance>
-            <count>1</count>
-            <text>Mstislav V. Keldysh</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.200556</relevance>
-            <count>2</count>
-            <text>Capt. Lionel E. Ames</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.200222</relevance>
-            <count>2</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.199656</relevance>
+            <relevance>0.194517</relevance>
             <count>2</count>
             <text>Rep. James G. Fulton</text>
             <disambiguated>
@@ -543,22 +494,79 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.19449</relevance>
+            <count>1</count>
+            <text>China</text>
+            <disambiguated>
+                <name>China</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>35.0 105.0</geo>
+                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.193647</relevance>
+            <count>1</count>
+            <text>Aerospace Corp.</text>
+            <disambiguated>
+                <name>The Aerospace Corporation</name>
+                <website>http://www.aero.org/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Aerospace_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07c5f4</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Aerospace_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.193646</relevance>
+            <count>1</count>
+            <text>Armed Forces Journal</text>
+            <disambiguated>
+                <name>Armed Forces Journal</name>
+                <dbpedia>http://dbpedia.org/resource/Armed_Forces_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gz20c</freebase>
+                <yago>http://yago-knowledge.org/resource/Armed_Forces_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.193348</relevance>
+            <count>1</count>
+            <text>Francis Gary Powers</text>
+            <disambiguated>
+                <name>Francis Gary Powers</name>
+                <subType>FilmDirector</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Francis_Gary_Powers</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03cnj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.195729</relevance>
+            <relevance>0.193203</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.19566</relevance>
-            <count>3</count>
-            <text>Harris</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.195027</relevance>
+            <relevance>0.19251</relevance>
             <count>1</count>
             <text>De E. Beeler</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.19248</relevance>
+            <count>1</count>
+            <text>District of Columbia Superior Court</text>
         </entity>
     </entities>
 </results>

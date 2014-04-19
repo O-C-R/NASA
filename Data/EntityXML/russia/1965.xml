@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.792422</relevance>
+            <relevance>0.874261</relevance>
             <count>7</count>
             <text>NYT</text>
             <disambiguated>
@@ -25,41 +25,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.567621</relevance>
-            <count>2</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.525487</relevance>
-            <count>2</count>
-            <text>National Space Club</text>
-            <disambiguated>
-                <name>National Space Club</name>
-                <dbpedia>http://dbpedia.org/resource/National_Space_Club</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm8b3s</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.515475</relevance>
-            <count>3</count>
-            <text>Voskhod</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.495118</relevance>
+            <relevance>0.60764</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -79,90 +46,52 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.434565</relevance>
+            <relevance>0.575645</relevance>
+            <count>2</count>
+            <text>National Space Club</text>
+            <disambiguated>
+                <name>National Space Club</name>
+                <dbpedia>http://dbpedia.org/resource/National_Space_Club</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cm8b3s</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.533925</relevance>
+            <count>2</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.528799</relevance>
+            <count>3</count>
+            <text>Voskhod</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.513919</relevance>
             <count>1</count>
             <text>Soviet Union&#x2019;s VOSKHOD II</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.429563</relevance>
+            <relevance>0.487485</relevance>
             <count>4</count>
             <text>Wash</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.408516</relevance>
-            <count>3</count>
-            <text>Russia</text>
-            <disambiguated>
-                <name>Russia</name>
-                <website>http://www.gov.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Russia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.382125</relevance>
-            <count>2</count>
-            <text>Col. Pavel I. Belyayev</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.381894</relevance>
-            <count>1</count>
-            <text>National Aeronautics and Space Council</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.379163</relevance>
-            <count>1</count>
-            <text>space exploration.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.374686</relevance>
-            <count>2</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.359482</relevance>
-            <count>1</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.349852</relevance>
-            <count>1</count>
-            <text>James E. Webb</text>
-            <disambiguated>
-                <name>James E. Webb</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
-                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.347738</relevance>
-            <count>1</count>
-            <text>nuclear energy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.341531</relevance>
-            <count>2</count>
-            <text>Vice President Hubert H. Humphrey</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.341295</relevance>
+            <relevance>0.475613</relevance>
             <count>3</count>
             <text>Moscow</text>
             <disambiguated>
@@ -179,63 +108,77 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.339179</relevance>
+            <type>Country</type>
+            <relevance>0.454094</relevance>
+            <count>3</count>
+            <text>Russia</text>
+            <disambiguated>
+                <name>Russia</name>
+                <website>http://www.gov.ru/</website>
+                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Russia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.451288</relevance>
             <count>1</count>
-            <text>nasa Administrator</text>
+            <text>National Aeronautics and Space Council</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.328266</relevance>
+            <relevance>0.441907</relevance>
             <count>2</count>
-            <text>Robert J. McCloskey</text>
-            <disambiguated>
-                <name>Robert J. McCloskey</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_J._McCloskey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bhblhz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.325165</relevance>
-            <count>1</count>
-            <text>Nebraska Wesleyan Univ.</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.324209</relevance>
-            <count>1</count>
-            <text>Society</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.320775</relevance>
-            <count>1</count>
-            <text>naca</text>
-            <disambiguated>
-                <name>National Advisory Committee for Aeronautics</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/National_Advisory_Committee_for_Aeronautics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01b9vn</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Advisory_Committee_for_Aeronautics</yago>
-            </disambiguated>
+            <text>Vice President Hubert H. Humphrey</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.317252</relevance>
+            <relevance>0.429308</relevance>
+            <count>2</count>
+            <text>Col. Pavel I. Belyayev</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.42485</relevance>
             <count>1</count>
-            <text>Gen. Thomas Dresser White</text>
-            <disambiguated>
-                <name>Thomas D. White</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Thomas_D._White</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05wwql</freebase>
-                <yago>http://yago-knowledge.org/resource/Thomas_D._White</yago>
-            </disambiguated>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.409509</relevance>
+            <count>1</count>
+            <text>space exploration.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.316364</relevance>
+            <relevance>0.364379</relevance>
+            <count>2</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.349803</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.345063</relevance>
+            <count>1</count>
+            <text>Goddard Memorial</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.342475</relevance>
+            <count>1</count>
+            <text>mi</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.341914</relevance>
             <count>1</count>
             <text>Robert H. Goddard</text>
             <disambiguated>
@@ -247,141 +190,25 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.309526</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.307866</relevance>
-            <count>1</count>
-            <text>Nikita S. Khrushchev</text>
-            <disambiguated>
-                <name>Nikita Khrushchev</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Nikita_Khrushchev</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bphp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvl-51JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nikita_Khrushchev</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.305079</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.302933</relevance>
-            <count>1</count>
-            <text>mi</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.301551</relevance>
-            <count>1</count>
-            <text>icbm</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.300884</relevance>
-            <count>1</count>
-            <text>Philadelphia Evening Bulletin</text>
-            <disambiguated>
-                <name>Philadelphia Bulletin</name>
-                <subType>Newspaper</subType>
-                <dbpedia>http://dbpedia.org/resource/Philadelphia_Bulletin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07tjt7</freebase>
-                <yago>http://yago-knowledge.org/resource/Philadelphia_Bulletin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.300834</relevance>
-            <count>1</count>
-            <text>Klokov</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.299429</relevance>
-            <count>1</count>
-            <text>Robert H. Goddard Memorial Trophy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.299215</relevance>
-            <count>1</count>
-            <text>Phil</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.296528</relevance>
-            <count>1</count>
-            <text>Russian government</text>
-            <disambiguated>
-                <name>Government of Russia</name>
-                <website>http://www.gov.ru/government/</website>
-                <dbpedia>http://dbpedia.org/resource/Government_of_Russia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ps5qq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.296146</relevance>
-            <count>1</count>
-            <text>Valery Bykovsky</text>
-            <disambiguated>
-                <name>Valery Bykovsky</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Valery_Bykovsky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bm_w</freebase>
-                <yago>http://yago-knowledge.org/resource/Valery_Bykovsky</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.295554</relevance>
-            <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.29434</relevance>
+            <relevance>0.339483</relevance>
             <count>1</count>
-            <text>usaf Chief of Staff</text>
+            <text>Vice President</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.291961</relevance>
-            <count>1</count>
-            <text>Goddard Memorial</text>
+            <type>Person</type>
+            <relevance>0.337165</relevance>
+            <count>2</count>
+            <text>Robert J. McCloskey</text>
+            <disambiguated>
+                <name>Robert J. McCloskey</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_J._McCloskey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bhblhz</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.290382</relevance>
+            <relevance>0.33189</relevance>
             <count>1</count>
             <text>Perm</text>
             <disambiguated>
@@ -393,46 +220,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.290295</relevance>
-            <count>1</count>
-            <text>Manchester Guardian</text>
-            <disambiguated>
-                <name>The Guardian</name>
-                <subType>Newspaper</subType>
-                <website>http://www.guardian.co.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Guardian</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cnn5</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Guardian</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.287078</relevance>
-            <count>1</count>
-            <text>Vice President</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.286758</relevance>
-            <count>1</count>
-            <text>Shabad</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.286623</relevance>
-            <count>1</count>
-            <text>Manned Orbital Laboratory</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.286118</relevance>
-            <count>1</count>
-            <text>Tanner</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.284356</relevance>
+            <relevance>0.331538</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -450,40 +239,130 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.328657</relevance>
+            <count>1</count>
+            <text>Shabad</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.326033</relevance>
+            <count>1</count>
+            <text>Tanner</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.325819</relevance>
+            <count>1</count>
+            <text>Robert H. Goddard Memorial Trophy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.319423</relevance>
+            <count>1</count>
+            <text>Russian government</text>
+            <disambiguated>
+                <name>Government of Russia</name>
+                <website>http://www.gov.ru/government/</website>
+                <dbpedia>http://dbpedia.org/resource/Government_of_Russia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ps5qq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.319257</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.3126</relevance>
+            <count>1</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.283072</relevance>
+            <relevance>0.311141</relevance>
             <count>1</count>
             <text>Baikonur Cosmodrome</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.282563</relevance>
+            <type>Continent</type>
+            <relevance>0.311003</relevance>
             <count>1</count>
-            <text>Moscovsky Komsomolets</text>
+            <text>Society</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.281708</relevance>
+            <type>Company</type>
+            <relevance>0.31091</relevance>
             <count>1</count>
-            <text>Vladivostok</text>
+            <text>Reuters</text>
             <disambiguated>
-                <name>Vladivostok</name>
-                <website>http://www.vlc.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Vladivostok</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fd_x</freebase>
-                <yago>http://yago-knowledge.org/resource/Vladivostok</yago>
-                <geonames>http://sws.geonames.org/2013348/</geonames>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.27846</relevance>
+            <relevance>0.307896</relevance>
             <count>1</count>
-            <text>Oleg V. Penkovsky</text>
+            <text>Nikita S. Khrushchev</text>
+            <disambiguated>
+                <name>Nikita Khrushchev</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Nikita_Khrushchev</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bphp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvl-51JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nikita_Khrushchev</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.303347</relevance>
+            <count>1</count>
+            <text>Manchester Guardian</text>
+            <disambiguated>
+                <name>The Guardian</name>
+                <subType>Newspaper</subType>
+                <website>http://www.guardian.co.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Guardian</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cnn5</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Guardian</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.30133</relevance>
+            <count>1</count>
+            <text>Philadelphia Evening Bulletin</text>
+            <disambiguated>
+                <name>Philadelphia Bulletin</name>
+                <subType>Newspaper</subType>
+                <dbpedia>http://dbpedia.org/resource/Philadelphia_Bulletin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07tjt7</freebase>
+                <yago>http://yago-knowledge.org/resource/Philadelphia_Bulletin</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.278318</relevance>
+            <relevance>0.300808</relevance>
             <count>1</count>
             <text>Case Institute of Technology</text>
             <disambiguated>
@@ -498,6 +377,133 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvV7DA5wpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Case_Western_Reserve_University</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.299675</relevance>
+            <count>1</count>
+            <text>Phil</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.29917</relevance>
+            <count>1</count>
+            <text>Kazakhstan</text>
+            <disambiguated>
+                <name>Kazakhstan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>43.350322222222225 79.08035555555556</geo>
+                <dbpedia>http://dbpedia.org/resource/Kazakhstan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Kazakhstan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.047lj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv15sU5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kazakhstan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296911</relevance>
+            <count>1</count>
+            <text>Oleg V. Penkovsky</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296868</relevance>
+            <count>1</count>
+            <text>Valery Bykovsky</text>
+            <disambiguated>
+                <name>Valery Bykovsky</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Valery_Bykovsky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bm_w</freebase>
+                <yago>http://yago-knowledge.org/resource/Valery_Bykovsky</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.296237</relevance>
+            <count>1</count>
+            <text>Klokov</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.295991</relevance>
+            <count>1</count>
+            <text>naca</text>
+            <disambiguated>
+                <name>National Advisory Committee for Aeronautics</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/National_Advisory_Committee_for_Aeronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01b9vn</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Advisory_Committee_for_Aeronautics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.295358</relevance>
+            <count>1</count>
+            <text>Whitney Aircraft Div. of United Aircraft</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.292423</relevance>
+            <count>1</count>
+            <text>Nelson P. Jackson Aerospace Award</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.292207</relevance>
+            <count>1</count>
+            <text>Gen. Thomas Dresser White</text>
+            <disambiguated>
+                <name>Thomas D. White</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Thomas_D._White</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05wwql</freebase>
+                <yago>http://yago-knowledge.org/resource/Thomas_D._White</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.291851</relevance>
+            <count>1</count>
+            <text>icbm</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.289265</relevance>
+            <count>1</count>
+            <text>principal</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.286908</relevance>
+            <count>1</count>
+            <text>Robert H. Goddard Scholarship</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.286443</relevance>
+            <count>1</count>
+            <text>State Department</text>
+            <disambiguated>
+                <name>United States Department of State</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>AppointedRole</subType>
+                <website>http://www.state.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_State</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vsl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvXeGY5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_State</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.286278</relevance>
+            <count>1</count>
+            <text>Marshal Mitrofan I. Nedelin</text>
         </entity>
     </entities>
 </results>

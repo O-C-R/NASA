@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.838591</relevance>
+            <relevance>0.916695</relevance>
             <count>23</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,25 +29,32 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.387101</relevance>
+            <relevance>0.452083</relevance>
             <count>5</count>
             <text>ISS</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.270887</relevance>
-            <count>1</count>
-            <text>ISS Airlock</text>
+            <disambiguated>
+                <name>School</name>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zdj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r3np2ODTxEdqAAAAH6RYvSQ</opencyc>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.265103</relevance>
+            <relevance>0.309286</relevance>
             <count>4</count>
             <text>solar system</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.294551</relevance>
+            <count>1</count>
+            <text>ISS Airlock</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.230665</relevance>
+            <relevance>0.260839</relevance>
             <count>2</count>
             <text>KSC</text>
             <disambiguated>
@@ -64,26 +71,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.184127</relevance>
-            <count>2</count>
-            <text>Kepler</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.183472</relevance>
+            <relevance>0.229961</relevance>
             <count>1</count>
             <text>Materials International Space Station</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.181628</relevance>
+            <relevance>0.227691</relevance>
             <count>1</count>
             <text>International Space Station</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.214815</relevance>
+            <count>2</count>
+            <text>Kepler</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.180408</relevance>
+            <relevance>0.210475</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -101,8 +108,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.207089</relevance>
+            <count>2</count>
+            <text>Leonardo</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.199811</relevance>
+            <count>1</count>
+            <text>Ceresto</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.198</relevance>
+            <count>1</count>
+            <text>Dawn</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.17782</relevance>
+            <relevance>0.194484</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -115,8 +140,28 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.192821</relevance>
+            <count>1</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.190773</relevance>
+            <count>1</count>
+            <text>Frank L. Culbertson Jr.</text>
+            <disambiguated>
+                <name>Frank L. Culbertson, Jr.</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Frank_L._Culbertson,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vv14</freebase>
+                <yago>http://yago-knowledge.org/resource/Frank_L._Culbertson,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.173715</relevance>
+            <relevance>0.189928</relevance>
             <count>1</count>
             <text>Florida</text>
             <disambiguated>
@@ -135,58 +180,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.171266</relevance>
-            <count>1</count>
-            <text>Ceresto</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.169714</relevance>
-            <count>1</count>
-            <text>Dawn</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.166866</relevance>
-            <count>2</count>
-            <text>Leonardo</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.162618</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.160791</relevance>
-            <count>1</count>
-            <text>U.S. high school</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.155165</relevance>
-            <count>1</count>
-            <text>Commander</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.153017</relevance>
-            <count>1</count>
-            <text>Frank L. Culbertson Jr.</text>
-            <disambiguated>
-                <name>Frank L. Culbertson, Jr.</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Frank_L._Culbertson,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02vv14</freebase>
-                <yago>http://yago-knowledge.org/resource/Frank_L._Culbertson,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.15233</relevance>
+            <relevance>0.189879</relevance>
             <count>1</count>
             <text>Scott J. Horowitz</text>
             <disambiguated>
@@ -199,14 +194,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.151852</relevance>
-            <count>1</count>
-            <text>Spacewarn Bulletin</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.151003</relevance>
+            <relevance>0.188917</relevance>
             <count>1</count>
             <text>Mikhail Tyurin</text>
             <disambiguated>
@@ -219,19 +208,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.148595</relevance>
-            <count>1</count>
-            <text>Warren E. Leary</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.147418</relevance>
-            <count>1</count>
-            <text>Marshall Star</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.144997</relevance>
+            <relevance>0.181374</relevance>
             <count>1</count>
             <text>Patrick G. Forrester</text>
             <disambiguated>
@@ -244,8 +221,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.176105</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.174669</relevance>
+            <count>1</count>
+            <text>U.S. high school</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.138059</relevance>
+            <relevance>0.173366</relevance>
             <count>1</count>
             <text>Vladimir N. Dezhurov</text>
             <disambiguated>
@@ -258,26 +247,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.173361</relevance>
+            <count>1</count>
+            <text>Warren E. Leary</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.171988</relevance>
+            <count>1</count>
+            <text>Marshall Star</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.164331</relevance>
+            <count>1</count>
+            <text>Spacewarn Bulletin</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.12412</relevance>
+            <relevance>0.156198</relevance>
             <count>1</count>
             <text>MISSE</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.121904</relevance>
+            <relevance>0.154402</relevance>
             <count>1</count>
             <text>Rick'' Sturckow</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.12141</relevance>
+            <relevance>0.153787</relevance>
             <count>1</count>
             <text>Daniel T. Barr</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.120131</relevance>
+            <relevance>0.15215</relevance>
             <count>1</count>
             <text>Pilot Frederick W.</text>
         </entity>

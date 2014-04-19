@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.844195</relevance>
+            <relevance>0.843404</relevance>
             <count>19</count>
             <text>Air Force</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.579294</relevance>
+            <relevance>0.551946</relevance>
             <count>14</count>
             <text>AFSC</text>
             <disambiguated>
@@ -26,7 +26,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.381082</relevance>
+            <relevance>0.43079</relevance>
             <count>6</count>
             <text>Pan American World Airways</text>
             <disambiguated>
@@ -39,8 +39,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.383614</relevance>
+            <count>5</count>
+            <text>Northrop Corp.</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.371906</relevance>
+            <relevance>0.380858</relevance>
             <count>10</count>
             <text>Inc.</text>
             <disambiguated>
@@ -54,7 +60,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.34902</relevance>
+            <relevance>0.369048</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -75,20 +81,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.340034</relevance>
-            <count>5</count>
-            <text>Northrop Corp</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.337499</relevance>
-            <count>1</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.334504</relevance>
+            <relevance>0.365416</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -107,20 +101,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.319064</relevance>
+            <type>Company</type>
+            <relevance>0.33487</relevance>
             <count>1</count>
-            <text>Air Force Avionics Laboratory</text>
+            <text>Air Force</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.330021</relevance>
+            <count>1</count>
+            <text>Edwards Air Force Base</text>
+            <disambiguated>
+                <name>Edwards Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>34.90555555555556 -117.88361111111111</geo>
+                <website>http://www.edwards.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Edwards_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q_47</freebase>
+                <yago>http://yago-knowledge.org/resource/Edwards_Air_Force_Base</yago>
+                <geonames>http://sws.geonames.org/5345449/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.318789</relevance>
-            <count>3</count>
-            <text>General Dynamics Corp</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.31516</relevance>
+            <relevance>0.321601</relevance>
             <count>3</count>
             <text>United Air Lines</text>
             <disambiguated>
@@ -135,14 +141,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.308587</relevance>
+            <type>Organization</type>
+            <relevance>0.315282</relevance>
             <count>1</count>
-            <text>Edwards Air Force Base</text>
+            <text>Air Force Avionics Laboratory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.314553</relevance>
+            <count>3</count>
+            <text>General Dynamics Corp</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.302643</relevance>
+            <relevance>0.292607</relevance>
             <count>1</count>
             <text>Ellington Air Force Base</text>
             <disambiguated>
@@ -153,19 +165,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.302366</relevance>
+            <relevance>0.281943</relevance>
             <count>1</count>
             <text>Air Force Flight Dynamics Laboratory</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.296147</relevance>
+            <relevance>0.270163</relevance>
             <count>2</count>
             <text>Air Force Chief of Staff</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.275004</relevance>
+            <relevance>0.265715</relevance>
             <count>3</count>
             <text>New York Times</text>
             <disambiguated>
@@ -184,26 +196,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.251257</relevance>
-            <count>2</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.234479</relevance>
+            <relevance>0.256031</relevance>
             <count>2</count>
             <text>Trans World Airlines</text>
             <disambiguated>
@@ -216,73 +209,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.233545</relevance>
-            <count>2</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.229089</relevance>
-            <count>2</count>
-            <text>Hawaii</text>
-            <disambiguated>
-                <name>Hawaii</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>USState</subType>
-                <website>http://www.hawaii.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Hawaii</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03gh4</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViM6pwpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/hi</census>
-                <yago>http://yago-knowledge.org/resource/Hawaii</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.225452</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.223142</relevance>
-            <count>2</count>
-            <text>Finney</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.221658</relevance>
-            <count>2</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.220828</relevance>
+            <relevance>0.252002</relevance>
             <count>3</count>
             <text>Calif.</text>
             <disambiguated>
@@ -303,33 +231,155 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.2186</relevance>
-            <count>1</count>
-            <text>National Oceanic and Atmospheric Administration</text>
+            <type>Company</type>
+            <relevance>0.243644</relevance>
+            <count>2</count>
+            <text>Boeing</text>
             <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.237763</relevance>
+            <count>2</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.235754</relevance>
+            <count>2</count>
+            <text>acf</text>
+            <disambiguated>
+                <name>American Car and Foundry Company</name>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/American_Car_and_Foundry_Company</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04kbmh</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.227566</relevance>
+            <count>1</count>
+            <text>Lockheed Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.227063</relevance>
+            <count>2</count>
+            <text>General Electric Co.</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.219905</relevance>
+            <count>1</count>
+            <text>TWA</text>
+            <disambiguated>
+                <name>Trans World Airlines</name>
+                <subType>Airline</subType>
+                <subType>Company</subType>
+                <website>http://web.archive.org/*/http:/www.twa.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Trans_World_Airlines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013w80</freebase>
+                <yago>http://yago-knowledge.org/resource/Trans_World_Airlines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.218607</relevance>
+            <count>2</count>
+            <text>NYT</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.21352</relevance>
+            <relevance>0.217398</relevance>
             <count>2</count>
-            <text>A. Ernest Fitzgerald</text>
+            <text>Finney</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.216826</relevance>
+            <count>1</count>
+            <text>afsc Newsreview</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.215548</relevance>
+            <count>2</count>
+            <text>Hawaii</text>
             <disambiguated>
-                <name>A. Ernest Fitzgerald</name>
-                <dbpedia>http://dbpedia.org/resource/A._Ernest_Fitzgerald</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fhsb8</freebase>
-                <yago>http://yago-knowledge.org/resource/A._Ernest_Fitzgerald</yago>
+                <name>Hawaii</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>USState</subType>
+                <website>http://www.hawaii.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Hawaii</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03gh4</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViM6pwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/hi</census>
+                <yago>http://yago-knowledge.org/resource/Hawaii</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.212703</relevance>
+            <relevance>0.214645</relevance>
+            <count>1</count>
+            <text>Justice and Dept</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.214591</relevance>
+            <count>1</count>
+            <text>financial crisis</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.213144</relevance>
+            <count>1</count>
+            <text>Civil Aeronautics Board</text>
+            <disambiguated>
+                <name>Civil Aeronautics Board (Philippines)</name>
+                <website>http://www.cab.gov.ph</website>
+                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.211169</relevance>
             <count>1</count>
             <text>North Atlantic Treaty Organization</text>
             <disambiguated>
@@ -345,85 +395,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.211973</relevance>
-            <count>1</count>
-            <text>afsc Newsreview</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.211443</relevance>
-            <count>1</count>
-            <text>Civil Service Commission</text>
-            <disambiguated>
-                <name>United States Civil Service Commission</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Civil_Service_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.044s7c</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Civil_Service_Commission</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.211343</relevance>
-            <count>2</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.20843</relevance>
-            <count>2</count>
-            <text>Rockwell International Corp.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.20463</relevance>
-            <count>1</count>
-            <text>NASA Hq</text>
-            <disambiguated>
-                <name>NASA Headquarters</name>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <dbpedia>http://dbpedia.org/resource/NASA_Headquarters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09gcl34</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.198096</relevance>
-            <count>2</count>
-            <text>acf</text>
-            <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.195946</relevance>
-            <count>1</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.195512</relevance>
-            <count>1</count>
-            <text>financial analyst</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.19472</relevance>
+            <relevance>0.208135</relevance>
             <count>1</count>
             <text>General Dynamics Corp.</text>
             <disambiguated>
@@ -438,35 +411,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.193921</relevance>
-            <count>1</count>
-            <text>France</text>
-            <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.193466</relevance>
-            <count>1</count>
-            <text>Pan Am</text>
+            <type>Company</type>
+            <relevance>0.2069</relevance>
+            <count>2</count>
+            <text>Rockwell International Corp.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.193319</relevance>
+            <relevance>0.202597</relevance>
             <count>1</count>
             <text>Fortune</text>
             <disambiguated>
@@ -481,7 +433,21 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.193108</relevance>
+            <relevance>0.201945</relevance>
+            <count>2</count>
+            <text>rca</text>
+            <disambiguated>
+                <name>RCA</name>
+                <subType>ProcessorManufacturer</subType>
+                <subType>RecordLabel</subType>
+                <dbpedia>http://dbpedia.org/resource/RCA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06gst</freebase>
+                <yago>http://yago-knowledge.org/resource/RCA</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.200969</relevance>
             <count>1</count>
             <text>Raytheon Co.</text>
             <disambiguated>
@@ -497,8 +463,57 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.198213</relevance>
+            <count>1</count>
+            <text>Mauna Kea</text>
+            <disambiguated>
+                <name>Mauna Kea</name>
+                <subType>Location</subType>
+                <subType>Mountain</subType>
+                <geo>19.820663888888888 -155.46806666666666</geo>
+                <dbpedia>http://dbpedia.org/resource/Mauna_Kea</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01njpr</freebase>
+                <yago>http://yago-knowledge.org/resource/Mauna_Kea</yago>
+                <geonames>http://sws.geonames.org/5850911/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.194477</relevance>
+            <count>1</count>
+            <text>Pan Am</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.192798</relevance>
+            <relevance>0.194416</relevance>
+            <count>1</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.191831</relevance>
+            <count>1</count>
+            <text>Arnold Engineering Development Center</text>
+            <disambiguated>
+                <name>Arnold Engineering Development Center</name>
+                <subType>Location</subType>
+                <subType>MilitaryUnit</subType>
+                <website>http://www.arnold.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Arnold_Engineering_Development_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04b9k7</freebase>
+                <yago>http://yago-knowledge.org/resource/Arnold_Engineering_Development_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Product</type>
+            <relevance>0.191338</relevance>
+            <count>2</count>
+            <text>B-52</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.191271</relevance>
             <count>1</count>
             <text>NATO</text>
             <disambiguated>
@@ -510,109 +525,93 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.191491</relevance>
+            <type>Company</type>
+            <relevance>0.191186</relevance>
             <count>1</count>
-            <text>TWA</text>
+            <text>Eastern Airlines</text>
             <disambiguated>
-                <name>Trans World Airlines</name>
+                <name>Eastern Air Lines</name>
                 <subType>Airline</subType>
-                <subType>Company</subType>
-                <website>http://web.archive.org/*/http:/www.twa.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Trans_World_Airlines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013w80</freebase>
-                <yago>http://yago-knowledge.org/resource/Trans_World_Airlines</yago>
+                <dbpedia>http://dbpedia.org/resource/Eastern_Air_Lines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0mzbj</freebase>
+                <yago>http://yago-knowledge.org/resource/Eastern_Air_Lines</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.190317</relevance>
-            <count>3</count>
-            <text>The Dept</text>
+            <type>Facility</type>
+            <relevance>0.191081</relevance>
+            <count>1</count>
+            <text>NASA Hq</text>
+            <disambiguated>
+                <name>NASA Headquarters</name>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <dbpedia>http://dbpedia.org/resource/NASA_Headquarters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gcl34</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.189385</relevance>
+            <count>1</count>
+            <text>Rockefeller Center</text>
+            <disambiguated>
+                <name>Rockefeller Center</name>
+                <subType>Location</subType>
+                <subType>Neighborhood</subType>
+                <subType>TouristAttraction</subType>
+                <subType>Building</subType>
+                <subType>Skyscraper</subType>
+                <geo>40.759487 -73.978356</geo>
+                <website>http://www.rockefellercenter.com</website>
+                <dbpedia>http://dbpedia.org/resource/Rockefeller_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0163ff</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockefeller_Center</yago>
+                <geonames>http://sws.geonames.org/5134209/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.187705</relevance>
+            <count>1</count>
+            <text>New York City</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.190152</relevance>
-            <count>1</count>
-            <text>financial crisis</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.188522</relevance>
-            <count>1</count>
-            <text>Civil Aeronautics Board</text>
-            <disambiguated>
-                <name>Civil Aeronautics Board (Philippines)</name>
-                <website>http://www.cab.gov.ph</website>
-                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.186328</relevance>
-            <count>1</count>
-            <text>President Nixon</text>
-            <disambiguated>
-                <name>Richard Nixon</name>
-                <subType>FilmCharacter</subType>
-                <subType>MusicalArtist</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>Appointer</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>TVPersonality</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_Nixon</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06c97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVizFZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Richard_Nixon</yago>
-                <musicBrainz>http://zitgist.com/music/artist/056203cf-376f-412a-86f7-3ffa80157ef4</musicBrainz>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.185981</relevance>
+            <relevance>0.186647</relevance>
             <count>2</count>
-            <text>Dr. Karl G. Henize</text>
-            <disambiguated>
-                <name>Karl Gordon Henize</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Karl_Gordon_Henize</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0323x0</freebase>
-                <yago>http://yago-knowledge.org/resource/Karl_Gordon_Henize</yago>
-            </disambiguated>
+            <text>solar energy</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.184579</relevance>
+            <count>1</count>
+            <text>C-130</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.185601</relevance>
-            <count>1</count>
-            <text>Adm. Thomas H. Moorer</text>
+            <relevance>0.183961</relevance>
+            <count>2</count>
+            <text>A. Ernest Fitzgerald</text>
             <disambiguated>
-                <name>Thomas Hinman Moorer</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Thomas_Hinman_Moorer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03frwb</freebase>
-                <yago>http://yago-knowledge.org/resource/Thomas_Hinman_Moorer</yago>
+                <name>A. Ernest Fitzgerald</name>
+                <dbpedia>http://dbpedia.org/resource/A._Ernest_Fitzgerald</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fhsb8</freebase>
+                <yago>http://yago-knowledge.org/resource/A._Ernest_Fitzgerald</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.184908</relevance>
-            <count>1</count>
-            <text>Dr. Millar Mier</text>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.18372</relevance>
-            <count>1</count>
-            <text>Western Europe</text>
         </entity>
     </entities>
 </results>

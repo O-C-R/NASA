@@ -7,25 +7,25 @@
     <entities>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.822895</relevance>
+            <relevance>0.960388</relevance>
             <count>4</count>
             <text>communications satellite</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.610203</relevance>
+            <relevance>0.730151</relevance>
             <count>5</count>
             <text>UPI</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.56612</relevance>
+            <relevance>0.679762</relevance>
             <count>4</count>
             <text>French Guiana</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.517551</relevance>
+            <relevance>0.616768</relevance>
             <count>5</count>
             <text>Kourou</text>
             <disambiguated>
@@ -38,25 +38,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.394949</relevance>
-            <count>1</count>
-            <text>Coloradobased Energetics Satellite Corporation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.363721</relevance>
+            <relevance>0.537486</relevance>
             <count>1</count>
             <text>Ariane</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.436957</relevance>
+            <count>1</count>
+            <text>Coloradobased Energetics Satellite Corporation</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.358614</relevance>
+            <relevance>0.417299</relevance>
             <count>3</count>
             <text>Japan</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.292196</relevance>
+            <relevance>0.364786</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -74,33 +74,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.269073</relevance>
-            <count>1</count>
-            <text>French Guiana</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.26871</relevance>
-            <count>1</count>
-            <text>TELEX Nordic communications</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.254935</relevance>
-            <count>1</count>
-            <text>National Oceanic and Atmospheric Administration</text>
-            <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.253792</relevance>
+            <relevance>0.352355</relevance>
             <count>2</count>
             <text>United States</text>
             <disambiguated>
@@ -119,20 +94,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.248921</relevance>
+            <type>Company</type>
+            <relevance>0.321188</relevance>
             <count>1</count>
-            <text>National Space Development Agency.</text>
+            <text>TELEX Nordic communications</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.247276</relevance>
+            <type>City</type>
+            <relevance>0.308275</relevance>
             <count>1</count>
-            <text>WSJ</text>
+            <text>French Guiana</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.246737</relevance>
+            <relevance>0.306821</relevance>
             <count>1</count>
             <text>WSJ</text>
             <disambiguated>
@@ -146,8 +121,46 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.302523</relevance>
+            <count>1</count>
+            <text>National Oceanic and Atmospheric Administration</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.290952</relevance>
+            <count>1</count>
+            <text>IntelsatV</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.276826</relevance>
+            <count>1</count>
+            <text>Arianespace</text>
+            <disambiguated>
+                <name>Arianespace</name>
+                <website>http://www.arianespace.com</website>
+                <dbpedia>http://dbpedia.org/resource/Arianespace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013qr</freebase>
+                <yago>http://yago-knowledge.org/resource/Arianespace</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.262581</relevance>
+            <count>1</count>
+            <text>National Space Council</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.244553</relevance>
+            <relevance>0.262338</relevance>
             <count>1</count>
             <text>Indian Ocean</text>
             <disambiguated>
@@ -162,49 +175,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.239279</relevance>
-            <count>1</count>
-            <text>Arianespace</text>
-            <disambiguated>
-                <name>Arianespace</name>
-                <website>http://www.arianespace.com</website>
-                <dbpedia>http://dbpedia.org/resource/Arianespace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013qr</freebase>
-                <yago>http://yago-knowledge.org/resource/Arianespace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.224167</relevance>
-            <count>1</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.210148</relevance>
-            <count>1</count>
-            <text>IntelsatV</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.206638</relevance>
-            <count>1</count>
-            <text>fiscal year</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.203362</relevance>
+            <relevance>0.262014</relevance>
             <count>1</count>
             <text>George Bush</text>
             <disambiguated>
@@ -233,43 +205,71 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.201757</relevance>
+            <relevance>0.260839</relevance>
             <count>1</count>
-            <text>National Space Council</text>
+            <text>National Space Development Agency.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.193947</relevance>
+            <relevance>0.259055</relevance>
             <count>1</count>
-            <text>Glavkosmos</text>
+            <text>WSJ</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.189642</relevance>
+            <type>Organization</type>
+            <relevance>0.249709</relevance>
             <count>1</count>
-            <text>McDonnell Douglas</text>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.185152</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.244845</relevance>
             <count>1</count>
-            <text>India</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.182725</relevance>
-            <count>1</count>
-            <text>Florida.</text>
+            <text>fiscal year</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.181998</relevance>
+            <relevance>0.236003</relevance>
             <count>1</count>
             <text>President</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.172085</relevance>
+            <relevance>0.224266</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.221126</relevance>
+            <count>1</count>
+            <text>India</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.21623</relevance>
+            <count>1</count>
+            <text>Florida.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.214532</relevance>
+            <count>1</count>
+            <text>Glavkosmos</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.203186</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
         </entity>

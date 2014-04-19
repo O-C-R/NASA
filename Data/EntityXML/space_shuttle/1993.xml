@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.833801</relevance>
+            <relevance>0.835163</relevance>
             <count>52</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,37 +29,37 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.833671</relevance>
+            <relevance>0.834793</relevance>
             <count>10</count>
             <text>Space Shuttle Discovery</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.591478</relevance>
+            <relevance>0.669552</relevance>
             <count>5</count>
             <text>Space Shuttle Columbia</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.530796</relevance>
+            <count>16</count>
+            <text>AP</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.518315</relevance>
+            <relevance>0.446915</relevance>
             <count>16</count>
             <text>USA Today</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.501616</relevance>
-            <count>16</count>
-            <text>AP</text>
+            <relevance>0.383117</relevance>
+            <count>9</count>
+            <text>UPI</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.422249</relevance>
-            <count>3</count>
-            <text>Shuttle Columbia</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.416508</relevance>
+            <relevance>0.34865</relevance>
             <count>11</count>
             <text>New York Times</text>
             <disambiguated>
@@ -77,15 +77,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>TelevisionStation</type>
-            <relevance>0.351268</relevance>
-            <count>9</count>
-            <text>UPI</text>
+            <type>PrintMedia</type>
+            <relevance>0.319932</relevance>
+            <count>2</count>
+            <text>Shuttle Columbia</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.304034</relevance>
+            <count>1</count>
+            <text>Columbia Shuttle Mission STS-55</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.318619</relevance>
-            <count>6</count>
+            <relevance>0.282142</relevance>
+            <count>5</count>
             <text>Columbia</text>
             <disambiguated>
                 <name>Washington, D.C.</name>
@@ -103,13 +109,56 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.26285</relevance>
+            <relevance>0.240845</relevance>
             <count>1</count>
-            <text>Columbia Shuttle Mission STS-55</text>
+            <text>German Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.239726</relevance>
+            <count>1</count>
+            <text>Center for Space Science and Applied Research</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.211396</relevance>
+            <count>2</count>
+            <text>Columbia</text>
+            <disambiguated>
+                <name>Columbia, New York</name>
+                <dbpedia>http://dbpedia.org/resource/Columbia,_New_York</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0y0fc</freebase>
+                <yago>http://yago-knowledge.org/resource/Columbia,_New_York</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.203678</relevance>
+            <count>2</count>
+            <text>Spacehab</text>
+            <disambiguated>
+                <name>Astrotech Corporation</name>
+                <website>http://www.spacehab.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Astrotech_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07qb06</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.216947</relevance>
+            <relevance>0.200112</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -128,45 +177,58 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.211121</relevance>
-            <count>1</count>
-            <text>German Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
+            <type>City</type>
+            <relevance>0.199484</relevance>
+            <count>4</count>
+            <text>Rocketdyne</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.205539</relevance>
-            <count>4</count>
-            <text>Rocketdyne</text>
+            <relevance>0.195442</relevance>
+            <count>2</count>
+            <text>Rockwell International Corporation</text>
             <disambiguated>
-                <name>Rocketdyne</name>
-                <dbpedia>http://dbpedia.org/resource/Rocketdyne</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vhl6</freebase>
-                <yago>http://yago-knowledge.org/resource/Rocketdyne</yago>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.195499</relevance>
+            <type>JobTitle</type>
+            <relevance>0.187724</relevance>
+            <count>2</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.184781</relevance>
             <count>1</count>
-            <text>June Malone</text>
+            <text>University of Wisconsin</text>
+            <disambiguated>
+                <name>University of Wisconsin&#x2013;Madison</name>
+                <subType>Location</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>43.075 -89.417222</geo>
+                <website>http://www.wisc.edu</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Wisconsin&#x2013;Madison</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01yx1b</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.182358</relevance>
+            <count>1</count>
+            <text>Air and Space Museum Annex</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.19513</relevance>
+            <relevance>0.182079</relevance>
             <count>2</count>
             <text>Florida</text>
             <disambiguated>
@@ -185,35 +247,110 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.193329</relevance>
+            <type>Country</type>
+            <relevance>0.180203</relevance>
             <count>2</count>
-            <text>Rockwell International Corporation</text>
+            <text>China</text>
             <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+                <name>China</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>35.0 105.0</geo>
+                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.178896</relevance>
+            <count>1</count>
+            <text>Wilton T. Sanders</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.178728</relevance>
+            <count>1</count>
+            <text>Florida Today</text>
+            <disambiguated>
+                <name>Florida Today</name>
+                <subType>Newspaper</subType>
+                <website>http://floridatoday.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
+                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.176657</relevance>
+            <count>2</count>
+            <text>Canoga Park</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.175724</relevance>
+            <count>1</count>
+            <text>Jian Jingshan</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.192676</relevance>
+            <relevance>0.175223</relevance>
             <count>2</count>
             <text>shut down</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.191523</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.169803</relevance>
             <count>1</count>
-            <text>Center for Space Science and Applied Research</text>
+            <text>Physiological and Anatomical Rodent Experiment</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.168974</relevance>
+            <count>1</count>
+            <text>June Malone</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.16651</relevance>
+            <count>1</count>
+            <text>Chinese Academy of Sciences</text>
+            <disambiguated>
+                <name>Chinese Academy of Sciences</name>
+                <website>http://www.cas.ac.cn/</website>
+                <dbpedia>http://dbpedia.org/resource/Chinese_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0216st</freebase>
+                <yago>http://yago-knowledge.org/resource/Chinese_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.165319</relevance>
+            <count>1</count>
+            <text>state-run media</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.182632</relevance>
+            <relevance>0.164888</relevance>
+            <count>1</count>
+            <text>atmospheric research</text>
+            <disambiguated>
+                <name>Atmospheric Research</name>
+                <subType>Journal</subType>
+                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
+                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
+                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.164434</relevance>
             <count>3</count>
             <text>The Los Angeles Times</text>
             <disambiguated>
@@ -229,68 +366,95 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.162927</relevance>
+            <count>1</count>
+            <text>Atlantic Ocean</text>
+            <disambiguated>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.161708</relevance>
+            <count>1</count>
+            <text>Digiray Corporation</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.179963</relevance>
+            <relevance>0.159647</relevance>
             <count>2</count>
-            <text>Christa McAuliffe</text>
-            <disambiguated>
-                <name>Christa McAuliffe</name>
-                <subType>Astronaut</subType>
-                <website>http://www.jsc.nasa.gov/Bios/htmlbios/mcauliffe.html</website>
-                <dbpedia>http://dbpedia.org/resource/Christa_McAuliffe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0m07m</freebase>
-                <yago>http://yago-knowledge.org/resource/Christa_McAuliffe</yago>
-            </disambiguated>
+            <text>Rocketdyne</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.179765</relevance>
+            <type>City</type>
+            <relevance>0.158678</relevance>
             <count>1</count>
-            <text>Lawrence Livermore National Laboratory</text>
+            <text>Spacelab</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.179495</relevance>
+            <relevance>0.158159</relevance>
             <count>1</count>
-            <text>President Reagan</text>
+            <text>Timothy Miller</text>
             <disambiguated>
-                <name>Ronald Reagan</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>AwardWinner</subType>
-                <subType>ChivalricOrderMember</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>USPresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Ronald_Reagan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06c0j</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjDZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Ronald_Reagan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.178611</relevance>
-            <count>1</count>
-            <text>Air and Space Museum Annex</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.178517</relevance>
-            <count>1</count>
-            <text>University of Nebraska Press</text>
-            <disambiguated>
-                <name>University of Nebraska Press</name>
-                <dbpedia>http://dbpedia.org/resource/University_of_Nebraska_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wyg6</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Nebraska_Press</yago>
+                <name>Timothy Miller</name>
+                <dbpedia>http://dbpedia.org/resource/Timothy_Miller</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07c0n2</freebase>
+                <yago>http://yago-knowledge.org/resource/Timothy_Miller</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.177295</relevance>
+            <relevance>0.15715</relevance>
+            <count>1</count>
+            <text>Mike Leinbach</text>
+            <disambiguated>
+                <name>Michael D. Leinbach</name>
+                <dbpedia>http://dbpedia.org/resource/Michael_D._Leinbach</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rl2c1</freebase>
+                <yago>http://yago-knowledge.org/resource/Michael_D._Leinbach</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.156628</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.156554</relevance>
+            <count>1</count>
+            <text>Flight International</text>
+            <disambiguated>
+                <name>L-3 Flight International Aviation</name>
+                <subType>Airline</subType>
+                <website>http://www.l-3com.com/fi/</website>
+                <dbpedia>http://dbpedia.org/resource/L-3_Flight_International_Aviation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08mvm9</freebase>
+                <yago>http://yago-knowledge.org/resource/L-3_Flight_International_Aviation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.156354</relevance>
             <count>1</count>
             <text>President Clinton</text>
             <disambiguated>
@@ -316,8 +480,30 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.156136</relevance>
+            <count>1</count>
+            <text>President Reagan</text>
+            <disambiguated>
+                <name>Ronald Reagan</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>AwardWinner</subType>
+                <subType>ChivalricOrderMember</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>USPresident</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Ronald_Reagan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06c0j</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjDZ5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Ronald_Reagan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.176366</relevance>
+            <relevance>0.155542</relevance>
             <count>1</count>
             <text>House of Representatives</text>
             <disambiguated>
@@ -332,152 +518,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.172474</relevance>
+            <type>Organization</type>
+            <relevance>0.155298</relevance>
             <count>1</count>
-            <text>Florida Today</text>
+            <text>University of Nebraska Press</text>
             <disambiguated>
-                <name>Florida Today</name>
-                <subType>Newspaper</subType>
-                <website>http://floridatoday.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
-                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.172226</relevance>
-            <count>2</count>
-            <text>Canoga Park</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.171348</relevance>
-            <count>1</count>
-            <text>Ulysses</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.170226</relevance>
-            <count>1</count>
-            <text>California</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.169461</relevance>
-            <count>1</count>
-            <text>Grace George Corrigan</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.16946</relevance>
-            <count>1</count>
-            <text>A Journal</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.167394</relevance>
-            <count>1</count>
-            <text>Columbia.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.167294</relevance>
-            <count>1</count>
-            <text>atmospheric research</text>
-            <disambiguated>
-                <name>Atmospheric Research</name>
-                <subType>Journal</subType>
-                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
-                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
-                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.166046</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.16533</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.164298</relevance>
-            <count>2</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>HealthCondition</type>
-            <relevance>0.164248</relevance>
-            <count>1</count>
-            <text>cancer</text>
-            <disambiguated>
-                <name>Cancer</name>
-                <subType>FieldOfStudy</subType>
-                <subType>DiseaseOrMedicalCondition</subType>
-                <subType>CauseOfDeath</subType>
-                <subType>DiseaseCause</subType>
-                <subType>MedicalSpecialty</subType>
-                <subType>RiskFactor</subType>
-                <subType>Disease</subType>
-                <dbpedia>http://dbpedia.org/resource/Cancer</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qcr0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1qGpwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.163821</relevance>
-            <count>1</count>
-            <text>Flight International</text>
-            <disambiguated>
-                <name>L-3 Flight International Aviation</name>
-                <subType>Airline</subType>
-                <website>http://www.l-3com.com/fi/</website>
-                <dbpedia>http://dbpedia.org/resource/L-3_Flight_International_Aviation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08mvm9</freebase>
-                <yago>http://yago-knowledge.org/resource/L-3_Flight_International_Aviation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.163413</relevance>
-            <count>1</count>
-            <text>Physiological and Anatomical Rodent Experiment</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.162089</relevance>
-            <count>2</count>
-            <text>Spacehab</text>
-            <disambiguated>
-                <name>Astrotech Corporation</name>
-                <website>http://www.spacehab.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Astrotech_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07qb06</freebase>
+                <name>University of Nebraska Press</name>
+                <dbpedia>http://dbpedia.org/resource/University_of_Nebraska_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wyg6</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Nebraska_Press</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.161437</relevance>
+            <relevance>0.155042</relevance>
             <count>1</count>
             <text>Johns Hopkins University</text>
             <disambiguated>
@@ -496,87 +550,35 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.160448</relevance>
-            <count>1</count>
-            <text>Timothy Miller</text>
-            <disambiguated>
-                <name>Timothy Miller</name>
-                <dbpedia>http://dbpedia.org/resource/Timothy_Miller</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07c0n2</freebase>
-                <yago>http://yago-knowledge.org/resource/Timothy_Miller</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.159348</relevance>
-            <count>1</count>
-            <text>immune system</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.15841</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.157858</relevance>
+            <relevance>0.154702</relevance>
             <count>2</count>
-            <text>Kimberly Ennico</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.156232</relevance>
-            <count>1</count>
-            <text>Atlantic Ocean</text>
+            <text>Christa McAuliffe</text>
             <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+                <name>Christa McAuliffe</name>
+                <subType>Astronaut</subType>
+                <website>http://www.jsc.nasa.gov/Bios/htmlbios/mcauliffe.html</website>
+                <dbpedia>http://dbpedia.org/resource/Christa_McAuliffe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0m07m</freebase>
+                <yago>http://yago-knowledge.org/resource/Christa_McAuliffe</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.155394</relevance>
+            <type>Country</type>
+            <relevance>0.154675</relevance>
             <count>1</count>
-            <text>Earth</text>
+            <text>Earth.</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.155152</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.154327</relevance>
             <count>1</count>
-            <text>Smithsonian Museum</text>
-            <disambiguated>
-                <name>Smithsonian Institution</name>
-                <subType>Organization</subType>
-                <subType>Location</subType>
-                <subType>TouristAttraction</subType>
-                <subType>AwardWinner</subType>
-                <subType>Museum</subType>
-                <geo>38.8888 -77.026</geo>
-                <website>http://www.si.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
-                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
-                <geonames>http://sws.geonames.org/4140525/</geonames>
-            </disambiguated>
+            <text>Daily News</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.153274</relevance>
-            <count>2</count>
-            <text>Rocketdyne</text>
+            <type>Technology</type>
+            <relevance>0.152735</relevance>
+            <count>1</count>
+            <text>x-ray</text>
         </entity>
     </entities>
 </results>

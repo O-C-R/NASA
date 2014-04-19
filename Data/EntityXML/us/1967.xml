@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Country</type>
-            <relevance>0.909638</relevance>
+            <relevance>0.909554</relevance>
             <count>49</count>
             <text>United States</text>
             <disambiguated>
@@ -26,9 +26,104 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.783636</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.767978</relevance>
             <count>27</count>
+            <text>The New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.729249</relevance>
+            <count>18</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.719375</relevance>
+            <count>13</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.712994</relevance>
+            <count>20</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.655227</relevance>
+            <count>18</count>
+            <text>D.C.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.587331</relevance>
+            <count>7</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.585227</relevance>
+            <count>9</count>
+            <text>Air Force</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.57063</relevance>
+            <count>15</count>
             <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
@@ -48,82 +143,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.77821</relevance>
-            <count>21</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.764731</relevance>
-            <count>27</count>
-            <text>The New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.688685</relevance>
-            <count>18</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.667466</relevance>
-            <count>18</count>
-            <text>D.C.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.564119</relevance>
-            <count>7</count>
-            <text>Government</text>
-            <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.543685</relevance>
+            <relevance>0.544447</relevance>
             <count>9</count>
             <text>Dr. Samuel Johnson</text>
             <disambiguated>
@@ -137,19 +158,49 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.533488</relevance>
+            <relevance>0.538101</relevance>
+            <count>7</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.531991</relevance>
             <count>7</count>
             <text>Director</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.532108</relevance>
-            <count>9</count>
-            <text>Air Force</text>
+            <relevance>0.510717</relevance>
+            <count>5</count>
+            <text>afsc</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.478806</relevance>
+            <count>6</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.459606</relevance>
+            <count>5</count>
+            <text>Congress</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.436697</relevance>
+            <count>5</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.431077</relevance>
+            <count>4</count>
+            <text>Vandenberg afb</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.502538</relevance>
+            <relevance>0.427001</relevance>
             <count>8</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -163,70 +214,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.501793</relevance>
-            <count>7</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.491542</relevance>
-            <count>6</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.485285</relevance>
-            <count>6</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.463324</relevance>
-            <count>5</count>
-            <text>North American Rockwell Corp.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.450155</relevance>
-            <count>5</count>
-            <text>afsc</text>
-            <disambiguated>
-                <name>Air Force Space Command</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Space_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02spk8</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Space_Command</yago>
-            </disambiguated>
+            <type>Continent</type>
+            <relevance>0.426214</relevance>
+            <count>4</count>
+            <text>America</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.436221</relevance>
+            <relevance>0.426152</relevance>
             <count>5</count>
             <text>France</text>
             <disambiguated>
@@ -247,45 +242,54 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.418837</relevance>
+            <relevance>0.414684</relevance>
             <count>4</count>
-            <text>Chairman</text>
+            <text>chairman</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.405822</relevance>
-            <count>3</count>
-            <text>Soviet Union</text>
+            <relevance>0.405692</relevance>
+            <count>2</count>
+            <text>SST</text>
             <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <name>School of Science and Technology, Singapore</name>
+                <dbpedia>http://dbpedia.org/resource/School_of_Science_and_Technology,_Singapore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.063_s6b</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.385217</relevance>
+            <count>3</count>
+            <text>The Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.388865</relevance>
+            <relevance>0.384987</relevance>
             <count>3</count>
-            <text>North American Aviation</text>
+            <text>Senate</text>
             <disambiguated>
-                <name>North American Aviation</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/North_American_Aviation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gcl8</freebase>
-                <yago>http://yago-knowledge.org/resource/North_American_Aviation</yago>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.38819</relevance>
+            <relevance>0.382985</relevance>
             <count>4</count>
             <text>New York City</text>
             <disambiguated>
@@ -304,37 +308,55 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.38689</relevance>
+            <type>Person</type>
+            <relevance>0.381035</relevance>
             <count>4</count>
-            <text>America</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.383916</relevance>
-            <count>5</count>
-            <text>Secretary</text>
+            <text>Dr. James R. Killian, Jr.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.377541</relevance>
-            <count>2</count>
-            <text>United Aircraft Corp.</text>
+            <relevance>0.379554</relevance>
+            <count>5</count>
+            <text>North American Rockwell Corp</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.372649</relevance>
+            <count>3</count>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>United Aircraft and Transport Corporation</name>
-                <dbpedia>http://dbpedia.org/resource/United_Aircraft_and_Transport_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rwbc</freebase>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.377345</relevance>
-            <count>4</count>
-            <text>Vandenberg afb</text>
+            <type>Organization</type>
+            <relevance>0.365926</relevance>
+            <count>2</count>
+            <text>American Government</text>
+            <disambiguated>
+                <name>Federal government of the United States</name>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.354151</relevance>
+            <count>3</count>
+            <text>scientist</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.371351</relevance>
+            <relevance>0.350401</relevance>
             <count>3</count>
             <text>U.K.</text>
             <disambiguated>
@@ -354,92 +376,58 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.368644</relevance>
-            <count>2</count>
-            <text>American Government</text>
-            <disambiguated>
-                <name>Federal government of the United States</name>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.364841</relevance>
-            <count>2</count>
-            <text>SST</text>
-            <disambiguated>
-                <name>School of Science and Technology</name>
-                <subType>School</subType>
-                <geo>45.5079 -122.8486</geo>
-                <website>http://www.beavton.k12.or.us/merlo_station/sst/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/School_of_Science_and_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027hsjr</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.358783</relevance>
-            <count>2</count>
-            <text>U.N.</text>
-            <disambiguated>
-                <name>U.N. (group)</name>
-                <dbpedia>http://dbpedia.org/resource/U.N._(group)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09gn3c5</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.358376</relevance>
-            <count>3</count>
-            <text>The Wall Street Journal</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.357293</relevance>
+            <relevance>0.348197</relevance>
             <count>2</count>
-            <text>Pan American World Airways</text>
+            <text>United Aircraft Corp.</text>
             <disambiguated>
-                <name>Pan American World Airways</name>
-                <subType>Airline</subType>
-                <dbpedia>http://dbpedia.org/resource/Pan_American_World_Airways</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ky6d</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rUx2SSIO9EdaAAAACs0uFOQ</opencyc>
-                <yago>http://yago-knowledge.org/resource/Pan_American_World_Airways</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.355685</relevance>
-            <count>2</count>
-            <text>Igor I. Sikorsky</text>
-            <disambiguated>
-                <name>Igor Sikorsky</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyFounder</subType>
-                <subType>Inventor</subType>
-                <website>http://www.sikorskyarchives.com</website>
-                <dbpedia>http://dbpedia.org/resource/Igor_Sikorsky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cb9n</freebase>
-                <yago>http://yago-knowledge.org/resource/Igor_Sikorsky</yago>
+                <name>United Aircraft and Transport Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/United_Aircraft_and_Transport_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rwbc</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.352957</relevance>
+            <relevance>0.348173</relevance>
+            <count>3</count>
+            <text>Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.346719</relevance>
+            <count>3</count>
+            <text>Administration</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.344581</relevance>
+            <count>2</count>
+            <text>Vietnam</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.34214</relevance>
+            <count>3</count>
+            <text>Europe.</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.341217</relevance>
             <count>2</count>
             <text>Princeton Univ</text>
             <disambiguated>
@@ -457,35 +445,96 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.352596</relevance>
+            <type>JobTitle</type>
+            <relevance>0.340111</relevance>
             <count>3</count>
-            <text>The Washington Post</text>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.338742</relevance>
+            <count>2</count>
+            <text>Dr. Harold Brown</text>
             <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+                <name>Harold Brown (Secretary of Defense)</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Harold_Brown_(Secretary_of_Defense)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sx84</freebase>
+                <yago>http://yago-knowledge.org/resource/Harold_Brown_(Secretary_of_Defense)</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.349785</relevance>
+            <relevance>0.337819</relevance>
+            <count>3</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.334228</relevance>
+            <count>2</count>
+            <text>North American Aviation</text>
+            <disambiguated>
+                <name>North American Aviation</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/North_American_Aviation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gcl8</freebase>
+                <yago>http://yago-knowledge.org/resource/North_American_Aviation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.332531</relevance>
             <count>1</count>
-            <text>Air Force Office of Scientific Research</text>
+            <text>West German Air Force</text>
             <disambiguated>
-                <name>Air Force Research Laboratory</name>
-                <website>http://www.wpafb.af.mil/AFRL/</website>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Research_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.039h7m</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Research_Laboratory</yago>
+                <name>Luftwaffe</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.luftwaffe.de</website>
+                <dbpedia>http://dbpedia.org/resource/Luftwaffe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04jtj</freebase>
+                <yago>http://yago-knowledge.org/resource/Luftwaffe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.330282</relevance>
+            <count>2</count>
+            <text>Pan American World Airways</text>
+            <disambiguated>
+                <name>Pan American World Airways</name>
+                <subType>Airline</subType>
+                <dbpedia>http://dbpedia.org/resource/Pan_American_World_Airways</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ky6d</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rUx2SSIO9EdaAAAACs0uFOQ</opencyc>
+                <yago>http://yago-knowledge.org/resource/Pan_American_World_Airways</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.328263</relevance>
+            <count>3</count>
+            <text>Hugo Schuck</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.327061</relevance>
+            <count>2</count>
+            <text>U.N.</text>
+            <disambiguated>
+                <name>U.N. (group)</name>
+                <dbpedia>http://dbpedia.org/resource/U.N._(group)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09gn3c5</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.348098</relevance>
+            <relevance>0.324136</relevance>
             <count>2</count>
             <text>State Dept</text>
             <disambiguated>
@@ -501,144 +550,52 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.344303</relevance>
-            <count>2</count>
-            <text>York</text>
-            <disambiguated>
-                <name>York</name>
-                <subType>AdministrativeDivision</subType>
-                <website>http://www.york.gov.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.088cp</freebase>
-                <yago>http://yago-knowledge.org/resource/York</yago>
-                <geonames>http://sws.geonames.org/2633352/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.342184</relevance>
-            <count>3</count>
-            <text>official</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.339939</relevance>
-            <count>2</count>
-            <text>Aeroflot</text>
-            <disambiguated>
-                <name>Aeroflot</name>
-                <subType>Airline</subType>
-                <website>http://www.aeroflot.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Aeroflot</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0mbv5</freebase>
-                <yago>http://yago-knowledge.org/resource/Aeroflot</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.339032</relevance>
-            <count>2</count>
-            <text>White House</text>
-            <disambiguated>
-                <name>White House</name>
-                <subType>Location</subType>
-                <subType>House</subType>
-                <subType>TouristAttraction</subType>
-                <subType>Building</subType>
-                <website>http://www.whitehouse.gov</website>
-                <dbpedia>http://dbpedia.org/resource/White_House</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.081sq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvyXliZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/White_House</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.338421</relevance>
-            <count>2</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.334384</relevance>
+            <type>Person</type>
+            <relevance>0.322027</relevance>
             <count>1</count>
-            <text>American Automatic Control Council</text>
+            <text>Paul H. Nitze</text>
             <disambiguated>
-                <name>American Automatic Control Council</name>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.a2c2.org/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Automatic_Control_Council</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0417hl5</freebase>
+                <name>Paul Nitze</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/Paul_Nitze</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vvwy</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_Nitze</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.332886</relevance>
-            <count>3</count>
-            <text>Europe.</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.329858</relevance>
-            <count>2</count>
-            <text>Executive Director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.327985</relevance>
-            <count>1</count>
-            <text>American Security Council</text>
-            <disambiguated>
-                <name>American Security Council Foundation</name>
-                <website>http://www.ascfusa.org/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Security_Council_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.064lm8y</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.327981</relevance>
-            <count>3</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.32796</relevance>
-            <count>1</count>
-            <text>U.S. Chamber of Commerce</text>
-            <disambiguated>
-                <name>United States Chamber of Commerce</name>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.uschamber.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Chamber_of_Commerce</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.052dp7</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Chamber_of_Commerce</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.326919</relevance>
-            <count>2</count>
-            <text>Advanced Study</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.325632</relevance>
-            <count>4</count>
-            <text>Dr. James R. Killian, Jr.</text>
+            <relevance>0.321934</relevance>
+            <count>3</count>
+            <text>Jack Gould</text>
+            <disambiguated>
+                <name>Jack Gould</name>
+                <dbpedia>http://dbpedia.org/resource/Jack_Gould</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04zyqdy</freebase>
+            </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.32556</relevance>
-            <count>2</count>
-            <text>officer</text>
+            <type>PrintMedia</type>
+            <relevance>0.321565</relevance>
+            <count>1</count>
+            <text>World Journal Tribune</text>
+            <disambiguated>
+                <name>New York World Journal Tribune</name>
+                <dbpedia>http://dbpedia.org/resource/New_York_World_Journal_Tribune</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03l_92</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_World_Journal_Tribune</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.321418</relevance>
+            <count>1</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington Navy Yard</name>
+                <dbpedia>http://dbpedia.org/resource/Washington_Navy_Yard</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ddwb</freebase>
+                <yago>http://yago-knowledge.org/resource/Washington_Navy_Yard</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

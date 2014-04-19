@@ -6,24 +6,9 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Person</type>
-            <relevance>0.936019</relevance>
-            <count>5</count>
-            <text>Burt Rutan</text>
-            <disambiguated>
-                <name>Burt Rutan</name>
-                <subType>AircraftDesigner</subType>
-                <subType>TVPersonality</subType>
-                <subType>FilmActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Burt_Rutan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026nlb</freebase>
-                <yago>http://yago-knowledge.org/resource/Burt_Rutan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.830146</relevance>
-            <count>15</count>
+            <relevance>0.826737</relevance>
+            <count>16</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -44,28 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.581918</relevance>
-            <count>1</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.447056</relevance>
-            <count>1</count>
-            <text>Rutan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.382974</relevance>
+            <relevance>0.304627</relevance>
             <count>3</count>
             <text>NSRL</text>
             <disambiguated>
@@ -75,14 +39,81 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.30038</relevance>
+            <count>5</count>
+            <text>Burt Rutan</text>
+            <disambiguated>
+                <name>Burt Rutan</name>
+                <subType>AircraftDesigner</subType>
+                <subType>TVPersonality</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Burt_Rutan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026nlb</freebase>
+                <yago>http://yago-knowledge.org/resource/Burt_Rutan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.250756</relevance>
+            <count>1</count>
+            <text>Rutan</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.233077</relevance>
+            <count>4</count>
+            <text>DOE</text>
+            <disambiguated>
+                <name>United States Department of Energy</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.energy.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Energy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gy_l</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Energy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226991</relevance>
+            <count>2</count>
+            <text>SCTG</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.221609</relevance>
+            <count>2</count>
+            <text>CAIB</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.374734</relevance>
+            <relevance>0.210481</relevance>
             <count>1</count>
             <text>nautical miles</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.207759</relevance>
+            <count>1</count>
+            <text>Flight Task Group</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.194963</relevance>
+            <count>1</count>
+            <text>Space Radiation Laboratory</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.191353</relevance>
+            <count>1</count>
+            <text>Deputy Associate Administrator for Safety and Mission Assurance.</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.373574</relevance>
+            <relevance>0.178882</relevance>
             <count>1</count>
             <text>Mojave Airport</text>
             <disambiguated>
@@ -92,8 +123,71 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.175251</relevance>
+            <count>1</count>
+            <text>Jon Bonne</text>
+            <disambiguated>
+                <name>Jon Bonn&#xE9;</name>
+                <dbpedia>http://dbpedia.org/resource/Jon_Bonn&#xE9;</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cc5h1k</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.174422</relevance>
+            <count>1</count>
+            <text>SCTG</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.172865</relevance>
+            <count>1</count>
+            <text>SCTG</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.168175</relevance>
+            <count>1</count>
+            <text>US</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.167647</relevance>
+            <count>1</count>
+            <text>Richard O. Covey</text>
+            <disambiguated>
+                <name>Richard O. Covey</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_O._Covey</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02jmck</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_O._Covey</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.167025</relevance>
+            <count>1</count>
+            <text>Brookhaven National Laboratory</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.343074</relevance>
+            <relevance>0.164266</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -114,117 +208,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.325009</relevance>
-            <count>4</count>
-            <text>DOE</text>
-            <disambiguated>
-                <name>United States Department of Energy</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.energy.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Energy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gy_l</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Energy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.312204</relevance>
-            <count>1</count>
-            <text>Jon Bonne</text>
-            <disambiguated>
-                <name>Jon Bonn&#xE9;</name>
-                <dbpedia>http://dbpedia.org/resource/Jon_Bonn&#xE9;</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cc5h1k</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.308696</relevance>
-            <count>1</count>
-            <text>Deputy Associate Administrator for Safety and Mission Assurance.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.308002</relevance>
-            <count>1</count>
-            <text>Space Radiation Laboratory</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.303746</relevance>
-            <count>1</count>
-            <text>Flight Task Group</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.286579</relevance>
-            <count>2</count>
-            <text>SCTG</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.283424</relevance>
-            <count>2</count>
-            <text>CAIB</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.280553</relevance>
-            <count>1</count>
-            <text>SCTG</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.277829</relevance>
-            <count>1</count>
-            <text>SCTG</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.272996</relevance>
-            <count>1</count>
-            <text>US</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.269683</relevance>
-            <count>1</count>
-            <text>Richard O. Covey</text>
-            <disambiguated>
-                <name>Richard O. Covey</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_O._Covey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02jmck</freebase>
-                <yago>http://yago-knowledge.org/resource/Richard_O._Covey</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.267984</relevance>
-            <count>1</count>
-            <text>Brookhaven National Laboratory</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.264176</relevance>
+            <relevance>0.163968</relevance>
             <count>1</count>
             <text>Upton</text>
             <disambiguated>
@@ -236,19 +221,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.262524</relevance>
+            <relevance>0.163351</relevance>
             <count>1</count>
             <text>Federal Advisory Committee</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.255731</relevance>
+            <relevance>0.158957</relevance>
             <count>1</count>
             <text>Cochaired</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.248375</relevance>
+            <relevance>0.155069</relevance>
             <count>1</count>
             <text>Thomas P. Stafford</text>
             <disambiguated>
@@ -258,7 +243,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.244479</relevance>
+            <relevance>0.152387</relevance>
             <count>1</count>
             <text>New York</text>
             <disambiguated>

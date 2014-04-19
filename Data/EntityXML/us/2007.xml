@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.940977</relevance>
+            <relevance>0.797206</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.539036</relevance>
+            <relevance>0.547577</relevance>
             <count>2</count>
             <text>U.S. Air Force</text>
             <disambiguated>
@@ -45,26 +45,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.395896</relevance>
-            <count>1</count>
-            <text>Aeronautics Research Mission Directorate</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.376584</relevance>
-            <count>1</count>
-            <text>aerospace engineering</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.365513</relevance>
-            <count>1</count>
-            <text>Eric Greenwood</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.34089</relevance>
+            <relevance>0.366086</relevance>
             <count>1</count>
             <text>MIT</text>
             <disambiguated>
@@ -87,8 +69,42 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.348653</relevance>
+            <count>1</count>
+            <text>Aeronautics Research Mission Directorate</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.33288</relevance>
+            <count>1</count>
+            <text>aerospace engineering</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.323224</relevance>
+            <count>1</count>
+            <text>Eric Greenwood</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.322668</relevance>
+            <count>1</count>
+            <text>Yuma</text>
+            <disambiguated>
+                <name>Yuma, Arizona</name>
+                <geo>32.69222222222222 -114.61527777777778</geo>
+                <website>http://www.YumaAZ.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Yuma,_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0qr8z</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az/counties/yuma_county/yuma</census>
+                <yago>http://yago-knowledge.org/resource/Yuma,_Arizona</yago>
+                <geonames>http://sws.geonames.org/5322053/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.336923</relevance>
+            <relevance>0.299143</relevance>
             <count>1</count>
             <text>University of Maryland</text>
             <disambiguated>
@@ -105,42 +121,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.332148</relevance>
-            <count>1</count>
-            <text>graduate student</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.330619</relevance>
-            <count>1</count>
-            <text>American Helicopter Society</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.324955</relevance>
-            <count>1</count>
-            <text>Yuma</text>
-            <disambiguated>
-                <name>Yuma, Arizona</name>
-                <geo>32.69222222222222 -114.61527777777778</geo>
-                <website>http://www.YumaAZ.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Yuma,_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0qr8z</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/az/counties/yuma_county/yuma</census>
-                <yago>http://yago-knowledge.org/resource/Yuma,_Arizona</yago>
-                <geonames>http://sws.geonames.org/5322053/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.323114</relevance>
-            <count>1</count>
-            <text>AHS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.299088</relevance>
+            <relevance>0.296907</relevance>
             <count>1</count>
             <text>U.S. Army</text>
             <disambiguated>
@@ -156,8 +138,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.292368</relevance>
+            <count>1</count>
+            <text>graduate student</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.278307</relevance>
+            <relevance>0.289703</relevance>
+            <count>1</count>
+            <text>American Helicopter Society</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.281607</relevance>
+            <count>1</count>
+            <text>AHS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.275938</relevance>
             <count>1</count>
             <text>Constellation Program</text>
         </entity>

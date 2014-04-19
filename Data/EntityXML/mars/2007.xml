@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Technology</type>
-            <relevance>0.82513</relevance>
+            <relevance>0.833668</relevance>
             <count>11</count>
             <text>Mars</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.598414</relevance>
+            <relevance>0.599199</relevance>
             <count>12</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,13 +35,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.369686</relevance>
+            <relevance>0.353656</relevance>
             <count>2</count>
             <text>Mars rovers</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.343415</relevance>
+            <count>1</count>
+            <text>Mars Reconnaissance Orbiter</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.348212</relevance>
+            <relevance>0.313671</relevance>
             <count>4</count>
             <text>Harold C. Urey</text>
             <disambiguated>
@@ -55,26 +61,36 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.325948</relevance>
-            <count>1</count>
-            <text>Mars Reconnaissance Orbiter</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.292193</relevance>
+            <relevance>0.302333</relevance>
             <count>4</count>
             <text>MRO</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261161</relevance>
+            <relevance>0.278052</relevance>
             <count>1</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.259657</relevance>
+            <relevance>0.248117</relevance>
+            <count>3</count>
+            <text>Spirit</text>
+            <disambiguated>
+                <name>Spirit (band)</name>
+                <subType>MusicalGroup</subType>
+                <subType>BroadcastArtist</subType>
+                <subType>MusicalArtist</subType>
+                <dbpedia>http://dbpedia.org/resource/Spirit_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02kv4c</freebase>
+                <yago>http://yago-knowledge.org/resource/Spirit_(band)</yago>
+                <musicBrainz>http://zitgist.com/music/artist/ca5db97b-ba17-4e85-a876-46065e2052b3</musicBrainz>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.234432</relevance>
             <count>2</count>
             <text>Scripps Institution of Oceanography</text>
             <disambiguated>
@@ -87,13 +103,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.23142</relevance>
-            <count>3</count>
-            <text>Spirit</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230334</relevance>
+            <relevance>0.221965</relevance>
             <count>2</count>
             <text>rovers</text>
             <disambiguated>
@@ -103,20 +113,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.205483</relevance>
+            <count>2</count>
+            <text>Phoenix</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.192958</relevance>
+            <count>1</count>
+            <text>Phoenix Spacecraft</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.221379</relevance>
+            <relevance>0.185958</relevance>
             <count>1</count>
             <text>NASA Specialized Center of Research</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.201068</relevance>
+            <relevance>0.185459</relevance>
             <count>2</count>
             <text>Director</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.179073</relevance>
+            <count>1</count>
+            <text>Dave Mosher</text>
+        </entity>
+        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.197215</relevance>
+            <relevance>0.176657</relevance>
             <count>1</count>
             <text>Gusev Crater</text>
             <disambiguated>
@@ -126,39 +154,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.191719</relevance>
-            <count>2</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.1878</relevance>
-            <count>1</count>
-            <text>Jeffrey L. Bada</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.182328</relevance>
-            <count>1</count>
-            <text>Lead Investigator</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.179658</relevance>
+            <relevance>0.176191</relevance>
             <count>1</count>
             <text>Steven W. Squyres</text>
             <disambiguated>
@@ -169,32 +166,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.176697</relevance>
-            <count>2</count>
-            <text>Phoenix</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.17615</relevance>
+            <type>Person</type>
+            <relevance>0.174739</relevance>
             <count>1</count>
-            <text>ExoMars</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.175947</relevance>
-            <count>1</count>
-            <text>Exobiology</text>
+            <text>Jeanna Bryner</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.169756</relevance>
+            <relevance>0.172102</relevance>
             <count>1</count>
             <text>Victoria Crater</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.169088</relevance>
+            <relevance>0.165822</relevance>
             <count>1</count>
             <text>New York</text>
             <disambiguated>
@@ -216,14 +201,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.165733</relevance>
-            <count>1</count>
-            <text>Jeanna Bryner</text>
+            <type>Organization</type>
+            <relevance>0.164085</relevance>
+            <count>2</count>
+            <text>European Space Agency</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.164537</relevance>
+            <relevance>0.161219</relevance>
             <count>1</count>
             <text>Ithaca</text>
             <disambiguated>
@@ -236,7 +234,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.164223</relevance>
+            <relevance>0.160912</relevance>
             <count>1</count>
             <text>Cornell University</text>
             <disambiguated>
@@ -256,58 +254,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.163516</relevance>
-            <count>1</count>
-            <text>Phoenix Spacecraft</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.159505</relevance>
-            <count>1</count>
-            <text>University of California</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.1583</relevance>
-            <count>1</count>
-            <text>Principal Investigator</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.154186</relevance>
-            <count>1</count>
-            <text>Berkeley</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.152792</relevance>
+            <relevance>0.159</relevance>
             <count>1</count>
-            <text>J. Douglas McCuistion</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.151757</relevance>
-            <count>1</count>
-            <text>Dave Mosher</text>
+            <text>Jeffrey L. Bada</text>
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.147482</relevance>
+            <relevance>0.156423</relevance>
             <count>1</count>
             <text>Orbiter</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.154793</relevance>
+            <count>1</count>
+            <text>Principal Investigator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.153175</relevance>
+            <count>1</count>
+            <text>Lead Investigator</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.143682</relevance>
+            <relevance>0.152412</relevance>
             <count>1</count>
             <text>Joanne Baker</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.143111</relevance>
+            <relevance>0.151819</relevance>
             <count>1</count>
             <text>Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.149396</relevance>
+            <count>1</count>
+            <text>J. Douglas McCuistion</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.148314</relevance>
+            <count>1</count>
+            <text>ExoMars</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.147779</relevance>
+            <count>1</count>
+            <text>Exobiology</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.146764</relevance>
+            <count>1</count>
+            <text>University of California</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.141285</relevance>
+            <count>1</count>
+            <text>Berkeley</text>
         </entity>
     </entities>
 </results>

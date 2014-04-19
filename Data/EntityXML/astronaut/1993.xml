@@ -7,23 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.936592</relevance>
-            <count>9</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.847669</relevance>
-            <count>6</count>
+            <relevance>0.852375</relevance>
+            <count>15</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -44,7 +29,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.36601</relevance>
+            <relevance>0.233592</relevance>
             <count>2</count>
             <text>Mae Jemison</text>
             <disambiguated>
@@ -59,28 +44,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.355655</relevance>
-            <count>2</count>
-            <text>James P. Bagian</text>
-            <disambiguated>
-                <name>James P. Bagian</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_P._Bagian</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02tt4z</freebase>
-                <yago>http://yago-knowledge.org/resource/James_P._Bagian</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.32907</relevance>
-            <count>2</count>
-            <text>AP</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.310494</relevance>
+            <relevance>0.232069</relevance>
             <count>1</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -98,56 +63,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.299524</relevance>
-            <count>1</count>
-            <text>Vice-President of Corporate Development and Medical Affairs</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.267963</relevance>
-            <count>1</count>
-            <text>Michigan</text>
-            <disambiguated>
-                <name>Michigan</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.michigan.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Michigan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04rrx</freebase>
-                <yago>http://yago-knowledge.org/resource/Michigan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263067</relevance>
-            <count>1</count>
-            <text>U.S. Space Foundation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.261548</relevance>
-            <count>1</count>
-            <text>Somanetics Corporation</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.254233</relevance>
-            <count>1</count>
-            <text>Troy</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.247911</relevance>
-            <count>1</count>
-            <text>Technology Hall of Fame</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.245949</relevance>
+            <relevance>0.215721</relevance>
             <count>1</count>
             <text>Columbia</text>
             <disambiguated>
@@ -165,26 +82,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.242599</relevance>
-            <count>1</count>
-            <text>Netherlands</text>
+            <type>PrintMedia</type>
+            <relevance>0.211884</relevance>
+            <count>2</count>
+            <text>AP</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.24037</relevance>
-            <count>1</count>
-            <text>Guion Bluford Jr.</text>
+            <relevance>0.20995</relevance>
+            <count>2</count>
+            <text>James P. Bagian</text>
+            <disambiguated>
+                <name>James P. Bagian</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_P._Bagian</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02tt4z</freebase>
+                <yago>http://yago-knowledge.org/resource/James_P._Bagian</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.234286</relevance>
+            <type>Organization</type>
+            <relevance>0.206685</relevance>
             <count>1</count>
-            <text>USA Today</text>
+            <text>U.S. Space Foundation</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.204793</relevance>
+            <count>1</count>
+            <text>Vice-President of Corporate Development and Medical Affairs</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.232511</relevance>
+            <relevance>0.20434</relevance>
             <count>1</count>
             <text>San Diego</text>
             <disambiguated>
@@ -195,8 +126,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.203612</relevance>
+            <count>1</count>
+            <text>Fairfax County Journal</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.195304</relevance>
+            <count>1</count>
+            <text>Technology Hall of Fame</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.193805</relevance>
+            <count>1</count>
+            <text>Guion Bluford Jr.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.192294</relevance>
+            <count>1</count>
+            <text>Electric Company</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.189403</relevance>
+            <count>1</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.231202</relevance>
+            <relevance>0.186944</relevance>
             <count>1</count>
             <text>Maryland</text>
             <disambiguated>
@@ -210,52 +171,76 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.231181</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.184679</relevance>
             <count>1</count>
-            <text>Fairfax County Journal</text>
+            <text>Michigan</text>
+            <disambiguated>
+                <name>Michigan</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.michigan.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Michigan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04rrx</freebase>
+                <yago>http://yago-knowledge.org/resource/Michigan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.180419</relevance>
+            <count>1</count>
+            <text>Netherlands</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.227835</relevance>
+            <relevance>0.179023</relevance>
             <count>1</count>
             <text>heart rate</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.222327</relevance>
-            <count>1</count>
-            <text>P.E.</text>
-        </entity>
-        <entity>
             <type>Continent</type>
-            <relevance>0.219665</relevance>
+            <relevance>0.177383</relevance>
             <count>1</count>
             <text>America</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.217677</relevance>
+            <relevance>0.177164</relevance>
             <count>1</count>
-            <text>Electric Company</text>
+            <text>Somanetics Corporation</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.216624</relevance>
+            <relevance>0.174639</relevance>
             <count>1</count>
             <text>NYMA, Inc.</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.215212</relevance>
+            <relevance>0.17349</relevance>
             <count>1</count>
             <text>computer software</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.20445</relevance>
+            <relevance>0.172192</relevance>
+            <count>1</count>
+            <text>Troy</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.15372</relevance>
             <count>1</count>
             <text>Detroit.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.147589</relevance>
+            <count>1</count>
+            <text>P.E.</text>
         </entity>
     </entities>
 </results>

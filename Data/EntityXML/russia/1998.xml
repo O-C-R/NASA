@@ -7,25 +7,13 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.805044</relevance>
-            <count>8</count>
+            <relevance>0.795641</relevance>
+            <count>7</count>
             <text>Mir</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.639609</relevance>
-            <count>4</count>
-            <text>Mir</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.494514</relevance>
-            <count>5</count>
-            <text>Russia</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.489547</relevance>
+            <relevance>0.624469</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -46,14 +34,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.589345</relevance>
+            <count>5</count>
+            <text>Mir</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.499049</relevance>
+            <count>5</count>
+            <text>Russia</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.421923</relevance>
+            <relevance>0.428451</relevance>
             <count>1</count>
             <text>Mir station</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.411771</relevance>
+            <relevance>0.415916</relevance>
             <count>1</count>
             <text>Russian Space Agency</text>
             <disambiguated>
@@ -65,7 +65,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.395952</relevance>
+            <relevance>0.405554</relevance>
             <count>3</count>
             <text>President Boris N. Yeltsin</text>
             <disambiguated>
@@ -80,8 +80,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.334413</relevance>
+            <count>1</count>
+            <text>Russian Mission Control</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.365207</relevance>
+            <relevance>0.327114</relevance>
             <count>3</count>
             <text>Reuters</text>
             <disambiguated>
@@ -95,36 +101,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.302455</relevance>
-            <count>1</count>
-            <text>Russian Mission Control</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.270529</relevance>
+            <relevance>0.273353</relevance>
             <count>1</count>
             <text>Defence Council</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.257204</relevance>
+            <relevance>0.272807</relevance>
             <count>1</count>
             <text>Pentagon&#x2019;s Defense Information Systems Network</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.255343</relevance>
-            <count>2</count>
-            <text>David A. Wolf</text>
-            <disambiguated>
-                <name>David Wolf (astronaut)</name>
-                <dbpedia>http://dbpedia.org/resource/David_Wolf_(astronaut)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02d2pt</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.252225</relevance>
+            <relevance>0.266134</relevance>
             <count>1</count>
             <text>JPL</text>
             <disambiguated>
@@ -139,14 +128,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.249356</relevance>
-            <count>1</count>
-            <text>Baikonur Cosmodrome</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.247573</relevance>
+            <relevance>0.261975</relevance>
             <count>1</count>
             <text>Department of Defense</text>
             <disambiguated>
@@ -163,8 +146,19 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.261762</relevance>
+            <count>2</count>
+            <text>David A. Wolf</text>
+            <disambiguated>
+                <name>David Wolf (astronaut)</name>
+                <dbpedia>http://dbpedia.org/resource/David_Wolf_(astronaut)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02d2pt</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.244789</relevance>
+            <relevance>0.260648</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -183,8 +177,87 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.254479</relevance>
+            <count>1</count>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.244999</relevance>
+            <count>1</count>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.238266</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.233699</relevance>
+            <count>1</count>
+            <text>Spektr</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.23036</relevance>
+            <count>1</count>
+            <text>Baikonur Cosmodrome</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.229798</relevance>
+            <count>1</count>
+            <text>Andrew S. W. Thomas</text>
+            <disambiguated>
+                <name>Andy Thomas</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Andy_Thomas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209_b</freebase>
+                <yago>http://yago-knowledge.org/resource/Andy_Thomas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.229217</relevance>
+            <count>1</count>
+            <text>Web site</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.242496</relevance>
+            <relevance>0.224817</relevance>
             <count>1</count>
             <text>Kazakhstan</text>
             <disambiguated>
@@ -201,28 +274,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.240601</relevance>
-            <count>1</count>
-            <text>Orlando Sentinel</text>
-            <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.239611</relevance>
-            <count>1</count>
-            <text>Spektr</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.235114</relevance>
+            <relevance>0.217949</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -241,7 +293,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.232486</relevance>
+            <relevance>0.213966</relevance>
             <count>1</count>
             <text>Nikolai M. Budarin</text>
             <disambiguated>
@@ -254,71 +306,31 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.23062</relevance>
+            <relevance>0.212231</relevance>
             <count>1</count>
             <text>Le&#x301;opold Eyharts</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.226459</relevance>
-            <count>1</count>
-            <text>Andrew S. W. Thomas</text>
-            <disambiguated>
-                <name>Andy Thomas</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Andy_Thomas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209_b</freebase>
-                <yago>http://yago-knowledge.org/resource/Andy_Thomas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.226341</relevance>
-            <count>1</count>
-            <text>Associated Press</text>
-            <disambiguated>
-                <name>Associated Press</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.ap.org</website>
-                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
-                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.226195</relevance>
-            <count>1</count>
-            <text>Moscow</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.223463</relevance>
+            <relevance>0.205554</relevance>
             <count>1</count>
             <text>Paul Hoversten</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.220049</relevance>
+            <relevance>0.20166</relevance>
             <count>1</count>
             <text>Talgat A. Musabayev</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.216608</relevance>
+            <relevance>0.199228</relevance>
             <count>1</count>
             <text>USA Today</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.215964</relevance>
-            <count>1</count>
-            <text>Web site</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.186685</relevance>
+            <relevance>0.198723</relevance>
             <count>1</count>
             <text>Vladimir Isachenkov</text>
         </entity>

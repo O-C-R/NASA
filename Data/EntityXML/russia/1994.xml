@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.848253</relevance>
+            <relevance>0.931548</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.786365</relevance>
+            <relevance>0.75492</relevance>
             <count>1</count>
             <text>Aeroflot Russian International Airlines</text>
             <disambiguated>
@@ -42,23 +42,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.740531</relevance>
-            <count>2</count>
-            <text>Pratt &amp; Whitney</text>
-            <disambiguated>
-                <name>Pratt &amp; Whitney</name>
-                <subType>CompanyDivision</subType>
-                <subType>RocketEngineDesigner</subType>
-                <website>http://www.pw.utc.com</website>
-                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
-                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.722609</relevance>
+            <count>3</count>
+            <text>Mir</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.69106</relevance>
+            <relevance>0.679269</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -77,10 +68,19 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.629766</relevance>
-            <count>3</count>
-            <text>Mir</text>
+            <type>Company</type>
+            <relevance>0.626159</relevance>
+            <count>2</count>
+            <text>Pratt &amp; Whitney</text>
+            <disambiguated>
+                <name>Pratt &amp; Whitney</name>
+                <subType>CompanyDivision</subType>
+                <subType>RocketEngineDesigner</subType>
+                <website>http://www.pw.utc.com</website>
+                <dbpedia>http://dbpedia.org/resource/Pratt_&amp;_Whitney</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dl93</freebase>
+                <yago>http://yago-knowledge.org/resource/Pratt_&amp;_Whitney</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
@@ -89,8 +89,20 @@
             <text>Almaz station</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.59791</relevance>
+            <count>2</count>
+            <text>news agency</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.592314</relevance>
+            <count>1</count>
+            <text>Salyut</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.603567</relevance>
+            <relevance>0.586536</relevance>
             <count>1</count>
             <text>Ukrainian National Space Agency</text>
             <disambiguated>
@@ -100,14 +112,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.592314</relevance>
-            <count>1</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.552855</relevance>
+            <relevance>0.584343</relevance>
             <count>1</count>
             <text>Mir station</text>
         </entity>
@@ -118,14 +124,8 @@
             <text>Aerospace Salon</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.542595</relevance>
-            <count>2</count>
-            <text>news agency</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.507073</relevance>
+            <relevance>0.532926</relevance>
             <count>1</count>
             <text>Valery Polyakov</text>
             <disambiguated>
@@ -136,34 +136,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.499179</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell Collins</name>
-                <website>http://www.rockwellcollins.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.474936</relevance>
-            <count>1</count>
-            <text>Interfax</text>
-            <disambiguated>
-                <name>Interfax</name>
-                <subType>Company</subType>
-                <dbpedia>http://dbpedia.org/resource/Interfax</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cv92n</freebase>
-                <yago>http://yago-knowledge.org/resource/Interfax</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.473496</relevance>
+            <relevance>0.498136</relevance>
             <count>1</count>
             <text>Vasily Tsibliyev</text>
             <disambiguated>
@@ -173,23 +147,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.468199</relevance>
-            <count>1</count>
-            <text>Rockwell International</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.466121</relevance>
+            <relevance>0.486553</relevance>
             <count>1</count>
             <text>Russia</text>
             <disambiguated>
@@ -201,14 +160,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.463017</relevance>
-            <count>1</count>
-            <text>Salyuts</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.458255</relevance>
+            <relevance>0.483786</relevance>
             <count>1</count>
             <text>Vladimir Titov</text>
             <disambiguated>
@@ -221,6 +174,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.478242</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.476691</relevance>
+            <count>1</count>
+            <text>Interfax</text>
+            <disambiguated>
+                <name>Interfax</name>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Interfax</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv92n</freebase>
+                <yago>http://yago-knowledge.org/resource/Interfax</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.463017</relevance>
+            <count>1</count>
+            <text>Salyuts</text>
+        </entity>
+        <entity>
             <type>City</type>
             <relevance>0.451653</relevance>
             <count>1</count>
@@ -228,7 +213,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.449381</relevance>
+            <relevance>0.451046</relevance>
             <count>1</count>
             <text>Kazakhstan</text>
             <disambiguated>
@@ -245,7 +230,49 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.439882</relevance>
+            <relevance>0.449031</relevance>
+            <count>1</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.44657</relevance>
+            <count>1</count>
+            <text>Rockwell International</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.440753</relevance>
+            <count>1</count>
+            <text>Musa Manarov</text>
+            <disambiguated>
+                <name>Musa Manarov</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Musa_Manarov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03kkzp</freebase>
+                <yago>http://yago-knowledge.org/resource/Musa_Manarov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.421159</relevance>
             <count>1</count>
             <text>Ilyushin</text>
             <disambiguated>
@@ -259,35 +286,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.426256</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.416456</relevance>
-            <count>1</count>
-            <text>Musa Manarov</text>
-            <disambiguated>
-                <name>Musa Manarov</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Musa_Manarov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03kkzp</freebase>
-                <yago>http://yago-knowledge.org/resource/Musa_Manarov</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.414341</relevance>
+            <relevance>0.402692</relevance>
             <count>1</count>
             <text>Ukraine</text>
             <disambiguated>
@@ -305,16 +305,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.397414</relevance>
-            <count>1</count>
-            <text>Russia.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.374023</relevance>
+            <relevance>0.397383</relevance>
             <count>1</count>
             <text>Alexander Serebrov</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.3865</relevance>
+            <count>1</count>
+            <text>Russia.</text>
         </entity>
     </entities>
 </results>

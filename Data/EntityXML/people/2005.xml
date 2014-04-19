@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.951324</relevance>
+            <relevance>0.886096</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.464045</relevance>
+            <relevance>0.410826</relevance>
             <count>2</count>
             <text>Personal Spaceflight Federation</text>
             <disambiguated>
@@ -40,89 +40,31 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.410128</relevance>
+            <relevance>0.327256</relevance>
             <count>1</count>
             <text>Endeavour&#x2019;s Shuttle Radar Topography Mission</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.394257</relevance>
+            <type>Person</type>
+            <relevance>0.290345</relevance>
             <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.366479</relevance>
-            <count>2</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
+            <text>Michael Kobrick</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.364744</relevance>
-            <count>1</count>
-            <text>Michael E. Brown</text>
-            <disambiguated>
-                <name>Michael E. Brown</name>
-                <subType>Astronomer</subType>
-                <dbpedia>http://dbpedia.org/resource/Michael_E._Brown</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lx70</freebase>
-                <yago>http://yago-knowledge.org/resource/Michael_E._Brown</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.337973</relevance>
-            <count>1</count>
-            <text>International Astronomic Union</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.328849</relevance>
-            <count>1</count>
-            <text>California Institute of Technology</text>
-            <disambiguated>
-                <name>California Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.138577 -118.125494</geo>
-                <website>http://www.caltech.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
-                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/6331816/</geonames>
-            </disambiguated>
+            <relevance>0.283036</relevance>
+            <count>2</count>
+            <text>Gregg E. Maryniak</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.320659</relevance>
+            <relevance>0.282143</relevance>
             <count>1</count>
             <text>suborbital spaceflight</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.309576</relevance>
-            <count>1</count>
-            <text>Personal Spaceflight Industry</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.306243</relevance>
+            <relevance>0.276275</relevance>
             <count>2</count>
             <text>AATT</text>
             <disambiguated>
@@ -132,8 +74,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.272839</relevance>
+            <count>1</count>
+            <text>Personal Spaceflight Industry</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.269465</relevance>
+            <count>1</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.267828</relevance>
+            <count>1</count>
+            <text>airline industry</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.305841</relevance>
+            <relevance>0.266806</relevance>
+            <count>1</count>
+            <text>Michael R. Landis</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.264223</relevance>
             <count>1</count>
             <text>President George W. Bush</text>
             <disambiguated>
@@ -161,26 +139,122 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.305468</relevance>
-            <count>2</count>
-            <text>Michael Kobrick</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.299173</relevance>
+            <relevance>0.260761</relevance>
             <count>1</count>
             <text>industry group</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.294172</relevance>
+            <type>Person</type>
+            <relevance>0.253854</relevance>
             <count>1</count>
-            <text>Columbia</text>
+            <text>Burt Rutan</text>
+            <disambiguated>
+                <name>Burt Rutan</name>
+                <subType>AircraftDesigner</subType>
+                <subType>TVPersonality</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Burt_Rutan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026nlb</freebase>
+                <yago>http://yago-knowledge.org/resource/Burt_Rutan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.250102</relevance>
+            <count>1</count>
+            <text>space tourism</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.249399</relevance>
+            <count>1</count>
+            <text>X Prize Foundation</text>
+            <disambiguated>
+                <name>X Prize Foundation</name>
+                <dbpedia>http://dbpedia.org/resource/X_Prize_Foundation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02zn95</freebase>
+                <yago>http://yago-knowledge.org/resource/X_Prize_Foundation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.245425</relevance>
+            <count>1</count>
+            <text>Fiscal Year</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.244782</relevance>
+            <count>2</count>
+            <text>Federation</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.242457</relevance>
+            <count>1</count>
+            <text>Air Travel</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.242028</relevance>
+            <count>2</count>
+            <text>Industry Group</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.238048</relevance>
+            <count>2</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.237406</relevance>
+            <count>1</count>
+            <text>Armadillo Aerospace</text>
+            <disambiguated>
+                <name>Armadillo Aerospace</name>
+                <website>http://www.armadilloaerospace.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Armadillo_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01838v</freebase>
+                <yago>http://yago-knowledge.org/resource/Armadillo_Aerospace</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.237017</relevance>
+            <count>2</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.236665</relevance>
+            <count>1</count>
+            <text>Michael E. Brown</text>
+            <disambiguated>
+                <name>Michael E. Brown</name>
+                <subType>Astronomer</subType>
+                <dbpedia>http://dbpedia.org/resource/Michael_E._Brown</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lx70</freebase>
+                <yago>http://yago-knowledge.org/resource/Michael_E._Brown</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.293522</relevance>
+            <relevance>0.234223</relevance>
             <count>1</count>
             <text>Indian Ocean</text>
             <disambiguated>
@@ -195,92 +269,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.292863</relevance>
+            <type>Organization</type>
+            <relevance>0.233155</relevance>
             <count>1</count>
-            <text>Michael R. Landis</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.292406</relevance>
-            <count>1</count>
-            <text>airline industry</text>
+            <text>National Airspace System.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.292211</relevance>
+            <relevance>0.232503</relevance>
             <count>1</count>
-            <text>Burt Rutan</text>
+            <text>Alan Boyle</text>
             <disambiguated>
-                <name>Burt Rutan</name>
-                <subType>AircraftDesigner</subType>
-                <subType>TVPersonality</subType>
-                <subType>FilmActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Burt_Rutan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026nlb</freebase>
-                <yago>http://yago-knowledge.org/resource/Burt_Rutan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.286481</relevance>
-            <count>1</count>
-            <text>X Prize Foundation</text>
-            <disambiguated>
-                <name>X Prize Foundation</name>
-                <dbpedia>http://dbpedia.org/resource/X_Prize_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02zn95</freebase>
-                <yago>http://yago-knowledge.org/resource/X_Prize_Foundation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.286439</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+                <name>Alan Boyle</name>
+                <dbpedia>http://dbpedia.org/resource/Alan_Boyle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b3stm</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.285732</relevance>
+            <relevance>0.229564</relevance>
             <count>1</count>
-            <text>space tourism</text>
+            <text>space program.</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.28144</relevance>
+            <type>JobTitle</type>
+            <relevance>0.226419</relevance>
             <count>1</count>
-            <text>Orlando Sentinel</text>
-            <disambiguated>
-                <name>Orlando Sentinel</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.orlandosentinel.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
-                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
-            </disambiguated>
+            <text>Executive Director</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.224869</relevance>
+            <count>1</count>
+            <text>Columbia</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.220472</relevance>
+            <count>1</count>
+            <text>John D. Carmack II</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.278931</relevance>
-            <count>2</count>
-            <text>Federation</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.276106</relevance>
+            <relevance>0.220274</relevance>
             <count>1</count>
             <text>National Geospatial-Intelligence Agency</text>
             <disambiguated>
@@ -293,20 +324,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.275756</relevance>
-            <count>2</count>
-            <text>Industry Group</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.274162</relevance>
-            <count>2</count>
-            <text>Gregg E. Maryniak</text>
+            <type>Organization</type>
+            <relevance>0.220194</relevance>
+            <count>1</count>
+            <text>House of Representatives</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.274104</relevance>
+            <relevance>0.218711</relevance>
             <count>1</count>
             <text>Australia</text>
             <disambiguated>
@@ -324,8 +349,85 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.216655</relevance>
+            <count>1</count>
+            <text>International Astronomic Union</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.214509</relevance>
+            <count>1</count>
+            <text>Project Scientist</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.214282</relevance>
+            <count>1</count>
+            <text>Orlando Sentinel</text>
+            <disambiguated>
+                <name>Orlando Sentinel</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.orlandosentinel.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orlando_Sentinel</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06416x</freebase>
+                <yago>http://yago-knowledge.org/resource/Orlando_Sentinel</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.214029</relevance>
+            <count>1</count>
+            <text>Polynesia</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.213386</relevance>
+            <count>1</count>
+            <text>NGA</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.211451</relevance>
+            <count>1</count>
+            <text>California Institute of Technology</text>
+            <disambiguated>
+                <name>California Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.138577 -118.125494</geo>
+                <website>http://www.caltech.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
+                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/6331816/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.208334</relevance>
+            <count>1</count>
+            <text>developer</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.20696</relevance>
+            <count>1</count>
+            <text>&#x2018;Down Under</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.206087</relevance>
+            <count>1</count>
+            <text>Earth.</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.272184</relevance>
+            <relevance>0.206028</relevance>
             <count>1</count>
             <text>Dennis Overbye</text>
             <disambiguated>
@@ -336,157 +438,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.272179</relevance>
-            <count>1</count>
-            <text>Armadillo Aerospace</text>
-            <disambiguated>
-                <name>Armadillo Aerospace</name>
-                <website>http://www.armadilloaerospace.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Armadillo_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01838v</freebase>
-                <yago>http://yago-knowledge.org/resource/Armadillo_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.271546</relevance>
-            <count>1</count>
-            <text>Earth.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.268882</relevance>
-            <count>1</count>
-            <text>Project Scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268528</relevance>
-            <count>1</count>
-            <text>Richard A. Kerr</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.268271</relevance>
-            <count>1</count>
-            <text>Polynesia</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.268052</relevance>
-            <count>1</count>
-            <text>Fiscal Year</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.267472</relevance>
-            <count>1</count>
-            <text>NGA</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.267433</relevance>
-            <count>1</count>
-            <text>Michael Cabbage</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.266175</relevance>
-            <count>1</count>
-            <text>Alan Boyle</text>
-            <disambiguated>
-                <name>Alan Boyle</name>
-                <dbpedia>http://dbpedia.org/resource/Alan_Boyle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05b3stm</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.264461</relevance>
-            <count>1</count>
-            <text>New Zealand</text>
-            <disambiguated>
-                <name>New Zealand</name>
-                <subType>Organization</subType>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>CompanyDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <geo>-41.28333333333333 174.45</geo>
-                <dbpedia>http://dbpedia.org/resource/New_Zealand</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/New_Zealand</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0ctw_b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjjBJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Zealand</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.264396</relevance>
-            <count>1</count>
-            <text>Air Travel</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.260524</relevance>
-            <count>1</count>
-            <text>space program.</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.259456</relevance>
-            <count>1</count>
-            <text>&#x2018;Down Under</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.259052</relevance>
-            <count>1</count>
-            <text>Executive Director</text>
-        </entity>
-        <entity>
             <type>Region</type>
-            <relevance>0.257546</relevance>
+            <relevance>0.205443</relevance>
             <count>1</count>
             <text>South Indian</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.256875</relevance>
+            <relevance>0.204909</relevance>
             <count>1</count>
             <text>Melanesia</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.203221</relevance>
+            <count>1</count>
+            <text>Richard A. Kerr</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.202568</relevance>
+            <count>1</count>
+            <text>Michael Cabbage</text>
+        </entity>
+        <entity>
             <type>Region</type>
-            <relevance>0.253409</relevance>
+            <relevance>0.202144</relevance>
             <count>1</count>
             <text>South Pacific</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.253275</relevance>
-            <count>1</count>
-            <text>Kenneth Chang</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.252817</relevance>
-            <count>1</count>
-            <text>Warren E. Leary</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.252613</relevance>
-            <count>1</count>
-            <text>National Airspace System.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.252193</relevance>
+            <relevance>0.201167</relevance>
             <count>1</count>
             <text>JPL</text>
             <disambiguated>

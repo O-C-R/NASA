@@ -7,8 +7,23 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.829253</relevance>
-            <count>41</count>
+            <relevance>0.831066</relevance>
+            <count>32</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.528118</relevance>
+            <count>8</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,7 +44,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.437354</relevance>
+            <relevance>0.487931</relevance>
             <count>10</count>
             <text>NYT</text>
             <disambiguated>
@@ -48,13 +63,19 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.373613</relevance>
+            <relevance>0.377277</relevance>
             <count>5</count>
             <text>Edwards afb</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.373897</relevance>
+            <count>5</count>
+            <text>Edwards AFB</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.323028</relevance>
+            <relevance>0.364165</relevance>
             <count>7</count>
             <text>usaf</text>
             <disambiguated>
@@ -71,94 +92,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.289256</relevance>
+            <relevance>0.297689</relevance>
             <count>5</count>
             <text>Fitzhugh L. Fulton, Jr.</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.28707</relevance>
-            <count>5</count>
-            <text>Edwards afb</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.279015</relevance>
-            <count>3</count>
-            <text>William H. Dana</text>
-            <disambiguated>
-                <name>Bill Dana (pilot)</name>
-                <dbpedia>http://dbpedia.org/resource/Bill_Dana_(pilot)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vgdn</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.274178</relevance>
-            <count>3</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.260608</relevance>
-            <count>3</count>
-            <text>Maj. William J. Knight</text>
-            <disambiguated>
-                <name>William J. Knight</name>
-                <subType>Politician</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/William_J._Knight</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vgkq</freebase>
-                <yago>http://yago-knowledge.org/resource/William_J._Knight</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.257591</relevance>
-            <count>3</count>
-            <text>Yuri A. Gagarin</text>
-            <disambiguated>
-                <name>Yuri Gagarin</name>
-                <subType>Astronaut</subType>
-                <subType>DisasterVictim</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
-                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.25657</relevance>
-            <count>3</count>
-            <text>Moscow</text>
-            <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.253207</relevance>
+            <relevance>0.297308</relevance>
             <count>4</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -172,8 +112,19 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.285104</relevance>
+            <count>3</count>
+            <text>William H. Dana</text>
+            <disambiguated>
+                <name>Bill Dana (pilot)</name>
+                <dbpedia>http://dbpedia.org/resource/Bill_Dana_(pilot)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vgdn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.251717</relevance>
+            <relevance>0.268396</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -192,47 +143,127 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.245149</relevance>
+            <type>City</type>
+            <relevance>0.254234</relevance>
             <count>3</count>
-            <text>Zond VI</text>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.244894</relevance>
+            <relevance>0.245722</relevance>
             <count>3</count>
             <text>Congress</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.242265</relevance>
+            <relevance>0.23772</relevance>
             <count>3</count>
-            <text>James E. Webb</text>
+            <text>John E. Clark</text>
             <disambiguated>
-                <name>James E. Webb</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
-                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.236135</relevance>
-            <count>2</count>
-            <text>Fitzhugh L. Fulton</text>
-            <disambiguated>
-                <name>Fitzhugh L. Fulton</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Fitzhugh_L._Fulton</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gpmg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Fitzhugh_L._Fulton</yago>
+                <name>John E. Clark</name>
+                <dbpedia>http://dbpedia.org/resource/John_E._Clark</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05c2wwb</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.231263</relevance>
+            <relevance>0.236363</relevance>
+            <count>3</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.232892</relevance>
+            <count>1</count>
+            <text>NASA Office of Technology Utilization</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.231909</relevance>
+            <count>3</count>
+            <text>Maj. William J. Knight</text>
+            <disambiguated>
+                <name>William J. Knight</name>
+                <subType>Politician</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/William_J._Knight</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vgkq</freebase>
+                <yago>http://yago-knowledge.org/resource/William_J._Knight</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.23078</relevance>
+            <count>2</count>
+            <text>John A. Manke</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.229004</relevance>
+            <count>1</count>
+            <text>Rep. J. Edward Roush</text>
+            <disambiguated>
+                <name>J. Edward Roush</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/J._Edward_Roush</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rkg94</freebase>
+                <yago>http://yago-knowledge.org/resource/J._Edward_Roush</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226363</relevance>
+            <count>3</count>
+            <text>Zond VI</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.224915</relevance>
+            <count>1</count>
+            <text>nasa Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.224861</relevance>
+            <count>2</count>
+            <text>Dr. Edward U. Condon</text>
+            <disambiguated>
+                <name>Edward Condon</name>
+                <subType>Academic</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Edward_Condon</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.065c0d</freebase>
+                <yago>http://yago-knowledge.org/resource/Edward_Condon</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.224164</relevance>
             <count>3</count>
             <text>FAA</text>
             <disambiguated>
@@ -245,50 +276,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.230155</relevance>
+            <type>Person</type>
+            <relevance>0.219794</relevance>
             <count>2</count>
-            <text>Los Angeles</text>
+            <text>Fitzhugh L. Fulton</text>
             <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+                <name>Fitzhugh L. Fulton</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Fitzhugh_L._Fulton</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gpmg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Fitzhugh_L._Fulton</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.226113</relevance>
+            <relevance>0.218239</relevance>
             <count>3</count>
-            <text>John E. Clark</text>
+            <text>Yuri A. Gagarin</text>
             <disambiguated>
-                <name>John E. Clark</name>
-                <dbpedia>http://dbpedia.org/resource/John_E._Clark</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05c2wwb</freebase>
+                <name>Yuri Gagarin</name>
+                <subType>Astronaut</subType>
+                <subType>DisasterVictim</subType>
+                <subType>TVCharacter</subType>
+                <dbpedia>http://dbpedia.org/resource/Yuri_Gagarin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.087q9</freebase>
+                <yago>http://yago-knowledge.org/resource/Yuri_Gagarin</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.225561</relevance>
+            <type>Person</type>
+            <relevance>0.218158</relevance>
             <count>1</count>
-            <text>aiaa</text>
-            <disambiguated>
-                <name>American Institute of Aeronautics and Astronautics</name>
-                <subType>Non-ProfitOrganisation</subType>
-                <website>http://www.aiaa.org/</website>
-                <dbpedia>http://dbpedia.org/resource/American_Institute_of_Aeronautics_and_Astronautics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03474k</freebase>
-            </disambiguated>
+            <text>President Frank W. Davis</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.2238</relevance>
+            <relevance>0.216975</relevance>
             <count>2</count>
             <text>Calif.</text>
             <disambiguated>
@@ -309,14 +332,51 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.220492</relevance>
+            <type>JobTitle</type>
+            <relevance>0.216649</relevance>
             <count>2</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
+            <text>physicist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.217427</relevance>
+            <relevance>0.21637</relevance>
+            <count>1</count>
+            <text>Dr. John S. Foster</text>
+            <disambiguated>
+                <name>John Stuart Foster</name>
+                <subType>Academic</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Stuart_Foster</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d2b_x</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Stuart_Foster</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.212138</relevance>
+            <count>1</count>
+            <text>Look magazine</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.211899</relevance>
+            <count>2</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.211344</relevance>
+            <count>1</count>
+            <text>General Dynamics Corp</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.210111</relevance>
+            <count>2</count>
+            <text>Los Angeles</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.209579</relevance>
             <count>1</count>
             <text>President William M. Allen</text>
             <disambiguated>
@@ -327,129 +387,96 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.214409</relevance>
-            <count>1</count>
-            <text>nasa Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.213851</relevance>
-            <count>1</count>
-            <text>aiaa Release</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.212055</relevance>
-            <count>2</count>
-            <text>John A. Manke</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.211056</relevance>
+            <relevance>0.207312</relevance>
             <count>1</count>
-            <text>Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.207237</relevance>
-            <count>2</count>
-            <text>Donald L. Mallick</text>
-            <disambiguated>
-                <name>Donald L. Mallick</name>
-                <dbpedia>http://dbpedia.org/resource/Donald_L._Mallick</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05mqtc8</freebase>
-            </disambiguated>
+            <text>Senate Committee on Armed Services</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.206757</relevance>
-            <count>2</count>
-            <text>WSJ</text>
+            <relevance>0.205535</relevance>
+            <count>1</count>
+            <text>dod</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.20658</relevance>
-            <count>2</count>
-            <text>Col. Vladimir S. Seryogin</text>
+            <relevance>0.204317</relevance>
+            <count>1</count>
+            <text>William Anderson</text>
+            <disambiguated>
+                <name>William Anderson (Medal of Honor)</name>
+                <dbpedia>http://dbpedia.org/resource/William_Anderson_(Medal_of_Honor)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crfc3_</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.204155</relevance>
-            <count>2</count>
-            <text>Univ. of California</text>
+            <relevance>0.202382</relevance>
+            <count>1</count>
+            <text>Univ. of Colorado</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.202242</relevance>
+            <count>1</count>
+            <text>Chicago Tribune</text>
+            <disambiguated>
+                <name>Chicago Tribune</name>
+                <subType>AwardWinner</subType>
+                <subType>ComicStripSyndicate</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.chicagotribune.com</website>
+                <dbpedia>http://dbpedia.org/resource/Chicago_Tribune</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gk2h</freebase>
+                <yago>http://yago-knowledge.org/resource/Chicago_Tribune</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.203783</relevance>
+            <relevance>0.201854</relevance>
+            <count>1</count>
+            <text>John Lannan</text>
+            <disambiguated>
+                <name>John Lannan</name>
+                <subType>Athlete</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Lannan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02w7551</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Lannan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.200509</relevance>
             <count>4</count>
             <text>Nikolay I. Vavilov</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.203462</relevance>
+            <type>Person</type>
+            <relevance>0.200235</relevance>
             <count>1</count>
-            <text>NASA Office of Technology Utilization</text>
+            <text>Kelly</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.202578</relevance>
+            <type>Company</type>
+            <relevance>0.197943</relevance>
             <count>2</count>
-            <text>Col. Joseph F. Cotton</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.202163</relevance>
-            <count>1</count>
-            <text>William Anderson</text>
-            <disambiguated>
-                <name>Cat Anderson</name>
-                <subType>MusicalArtist</subType>
-                <subType>MusicalGroupMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Cat_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01v_l3c</freebase>
-                <yago>http://yago-knowledge.org/resource/Cat_Anderson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.198079</relevance>
-            <count>1</count>
-            <text>Sen. John Stennis</text>
-            <disambiguated>
-                <name>John C. Stennis</name>
-                <subType>Politician</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/John_C._Stennis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fyp6</freebase>
-                <yago>http://yago-knowledge.org/resource/John_C._Stennis</yago>
-            </disambiguated>
+            <text>WSJ</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.196746</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences</text>
-            <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
-            </disambiguated>
+            <relevance>0.196941</relevance>
+            <count>2</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.196712</relevance>
-            <count>2</count>
-            <text>physicist</text>
+            <relevance>0.196379</relevance>
+            <count>1</count>
+            <text>Director of Defense Research and Engineering</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.195418</relevance>
+            <relevance>0.196318</relevance>
             <count>1</count>
             <text>Dr. Willard F. Libby</text>
             <disambiguated>
@@ -464,94 +491,44 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.195339</relevance>
-            <count>1</count>
-            <text>afsc Newsreview</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.195069</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.194774</relevance>
-            <count>1</count>
-            <text>hypersonic</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.194476</relevance>
-            <count>1</count>
-            <text>Cosmonaut Gagarin</text>
+            <relevance>0.194954</relevance>
+            <count>2</count>
+            <text>Donald L. Maffick</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.192355</relevance>
+            <relevance>0.19387</relevance>
             <count>1</count>
-            <text>President Frank W. Davis</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.191015</relevance>
-            <count>3</count>
-            <text>Pioneer VIII</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.190647</relevance>
-            <count>1</count>
-            <text>Dr. John S. Foster</text>
+            <text>Edward W. Brooke</text>
             <disambiguated>
-                <name>John Stuart Foster</name>
-                <subType>Academic</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Stuart_Foster</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d2b_x</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Stuart_Foster</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.190579</relevance>
-            <count>1</count>
-            <text>Gen. William F. McKee</text>
-            <disambiguated>
-                <name>William F. McKee</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/William_F._McKee</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04f5x_d</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.189886</relevance>
-            <count>1</count>
-            <text>Rep. J. Edward Roush</text>
-            <disambiguated>
-                <name>J. Edward Roush</name>
+                <name>Edward Brooke</name>
                 <subType>Politician</subType>
+                <subType>AwardWinner</subType>
                 <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
                 <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/J._Edward_Roush</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rkg94</freebase>
-                <yago>http://yago-knowledge.org/resource/J._Edward_Roush</yago>
+                <dbpedia>http://dbpedia.org/resource/Edward_Brooke</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lbrm</freebase>
+                <yago>http://yago-knowledge.org/resource/Edward_Brooke</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.189811</relevance>
+            <relevance>0.193655</relevance>
+            <count>2</count>
+            <text>Univ. of California</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.192777</relevance>
+            <count>3</count>
+            <text>Pioneer VIII</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.192559</relevance>
             <count>1</count>
-            <text>usn</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
+            <text>Vietnam</text>
         </entity>
     </entities>
 </results>

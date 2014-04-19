@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.947631</relevance>
+            <relevance>0.779485</relevance>
             <count>16</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.637141</relevance>
+            <relevance>0.579617</relevance>
             <count>9</count>
             <text>Spacecraft</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.590059</relevance>
+            <relevance>0.478367</relevance>
             <count>6</count>
             <text>NYT</text>
             <disambiguated>
@@ -54,7 +54,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.587968</relevance>
+            <relevance>0.398274</relevance>
             <count>5</count>
             <text>JPL</text>
             <disambiguated>
@@ -69,14 +69,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.363856</relevance>
-            <count>1</count>
-            <text>Sealab II</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.355907</relevance>
+            <relevance>0.272135</relevance>
             <count>3</count>
             <text>Sir Bernard Lovell</text>
             <disambiguated>
@@ -89,71 +83,119 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.355804</relevance>
-            <count>1</count>
-            <text>San Clemente Island</text>
+            <type>Organization</type>
+            <relevance>0.271058</relevance>
+            <count>2</count>
+            <text>Senate</text>
             <disambiguated>
-                <name>San Clemente Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>32.92086944444444 -118.51554444444444</geo>
-                <dbpedia>http://dbpedia.org/resource/San_Clemente_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025rv5</freebase>
-                <yago>http://yago-knowledge.org/resource/San_Clemente_Island</yago>
-                <geonames>http://sws.geonames.org/5391801/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.339044</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Space Science</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.329952</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.329735</relevance>
-            <count>1</count>
-            <text>Aquanauts</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.329389</relevance>
-            <count>1</count>
-            <text>La Jolla</text>
-            <disambiguated>
-                <name>La Jolla</name>
-                <dbpedia>http://dbpedia.org/resource/La_Jolla</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.015zxh</freebase>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.325771</relevance>
-            <count>2</count>
-            <text>Zond II</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.323654</relevance>
-            <count>2</count>
-            <text>Zond II</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.321462</relevance>
+            <relevance>0.261233</relevance>
             <count>2</count>
             <text>Sullivan</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.257961</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Space Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255066</relevance>
+            <count>2</count>
+            <text>Bill</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.253613</relevance>
+            <count>2</count>
+            <text>Zond II</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.247561</relevance>
+            <count>1</count>
+            <text>Rockets</text>
+            <disambiguated>
+                <name>Rockets (band)</name>
+                <subType>MusicalArtist</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockets_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p3l0v</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.243306</relevance>
+            <count>1</count>
+            <text>Walker afb</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.242622</relevance>
+            <count>1</count>
+            <text>TRW Systems, Inc.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.241347</relevance>
+            <count>1</count>
+            <text>Electro Optical Systems</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.240724</relevance>
+            <count>1</count>
+            <text>Sealab II</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.239626</relevance>
+            <count>1</count>
+            <text>Ernest A. Pinson</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.238716</relevance>
+            <count>1</count>
+            <text>James B. Stephens</text>
+            <disambiguated>
+                <name>James B. Stephens</name>
+                <dbpedia>http://dbpedia.org/resource/James_B._Stephens</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03h2nyj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.234638</relevance>
+            <count>1</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.234626</relevance>
+            <count>1</count>
+            <text>Molsink</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.231192</relevance>
+            <count>2</count>
+            <text>Zond II</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.320965</relevance>
+            <relevance>0.230333</relevance>
             <count>1</count>
             <text>Jodrell Bank Experimental Station</text>
             <disambiguated>
@@ -168,32 +210,99 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.319206</relevance>
+            <type>Company</type>
+            <relevance>0.228563</relevance>
             <count>1</count>
-            <text>Venus III</text>
+            <text>NYT</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.309859</relevance>
-            <count>1</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.309452</relevance>
-            <count>1</count>
-            <text>Rockets</text>
+            <type>Person</type>
+            <relevance>0.227185</relevance>
+            <count>3</count>
+            <text>Bruce C. Murray</text>
             <disambiguated>
-                <name>Rockets (band)</name>
-                <subType>MusicalArtist</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockets_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p3l0v</freebase>
+                <name>Bruce C. Murray</name>
+                <subType>BoardMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Bruce_C._Murray</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bl1c5</freebase>
+                <yago>http://yago-knowledge.org/resource/Bruce_C._Murray</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.226666</relevance>
+            <count>2</count>
+            <text>editor</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.226503</relevance>
+            <count>1</count>
+            <text>San Clemente Island</text>
+            <disambiguated>
+                <name>San Clemente Island</name>
+                <subType>Location</subType>
+                <subType>Island</subType>
+                <geo>32.92086944444444 -118.51554444444444</geo>
+                <dbpedia>http://dbpedia.org/resource/San_Clemente_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025rv5</freebase>
+                <yago>http://yago-knowledge.org/resource/San_Clemente_Island</yago>
+                <geonames>http://sws.geonames.org/5391801/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.226</relevance>
+            <count>1</count>
+            <text>Roswell Daily Record</text>
+            <disambiguated>
+                <name>Roswell Daily Record</name>
+                <subType>Newspaper</subType>
+                <website>http://roswell-record.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Roswell_Daily_Record</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025_vm4</freebase>
+                <yago>http://yago-knowledge.org/resource/Roswell_Daily_Record</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.308047</relevance>
+            <relevance>0.225426</relevance>
+            <count>3</count>
+            <text>Dr. Richard W. Porter</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.225373</relevance>
+            <count>1</count>
+            <text>Venus III</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.222106</relevance>
+            <count>1</count>
+            <text>Lovelock</text>
+            <disambiguated>
+                <name>Lovelock, California</name>
+                <geo>39.89138888888889 -121.57777777777778</geo>
+                <dbpedia>http://dbpedia.org/resource/Lovelock,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05s_8kh</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.221559</relevance>
+            <count>1</count>
+            <text>Ballantine Medal</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.220016</relevance>
+            <count>1</count>
+            <text>Lockheed Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219912</relevance>
             <count>1</count>
             <text>Mstislav Keldysh</text>
             <disambiguated>
@@ -206,20 +315,24 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.307148</relevance>
-            <count>3</count>
-            <text>Bruce C. Murray</text>
+            <relevance>0.219819</relevance>
+            <count>1</count>
+            <text>Aquanauts</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.219643</relevance>
+            <count>1</count>
+            <text>La Jolla</text>
             <disambiguated>
-                <name>Bruce C. Murray</name>
-                <subType>BoardMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Bruce_C._Murray</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bl1c5</freebase>
-                <yago>http://yago-knowledge.org/resource/Bruce_C._Murray</yago>
+                <name>La Jolla</name>
+                <dbpedia>http://dbpedia.org/resource/La_Jolla</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015zxh</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.305472</relevance>
+            <relevance>0.218068</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -233,123 +346,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.305151</relevance>
-            <count>2</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Australian Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.aph.gov.au/Senate/index.htm</website>
-                <dbpedia>http://dbpedia.org/resource/Australian_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0162kb</freebase>
-                <yago>http://yago-knowledge.org/resource/Australian_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.296507</relevance>
-            <count>1</count>
-            <text>Zond</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.296283</relevance>
-            <count>3</count>
-            <text>Dr. Richard W. Porter</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.292704</relevance>
-            <count>1</count>
-            <text>Cal Tech</text>
-            <disambiguated>
-                <name>California Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.138577 -118.125494</geo>
-                <website>http://www.caltech.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
-                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/6331816/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.288982</relevance>
-            <count>2</count>
-            <text>editor</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.285458</relevance>
-            <count>1</count>
-            <text>Ballantine Medal</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.285194</relevance>
-            <count>2</count>
-            <text>Bill</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.284272</relevance>
-            <count>1</count>
-            <text>Lovelock</text>
-            <disambiguated>
-                <name>Lovelock, California</name>
-                <geo>39.89138888888889 -121.57777777777778</geo>
-                <dbpedia>http://dbpedia.org/resource/Lovelock,_California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05s_8kh</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.283087</relevance>
-            <count>2</count>
-            <text>President</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.2825</relevance>
-            <count>1</count>
-            <text>Roswell Daily Record</text>
-            <disambiguated>
-                <name>Roswell Daily Record</name>
-                <subType>Newspaper</subType>
-                <website>http://roswell-record.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Roswell_Daily_Record</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025_vm4</freebase>
-                <yago>http://yago-knowledge.org/resource/Roswell_Daily_Record</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.281749</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.279462</relevance>
-            <count>1</count>
-            <text>Dr. Homer E. Newell</text>
-            <disambiguated>
-                <name>Homer E. Newell, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
-                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.277536</relevance>
+            <relevance>0.216845</relevance>
             <count>1</count>
             <text>Calif.</text>
             <disambiguated>
@@ -370,105 +368,108 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.275617</relevance>
-            <count>1</count>
-            <text>Senate Appropriations Committee</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.27548</relevance>
-            <count>1</count>
-            <text>fiscal year</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.273759</relevance>
-            <count>1</count>
-            <text>Britain</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.272632</relevance>
-            <count>1</count>
-            <text>James B. Stephens</text>
-            <disambiguated>
-                <name>James B. Stephens</name>
-                <dbpedia>http://dbpedia.org/resource/James_B._Stephens</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03h2nyj</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.270602</relevance>
-            <count>1</count>
-            <text>560&#x2014;had</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.270255</relevance>
-            <count>1</count>
-            <text>Jodrell Bank</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.267463</relevance>
-            <count>1</count>
-            <text>Molsink</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.267009</relevance>
-            <count>1</count>
-            <text>Beale afb</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.264003</relevance>
+            <relevance>0.21493</relevance>
             <count>2</count>
             <text>Jack N. James</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.260256</relevance>
+            <relevance>0.213633</relevance>
+            <count>1</count>
+            <text>Dr. Homer E. Newell</text>
+            <disambiguated>
+                <name>Homer E. Newell, Jr.</name>
+                <dbpedia>http://dbpedia.org/resource/Homer_E._Newell,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02r9qb9</freebase>
+                <yago>http://yago-knowledge.org/resource/Homer_E._Newell,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.212091</relevance>
             <count>1</count>
             <text>President Wynn L. LePage</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.257738</relevance>
-            <count>1</count>
-            <text>TRW Systems, Inc.</text>
+            <type>JobTitle</type>
+            <relevance>0.211594</relevance>
+            <count>2</count>
+            <text>President</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.256936</relevance>
+            <type>Company</type>
+            <relevance>0.211528</relevance>
             <count>1</count>
-            <text>Editor of Aerospace Technology</text>
+            <text>Jodrell Bank</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.210525</relevance>
+            <count>1</count>
+            <text>fiscal year</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.20935</relevance>
+            <count>1</count>
+            <text>Zond</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.254548</relevance>
+            <relevance>0.209097</relevance>
             <count>1</count>
-            <text>Space Science Board</text>
+            <text>St. Louis Univ.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.209095</relevance>
+            <count>1</count>
+            <text>Cal Tech</text>
+            <disambiguated>
+                <name>California Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.138577 -118.125494</geo>
+                <website>http://www.caltech.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
+                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/6331816/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.208127</relevance>
+            <count>1</count>
+            <text>Beale afb</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.203155</relevance>
+            <count>1</count>
+            <text>Calif</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.253775</relevance>
+            <relevance>0.20302</relevance>
             <count>1</count>
             <text>WSMR</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.253194</relevance>
+            <type>Organization</type>
+            <relevance>0.202672</relevance>
             <count>1</count>
-            <text>Electro Optical Systems</text>
+            <text>Senate Appropriations Committee</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.252783</relevance>
+            <type>City</type>
+            <relevance>0.202555</relevance>
             <count>1</count>
-            <text>International Relations Committee</text>
+            <text>560&#x2014;had</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.895217</relevance>
+            <relevance>0.84986</relevance>
             <count>16</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.618487</relevance>
+            <relevance>0.573508</relevance>
             <count>10</count>
             <text>Neptune</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.409451</relevance>
+            <relevance>0.412518</relevance>
             <count>4</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -51,7 +51,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.351354</relevance>
+            <relevance>0.405359</relevance>
             <count>6</count>
             <text>California</text>
             <disambiguated>
@@ -73,7 +73,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.330153</relevance>
+            <relevance>0.333433</relevance>
             <count>4</count>
             <text>NY Times</text>
             <disambiguated>
@@ -92,7 +92,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.290917</relevance>
+            <relevance>0.293795</relevance>
             <count>3</count>
             <text>Pasadena</text>
             <disambiguated>
@@ -109,29 +109,28 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.289003</relevance>
-            <count>2</count>
-            <text>Columbia University</text>
-            <disambiguated>
-                <name>University of Portland</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>45.5725 -122.72722222222222</geo>
-                <website>http://www.up.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Portland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025rcc</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Portland</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.260576</relevance>
-            <count>2</count>
-            <text>Berkeley</text>
+            <relevance>0.277931</relevance>
+            <count>3</count>
+            <text>ALS</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.260502</relevance>
+            <relevance>0.258215</relevance>
+            <count>2</count>
+            <text>WSJ</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.252591</relevance>
             <count>2</count>
             <text>LA Times</text>
             <disambiguated>
@@ -147,140 +146,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.259523</relevance>
-            <count>1</count>
-            <text>University of California</text>
-            <disambiguated>
-                <name>UC Davis College of Letters and Science</name>
-                <dbpedia>http://dbpedia.org/resource/UC_Davis_College_of_Letters_and_Science</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mhh1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.244444</relevance>
-            <count>2</count>
-            <text>WSJ</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.225372</relevance>
-            <count>2</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.225368</relevance>
-            <count>2</count>
-            <text>UPI</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.224023</relevance>
-            <count>1</count>
-            <text>Columbia</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.196963</relevance>
-            <count>1</count>
-            <text>North Pole</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.196774</relevance>
-            <count>3</count>
-            <text>ALS</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.195949</relevance>
-            <count>1</count>
-            <text>Hiroshima</text>
-            <disambiguated>
-                <name>Hiroshima</name>
-                <subType>JapaneseDesignatedCity</subType>
-                <website>http://www.city.hiroshima.jp/e/index-E.html</website>
-                <dbpedia>http://dbpedia.org/resource/Hiroshima</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0g3cw</freebase>
-                <yago>http://yago-knowledge.org/resource/Hiroshima</yago>
-                <geonames>http://sws.geonames.org/1862414/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.192822</relevance>
-            <count>1</count>
-            <text>Earthabout</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.191102</relevance>
-            <count>1</count>
-            <text>Henry Holt</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.189283</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.177788</relevance>
-            <count>1</count>
-            <text>University of Washington</text>
-            <disambiguated>
-                <name>University of Washington</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>47.659878 -122.305968</geo>
-                <website>http://www.washington.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Washington</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t90</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Washington</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.176918</relevance>
-            <count>1</count>
-            <text>Whitney Division</text>
+            <relevance>0.225689</relevance>
+            <count>2</count>
+            <text>Berkeley</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.176557</relevance>
+            <relevance>0.224428</relevance>
             <count>1</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.224146</relevance>
+            <count>2</count>
+            <text>Columbia University</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.222512</relevance>
+            <count>1</count>
+            <text>Whitney Division</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.175999</relevance>
+            <relevance>0.219199</relevance>
             <count>1</count>
             <text>Rockwell International</text>
             <disambiguated>
@@ -295,7 +186,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.174824</relevance>
+            <relevance>0.217603</relevance>
             <count>1</count>
             <text>Huntsville</text>
             <disambiguated>
@@ -311,7 +202,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.173457</relevance>
+            <relevance>0.21594</relevance>
             <count>1</count>
             <text>Sacramento</text>
             <disambiguated>
@@ -328,7 +219,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.172814</relevance>
+            <relevance>0.21511</relevance>
             <count>1</count>
             <text>Alabama</text>
             <disambiguated>
@@ -350,7 +241,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.170851</relevance>
+            <relevance>0.212763</relevance>
             <count>1</count>
             <text>Florida</text>
             <disambiguated>
@@ -370,49 +261,143 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.163884</relevance>
+            <relevance>0.208368</relevance>
             <count>1</count>
             <text>Aerojet General Corporation</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.163215</relevance>
+            <relevance>0.207582</relevance>
             <count>1</count>
             <text>United0*Technologies Corporation</text>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.206621</relevance>
+            <count>1</count>
+            <text>Columbia</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.161274</relevance>
+            <relevance>0.205191</relevance>
             <count>1</count>
             <text>Canoga Park</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.161049</relevance>
+            <type>Organization</type>
+            <relevance>0.202781</relevance>
             <count>1</count>
-            <text>George ``Pinky'' Nelson</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.16094</relevance>
-            <count>1</count>
-            <text>Threetime</text>
+            <text>University of California</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.158852</relevance>
+            <relevance>0.202047</relevance>
             <count>1</count>
             <text>West Palm Beach</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.158445</relevance>
+            <relevance>0.201491</relevance>
             <count>1</count>
             <text>Pratt</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.186936</relevance>
+            <count>2</count>
+            <text>UPI</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.186557</relevance>
+            <count>1</count>
+            <text>University of Washington</text>
+            <disambiguated>
+                <name>University of Washington</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>47.659878 -122.305968</geo>
+                <website>http://www.washington.edu</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Washington</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t90</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Washington</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.186466</relevance>
+            <count>2</count>
+            <text>USA Today</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.15469</relevance>
+            <relevance>0.186222</relevance>
+            <count>1</count>
+            <text>Hiroshima</text>
+            <disambiguated>
+                <name>Hiroshima</name>
+                <subType>JapaneseDesignatedCity</subType>
+                <website>http://www.city.hiroshima.jp/e/index-E.html</website>
+                <dbpedia>http://dbpedia.org/resource/Hiroshima</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g3cw</freebase>
+                <yago>http://yago-knowledge.org/resource/Hiroshima</yago>
+                <geonames>http://sws.geonames.org/1862414/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.183115</relevance>
+            <count>1</count>
+            <text>Earthabout</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.181255</relevance>
+            <count>1</count>
+            <text>Henry Holt</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.179646</relevance>
+            <count>1</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.179085</relevance>
+            <count>1</count>
+            <text>North Pole</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.169828</relevance>
+            <count>1</count>
+            <text>George ``Pinky'' Nelson</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.16971</relevance>
+            <count>1</count>
+            <text>Threetime</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.163146</relevance>
             <count>1</count>
             <text>Seattle.</text>
         </entity>

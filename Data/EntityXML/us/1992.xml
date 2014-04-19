@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.742098</relevance>
+            <relevance>0.828767</relevance>
             <count>4</count>
             <text>Edwards Air Force Base</text>
             <disambiguated>
@@ -24,8 +24,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.562432</relevance>
+            <count>2</count>
+            <text>Air Force</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.509376</relevance>
+            <relevance>0.499804</relevance>
             <count>1</count>
             <text>Cape Canaveral Air Force Station</text>
             <disambiguated>
@@ -39,27 +45,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.502821</relevance>
-            <count>3</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.475821</relevance>
+            <relevance>0.477051</relevance>
             <count>1</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -77,64 +64,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.437723</relevance>
-            <count>2</count>
-            <text>Air Force</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.374674</relevance>
-            <count>2</count>
-            <text>Gerard K. O'Neill</text>
-            <disambiguated>
-                <name>Gerard K. O'Neill</name>
-                <subType>Academic</subType>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Gerard_K._O'Neill</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038ywb</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.365687</relevance>
-            <count>2</count>
-            <text>consumer electronics</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.327345</relevance>
-            <count>2</count>
-            <text>WSJ</text>
+            <relevance>0.454943</relevance>
+            <count>3</count>
+            <text>NY Times</text>
             <disambiguated>
-                <name>The Wall Street Journal</name>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
                 <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
                 <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.315735</relevance>
-            <count>2</count>
-            <text>General Dynamics Corporation</text>
-            <disambiguated>
-                <name>General Dynamics</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.gd.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.3031</relevance>
+            <relevance>0.345618</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -156,7 +106,63 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.285906</relevance>
+            <relevance>0.331535</relevance>
+            <count>2</count>
+            <text>WSJ</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.317393</relevance>
+            <count>2</count>
+            <text>Gerard K. O'Neill</text>
+            <disambiguated>
+                <name>Gerard K. O'Neill</name>
+                <subType>Academic</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Gerard_K._O'Neill</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038ywb</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.314224</relevance>
+            <count>2</count>
+            <text>General Dynamics Corporation</text>
+            <disambiguated>
+                <name>General Dynamics</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.gd.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.309306</relevance>
+            <count>2</count>
+            <text>consumer electronics</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.288393</relevance>
+            <count>1</count>
+            <text>F-22</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.283229</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -173,41 +179,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.282322</relevance>
-            <count>1</count>
-            <text>General Accounting Office</text>
-            <disambiguated>
-                <name>Government Accountability Office</name>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.gao.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.275341</relevance>
-            <count>1</count>
-            <text>Bob Stanley</text>
-            <disambiguated>
-                <name>Bob Stanley</name>
-                <subType>Athlete</subType>
-                <dbpedia>http://dbpedia.org/resource/Bob_Stanley</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03znr9</freebase>
-                <yago>http://yago-knowledge.org/resource/Bob_Stanley</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.265209</relevance>
-            <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.264443</relevance>
+            <relevance>0.277616</relevance>
             <count>1</count>
             <text>Congress</text>
             <disambiguated>
@@ -224,14 +196,81 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.261204</relevance>
+            <type>Organization</type>
+            <relevance>0.270897</relevance>
             <count>1</count>
-            <text>Civil War</text>
+            <text>General Accounting Office</text>
+            <disambiguated>
+                <name>Government Accountability Office</name>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.gao.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Government_Accountability_Office</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c8jp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvhQm_pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Government_Accountability_Office</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.26625</relevance>
+            <count>1</count>
+            <text>Bob Stanley</text>
+            <disambiguated>
+                <name>Bob Stanley</name>
+                <subType>Athlete</subType>
+                <dbpedia>http://dbpedia.org/resource/Bob_Stanley</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03znr9</freebase>
+                <yago>http://yago-knowledge.org/resource/Bob_Stanley</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.25606</relevance>
+            <count>1</count>
+            <text>Yucatan Peninsula</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.252754</relevance>
+            <count>1</count>
+            <text>British journal Nature</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.251874</relevance>
+            <count>1</count>
+            <text>Rockwell International</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.249703</relevance>
+            <count>1</count>
+            <text>University of Arizona</text>
+            <disambiguated>
+                <name>University of Arizona</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>32.23166666666667 -110.95194444444445</geo>
+                <website>http://www.arizona.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vyf</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv1xql5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/University_of_Arizona</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.258561</relevance>
+            <relevance>0.248399</relevance>
             <count>1</count>
             <text>Redwood City</text>
             <disambiguated>
@@ -246,23 +285,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.255316</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.24651</relevance>
             <count>1</count>
-            <text>Rockwell International</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.242751</relevance>
+            <count>1</count>
+            <text>Civil War</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.251935</relevance>
+            <relevance>0.242031</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -284,111 +320,75 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.249042</relevance>
-            <count>1</count>
-            <text>Yucatan Peninsula</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.24805</relevance>
+            <relevance>0.238772</relevance>
             <count>1</count>
             <text>Rogers Dry Lake</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.248009</relevance>
-            <count>1</count>
-            <text>physicist</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.245768</relevance>
-            <count>1</count>
-            <text>Japan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.245284</relevance>
-            <count>1</count>
-            <text>University of Arizona</text>
-            <disambiguated>
-                <name>University of Arizona</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>32.23166666666667 -110.95194444444445</geo>
-                <website>http://www.arizona.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07vyf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv1xql5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/University_of_Arizona</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.241686</relevance>
-            <count>1</count>
-            <text>Antelope Valley</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.237325</relevance>
-            <count>1</count>
-            <text>British journal Nature</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.235727</relevance>
+            <relevance>0.238475</relevance>
             <count>1</count>
             <text>U. S.</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.234068</relevance>
-            <count>1</count>
-            <text>Princeton</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.233297</relevance>
+            <relevance>0.237886</relevance>
             <count>1</count>
             <text>Planetary Laboratory</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.237862</relevance>
+            <count>1</count>
+            <text>physicist</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.231607</relevance>
+            <relevance>0.236382</relevance>
             <count>1</count>
             <text>David Kring</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.230717</relevance>
+            <type>Country</type>
+            <relevance>0.234962</relevance>
             <count>1</count>
-            <text>F-22</text>
+            <text>Japan</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.232627</relevance>
+            <count>1</count>
+            <text>Antelope Valley</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.220712</relevance>
+            <relevance>0.225492</relevance>
             <count>1</count>
             <text>Willima Boynton</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.225223</relevance>
+            <count>1</count>
+            <text>Department of Energy</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.224068</relevance>
+            <count>1</count>
+            <text>Princeton</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.217023</relevance>
+            <relevance>0.223423</relevance>
             <count>1</count>
             <text>Mexico.</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.215886</relevance>
+            <relevance>0.216496</relevance>
             <count>1</count>
             <text>California.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.212611</relevance>
-            <count>1</count>
-            <text>Department of Energy</text>
         </entity>
     </entities>
 </results>

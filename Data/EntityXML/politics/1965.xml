@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.942289</relevance>
+            <relevance>0.885269</relevance>
             <count>14</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +28,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.789763</relevance>
-            <count>8</count>
-            <text>House Committee on Science and Astronautics</text>
+            <type>Person</type>
+            <relevance>0.857762</relevance>
+            <count>7</count>
+            <text>Vice President Hubert Humphrey</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.752303</relevance>
+            <relevance>0.830744</relevance>
             <count>10</count>
             <text>NYT</text>
             <disambiguated>
@@ -53,26 +53,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.728396</relevance>
+            <type>Organization</type>
+            <relevance>0.809746</relevance>
             <count>8</count>
-            <text>Vice President Hubert H. Humphrey</text>
+            <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.568563</relevance>
+            <relevance>0.548629</relevance>
             <count>4</count>
             <text>House Appropriations Committee</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.534332</relevance>
-            <count>5</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.51462</relevance>
+            <relevance>0.512342</relevance>
             <count>8</count>
             <text>Robert S. McNamara</text>
             <disambiguated>
@@ -90,25 +84,13 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.512846</relevance>
+            <relevance>0.511807</relevance>
             <count>4</count>
             <text>President</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.499355</relevance>
-            <count>7</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.470662</relevance>
-            <count>3</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.447402</relevance>
+            <relevance>0.49749</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -128,24 +110,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.415099</relevance>
-            <count>3</count>
-            <text>USAF</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.413752</relevance>
+            <relevance>0.477302</relevance>
             <count>3</count>
             <text>National Science Foundation</text>
             <disambiguated>
@@ -161,40 +126,253 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.400546</relevance>
-            <count>3</count>
-            <text>Dr. Karl G. Harr, Jr.</text>
+            <type>Organization</type>
+            <relevance>0.474809</relevance>
+            <count>7</count>
+            <text>DOD</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.392505</relevance>
+            <relevance>0.45106</relevance>
+            <count>5</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.436497</relevance>
+            <count>3</count>
+            <text>World War II</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.415332</relevance>
+            <count>2</count>
+            <text>vice president</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.41144</relevance>
+            <count>3</count>
+            <text>USAF</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.403071</relevance>
+            <count>3</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.402609</relevance>
+            <count>2</count>
+            <text>Vice President</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.395561</relevance>
+            <count>3</count>
+            <text>New York</text>
+            <disambiguated>
+                <name>New York City</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>WineRegion</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>40.71666666666667 -74.0</geo>
+                <website>http://www.nyc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
+                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
+                <geonames>http://sws.geonames.org/5128581/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.384893</relevance>
             <count>3</count>
             <text>Secretary</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.375886</relevance>
+            <relevance>0.371786</relevance>
             <count>3</count>
             <text>aerospace industry</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.372293</relevance>
-            <count>4</count>
-            <text>Administrator James E. Webb</text>
+            <type>Organization</type>
+            <relevance>0.367572</relevance>
+            <count>1</count>
+            <text>House Committee on Education and Labor</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.365936</relevance>
+            <count>2</count>
+            <text>National Aeronautics and Space Council</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.357712</relevance>
+            <count>1</count>
+            <text>Director of nasa Space Vehicle Research and Technical Div.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.357693</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.354378</relevance>
+            <count>1</count>
+            <text>Christian Science Monitor</text>
             <disambiguated>
-                <name>James E. Webb</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
-                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
+                <name>The Christian Science Monitor</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.csmonitor.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Christian_Science_Monitor</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01h5gh</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Christian_Science_Monitor</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.351798</relevance>
+            <count>3</count>
+            <text>Dr. Karl G. Harr, Jr.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.348611</relevance>
+            <count>1</count>
+            <text>British Defense Ministry</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.345404</relevance>
+            <count>1</count>
+            <text>U.K.</text>
+            <disambiguated>
+                <name>United Kingdom</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MeteorologicalService</subType>
+                <geo>51.5 -0.11666666666666667</geo>
+                <website>http://www.royal.gov.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.330528</relevance>
+            <count>1</count>
+            <text>House Rules Committee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.329188</relevance>
+            <count>1</count>
+            <text>Vice President Hubert H. Humphrey</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.37133</relevance>
+            <relevance>0.326806</relevance>
+            <count>1</count>
+            <text>Curtiss-Wright Corp.</text>
+            <disambiguated>
+                <name>Curtiss-Wright</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.curtisswright.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Curtiss-Wright</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fz3_</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwKl8zZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Curtiss-Wright</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.325902</relevance>
+            <count>4</count>
+            <text>Howard Margolis</text>
+            <disambiguated>
+                <name>Howard Margolis</name>
+                <dbpedia>http://dbpedia.org/resource/Howard_Margolis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0h7nn77</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.325686</relevance>
+            <count>1</count>
+            <text>Office of Science and Technology</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.322369</relevance>
+            <count>1</count>
+            <text>Britain</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.320774</relevance>
+            <count>1</count>
+            <text>Honeywell</text>
+            <disambiguated>
+                <name>Honeywell</name>
+                <website>http://www.honeywell.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Honeywell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gx66</freebase>
+                <yago>http://yago-knowledge.org/resource/Honeywell</yago>
+                <crunchbase>http://www.crunchbase.com/company/honeywell</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.320769</relevance>
+            <count>1</count>
+            <text>Rep. Adam Clayton Powell</text>
+            <disambiguated>
+                <name>Adam Clayton Powell III</name>
+                <dbpedia>http://dbpedia.org/resource/Adam_Clayton_Powell_III</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.094jpw</freebase>
+                <yago>http://yago-knowledge.org/resource/Adam_Clayton_Powell_III</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.320237</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.317442</relevance>
+            <count>1</count>
+            <text>Allan M. Shinn</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.316711</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -215,184 +393,95 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.370669</relevance>
-            <count>2</count>
-            <text>National Aeronautics and Space Council</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.363401</relevance>
-            <count>3</count>
-            <text>World War II</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.360909</relevance>
+            <relevance>0.316367</relevance>
             <count>2</count>
-            <text>Lt. Gen. Ira C. Eaker</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.354285</relevance>
-            <count>1</count>
-            <text>House Committee on Government Operations</text>
+            <text>Leonard Schwartz</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.352557</relevance>
+            <relevance>0.316039</relevance>
             <count>1</count>
-            <text>Director of nasa Space Vehicle Research and Technical Div.</text>
+            <text>executive vice president</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.34735</relevance>
-            <count>2</count>
-            <text>San Diego Union</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.344056</relevance>
+            <relevance>0.315747</relevance>
             <count>1</count>
-            <text>NASA Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.341361</relevance>
-            <count>2</count>
-            <text>Senator Robert F. Kennedy</text>
-            <disambiguated>
-                <name>Robert F. Kennedy</name>
-                <subType>FilmCharacter</subType>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>TVActor</subType>
-                <geo>38.88118 -77.0715</geo>
-                <dbpedia>http://dbpedia.org/resource/Robert_F._Kennedy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06hx2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rZ3t69hk2Qdidr-BlXZkMPg</opencyc>
-                <yago>http://yago-knowledge.org/resource/Robert_F._Kennedy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.338728</relevance>
-            <count>1</count>
-            <text>NASA Hq.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.337018</relevance>
-            <count>1</count>
-            <text>Director of Defense Research and Engineering</text>
+            <text>Secretaries of Defense</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.336883</relevance>
+            <relevance>0.314634</relevance>
+            <count>1</count>
+            <text>NASA Office of Lunar and Planetary Programs</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.313405</relevance>
             <count>1</count>
             <text>Department of Defense</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.336062</relevance>
-            <count>1</count>
-            <text>Space Agency</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.332234</relevance>
-            <count>2</count>
-            <text>New York</text>
             <disambiguated>
-                <name>New York City</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.330253</relevance>
-            <count>4</count>
-            <text>Howard Margolis</text>
-            <disambiguated>
-                <name>Howard Margolis</name>
-                <dbpedia>http://dbpedia.org/resource/Howard_Margolis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h7nn77</freebase>
+                <name>United States Department of Defense</name>
+                <subType>ArmedForce</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.defenselink.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Defense</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y0n</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r913_MLTcQdiYGPOSklkLXg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Defense</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.328077</relevance>
+            <relevance>0.310971</relevance>
             <count>1</count>
-            <text>Vice President</text>
+            <text>Principal Director of Defense Research and Engineering</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.327896</relevance>
+            <type>Organization</type>
+            <relevance>0.309491</relevance>
             <count>1</count>
-            <text>Christian Science Monitor</text>
+            <text>nato</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.307242</relevance>
+            <count>1</count>
+            <text>Senate Commerce Committee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.303414</relevance>
+            <count>1</count>
+            <text>Bureau of Weapons</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.302218</relevance>
+            <count>1</count>
+            <text>Library of Congress</text>
             <disambiguated>
-                <name>The Christian Science Monitor</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.csmonitor.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Christian_Science_Monitor</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01h5gh</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Christian_Science_Monitor</yago>
+                <name>Library of Congress</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>Building</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>38.88861111111111 -77.00472222222223</geo>
+                <website>http://www.loc.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Library_of_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04jp2</freebase>
+                <yago>http://yago-knowledge.org/resource/Library_of_Congress</yago>
+                <geonames>http://sws.geonames.org/4139387/</geonames>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.324158</relevance>
-            <count>1</count>
-            <text>House Rules Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.320554</relevance>
-            <count>1</count>
-            <text>Dr. Harold Brown</text>
-            <disambiguated>
-                <name>Harold Brown (Secretary of Defense)</name>
-                <subType>Politician</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Harold_Brown_(Secretary_of_Defense)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sx84</freebase>
-                <yago>http://yago-knowledge.org/resource/Harold_Brown_(Secretary_of_Defense)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.318933</relevance>
-            <count>1</count>
-            <text>Military Operations Subcommittee</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.318855</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.315226</relevance>
-            <count>2</count>
-            <text>vice president</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.31246</relevance>
+            <relevance>0.302066</relevance>
             <count>3</count>
             <text>Florida</text>
             <disambiguated>
@@ -412,97 +501,17 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.310209</relevance>
-            <count>1</count>
-            <text>Rep. Albert Thomas</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.308382</relevance>
-            <count>1</count>
-            <text>National Commission</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.306489</relevance>
-            <count>1</count>
-            <text>Washington</text>
+            <relevance>0.302055</relevance>
+            <count>3</count>
+            <text>Administrator James E. Webb</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>James E. Webb</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
+                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.305764</relevance>
-            <count>1</count>
-            <text>Curtiss-Wright Corp.</text>
-            <disambiguated>
-                <name>Curtiss-Wright</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.curtisswright.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Curtiss-Wright</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fz3_</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwKl8zZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Curtiss-Wright</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.301343</relevance>
-            <count>1</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.301133</relevance>
-            <count>1</count>
-            <text>security policy</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.300136</relevance>
-            <count>1</count>
-            <text>executive vice president</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.297564</relevance>
-            <count>1</count>
-            <text>Space Sciences and Applications</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.296466</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.295911</relevance>
-            <count>1</count>
-            <text>House Committee on Education and Labor</text>
         </entity>
     </entities>
 </results>

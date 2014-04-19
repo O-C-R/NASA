@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Technology</type>
-            <relevance>0.891292</relevance>
+            <relevance>0.885155</relevance>
             <count>7</count>
             <text>Skylab</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.646977</relevance>
+            <relevance>0.537276</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,7 +35,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.578836</relevance>
+            <relevance>0.460702</relevance>
             <count>8</count>
             <text>New York Times</text>
             <disambiguated>
@@ -54,7 +54,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.445142</relevance>
+            <relevance>0.354306</relevance>
             <count>3</count>
             <text>Kennedy Space Center</text>
             <disambiguated>
@@ -70,54 +70,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.323679</relevance>
-            <count>2</count>
-            <text>Vehicle Assembly Building</text>
-            <disambiguated>
-                <name>Vehicle Assembly Building</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Vehicle_Assembly_Building</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01nnvg</freebase>
-                <yago>http://yago-knowledge.org/resource/Vehicle_Assembly_Building</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.32011</relevance>
-            <count>2</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.318397</relevance>
-            <count>2</count>
-            <text>ksc</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.304137</relevance>
+            <relevance>0.250565</relevance>
             <count>3</count>
             <text>Moscow</text>
             <disambiguated>
@@ -134,117 +88,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.3003</relevance>
-            <count>2</count>
-            <text>Baltimore</text>
-            <disambiguated>
-                <name>Baltimore</name>
-                <website>http://www.baltimorecity.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.291935</relevance>
-            <count>2</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.286818</relevance>
-            <count>2</count>
-            <text>Paul J. Weitz</text>
-            <disambiguated>
-                <name>Paul J. Weitz</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Paul_J._Weitz</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02kcw6</freebase>
-                <yago>http://yago-knowledge.org/resource/Paul_J._Weitz</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.278179</relevance>
-            <count>2</count>
-            <text>Jack R. Lousma</text>
-            <disambiguated>
-                <name>Jack R. Lousma</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Jack_R._Lousma</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j6b8</freebase>
-                <yago>http://yago-knowledge.org/resource/Jack_R._Lousma</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.271239</relevance>
-            <count>1</count>
-            <text>usn</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.267858</relevance>
-            <count>1</count>
-            <text>Vance D. Brand</text>
-            <disambiguated>
-                <name>Vance D. Brand</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Vance_D._Brand</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j6p9</freebase>
-                <yago>http://yago-knowledge.org/resource/Vance_D._Brand</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.267227</relevance>
-            <count>1</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.264047</relevance>
-            <count>1</count>
-            <text>Victor Louis</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.260732</relevance>
-            <count>1</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.257059</relevance>
+            <relevance>0.246951</relevance>
             <count>1</count>
             <text>nasa</text>
             <disambiguated>
@@ -265,8 +110,148 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.238637</relevance>
+            <count>2</count>
+            <text>ksc</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.236591</relevance>
+            <count>1</count>
+            <text>San Diego</text>
+            <disambiguated>
+                <name>San Diego</name>
+                <website>http://www.sandiego.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/San_Diego</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.071vr</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.236587</relevance>
+            <count>2</count>
+            <text>Vehicle Assembly Building</text>
+            <disambiguated>
+                <name>Vehicle Assembly Building</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Vehicle_Assembly_Building</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01nnvg</freebase>
+                <yago>http://yago-knowledge.org/resource/Vehicle_Assembly_Building</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23195</relevance>
+            <count>2</count>
+            <text>Senate</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.231507</relevance>
+            <count>1</count>
+            <text>SST</text>
+            <disambiguated>
+                <name>School of Science and Technology, Singapore</name>
+                <dbpedia>http://dbpedia.org/resource/School_of_Science_and_Technology,_Singapore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.063_s6b</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.22765</relevance>
+            <count>1</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226466</relevance>
+            <count>2</count>
+            <text>Paul J. Weitz</text>
+            <disambiguated>
+                <name>Paul J. Weitz</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Paul_J._Weitz</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02kcw6</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_J._Weitz</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.226342</relevance>
+            <count>2</count>
+            <text>Jack R. Lousma</text>
+            <disambiguated>
+                <name>Jack R. Lousma</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Jack_R._Lousma</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j6b8</freebase>
+                <yago>http://yago-knowledge.org/resource/Jack_R._Lousma</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.221532</relevance>
+            <count>2</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.219449</relevance>
+            <count>1</count>
+            <text>Committee on Space Biology and Medicine</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.215365</relevance>
+            <count>1</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.213451</relevance>
+            <count>1</count>
+            <text>space program</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.255373</relevance>
+            <relevance>0.210868</relevance>
             <count>1</count>
             <text>Aeroflot</text>
             <disambiguated>
@@ -280,69 +265,31 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.25459</relevance>
+            <relevance>0.210636</relevance>
             <count>1</count>
             <text>Space Biology and Medicine</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.251472</relevance>
+            <type>JobTitle</type>
+            <relevance>0.210209</relevance>
             <count>1</count>
-            <text>Dr. Don L. Lind</text>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.204758</relevance>
+            <count>2</count>
+            <text>Baltimore</text>
             <disambiguated>
-                <name>Don L. Lind</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Don_L._Lind</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02wt32</freebase>
-                <yago>http://yago-knowledge.org/resource/Don_L._Lind</yago>
+                <name>Baltimore</name>
+                <website>http://www.baltimorecity.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.249805</relevance>
-            <count>1</count>
-            <text>Committee on Space Biology and Medicine</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.247445</relevance>
-            <count>1</count>
-            <text>United Nations</text>
-            <disambiguated>
-                <name>United Nations (band)</name>
-                <website>http://www.unitedfuckingnations.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dmsjxq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.243828</relevance>
-            <count>1</count>
-            <text>Le Bourget Airport</text>
-            <disambiguated>
-                <name>Paris &#x2013; Le Bourget Airport</name>
-                <geo>48.96944444444444 2.441388888888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Paris_&#x2013;_Le_Bourget_Airport</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02vwgn</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243108</relevance>
-            <count>1</count>
-            <text>U.S.S.R. Soviet</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.242119</relevance>
-            <count>1</count>
-            <text>D News</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.242034</relevance>
+            <relevance>0.203521</relevance>
             <count>1</count>
             <text>New York Daily News</text>
             <disambiguated>
@@ -356,19 +303,53 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.241051</relevance>
+            <type>Facility</type>
+            <relevance>0.201229</relevance>
             <count>1</count>
-            <text>SST</text>
+            <text>Le Bourget Airport</text>
             <disambiguated>
-                <name>School of Science and Technology, Singapore</name>
-                <dbpedia>http://dbpedia.org/resource/School_of_Science_and_Technology,_Singapore</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.063_s6b</freebase>
+                <name>Paris &#x2013; Le Bourget Airport</name>
+                <geo>48.96944444444444 2.441388888888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Paris_&#x2013;_Le_Bourget_Airport</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vwgn</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.20048</relevance>
+            <count>1</count>
+            <text>U.S.S.R. Soviet</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.19981</relevance>
+            <count>1</count>
+            <text>usn</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.198525</relevance>
+            <count>1</count>
+            <text>United Nations</text>
+            <disambiguated>
+                <name>United Nations (band)</name>
+                <website>http://www.unitedfuckingnations.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmsjxq</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.240387</relevance>
+            <relevance>0.19841</relevance>
             <count>1</count>
             <text>Chile</text>
             <disambiguated>
@@ -384,53 +365,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.238376</relevance>
-            <count>1</count>
-            <text>Detroit News</text>
-            <disambiguated>
-                <name>The Detroit News</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://detnews.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Detroit_News</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038r10</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Detroit_News</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.236787</relevance>
-            <count>1</count>
-            <text>Paris</text>
-            <disambiguated>
-                <name>Paris, Illinois</name>
-                <geo>39.613055555555555 -87.69388888888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Paris,_Illinois</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0s6mr</freebase>
-                <yago>http://yago-knowledge.org/resource/Paris,_Illinois</yago>
-                <geonames>http://sws.geonames.org/4246659/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.234609</relevance>
-            <count>1</count>
-            <text>Chicago Tribune</text>
-            <disambiguated>
-                <name>Chicago Tribune</name>
-                <subType>AwardWinner</subType>
-                <subType>ComicStripSyndicate</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.chicagotribune.com</website>
-                <dbpedia>http://dbpedia.org/resource/Chicago_Tribune</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gk2h</freebase>
-                <yago>http://yago-knowledge.org/resource/Chicago_Tribune</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.23275</relevance>
+            <relevance>0.198168</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -449,14 +385,43 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.229069</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.196726</relevance>
             <count>1</count>
-            <text>San Diego</text>
+            <text>Detroit News</text>
+            <disambiguated>
+                <name>The Detroit News</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://detnews.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Detroit_News</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038r10</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Detroit_News</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.196405</relevance>
+            <count>1</count>
+            <text>D News</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.195418</relevance>
+            <count>1</count>
+            <text>Paris</text>
+            <disambiguated>
+                <name>Paris, Illinois</name>
+                <geo>39.613055555555555 -87.69388888888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Paris,_Illinois</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0s6mr</freebase>
+                <yago>http://yago-knowledge.org/resource/Paris,_Illinois</yago>
+                <geonames>http://sws.geonames.org/4246659/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.228285</relevance>
+            <relevance>0.193859</relevance>
             <count>1</count>
             <text>Dale D. Myers</text>
             <disambiguated>
@@ -466,8 +431,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.193619</relevance>
+            <count>1</count>
+            <text>solar energy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.193378</relevance>
+            <count>1</count>
+            <text>Dr. Don A. Rockwell</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.227635</relevance>
+            <relevance>0.191793</relevance>
+            <count>1</count>
+            <text>National Research Council</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.188801</relevance>
+            <count>1</count>
+            <text>Victor Louis</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.184597</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -481,50 +470,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.227589</relevance>
-            <count>1</count>
-            <text>solar energy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227585</relevance>
-            <count>1</count>
-            <text>National Research Council</text>
-            <disambiguated>
-                <name>United States National Research Council</name>
-                <dbpedia>http://dbpedia.org/resource/United_States_National_Research_Council</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09d0q</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_National_Research_Council</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.226087</relevance>
-            <count>1</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.224998</relevance>
-            <count>1</count>
-            <text>Dr. Don A. Rockwell</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.22308</relevance>
+            <relevance>0.183967</relevance>
             <count>1</count>
             <text>Gen. Aleksey A.</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.222152</relevance>
+            <relevance>0.1832</relevance>
             <count>1</count>
             <text>Andrey N.</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.182124</relevance>
+            <count>1</count>
+            <text>codirector</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.220741</relevance>
+            <relevance>0.182034</relevance>
             <count>1</count>
             <text>Santiago</text>
             <disambiguated>
@@ -535,50 +500,69 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.219337</relevance>
+            <relevance>0.180881</relevance>
             <count>1</count>
             <text>Eastern Europe.</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.180701</relevance>
+            <count>1</count>
+            <text>Chicago Tribune</text>
+            <disambiguated>
+                <name>Chicago Tribune</name>
+                <subType>AwardWinner</subType>
+                <subType>ComicStripSyndicate</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.chicagotribune.com</website>
+                <dbpedia>http://dbpedia.org/resource/Chicago_Tribune</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gk2h</freebase>
+                <yago>http://yago-knowledge.org/resource/Chicago_Tribune</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.218881</relevance>
+            <relevance>0.180475</relevance>
             <count>1</count>
             <text>Randal</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.218329</relevance>
+            <relevance>0.180047</relevance>
             <count>1</count>
             <text>United States.</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.217692</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.179116</relevance>
             <count>1</count>
-            <text>nrc</text>
-            <disambiguated>
-                <name>National Railroad Construction and Maintenance Association</name>
-                <dbpedia>http://dbpedia.org/resource/National_Railroad_Construction_and_Maintenance_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0h1ck0y</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.217598</relevance>
-            <count>1</count>
-            <text>official</text>
+            <text>nuclear energy</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.21441</relevance>
+            <relevance>0.177453</relevance>
             <count>1</count>
             <text>Joint Working Group</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.211593</relevance>
+            <relevance>0.177237</relevance>
             <count>1</count>
-            <text>codirector</text>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.176939</relevance>
+            <count>1</count>
+            <text>Vance D. Brand</text>
+            <disambiguated>
+                <name>Vance D. Brand</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Vance_D._Brand</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j6p9</freebase>
+                <yago>http://yago-knowledge.org/resource/Vance_D._Brand</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

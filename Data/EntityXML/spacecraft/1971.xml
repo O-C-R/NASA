@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.802005</relevance>
+            <relevance>0.957669</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,31 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.648704</relevance>
+            <relevance>0.802493</relevance>
             <count>1</count>
             <text>Manager of Space Station Operations</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.640968</relevance>
+            <relevance>0.79288</relevance>
             <count>1</count>
             <text>Space Station Task Force</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.760615</relevance>
+            <count>1</count>
+            <text>Space Physics Satellites</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.710046</relevance>
+            <count>1</count>
+            <text>Soviet Intercosmos Scientific Council</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.633314</relevance>
+            <relevance>0.689908</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -60,26 +72,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.581509</relevance>
-            <count>1</count>
-            <text>Space Physics Satellites</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.572215</relevance>
-            <count>3</count>
-            <text>Dr. Robert R. Gilruth</text>
-            <disambiguated>
-                <name>Robert R. Gilruth</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_R._Gilruth</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xn0q</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_R._Gilruth</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.562556</relevance>
+            <relevance>0.680774</relevance>
             <count>1</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -94,7 +88,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.489913</relevance>
+            <relevance>0.61805</relevance>
             <count>2</count>
             <text>New York Times</text>
             <disambiguated>
@@ -113,153 +107,37 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.482766</relevance>
-            <count>2</count>
-            <text>Aller</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.433562</relevance>
-            <count>1</count>
-            <text>Soviet Intercosmos Scientific Council</text>
+            <relevance>0.596066</relevance>
+            <count>3</count>
+            <text>Dr. Robert R. Gilruth</text>
+            <disambiguated>
+                <name>Robert R. Gilruth</name>
+                <dbpedia>http://dbpedia.org/resource/Robert_R._Gilruth</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xn0q</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_R._Gilruth</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.374903</relevance>
+            <relevance>0.576063</relevance>
             <count>2</count>
             <text>Scientist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.367964</relevance>
-            <count>1</count>
-            <text>Timur M. Eneyev</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.356427</relevance>
-            <count>1</count>
-            <text>Vestnik</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.350351</relevance>
-            <count>1</count>
-            <text>msc Director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.339454</relevance>
-            <count>1</count>
-            <text>principal</text>
+            <relevance>0.531335</relevance>
+            <count>2</count>
+            <text>Aller</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.337894</relevance>
-            <count>1</count>
-            <text>Dale D. Myers</text>
-            <disambiguated>
-                <name>Dale D. Myers</name>
-                <dbpedia>http://dbpedia.org/resource/Dale_D._Myers</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04cr6sx</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.336137</relevance>
-            <count>1</count>
-            <text>Shabad</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.330361</relevance>
-            <count>1</count>
-            <text>Director of Operations</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.326241</relevance>
-            <count>1</count>
-            <text>Skylab Program Office</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.324787</relevance>
-            <count>1</count>
-            <text>Greenville</text>
-            <disambiguated>
-                <name>Greenville, South Carolina</name>
-                <geo>34.84444444444444 -82.38555555555556</geo>
-                <website>http://www.greenvillesc.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Greenville,_South_Carolina</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0_lr1</freebase>
-                <yago>http://yago-knowledge.org/resource/Greenville,_South_Carolina</yago>
-                <geonames>http://sws.geonames.org/4580543/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.32306</relevance>
-            <count>1</count>
-            <text>Sci J</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.322976</relevance>
-            <count>1</count>
-            <text>Need</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.312349</relevance>
-            <count>1</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.310914</relevance>
-            <count>1</count>
-            <text>NY News</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.310611</relevance>
-            <count>1</count>
-            <text>South Carolina Lions Clubs</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.307072</relevance>
-            <count>1</count>
-            <text>America</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.306106</relevance>
+            <relevance>0.520131</relevance>
             <count>1</count>
             <text>Boris Petrov</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.302908</relevance>
-            <count>1</count>
-            <text>Kenneth Gatland</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.299218</relevance>
-            <count>1</count>
-            <text>S.C.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.29852</relevance>
-            <count>1</count>
-            <text>Sortie</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.294404</relevance>
+            <relevance>0.474736</relevance>
             <count>1</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -274,15 +152,137 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.28543</relevance>
+            <relevance>0.467428</relevance>
             <count>1</count>
             <text>chairman</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.449112</relevance>
+            <count>1</count>
+            <text>Sci J</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.44271</relevance>
+            <count>1</count>
+            <text>Dale D. Myers</text>
+            <disambiguated>
+                <name>Dale D. Myers</name>
+                <dbpedia>http://dbpedia.org/resource/Dale_D._Myers</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04cr6sx</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.441783</relevance>
+            <count>1</count>
+            <text>Timur M. Eneyev</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.283952</relevance>
+            <relevance>0.437522</relevance>
+            <count>1</count>
+            <text>NY News</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.43372</relevance>
+            <count>1</count>
+            <text>Shabad</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.43365</relevance>
+            <count>1</count>
+            <text>msc Director</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.429735</relevance>
+            <count>1</count>
+            <text>Vestnik</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.425521</relevance>
+            <count>1</count>
+            <text>Greenville</text>
+            <disambiguated>
+                <name>Greenville, South Carolina</name>
+                <geo>34.84444444444444 -82.38555555555556</geo>
+                <website>http://www.greenvillesc.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Greenville,_South_Carolina</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0_lr1</freebase>
+                <yago>http://yago-knowledge.org/resource/Greenville,_South_Carolina</yago>
+                <geonames>http://sws.geonames.org/4580543/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.417807</relevance>
+            <count>1</count>
+            <text>Kenneth Gatland</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.408614</relevance>
+            <count>1</count>
+            <text>Director of Operations</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.408608</relevance>
+            <count>1</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.407605</relevance>
+            <count>1</count>
+            <text>principal</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.406325</relevance>
+            <count>1</count>
+            <text>South Carolina Lions Clubs</text>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.405457</relevance>
+            <count>1</count>
+            <text>America</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.403532</relevance>
+            <count>1</count>
+            <text>Skylab Program Office</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.401618</relevance>
+            <count>1</count>
+            <text>Need</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.39173</relevance>
+            <count>1</count>
+            <text>S.C.</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.391672</relevance>
             <count>1</count>
             <text>Science Journal</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.390441</relevance>
+            <count>1</count>
+            <text>Sortie</text>
         </entity>
     </entities>
 </results>

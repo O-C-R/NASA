@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.852125</relevance>
+            <relevance>0.845134</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -60,18 +60,6 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.24906</relevance>
-            <count>1</count>
-            <text>SETI Institute</text>
-            <disambiguated>
-                <name>SETI Institute</name>
-                <website>http://www.seti.org</website>
-                <dbpedia>http://dbpedia.org/resource/SETI_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02x35t</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
             <relevance>0.246156</relevance>
             <count>1</count>
             <text>University of Iowa</text>
@@ -89,14 +77,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.234868</relevance>
-            <count>1</count>
-            <text>Professor Emeritus</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.231606</relevance>
+            <relevance>0.243478</relevance>
             <count>1</count>
             <text>Johns Hopkins University</text>
             <disambiguated>
@@ -115,7 +97,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.228904</relevance>
+            <relevance>0.240861</relevance>
             <count>1</count>
             <text>American Astronomical Society</text>
             <disambiguated>
@@ -127,8 +109,50 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.240672</relevance>
+            <count>1</count>
+            <text>SETI Institute</text>
+            <disambiguated>
+                <name>SETI Institute</name>
+                <website>http://www.seti.org</website>
+                <dbpedia>http://dbpedia.org/resource/SETI_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02x35t</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.234868</relevance>
+            <count>1</count>
+            <text>Professor Emeritus</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.229788</relevance>
+            <count>1</count>
+            <text>Andromeda galaxy</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.21881</relevance>
+            <count>1</count>
+            <text>Minneapolis</text>
+            <disambiguated>
+                <name>Minneapolis</name>
+                <website>http://www.minneapolismn.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Minneapolis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fpzwf</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.217598</relevance>
+            <count>1</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.225502</relevance>
+            <relevance>0.216971</relevance>
             <count>1</count>
             <text>Reuters</text>
             <disambiguated>
@@ -141,20 +165,29 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.217598</relevance>
+            <type>Company</type>
+            <relevance>0.211791</relevance>
             <count>1</count>
-            <text>scientist</text>
+            <text>USA Today</text>
         </entity>
         <entity>
-            <type>Technology</type>
-            <relevance>0.217521</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.211064</relevance>
             <count>1</count>
-            <text>Andromeda galaxy</text>
+            <text>Nature magazine</text>
+            <disambiguated>
+                <name>Nature (journal)</name>
+                <subType>Journal</subType>
+                <subType>Magazine</subType>
+                <website>http://www.nature.com/nature/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Nature_(journal)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bwyb</freebase>
+                <yago>http://yago-knowledge.org/resource/Nature_(journal)</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.216653</relevance>
+            <relevance>0.209367</relevance>
             <count>1</count>
             <text>AT&amp;T</text>
             <disambiguated>
@@ -169,14 +202,33 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.207805</relevance>
+            <count>1</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.213384</relevance>
+            <relevance>0.205083</relevance>
             <count>1</count>
             <text>Washington Convention Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.210884</relevance>
+            <relevance>0.203671</relevance>
             <count>1</count>
             <text>Congress</text>
             <disambiguated>
@@ -193,8 +245,19 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.20139</relevance>
+            <count>1</count>
+            <text>David Morrison</text>
+            <disambiguated>
+                <name>David Morrison (astrophysicist)</name>
+                <dbpedia>http://dbpedia.org/resource/David_Morrison_(astrophysicist)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ddbtyb</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.208562</relevance>
+            <relevance>0.201313</relevance>
             <count>1</count>
             <text>Princeton</text>
             <disambiguated>
@@ -209,19 +272,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.208393</relevance>
-            <count>1</count>
-            <text>Minneapolis</text>
-            <disambiguated>
-                <name>Minneapolis</name>
-                <website>http://www.minneapolismn.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Minneapolis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fpzwf</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.207887</relevance>
+            <relevance>0.200581</relevance>
             <count>1</count>
             <text>Mountain View</text>
             <disambiguated>
@@ -237,33 +288,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.198953</relevance>
+            <count>1</count>
+            <text>black hole</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.20595</relevance>
+            <relevance>0.198123</relevance>
             <count>1</count>
             <text>Freeman Dayson</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.197252</relevance>
+            <type>Person</type>
+            <relevance>0.196319</relevance>
             <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
+            <text>Clark Chapman</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.197221</relevance>
+            <relevance>0.190287</relevance>
             <count>1</count>
             <text>California</text>
             <disambiguated>
@@ -284,60 +328,33 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.189921</relevance>
+            <count>1</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.1951</relevance>
+            <relevance>0.187687</relevance>
             <count>1</count>
             <text>physicist</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.191082</relevance>
-            <count>1</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.188347</relevance>
-            <count>1</count>
-            <text>black hole</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.188335</relevance>
-            <count>1</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.187319</relevance>
-            <count>1</count>
-            <text>Nature magazine</text>
-            <disambiguated>
-                <name>Nature (journal)</name>
-                <subType>Journal</subType>
-                <subType>Magazine</subType>
-                <website>http://www.nature.com/nature/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Nature_(journal)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bwyb</freebase>
-                <yago>http://yago-knowledge.org/resource/Nature_(journal)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.184015</relevance>
+            <relevance>0.176479</relevance>
             <count>1</count>
             <text>University of Maryland</text>
             <disambiguated>
@@ -351,25 +368,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.176671</relevance>
-            <count>1</count>
-            <text>David Morrison</text>
-            <disambiguated>
-                <name>David Morrison (astrophysicist)</name>
-                <dbpedia>http://dbpedia.org/resource/David_Morrison_(astrophysicist)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ddbtyb</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.171075</relevance>
-            <count>1</count>
-            <text>Clark Chapman</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.166581</relevance>
+            <relevance>0.159768</relevance>
             <count>1</count>
             <text>D.C.</text>
         </entity>

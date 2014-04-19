@@ -7,13 +7,19 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.877037</relevance>
+            <relevance>0.939475</relevance>
             <count>7</count>
             <text>Space Station</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.673138</relevance>
+            <count>3</count>
+            <text>Mir space station</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.698077</relevance>
+            <relevance>0.654795</relevance>
             <count>10</count>
             <text>NASA</text>
             <disambiguated>
@@ -34,14 +40,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.659714</relevance>
-            <count>3</count>
-            <text>Mir space station</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.54827</relevance>
+            <relevance>0.568213</relevance>
             <count>5</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -60,7 +60,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.493495</relevance>
+            <relevance>0.5261</relevance>
             <count>8</count>
             <text>United States</text>
             <disambiguated>
@@ -80,37 +80,25 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.416927</relevance>
+            <relevance>0.477048</relevance>
             <count>1</count>
             <text>crewtended civil international Space Station</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.280274</relevance>
+            <relevance>0.333105</relevance>
             <count>1</count>
             <text>Office of Space Station.</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.276136</relevance>
-            <count>2</count>
-            <text>Japan</text>
-            <disambiguated>
-                <name>Japan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MilitaryPost</subType>
-                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
-                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
+            <type>JobTitle</type>
+            <relevance>0.257526</relevance>
+            <count>1</count>
+            <text>Deputy Associate Administrator for External Relations</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.263384</relevance>
+            <relevance>0.25575</relevance>
             <count>2</count>
             <text>Europe</text>
             <disambiguated>
@@ -122,19 +110,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.258661</relevance>
+            <relevance>0.250941</relevance>
             <count>3</count>
             <text>Andrew J. Stofan</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.243023</relevance>
+            <relevance>0.247618</relevance>
             <count>2</count>
             <text>Margaret G. Finarelli</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.234346</relevance>
+            <relevance>0.24245</relevance>
             <count>2</count>
             <text>Canada</text>
             <disambiguated>
@@ -154,20 +142,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.214394</relevance>
+            <type>Organization</type>
+            <relevance>0.221821</relevance>
             <count>1</count>
-            <text>Deputy Associate Administrator for External Relations</text>
+            <text>Tass News Agency</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.218229</relevance>
+            <count>1</count>
+            <text>Japan</text>
+            <disambiguated>
+                <name>Japan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MilitaryPost</subType>
+                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
+                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
         </entity>
         <entity>
             <type>Automobile</type>
-            <relevance>0.212868</relevance>
+            <relevance>0.216336</relevance>
             <count>1</count>
             <text>Soyuz</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.213312</relevance>
+            <count>1</count>
+            <text>memorandum of understanding</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.20769</relevance>
+            <count>1</count>
+            <text>Columbus</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.203603</relevance>
+            <count>1</count>
+            <text>LA Times</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.202454</relevance>
+            <count>1</count>
+            <text>Japan</text>
+            <disambiguated>
+                <name>Empire of Japan</name>
+                <subType>Location</subType>
+                <subType>Kingdom</subType>
+                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
+                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.205154</relevance>
+            <relevance>0.201026</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -185,20 +223,35 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.196331</relevance>
+            <count>1</count>
+            <text>Soviet Central Asia</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.18908</relevance>
+            <count>1</count>
+            <text>WSJ</text>
+            <disambiguated>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.201352</relevance>
+            <relevance>0.188967</relevance>
             <count>1</count>
             <text>Administrationapproved</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.198419</relevance>
-            <count>1</count>
-            <text>Tass News Agency</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.197108</relevance>
+            <relevance>0.188699</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -215,84 +268,45 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.194451</relevance>
+            <relevance>0.185343</relevance>
             <count>1</count>
             <text>fiscal year</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.193151</relevance>
-            <count>1</count>
-            <text>WSJ</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.193027</relevance>
-            <count>1</count>
-            <text>Soviet Central Asia</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.188405</relevance>
-            <count>1</count>
-            <text>LA Times</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.186481</relevance>
-            <count>1</count>
-            <text>memorandum of understanding</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.182044</relevance>
-            <count>1</count>
-            <text>Columbus</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.179039</relevance>
-            <count>1</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.175943</relevance>
-            <count>1</count>
-            <text>Virginia.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.174644</relevance>
-            <count>1</count>
-            <text>Reston</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.171918</relevance>
+            <relevance>0.18319</relevance>
             <count>1</count>
             <text>Charles Redmond</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.18258</relevance>
+            <count>1</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.170451</relevance>
+            <relevance>0.181548</relevance>
             <count>1</count>
             <text>Japanthat</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.140576</relevance>
+            <relevance>0.167054</relevance>
             <count>1</count>
             <text>Director of the Policy Division</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.164033</relevance>
+            <count>1</count>
+            <text>Virginia.</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.162237</relevance>
+            <count>1</count>
+            <text>Reston</text>
         </entity>
     </entities>
 </results>

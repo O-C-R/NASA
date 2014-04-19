@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.896794</relevance>
-            <count>111</count>
+            <relevance>0.893238</relevance>
+            <count>104</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,26 +29,26 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.794462</relevance>
+            <relevance>0.732045</relevance>
             <count>24</count>
             <text>nasa Wallops Station</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.739558</relevance>
-            <count>18</count>
+            <relevance>0.731448</relevance>
+            <count>17</count>
             <text>NASA Rpt. srl</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.67876</relevance>
+            <relevance>0.678307</relevance>
             <count>22</count>
             <text>nasa Rpt.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.522819</relevance>
-            <count>8</count>
+            <relevance>0.63424</relevance>
+            <count>13</count>
             <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
@@ -69,8 +69,8 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.48692</relevance>
-            <count>58</count>
+            <relevance>0.490613</relevance>
+            <count>60</count>
             <text>Rockets</text>
             <disambiguated>
                 <name>Rockets (band)</name>
@@ -80,38 +80,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.436375</relevance>
-            <count>21</count>
-            <text>wsmr</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.410333</relevance>
+            <relevance>0.445506</relevance>
             <count>19</count>
             <text>Wash</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.396068</relevance>
+            <relevance>0.42236</relevance>
             <count>18</count>
             <text>Churchill Research Range</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.404204</relevance>
+            <count>21</count>
+            <text>wsmr</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.373877</relevance>
+            <relevance>0.371916</relevance>
             <count>4</count>
             <text>Nuclear Rocket Development Station</text>
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.340962</relevance>
+            <relevance>0.349738</relevance>
             <count>10</count>
-            <text>SRl</text>
+            <text>SRL</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.333758</relevance>
+            <count>10</count>
+            <text>AP</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.340927</relevance>
+            <relevance>0.306508</relevance>
             <count>11</count>
             <text>U.S.</text>
             <disambiguated>
@@ -130,8 +136,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.302694</relevance>
+            <count>9</count>
+            <text>Brazil</text>
+            <disambiguated>
+                <name>Brazil</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>CompanyShareholder</subType>
+                <geo>-15.75 -47.95</geo>
+                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Brazil</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.333679</relevance>
+            <relevance>0.279925</relevance>
             <count>8</count>
             <text>New York Times</text>
             <disambiguated>
@@ -149,15 +173,54 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.271137</relevance>
+            <count>5</count>
+            <text>Natal</text>
+            <disambiguated>
+                <name>Natal, Rio Grande do Norte</name>
+                <geo>-5.766666666666667 -35.2</geo>
+                <website>http://www.natal.rn.gov.br/</website>
+                <dbpedia>http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030crm</freebase>
+                <yago>http://yago-knowledge.org/resource/Natal,_Rio_Grande_do_Norte</yago>
+                <geonames>http://sws.geonames.org/3394023/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.268914</relevance>
+            <count>6</count>
+            <text>Pacific</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.266406</relevance>
+            <count>4</count>
+            <text>Wallops Station</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.262528</relevance>
+            <count>5</count>
+            <text>msfc</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.25921</relevance>
+            <count>1</count>
+            <text>nasa Rpt. srl) Manufacturers</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.330248</relevance>
-            <count>10</count>
-            <text>AP</text>
+            <relevance>0.25086</relevance>
+            <count>1</count>
+            <text>NASA Office of Space Science and Applications</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.284851</relevance>
-            <count>6</count>
+            <relevance>0.249744</relevance>
+            <count>5</count>
             <text>jpl</text>
             <disambiguated>
                 <name>Jet Propulsion Laboratory</name>
@@ -171,26 +234,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.276945</relevance>
-            <count>9</count>
-            <text>Brazil</text>
-            <disambiguated>
-                <name>Brazil</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>CompanyShareholder</subType>
-                <geo>-15.75 -47.95</geo>
-                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Brazil</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.275987</relevance>
+            <relevance>0.247599</relevance>
             <count>7</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -205,8 +250,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.247309</relevance>
+            <count>1</count>
+            <text>Rocket</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.246619</relevance>
+            <count>5</count>
+            <text>gsfc</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.241781</relevance>
+            <count>2</count>
+            <text>Wallops</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.239414</relevance>
+            <count>1</count>
+            <text>NASA Inventions</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.275517</relevance>
+            <relevance>0.23877</relevance>
             <count>5</count>
             <text>Alaska</text>
             <disambiguated>
@@ -225,130 +294,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.235582</relevance>
+            <count>4</count>
+            <text>Michigan</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.266418</relevance>
+            <relevance>0.235346</relevance>
             <count>1</count>
             <text>nasa Wallqps Station</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.265414</relevance>
-            <count>4</count>
-            <text>Wallops Station</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.257439</relevance>
-            <count>1</count>
-            <text>NASA Office of Space Science and Applications</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.249669</relevance>
-            <count>5</count>
-            <text>Atlantic Ocean</text>
-            <disambiguated>
-                <name>Atlantic Ocean</name>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.248426</relevance>
-            <count>1</count>
-            <text>NASA Inventions</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.245857</relevance>
-            <count>1</count>
-            <text>nasa Convair</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.242754</relevance>
-            <count>5</count>
-            <text>Natal</text>
-            <disambiguated>
-                <name>Natal, Rio Grande do Norte</name>
-                <geo>-5.766666666666667 -35.2</geo>
-                <website>http://www.natal.rn.gov.br/</website>
-                <dbpedia>http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030crm</freebase>
-                <yago>http://yago-knowledge.org/resource/Natal,_Rio_Grande_do_Norte</yago>
-                <geonames>http://sws.geonames.org/3394023/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.23957</relevance>
-            <count>6</count>
-            <text>msfc</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.238914</relevance>
-            <count>4</count>
-            <text>Atomic Energy Programs</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.235115</relevance>
-            <count>4</count>
-            <text>Michigan</text>
-            <disambiguated>
-                <name>Michigan</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.michigan.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Michigan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04rrx</freebase>
-                <yago>http://yago-knowledge.org/resource/Michigan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.232948</relevance>
-            <count>4</count>
-            <text>France</text>
-            <disambiguated>
-                <name>France</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.232431</relevance>
-            <count>6</count>
-            <text>Pacific</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.230226</relevance>
-            <count>4</count>
-            <text>Point Barrow</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.227367</relevance>
+            <relevance>0.228652</relevance>
             <count>3</count>
             <text>Saturn</text>
             <disambiguated>
@@ -363,25 +322,40 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.223508</relevance>
-            <count>5</count>
-            <text>Jackass Flats</text>
+            <relevance>0.227537</relevance>
+            <count>1</count>
+            <text>Inter-American Experimental Meteorological Rocket Network</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.222657</relevance>
-            <count>4</count>
-            <text>NYT</text>
+            <type>JobTitle</type>
+            <relevance>0.224271</relevance>
+            <count>1</count>
+            <text>Chief of Design Criteria Office and Assistant Chief of Chemical Rocket Div.</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.222423</relevance>
-            <count>2</count>
-            <text>Wallops</text>
+            <type>GeographicFeature</type>
+            <relevance>0.224226</relevance>
+            <count>1</count>
+            <text>nasa Convair</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.222163</relevance>
+            <count>3</count>
+            <text>Michoud Assembly Facility</text>
+            <disambiguated>
+                <name>Michoud Assembly Facility</name>
+                <subType>Location</subType>
+                <geo>30.025 -89.915</geo>
+                <dbpedia>http://dbpedia.org/resource/Michoud_Assembly_Facility</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04lwhq</freebase>
+                <yago>http://yago-knowledge.org/resource/Michoud_Assembly_Facility</yago>
+                <geonames>http://sws.geonames.org/4333215/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.221798</relevance>
+            <relevance>0.221403</relevance>
             <count>3</count>
             <text>Greece</text>
             <disambiguated>
@@ -398,132 +372,106 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.221714</relevance>
-            <count>2</count>
-            <text>Rocket</text>
+            <type>Facility</type>
+            <relevance>0.221119</relevance>
+            <count>5</count>
+            <text>Jackass Flats</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.216448</relevance>
+            <relevance>0.216356</relevance>
+            <count>4</count>
+            <text>Atlantic</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.213511</relevance>
             <count>3</count>
             <text>usns Range Recoverer</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.21531</relevance>
+            <relevance>0.211903</relevance>
             <count>5</count>
-            <text>Administrator James E. Webb</text>
-            <disambiguated>
-                <name>James E. Webb</name>
-                <subType>Politician</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_E._Webb</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
-                <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
-            </disambiguated>
+            <text>Tass</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.214581</relevance>
-            <count>5</count>
-            <text>gsfc</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.214463</relevance>
+            <type>Person</type>
+            <relevance>0.208203</relevance>
             <count>1</count>
-            <text>Inter-American Experimental Meteorological Rocket Network</text>
+            <text>Wallops pao</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.214316</relevance>
-            <count>1</count>
-            <text>Chief of Design Criteria Office and Assistant Chief of Chemical Rocket Div.</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.209459</relevance>
-            <count>5</count>
-            <text>Pakistan</text>
-            <disambiguated>
-                <name>Pakistan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Pakistan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pakistan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05sb1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi2-ZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Pakistan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.209338</relevance>
+            <type>Organization</type>
+            <relevance>0.204058</relevance>
             <count>3</count>
-            <text>Sonmiani</text>
-            <disambiguated>
-                <name>Sonmiani (space facility)</name>
-                <dbpedia>http://dbpedia.org/resource/Sonmiani_(space_facility)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0524rk</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.208709</relevance>
-            <count>3</count>
-            <text>Michoud Assembly Facility</text>
-            <disambiguated>
-                <name>Michoud Assembly Facility</name>
-                <subType>Location</subType>
-                <geo>30.025 -89.915</geo>
-                <dbpedia>http://dbpedia.org/resource/Michoud_Assembly_Facility</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04lwhq</freebase>
-                <yago>http://yago-knowledge.org/resource/Michoud_Assembly_Facility</yago>
-                <geonames>http://sws.geonames.org/4333215/</geonames>
-            </disambiguated>
+            <text>Tass</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.205757</relevance>
+            <relevance>0.203959</relevance>
             <count>1</count>
             <text>Javelin rocket</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.200432</relevance>
-            <count>3</count>
-            <text>Balt</text>
+            <type>Organization</type>
+            <relevance>0.201591</relevance>
+            <count>2</count>
+            <text>sec</text>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.194699</relevance>
+            <type>Organization</type>
+            <relevance>0.196797</relevance>
+            <count>1</count>
+            <text>usaf Flight Safety Review Board</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.195229</relevance>
+            <count>4</count>
+            <text>Point Barrow</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.194945</relevance>
             <count>2</count>
-            <text>South America</text>
+            <text>USAF</text>
             <disambiguated>
-                <name>South America</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/South_America</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06n3y</freebase>
-                <yago>http://yago-knowledge.org/resource/South_America</yago>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.193105</relevance>
-            <count>3</count>
-            <text>carbon dioxide</text>
+            <type>Organization</type>
+            <relevance>0.193115</relevance>
+            <count>1</count>
+            <text>Board</text>
+            <disambiguated>
+                <name>Board game</name>
+                <subType>Industry</subType>
+                <dbpedia>http://dbpedia.org/resource/Board_game</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015ll</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjN5JwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.191528</relevance>
+            <type>Person</type>
+            <relevance>0.193036</relevance>
             <count>2</count>
-            <text>Spain</text>
-            <disambiguated>
-                <name>Kingdom of Spain (Napoleonic)</name>
-                <dbpedia>http://dbpedia.org/resource/Kingdom_of_Spain_(Napoleonic)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm9lkx</freebase>
-            </disambiguated>
+            <text>Hines</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.191056</relevance>
+            <count>3</count>
+            <text>Aerobee 150A</text>
         </entity>
     </entities>
 </results>

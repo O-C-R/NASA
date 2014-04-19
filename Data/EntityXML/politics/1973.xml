@@ -7,14 +7,14 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.854275</relevance>
+            <relevance>0.811307</relevance>
             <count>7</count>
             <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.661904</relevance>
-            <count>13</count>
+            <relevance>0.551599</relevance>
+            <count>10</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -35,7 +35,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.419311</relevance>
+            <relevance>0.398963</relevance>
             <count>4</count>
             <text>National Science Foundation</text>
             <disambiguated>
@@ -52,19 +52,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.419157</relevance>
+            <relevance>0.346527</relevance>
             <count>2</count>
             <text>House Committee on Science</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.4029</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Astronautics</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.399975</relevance>
+            <relevance>0.320159</relevance>
             <count>5</count>
             <text>U.S.</text>
             <disambiguated>
@@ -84,69 +78,64 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.365603</relevance>
-            <count>1</count>
-            <text>Senate Committee on Appropriations</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.360784</relevance>
-            <count>4</count>
-            <text>President</text>
+            <relevance>0.32014</relevance>
+            <count>6</count>
+            <text>Lyndon B. Johnson Space Center</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.350558</relevance>
+            <relevance>0.311864</relevance>
             <count>3</count>
             <text>Committee</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.349658</relevance>
+            <relevance>0.302365</relevance>
             <count>3</count>
             <text>FY</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.349388</relevance>
+            <relevance>0.298318</relevance>
+            <count>1</count>
+            <text>Senate Committee on Appropriations</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.28859</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Astronautics</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.274599</relevance>
+            <count>1</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.269316</relevance>
             <count>1</count>
             <text>House Committee on Science and Astronautics.</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.343606</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Aeronautics</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.331024</relevance>
-            <count>1</count>
-            <text>Astronautics&#x2019; Subcommittee on Energy</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.330645</relevance>
-            <count>2</count>
-            <text>Rep. Olin E. Teague</text>
-            <disambiguated>
-                <name>Olin E. Teague</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Olin_E._Teague</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f3t2w</freebase>
-                <yago>http://yago-knowledge.org/resource/Olin_E._Teague</yago>
-            </disambiguated>
+            <relevance>0.268986</relevance>
+            <count>4</count>
+            <text>President</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.327112</relevance>
-            <count>1</count>
-            <text>Senate Committee</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.313799</relevance>
+            <relevance>0.268686</relevance>
             <count>2</count>
             <text>Senate</text>
             <disambiguated>
@@ -161,14 +150,58 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.268043</relevance>
+            <count>1</count>
+            <text>energy shortages</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.309485</relevance>
+            <relevance>0.266885</relevance>
+            <count>1</count>
+            <text>Senate Committee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.263241</relevance>
+            <count>1</count>
+            <text>Astronautics&#x2019; Subcommittee on Energy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255988</relevance>
+            <count>2</count>
+            <text>Rep. Olin E. Teague</text>
+            <disambiguated>
+                <name>Olin E. Teague</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Olin_E._Teague</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f3t2w</freebase>
+                <yago>http://yago-knowledge.org/resource/Olin_E._Teague</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.252327</relevance>
             <count>1</count>
             <text>House Committee on Armed Services</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.252146</relevance>
+            <count>1</count>
+            <text>Astronautics&#x2019; Subcommittee on Aeronautics and Space Technology</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.248032</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Aeronautics</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.298406</relevance>
+            <relevance>0.246028</relevance>
             <count>1</count>
             <text>Atomic Energy Commission</text>
             <disambiguated>
@@ -181,7 +214,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.290979</relevance>
+            <relevance>0.243138</relevance>
             <count>2</count>
             <text>Congress</text>
             <disambiguated>
@@ -199,69 +232,108 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.288945</relevance>
-            <count>1</count>
-            <text>Astronautics&#x2019; Subcommittee on Aeronautics and Space Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.287901</relevance>
-            <count>1</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.283141</relevance>
-            <count>1</count>
-            <text>OTA</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.274078</relevance>
+            <relevance>0.239163</relevance>
             <count>1</count>
             <text>nasa Associate Administrator for Tracking and Data Acquisition</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.273755</relevance>
+            <relevance>0.22472</relevance>
             <count>1</count>
             <text>House Committee</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.2737</relevance>
-            <count>1</count>
-            <text>energy shortages</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.272978</relevance>
-            <count>2</count>
-            <text>Chairman</text>
+            <relevance>0.219819</relevance>
+            <count>3</count>
+            <text>the House</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.265184</relevance>
+            <relevance>0.218118</relevance>
             <count>1</count>
-            <text>Rep. Don Fuqua</text>
+            <text>Sen. Barry M. Goldwater</text>
             <disambiguated>
-                <name>Don Fuqua</name>
+                <name>Barry Goldwater</name>
                 <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>Hobbyist</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
                 <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Don_Fuqua</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0286dl2</freebase>
-                <yago>http://yago-knowledge.org/resource/Don_Fuqua</yago>
+                <dbpedia>http://dbpedia.org/resource/Barry_Goldwater</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01j6t</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwRJReZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Barry_Goldwater</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.21538</relevance>
+            <count>1</count>
+            <text>energy consumption</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.215184</relevance>
+            <count>2</count>
+            <text>Sen. Frank E. Moss</text>
+            <disambiguated>
+                <name>Frank Moss (politician)</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Frank_Moss_(politician)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01zqc4</freebase>
+                <yago>http://yago-knowledge.org/resource/Frank_Moss_(politician)</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.263686</relevance>
+            <relevance>0.215152</relevance>
             <count>1</count>
-            <text>Corporate Vice President</text>
+            <text>Acting Director</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.213288</relevance>
+            <count>1</count>
+            <text>Middle East</text>
+            <disambiguated>
+                <name>Middle East</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Middle_East</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04wsz</freebase>
+                <yago>http://yago-knowledge.org/resource/Middle_East</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.213157</relevance>
+            <count>1</count>
+            <text>OTA</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.26336</relevance>
+            <relevance>0.208588</relevance>
+            <count>1</count>
+            <text>Office of Emergency Preparedness</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.208034</relevance>
+            <count>1</count>
+            <text>energy research</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.207556</relevance>
+            <count>1</count>
+            <text>Darrell M. Trent</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.206588</relevance>
             <count>1</count>
             <text>Library of Congress</text>
             <disambiguated>
@@ -281,66 +353,98 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.26162</relevance>
-            <count>1</count>
-            <text>energy consumption</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.26162</relevance>
-            <count>1</count>
-            <text>energy research</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.261004</relevance>
+            <type>Company</type>
+            <relevance>0.206525</relevance>
             <count>2</count>
-            <text>Roy P. Jackson</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.25913</relevance>
-            <count>3</count>
-            <text>the House</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259042</relevance>
-            <count>3</count>
-            <text>Lyndon B. Johnson Space Center</text>
+            <text>GE</text>
             <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Region</type>
-            <relevance>0.25856</relevance>
-            <count>1</count>
-            <text>Middle East</text>
-            <disambiguated>
-                <name>Middle East</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Middle_East</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04wsz</freebase>
-                <yago>http://yago-knowledge.org/resource/Middle_East</yago>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.256326</relevance>
+            <relevance>0.205714</relevance>
             <count>1</count>
             <text>geothermal energy</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.255196</relevance>
+            <relevance>0.205076</relevance>
+            <count>1</count>
+            <text>Rep. Alphonzo Bell</text>
+            <disambiguated>
+                <name>Alphonzo Bell</name>
+                <subType>TennisPlayer</subType>
+                <subType>OlympicAthlete</subType>
+                <dbpedia>http://dbpedia.org/resource/Alphonzo_Bell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07nn27</freebase>
+                <yago>http://yago-knowledge.org/resource/Alphonzo_Bell</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.200488</relevance>
+            <count>1</count>
+            <text>Sen. Lowell P. Weicker</text>
+            <disambiguated>
+                <name>Lowell P. Weicker, Jr.</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>BoardMember</subType>
+                <subType>Governor</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Lowell_P._Weicker,_Jr.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02jmd9</freebase>
+                <yago>http://yago-knowledge.org/resource/Lowell_P._Weicker,_Jr.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.200051</relevance>
+            <count>1</count>
+            <text>Rep. Don Fuqua</text>
+            <disambiguated>
+                <name>Don Fuqua</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Don_Fuqua</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0286dl2</freebase>
+                <yago>http://yago-knowledge.org/resource/Don_Fuqua</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.199828</relevance>
+            <count>1</count>
+            <text>Vice President and Group Executive</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.199235</relevance>
+            <count>1</count>
+            <text>Government Procurement Practices Board</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.197242</relevance>
+            <count>2</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.19515</relevance>
+            <count>1</count>
+            <text>petroleum products</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.193448</relevance>
             <count>1</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -368,146 +472,27 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.254474</relevance>
+            <relevance>0.192725</relevance>
             <count>1</count>
-            <text>Northrop</text>
+            <text>Dr. Thomas</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.192716</relevance>
+            <count>2</count>
+            <text>Roy P. Jackson</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.190563</relevance>
+            <count>1</count>
+            <text>Associate Administrator</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.252828</relevance>
+            <relevance>0.189817</relevance>
             <count>1</count>
             <text>energy crisis</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.246648</relevance>
-            <count>1</count>
-            <text>Northrop Corp.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.243896</relevance>
-            <count>1</count>
-            <text>NYT</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.243539</relevance>
-            <count>1</count>
-            <text>Kearny</text>
-            <disambiguated>
-                <name>Kearny, New Jersey</name>
-                <geo>40.76305555555555 -74.13722222222222</geo>
-                <website>http://www.kearnynj.org</website>
-                <dbpedia>http://dbpedia.org/resource/Kearny,_New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0xn84</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/nj/counties/hudson_county/kearny</census>
-                <yago>http://yago-knowledge.org/resource/Kearny,_New_Jersey</yago>
-                <geonames>http://sws.geonames.org/5099967/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.243378</relevance>
-            <count>1</count>
-            <text>Office of Technology</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.242246</relevance>
-            <count>1</count>
-            <text>Government Procurement Practices Board</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.242</relevance>
-            <count>1</count>
-            <text>H. Con</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.236232</relevance>
-            <count>1</count>
-            <text>Rep. Kenneth J. Gray</text>
-            <disambiguated>
-                <name>Kenneth J. Gray</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Kenneth_J._Gray</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rkbwh</freebase>
-                <yago>http://yago-knowledge.org/resource/Kenneth_J._Gray</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235825</relevance>
-            <count>1</count>
-            <text>Rep. Alphonzo Bell</text>
-            <disambiguated>
-                <name>Alphonzo Bell</name>
-                <subType>TennisPlayer</subType>
-                <subType>OlympicAthlete</subType>
-                <dbpedia>http://dbpedia.org/resource/Alphonzo_Bell</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07nn27</freebase>
-                <yago>http://yago-knowledge.org/resource/Alphonzo_Bell</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.23374</relevance>
-            <count>1</count>
-            <text>Sen. Barry M. Goldwater</text>
-            <disambiguated>
-                <name>Barry Goldwater</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>Hobbyist</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>Senator</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Barry_Goldwater</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01j6t</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwRJReZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Barry_Goldwater</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.232092</relevance>
-            <count>1</count>
-            <text>NSF Deputy Director</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.229102</relevance>
-            <count>1</count>
-            <text>N.J.</text>
-            <disambiguated>
-                <name>New Jersey</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nj.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
-            </disambiguated>
         </entity>
     </entities>
 </results>

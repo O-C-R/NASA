@@ -6,31 +6,40 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>Person</type>
+            <relevance>0.88725</relevance>
+            <count>5</count>
+            <text>Valery Ryumin</text>
+            <disambiguated>
+                <name>Valery Ryumin</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Valery_Ryumin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0304qm</freebase>
+                <yago>http://yago-knowledge.org/resource/Valery_Ryumin</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.780635</relevance>
+            <count>3</count>
+            <text>Leonid Popov</text>
+            <disambiguated>
+                <name>Leonid Popov</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Leonid_Popov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03kltp</freebase>
+                <yago>http://yago-knowledge.org/resource/Leonid_Popov</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.842713</relevance>
+            <relevance>0.664234</relevance>
             <count>4</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.721616</relevance>
-            <count>4</count>
-            <text>Valery Popov</text>
-            <disambiguated>
-                <name>Valery Nikolayevich Popov</name>
-                <dbpedia>http://dbpedia.org/resource/Valery_Nikolayevich_Popov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05pbdgm</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.650472</relevance>
-            <count>5</count>
-            <text>Leonid Ryumin</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.564611</relevance>
+            <relevance>0.541537</relevance>
             <count>2</count>
             <text>Pham Tuan</text>
             <disambiguated>
@@ -41,13 +50,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.527245</relevance>
+            <relevance>0.499782</relevance>
             <count>1</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.48584</relevance>
+            <relevance>0.465018</relevance>
             <count>2</count>
             <text>Viktor Gorbatko</text>
             <disambiguated>
@@ -59,14 +68,25 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.455994</relevance>
+            <count>1</count>
+            <text>Valery Popov</text>
+            <disambiguated>
+                <name>Valery Nikolayevich Popov</name>
+                <dbpedia>http://dbpedia.org/resource/Valery_Nikolayevich_Popov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05pbdgm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.416885</relevance>
+            <relevance>0.363399</relevance>
             <count>1</count>
             <text>Salyut</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.362709</relevance>
+            <relevance>0.360997</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -85,7 +105,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.34117</relevance>
+            <relevance>0.350206</relevance>
             <count>1</count>
             <text>Soviet Union</text>
             <disambiguated>
@@ -101,13 +121,13 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.320525</relevance>
+            <relevance>0.32985</relevance>
             <count>1</count>
             <text>Moscow</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.299712</relevance>
+            <relevance>0.322759</relevance>
             <count>1</count>
             <text>Moscow Dom Svc</text>
         </entity>

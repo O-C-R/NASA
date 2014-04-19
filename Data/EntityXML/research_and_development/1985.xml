@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.904687</relevance>
+            <relevance>0.788392</relevance>
             <count>69</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,59 +28,21 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.412913</relevance>
-            <count>9</count>
-            <text>MSFC</text>
-            <disambiguated>
-                <name>Marshall Space Flight Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.404081</relevance>
-            <count>5</count>
+            <relevance>0.390987</relevance>
+            <count>6</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.370085</relevance>
-            <count>4</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.365901</relevance>
+            <count>16</count>
+            <text>Halley</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.361147</relevance>
-            <count>3</count>
-            <text>Ames-Dryden Flight Research Facility</text>
-            <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.348003</relevance>
-            <count>10</count>
+            <relevance>0.314951</relevance>
+            <count>12</count>
             <text>Jet Propulsion Laboratory</text>
             <disambiguated>
                 <name>Jet Propulsion Laboratory</name>
@@ -94,9 +56,39 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.314623</relevance>
+            <count>8</count>
+            <text>MSFC</text>
+            <disambiguated>
+                <name>Marshall Space Flight Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
+                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.309821</relevance>
+            <count>4</count>
+            <text>Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.347083</relevance>
-            <count>9</count>
+            <relevance>0.293675</relevance>
+            <count>10</count>
             <text>U.S.</text>
             <disambiguated>
                 <name>United States</name>
@@ -114,14 +106,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.339026</relevance>
-            <count>15</count>
-            <text>Halley</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.329654</relevance>
+            <relevance>0.272253</relevance>
             <count>2</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -139,37 +125,97 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.324502</relevance>
-            <count>7</count>
-            <text>MAW</text>
+            <relevance>0.252615</relevance>
+            <count>3</count>
+            <text>Ames-Dryden Flight Research Facility</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.246476</relevance>
+            <count>4</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.245644</relevance>
+            <count>4</count>
+            <text>LeRC</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.310085</relevance>
+            <relevance>0.242749</relevance>
             <count>7</count>
             <text>Galileo</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.291062</relevance>
-            <count>2</count>
-            <text>Flight Research Center</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.289632</relevance>
-            <count>3</count>
-            <text>Jupiter</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.288527</relevance>
+            <relevance>0.238982</relevance>
             <count>2</count>
             <text>Lewis Research Center</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.231745</relevance>
+            <count>1</count>
+            <text>Dryden Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23074</relevance>
+            <count>2</count>
+            <text>Navy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.228763</relevance>
+            <count>7</count>
+            <text>MAW</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.226263</relevance>
+            <count>3</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.22544</relevance>
+            <count>2</count>
+            <text>Flight Research Center</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.284416</relevance>
+            <relevance>0.223773</relevance>
             <count>3</count>
             <text>General Dynamics Corp.</text>
             <disambiguated>
@@ -184,57 +230,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.283919</relevance>
-            <count>1</count>
-            <text>Manned Flight Awareness Panel</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.27977</relevance>
-            <count>4</count>
-            <text>LeRC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.278336</relevance>
-            <count>1</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-                <crunchbase>http://www.crunchbase.com/company/nasa</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.272949</relevance>
-            <count>3</count>
-            <text>Aviation Week</text>
-            <disambiguated>
-                <name>Aviation Week &amp; Space Technology</name>
-                <subType>ConsumerProduct</subType>
-                <subType>Magazine</subType>
-                <website>http://www.aviationweek.com</website>
-                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
-                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>HealthCondition</type>
-            <relevance>0.269433</relevance>
+            <relevance>0.21864</relevance>
             <count>1</count>
             <text>space adaptation syndrome</text>
             <disambiguated>
@@ -245,14 +242,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.266714</relevance>
-            <count>2</count>
-            <text>Navy</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.266156</relevance>
+            <relevance>0.216621</relevance>
             <count>2</count>
             <text>President Reagan</text>
             <disambiguated>
@@ -274,103 +265,37 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.263619</relevance>
+            <relevance>0.215003</relevance>
             <count>5</count>
             <text>McDonnell Douglas</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.261395</relevance>
-            <count>1</count>
-            <text>Dryden Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.259975</relevance>
-            <count>2</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Spirit AeroSystems</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.spiritaero.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
-                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.258617</relevance>
-            <count>1</count>
-            <text>Jesse Moore</text>
-            <disambiguated>
-                <name>Jesse Hale Moore</name>
-                <dbpedia>http://dbpedia.org/resource/Jesse_Hale_Moore</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rkzhm</freebase>
-                <yago>http://yago-knowledge.org/resource/Jesse_Hale_Moore</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.257648</relevance>
-            <count>4</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.256635</relevance>
-            <count>3</count>
-            <text>Pentagon</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.255952</relevance>
-            <count>2</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.25595</relevance>
-            <count>2</count>
-            <text>aerospace industry</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.255564</relevance>
+            <relevance>0.214635</relevance>
             <count>5</count>
             <text>SCAS</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.253751</relevance>
+            <type>City</type>
+            <relevance>0.212231</relevance>
+            <count>3</count>
+            <text>Jupiter</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.212145</relevance>
+            <count>3</count>
+            <text>Pentagon</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.211766</relevance>
             <count>2</count>
-            <text>associate administrator</text>
+            <text>Department of Defense</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.253338</relevance>
+            <relevance>0.211397</relevance>
             <count>1</count>
             <text>General Electric Co.</text>
             <disambiguated>
@@ -384,88 +309,140 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.251463</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.210153</relevance>
             <count>2</count>
-            <text>Department of Defense</text>
+            <text>aerospace industry</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.209906</relevance>
+            <count>2</count>
+            <text>Boeing</text>
+            <disambiguated>
+                <name>Spirit AeroSystems</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.spiritaero.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
+                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.209709</relevance>
+            <count>7</count>
+            <text>Pioneer</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.250993</relevance>
+            <relevance>0.209464</relevance>
             <count>1</count>
             <text>NASA/Defense Advanced Research Projects Agency</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.206882</relevance>
+            <count>2</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.205811</relevance>
+            <count>1</count>
+            <text>Atmospheric Research</text>
+            <disambiguated>
+                <name>Atmospheric Research</name>
+                <subType>Journal</subType>
+                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
+                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
+                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.249966</relevance>
+            <relevance>0.201919</relevance>
             <count>1</count>
             <text>Ames Dryden Flight Research Facility</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.248771</relevance>
+            <type>Organization</type>
+            <relevance>0.199994</relevance>
             <count>1</count>
-            <text>JetStar</text>
+            <text>Society of Experimental Test Pilots</text>
             <disambiguated>
-                <name>Jetstar Airways</name>
-                <subType>Airline</subType>
-                <website>http://www.jetstar.com</website>
-                <dbpedia>http://dbpedia.org/resource/Jetstar_Airways</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ghcz</freebase>
-                <yago>http://yago-knowledge.org/resource/Jetstar_Airways</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243993</relevance>
-            <count>1</count>
-            <text>Center for Space and Law Policy</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.2423</relevance>
-            <count>3</count>
-            <text>ARI</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240493</relevance>
-            <count>1</count>
-            <text>Small Business Innovation Research</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.238937</relevance>
-            <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+                <name>Society of Experimental Test Pilots</name>
+                <website>http://www.setp.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Society_of_Experimental_Test_Pilots</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04mkh5</freebase>
+                <yago>http://yago-knowledge.org/resource/Society_of_Experimental_Test_Pilots</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.236217</relevance>
+            <relevance>0.19995</relevance>
             <count>1</count>
             <text>Wallops Flight Facility</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.235136</relevance>
+            <relevance>0.199812</relevance>
+            <count>1</count>
+            <text>Manned Flight Awareness Panel</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196992</relevance>
+            <count>2</count>
+            <text>FBIS Moscow TASS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196911</relevance>
             <count>2</count>
             <text>DOD</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.232185</relevance>
+            <relevance>0.196113</relevance>
+            <count>1</count>
+            <text>Center for Space and Law Policy</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.194608</relevance>
+            <count>1</count>
+            <text>Chairman Dan Glickman</text>
+            <disambiguated>
+                <name>Dan Glickman</name>
+                <subType>Politician</subType>
+                <subType>BoardMember</subType>
+                <subType>OfficeHolder</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Dan_Glickman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03b91z</freebase>
+                <yago>http://yago-knowledge.org/resource/Dan_Glickman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.194425</relevance>
+            <count>1</count>
+            <text>Small Business Innovation Research</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.193769</relevance>
             <count>1</count>
             <text>DARPA</text>
             <disambiguated>
@@ -480,7 +457,96 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.231254</relevance>
+            <relevance>0.193172</relevance>
+            <count>1</count>
+            <text>Grumman</text>
+            <disambiguated>
+                <name>Grumman</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
+                <yago>http://yago-knowledge.org/resource/Grumman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.192195</relevance>
+            <count>4</count>
+            <text>IHW</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.191275</relevance>
+            <count>2</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.191103</relevance>
+            <count>1</count>
+            <text>Stephen Hall</text>
+            <disambiguated>
+                <name>Stephen Hall</name>
+                <subType>Actor</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <subType>FilmWriter</subType>
+                <subType>TVWriter</subType>
+                <dbpedia>http://dbpedia.org/resource/Stephen_Hall</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02q4x2t</freebase>
+                <yago>http://yago-knowledge.org/resource/Stephen_Hall</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.190891</relevance>
+            <count>1</count>
+            <text>Cedars-Sinai Medical Center</text>
+            <disambiguated>
+                <name>Cedars-Sinai Medical Center</name>
+                <subType>Location</subType>
+                <subType>Building</subType>
+                <subType>Hospital</subType>
+                <website>http://www.csmc.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Cedars-Sinai_Medical_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02bbmp</freebase>
+                <yago>http://yago-knowledge.org/resource/Cedars-Sinai_Medical_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.19073</relevance>
+            <count>1</count>
+            <text>Los Angeles</text>
+            <disambiguated>
+                <name>Los Angeles</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.190399</relevance>
             <count>2</count>
             <text>Teledyne Brown Engineering</text>
             <disambiguated>
@@ -491,36 +557,6 @@
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvXymzpwpEbGdrcN5Y29ycA</opencyc>
                 <yago>http://yago-knowledge.org/resource/Teledyne</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.231075</relevance>
-            <count>2</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.23018</relevance>
-            <count>1</count>
-            <text>International Association of Quality Circles</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.228988</relevance>
-            <count>1</count>
-            <text>president</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.228965</relevance>
-            <count>1</count>
-            <text>AFTI</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.228423</relevance>
-            <count>1</count>
-            <text>George Burns</text>
         </entity>
     </entities>
 </results>

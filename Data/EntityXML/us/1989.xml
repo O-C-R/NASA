@@ -6,8 +6,27 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.921775</relevance>
+            <count>3</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.91853</relevance>
+            <relevance>0.77908</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,27 +47,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.838562</relevance>
-            <count>3</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.669402</relevance>
+            <relevance>0.70232</relevance>
             <count>1</count>
             <text>Vandenberg Air Force Base</text>
             <disambiguated>
@@ -66,14 +66,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.666771</relevance>
-            <count>2</count>
-            <text>Dr. C. Howard Robins</text>
+            <type>Organization</type>
+            <relevance>0.669507</relevance>
+            <count>1</count>
+            <text>Air Force Midgetman</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.65034</relevance>
+            <relevance>0.652791</relevance>
             <count>2</count>
             <text>American Astronomical Society</text>
             <disambiguated>
@@ -85,20 +85,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.612707</relevance>
+            <type>Person</type>
+            <relevance>0.601694</relevance>
             <count>2</count>
-            <text>UPI</text>
+            <text>Dr. C. Howard Robins</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.60598</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Management</text>
+            <type>Company</type>
+            <relevance>0.564445</relevance>
+            <count>2</count>
+            <text>USA Today</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.596228</relevance>
+            <relevance>0.561155</relevance>
             <count>1</count>
             <text>Cape Canaveral Air Force station</text>
             <disambiguated>
@@ -112,26 +112,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.559706</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.539739</relevance>
             <count>2</count>
-            <text>USA Today</text>
+            <text>UPI</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.549948</relevance>
+            <type>JobTitle</type>
+            <relevance>0.534133</relevance>
             <count>1</count>
-            <text>Air Force</text>
-            <disambiguated>
-                <name>Air force</name>
-                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
+            <text>NASA Associate Administrator for Management</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.522623</relevance>
+            <relevance>0.530042</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -147,47 +141,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.499859</relevance>
+            <type>Organization</type>
+            <relevance>0.517624</relevance>
             <count>1</count>
-            <text>WSJ</text>
+            <text>Air Force</text>
             <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
+                <name>Air force</name>
+                <dbpedia>http://dbpedia.org/resource/Air_force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.013m1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwazJwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.485028</relevance>
-            <count>1</count>
-            <text>Manuel Peralta</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.46651</relevance>
-            <count>1</count>
-            <text>Martha Haynes</text>
-            <disambiguated>
-                <name>Martha P. Haynes</name>
-                <website>http://egg.astro.cornell.edu/alfalfa/</website>
-                <dbpedia>http://dbpedia.org/resource/Martha_P._Haynes</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05p656c</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.466459</relevance>
-            <count>1</count>
-            <text>WSJ</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.464487</relevance>
+            <relevance>0.505932</relevance>
             <count>1</count>
             <text>Pacific Ocean</text>
             <disambiguated>
@@ -202,28 +169,73 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.461554</relevance>
-            <count>2</count>
-            <text>California Institute of Technology</text>
+            <type>PrintMedia</type>
+            <relevance>0.501639</relevance>
+            <count>1</count>
+            <text>WSJ</text>
             <disambiguated>
-                <name>California Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>34.138577 -118.125494</geo>
-                <website>http://www.caltech.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
-                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/6331816/</geonames>
+                <name>The Wall Street Journal</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.wsj.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.49059</relevance>
+            <count>1</count>
+            <text>officer</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.469888</relevance>
+            <count>1</count>
+            <text>WSJ</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.468472</relevance>
+            <count>1</count>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.468152</relevance>
+            <count>1</count>
+            <text>Martha Haynes</text>
+            <disambiguated>
+                <name>Martha P. Haynes</name>
+                <website>http://egg.astro.cornell.edu/alfalfa/</website>
+                <dbpedia>http://dbpedia.org/resource/Martha_P._Haynes</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05p656c</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.461029</relevance>
+            <count>1</count>
+            <text>Kwajalen Atoll</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.45627</relevance>
+            <relevance>0.454267</relevance>
             <count>1</count>
             <text>Cornell University</text>
             <disambiguated>
@@ -243,26 +255,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.4498</relevance>
-            <count>1</count>
-            <text>officer</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.448097</relevance>
-            <count>1</count>
-            <text>American National Standards Institute.</text>
+            <relevance>0.451927</relevance>
+            <count>2</count>
+            <text>California Institute of Technology</text>
+            <disambiguated>
+                <name>California Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>34.138577 -118.125494</geo>
+                <website>http://www.caltech.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/California_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sjgpq</freebase>
+                <yago>http://yago-knowledge.org/resource/California_Institute_of_Technology</yago>
+                <geonames>http://sws.geonames.org/6331816/</geonames>
+            </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.447011</relevance>
+            <type>Person</type>
+            <relevance>0.436754</relevance>
             <count>1</count>
-            <text>president</text>
+            <text>Manuel Peralta</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.442989</relevance>
+            <relevance>0.428231</relevance>
             <count>1</count>
             <text>Boston</text>
             <disambiguated>
@@ -273,34 +293,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.442929</relevance>
+            <type>Person</type>
+            <relevance>0.408374</relevance>
             <count>1</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
+            <text>Ricardo Giovanelli</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.417195</relevance>
+            <type>JobTitle</type>
+            <relevance>0.402486</relevance>
             <count>1</count>
-            <text>Kwajalen Atoll</text>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.401666</relevance>
+            <count>1</count>
+            <text>American National Standards Institute.</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.415619</relevance>
+            <relevance>0.391154</relevance>
             <count>1</count>
             <text>Florida</text>
             <disambiguated>
@@ -319,26 +331,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.415618</relevance>
-            <count>1</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.406677</relevance>
-            <count>1</count>
-            <text>Ricardo Giovanelli</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.387877</relevance>
-            <count>1</count>
-            <text>Department of Defense</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.386233</relevance>
+            <relevance>0.385343</relevance>
             <count>1</count>
             <text>Princeton University</text>
             <disambiguated>
@@ -357,9 +351,21 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.383866</relevance>
+            <relevance>0.369409</relevance>
             <count>1</count>
             <text>Massachusetts.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.363016</relevance>
+            <count>1</count>
+            <text>Department of Defense</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.362405</relevance>
+            <count>1</count>
+            <text>Jr.</text>
         </entity>
     </entities>
 </results>

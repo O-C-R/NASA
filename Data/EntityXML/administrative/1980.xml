@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.906776</relevance>
+            <relevance>0.904411</relevance>
             <count>17</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,25 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.631579</relevance>
+            <relevance>0.524709</relevance>
             <count>3</count>
             <text>NASA administrator</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.499953</relevance>
+            <relevance>0.509638</relevance>
             <count>4</count>
             <text>deputy administrator</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.500815</relevance>
+            <count>4</count>
+            <text>associate administrator</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.399301</relevance>
+            <relevance>0.371664</relevance>
             <count>5</count>
             <text>FAA</text>
             <disambiguated>
@@ -55,7 +61,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.387536</relevance>
+            <relevance>0.326472</relevance>
             <count>5</count>
             <text>Dr. Robert A. Frosch</text>
             <disambiguated>
@@ -66,34 +72,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.379994</relevance>
-            <count>4</count>
-            <text>associate administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.274654</relevance>
-            <count>2</count>
-            <text>administrator</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.25635</relevance>
-            <count>2</count>
-            <text>DFRC</text>
-            <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.250803</relevance>
+            <relevance>0.302837</relevance>
             <count>3</count>
             <text>George M. Low</text>
             <disambiguated>
@@ -106,13 +86,26 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.242787</relevance>
-            <count>1</count>
-            <text>acting administrator</text>
+            <relevance>0.274418</relevance>
+            <count>2</count>
+            <text>administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.258635</relevance>
+            <count>3</count>
+            <text>NSTA</text>
+            <disambiguated>
+                <name>National Science Teachers Association</name>
+                <website>http://www.nsta.org/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Science_Teachers_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cymrk</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Science_Teachers_Association</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.240514</relevance>
+            <relevance>0.244392</relevance>
             <count>2</count>
             <text>American Airlines</text>
             <disambiguated>
@@ -126,33 +119,108 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.242543</relevance>
+            <count>1</count>
+            <text>acting administrator</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.237027</relevance>
+            <relevance>0.240566</relevance>
             <count>3</count>
             <text>Chicago</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.217445</relevance>
-            <count>3</count>
-            <text>NSTA</text>
+            <type>Person</type>
+            <relevance>0.232857</relevance>
+            <count>2</count>
+            <text>Dr. Alan M. Lovelace</text>
             <disambiguated>
-                <name>National Science Teachers Association</name>
-                <website>http://www.nsta.org/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Science_Teachers_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cymrk</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Science_Teachers_Association</yago>
+                <name>Alan M. Lovelace</name>
+                <dbpedia>http://dbpedia.org/resource/Alan_M._Lovelace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04crl3f</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.2304</relevance>
+            <count>1</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226876</relevance>
+            <count>1</count>
+            <text>Rensselaer Polytechnic Institute</text>
+            <disambiguated>
+                <name>Rensselaer Polytechnic Institute</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.73 -73.6775</geo>
+                <website>http://www.rpi.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bk1y</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvWEs2ZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Rensselaer_Polytechnic_Institute</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.216454</relevance>
+            <count>2</count>
+            <text>DFRC</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.216034</relevance>
+            <relevance>0.215837</relevance>
             <count>1</count>
             <text>deputy assistant secretary</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.215046</relevance>
+            <relevance>0.212776</relevance>
+            <count>1</count>
+            <text>NRC</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.211053</relevance>
+            <count>1</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.2078</relevance>
+            <count>1</count>
+            <text>Neil Goldschmidt</text>
+            <disambiguated>
+                <name>Neil Goldschmidt</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Neil_Goldschmidt</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020jjq</freebase>
+                <yago>http://yago-knowledge.org/resource/Neil_Goldschmidt</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.205642</relevance>
             <count>2</count>
             <text>KSC</text>
             <disambiguated>
@@ -170,76 +238,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.213041</relevance>
-            <count>1</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.211863</relevance>
-            <count>1</count>
-            <text>Isaac T. Gillam IV</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.208546</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.205326</relevance>
-            <count>1</count>
-            <text>Rensselaer Polytechnic Institute</text>
-            <disambiguated>
-                <name>Rensselaer Polytechnic Institute</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.73 -73.6775</geo>
-                <website>http://www.rpi.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bk1y</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWEs2ZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Rensselaer_Polytechnic_Institute</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.205078</relevance>
+            <relevance>0.204889</relevance>
             <count>1</count>
             <text>deputy director</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.204164</relevance>
+            <type>JobTitle</type>
+            <relevance>0.201609</relevance>
             <count>1</count>
-            <text>Neil Goldschmidt</text>
-            <disambiguated>
-                <name>Neil Goldschmidt</name>
-                <subType>Politician</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Neil_Goldschmidt</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020jjq</freebase>
-                <yago>http://yago-knowledge.org/resource/Neil_Goldschmidt</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.19848</relevance>
-            <count>1</count>
-            <text>FRC</text>
+            <text>chairman</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.197248</relevance>
+            <relevance>0.197091</relevance>
             <count>1</count>
             <text>President Carter</text>
             <disambiguated>
@@ -261,34 +272,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.195635</relevance>
-            <count>2</count>
-            <text>Dr. Alan M. Lovelace</text>
-            <disambiguated>
-                <name>Alan M. Lovelace</name>
-                <dbpedia>http://dbpedia.org/resource/Alan_M._Lovelace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04crl3f</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.19507</relevance>
-            <count>1</count>
-            <text>JPL</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.193905</relevance>
+            <relevance>0.193749</relevance>
             <count>1</count>
             <text>President Ford</text>
             <disambiguated>
@@ -312,44 +296,44 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.192216</relevance>
+            <count>1</count>
+            <text>Washington Star</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.191504</relevance>
+            <count>1</count>
+            <text>FRC</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.192971</relevance>
+            <relevance>0.189728</relevance>
             <count>1</count>
             <text>project manager</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.189288</relevance>
-            <count>1</count>
-            <text>president</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.186987</relevance>
-            <count>1</count>
-            <text>Kermit Watkins</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.186427</relevance>
-            <count>1</count>
-            <text>Dly Actv Rept</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.184227</relevance>
+            <relevance>0.187827</relevance>
             <count>1</count>
             <text>Secretary</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.180827</relevance>
+            <type>Person</type>
+            <relevance>0.183692</relevance>
             <count>1</count>
-            <text>chairman</text>
+            <text>Kermit Watkins</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.181783</relevance>
+            <count>1</count>
+            <text>director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.179879</relevance>
+            <relevance>0.17973</relevance>
             <count>1</count>
             <text>Gerald D. Griffin</text>
             <disambiguated>
@@ -361,13 +345,35 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.179719</relevance>
+            <relevance>0.178027</relevance>
             <count>1</count>
-            <text>NRC</text>
+            <text>JPL</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.178015</relevance>
+            <count>1</count>
+            <text>Isaac T. Gillam IV</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.177473</relevance>
+            <count>1</count>
+            <text>Dly Actv Rept</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.176811</relevance>
+            <relevance>0.176666</relevance>
             <count>1</count>
             <text>DOE</text>
             <disambiguated>
@@ -383,73 +389,67 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.175022</relevance>
+            <relevance>0.174859</relevance>
             <count>1</count>
             <text>University Affairs</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.171272</relevance>
+            <relevance>0.171123</relevance>
             <count>1</count>
             <text>Spacelab</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.170556</relevance>
-            <count>1</count>
-            <text>Washington Star</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.163701</relevance>
+            <relevance>0.163552</relevance>
             <count>1</count>
             <text>Dr. Stanley I. Weiss</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.161963</relevance>
+            <relevance>0.161811</relevance>
             <count>1</count>
             <text>Office of Aeronautics and Space Technology</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.161655</relevance>
+            <relevance>0.16151</relevance>
             <count>1</count>
             <text>Senate</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.157818</relevance>
+            <relevance>0.157664</relevance>
             <count>1</count>
             <text>President-elect Reagan</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.149866</relevance>
+            <relevance>0.149717</relevance>
             <count>1</count>
             <text>OAST</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.149383</relevance>
+            <relevance>0.149235</relevance>
             <count>1</count>
             <text>general manager</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.147924</relevance>
+            <relevance>0.14776</relevance>
             <count>1</count>
             <text>Offices of Public Affairs</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.146141</relevance>
+            <relevance>0.145979</relevance>
             <count>1</count>
             <text>International Affairs</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.139993</relevance>
+            <relevance>0.139847</relevance>
             <count>1</count>
             <text>DOD</text>
         </entity>

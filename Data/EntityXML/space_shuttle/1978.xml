@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.800626</relevance>
+            <relevance>0.805517</relevance>
             <count>48</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,38 +28,53 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.477516</relevance>
+            <count>10</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.435303</relevance>
+            <relevance>0.469527</relevance>
             <count>11</count>
             <text>Marshall Star</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.430316</relevance>
-            <count>10</count>
-            <text>MSFC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.380902</relevance>
+            <relevance>0.432227</relevance>
             <count>5</count>
             <text>Shuttle</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.377253</relevance>
-            <count>5</count>
+            <type>Company</type>
+            <relevance>0.378095</relevance>
+            <count>6</count>
             <text>Spacelab</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.361742</relevance>
-            <count>3</count>
-            <text>Space Transportation System</text>
+            <relevance>0.367426</relevance>
+            <count>11</count>
+            <text>JSC</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson Space Center</name>
+                <geo>29.563 -95.091</geo>
+                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.322683</relevance>
+            <count>6</count>
+            <text>AvWk</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.342519</relevance>
+            <relevance>0.322111</relevance>
             <count>8</count>
             <text>ESA</text>
             <disambiguated>
@@ -78,22 +93,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.319844</relevance>
-            <count>11</count>
-            <text>JSC</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
+            <relevance>0.306282</relevance>
+            <count>3</count>
+            <text>Space Transportation System</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.27968</relevance>
+            <count>1</count>
+            <text>Johnson Space Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.294831</relevance>
+            <relevance>0.276792</relevance>
             <count>1</count>
             <text>Space Technology Laboratories</text>
             <disambiguated>
@@ -105,14 +117,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.29031</relevance>
-            <count>6</count>
-            <text>AvWk</text>
+            <type>Organization</type>
+            <relevance>0.275164</relevance>
+            <count>7</count>
+            <text>LDEF</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.273954</relevance>
+            <count>2</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.268733</relevance>
+            <count>8</count>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.282308</relevance>
+            <relevance>0.262445</relevance>
             <count>5</count>
             <text>KSC</text>
             <disambiguated>
@@ -129,14 +167,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.280453</relevance>
-            <count>3</count>
-            <text>Spacelab</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.260938</relevance>
+            <relevance>0.258947</relevance>
             <count>3</count>
             <text>Bay St. Louis</text>
             <disambiguated>
@@ -149,14 +181,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.255822</relevance>
+            <type>Company</type>
+            <relevance>0.256092</relevance>
             <count>1</count>
-            <text>Space Experiments Integration Office</text>
+            <text>National Space Technology Laboratories</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.254894</relevance>
+            <relevance>0.245685</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -177,66 +209,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.243549</relevance>
+            <type>Organization</type>
+            <relevance>0.244982</relevance>
             <count>1</count>
-            <text>National Space Technology Laboratories</text>
+            <text>Space Experiments Integration Office</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.239582</relevance>
-            <count>2</count>
-            <text>MSBLS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.232542</relevance>
-            <count>3</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.232378</relevance>
-            <count>8</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.231487</relevance>
-            <count>5</count>
-            <text>Skylab</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.230481</relevance>
-            <count>4</count>
-            <text>Jetstar</text>
-            <disambiguated>
-                <name>Jetstar Airways</name>
-                <subType>Airline</subType>
-                <website>http://www.jetstar.com</website>
-                <dbpedia>http://dbpedia.org/resource/Jetstar_Airways</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02ghcz</freebase>
-                <yago>http://yago-knowledge.org/resource/Jetstar_Airways</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227692</relevance>
+            <relevance>0.240566</relevance>
             <count>1</count>
             <text>MSFC</text>
             <disambiguated>
@@ -250,20 +230,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.224945</relevance>
-            <count>7</count>
-            <text>LDEF</text>
+            <type>Person</type>
+            <relevance>0.234439</relevance>
+            <count>1</count>
+            <text>NASA Actv.</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.219222</relevance>
+            <type>Technology</type>
+            <relevance>0.225471</relevance>
+            <count>5</count>
+            <text>Skylab</text>
+        </entity>
+        <entity>
+            <type>OperatingSystem</type>
+            <relevance>0.220917</relevance>
+            <count>2</count>
+            <text>Geos</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.219325</relevance>
+            <count>3</count>
+            <text>LaRC</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.212593</relevance>
+            <count>2</count>
+            <text>principal</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.212406</relevance>
             <count>1</count>
-            <text>Johnson Space Center</text>
+            <text>RCA</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.218811</relevance>
+            <relevance>0.211664</relevance>
             <count>2</count>
             <text>Miss.</text>
             <disambiguated>
@@ -282,56 +286,170 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.217996</relevance>
+            <relevance>0.211234</relevance>
             <count>4</count>
             <text>solar cells</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.215185</relevance>
-            <count>2</count>
-            <text>Spaceport News</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.212822</relevance>
-            <count>1</count>
-            <text>RCA</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.210385</relevance>
-            <count>3</count>
-            <text>LaRC</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.209267</relevance>
+            <relevance>0.208588</relevance>
             <count>1</count>
-            <text>orbiters</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.206478</relevance>
-            <count>2</count>
-            <text>NY Times</text>
+            <text>Dr. Don Lind</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Don L. Lind</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Don_L._Lind</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02wt32</freebase>
+                <yago>http://yago-knowledge.org/resource/Don_L._Lind</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.206038</relevance>
+            <relevance>0.207807</relevance>
+            <count>2</count>
+            <text>W. Germany</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.207403</relevance>
+            <count>3</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.205758</relevance>
+            <count>1</count>
+            <text>Oakland</text>
+            <disambiguated>
+                <name>Oakland, California</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>37.80444444444444 -122.27083333333333</geo>
+                <website>http://www.oaklandnet.com</website>
+                <dbpedia>http://dbpedia.org/resource/Oakland,_California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dc95</freebase>
+                <yago>http://yago-knowledge.org/resource/Oakland,_California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.205236</relevance>
+            <count>1</count>
+            <text>Calif.</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.204795</relevance>
+            <count>1</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Martin Aeronautics</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Aeronautics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04z0wr</freebase>
+                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Aeronautics</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.202099</relevance>
+            <count>4</count>
+            <text>Jetstar</text>
+            <disambiguated>
+                <name>Jetstar Airways</name>
+                <subType>Airline</subType>
+                <website>http://www.jetstar.com</website>
+                <dbpedia>http://dbpedia.org/resource/Jetstar_Airways</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02ghcz</freebase>
+                <yago>http://yago-knowledge.org/resource/Jetstar_Airways</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.201457</relevance>
+            <count>1</count>
+            <text>Michoud Assembly Facility</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.200356</relevance>
+            <count>1</count>
+            <text>Michoud</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.19973</relevance>
+            <count>2</count>
+            <text>Global Associates</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.19969</relevance>
+            <count>1</count>
+            <text>RCA Government Systems Division</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.199597</relevance>
+            <count>2</count>
+            <text>Business Daily</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.19929</relevance>
+            <count>1</count>
+            <text>Slidell</text>
+            <disambiguated>
+                <name>Slidell, Louisiana</name>
+                <geo>30.279166666666665 -89.77777777777777</geo>
+                <website>http://www.slidell.la.us</website>
+                <dbpedia>http://dbpedia.org/resource/Slidell,_Louisiana</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0tmsj</freebase>
+                <yago>http://yago-knowledge.org/resource/Slidell,_Louisiana</yago>
+                <geonames>http://sws.geonames.org/4341727/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.197997</relevance>
+            <count>1</count>
+            <text>New Orleans</text>
+            <disambiguated>
+                <name>New Orleans</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <geo>29.96472222222222 -90.07055555555556</geo>
+                <website>http://www.cityofno.com</website>
+                <dbpedia>http://dbpedia.org/resource/New_Orleans</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2tj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.197776</relevance>
+            <count>1</count>
+            <text>food services</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.19365</relevance>
             <count>1</count>
             <text>Rocketdyne</text>
             <disambiguated>
@@ -342,191 +460,40 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.205378</relevance>
-            <count>1</count>
-            <text>RCA Government Systems Division</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.203406</relevance>
-            <count>2</count>
-            <text>Business Daily</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.202486</relevance>
+            <relevance>0.193262</relevance>
             <count>1</count>
-            <text>NASA Actv.</text>
+            <text>Dr. Horst Bucker</text>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.199755</relevance>
-            <count>4</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
+            <type>Facility</type>
+            <relevance>0.193184</relevance>
+            <count>1</count>
+            <text>Slidell Computer Complex</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.192521</relevance>
+            <count>1</count>
+            <text>Michoud</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.199083</relevance>
+            <relevance>0.192294</relevance>
             <count>2</count>
             <text>Lewis News</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.19888</relevance>
-            <count>1</count>
-            <text>Nature magazine</text>
-            <disambiguated>
-                <name>Nature (journal)</name>
-                <subType>Journal</subType>
-                <subType>Magazine</subType>
-                <website>http://www.nature.com/nature/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Nature_(journal)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bwyb</freebase>
-                <yago>http://yago-knowledge.org/resource/Nature_(journal)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.195782</relevance>
-            <count>2</count>
-            <text>Teledyne Brown Engineering</text>
-            <disambiguated>
-                <name>Teledyne</name>
-                <website>http://www.teledyne.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Teledyne</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03lzf6</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvXymzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Teledyne</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.195283</relevance>
-            <count>2</count>
-            <text>principal</text>
-        </entity>
-        <entity>
-            <type>OperatingSystem</type>
-            <relevance>0.193014</relevance>
-            <count>2</count>
-            <text>Geos</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.192675</relevance>
-            <count>1</count>
-            <text>Research Council&#x2019;s Assembly of Engineering</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.19261</relevance>
-            <count>1</count>
-            <text>ERNO</text>
-            <disambiguated>
-                <name>Entwicklungsring Nord</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>Company</subType>
-                <dbpedia>http://dbpedia.org/resource/Entwicklungsring_Nord</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01k566</freebase>
-                <yago>http://yago-knowledge.org/resource/Entwicklungsring_Nord</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.192293</relevance>
+            <relevance>0.192208</relevance>
             <count>1</count>
-            <text>Dr. Chris Kraft</text>
-            <disambiguated>
-                <name>Christopher C. Kraft, Jr.</name>
-                <dbpedia>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vcvg</freebase>
-                <yago>http://yago-knowledge.org/resource/Christopher_C._Kraft,_Jr.</yago>
-            </disambiguated>
+            <text>Dr. Fred Horz</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.191769</relevance>
-            <count>2</count>
-            <text>OFT</text>
-            <disambiguated>
-                <name>Office of Fair Trading</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.oft.gov.uk</website>
-                <dbpedia>http://dbpedia.org/resource/Office_of_Fair_Trading</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08c70j</freebase>
-                <yago>http://yago-knowledge.org/resource/Office_of_Fair_Trading</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.190701</relevance>
-            <count>2</count>
-            <text>W. Germany</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.188006</relevance>
+            <relevance>0.191926</relevance>
             <count>1</count>
-            <text>Boeing</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.187959</relevance>
-            <count>1</count>
-            <text>Vancouver</text>
-            <disambiguated>
-                <name>Vancouver</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <geo>49.25 -123.1</geo>
-                <website>http://vancouver.ca/</website>
-                <dbpedia>http://dbpedia.org/resource/Vancouver</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.080h2</freebase>
-                <yago>http://yago-knowledge.org/resource/Vancouver</yago>
-                <geonames>http://sws.geonames.org/6173331/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.187537</relevance>
-            <count>1</count>
-            <text>United Technologies</text>
-            <disambiguated>
-                <name>United Technologies Corporation</name>
-                <website>http://www.utc.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Technologies_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_g11</freebase>
-                <yago>http://yago-knowledge.org/resource/United_Technologies_Corporation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.18655</relevance>
-            <count>1</count>
-            <text>Rockwell Inti</text>
+            <text>Dublin Inst</text>
         </entity>
     </entities>
 </results>

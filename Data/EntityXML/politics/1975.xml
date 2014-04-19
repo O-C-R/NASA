@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.958265</relevance>
+            <relevance>0.846766</relevance>
             <count>7</count>
             <text>NACA</text>
             <disambiguated>
@@ -19,14 +19,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.463336</relevance>
-            <count>2</count>
-            <text>Alexander P. Vinogradov</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.426683</relevance>
+            <relevance>0.335789</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -47,53 +41,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.239401</relevance>
+            <count>2</count>
+            <text>Alexander P. Vinogradov</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.329789</relevance>
+            <relevance>0.236541</relevance>
             <count>1</count>
             <text>National Aeronautics and Space Administration.</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.31952</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences</text>
-            <disambiguated>
-                <name>Russian Academy of Sciences</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>55.710794444444446 37.57781388888889</geo>
-                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
-                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.304399</relevance>
+            <relevance>0.221262</relevance>
             <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.29576</relevance>
-            <count>1</count>
-            <text>Moscow</text>
+            <text>Woodrow Wilson</text>
             <disambiguated>
-                <name>Moscow</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>AwardWinner</subType>
-                <website>http://www.mos.ru</website>
-                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
-                <yago>http://yago-knowledge.org/resource/Moscow</yago>
-                <geonames>http://sws.geonames.org/524901/</geonames>
+                <name>Woodrow Wilson</name>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>USPresident</subType>
+                <website>http://www.whitehouse.gov/history/presidents/ww28.html</website>
+                <dbpedia>http://dbpedia.org/resource/Woodrow_Wilson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.083q7</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUBJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Woodrow_Wilson</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.295641</relevance>
+            <relevance>0.213054</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -114,90 +93,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.290502</relevance>
-            <count>1</count>
-            <text>vice president</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.287161</relevance>
+            <relevance>0.206541</relevance>
             <count>1</count>
             <text>Moscow&#x2019;s Institute of Geochemistry and Analytical Chemistry.</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.277945</relevance>
-            <count>1</count>
-            <text>House Committee on Science</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.266718</relevance>
-            <count>1</count>
-            <text>Woodrow Wilson</text>
-            <disambiguated>
-                <name>Woodrow Wilson</name>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>USPresident</subType>
-                <website>http://www.whitehouse.gov/history/presidents/ww28.html</website>
-                <dbpedia>http://dbpedia.org/resource/Woodrow_Wilson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.083q7</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUBJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Woodrow_Wilson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.260262</relevance>
-            <count>1</count>
-            <text>news agency</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.260094</relevance>
-            <count>1</count>
-            <text>House of Representatives</text>
-            <disambiguated>
-                <name>United States House of Representatives</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.house.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_House_of_Representatives</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b3wk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rIBWeonXbQdeHEdLekSK2AA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_House_of_Representatives</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.254585</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.248784</relevance>
-            <count>1</count>
-            <text>Aero Daily</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.246225</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.242593</relevance>
+            <relevance>0.202749</relevance>
             <count>1</count>
             <text>President</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.200082</relevance>
+            <count>1</count>
+            <text>Soviet Academy of Sciences</text>
+            <disambiguated>
+                <name>Russian Academy of Sciences</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>55.710794444444446 37.57781388888889</geo>
+                <dbpedia>http://dbpedia.org/resource/Russian_Academy_of_Sciences</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.020vy3</freebase>
+                <yago>http://yago-knowledge.org/resource/Russian_Academy_of_Sciences</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.236415</relevance>
+            <relevance>0.195658</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -216,28 +140,104 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.189587</relevance>
+            <count>1</count>
+            <text>House Committee on Science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.187879</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.18746</relevance>
+            <count>1</count>
+            <text>House of Representatives</text>
+            <disambiguated>
+                <name>United States House of Representatives</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.house.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_House_of_Representatives</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b3wk</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rIBWeonXbQdeHEdLekSK2AA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_House_of_Representatives</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.230947</relevance>
+            <relevance>0.185161</relevance>
+            <count>1</count>
+            <text>Moscow</text>
+            <disambiguated>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.182443</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.179427</relevance>
+            <count>1</count>
+            <text>vice president</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.17919</relevance>
+            <count>1</count>
+            <text>Aero Daily</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.178836</relevance>
+            <count>1</count>
+            <text>World War II</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.177074</relevance>
+            <count>1</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.168246</relevance>
+            <count>1</count>
+            <text>transportation network</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.166094</relevance>
             <count>1</count>
             <text>FBIS</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.229244</relevance>
+            <relevance>0.160615</relevance>
             <count>1</count>
-            <text>World War II</text>
+            <text>news agency</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.223021</relevance>
+            <relevance>0.160236</relevance>
             <count>1</count>
             <text>Anderson</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.216017</relevance>
-            <count>1</count>
-            <text>transportation network</text>
         </entity>
     </entities>
 </results>

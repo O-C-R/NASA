@@ -6,8 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>Facility</type>
+            <relevance>0.798678</relevance>
+            <count>4</count>
+            <text>Space Telescope</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.840359</relevance>
+            <relevance>0.654905</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,26 +34,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.762783</relevance>
-            <count>4</count>
-            <text>Space Telescope</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.684481</relevance>
+            <relevance>0.643283</relevance>
             <count>4</count>
             <text>MSFC</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.607892</relevance>
+            <relevance>0.531523</relevance>
             <count>2</count>
             <text>MSFC</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.435445</relevance>
+            <relevance>0.355655</relevance>
             <count>2</count>
             <text>Perkin-Elmer Corporation</text>
             <disambiguated>
@@ -61,7 +61,33 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.373596</relevance>
+            <relevance>0.313994</relevance>
+            <count>2</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Martin Space Systems</name>
+                <subType>CompanyDivision</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
+                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.306545</relevance>
+            <count>1</count>
+            <text>Spacelab</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.302506</relevance>
+            <count>2</count>
+            <text>ARC</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.284512</relevance>
             <count>1</count>
             <text>Corning Glass Works</text>
             <disambiguated>
@@ -71,14 +97,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.360657</relevance>
+            <type>Continent</type>
+            <relevance>0.283313</relevance>
             <count>1</count>
-            <text>Heao</text>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.280915</relevance>
+            <count>1</count>
+            <text>KSC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.35592</relevance>
+            <relevance>0.280502</relevance>
+            <count>1</count>
+            <text>ESA</text>
+            <disambiguated>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.269126</relevance>
             <count>1</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -95,8 +152,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.268547</relevance>
+            <count>1</count>
+            <text>Dryden Flight Research Center</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.34699</relevance>
+            <relevance>0.264191</relevance>
             <count>1</count>
             <text>Corning</text>
             <disambiguated>
@@ -109,70 +172,98 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.336521</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.251644</relevance>
             <count>1</count>
-            <text>Spacelab</text>
+            <text>focal plane</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.334269</relevance>
+            <relevance>0.2495</relevance>
             <count>1</count>
-            <text>Dryden Flight Research Center</text>
+            <text>Langley Research Center</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.333909</relevance>
+            <type>Organization</type>
+            <relevance>0.249385</relevance>
+            <count>1</count>
+            <text>Airline Pilots Association</text>
+            <disambiguated>
+                <name>Air Line Pilots Association, International</name>
+                <subType>TradeUnion</subType>
+                <website>http://www.alpa.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Air_Line_Pilots_Association,_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07hydh</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Line_Pilots_Association,_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.246599</relevance>
             <count>1</count>
             <text>Heao</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.33142</relevance>
-            <count>2</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Martin Space Systems</name>
-                <subType>CompanyDivision</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
-                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.324366</relevance>
+            <relevance>0.245464</relevance>
             <count>1</count>
-            <text>black holes</text>
+            <text>United Airlines</text>
+            <disambiguated>
+                <name>United Airlines</name>
+                <subType>Airline</subType>
+                <subType>TransportOperator</subType>
+                <website>http://www.united.com</website>
+                <dbpedia>http://dbpedia.org/resource/United_Airlines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07y2s</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv0KI-5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Airlines</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.323557</relevance>
-            <count>2</count>
-            <text>ARC</text>
+            <relevance>0.24495</relevance>
+            <count>1</count>
+            <text>House of Representatives</text>
         </entity>
         <entity>
-            <type>Continent</type>
-            <relevance>0.315678</relevance>
+            <type>Organization</type>
+            <relevance>0.239197</relevance>
             <count>1</count>
-            <text>Europe</text>
+            <text>DRFC</text>
             <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
+                <name>Doncaster Rovers F.C.</name>
+                <subType>SportsTeam</subType>
+                <subType>FootballTeam</subType>
+                <subType>SoccerClub</subType>
+                <website>http://www.doncasterroversfc.co.uk</website>
+                <dbpedia>http://dbpedia.org/resource/Doncaster_Rovers_F.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02b15h</freebase>
+                <yago>http://yago-knowledge.org/resource/Doncaster_Rovers_F.C.</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.313709</relevance>
+            <type>Country</type>
+            <relevance>0.23874</relevance>
             <count>1</count>
-            <text>KSC</text>
+            <text>U.S.</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.312857</relevance>
+            <relevance>0.237912</relevance>
             <count>1</count>
             <text>Connecticut</text>
             <disambiguated>
@@ -193,46 +284,21 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.311094</relevance>
-            <count>1</count>
-            <text>ESA</text>
+            <relevance>0.237581</relevance>
+            <count>2</count>
+            <text>Federal Aviation Administration</text>
             <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.31056</relevance>
-            <count>1</count>
-            <text>Langley Research Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.310469</relevance>
-            <count>1</count>
-            <text>Airline Pilots Association</text>
-            <disambiguated>
-                <name>Air Line Pilots Association, International</name>
-                <subType>TradeUnion</subType>
-                <website>http://www.alpa.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Air_Line_Pilots_Association,_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07hydh</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Line_Pilots_Association,_International</yago>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.306651</relevance>
+            <relevance>0.23268</relevance>
             <count>1</count>
             <text>Danbury</text>
             <disambiguated>
@@ -246,97 +312,19 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.305644</relevance>
+            <relevance>0.231839</relevance>
             <count>1</count>
-            <text>United Airlines</text>
-            <disambiguated>
-                <name>United Airlines</name>
-                <subType>Airline</subType>
-                <subType>TransportOperator</subType>
-                <website>http://www.united.com</website>
-                <dbpedia>http://dbpedia.org/resource/United_Airlines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07y2s</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv0KI-5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Airlines</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.304003</relevance>
-            <count>1</count>
-            <text>focal plane</text>
+            <text>Ran-some Airlines</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.297845</relevance>
-            <count>1</count>
-            <text>DRFC</text>
-            <disambiguated>
-                <name>Doncaster Rovers F.C.</name>
-                <subType>SportsTeam</subType>
-                <subType>FootballTeam</subType>
-                <subType>SoccerClub</subType>
-                <website>http://www.doncasterroversfc.co.uk</website>
-                <dbpedia>http://dbpedia.org/resource/Doncaster_Rovers_F.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02b15h</freebase>
-                <yago>http://yago-knowledge.org/resource/Doncaster_Rovers_F.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.297319</relevance>
-            <count>1</count>
-            <text>U.S.</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.295811</relevance>
-            <count>2</count>
-            <text>Federal Aviation Administration</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294085</relevance>
-            <count>1</count>
-            <text>House of Representatives</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.293116</relevance>
+            <relevance>0.231154</relevance>
             <count>1</count>
             <text>QSRA</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.28857</relevance>
-            <count>1</count>
-            <text>Ran-some Airlines</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.283472</relevance>
+            <relevance>0.227697</relevance>
             <count>1</count>
             <text>Boeing</text>
             <disambiguated>
@@ -350,7 +338,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.281313</relevance>
+            <relevance>0.225962</relevance>
             <count>1</count>
             <text>U.S. Navy</text>
             <disambiguated>
@@ -364,8 +352,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.223057</relevance>
+            <count>1</count>
+            <text>Heao</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.216561</relevance>
+            <count>1</count>
+            <text>black holes</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.266245</relevance>
+            <relevance>0.213947</relevance>
             <count>1</count>
             <text>McDonnell Douglas</text>
             <disambiguated>
@@ -381,7 +381,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.261623</relevance>
+            <relevance>0.210231</relevance>
             <count>1</count>
             <text>Air Force</text>
             <disambiguated>
@@ -393,13 +393,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.24373</relevance>
+            <relevance>0.195904</relevance>
             <count>1</count>
             <text>APA</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.232214</relevance>
+            <relevance>0.186692</relevance>
             <count>1</count>
             <text>Marine Corps</text>
         </entity>

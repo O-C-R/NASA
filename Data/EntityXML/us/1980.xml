@@ -6,8 +6,36 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>Person</type>
+            <relevance>0.925564</relevance>
+            <count>6</count>
+            <text>Maxie Anderson</text>
+            <disambiguated>
+                <name>Maxie Anderson</name>
+                <dbpedia>http://dbpedia.org/resource/Maxie_Anderson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04crt_2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.7335</relevance>
+            <relevance>0.86438</relevance>
+            <count>4</count>
+            <text>U.S. Air Force</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.838947</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,57 +57,79 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.654262</relevance>
-            <count>4</count>
-            <text>U.S. Air Force</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.630394</relevance>
-            <count>6</count>
-            <text>Maxie Anderson</text>
-            <disambiguated>
-                <name>Maxie Anderson</name>
-                <dbpedia>http://dbpedia.org/resource/Maxie_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04crt_2</freebase>
-            </disambiguated>
+            <relevance>0.67412</relevance>
+            <count>3</count>
+            <text>ARC</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.480498</relevance>
+            <relevance>0.66961</relevance>
             <count>2</count>
             <text>Air Force</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.46885</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.625175</relevance>
             <count>3</count>
-            <text>ARC</text>
+            <text>Washington Post</text>
             <disambiguated>
-                <name>American River College</name>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.58892</relevance>
+            <count>1</count>
+            <text>Eglin Air Force Base</text>
+            <disambiguated>
+                <name>Northwest Florida Regional Airport</name>
                 <subType>Location</subType>
-                <subType>University</subType>
-                <geo>38.64946 -121.34623</geo>
-                <website>http://www.arc.losrios.edu</website>
-                <dbpedia>http://dbpedia.org/resource/American_River_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04flx5</freebase>
-                <yago>http://yago-knowledge.org/resource/American_River_College</yago>
+                <subType>Airport</subType>
+                <geo>30.483333333333334 -86.52527777777777</geo>
+                <website>http://www.flyvps.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Northwest_Florida_Regional_Airport</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01q6d0</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.585644</relevance>
+            <count>2</count>
+            <text>LaRC</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.572843</relevance>
+            <count>3</count>
+            <text>Kitty Hawk</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.557163</relevance>
+            <count>1</count>
+            <text>Vandenberg Air Force Base</text>
+            <disambiguated>
+                <name>Vandenberg Air Force Base</name>
+                <subType>Location</subType>
+                <subType>Airport</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Spaceport</subType>
+                <geo>34.72972222222222 -120.57694444444445</geo>
+                <website>http://www.vandenberg.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
+                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
+                <geonames>http://sws.geonames.org/6301743/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.464416</relevance>
+            <relevance>0.544449</relevance>
             <count>3</count>
             <text>United States</text>
             <disambiguated>
@@ -98,87 +148,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.449671</relevance>
-            <count>1</count>
-            <text>U.S. Air Force Geophysics Laboratory</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.428111</relevance>
-            <count>1</count>
-            <text>Eglin Air Force Base</text>
-            <disambiguated>
-                <name>Northwest Florida Regional Airport</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <geo>30.483333333333334 -86.52527777777777</geo>
-                <website>http://www.flyvps.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Northwest_Florida_Regional_Airport</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01q6d0</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.418343</relevance>
-            <count>3</count>
-            <text>The Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.394331</relevance>
-            <count>1</count>
-            <text>Vandenberg Air Force Base</text>
-            <disambiguated>
-                <name>Vandenberg Air Force Base</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Spaceport</subType>
-                <geo>34.72972222222222 -120.57694444444445</geo>
-                <website>http://www.vandenberg.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
-                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/6301743/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.387224</relevance>
+            <type>Person</type>
+            <relevance>0.520234</relevance>
             <count>2</count>
-            <text>Calif</text>
+            <text>Rockwell</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.386354</relevance>
-            <count>2</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.383085</relevance>
+            <relevance>0.508798</relevance>
             <count>2</count>
             <text>San Francisco</text>
             <disambiguated>
@@ -195,20 +172,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.374962</relevance>
-            <count>1</count>
-            <text>ARC</text>
+            <type>StateOrCounty</type>
+            <relevance>0.499926</relevance>
+            <count>2</count>
+            <text>Maine</text>
+            <disambiguated>
+                <name>Maine</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.maine.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Maine</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01m66t</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi9qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Maine</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.374032</relevance>
-            <count>2</count>
-            <text>LaRC</text>
+            <type>Organization</type>
+            <relevance>0.490304</relevance>
+            <count>1</count>
+            <text>U.S. Air Force Geophysics Laboratory</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.368463</relevance>
+            <relevance>0.483266</relevance>
             <count>1</count>
             <text>National Air and Space Museum</text>
             <disambiguated>
@@ -228,32 +218,46 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.368222</relevance>
+            <relevance>0.476025</relevance>
             <count>2</count>
-            <text>Maine</text>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.464085</relevance>
+            <count>1</count>
+            <text>NOAA</text>
             <disambiguated>
-                <name>Maine</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.maine.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Maine</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01m66t</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi9qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Maine</yago>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.365877</relevance>
-            <count>3</count>
-            <text>Kitty Hawk</text>
+            <type>City</type>
+            <relevance>0.460987</relevance>
+            <count>1</count>
+            <text>Norman</text>
+            <disambiguated>
+                <name>Norman, Oklahoma</name>
+                <dbpedia>http://dbpedia.org/resource/Norman,_Oklahoma</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0z4_0</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ok/counties/cleveland_county/norman</census>
+                <yago>http://yago-knowledge.org/resource/Norman,_Oklahoma</yago>
+                <geonames>http://sws.geonames.org/4543762/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.351992</relevance>
+            <relevance>0.460783</relevance>
+            <count>2</count>
+            <text>MacCready</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.455701</relevance>
             <count>1</count>
             <text>Rockwell International</text>
             <disambiguated>
@@ -268,84 +272,26 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.35068</relevance>
-            <count>2</count>
-            <text>D.C.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.346428</relevance>
-            <count>2</count>
-            <text>Rockwell</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.334032</relevance>
-            <count>2</count>
-            <text>MacCready</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.331445</relevance>
+            <relevance>0.454701</relevance>
             <count>1</count>
-            <text>White Sands</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.328458</relevance>
-            <count>1</count>
-            <text>Cap Gris Nez</text>
+            <text>Okla.</text>
             <disambiguated>
-                <name>Cap Gris Nez</name>
+                <name>Oklahoma</name>
                 <subType>Location</subType>
-                <geo>50.87083333333333 1.583611111111111</geo>
-                <dbpedia>http://dbpedia.org/resource/Cap_Gris_Nez</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06rs6f</freebase>
-                <yago>http://yago-knowledge.org/resource/Cap_Gris_Nez</yago>
-                <geonames>http://sws.geonames.org/3014607/</geonames>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.ok.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Oklahoma</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0z6k1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViN-ZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Oklahoma</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>TelevisionStation</type>
-            <relevance>0.327939</relevance>
-            <count>1</count>
-            <text>NBC</text>
-            <disambiguated>
-                <name>NBC</name>
-                <subType>Broadcast</subType>
-                <subType>AwardNominee</subType>
-                <subType>AwardWinner</subType>
-                <subType>Company</subType>
-                <subType>FilmDistributor</subType>
-                <subType>TVNetwork</subType>
-                <subType>TVWriter</subType>
-                <website>http://www.nbc.com</website>
-                <dbpedia>http://dbpedia.org/resource/NBC</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05gnf</freebase>
-                <yago>http://yago-knowledge.org/resource/NBC</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.327166</relevance>
-            <count>1</count>
-            <text>Kings Canyon National Park</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.324693</relevance>
-            <count>1</count>
-            <text>nautical miles</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.324272</relevance>
-            <count>1</count>
-            <text>Naval Weapons Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.323037</relevance>
+            <relevance>0.445259</relevance>
             <count>1</count>
             <text>Fairchild Industries</text>
             <disambiguated>
@@ -357,20 +303,37 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.319083</relevance>
+            <type>Organization</type>
+            <relevance>0.439003</relevance>
             <count>1</count>
-            <text>China Lake</text>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Keene State College</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>42.92777777777778 -72.2786111111111</geo>
+                <website>http://www.keene.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
+                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.317969</relevance>
+            <relevance>0.438464</relevance>
             <count>1</count>
             <text>Fairchild</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.313781</relevance>
+            <relevance>0.437694</relevance>
+            <count>1</count>
+            <text>National Severe Storms Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.433905</relevance>
             <count>1</count>
             <text>NAA</text>
             <disambiguated>
@@ -390,8 +353,33 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.43056</relevance>
+            <count>2</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.428174</relevance>
+            <count>1</count>
+            <text>WFC</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.313028</relevance>
+            <relevance>0.426191</relevance>
             <count>2</count>
             <text>Canada</text>
             <disambiguated>
@@ -411,115 +399,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.311436</relevance>
-            <count>1</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Keene State College</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.92777777777778 -72.2786111111111</geo>
-                <website>http://www.keene.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
-                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.305815</relevance>
-            <count>1</count>
-            <text>Dr. Paul B. MacCready</text>
-            <disambiguated>
-                <name>Paul MacCready</name>
-                <subType>BoardMember</subType>
-                <subType>CompanyShareholder</subType>
-                <dbpedia>http://dbpedia.org/resource/Paul_MacCready</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05wg3r</freebase>
-                <yago>http://yago-knowledge.org/resource/Paul_MacCready</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.305294</relevance>
-            <count>1</count>
-            <text>Ihe House Armed Services Committee</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.304232</relevance>
-            <count>1</count>
-            <text>House Armed Services Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.303848</relevance>
-            <count>1</count>
-            <text>Bryan Allen</text>
-            <disambiguated>
-                <name>Bryan Allen (hang glider)</name>
-                <dbpedia>http://dbpedia.org/resource/Bryan_Allen_(hang_glider)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05dxwk</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.303273</relevance>
-            <count>1</count>
-            <text>Delta</text>
-            <disambiguated>
-                <name>Delta Air Lines</name>
-                <subType>Airline</subType>
-                <website>http://www.delta.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Delta_Air_Lines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0k9ts</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv5BRgpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Delta_Air_Lines</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.302832</relevance>
-            <count>1</count>
-            <text>WFC</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.302763</relevance>
-            <count>1</count>
-            <text>Daedalus</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.302034</relevance>
-            <count>1</count>
-            <text>Washington Star</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.301907</relevance>
+            <relevance>0.424708</relevance>
             <count>1</count>
-            <text>Sierra Nevada</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.301417</relevance>
-            <count>1</count>
-            <text>U.S. Forest Service</text>
+            <text>Wyoming</text>
             <disambiguated>
-                <name>United States Forest Service</name>
-                <website>http://www.fs.fed.us/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Forest_Service</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bqc_</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVihEZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Forest_Service</yago>
+                <name>Wyoming</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://wyoming.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Wyoming</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0846v</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViOeZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Wyoming</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.422805</relevance>
+            <count>1</count>
+            <text>Kings Canyon National Park</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.298888</relevance>
+            <relevance>0.422315</relevance>
             <count>1</count>
             <text>GSFC</text>
             <disambiguated>
@@ -535,60 +441,180 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.298684</relevance>
+            <type>Organization</type>
+            <relevance>0.422059</relevance>
             <count>1</count>
-            <text>France</text>
+            <text>Ihe House Armed Services Committee</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.421141</relevance>
+            <count>1</count>
+            <text>Delta</text>
             <disambiguated>
-                <name>France</name>
+                <name>Delta Air Lines</name>
+                <subType>Airline</subType>
+                <website>http://www.delta.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Delta_Air_Lines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0k9ts</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv5BRgpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Delta_Air_Lines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.420024</relevance>
+            <count>1</count>
+            <text>Bryan Allen</text>
+            <disambiguated>
+                <name>Bryan Allen (hang glider)</name>
+                <dbpedia>http://dbpedia.org/resource/Bryan_Allen_(hang_glider)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05dxwk</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.419216</relevance>
+            <count>1</count>
+            <text>nautical miles</text>
+        </entity>
+        <entity>
+            <type>TelevisionStation</type>
+            <relevance>0.418113</relevance>
+            <count>1</count>
+            <text>NBC</text>
+            <disambiguated>
+                <name>NBC</name>
+                <subType>Broadcast</subType>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <subType>Company</subType>
+                <subType>FilmDistributor</subType>
+                <subType>TVNetwork</subType>
+                <subType>TVWriter</subType>
+                <website>http://www.nbc.com</website>
+                <dbpedia>http://dbpedia.org/resource/NBC</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05gnf</freebase>
+                <yago>http://yago-knowledge.org/resource/NBC</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.417937</relevance>
+            <count>1</count>
+            <text>Cap Gris Nez</text>
+            <disambiguated>
+                <name>Cap Gris Nez</name>
                 <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmDirector</subType>
-                <geo>47.0 2.0</geo>
-                <website>http://www.service-public.fr/etranger/english.html</website>
-                <dbpedia>http://dbpedia.org/resource/France</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/France</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0f8l9c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj6EJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/France</yago>
+                <geo>50.87083333333333 1.583611111111111</geo>
+                <dbpedia>http://dbpedia.org/resource/Cap_Gris_Nez</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06rs6f</freebase>
+                <yago>http://yago-knowledge.org/resource/Cap_Gris_Nez</yago>
+                <geonames>http://sws.geonames.org/3014607/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.2976</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.412163</relevance>
             <count>1</count>
-            <text>Robert J. Collier</text>
-            <disambiguated>
-                <name>Robert J. Collier</name>
-                <dbpedia>http://dbpedia.org/resource/Robert_J._Collier</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026qsfc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.292657</relevance>
-            <count>1</count>
-            <text>President</text>
+            <text>Washington Star</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.292454</relevance>
+            <relevance>0.398938</relevance>
             <count>2</count>
             <text>Dr. Ed North</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.292359</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.396384</relevance>
             <count>1</count>
-            <text>California Department of Forestry</text>
+            <text>Pacific Ocean</text>
             <disambiguated>
-                <name>California Department of Forestry and Fire Protection</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.fire.ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California_Department_of_Forestry_and_Fire_Protection</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cq6qv</freebase>
+                <name>Pacific Ocean</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.396381</relevance>
+            <count>1</count>
+            <text>Ohio</text>
+            <disambiguated>
+                <name>Ohio</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.ohio.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Ohio</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.395237</relevance>
+            <count>1</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.394987</relevance>
+            <count>1</count>
+            <text>Presque Isle</text>
+            <disambiguated>
+                <name>Presque Isle Bay</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Presque_Isle_Bay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03d0pm7</freebase>
+                <yago>http://yago-knowledge.org/resource/Presque_Isle_Bay</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.392757</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.391775</relevance>
+            <count>1</count>
+            <text>House Armed Services Committee</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.390735</relevance>
+            <count>1</count>
+            <text>Daedalus</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.389634</relevance>
+            <count>1</count>
+            <text>Sierra Nevada</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.389161</relevance>
+            <count>1</count>
+            <text>U.S. Forest Service</text>
+            <disambiguated>
+                <name>United States Forest Service</name>
+                <website>http://www.fs.fed.us/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Forest_Service</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bqc_</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVihEZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Forest_Service</yago>
             </disambiguated>
         </entity>
     </entities>

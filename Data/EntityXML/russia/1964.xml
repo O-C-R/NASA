@@ -6,14 +6,8 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Person</type>
-            <relevance>0.881069</relevance>
-            <count>2</count>
-            <text>Soviet Premier Nikita Khrushchev</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.823715</relevance>
+            <relevance>0.93081</relevance>
             <count>2</count>
             <text>NYT</text>
             <disambiguated>
@@ -32,21 +26,24 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.776222</relevance>
+            <relevance>0.887119</relevance>
             <count>2</count>
-            <text>Dr. Boris Yegorov</text>
+            <text>Nikita Khrushchev</text>
             <disambiguated>
-                <name>Boris Yegorov</name>
-                <subType>Physician</subType>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Boris_Yegorov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bsh_</freebase>
-                <yago>http://yago-knowledge.org/resource/Boris_Yegorov</yago>
+                <name>Nikita Khrushchev</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Nikita_Khrushchev</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bphp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvl-51JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nikita_Khrushchev</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.749158</relevance>
+            <relevance>0.749565</relevance>
             <count>3</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -60,42 +57,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.686373</relevance>
+            <type>Person</type>
+            <relevance>0.683864</relevance>
             <count>2</count>
-            <text>Geneva</text>
+            <text>Dr. Boris Yegorov</text>
             <disambiguated>
-                <name>Geneva, Alabama</name>
-                <geo>31.038055555555555 -85.87666666666667</geo>
-                <website>http://cdl.library.cornell.edu/moa/browse.monographs/ofre.html</website>
-                <dbpedia>http://dbpedia.org/resource/Geneva,_Alabama</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q7dv</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/al/counties/geneva_county/geneva</census>
-                <yago>http://yago-knowledge.org/resource/Geneva,_Alabama</yago>
-                <geonames>http://sws.geonames.org/4063926/</geonames>
+                <name>Boris Yegorov</name>
+                <subType>Physician</subType>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Boris_Yegorov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bsh_</freebase>
+                <yago>http://yago-knowledge.org/resource/Boris_Yegorov</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.660596</relevance>
+            <count>1</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.653104</relevance>
+            <count>2</count>
+            <text>Geneva</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.654421</relevance>
+            <relevance>0.644387</relevance>
             <count>1</count>
             <text>Jodrell Bank radio astronomy station</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.645069</relevance>
+            <relevance>0.62581</relevance>
             <count>1</count>
             <text>Columbia University&#x2019;s Russian Institute</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.610913</relevance>
-            <count>1</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.581467</relevance>
+            <relevance>0.585783</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -120,61 +121,8 @@
             <text>Jodrell Bank</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.540865</relevance>
-            <count>1</count>
-            <text>blood pressure</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.521073</relevance>
-            <count>1</count>
-            <text>Lockheed Aircraft Corp.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.511989</relevance>
-            <count>1</count>
-            <text>Clarence L. Johnson</text>
-            <disambiguated>
-                <name>Kelly Johnson (engineer)</name>
-                <dbpedia>http://dbpedia.org/resource/Kelly_Johnson_(engineer)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0254n</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.506806</relevance>
-            <count>1</count>
-            <text>Kansas City Times</text>
-            <disambiguated>
-                <name>Kansas City Times</name>
-                <dbpedia>http://dbpedia.org/resource/Kansas_City_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c4d4v</freebase>
-                <yago>http://yago-knowledge.org/resource/Kansas_City_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.503143</relevance>
-            <count>1</count>
-            <text>Boston</text>
-            <disambiguated>
-                <name>Boston</name>
-                <website>http://www.cityofboston.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.500811</relevance>
-            <count>1</count>
-            <text>Toth</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.495947</relevance>
+            <relevance>0.524916</relevance>
             <count>1</count>
             <text>Valentina Tereshkova</text>
             <disambiguated>
@@ -189,16 +137,58 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.51134</relevance>
+            <count>1</count>
+            <text>Lockheed Aircraft Corp.</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.47748</relevance>
+            <relevance>0.50655</relevance>
             <count>1</count>
             <text>Yelena Andrianovena Nikolayeva</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.477265</relevance>
+            <relevance>0.503137</relevance>
             <count>1</count>
-            <text>Snider</text>
+            <text>Clarence L. Johnson</text>
+            <disambiguated>
+                <name>Kelly Johnson (engineer)</name>
+                <dbpedia>http://dbpedia.org/resource/Kelly_Johnson_(engineer)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0254n</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.49116</relevance>
+            <count>1</count>
+            <text>Kansas City Times</text>
+            <disambiguated>
+                <name>Kansas City Times</name>
+                <dbpedia>http://dbpedia.org/resource/Kansas_City_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0c4d4v</freebase>
+                <yago>http://yago-knowledge.org/resource/Kansas_City_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.481457</relevance>
+            <count>1</count>
+            <text>Andrian Nikolayev</text>
+            <disambiguated>
+                <name>Andriyan Nikolayev</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Andriyan_Nikolayev</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bgd7</freebase>
+                <yago>http://yago-knowledge.org/resource/Andriyan_Nikolayev</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.480312</relevance>
+            <count>1</count>
+            <text>Shabad</text>
         </entity>
         <entity>
             <type>Company</type>
@@ -216,22 +206,21 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.46616</relevance>
+            <relevance>0.475848</relevance>
             <count>1</count>
-            <text>Shabad</text>
+            <text>Farnsworth</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.453776</relevance>
+            <relevance>0.462477</relevance>
             <count>1</count>
-            <text>Andrian Nikolayev</text>
-            <disambiguated>
-                <name>Andriyan Nikolayev</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Andriyan_Nikolayev</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bgd7</freebase>
-                <yago>http://yago-knowledge.org/resource/Andriyan_Nikolayev</yago>
-            </disambiguated>
+            <text>Snider</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.461607</relevance>
+            <count>1</count>
+            <text>blood pressure</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
@@ -240,28 +229,40 @@
             <text>Minneapolis Morning Trib.</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.441461</relevance>
+            <type>City</type>
+            <relevance>0.435205</relevance>
             <count>1</count>
-            <text>Farnsworth</text>
+            <text>Boston</text>
+            <disambiguated>
+                <name>Boston</name>
+                <website>http://www.cityofboston.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.428948</relevance>
+            <count>1</count>
+            <text>London</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.428212</relevance>
+            <count>1</count>
+            <text>Toth</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.430886</relevance>
+            <relevance>0.418004</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.416878</relevance>
+            <relevance>0.403889</relevance>
             <count>1</count>
             <text>Prof. Alexander Dallin.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.407344</relevance>
-            <count>1</count>
-            <text>London</text>
         </entity>
     </entities>
 </results>

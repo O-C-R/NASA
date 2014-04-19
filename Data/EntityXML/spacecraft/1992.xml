@@ -6,14 +6,8 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Facility</type>
-            <relevance>0.910887</relevance>
-            <count>6</count>
-            <text>Space Station Freedom</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.844691</relevance>
+            <relevance>0.845782</relevance>
             <count>18</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,31 +29,25 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.821443</relevance>
+            <relevance>0.830678</relevance>
             <count>8</count>
             <text>Space Station</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.473727</relevance>
+            <relevance>0.829914</relevance>
+            <count>6</count>
+            <text>Space Station Freedom</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.391177</relevance>
             <count>1</count>
             <text>U.S. Space Station Freedom</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.407573</relevance>
-            <count>1</count>
-            <text>Space Station Mir</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.379615</relevance>
-            <count>1</count>
-            <text>international Space Station</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.378303</relevance>
+            <relevance>0.367633</relevance>
             <count>4</count>
             <text>LA Times</text>
             <disambiguated>
@@ -75,20 +63,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.358164</relevance>
+            <count>1</count>
+            <text>Space Station Mir</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.348656</relevance>
+            <relevance>0.339787</relevance>
             <count>1</count>
             <text>MIR Space Station</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.338021</relevance>
+            <count>1</count>
+            <text>international Space Station</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.322176</relevance>
+            <relevance>0.330131</relevance>
             <count>4</count>
             <text>USA Today</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.27909</relevance>
+            <count>3</count>
+            <text>UPI</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.316154</relevance>
+            <relevance>0.272024</relevance>
             <count>3</count>
             <text>House of Representatives</text>
             <disambiguated>
@@ -103,14 +109,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.284447</relevance>
-            <count>3</count>
-            <text>UPI</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.274634</relevance>
+            <relevance>0.267027</relevance>
             <count>1</count>
             <text>Johnson Space Center</text>
             <disambiguated>
@@ -125,13 +125,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.27189</relevance>
+            <relevance>0.265342</relevance>
             <count>1</count>
             <text>Space Systems Division</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.250492</relevance>
+            <relevance>0.24589</relevance>
             <count>2</count>
             <text>WSJ</text>
             <disambiguated>
@@ -146,7 +146,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.248868</relevance>
+            <relevance>0.244296</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -165,7 +165,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.232152</relevance>
+            <relevance>0.228682</relevance>
             <count>1</count>
             <text>Representative Tim Roemer</text>
             <disambiguated>
@@ -181,20 +181,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.218728</relevance>
-            <count>3</count>
-            <text>the House</text>
+            <type>Organization</type>
+            <relevance>0.2257</relevance>
+            <count>1</count>
+            <text>Congress</text>
+            <disambiguated>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.217725</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.217731</relevance>
             <count>1</count>
-            <text>House of Representative</text>
+            <text>Emerald Lagoon</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.215216</relevance>
+            <relevance>0.211998</relevance>
             <count>1</count>
             <text>Indiana</text>
             <disambiguated>
@@ -213,9 +225,15 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.204093</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.21004</relevance>
             <count>1</count>
+            <text>income tax</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.202422</relevance>
+            <count>3</count>
             <text>U.S. Senate</text>
             <disambiguated>
                 <name>United States Senate</name>
@@ -229,38 +247,60 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.19807</relevance>
-            <count>2</count>
-            <text>Senate</text>
+            <type>StateOrCounty</type>
+            <relevance>0.200685</relevance>
+            <count>1</count>
+            <text>Florida</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.197521</relevance>
+            <count>1</count>
+            <text>mass transit</text>
         </entity>
         <entity>
             <type>Organization</type>
             <relevance>0.195893</relevance>
             <count>1</count>
-            <text>Congress</text>
+            <text>House of Representative</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.195705</relevance>
+            <count>1</count>
+            <text>president</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.192749</relevance>
+            <count>1</count>
+            <text>Johns Hopkins Hospital</text>
             <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+                <name>Johns Hopkins Hospital</name>
+                <subType>Location</subType>
+                <subType>Hospital</subType>
+                <geo>39.29738 -76.59239</geo>
+                <website>http://www.hopkinsmedicine.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Johns_Hopkins_Hospital</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01g08f</freebase>
+                <yago>http://yago-knowledge.org/resource/Johns_Hopkins_Hospital</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.19182</relevance>
+            <relevance>0.192652</relevance>
             <count>1</count>
             <text>fiscal year</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.192213</relevance>
+            <count>1</count>
+            <text>official</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.191603</relevance>
+            <relevance>0.188688</relevance>
             <count>1</count>
             <text>Dr. Al Holland</text>
             <disambiguated>
@@ -272,14 +312,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.188145</relevance>
+            <type>City</type>
+            <relevance>0.187193</relevance>
             <count>1</count>
-            <text>WSJ</text>
+            <text>Baltimore</text>
+            <disambiguated>
+                <name>Baltimore</name>
+                <website>http://www.baltimorecity.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.181592</relevance>
+            <count>3</count>
+            <text>The House</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.181326</relevance>
+            <count>1</count>
+            <text>tax revenues</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.183428</relevance>
+            <relevance>0.179225</relevance>
             <count>1</count>
             <text>NPO Energia</text>
             <disambiguated>
@@ -290,37 +348,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.178265</relevance>
+            <count>1</count>
+            <text>Oncology Center Auditorium</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.181314</relevance>
+            <relevance>0.176304</relevance>
             <count>1</count>
             <text>La Chalupa</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.180122</relevance>
+            <type>Company</type>
+            <relevance>0.176209</relevance>
             <count>1</count>
-            <text>income tax</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179969</relevance>
-            <count>1</count>
-            <text>National Institutes of Health</text>
-            <disambiguated>
-                <name>National Institutes of Health</name>
-                <subType>GovernmentAgency</subType>
-                <subType>SoftwareDeveloper</subType>
-                <geo>39.000443 -77.102394</geo>
-                <website>http://www.nih.gov/news/radio/nihpodcast.htm</website>
-                <dbpedia>http://dbpedia.org/resource/National_Institutes_of_Health</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0chvn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvoU9nZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/National_Institutes_of_Health</yago>
-            </disambiguated>
+            <text>WSJ</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.179129</relevance>
+            <relevance>0.17521</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -339,108 +386,55 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.175461</relevance>
-            <count>1</count>
-            <text>official</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.173984</relevance>
-            <count>1</count>
-            <text>Johns Hopkins Hospital</text>
-            <disambiguated>
-                <name>Johns Hopkins Hospital</name>
-                <subType>Location</subType>
-                <subType>Hospital</subType>
-                <geo>39.29738 -76.59239</geo>
-                <website>http://www.hopkinsmedicine.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Johns_Hopkins_Hospital</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01g08f</freebase>
-                <yago>http://yago-knowledge.org/resource/Johns_Hopkins_Hospital</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.17362</relevance>
-            <count>1</count>
-            <text>Emerald Lagoon</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.172642</relevance>
+            <relevance>0.167878</relevance>
             <count>1</count>
             <text>Htsvl Tms</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.168964</relevance>
+            <type>Organization</type>
+            <relevance>0.162358</relevance>
             <count>1</count>
-            <text>Baltimore</text>
-            <disambiguated>
-                <name>Baltimore</name>
-                <website>http://www.baltimorecity.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Baltimore</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.094jv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.168029</relevance>
-            <count>1</count>
-            <text>mass transit</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.168013</relevance>
-            <count>1</count>
-            <text>tax revenues</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.166507</relevance>
-            <count>1</count>
-            <text>president</text>
+            <text>Lions Vision Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.164678</relevance>
+            <relevance>0.159872</relevance>
             <count>1</count>
             <text>Performance Laboratory</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.164097</relevance>
+            <relevance>0.159551</relevance>
             <count>1</count>
             <text>Houston</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.16395</relevance>
+            <relevance>0.155779</relevance>
             <count>1</count>
             <text>Congress.</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.159169</relevance>
-            <count>1</count>
-            <text>Oncology Center Auditorium</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.158326</relevance>
-            <count>1</count>
-            <text>Florida</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.143082</relevance>
+            <relevance>0.152942</relevance>
             <count>1</count>
-            <text>Lions Vision Center</text>
+            <text>National Institutes of Health</text>
+            <disambiguated>
+                <name>National Institutes of Health</name>
+                <subType>GovernmentAgency</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>39.000443 -77.102394</geo>
+                <website>http://www.nih.gov/news/radio/nihpodcast.htm</website>
+                <dbpedia>http://dbpedia.org/resource/National_Institutes_of_Health</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0chvn</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvoU9nZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/National_Institutes_of_Health</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.121655</relevance>
+            <relevance>0.119517</relevance>
             <count>1</count>
             <text>Head of the Behavior and Performance Laboratory.</text>
         </entity>

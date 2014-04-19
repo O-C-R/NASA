@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.900561</relevance>
+            <relevance>0.80553</relevance>
             <count>13</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -35,74 +35,47 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.53206</relevance>
+            <relevance>0.489064</relevance>
             <count>7</count>
             <text>President</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.525819</relevance>
-            <count>7</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.470071</relevance>
-            <count>6</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>NASA</name>
-                <subType>Company</subType>
-                <subType>GovernmentAgency</subType>
-                <subType>AirportOperator</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>38.88305555555556 -77.01638888888888</geo>
-                <website>http://www.nasa.gov/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/NASA</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.431125</relevance>
+            <relevance>0.408705</relevance>
             <count>4</count>
             <text>Deputy Secretary</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.422502</relevance>
-            <count>5</count>
-            <text>Secretary</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.420696</relevance>
-            <count>5</count>
-            <text>U.S. Navy</text>
+            <relevance>0.407278</relevance>
+            <count>7</count>
+            <text>Senate</text>
             <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.415005</relevance>
-            <count>6</count>
-            <text>Senate</text>
+            <type>Person</type>
+            <relevance>0.380256</relevance>
+            <count>9</count>
+            <text>George F. Mansur, Jr.</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.371422</relevance>
+            <count>7</count>
+            <text>Chairman</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.411187</relevance>
+            <relevance>0.343567</relevance>
             <count>4</count>
             <text>Sen. Edward M. Kennedy</text>
             <disambiguated>
@@ -124,14 +97,29 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.398571</relevance>
-            <count>9</count>
-            <text>George F. Mansur, Jr.</text>
+            <type>JobTitle</type>
+            <relevance>0.332366</relevance>
+            <count>5</count>
+            <text>Secretary</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.326895</relevance>
+            <count>5</count>
+            <text>U.S. Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.370199</relevance>
+            <relevance>0.326056</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -150,65 +138,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.337957</relevance>
-            <count>1</count>
-            <text>President and General Manager of Eastern Airlines</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.327799</relevance>
-            <count>3</count>
-            <text>Rickenbacker</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.322559</relevance>
-            <count>3</count>
-            <text>dod</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.320837</relevance>
-            <count>2</count>
-            <text>Senate Committee on Armed Services</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.309239</relevance>
-            <count>1</count>
-            <text>Capt. Edward V. Rickenbacker</text>
+            <relevance>0.313472</relevance>
+            <count>6</count>
+            <text>NASA</text>
             <disambiguated>
-                <name>Eddie Rickenbacker</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Eddie_Rickenbacker</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0192f0</freebase>
-                <yago>http://yago-knowledge.org/resource/Eddie_Rickenbacker</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.30631</relevance>
-            <count>3</count>
-            <text>Grumman Corp.</text>
-            <disambiguated>
-                <name>Grumman</name>
-                <subType>AircraftManufacturer</subType>
+                <name>NASA</name>
+                <subType>Company</subType>
+                <subType>GovernmentAgency</subType>
+                <subType>AirportOperator</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>SoftwareDeveloper</subType>
+                <subType>SpaceAgency</subType>
                 <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
-                <yago>http://yago-knowledge.org/resource/Grumman</yago>
+                <geo>38.88305555555556 -77.01638888888888</geo>
+                <website>http://www.nasa.gov/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/NASA</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05f4p</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwtspwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/NASA</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.305546</relevance>
-            <count>2</count>
-            <text>Grumman Aerospace Corp.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.304992</relevance>
+            <relevance>0.296221</relevance>
             <count>3</count>
             <text>William P. Clements</text>
             <disambiguated>
@@ -221,20 +174,124 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.303143</relevance>
+            <type>Person</type>
+            <relevance>0.292012</relevance>
             <count>3</count>
-            <text>World War</text>
+            <text>Elliot L. Richardson</text>
+            <disambiguated>
+                <name>Elliot Richardson</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/Elliot_Richardson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vy68</freebase>
+                <yago>http://yago-knowledge.org/resource/Elliot_Richardson</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.302912</relevance>
+            <relevance>0.28154</relevance>
+            <count>3</count>
+            <text>Executive Office</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.270442</relevance>
             <count>1</count>
             <text>Assistant Secretary of Defense for Legislative Affairs</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.263819</relevance>
+            <count>1</count>
+            <text>Principal Deputy Assistant Secretary of Defense for Public Affairs</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.293701</relevance>
+            <relevance>0.263235</relevance>
+            <count>3</count>
+            <text>Capt. Edward V. Rickenbacker</text>
+            <disambiguated>
+                <name>Eddie Rickenbacker</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Eddie_Rickenbacker</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0192f0</freebase>
+                <yago>http://yago-knowledge.org/resource/Eddie_Rickenbacker</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.26138</relevance>
+            <count>3</count>
+            <text>Grumman Corp.</text>
+            <disambiguated>
+                <name>Grumman</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Grumman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fr5h</freebase>
+                <yago>http://yago-knowledge.org/resource/Grumman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.261262</relevance>
+            <count>2</count>
+            <text>Senate Committee on Armed Services</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.25715</relevance>
+            <count>2</count>
+            <text>Cape Canaveral</text>
+            <disambiguated>
+                <name>Cape Canaveral</name>
+                <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.256488</relevance>
+            <count>2</count>
+            <text>Grumman Aerospace Corp.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.255762</relevance>
+            <count>2</count>
+            <text>Federal Energy Office</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255649</relevance>
+            <count>2</count>
+            <text>Sen. John 0</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.252391</relevance>
+            <count>2</count>
+            <text>Dr. James R. Schlesinger</text>
+            <disambiguated>
+                <name>James R. Schlesinger</name>
+                <subType>Politician</subType>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/James_R._Schlesinger</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sx5q</freebase>
+                <yago>http://yago-knowledge.org/resource/James_R._Schlesinger</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.251504</relevance>
             <count>2</count>
             <text>John W. Warner</text>
             <disambiguated>
@@ -250,8 +307,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.25109</relevance>
+            <count>1</count>
+            <text>Senate Committee</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.293634</relevance>
+            <relevance>0.248554</relevance>
             <count>2</count>
             <text>NYT</text>
             <disambiguated>
@@ -270,89 +333,133 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.293123</relevance>
+            <relevance>0.243728</relevance>
             <count>1</count>
-            <text>Principal Deputy Assistant Secretary of Defense for Public Affairs</text>
+            <text>Assistant Secretary of Defense for Public Affairs</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.291492</relevance>
+            <relevance>0.242708</relevance>
+            <count>1</count>
+            <text>President and General Manager of Eastern Airlines</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.23504</relevance>
+            <count>1</count>
+            <text>Sen. John C. Stennis</text>
+            <disambiguated>
+                <name>John C. Stennis</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_C._Stennis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01fyp6</freebase>
+                <yago>http://yago-knowledge.org/resource/John_C._Stennis</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.234522</relevance>
+            <count>1</count>
+            <text>William E. Colby</text>
+            <disambiguated>
+                <name>William Colby</name>
+                <subType>OfficeHolder</subType>
+                <dbpedia>http://dbpedia.org/resource/William_Colby</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02bpgr</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Colby</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.234139</relevance>
+            <count>2</count>
+            <text>Executive</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.233126</relevance>
             <count>2</count>
             <text>Executive Director</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.291456</relevance>
-            <count>3</count>
-            <text>Executive Office</text>
+            <relevance>0.232508</relevance>
+            <count>2</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.228986</relevance>
+            <count>1</count>
+            <text>President&#x2019;s science</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.284516</relevance>
-            <count>3</count>
-            <text>Elliot L. Richardson</text>
+            <relevance>0.228129</relevance>
+            <count>1</count>
+            <text>Sen. William Proxmire</text>
             <disambiguated>
-                <name>Elliot Richardson</name>
+                <name>William Proxmire</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/William_Proxmire</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02k47z</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Proxmire</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.22746</relevance>
+            <count>1</count>
+            <text>Sen. Edward W. Brooke</text>
+            <disambiguated>
+                <name>Edward Brooke</name>
                 <subType>Politician</subType>
                 <subType>AwardWinner</subType>
                 <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <dbpedia>http://dbpedia.org/resource/Elliot_Richardson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01vy68</freebase>
-                <yago>http://yago-knowledge.org/resource/Elliot_Richardson</yago>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Edward_Brooke</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lbrm</freebase>
+                <yago>http://yago-knowledge.org/resource/Edward_Brooke</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.281207</relevance>
-            <count>2</count>
-            <text>Executive</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.276315</relevance>
+            <relevance>0.226984</relevance>
             <count>2</count>
-            <text>Civil Aeronautics Board</text>
+            <text>Congress</text>
             <disambiguated>
-                <name>Civil Aeronautics Board (Philippines)</name>
-                <website>http://www.cab.gov.ph</website>
-                <dbpedia>http://dbpedia.org/resource/Civil_Aeronautics_Board_(Philippines)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04jb7gp</freebase>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.274782</relevance>
-            <count>2</count>
-            <text>John Eger</text>
+            <type>Organization</type>
+            <relevance>0.226316</relevance>
+            <count>3</count>
+            <text>dod</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.2745</relevance>
+            <relevance>0.224893</relevance>
             <count>1</count>
             <text>President&#x2019;s Science Advisory Committee</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.273122</relevance>
-            <count>1</count>
-            <text>President and Director</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.27079</relevance>
-            <count>1</count>
-            <text>Assistant Secretary of Defense for Public Affairs</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.269251</relevance>
-            <count>2</count>
-            <text>Sen. John 0</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.26771</relevance>
+            <relevance>0.223671</relevance>
             <count>2</count>
             <text>N.Y.</text>
             <disambiguated>
@@ -374,161 +481,102 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.263442</relevance>
-            <count>1</count>
-            <text>Aviation Hall of Fame</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.263128</relevance>
-            <count>1</count>
-            <text>Board</text>
-            <disambiguated>
-                <name>Board game</name>
-                <subType>Industry</subType>
-                <dbpedia>http://dbpedia.org/resource/Board_game</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.015ll</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjN5JwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.262875</relevance>
-            <count>1</count>
-            <text>U.S. Army Air Corps</text>
-            <disambiguated>
-                <name>United States Army Air Corps</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Army_Air_Corps</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02p0zzf</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.262082</relevance>
-            <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>Senate of Canada</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.parl.gc.ca/common/index.asp?Language=E</website>
-                <dbpedia>http://dbpedia.org/resource/Senate_of_Canada</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0x2sv</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r6EuBZo2kQdiQ5p-1ialt9w</opencyc>
-                <yago>http://yago-knowledge.org/resource/Senate_of_Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.261976</relevance>
-            <count>1</count>
-            <text>Air Service</text>
-            <disambiguated>
-                <name>United States Army Air Service</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Army_Air_Service</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030s_h</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.260952</relevance>
+            <relevance>0.223491</relevance>
             <count>2</count>
             <text>Dr. Edward A. David</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.259554</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.222649</relevance>
+            <count>3</count>
+            <text>World War</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.222481</relevance>
             <count>1</count>
-            <text>Zurich</text>
+            <text>Sen. John J. Sparkman</text>
             <disambiguated>
-                <name>Zurich</name>
-                <dbpedia>http://dbpedia.org/resource/Zurich</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08966</freebase>
+                <name>John Sparkman</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Sparkman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01sv0c</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Sparkman</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.25897</relevance>
+            <relevance>0.219474</relevance>
             <count>1</count>
-            <text>Aleksey A. Leonov</text>
+            <text>John D. Ehrlichman</text>
             <disambiguated>
-                <name>Alexey Leonov</name>
-                <subType>Astronaut</subType>
-                <subType>VisualArtist</subType>
-                <dbpedia>http://dbpedia.org/resource/Alexey_Leonov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bsvr</freebase>
-                <yago>http://yago-knowledge.org/resource/Alexey_Leonov</yago>
+                <name>John Ehrlichman</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Ehrlichman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xwvn</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Ehrlichman</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.258556</relevance>
+            <type>Person</type>
+            <relevance>0.218803</relevance>
             <count>1</count>
-            <text>Switzerland</text>
+            <text>Sen. Daniel K. Inouye</text>
             <disambiguated>
-                <name>Switzerland</name>
-                <geo>46.833333333333336 8.333333333333334</geo>
-                <website>http://www.bfs.admin.ch/bfs/portal/en/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Switzerland</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Switzerland</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06mzp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjQm5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Switzerland</yago>
+                <name>Daniel Inouye</name>
+                <subType>Politician</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <website>http://inouye.senate.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Daniel_Inouye</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.021sv1</freebase>
+                <yago>http://yago-knowledge.org/resource/Daniel_Inouye</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.217805</relevance>
+            <count>1</count>
+            <text>Subcommittee on Dept</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.257938</relevance>
+            <relevance>0.21744</relevance>
             <count>1</count>
-            <text>General Manager of Eastern Airlines</text>
+            <text>Under Secretary of Transportation</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.257904</relevance>
+            <type>Person</type>
+            <relevance>0.217216</relevance>
             <count>1</count>
-            <text>N.J.</text>
+            <text>Sen. Henry Sayler</text>
             <disambiguated>
-                <name>New Jersey</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nj.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_Jersey</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fjf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViy85wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_Jersey</yago>
+                <name>Henry B. Sayler</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Henry_B._Sayler</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rkg7f</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.257477</relevance>
+            <relevance>0.217158</relevance>
             <count>1</count>
-            <text>Gen. Billy Mitchell</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.256027</relevance>
-            <count>2</count>
-            <text>Federal Energy Office</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.25539</relevance>
-            <count>2</count>
-            <text>Bethpage</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.255363</relevance>
-            <count>1</count>
-            <text>U.S. Government department for aeronautics</text>
+            <text>Sen. Hiram L. Fong</text>
+            <disambiguated>
+                <name>Hiram Fong</name>
+                <subType>Politician</subType>
+                <subType>Senator</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Hiram_Fong</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02d14p</freebase>
+                <yago>http://yago-knowledge.org/resource/Hiram_Fong</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

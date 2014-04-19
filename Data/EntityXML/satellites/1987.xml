@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.852083</relevance>
+            <relevance>0.798166</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,34 +29,19 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.618118</relevance>
+            <relevance>0.620804</relevance>
             <count>2</count>
             <text>Geostationary Operational Environmental Satellite</text>
         </entity>
         <entity>
             <type>Technology</type>
-            <relevance>0.496982</relevance>
+            <relevance>0.508281</relevance>
             <count>4</count>
             <text>Xrays</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.49553</relevance>
-            <count>2</count>
-            <text>Martin Marietta Corporation</text>
-            <disambiguated>
-                <name>Martin Marietta</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Martin_Marietta</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02hk3j</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvqIyApwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Martin_Marietta</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.432212</relevance>
+            <relevance>0.448517</relevance>
             <count>2</count>
             <text>European Telecommunications Satellite Organization</text>
             <disambiguated>
@@ -68,8 +53,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.396326</relevance>
+            <count>1</count>
+            <text>Satellite System</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.425731</relevance>
+            <relevance>0.389161</relevance>
             <count>2</count>
             <text>General Dynamic</text>
             <disambiguated>
@@ -85,58 +76,106 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.400841</relevance>
-            <count>1</count>
-            <text>International Telecommunications Satellite Organization</text>
+            <relevance>0.383704</relevance>
+            <count>2</count>
+            <text>Martin Marietta Corporation</text>
+            <disambiguated>
+                <name>Martin Marietta</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Martin_Marietta</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02hk3j</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvqIyApwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Martin_Marietta</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.390302</relevance>
+            <relevance>0.37449</relevance>
             <count>1</count>
             <text>communications satellite</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.340719</relevance>
-            <count>1</count>
-            <text>Satellite System</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.315701</relevance>
+            <relevance>0.366819</relevance>
             <count>1</count>
             <text>Space Systems Division</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.31561</relevance>
+            <type>Company</type>
+            <relevance>0.357119</relevance>
             <count>1</count>
-            <text>Transportation Department</text>
-            <disambiguated>
-                <name>United States Department of Transportation</name>
-                <subType>GovernmentAgency</subType>
-                <subType>GovernmentalBody</subType>
-                <website>http://www.dot.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Transportation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fyt5</freebase>
-                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Transportation</yago>
-            </disambiguated>
+            <text>International Telecommunications Satellite Organization</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.330911</relevance>
+            <count>1</count>
+            <text>Government Communication Systems Division</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.313066</relevance>
+            <relevance>0.326803</relevance>
             <count>2</count>
             <text>Florida</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.305647</relevance>
+            <type>Company</type>
+            <relevance>0.326575</relevance>
             <count>1</count>
-            <text>Marietta</text>
+            <text>Harris Corporation</text>
+            <disambiguated>
+                <name>Harris Corporation</name>
+                <website>http://www.harris.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Harris_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05mg31</freebase>
+                <yago>http://yago-knowledge.org/resource/Harris_Corporation</yago>
+                <crunchbase>http://www.crunchbase.com/company/harris-corporation</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.323196</relevance>
+            <count>1</count>
+            <text>General Electric Company</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.295927</relevance>
+            <count>1</count>
+            <text>General Dynamic Corporation</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.289693</relevance>
+            <count>2</count>
+            <text>NOAA</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.28348</relevance>
+            <count>1</count>
+            <text>Reagan administration</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.294804</relevance>
+            <relevance>0.275573</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -152,130 +191,89 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.289521</relevance>
-            <count>1</count>
-            <text>Reagan administration</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.284695</relevance>
-            <count>1</count>
-            <text>Government Communication Systems Division</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.284363</relevance>
-            <count>1</count>
-            <text>Harris Corporation</text>
-            <disambiguated>
-                <name>Harris Corporation</name>
-                <website>http://www.harris.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Harris_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05mg31</freebase>
-                <yago>http://yago-knowledge.org/resource/Harris_Corporation</yago>
-                <crunchbase>http://www.crunchbase.com/company/harris-corporation</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.283687</relevance>
-            <count>1</count>
-            <text>General Dynamic Corporation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.281512</relevance>
-            <count>1</count>
-            <text>General Electric Company</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.280216</relevance>
+            <relevance>0.274437</relevance>
             <count>1</count>
             <text>Launchings</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.26903</relevance>
+            <type>Person</type>
+            <relevance>0.273736</relevance>
             <count>1</count>
-            <text>Earth.</text>
+            <text>Marietta</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.262628</relevance>
+            <relevance>0.267383</relevance>
             <count>1</count>
-            <text>Department of Commerce</text>
+            <text>Transportation Department</text>
+            <disambiguated>
+                <name>United States Department of Transportation</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <website>http://www.dot.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Transportation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fyt5</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Transportation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.2632</relevance>
+            <count>1</count>
+            <text>GOESH</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.256716</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.247123</relevance>
+            <relevance>0.262833</relevance>
             <count>1</count>
             <text>Melbourne</text>
-            <disambiguated>
-                <name>Melbourne</name>
-                <subType>EnglishCivilParish</subType>
-                <subType>MilitaryPost</subType>
-                <subType>OlympicHostCity</subType>
-                <geo>-37.81361111111111 144.96305555555554</geo>
-                <website>http://www.emelbourne.net.au/</website>
-                <dbpedia>http://dbpedia.org/resource/Melbourne</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0chgzm</freebase>
-                <yago>http://yago-knowledge.org/resource/Melbourne</yago>
-                <geonames>http://sws.geonames.org/2158177/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244946</relevance>
-            <count>2</count>
-            <text>NOAA</text>
-            <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
-            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.236107</relevance>
-            <count>1</count>
-            <text>Ginga</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.22601</relevance>
+            <relevance>0.262637</relevance>
             <count>1</count>
             <text>Philadelphia</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.222974</relevance>
+            <relevance>0.259124</relevance>
             <count>1</count>
             <text>Pennsylvania</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.219143</relevance>
+            <type>City</type>
+            <relevance>0.246094</relevance>
             <count>1</count>
-            <text>GOESH</text>
+            <text>Ginga</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.245829</relevance>
+            <count>1</count>
+            <text>Cape Canaveral</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.241671</relevance>
+            <count>1</count>
+            <text>Department of Commerce</text>
+            <disambiguated>
+                <name>United States Department of Commerce</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.commerce.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Commerce</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j770</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Commerce</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.230485</relevance>
+            <count>1</count>
+            <text>Earth.</text>
         </entity>
     </entities>
 </results>

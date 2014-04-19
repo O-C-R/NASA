@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>City</type>
-            <relevance>0.947557</relevance>
-            <count>15</count>
+            <relevance>0.909806</relevance>
+            <count>14</count>
             <text>Mars</text>
             <disambiguated>
                 <name>Mars, Pennsylvania</name>
@@ -22,13 +22,13 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.543657</relevance>
-            <count>3</count>
+            <relevance>0.513513</relevance>
+            <count>4</count>
             <text>Mars Observer</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.277233</relevance>
+            <relevance>0.30164</relevance>
             <count>8</count>
             <text>NASA</text>
             <disambiguated>
@@ -50,7 +50,7 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.177211</relevance>
+            <relevance>0.193932</relevance>
             <count>1</count>
             <text>Ulysses spacecraft</text>
             <disambiguated>
@@ -64,33 +64,31 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.139678</relevance>
+            <relevance>0.150223</relevance>
             <count>2</count>
             <text>Antarctica</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.124016</relevance>
+            <relevance>0.132729</relevance>
             <count>1</count>
             <text>Antarctica</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.12221</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.131502</relevance>
+            <count>2</count>
+            <text>Florida.</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.129567</relevance>
             <count>1</count>
-            <text>UPI</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
+            <text>Cape Canaveral</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.112574</relevance>
+            <relevance>0.128105</relevance>
             <count>1</count>
             <text>Christian Science Monitor</text>
             <disambiguated>
@@ -105,7 +103,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.106791</relevance>
+            <relevance>0.119292</relevance>
             <count>1</count>
             <text>Washington Times</text>
             <disambiguated>
@@ -120,40 +118,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.104639</relevance>
+            <type>Company</type>
+            <relevance>0.10999</relevance>
             <count>1</count>
-            <text>Cape Canaveral</text>
+            <text>UPI</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.0981675</relevance>
+            <type>Region</type>
+            <relevance>0.107435</relevance>
             <count>1</count>
-            <text>Florida</text>
+            <text>Peruvian Andes.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.106042</relevance>
+            <count>2</count>
+            <text>European Space Agency</text>
             <disambiguated>
-                <name>Florida</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>28.133333333333333 -81.63166666666666</geo>
-                <website>http://www.myflorida.com</website>
-                <dbpedia>http://dbpedia.org/resource/Florida</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0711wp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViELJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Florida</yago>
+                <name>European Space Agency</name>
+                <subType>Company</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpaceAgency</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <geo>48.8482 2.3042</geo>
+                <website>http://www.esa.int</website>
+                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.0964362</relevance>
+            <relevance>0.10555</relevance>
             <count>1</count>
             <text>solar system</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.0961461</relevance>
+            <relevance>0.10274</relevance>
             <count>1</count>
             <text>United States</text>
             <disambiguated>
@@ -173,26 +176,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.0955978</relevance>
-            <count>2</count>
-            <text>European Space Agency</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.0953747</relevance>
+            <relevance>0.101813</relevance>
             <count>1</count>
             <text>National Science Foundation</text>
             <disambiguated>
@@ -208,28 +192,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.0947863</relevance>
-            <count>1</count>
-            <text>Peruvian Andes.</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.0919868</relevance>
+            <relevance>0.100697</relevance>
             <count>1</count>
             <text>Galileo</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.0901085</relevance>
+            <relevance>0.0986581</relevance>
             <count>1</count>
             <text>ERS</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.0875627</relevance>
-            <count>1</count>
-            <text>Florida.</text>
         </entity>
     </entities>
 </results>

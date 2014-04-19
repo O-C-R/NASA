@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.867997</relevance>
+            <relevance>0.865786</relevance>
             <count>27</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
@@ -74,8 +74,14 @@
             <text>British National Space Centre</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.208572</relevance>
+            <count>1</count>
+            <text>International Space Station</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.208882</relevance>
+            <relevance>0.205699</relevance>
             <count>3</count>
             <text>U.S. Congress</text>
             <disambiguated>
@@ -92,14 +98,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.208572</relevance>
-            <count>1</count>
-            <text>International Space Station</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.200437</relevance>
+            <relevance>0.20484</relevance>
             <count>2</count>
             <text>Washington</text>
             <disambiguated>
@@ -129,21 +129,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.184064</relevance>
-            <count>2</count>
-            <text>Task Group</text>
-            <disambiguated>
-                <name>Task force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Task_force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01d3y0</freebase>
-            </disambiguated>
+            <type>Company</type>
+            <relevance>0.180531</relevance>
+            <count>1</count>
+            <text>Sundstrand</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.18372</relevance>
+            <relevance>0.179139</relevance>
             <count>2</count>
             <text>DC</text>
             <disambiguated>
@@ -164,10 +157,17 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.180531</relevance>
-            <count>1</count>
-            <text>Sundstrand</text>
+            <type>Organization</type>
+            <relevance>0.17384</relevance>
+            <count>2</count>
+            <text>Task Group</text>
+            <disambiguated>
+                <name>Task force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Task_force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01d3y0</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
@@ -185,28 +185,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.168647</relevance>
-            <count>1</count>
-            <text>Flight Task Group</text>
-        </entity>
-        <entity>
             <type>Company</type>
             <relevance>0.167971</relevance>
             <count>1</count>
             <text>parts&#xF0BE;the Aerospace Corporation</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.16785</relevance>
-            <count>1</count>
-            <text>CAIB</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.165841</relevance>
-            <count>3</count>
-            <text>CAIB</text>
         </entity>
         <entity>
             <type>Organization</type>
@@ -214,24 +196,30 @@
             <count>2</count>
             <text>ESA</text>
             <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
+                <name>Entertainment Software Association</name>
+                <website>http://www.theesa.com</website>
+                <dbpedia>http://dbpedia.org/resource/Entertainment_Software_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02zv50</freebase>
+                <yago>http://yago-knowledge.org/resource/Entertainment_Software_Association</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.163347</relevance>
+            <count>1</count>
+            <text>Columbia Accident Investigation Board</text>
         </entity>
         <entity>
             <type>Person</type>
             <relevance>0.163019</relevance>
             <count>1</count>
             <text>James R. Asker</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.161297</relevance>
+            <count>3</count>
+            <text>CAIB</text>
         </entity>
         <entity>
             <type>Person</type>
@@ -241,25 +229,15 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.15777</relevance>
+            <relevance>0.158272</relevance>
             <count>1</count>
-            <text>United States Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
+            <text>Flight Task Group</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.156413</relevance>
+            <type>Degree</type>
+            <relevance>0.157894</relevance>
             <count>1</count>
-            <text>Columbia Accident Investigation Board</text>
+            <text>CAIB</text>
         </entity>
         <entity>
             <type>Country</type>
@@ -297,22 +275,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.14928</relevance>
+            <type>Organization</type>
+            <relevance>0.148649</relevance>
             <count>1</count>
-            <text>digital images</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.149236</relevance>
-            <count>1</count>
-            <text>Administrator</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.146465</relevance>
-            <count>1</count>
-            <text>Sean O&#x2019;Keefe</text>
+            <text>United States Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
@@ -333,14 +309,32 @@
             <text>Patty Reinert</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.140415</relevance>
+            <count>1</count>
+            <text>digital images</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.140198</relevance>
+            <count>1</count>
+            <text>Administrator</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.137137</relevance>
+            <count>1</count>
+            <text>Sean O&#x2019;Keefe</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.140728</relevance>
+            <relevance>0.131737</relevance>
             <count>1</count>
             <text>Washington</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.128265</relevance>
+            <relevance>0.119135</relevance>
             <count>1</count>
             <text>Committee on Commerce</text>
         </entity>

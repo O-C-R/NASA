@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.905682</relevance>
+            <relevance>0.803157</relevance>
             <count>6</count>
             <text>Lunar Prospector</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.679013</relevance>
+            <relevance>0.720039</relevance>
             <count>9</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,7 +35,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.386488</relevance>
+            <relevance>0.425574</relevance>
+            <count>4</count>
+            <text>Callisto</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.385674</relevance>
             <count>3</count>
             <text>Reuters</text>
             <disambiguated>
@@ -48,44 +54,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.368129</relevance>
-            <count>4</count>
-            <text>Callisto</text>
-        </entity>
-        <entity>
             <type>Technology</type>
-            <relevance>0.323966</relevance>
+            <relevance>0.338795</relevance>
             <count>1</count>
             <text>Infrared Mapping Spectrometer</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.30895</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.255463</relevance>
+            <relevance>0.295136</relevance>
             <count>2</count>
             <text>Margaret G. Kivelson</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.252848</relevance>
-            <count>1</count>
-            <text>Paul D. Spudis</text>
-            <disambiguated>
-                <name>Paul Spudis</name>
-                <dbpedia>http://dbpedia.org/resource/Paul_Spudis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05smtr</freebase>
-                <yago>http://yago-knowledge.org/resource/Paul_Spudis</yago>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.284871</relevance>
+            <count>2</count>
+            <text>solar system</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.251708</relevance>
+            <relevance>0.282059</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -104,27 +92,79 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.247853</relevance>
+            <type>Person</type>
+            <relevance>0.273022</relevance>
             <count>1</count>
-            <text>New York Times</text>
+            <text>Jeffrey S. Kargel</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.27077</relevance>
+            <count>1</count>
+            <text>Paul D. Spudis</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Paul Spudis</name>
+                <dbpedia>http://dbpedia.org/resource/Paul_Spudis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05smtr</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_Spudis</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.265314</relevance>
+            <count>1</count>
+            <text>Michael Kahn</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.265282</relevance>
+            <count>1</count>
+            <text>University of Hawaii</text>
+            <disambiguated>
+                <name>University of Hawai&#x2BB;i at M&#x101;noa</name>
+                <dbpedia>http://dbpedia.org/resource/University_of_Hawai&#x2BB;i_at_M&#x101;noa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_7kp</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.260478</relevance>
+            <count>1</count>
+            <text>James K. Crowley</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.25485</relevance>
+            <count>1</count>
+            <text>Clementine</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.252075</relevance>
+            <count>1</count>
+            <text>geophysicist</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.251112</relevance>
+            <count>1</count>
+            <text>Gary B. Hansen</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.246427</relevance>
+            <count>1</count>
+            <text>T. B. McCord</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.241008</relevance>
+            <count>1</count>
+            <text>Earth.</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.243555</relevance>
+            <relevance>0.240384</relevance>
             <count>1</count>
             <text>Los Angeles</text>
             <disambiguated>
@@ -142,95 +182,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.241098</relevance>
-            <count>1</count>
-            <text>Jeffrey S. Kargel</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.238964</relevance>
-            <count>1</count>
-            <text>Paul Hoversten</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.236614</relevance>
-            <count>1</count>
-            <text>Clementine</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235653</relevance>
-            <count>1</count>
-            <text>T. B. McCord</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.234422</relevance>
-            <count>1</count>
-            <text>University of Hawaii</text>
-            <disambiguated>
-                <name>University of Hawai&#x2BB;i at M&#x101;noa</name>
-                <dbpedia>http://dbpedia.org/resource/University_of_Hawai&#x2BB;i_at_M&#x101;noa</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_7kp</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.234066</relevance>
-            <count>1</count>
-            <text>Michael Kahn</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.229944</relevance>
-            <count>1</count>
-            <text>University of California</text>
-            <disambiguated>
-                <name>UC Davis College of Letters and Science</name>
-                <dbpedia>http://dbpedia.org/resource/UC_Davis_College_of_Letters_and_Science</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03mhh1</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.229034</relevance>
-            <count>1</count>
-            <text>James K. Crowley</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.222935</relevance>
-            <count>1</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.222653</relevance>
+            <relevance>0.240322</relevance>
             <count>1</count>
             <text>Alan B. Binder</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.220642</relevance>
+            <relevance>0.237812</relevance>
             <count>1</count>
             <text>J. Lawrence</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.220309</relevance>
-            <count>1</count>
-            <text>geophysicist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.219485</relevance>
-            <count>1</count>
-            <text>Gary B. Hansen</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.2189</relevance>
+            <relevance>0.236381</relevance>
             <count>1</count>
             <text>Washington Times</text>
             <disambiguated>
@@ -245,14 +209,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.218531</relevance>
-            <count>1</count>
-            <text>Principal Investigator</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.218492</relevance>
+            <relevance>0.235981</relevance>
             <count>1</count>
             <text>Chicago Tribune</text>
             <disambiguated>
@@ -267,20 +225,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.216658</relevance>
-            <count>1</count>
-            <text>K. K. Khurana</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.215207</relevance>
-            <count>1</count>
-            <text>energy sources</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.215171</relevance>
+            <relevance>0.232363</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -294,28 +240,82 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.228437</relevance>
+            <count>1</count>
+            <text>Chief Scientist</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.228003</relevance>
+            <count>1</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.226819</relevance>
+            <count>1</count>
+            <text>University of California</text>
+            <disambiguated>
+                <name>UC Davis College of Letters and Science</name>
+                <dbpedia>http://dbpedia.org/resource/UC_Davis_College_of_Letters_and_Science</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03mhh1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.219023</relevance>
+            <count>1</count>
+            <text>Paul Hoversten</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.215276</relevance>
+            <count>1</count>
+            <text>Principal Investigator</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.213384</relevance>
+            <count>1</count>
+            <text>K. K. Khurana</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.212584</relevance>
+            <relevance>0.212038</relevance>
+            <count>1</count>
+            <text>energy sources</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.209378</relevance>
             <count>1</count>
             <text>tidal energy.</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.211877</relevance>
+            <relevance>0.208724</relevance>
             <count>1</count>
             <text>professor</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.210872</relevance>
+            <type>Company</type>
+            <relevance>0.203462</relevance>
             <count>1</count>
-            <text>Chief Scientist</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.210658</relevance>
-            <count>1</count>
-            <text>Earth.</text>
+            <text>USA Today</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.889697</relevance>
+            <relevance>0.82689</relevance>
             <count>18</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.822137</relevance>
+            <relevance>0.759314</relevance>
             <count>10</count>
             <text>NY Times</text>
             <disambiguated>
@@ -48,37 +48,31 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.732175</relevance>
+            <relevance>0.719665</relevance>
             <count>3</count>
             <text>Space Shuttle Atlantis</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.540515</relevance>
-            <count>7</count>
-            <text>AP</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.511289</relevance>
+            <type>TelevisionStation</type>
+            <relevance>0.567487</relevance>
             <count>6</count>
             <text>UPI</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.552482</relevance>
+            <count>7</count>
+            <text>AP</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.499468</relevance>
+            <relevance>0.46304</relevance>
             <count>2</count>
             <text>Shuttle Discovery</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.456601</relevance>
-            <count>6</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.329976</relevance>
+            <relevance>0.367428</relevance>
             <count>2</count>
             <text>LA Times</text>
             <disambiguated>
@@ -94,14 +88,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.329172</relevance>
-            <count>1</count>
-            <text>Japanese National Space Development Agency</text>
+            <type>Company</type>
+            <relevance>0.366283</relevance>
+            <count>6</count>
+            <text>USA Today</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.3236</relevance>
+            <relevance>0.325646</relevance>
             <count>3</count>
             <text>Teledyne</text>
             <disambiguated>
@@ -115,7 +109,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.309132</relevance>
+            <relevance>0.313735</relevance>
             <count>2</count>
             <text>Rockwell International</text>
             <disambiguated>
@@ -129,8 +123,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.307015</relevance>
+            <count>1</count>
+            <text>Japanese National Space Development Agency</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.306966</relevance>
+            <relevance>0.293129</relevance>
             <count>4</count>
             <text>U.S.</text>
             <disambiguated>
@@ -149,20 +149,51 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.303836</relevance>
-            <count>1</count>
-            <text>Johnson Space Center</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.300328</relevance>
+            <relevance>0.292188</relevance>
             <count>2</count>
             <text>International Microgravity Laboratory</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.281179</relevance>
+            <count>1</count>
+            <text>Johnson Space Center</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.275175</relevance>
+            <count>1</count>
+            <text>Endeavour</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.264891</relevance>
+            <count>2</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.261288</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.256786</relevance>
+            <count>1</count>
+            <text>electrical systems</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.290882</relevance>
+            <relevance>0.248922</relevance>
             <count>2</count>
             <text>WSJ</text>
             <disambiguated>
@@ -176,20 +207,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.255216</relevance>
-            <count>2</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.254724</relevance>
+            <type>Company</type>
+            <relevance>0.242684</relevance>
             <count>1</count>
-            <text>Florida</text>
+            <text>Rockwell Corporation</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.254459</relevance>
+            <relevance>0.239794</relevance>
             <count>1</count>
             <text>Dr. Jean-Jacques Favier</text>
             <disambiguated>
@@ -201,57 +226,116 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.253962</relevance>
+            <type>Company</type>
+            <relevance>0.234865</relevance>
             <count>1</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.25252</relevance>
-            <count>1</count>
-            <text>Bob Sieck</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.251629</relevance>
-            <count>2</count>
-            <text>Rockwell</text>
+            <text>Teledyne Relays</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.251589</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell Collins</name>
-                <website>http://www.rockwellcollins.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.244051</relevance>
-            <count>1</count>
-            <text>Teledyne Industries</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.243597</relevance>
+            <relevance>0.234375</relevance>
             <count>3</count>
             <text>Magellan</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.233447</relevance>
+            <count>1</count>
+            <text>Dirk Frimout</text>
+            <disambiguated>
+                <name>Dirk Frimout</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Dirk_Frimout</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02v1jl</freebase>
+                <yago>http://yago-knowledge.org/resource/Dirk_Frimout</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.232759</relevance>
+            <count>1</count>
+            <text>Justice Department</text>
+            <disambiguated>
+                <name>United States Department of Justice</name>
+                <subType>GovernmentAgency</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.usdoj.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Department_of_Justice</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dtj5</freebase>
+                <yago>http://yago-knowledge.org/resource/United_States_Department_of_Justice</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.232205</relevance>
+            <count>1</count>
+            <text>King Baudouin</text>
+            <disambiguated>
+                <name>Baudouin of Belgium</name>
+                <subType>ChivalricOrderMember</subType>
+                <subType>Monarch</subType>
+                <subType>NoblePerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Baudouin_of_Belgium</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0glgm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.230851</relevance>
+            <count>1</count>
+            <text>Prince Philippe</text>
+            <disambiguated>
+                <name>Prince Philippe, Duke of Brabant</name>
+                <subType>ChivalricOrderMember</subType>
+                <subType>NoblePerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Prince_Philippe,_Duke_of_Brabant</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.016m3r</freebase>
+                <yago>http://yago-knowledge.org/resource/Prince_Philippe,_Duke_of_Brabant</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.242165</relevance>
+            <relevance>0.228066</relevance>
             <count>2</count>
             <text>Japan</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.227797</relevance>
+            <count>1</count>
+            <text>Florida</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.226579</relevance>
+            <count>1</count>
+            <text>hydrogen fuel</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.226315</relevance>
+            <count>1</count>
+            <text>Belgium</text>
+            <disambiguated>
+                <name>Belgium</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <website>http://www.monarchie.be/</website>
+                <dbpedia>http://dbpedia.org/resource/Belgium</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Belgium</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0154j</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjfR5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Belgium</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.240552</relevance>
+            <relevance>0.226059</relevance>
             <count>1</count>
             <text>Mae Jemison</text>
             <disambiguated>
@@ -267,7 +351,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.240336</relevance>
+            <relevance>0.22585</relevance>
             <count>1</count>
             <text>Mamoru Mohri</text>
             <disambiguated>
@@ -280,13 +364,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.239694</relevance>
-            <count>1</count>
-            <text>Endeavour</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.238014</relevance>
+            <relevance>0.223417</relevance>
             <count>1</count>
             <text>Dr. Chiaki Mukai</text>
             <disambiguated>
@@ -298,118 +376,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.22938</relevance>
-            <count>1</count>
-            <text>Rockwell Corporation</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.223568</relevance>
-            <count>1</count>
-            <text>electrical systems</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.222728</relevance>
-            <count>1</count>
-            <text>Houston</text>
-            <disambiguated>
-                <name>Houston</name>
-                <website>http://www.houstontx.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.22162</relevance>
-            <count>1</count>
-            <text>Texas</text>
-            <disambiguated>
-                <name>Texas</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>31.0 -100.0</geo>
-                <website>http://www.texasonline.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Texas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07b_l</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBk5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Texas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.220293</relevance>
-            <count>1</count>
-            <text>Cape Canaveral</text>
-            <disambiguated>
-                <name>Cape Canaveral</name>
-                <subType>Location</subType>
-                <geo>28.455555555555556 -80.52777777777777</geo>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
-                <geonames>http://sws.geonames.org/4149910/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.219736</relevance>
-            <count>1</count>
-            <text>Lawrence Livermore National Laboratory</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.218027</relevance>
-            <count>1</count>
-            <text>Teledyne Relays</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.217952</relevance>
+            <relevance>0.222569</relevance>
             <count>1</count>
             <text>Aerospace Safety Advisory Panel</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.21775</relevance>
+            <type>JobTitle</type>
+            <relevance>0.222214</relevance>
             <count>1</count>
-            <text>hydrogen fuel</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.217574</relevance>
-            <count>1</count>
-            <text>Jan Davis</text>
-            <disambiguated>
-                <name>Jan Davis</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Jan_Davis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02k75s</freebase>
-                <yago>http://yago-knowledge.org/resource/Jan_Davis</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.217526</relevance>
-            <count>1</count>
-            <text>French Atomic Energy Commission</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.214966</relevance>
-            <count>1</count>
-            <text>Columbia</text>
+            <text>director</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.212731</relevance>
+            <relevance>0.221329</relevance>
             <count>1</count>
             <text>Cedar Rapids</text>
             <disambiguated>
@@ -424,19 +404,31 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.212729</relevance>
+            <relevance>0.219647</relevance>
             <count>1</count>
-            <text>Mark Lee</text>
+            <text>Bob Sieck</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.212018</relevance>
+            <relevance>0.218925</relevance>
             <count>1</count>
             <text>Atmospheric Laboratory for Applications and Science</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.218624</relevance>
+            <count>1</count>
+            <text>civil lawsuit</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.209547</relevance>
+            <relevance>0.218141</relevance>
+            <count>1</count>
+            <text>Columbia</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.218018</relevance>
             <count>1</count>
             <text>Iowa</text>
             <disambiguated>
@@ -455,58 +447,98 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.207447</relevance>
-            <count>1</count>
-            <text>Dirk Frimout</text>
-            <disambiguated>
-                <name>Dirk Frimout</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Dirk_Frimout</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02v1jl</freebase>
-                <yago>http://yago-knowledge.org/resource/Dirk_Frimout</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Crime</type>
-            <relevance>0.207347</relevance>
+            <relevance>0.215862</relevance>
             <count>1</count>
             <text>fraud</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.206611</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.213879</relevance>
             <count>1</count>
-            <text>Gilruth Center</text>
+            <text>Antelope Valley</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.206377</relevance>
+            <type>Company</type>
+            <relevance>0.210745</relevance>
             <count>1</count>
-            <text>King Baudouin</text>
+            <text>Teledyne Industries</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.210317</relevance>
+            <count>1</count>
+            <text>Lawrence Livermore National Laboratory</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.209396</relevance>
+            <count>1</count>
+            <text>California</text>
             <disambiguated>
-                <name>Baudouin of Belgium</name>
-                <subType>ChivalricOrderMember</subType>
-                <subType>Monarch</subType>
-                <subType>NoblePerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Baudouin_of_Belgium</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0glgm</freebase>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.206213</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.207813</relevance>
             <count>1</count>
-            <text>Oman</text>
+            <text>Cape Canaveral</text>
             <disambiguated>
-                <name>Oman</name>
+                <name>Cape Canaveral</name>
                 <subType>Location</subType>
+                <geo>28.455555555555556 -80.52777777777777</geo>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f76c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv7A3qJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral</yago>
+                <geonames>http://sws.geonames.org/4149910/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.207612</relevance>
+            <count>1</count>
+            <text>Houston</text>
+            <disambiguated>
+                <name>Houston</name>
+                <website>http://www.houstontx.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.206578</relevance>
+            <count>1</count>
+            <text>Texas</text>
+            <disambiguated>
+                <name>Texas</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Oman</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Oman</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05l8y</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViG1ZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Oman</yago>
+                <subType>USState</subType>
+                <geo>31.0 -100.0</geo>
+                <website>http://www.texasonline.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Texas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07b_l</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBk5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Texas</yago>
             </disambiguated>
         </entity>
     </entities>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.863075</relevance>
+            <relevance>0.862632</relevance>
             <count>55</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,40 +29,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.285966</relevance>
-            <count>7</count>
-            <text>Virginia</text>
-            <disambiguated>
-                <name>Virginia</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.virginia.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Virginia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.265368</relevance>
-            <count>3</count>
-            <text>Ames-Dryden Flight Research Facility</text>
-            <disambiguated>
-                <name>Dryden Flight Research Center</name>
-                <geo>34.950712 -117.88652</geo>
-                <website>http://www.nasa.gov/dryden</website>
-                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
-                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.256502</relevance>
+            <relevance>0.27917</relevance>
             <count>5</count>
             <text>California</text>
             <disambiguated>
@@ -83,45 +50,41 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.255314</relevance>
-            <count>7</count>
-            <text>NASP</text>
+            <type>Company</type>
+            <relevance>0.269261</relevance>
+            <count>5</count>
+            <text>Magellan</text>
             <disambiguated>
-                <name>National Association of School Psychologists</name>
-                <dbpedia>http://dbpedia.org/resource/National_Association_of_School_Psychologists</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bs4z0</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Association_of_School_Psychologists</yago>
+                <name>Magellan Navigation</name>
+                <subType>VentureFundedCompany</subType>
+                <website>http://www.MagellanGPS.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Magellan_Navigation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026_770</freebase>
+                <yago>http://yago-knowledge.org/resource/Magellan_Navigation</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.254623</relevance>
-            <count>1</count>
-            <text>NASA Langley Research Center</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.248968</relevance>
-            <count>5</count>
-            <text>NY Times</text>
+            <type>StateOrCounty</type>
+            <relevance>0.263168</relevance>
+            <count>7</count>
+            <text>Virginia</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Virginia</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.virginia.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Virginia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2wcp</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViztZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Virginia</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.246364</relevance>
+            <relevance>0.251308</relevance>
             <count>4</count>
             <text>United States</text>
             <disambiguated>
@@ -140,26 +103,141 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.243118</relevance>
-            <count>4</count>
-            <text>carbon dioxide</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.236973</relevance>
+            <relevance>0.243517</relevance>
             <count>4</count>
             <text>USA Today</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.234817</relevance>
+            <count>5</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.233312</relevance>
+            <count>4</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.235659</relevance>
+            <relevance>0.230292</relevance>
+            <count>1</count>
+            <text>NASA Langley Research Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.23009</relevance>
+            <count>3</count>
+            <text>Ames-Dryden Flight Research Facility</text>
+            <disambiguated>
+                <name>Dryden Flight Research Center</name>
+                <geo>34.950712 -117.88652</geo>
+                <website>http://www.nasa.gov/dryden</website>
+                <dbpedia>http://dbpedia.org/resource/Dryden_Flight_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xmj5</freebase>
+                <yago>http://yago-knowledge.org/resource/Dryden_Flight_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.228175</relevance>
+            <count>7</count>
+            <text>NASP</text>
+            <disambiguated>
+                <name>National Association of School Psychologists</name>
+                <dbpedia>http://dbpedia.org/resource/National_Association_of_School_Psychologists</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bs4z0</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Association_of_School_Psychologists</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.226307</relevance>
+            <count>4</count>
+            <text>carbon dioxide</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.21449</relevance>
+            <count>2</count>
+            <text>Goddard Institute for Space Studies</text>
+            <disambiguated>
+                <name>Goddard Institute for Space Studies</name>
+                <geo>40.80544 -73.96536</geo>
+                <website>http://www.giss.nasa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Goddard_Institute_for_Space_Studies</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
+                <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.206728</relevance>
+            <count>2</count>
+            <text>Pacific Ocean</text>
+            <disambiguated>
+                <name>Pacific Ocean</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.205342</relevance>
+            <count>1</count>
+            <text>advanced aircraft</text>
+            <disambiguated>
+                <name>Advanced Aircraft</name>
+                <dbpedia>http://dbpedia.org/resource/Advanced_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0409dh</freebase>
+                <yago>http://yago-knowledge.org/resource/Advanced_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.203032</relevance>
             <count>3</count>
             <text>National Aero-Space Plane</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.198354</relevance>
+            <count>1</count>
+            <text>Aurora Flight Sciences Corporation</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.221196</relevance>
+            <relevance>0.195115</relevance>
             <count>3</count>
             <text>Manassas</text>
             <disambiguated>
@@ -176,187 +254,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.209748</relevance>
-            <count>2</count>
-            <text>Goddard Institute for Space Studies</text>
-            <disambiguated>
-                <name>Goddard Institute for Space Studies</name>
-                <geo>40.80544 -73.96536</geo>
-                <website>http://www.giss.nasa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Goddard_Institute_for_Space_Studies</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04kg07</freebase>
-                <yago>http://yago-knowledge.org/resource/Goddard_Institute_for_Space_Studies</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.209134</relevance>
-            <count>2</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.208729</relevance>
-            <count>4</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.206596</relevance>
-            <count>3</count>
-            <text>Magellan</text>
-            <disambiguated>
-                <name>Magellan Aerospace</name>
-                <website>http://www.magellan.aero/</website>
-                <dbpedia>http://dbpedia.org/resource/Magellan_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d25tq</freebase>
-                <yago>http://yago-knowledge.org/resource/Magellan_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.205837</relevance>
-            <count>2</count>
-            <text>Magellan</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.204</relevance>
-            <count>3</count>
-            <text>Edwards</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.200125</relevance>
-            <count>3</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.197803</relevance>
-            <count>1</count>
-            <text>Goddard Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.189731</relevance>
-            <count>2</count>
-            <text>LA Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.189435</relevance>
-            <count>2</count>
-            <text>Pacific Ocean</text>
-            <disambiguated>
-                <name>Pacific Ocean</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.189412</relevance>
-            <count>3</count>
-            <text>Ohio</text>
-            <disambiguated>
-                <name>Ohio</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.ohio.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Ohio</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.185943</relevance>
-            <count>1</count>
-            <text>Wallops Island</text>
-            <disambiguated>
-                <name>Wallops Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>37.85 -75.46666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
-                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
-                <geonames>http://sws.geonames.org/4792009/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.184047</relevance>
-            <count>1</count>
-            <text>National Oceanic and Atmospheric Administration</text>
-            <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.182447</relevance>
-            <count>1</count>
-            <text>Raspet Flight Research Laboratory</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.181291</relevance>
+            <relevance>0.191968</relevance>
             <count>2</count>
             <text>Maryland</text>
             <disambiguated>
@@ -377,36 +276,50 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.181114</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.191719</relevance>
             <count>1</count>
-            <text>Wallops Flight Facility</text>
+            <text>climate change</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.18103</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.188573</relevance>
             <count>2</count>
-            <text>IBM</text>
+            <text>LA Times</text>
             <disambiguated>
-                <name>IBM</name>
-                <subType>SoftwareLicense</subType>
-                <subType>OperatingSystemDeveloper</subType>
-                <subType>ProcessorManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>CompanyFounder</subType>
-                <subType>ProgrammingLanguageDesigner</subType>
-                <subType>ProgrammingLanguageDeveloper</subType>
-                <website>http://www.ibm.com/</website>
-                <dbpedia>http://dbpedia.org/resource/IBM</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03sc8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMoJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/IBM</yago>
-                <crunchbase>http://www.crunchbase.com/company/ibm</crunchbase>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.188009</relevance>
+            <count>3</count>
+            <text>Ohio</text>
+            <disambiguated>
+                <name>Ohio</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.ohio.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Ohio</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.18051</relevance>
+            <relevance>0.188006</relevance>
             <count>1</count>
             <text>aircraft designs</text>
             <disambiguated>
@@ -417,149 +330,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.178206</relevance>
-            <count>1</count>
-            <text>New York University</text>
-            <disambiguated>
-                <name>New York University</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>40.73 -73.995</geo>
-                <website>http://www.nyu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bwfn</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvW_sZZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/New_York_University</yago>
-                <geonames>http://sws.geonames.org/5128634/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.176403</relevance>
-            <count>1</count>
-            <text>New York</text>
-            <disambiguated>
-                <name>New York City</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>WineRegion</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>40.71666666666667 -74.0</geo>
-                <website>http://www.nyc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/New_York_City</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_286</freebase>
-                <yago>http://yago-knowledge.org/resource/New_York_City</yago>
-                <geonames>http://sws.geonames.org/5128581/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.175032</relevance>
-            <count>1</count>
-            <text>House of Representatives</text>
-            <disambiguated>
-                <name>United States House of Representatives</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.house.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_House_of_Representatives</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b3wk</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rIBWeonXbQdeHEdLekSK2AA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_House_of_Representatives</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.173447</relevance>
-            <count>1</count>
-            <text>Lewis Advanced Cluster Environment</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.173253</relevance>
-            <count>2</count>
-            <text>California.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.172111</relevance>
-            <count>1</count>
-            <text>Lawrence Livermore National Laboratory</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.169974</relevance>
-            <count>1</count>
-            <text>advanced aircraft</text>
-            <disambiguated>
-                <name>Advanced Aircraft</name>
-                <dbpedia>http://dbpedia.org/resource/Advanced_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0409dh</freebase>
-                <yago>http://yago-knowledge.org/resource/Advanced_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.168879</relevance>
-            <count>1</count>
-            <text>Aurora Flight Services Corporation</text>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.167156</relevance>
-            <count>1</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.16632</relevance>
-            <count>1</count>
-            <text>Greenland polar glacier</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.166205</relevance>
-            <count>1</count>
-            <text>United Nations Environment Program</text>
-            <disambiguated>
-                <name>United Nations Environment Programme</name>
-                <website>http://www.unep.org/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations_Environment_Programme</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07x5b</freebase>
-                <yago>http://yago-knowledge.org/resource/United_Nations_Environment_Programme</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.166186</relevance>
-            <count>1</count>
-            <text>U. S. Senate Committee on Governmental Affairs</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.165178</relevance>
-            <count>1</count>
-            <text>Curt Covey</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.164802</relevance>
-            <count>1</count>
-            <text>Martin I. Hoffert</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.16354</relevance>
+            <relevance>0.187546</relevance>
             <count>2</count>
             <text>Pasadena</text>
             <disambiguated>
@@ -575,54 +347,238 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.162112</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.185448</relevance>
             <count>1</count>
-            <text>Aurora Flight Sciences Corporation</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.161984</relevance>
-            <count>1</count>
-            <text>British journal Nature</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.161781</relevance>
-            <count>1</count>
-            <text>Edwards</text>
+            <text>Potomac River</text>
             <disambiguated>
-                <name>Edwards, Mississippi</name>
-                <geo>32.33083333333333 -90.60416666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Edwards,_Mississippi</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0wq6r</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ms/counties/hinds_county/district_2/edwards</census>
-                <yago>http://yago-knowledge.org/resource/Edwards,_Mississippi</yago>
+                <name>Potomac River</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <subType>River</subType>
+                <dbpedia>http://dbpedia.org/resource/Potomac_River</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g52g</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi1npwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Potomac_River</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.184044</relevance>
+            <count>1</count>
+            <text>Mount Pinatubo</text>
+            <disambiguated>
+                <name>Mount Pinatubo</name>
+                <subType>Location</subType>
+                <subType>Mountain</subType>
+                <geo>15.141666666666667 120.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Mount_Pinatubo</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02hvs9</freebase>
+                <yago>http://yago-knowledge.org/resource/Mount_Pinatubo</yago>
+                <geonames>http://sws.geonames.org/1693517/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.161574</relevance>
+            <relevance>0.180498</relevance>
             <count>1</count>
-            <text>Flight Research Facility</text>
+            <text>United Nations Environment Program</text>
+            <disambiguated>
+                <name>United Nations Environment Programme</name>
+                <website>http://www.unep.org/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_Environment_Programme</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07x5b</freebase>
+                <yago>http://yago-knowledge.org/resource/United_Nations_Environment_Programme</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.179846</relevance>
+            <count>1</count>
+            <text>Philippines</text>
+            <disambiguated>
+                <name>Philippines</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>14.583333333333334 121.0</geo>
+                <website>http://www.gov.ph</website>
+                <dbpedia>http://dbpedia.org/resource/Philippines</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Philippines</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05v8c</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVipLpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Philippines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.176877</relevance>
+            <count>3</count>
+            <text>Edwards</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.176618</relevance>
+            <count>1</count>
+            <text>Raspet Flight Research Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.174416</relevance>
+            <count>1</count>
+            <text>National Oceanic and Atmospheric Administration</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.172691</relevance>
+            <count>1</count>
+            <text>Derek Lovley</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.172361</relevance>
+            <count>1</count>
+            <text>Perseus</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.172186</relevance>
+            <count>1</count>
+            <text>Earth sciences</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.170198</relevance>
+            <count>1</count>
+            <text>principal</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.169194</relevance>
+            <count>1</count>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.165878</relevance>
+            <count>1</count>
+            <text>Geololgical Survey</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.165455</relevance>
+            <count>1</count>
+            <text>Associated Press</text>
+            <disambiguated>
+                <name>Associated Press</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.ap.org</website>
+                <dbpedia>http://dbpedia.org/resource/Associated_Press</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cv_2</freebase>
+                <yago>http://yago-knowledge.org/resource/Associated_Press</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.165257</relevance>
+            <count>1</count>
+            <text>Gross National Product</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.164196</relevance>
+            <count>1</count>
+            <text>Pacific</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.1637</relevance>
+            <count>1</count>
+            <text>Atlantic Ocean.</text>
+        </entity>
+        <entity>
+            <type>Crime</type>
+            <relevance>0.163102</relevance>
+            <count>1</count>
+            <text>solicitation</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.162814</relevance>
+            <count>1</count>
+            <text>Reston</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.161338</relevance>
+            <relevance>0.161313</relevance>
             <count>1</count>
-            <text>Mississippi</text>
+            <text>Virginia.</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.160935</relevance>
+            <count>1</count>
+            <text>Virginia Air and Space Center</text>
             <disambiguated>
-                <name>Mississippi</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.mississippi.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Mississippi</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04tgp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBTpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mississippi</yago>
+                <name>Virginia Air and Space Center</name>
+                <dbpedia>http://dbpedia.org/resource/Virginia_Air_and_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cm8jvc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.160697</relevance>
+            <count>1</count>
+            <text>hydrogen fuel</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.160584</relevance>
+            <count>2</count>
+            <text>California.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.160417</relevance>
+            <count>1</count>
+            <text>House of Representatives</text>
+            <disambiguated>
+                <name>United States House of Representatives</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.house.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_House_of_Representatives</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b3wk</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rIBWeonXbQdeHEdLekSK2AA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_House_of_Representatives</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.159095</relevance>
+            <count>1</count>
+            <text>Goddard Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.157875</relevance>
+            <count>2</count>
+            <text>Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
             </disambiguated>
         </entity>
     </entities>

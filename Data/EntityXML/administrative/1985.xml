@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.882611</relevance>
+            <relevance>0.929346</relevance>
             <count>41</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.523483</relevance>
+            <relevance>0.574419</relevance>
             <count>26</count>
             <text>Federal Aviation Administration</text>
             <disambiguated>
@@ -43,39 +43,71 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.450494</relevance>
+            <relevance>0.487063</relevance>
             <count>10</count>
             <text>Administrator James Beggs</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.424278</relevance>
+            <relevance>0.408969</relevance>
             <count>4</count>
             <text>NASA administrator</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.37434</relevance>
-            <count>5</count>
-            <text>Boeing</text>
+            <relevance>0.385738</relevance>
+            <count>10</count>
+            <text>Boeing Co.</text>
             <disambiguated>
-                <name>Spirit AeroSystems</name>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
                 <subType>AircraftManufacturer</subType>
-                <website>http://www.spiritaero.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
-                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.369285</relevance>
-            <count>2</count>
-            <text>NASA Headquarters</text>
+            <type>PrintMedia</type>
+            <relevance>0.373388</relevance>
+            <count>4</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.358594</relevance>
+            <count>5</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.366379</relevance>
+            <relevance>0.358424</relevance>
             <count>9</count>
             <text>U.S.</text>
             <disambiguated>
@@ -94,8 +126,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.332756</relevance>
+            <count>2</count>
+            <text>NASA Headquarters</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.332556</relevance>
+            <relevance>0.324905</relevance>
             <count>4</count>
             <text>President Reagan</text>
             <disambiguated>
@@ -116,84 +154,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.332037</relevance>
-            <count>4</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.328521</relevance>
-            <count>5</count>
-            <text>NY Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.305171</relevance>
-            <count>5</count>
-            <text>Boeing Co.</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.280525</relevance>
-            <count>2</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.266793</relevance>
-            <count>3</count>
-            <text>KSC</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.266282</relevance>
+            <relevance>0.297945</relevance>
             <count>3</count>
             <text>General Dynamics</text>
             <disambiguated>
@@ -208,20 +170,96 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.286458</relevance>
+            <count>2</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.277261</relevance>
+            <count>2</count>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Martin Space Systems</name>
+                <subType>CompanyDivision</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
+                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.274576</relevance>
+            <count>3</count>
+            <text>Amphitrite</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.272475</relevance>
+            <count>1</count>
+            <text>JAL</text>
+            <disambiguated>
+                <name>Japan Airlines</name>
+                <subType>Company</subType>
+                <subType>Airline</subType>
+                <website>http://jal.com</website>
+                <dbpedia>http://dbpedia.org/resource/Japan_Airlines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c2hv</freebase>
+                <yago>http://yago-knowledge.org/resource/Japan_Airlines</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.270988</relevance>
+            <count>1</count>
+            <text>Aircraft Accident Investigation Committee</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.265819</relevance>
+            <count>1</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.265807</relevance>
+            <relevance>0.26268</relevance>
             <count>2</count>
             <text>executive</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.264311</relevance>
-            <count>2</count>
-            <text>Spacelab</text>
+            <type>JobTitle</type>
+            <relevance>0.260689</relevance>
+            <count>3</count>
+            <text>attorney</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.259231</relevance>
+            <count>1</count>
+            <text>Japan Air</text>
+            <disambiguated>
+                <name>Japan Airlines</name>
+                <subType>Airline</subType>
+                <website>http://jal.com</website>
+                <dbpedia>http://dbpedia.org/resource/Japan_Airlines</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c2hv</freebase>
+                <yago>http://yago-knowledge.org/resource/Japan_Airlines</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.263058</relevance>
+            <relevance>0.2589</relevance>
             <count>2</count>
             <text>Defense Department</text>
             <disambiguated>
@@ -238,23 +276,6 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.260743</relevance>
-            <count>3</count>
-            <text>attorney</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.25988</relevance>
-            <count>2</count>
-            <text>Todd Holmes</text>
-            <disambiguated>
-                <name>Todd Holmes</name>
-                <dbpedia>http://dbpedia.org/resource/Todd_Holmes</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gjd5mz</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
             <relevance>0.257787</relevance>
             <count>3</count>
@@ -263,20 +284,6 @@
                 <name>Ferdinand Francis Fernandez</name>
                 <dbpedia>http://dbpedia.org/resource/Ferdinand_Francis_Fernandez</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.05p6dkv</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.257727</relevance>
-            <count>2</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Martin Space Systems</name>
-                <subType>CompanyDivision</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
-                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -292,68 +299,8 @@
             <text>Randy Bellows</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.253137</relevance>
-            <count>2</count>
-            <text>Congress</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.252585</relevance>
-            <count>2</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251911</relevance>
-            <count>1</count>
-            <text>National Space Club</text>
-            <disambiguated>
-                <name>National Space Club</name>
-                <dbpedia>http://dbpedia.org/resource/National_Space_Club</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm8b3s</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.251599</relevance>
-            <count>1</count>
-            <text>U.S. District Court</text>
-            <disambiguated>
-                <name>United States district court</name>
-                <website>http://www.uscourts.gov/districtcourts.html</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_district_court</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0j75z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwJaSbpwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.249923</relevance>
-            <count>3</count>
-            <text>DeCair</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.246561</relevance>
-            <count>1</count>
-            <text>David Braunstein</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.245998</relevance>
-            <count>2</count>
-            <text>principal</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.245578</relevance>
-            <count>3</count>
-            <text>president</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.244799</relevance>
+            <relevance>0.25519</relevance>
             <count>1</count>
             <text>Kennedy Space Center</text>
             <disambiguated>
@@ -369,33 +316,70 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.243297</relevance>
-            <count>1</count>
-            <text>administrator</text>
+            <type>Country</type>
+            <relevance>0.254643</relevance>
+            <count>2</count>
+            <text>Japan</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.242253</relevance>
+            <type>Organization</type>
+            <relevance>0.253444</relevance>
             <count>1</count>
-            <text>Urban</text>
+            <text>gores</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.251599</relevance>
+            <count>1</count>
+            <text>U.S. District Court</text>
             <disambiguated>
-                <name>Orban</name>
-                <subType>Inventor</subType>
-                <dbpedia>http://dbpedia.org/resource/Orban</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02z8260</freebase>
-                <yago>http://yago-knowledge.org/resource/Orban</yago>
+                <name>United States district court</name>
+                <website>http://www.uscourts.gov/districtcourts.html</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_district_court</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0j75z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwJaSbpwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
         <entity>
-            <type>Crime</type>
-            <relevance>0.237499</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.249186</relevance>
+            <count>2</count>
+            <text>JSC Roundup</text>
+        </entity>
+        <entity>
+            <type>HealthCondition</type>
+            <relevance>0.245436</relevance>
             <count>1</count>
-            <text>fraud</text>
+            <text>diabetes</text>
+            <disambiguated>
+                <name>Diabetes mellitus</name>
+                <subType>Disease</subType>
+                <dbpedia>http://dbpedia.org/resource/Diabetes_mellitus</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0c58k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1iLpwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.245291</relevance>
+            <count>3</count>
+            <text>KSC</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.236858</relevance>
+            <relevance>0.240333</relevance>
             <count>1</count>
             <text>Rep. Newt Gingrich</text>
             <disambiguated>
@@ -413,40 +397,47 @@
         </entity>
         <entity>
             <type>JobTitle</type>
+            <relevance>0.239283</relevance>
+            <count>2</count>
+            <text>director</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.237077</relevance>
+            <count>1</count>
+            <text>North Atlantic</text>
+            <disambiguated>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.236718</relevance>
+            <count>1</count>
+            <text>Leonid Kizim</text>
+            <disambiguated>
+                <name>Leonid Kizim</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Leonid_Kizim</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03klk8</freebase>
+                <yago>http://yago-knowledge.org/resource/Leonid_Kizim</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
             <relevance>0.236168</relevance>
             <count>1</count>
             <text>prosecutor</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.233011</relevance>
-            <count>3</count>
-            <text>Amphitrite</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.232902</relevance>
-            <count>1</count>
-            <text>Thomas Paine</text>
-            <disambiguated>
-                <name>Thomas Paine</name>
-                <subType>Inventor</subType>
-                <subType>Philosopher</subType>
-                <dbpedia>http://dbpedia.org/resource/Thomas_Paine</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07kwl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwPOO95wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Thomas_Paine</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.232489</relevance>
-            <count>1</count>
-            <text>communications technology</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.231957</relevance>
+            <relevance>0.235473</relevance>
             <count>1</count>
             <text>Rep. James Oberstar</text>
             <disambiguated>
@@ -461,7 +452,107 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.231896</relevance>
+            <relevance>0.234745</relevance>
+            <count>1</count>
+            <text>Urban</text>
+            <disambiguated>
+                <name>Orban</name>
+                <subType>Inventor</subType>
+                <dbpedia>http://dbpedia.org/resource/Orban</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02z8260</freebase>
+                <yago>http://yago-knowledge.org/resource/Orban</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.232973</relevance>
+            <count>1</count>
+            <text>National Space Club</text>
+            <disambiguated>
+                <name>National Space Club</name>
+                <dbpedia>http://dbpedia.org/resource/National_Space_Club</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cm8b3s</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.232086</relevance>
+            <count>2</count>
+            <text>principal</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.231746</relevance>
+            <count>1</count>
+            <text>DIVAD</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.231437</relevance>
+            <count>3</count>
+            <text>USSR</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.23073</relevance>
+            <count>1</count>
+            <text>Iceland</text>
+            <disambiguated>
+                <name>Iceland</name>
+                <subType>Location</subType>
+                <subType>GeographicFeature</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Island</subType>
+                <dbpedia>http://dbpedia.org/resource/Iceland</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Iceland</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03rj0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViKbpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Iceland</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.229803</relevance>
+            <count>1</count>
+            <text>Cape Canaveral Air Force Station</text>
+            <disambiguated>
+                <name>Cape Canaveral Air Force Station</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <dbpedia>http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01smkl</freebase>
+                <yago>http://yago-knowledge.org/resource/Cape_Canaveral_Air_Force_Station</yago>
+                <geonames>http://sws.geonames.org/6269438/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.225502</relevance>
+            <count>1</count>
+            <text>Seattle</text>
+            <disambiguated>
+                <name>Seattle</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.seattle.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Seattle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d9jr</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.223252</relevance>
             <count>4</count>
             <text>Thomas Pyle</text>
             <disambiguated>
@@ -472,68 +563,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.231746</relevance>
+            <type>Company</type>
+            <relevance>0.223007</relevance>
             <count>1</count>
-            <text>DIVAD</text>
+            <text>Spaceport News</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.231592</relevance>
+            <type>Person</type>
+            <relevance>0.222911</relevance>
             <count>1</count>
-            <text>JAL</text>
+            <text>I.M. Pei</text>
             <disambiguated>
-                <name>Japan Airlines</name>
-                <subType>Company</subType>
-                <subType>Airline</subType>
-                <website>http://jal.com</website>
-                <dbpedia>http://dbpedia.org/resource/Japan_Airlines</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c2hv</freebase>
-                <yago>http://yago-knowledge.org/resource/Japan_Airlines</yago>
+                <name>I. M. Pei</name>
+                <subType>Architect</subType>
+                <subType>ArchitectureFirmPartner</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyFounder</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/I._M._Pei</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03xds</freebase>
+                <yago>http://yago-knowledge.org/resource/I._M._Pei</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.231536</relevance>
+            <relevance>0.22242</relevance>
             <count>1</count>
-            <text>FAA Technical Center</text>
+            <text>Gagarin Space Training Centre</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.231339</relevance>
+            <type>Person</type>
+            <relevance>0.221618</relevance>
             <count>2</count>
-            <text>Urban</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.231102</relevance>
-            <count>1</count>
-            <text>National Space Commission</text>
-        </entity>
-        <entity>
-            <type>HealthCondition</type>
-            <relevance>0.228745</relevance>
-            <count>1</count>
-            <text>diabetes</text>
+            <text>Todd Holmes</text>
             <disambiguated>
-                <name>Diabetes mellitus</name>
-                <subType>Disease</subType>
-                <dbpedia>http://dbpedia.org/resource/Diabetes_mellitus</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0c58k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1iLpwpEbGdrcN5Y29ycA</opencyc>
+                <name>Todd Holmes</name>
+                <dbpedia>http://dbpedia.org/resource/Todd_Holmes</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gjd5mz</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.227773</relevance>
-            <count>3</count>
-            <text>VCAP</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227464</relevance>
-            <count>1</count>
-            <text>Space Research Association</text>
         </entity>
     </entities>
 </results>

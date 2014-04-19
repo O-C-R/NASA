@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.829825</relevance>
+            <relevance>0.833117</relevance>
             <count>34</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,14 +28,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.334903</relevance>
+            <count>5</count>
+            <text>Space Exploration</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.297141</relevance>
+            <relevance>0.304937</relevance>
             <count>3</count>
             <text>Chandra X-ray Observatory</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.294244</relevance>
+            <count>8</count>
+            <text>black holes</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.264253</relevance>
+            <relevance>0.273113</relevance>
             <count>3</count>
             <text>New York Times</text>
             <disambiguated>
@@ -53,52 +65,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.255148</relevance>
-            <count>5</count>
-            <text>Space Exploration</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.246911</relevance>
-            <count>1</count>
-            <text>Director of NASA&#x2019;s DFRC</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.241301</relevance>
-            <count>2</count>
-            <text>SST</text>
-            <disambiguated>
-                <name>School of Science and Technology</name>
-                <subType>School</subType>
-                <geo>45.5079 -122.8486</geo>
-                <website>http://www.beavton.k12.or.us/merlo_station/sst/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/School_of_Science_and_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027hsjr</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.238329</relevance>
-            <count>3</count>
-            <text>Chandra</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.238006</relevance>
-            <count>7</count>
-            <text>Black Holes</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.22578</relevance>
-            <count>1</count>
-            <text>Special Assistant to NASA</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.225116</relevance>
+            <relevance>0.257397</relevance>
             <count>4</count>
             <text>United States</text>
             <disambiguated>
@@ -117,20 +85,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.22383</relevance>
-            <count>4</count>
-            <text>Steven G. Schmidt</text>
+            <type>JobTitle</type>
+            <relevance>0.248043</relevance>
+            <count>1</count>
+            <text>Director of NASA&#x2019;s DFRC</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.221542</relevance>
+            <type>Person</type>
+            <relevance>0.230147</relevance>
+            <count>3</count>
+            <text>Chandra</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.22684</relevance>
             <count>1</count>
-            <text>Space Infrared Telescope Facility</text>
+            <text>Special Assistant to NASA</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.22406</relevance>
+            <count>2</count>
+            <text>solar system</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.219693</relevance>
+            <relevance>0.219346</relevance>
             <count>2</count>
             <text>Aviation Week</text>
             <disambiguated>
@@ -144,8 +124,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.218057</relevance>
+            <count>1</count>
+            <text>Jakobshavn Isbr&#xE6; glacier&#x2015;which</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.217731</relevance>
+            <count>2</count>
+            <text>Warren E. Leary</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.216776</relevance>
+            <relevance>0.214584</relevance>
             <count>3</count>
             <text>ESA</text>
             <disambiguated>
@@ -163,89 +155,32 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.213188</relevance>
+            <count>1</count>
+            <text>Utah desert</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.212042</relevance>
+            <count>1</count>
+            <text>climate change</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.207603</relevance>
+            <count>1</count>
+            <text>Space Infrared Telescope Facility</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.213845</relevance>
+            <relevance>0.201991</relevance>
             <count>2</count>
             <text>Ian R. Joughin</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.211793</relevance>
-            <count>3</count>
-            <text>Abell</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.207389</relevance>
-            <count>2</count>
-            <text>Warren E. Leary</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.206044</relevance>
-            <count>1</count>
-            <text>Spitzer Space Telescope</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.205287</relevance>
-            <count>2</count>
-            <text>Deputy Director</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.203452</relevance>
-            <count>1</count>
-            <text>Yale University</text>
-            <disambiguated>
-                <name>Yale University</name>
-                <subType>Location</subType>
-                <subType>FieldOfStudy</subType>
-                <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>PeriodicalPublisher</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.31111111111111 -72.92666666666666</geo>
-                <website>http://www.yale.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Yale_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.08815</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViC4ZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Yale_University</yago>
-                <geonames>http://sws.geonames.org/4846179/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.202291</relevance>
-            <count>2</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.200096</relevance>
-            <count>1</count>
-            <text>Human Genome</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.197969</relevance>
-            <count>1</count>
-            <text>J. Patrick Henry</text>
-            <disambiguated>
-                <name>Patrick Henry</name>
-                <subType>Politician</subType>
-                <subType>Governor</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Patrick_Henry</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0k5tb</freebase>
-                <yago>http://yago-knowledge.org/resource/Patrick_Henry</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.197604</relevance>
+            <relevance>0.198764</relevance>
             <count>1</count>
             <text>President George W. Bush</text>
             <disambiguated>
@@ -274,19 +209,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.196382</relevance>
+            <relevance>0.19729</relevance>
             <count>1</count>
             <text>President&#x2019;s Space Commission</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.195906</relevance>
-            <count>1</count>
-            <text>Viktor Stolc</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.195816</relevance>
+            <relevance>0.196594</relevance>
             <count>2</count>
             <text>DFRC</text>
             <disambiguated>
@@ -299,8 +228,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.196517</relevance>
+            <count>1</count>
+            <text>Jakobshavn Isbr&#xE6; Glacier</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.195602</relevance>
+            <relevance>0.194092</relevance>
+            <count>3</count>
+            <text>Abell</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.191947</relevance>
+            <count>1</count>
+            <text>Spitzer Space Telescope</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.190413</relevance>
             <count>1</count>
             <text>Steve Allen</text>
             <disambiguated>
@@ -323,7 +270,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.194521</relevance>
+            <relevance>0.189297</relevance>
             <count>1</count>
             <text>Albert Einstein</text>
             <disambiguated>
@@ -343,22 +290,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.194161</relevance>
-            <count>1</count>
-            <text>Dick Rutan</text>
-            <disambiguated>
-                <name>Dick Rutan</name>
-                <subType>AwardWinner</subType>
-                <subType>Hobbyist</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Dick_Rutan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_v35</freebase>
-                <yago>http://yago-knowledge.org/resource/Dick_Rutan</yago>
-            </disambiguated>
+            <relevance>0.189042</relevance>
+            <count>4</count>
+            <text>Steven G. Schmidt</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.192959</relevance>
+            <relevance>0.184807</relevance>
             <count>1</count>
             <text>Wright-Patterson Air Force Base</text>
             <disambiguated>
@@ -375,7 +313,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.19255</relevance>
+            <relevance>0.184417</relevance>
             <count>1</count>
             <text>Air Force Materiel Command</text>
             <disambiguated>
@@ -388,7 +326,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.191505</relevance>
+            <relevance>0.184064</relevance>
+            <count>1</count>
+            <text>Rosanne Di Stefano</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.183964</relevance>
+            <count>1</count>
+            <text>Stardust</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.183796</relevance>
             <count>1</count>
             <text>Edward C. Aldridge Jr.</text>
             <disambiguated>
@@ -398,14 +348,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.19056</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.182219</relevance>
             <count>1</count>
-            <text>airline company</text>
+            <text>Houston Chronicle</text>
+            <disambiguated>
+                <name>Houston Chronicle</name>
+                <subType>Newspaper</subType>
+                <website>http://chron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.187141</relevance>
+            <relevance>0.181952</relevance>
             <count>1</count>
             <text>Cambridge University</text>
             <disambiguated>
@@ -423,65 +381,58 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.186852</relevance>
-            <count>1</count>
-            <text>black holes</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.185814</relevance>
-            <count>1</count>
-            <text>Abell</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.185506</relevance>
+            <relevance>0.181568</relevance>
             <count>1</count>
-            <text>federal government</text>
+            <text>Yale University</text>
             <disambiguated>
-                <name>Federal government of the United States</name>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
+                <name>Yale University</name>
+                <subType>Location</subType>
+                <subType>FieldOfStudy</subType>
+                <subType>Company</subType>
+                <subType>AcademicInstitution</subType>
+                <subType>PeriodicalPublisher</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.31111111111111 -72.92666666666666</geo>
+                <website>http://www.yale.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Yale_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08815</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViC4ZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Yale_University</yago>
+                <geonames>http://sws.geonames.org/4846179/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.180584</relevance>
+            <count>1</count>
+            <text>Virgin Atlantic</text>
+            <disambiguated>
+                <name>Virgin Atlantic Airways</name>
+                <subType>Airline</subType>
+                <website>http://www.virgin-atlantic.com</website>
+                <dbpedia>http://dbpedia.org/resource/Virgin_Atlantic_Airways</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0n84_</freebase>
+                <yago>http://yago-knowledge.org/resource/Virgin_Atlantic_Airways</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.184382</relevance>
+            <relevance>0.180378</relevance>
             <count>1</count>
-            <text>Lester L. Lyles</text>
+            <text>John Noble Wilford</text>
             <disambiguated>
-                <name>Lester Lyles</name>
-                <subType>BoardMember</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Lester_Lyles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0272tlg</freebase>
-                <yago>http://yago-knowledge.org/resource/Lester_Lyles</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.184228</relevance>
-            <count>1</count>
-            <text>Jakobshavn Isbr&#xE6; glacier&#x2015;which</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.183736</relevance>
-            <count>1</count>
-            <text>Paul D. Spudis</text>
-            <disambiguated>
-                <name>Paul Spudis</name>
-                <dbpedia>http://dbpedia.org/resource/Paul_Spudis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05smtr</freebase>
-                <yago>http://yago-knowledge.org/resource/Paul_Spudis</yago>
+                <name>John Noble Wilford</name>
+                <subType>AwardNominee</subType>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Noble_Wilford</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059_x2l</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.183131</relevance>
+            <relevance>0.177978</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -494,82 +445,132 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.182749</relevance>
-            <count>1</count>
-            <text>Virgin Atlantic</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.181569</relevance>
-            <count>1</count>
-            <text>Utah desert</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.18112</relevance>
-            <count>1</count>
-            <text>Houston Chronicle</text>
-            <disambiguated>
-                <name>Houston Chronicle</name>
-                <subType>Newspaper</subType>
-                <website>http://chron.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.181112</relevance>
+            <relevance>0.177919</relevance>
             <count>1</count>
-            <text>University of Hawaii</text>
+            <text>federal government</text>
             <disambiguated>
-                <name>University of Hawaii</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.hawaii.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Hawaii</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bn7d</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Hawaii</yago>
+                <name>Federal government of the United States</name>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_government_of_the_United_States</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bqks</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQBeUJwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.181058</relevance>
+            <relevance>0.17735</relevance>
             <count>1</count>
-            <text>climate change</text>
+            <text>Human Genome</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.180482</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.177267</relevance>
             <count>1</count>
-            <text>Jakobshavn Isbr&#xE6; Glacier</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179299</relevance>
-            <count>1</count>
-            <text>Congress</text>
+            <text>Astrophysical Journal</text>
             <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
+                <name>The Astrophysical Journal</name>
+                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.176596</relevance>
+            <count>1</count>
+            <text>Lester L. Lyles</text>
+            <disambiguated>
+                <name>Lester Lyles</name>
+                <subType>BoardMember</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Lester_Lyles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0272tlg</freebase>
+                <yago>http://yago-knowledge.org/resource/Lester_Lyles</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.17806</relevance>
+            <relevance>0.176162</relevance>
+            <count>2</count>
+            <text>SST</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.175991</relevance>
             <count>1</count>
-            <text>President&#x2019;s Commission</text>
+            <text>Paul D. Spudis</text>
+            <disambiguated>
+                <name>Paul Spudis</name>
+                <dbpedia>http://dbpedia.org/resource/Paul_Spudis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05smtr</freebase>
+                <yago>http://yago-knowledge.org/resource/Paul_Spudis</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.175914</relevance>
+            <count>1</count>
+            <text>J. Patrick Henry</text>
+            <disambiguated>
+                <name>Patrick Henry</name>
+                <subType>Politician</subType>
+                <subType>Governor</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Patrick_Henry</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0k5tb</freebase>
+                <yago>http://yago-knowledge.org/resource/Patrick_Henry</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.175394</relevance>
+            <count>1</count>
+            <text>Germany</text>
+            <disambiguated>
+                <name>Germany</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <website>http://www.deutschland.de/</website>
+                <dbpedia>http://dbpedia.org/resource/Germany</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Germany</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0cn004</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj4PJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Germany</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.174793</relevance>
+            <count>1</count>
+            <text>Dick Rutan</text>
+            <disambiguated>
+                <name>Dick Rutan</name>
+                <subType>AwardWinner</subType>
+                <subType>Hobbyist</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Dick_Rutan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_v35</freebase>
+                <yago>http://yago-knowledge.org/resource/Dick_Rutan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.173811</relevance>
+            <count>1</count>
+            <text>President&#x2019;s Commission on Implementation</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.173625</relevance>
+            <count>1</count>
+            <text>Viktor Stolc</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.173604</relevance>
+            <count>2</count>
+            <text>Stefanie Komossa</text>
         </entity>
     </entities>
 </results>

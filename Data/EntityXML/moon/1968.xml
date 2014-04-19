@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.851853</relevance>
+            <relevance>0.84799</relevance>
             <count>50</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
@@ -29,39 +29,19 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.79515</relevance>
-            <count>19</count>
+            <relevance>0.787375</relevance>
+            <count>18</count>
             <text>Apollo</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.475244</relevance>
-            <count>8</count>
-            <text>United States</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.475102</relevance>
+            <relevance>0.517703</relevance>
             <count>7</count>
             <text>Apollo Applications</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.462659</relevance>
+            <relevance>0.494167</relevance>
             <count>14</count>
             <text>New York Times</text>
             <disambiguated>
@@ -80,7 +60,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.462011</relevance>
+            <relevance>0.454828</relevance>
             <count>6</count>
             <text>Saturn</text>
             <disambiguated>
@@ -94,26 +74,30 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.444495</relevance>
-            <count>6</count>
-            <text>U.S.S.R.</text>
+            <type>Country</type>
+            <relevance>0.440716</relevance>
+            <count>8</count>
+            <text>United States</text>
             <disambiguated>
-                <name>Soviet Union</name>
+                <name>United States</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.407514</relevance>
-            <count>6</count>
-            <text>ksc</text>
+            <relevance>0.431489</relevance>
+            <count>8</count>
+            <text>KSC</text>
             <disambiguated>
                 <name>Kennedy Space Center</name>
                 <subType>Location</subType>
@@ -128,37 +112,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.403618</relevance>
-            <count>3</count>
-            <text>Apollo Telescope Mount</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.346079</relevance>
-            <count>4</count>
-            <text>MSFC</text>
+            <relevance>0.377035</relevance>
+            <count>5</count>
+            <text>Soviet Union</text>
             <disambiguated>
-                <name>Marshall Space Flight Center</name>
+                <name>Soviet Union</name>
                 <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <website>http://www.nasa.gov/centers/marshall/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Marshall_Space_Flight_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0svpj</freebase>
-                <yago>http://yago-knowledge.org/resource/Marshall_Space_Flight_Center</yago>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.339147</relevance>
-            <count>5</count>
-            <text>MSC</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.332241</relevance>
+            <relevance>0.354395</relevance>
             <count>2</count>
-            <text>NASA</text>
+            <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>GovernmentAgency</subType>
@@ -178,13 +151,53 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.316361</relevance>
+            <relevance>0.351755</relevance>
             <count>2</count>
             <text>Apollo Status</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.33319</relevance>
+            <count>2</count>
+            <text>nasa Acting Administrator</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.332553</relevance>
+            <count>3</count>
+            <text>Apollo Telescope Mount</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.318372</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.314411</relevance>
+            <relevance>0.316991</relevance>
+            <count>4</count>
+            <text>Walter M. Schirra</text>
+            <disambiguated>
+                <name>Wally Schirra</name>
+                <subType>FilmCharacter</subType>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.wallyschirra.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
+                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.314499</relevance>
+            <count>4</count>
+            <text>msfc</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.306369</relevance>
             <count>3</count>
             <text>Dr. George E. Mueller</text>
             <disambiguated>
@@ -196,121 +209,94 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.31405</relevance>
-            <count>1</count>
-            <text>Manned Space Flight Subcommittee</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.310457</relevance>
-            <count>1</count>
-            <text>Apollo lunar</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.305164</relevance>
-            <count>2</count>
-            <text>nasa Acting Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.301561</relevance>
-            <count>3</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.301291</relevance>
+            <relevance>0.302421</relevance>
             <count>4</count>
             <text>scientist</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.298496</relevance>
+            <relevance>0.302188</relevance>
             <count>2</count>
             <text>Saturn IB</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.298503</relevance>
+            <count>1</count>
+            <text>Apollo lunar</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.286477</relevance>
+            <relevance>0.293409</relevance>
+            <count>3</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.292193</relevance>
+            <count>4</count>
+            <text>MSC</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.284931</relevance>
+            <count>2</count>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.281791</relevance>
+            <count>1</count>
+            <text>Manned Space Flight Subcommittee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.280063</relevance>
+            <count>2</count>
+            <text>Dr. Thomas</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.279995</relevance>
+            <count>1</count>
+            <text>Flat Earth Society</text>
+            <disambiguated>
+                <name>Flat Earth Society</name>
+                <dbpedia>http://dbpedia.org/resource/Flat_Earth_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q09c</freebase>
+                <yago>http://yago-knowledge.org/resource/Flat_Earth_Society</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.279438</relevance>
             <count>1</count>
             <text>Apollo Program Director</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.285726</relevance>
-            <count>1</count>
-            <text>ksc Launch Complex</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.283146</relevance>
-            <count>3</count>
-            <text>Dr. Paine</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.28059</relevance>
-            <count>1</count>
-            <text>Apollo orbital</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.27473</relevance>
-            <count>3</count>
-            <text>Washington</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.272208</relevance>
+            <relevance>0.278366</relevance>
             <count>2</count>
-            <text>ksc</text>
+            <text>Prof. Leonid I. Sedov</text>
             <disambiguated>
-                <name>Keene State College</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>42.92777777777778 -72.2786111111111</geo>
-                <website>http://www.keene.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Keene_State_College</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.047gcj</freebase>
-                <yago>http://yago-knowledge.org/resource/Keene_State_College</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.271314</relevance>
-            <count>2</count>
-            <text>msfc</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.268549</relevance>
-            <count>2</count>
-            <text>Erik Bergaust</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.265193</relevance>
-            <count>1</count>
-            <text>Apollo Telescope Mount</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.264005</relevance>
-            <count>2</count>
-            <text>United Nations</text>
-            <disambiguated>
-                <name>United Nations (band)</name>
-                <website>http://www.unitedfuckingnations.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Nations_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dmsjxq</freebase>
+                <name>Leonid I. Sedov</name>
+                <dbpedia>http://dbpedia.org/resource/Leonid_I._Sedov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fs5gy</freebase>
+                <yago>http://yago-knowledge.org/resource/Leonid_I._Sedov</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.263616</relevance>
+            <relevance>0.278267</relevance>
             <count>1</count>
             <text>NASA Hq</text>
             <disambiguated>
@@ -322,7 +308,86 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.262988</relevance>
+            <relevance>0.27403</relevance>
+            <count>3</count>
+            <text>Dr. Paine</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.270132</relevance>
+            <count>3</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, North Carolina</name>
+                <website>http://www.ci.washington.nc.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_North_Carolina</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0yd75</freebase>
+                <yago>http://yago-knowledge.org/resource/Washington,_North_Carolina</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.268916</relevance>
+            <count>1</count>
+            <text>space program</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.267686</relevance>
+            <count>1</count>
+            <text>Senate Aeronautics and Space Sciences Committee</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.265744</relevance>
+            <count>3</count>
+            <text>Mrs. Lyndon B. Johnson</text>
+            <disambiguated>
+                <name>Lyndon B. Johnson</name>
+                <subType>FilmCharacter</subType>
+                <subType>MusicalArtist</subType>
+                <subType>Politician</subType>
+                <subType>President</subType>
+                <subType>AwardWinner</subType>
+                <subType>Dedicatee</subType>
+                <subType>MilitaryCommander</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>PoliticalAppointer</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>USPresident</subType>
+                <subType>USVicePresident</subType>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f7fy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUQJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson</yago>
+                <musicBrainz>http://zitgist.com/music/artist/a40998e6-3496-44d5-9032-79e313be07b5</musicBrainz>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.263037</relevance>
+            <count>2</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.262977</relevance>
+            <count>1</count>
+            <text>National Aeronautics and Space Council</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.262868</relevance>
             <count>2</count>
             <text>Dr. Ralph E. Lapp</text>
             <disambiguated>
@@ -333,14 +398,77 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.260296</relevance>
+            <type>Degree</type>
+            <relevance>0.26263</relevance>
+            <count>2</count>
+            <text>spacesuits</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.261545</relevance>
             <count>1</count>
-            <text>Project Apollo</text>
+            <text>Samuel Shenton</text>
+            <disambiguated>
+                <name>Samuel Shenton</name>
+                <dbpedia>http://dbpedia.org/resource/Samuel_Shenton</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0g9zkpm</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.260225</relevance>
+            <count>1</count>
+            <text>Lunar Orbiters</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.260192</relevance>
+            <count>1</count>
+            <text>Lyndon B. Johnson Presidential Library</text>
+            <disambiguated>
+                <name>Lyndon Baines Johnson Library and Museum</name>
+                <subType>Location</subType>
+                <subType>TouristAttraction</subType>
+                <subType>Building</subType>
+                <subType>Museum</subType>
+                <geo>30.2857 -97.7292</geo>
+                <dbpedia>http://dbpedia.org/resource/Lyndon_Baines_Johnson_Library_and_Museum</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05r95y</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.259408</relevance>
+            <count>1</count>
+            <text>Apollo orbital</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.258786</relevance>
+            <count>2</count>
+            <text>United States.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.257833</relevance>
+            <count>2</count>
+            <text>Erik Bergaust</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.257488</relevance>
+            <count>2</count>
+            <text>United Nations</text>
+            <disambiguated>
+                <name>United Nations (band)</name>
+                <website>http://www.unitedfuckingnations.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Nations_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dmsjxq</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.258754</relevance>
+            <relevance>0.256049</relevance>
             <count>2</count>
             <text>Washington Daily News</text>
             <disambiguated>
@@ -350,8 +478,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.255468</relevance>
+            <count>1</count>
+            <text>Lunar Orbiter</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.255022</relevance>
+            <count>1</count>
+            <text>Apollo Telescope Mount</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.254124</relevance>
+            <count>1</count>
+            <text>Nephadsreg</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.258593</relevance>
+            <relevance>0.253655</relevance>
             <count>2</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -369,131 +515,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.258289</relevance>
-            <count>2</count>
-            <text>Aero Tech</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.258032</relevance>
-            <count>2</count>
-            <text>Dr. Thomas</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.257474</relevance>
-            <count>1</count>
-            <text>Sen. Mark 0</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.256284</relevance>
-            <count>4</count>
-            <text>Walter M. Schirra</text>
-            <disambiguated>
-                <name>Wally Schirra</name>
-                <subType>FilmCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.wallyschirra.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
-                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.255926</relevance>
-            <count>2</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.255358</relevance>
-            <count>3</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.253267</relevance>
-            <count>2</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.252456</relevance>
-            <count>1</count>
-            <text>Los Angeles</text>
-            <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.252396</relevance>
-            <count>2</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.252381</relevance>
-            <count>2</count>
-            <text>Washington Evening Star</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.252368</relevance>
-            <count>2</count>
-            <text>Calif.</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.252132</relevance>
+            <relevance>0.252773</relevance>
             <count>1</count>
             <text>Cosmonaut Valery Bykovsky</text>
             <disambiguated>
@@ -502,30 +525,6 @@
                 <dbpedia>http://dbpedia.org/resource/Valery_Bykovsky</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.01bm_w</freebase>
                 <yago>http://yago-knowledge.org/resource/Valery_Bykovsky</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.251476</relevance>
-            <count>1</count>
-            <text>Nephadsreg</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.250612</relevance>
-            <count>1</count>
-            <text>Mt</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.249824</relevance>
-            <count>1</count>
-            <text>Dr. Dinsmore Alter</text>
-            <disambiguated>
-                <name>Dinsmore Alter</name>
-                <dbpedia>http://dbpedia.org/resource/Dinsmore_Alter</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07d4tl</freebase>
-                <yago>http://yago-knowledge.org/resource/Dinsmore_Alter</yago>
             </disambiguated>
         </entity>
     </entities>

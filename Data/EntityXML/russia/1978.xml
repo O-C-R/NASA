@@ -7,61 +7,48 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.836459</relevance>
-            <count>6</count>
+            <relevance>0.916474</relevance>
+            <count>8</count>
             <text>Venera</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.547951</relevance>
+            <relevance>0.486691</relevance>
             <count>2</count>
             <text>Venera</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.419753</relevance>
+            <relevance>0.391728</relevance>
             <count>1</count>
             <text>Venera</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.332861</relevance>
+            <relevance>0.311758</relevance>
             <count>5</count>
             <text>FBIS</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.302694</relevance>
+            <relevance>0.247164</relevance>
             <count>3</count>
             <text>Tass</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.268973</relevance>
-            <count>2</count>
-            <text>Salyut</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.255351</relevance>
+            <relevance>0.234332</relevance>
             <count>1</count>
             <text>Tass Inti Svc</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.228902</relevance>
-            <count>3</count>
-            <text>Russian</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.222438</relevance>
+            <type>Country</type>
+            <relevance>0.225986</relevance>
             <count>1</count>
-            <text>Soviet Union</text>
+            <text>USSR</text>
             <disambiguated>
                 <name>Soviet Union</name>
                 <subType>Location</subType>
-                <subType>Country</subType>
                 <subType>GovernmentalJurisdiction</subType>
                 <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
@@ -71,7 +58,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.191282</relevance>
+            <relevance>0.221805</relevance>
             <count>2</count>
             <text>Moscow</text>
             <disambiguated>
@@ -88,43 +75,51 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.185913</relevance>
-            <count>1</count>
-            <text>USSR</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
+            <type>City</type>
+            <relevance>0.217133</relevance>
+            <count>3</count>
+            <text>Russian</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.178885</relevance>
-            <count>1</count>
-            <text>USSR Academy of Sciences.</text>
+            <type>City</type>
+            <relevance>0.211583</relevance>
+            <count>2</count>
+            <text>Salyut</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.167511</relevance>
+            <relevance>0.200464</relevance>
             <count>1</count>
             <text>llOmin</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.185872</relevance>
+            <count>1</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Cabinet of Ministers (Soviet Union)</name>
+                <dbpedia>http://dbpedia.org/resource/Cabinet_of_Ministers_(Soviet_Union)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0c3wlp1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.16607</relevance>
+            <relevance>0.184251</relevance>
+            <count>1</count>
+            <text>solar radiation</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.184247</relevance>
             <count>1</count>
             <text>chemical analyses</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.165249</relevance>
+            <type>Organization</type>
+            <relevance>0.165529</relevance>
             <count>1</count>
-            <text>solar radiation</text>
+            <text>USSR Academy of Sciences.</text>
         </entity>
     </entities>
 </results>

@@ -7,25 +7,13 @@
     <entities>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.836851</relevance>
+            <relevance>0.855243</relevance>
             <count>4</count>
             <text>Kyoto Protocol</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.814559</relevance>
-            <count>4</count>
-            <text>ISS</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.783094</relevance>
-            <count>4</count>
-            <text>Dennis A. Tito</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.66142</relevance>
+            <relevance>0.786731</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -44,8 +32,26 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.597625</relevance>
+            <count>4</count>
+            <text>Dennis A. Tito</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.464757</relevance>
+            <relevance>0.562009</relevance>
+            <count>4</count>
+            <text>ISS</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.479828</relevance>
+            <count>2</count>
+            <text>global warming</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.45033</relevance>
             <count>1</count>
             <text>Russian Space Agency</text>
             <disambiguated>
@@ -57,36 +63,26 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.457704</relevance>
-            <count>2</count>
-            <text>global warming</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.379597</relevance>
-            <count>1</count>
-            <text>Kazakhstan</text>
-            <disambiguated>
-                <name>Kazakhstan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>43.350322222222225 79.08035555555556</geo>
-                <dbpedia>http://dbpedia.org/resource/Kazakhstan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Kazakhstan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.047lj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv15sU5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kazakhstan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.365565</relevance>
+            <relevance>0.419655</relevance>
             <count>1</count>
             <text>carbon dioxide</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.365517</relevance>
+            <relevance>0.394839</relevance>
+            <count>1</count>
+            <text>Paula J. Dobriansky</text>
+            <disambiguated>
+                <name>Paula Dobriansky</name>
+                <subType>Politician</subType>
+                <dbpedia>http://dbpedia.org/resource/Paula_Dobriansky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030x24</freebase>
+                <yago>http://yago-knowledge.org/resource/Paula_Dobriansky</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.384988</relevance>
             <count>1</count>
             <text>President George W. Bush</text>
             <disambiguated>
@@ -114,8 +110,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.378276</relevance>
+            <count>1</count>
+            <text>Undersecretary</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.34792</relevance>
+            <relevance>0.339526</relevance>
             <count>1</count>
             <text>European Union</text>
             <disambiguated>
@@ -133,21 +135,27 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.347113</relevance>
+            <type>Country</type>
+            <relevance>0.332382</relevance>
             <count>1</count>
-            <text>Paula J. Dobriansky</text>
+            <text>Russia</text>
             <disambiguated>
-                <name>Paula Dobriansky</name>
-                <subType>Politician</subType>
-                <dbpedia>http://dbpedia.org/resource/Paula_Dobriansky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030x24</freebase>
-                <yago>http://yago-knowledge.org/resource/Paula_Dobriansky</yago>
+                <name>Poland</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>FilmFestivalFocus</subType>
+                <dbpedia>http://dbpedia.org/resource/Poland</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Poland</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05qhw</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjKypwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Poland</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.33575</relevance>
+            <relevance>0.324813</relevance>
             <count>1</count>
             <text>Houston Chronicle</text>
             <disambiguated>
@@ -160,14 +168,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.330871</relevance>
-            <count>1</count>
-            <text>Undersecretary</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.326521</relevance>
+            <relevance>0.315866</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -181,14 +183,31 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.314748</relevance>
+            <count>1</count>
+            <text>Kazakhstan</text>
+            <disambiguated>
+                <name>Kazakhstan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>43.350322222222225 79.08035555555556</geo>
+                <dbpedia>http://dbpedia.org/resource/Kazakhstan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Kazakhstan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.047lj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv15sU5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kazakhstan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.326036</relevance>
+            <relevance>0.314459</relevance>
             <count>1</count>
             <text>Marcia Dunn</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.322527</relevance>
+            <relevance>0.313871</relevance>
             <count>1</count>
             <text>Christian Science Monitor</text>
             <disambiguated>
@@ -202,47 +221,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.314483</relevance>
-            <count>1</count>
-            <text>Russia</text>
-            <disambiguated>
-                <name>Russia</name>
-                <website>http://www.gov.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Russia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Russia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06bnz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViTwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Russia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.314156</relevance>
+            <relevance>0.304972</relevance>
             <count>1</count>
             <text>Peter N. Spotts</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.301241</relevance>
-            <count>1</count>
-            <text>Mark Carreau</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.290739</relevance>
-            <count>1</count>
-            <text>Traci Watson</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.287735</relevance>
-            <count>1</count>
-            <text>USA Today</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.285754</relevance>
+            <relevance>0.303504</relevance>
             <count>1</count>
             <text>Japan</text>
             <disambiguated>
@@ -257,6 +243,24 @@
                 <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.290585</relevance>
+            <count>1</count>
+            <text>Mark Carreau</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.2823</relevance>
+            <count>1</count>
+            <text>Traci Watson</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.279335</relevance>
+            <count>1</count>
+            <text>USA Today</text>
         </entity>
     </entities>
 </results>

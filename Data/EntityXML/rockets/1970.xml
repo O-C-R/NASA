@@ -7,15 +7,15 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.905159</relevance>
-            <count>46</count>
+            <relevance>0.920019</relevance>
+            <count>51</count>
             <text>Rocket</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.818474</relevance>
-            <count>85</count>
-            <text>nasa</text>
+            <relevance>0.81937</relevance>
+            <count>86</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -35,87 +35,75 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.416605</relevance>
+            <relevance>0.414166</relevance>
             <count>11</count>
             <text>Wallops Station</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.408215</relevance>
-            <count>4</count>
-            <text>Woomera Rocket Range</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.382327</relevance>
-            <count>4</count>
-            <text>NASA Rpts SRL</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.37889</relevance>
+            <relevance>0.410265</relevance>
             <count>14</count>
             <text>Churchill Research Range</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.351677</relevance>
+            <type>Organization</type>
+            <relevance>0.361356</relevance>
             <count>12</count>
-            <text>wsmr</text>
+            <text>WSMR</text>
+            <disambiguated>
+                <name>WSMR (FM)</name>
+                <subType>RadioStation</subType>
+                <geo>27.100277777777777 -82.37166666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/WSMR_(FM)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03cwpmx</freebase>
+                <yago>http://yago-knowledge.org/resource/WSMR_(FM)</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.348711</relevance>
-            <count>3</count>
-            <text>NASA Rpt</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.338388</relevance>
-            <count>2</count>
-            <text>Alaska Rocket Range</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.334884</relevance>
-            <count>2</count>
-            <text>Goddard Rocket and Space Museum.</text>
+            <type>Company</type>
+            <relevance>0.35189</relevance>
+            <count>4</count>
+            <text>Woomera Rocket Range</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.2977</relevance>
+            <relevance>0.347471</relevance>
             <count>1</count>
             <text>Alaska Rocket Range</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.28254</relevance>
-            <count>7</count>
-            <text>Alaska</text>
-            <disambiguated>
-                <name>Alaska</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>64.0 -153.0</geo>
-                <website>http://www.alaska.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Alaska</yago>
-            </disambiguated>
+            <type>Company</type>
+            <relevance>0.342414</relevance>
+            <count>3</count>
+            <text>NASA Rpts SRL</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.341973</relevance>
+            <count>2</count>
+            <text>Alaska Rocket Range</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.265201</relevance>
+            <relevance>0.332944</relevance>
+            <count>2</count>
+            <text>Goddard Rocket and Space Museum</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.303655</relevance>
+            <count>3</count>
+            <text>NASA Rpt</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.286886</relevance>
             <count>1</count>
             <text>Meteorological Rocket Network</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.243463</relevance>
+            <relevance>0.276288</relevance>
             <count>8</count>
             <text>U.S.</text>
             <disambiguated>
@@ -134,33 +122,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.240698</relevance>
-            <count>6</count>
-            <text>Australia</text>
-            <disambiguated>
-                <name>Australia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <geo>-35.3 149.13333333333333</geo>
-                <dbpedia>http://dbpedia.org/resource/Australia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Australia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0chghy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViUs5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Australia</yago>
-                <geonames>http://sws.geonames.org/2077456/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.232829</relevance>
-            <count>3</count>
-            <text>Aerobee</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.232616</relevance>
+            <relevance>0.274225</relevance>
             <count>5</count>
             <text>USAF</text>
             <disambiguated>
@@ -176,20 +139,70 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.25139</relevance>
+            <count>7</count>
+            <text>Alaska</text>
+            <disambiguated>
+                <name>Alaska</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <geo>64.0 -153.0</geo>
+                <website>http://www.alaska.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Alaska</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hjy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMJZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Alaska</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.226618</relevance>
+            <relevance>0.23449</relevance>
             <count>1</count>
             <text>NASA Director of Safety</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.233604</relevance>
+            <count>1</count>
+            <text>NASA Rpts</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.230852</relevance>
+            <count>4</count>
+            <text>AP</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.23015</relevance>
+            <count>4</count>
+            <text>Aerobee</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.229789</relevance>
+            <count>4</count>
+            <text>x-ray</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.227674</relevance>
+            <count>5</count>
+            <text>Univ. of Minnesota</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.224631</relevance>
-            <count>6</count>
+            <relevance>0.226395</relevance>
+            <count>5</count>
             <text>aurora</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.221345</relevance>
+            <relevance>0.221722</relevance>
             <count>3</count>
             <text>Fairbanks</text>
             <disambiguated>
@@ -203,65 +216,10 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.220508</relevance>
-            <count>5</count>
-            <text>U.S.S.R.</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.215804</relevance>
-            <count>3</count>
-            <text>Barter Island</text>
-            <disambiguated>
-                <name>Barter Island</name>
-                <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>70.11722222222222 -143.65805555555556</geo>
-                <dbpedia>http://dbpedia.org/resource/Barter_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.097_ss</freebase>
-                <yago>http://yago-knowledge.org/resource/Barter_Island</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.213585</relevance>
-            <count>2</count>
-            <text>MSC Release</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.210964</relevance>
-            <count>3</count>
-            <text>Dew Line Station</text>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.210616</relevance>
-            <count>4</count>
-            <text>x-ray</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.209128</relevance>
-            <count>4</count>
-            <text>nrl</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.208956</relevance>
-            <count>2</count>
-            <text>nasa</text>
+            <relevance>0.220427</relevance>
+            <count>1</count>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>GovernmentAgency</subType>
@@ -280,48 +238,74 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.217913</relevance>
+            <count>6</count>
+            <text>Australia</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.207614</relevance>
+            <relevance>0.215652</relevance>
             <count>4</count>
-            <text>Univ. of Michigan</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.206604</relevance>
-            <count>3</count>
-            <text>Univ. of Houston</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.206249</relevance>
-            <count>2</count>
-            <text>Wallops Island</text>
+            <text>NRL</text>
             <disambiguated>
-                <name>Wallops Island</name>
+                <name>United States Naval Research Laboratory</name>
                 <subType>Location</subType>
-                <subType>Island</subType>
-                <geo>37.85 -75.46666666666667</geo>
-                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
-                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
-                <geonames>http://sws.geonames.org/4792009/</geonames>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Naval_Research_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0255xh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rXU9SuozLQdiN9Lv0zFJaQA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Naval_Research_Laboratory</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.205424</relevance>
-            <count>5</count>
-            <text>Univ. of Minnesota</text>
+            <type>Country</type>
+            <relevance>0.211587</relevance>
+            <count>4</count>
+            <text>U.S.S.R.</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.20469</relevance>
+            <relevance>0.210018</relevance>
             <count>3</count>
             <text>C Trib</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.197517</relevance>
+            <relevance>0.204078</relevance>
+            <count>3</count>
+            <text>Univ. of Wisconsin</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.201447</relevance>
+            <count>2</count>
+            <text>Aerobee</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.200462</relevance>
+            <count>3</count>
+            <text>Univ. of Houston</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.19951</relevance>
+            <count>4</count>
+            <text>Univ. of Michigan</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.194411</relevance>
             <count>2</count>
             <text>JPL</text>
             <disambiguated>
@@ -337,7 +321,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.196482</relevance>
+            <relevance>0.192979</relevance>
+            <count>4</count>
+            <text>afsc</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.191404</relevance>
+            <count>2</count>
+            <text>MSC Release</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.190378</relevance>
+            <count>1</count>
+            <text>Hercules Inc.</text>
+            <disambiguated>
+                <name>Hercules Inc.</name>
+                <dbpedia>http://dbpedia.org/resource/Hercules_Inc.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f_k73</freebase>
+                <yago>http://yago-knowledge.org/resource/Hercules_Inc.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.189523</relevance>
             <count>2</count>
             <text>Univ. of Texas</text>
             <disambiguated>
@@ -354,82 +362,121 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.195961</relevance>
-            <count>3</count>
-            <text>Univ. of Wisconsin</text>
+            <type>GeographicFeature</type>
+            <relevance>0.188378</relevance>
+            <count>2</count>
+            <text>Wallops Island</text>
+            <disambiguated>
+                <name>Wallops Island</name>
+                <subType>Location</subType>
+                <subType>Island</subType>
+                <geo>37.85 -75.46666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
+                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
+                <geonames>http://sws.geonames.org/4792009/</geonames>
+            </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.195763</relevance>
-            <count>1</count>
-            <text>Muroc Dry Lake</text>
+            <relevance>0.186118</relevance>
+            <count>3</count>
+            <text>Barter Island</text>
             <disambiguated>
-                <name>Rogers Dry Lake</name>
+                <name>Barter Island</name>
                 <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <subType>Lake</subType>
-                <geo>34.921944 -117.8275</geo>
-                <website>http://www.edwards.af.mil</website>
-                <dbpedia>http://dbpedia.org/resource/Rogers_Dry_Lake</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04f74y7</freebase>
+                <subType>Island</subType>
+                <geo>70.11722222222222 -143.65805555555556</geo>
+                <dbpedia>http://dbpedia.org/resource/Barter_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.097_ss</freebase>
+                <yago>http://yago-knowledge.org/resource/Barter_Island</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.195493</relevance>
-            <count>2</count>
-            <text>Natal</text>
+            <type>PrintMedia</type>
+            <relevance>0.185665</relevance>
+            <count>4</count>
+            <text>New York Times</text>
             <disambiguated>
-                <name>Natal, Rio Grande do Norte</name>
-                <geo>-5.766666666666667 -35.2</geo>
-                <website>http://www.natal.rn.gov.br/</website>
-                <dbpedia>http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030crm</freebase>
-                <yago>http://yago-knowledge.org/resource/Natal,_Rio_Grande_do_Norte</yago>
-                <geonames>http://sws.geonames.org/3394023/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.194846</relevance>
-            <count>2</count>
-            <text>Brazil</text>
-            <disambiguated>
-                <name>Brazil</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
                 <subType>CompanyShareholder</subType>
-                <geo>-15.75 -47.95</geo>
-                <dbpedia>http://dbpedia.org/resource/Brazil</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Brazil</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.015fr</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViPAZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Brazil</yago>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.190875</relevance>
-            <count>2</count>
-            <text>B-52</text>
+            <relevance>0.182743</relevance>
+            <count>1</count>
+            <text>GSFC</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.187816</relevance>
+            <type>Country</type>
+            <relevance>0.182734</relevance>
             <count>2</count>
-            <text>Dr. Robert H. Goddard</text>
+            <text>Norway</text>
             <disambiguated>
-                <name>Robert H. Goddard</name>
-                <subType>Inventor</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_H._Goddard</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dxgk</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_H._Goddard</yago>
+                <name>Norway</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>AwardDiscipline</subType>
+                <website>http://www.norway.no</website>
+                <dbpedia>http://dbpedia.org/resource/Norway</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Norway</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05b4w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVifKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Norway</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.185028</relevance>
+            <relevance>0.182193</relevance>
+            <count>1</count>
+            <text>Eniwetok Atoll</text>
+            <disambiguated>
+                <name>Enewetak Atoll</name>
+                <subType>Location</subType>
+                <geo>11.5 162.33333333333334</geo>
+                <dbpedia>http://dbpedia.org/resource/Enewetak_Atoll</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01ds0m</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.182035</relevance>
+            <count>2</count>
+            <text>Univ. of Colorado</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.18096</relevance>
+            <count>1</count>
+            <text>TVC</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.179823</relevance>
+            <count>3</count>
+            <text>Dew Line Station</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.179745</relevance>
+            <count>2</count>
+            <text>Space Business Daily</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.178332</relevance>
             <count>2</count>
             <text>Midway Island</text>
             <disambiguated>
@@ -442,70 +489,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.183693</relevance>
-            <count>2</count>
-            <text>Space Business Daily</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.183675</relevance>
-            <count>3</count>
-            <text>pmr</text>
+            <relevance>0.178119</relevance>
+            <count>2</count>
+            <text>B-52</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.183481</relevance>
+            <relevance>0.176554</relevance>
             <count>2</count>
-            <text>Univ. of Colorado</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.182945</relevance>
-            <count>2</count>
-            <text>South Atlantic Anomaly</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.182635</relevance>
-            <count>2</count>
-            <text>Dallas</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.182342</relevance>
-            <count>1</count>
-            <text>GSFC</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.179669</relevance>
-            <count>2</count>
-            <text>Dr. Wernher von Braun</text>
-            <disambiguated>
-                <name>Wernher von Braun</name>
-                <subType>AwardWinner</subType>
-                <subType>Inventor</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>TVActor</subType>
-                <subType>TVCharacter</subType>
-                <dbpedia>http://dbpedia.org/resource/Wernher_von_Braun</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0850x</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv4by9JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Wernher_von_Braun</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.179108</relevance>
-            <count>1</count>
-            <text>Edwards Test Station</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.178804</relevance>
-            <count>1</count>
-            <text>Rogers Dry Lake</text>
+            <text>Johns Hopkins Univ.</text>
         </entity>
     </entities>
 </results>

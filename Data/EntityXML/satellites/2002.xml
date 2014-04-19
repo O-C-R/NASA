@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.931642</relevance>
+            <relevance>0.856891</relevance>
             <count>19</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.343724</relevance>
-            <count>1</count>
-            <text>NASA Satellite Guides</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.307173</relevance>
+            <relevance>0.322291</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -57,110 +51,31 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.292354</relevance>
+            <relevance>0.320895</relevance>
             <count>3</count>
             <text>HETE</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.290438</relevance>
-            <count>2</count>
-            <text>APM</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.283953</relevance>
-            <count>3</count>
-            <text>Federal Aviation Administration</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.282751</relevance>
-            <count>2</count>
-            <text>ESA</text>
-            <disambiguated>
-                <name>European Space Agency</name>
-                <subType>Company</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpaceAgency</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <geo>48.8482 2.3042</geo>
-                <website>http://www.esa.int</website>
-                <dbpedia>http://dbpedia.org/resource/European_Space_Agency</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02t63</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwVNmMZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/European_Space_Agency</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Technology</type>
-            <relevance>0.281749</relevance>
+            <relevance>0.310851</relevance>
             <count>1</count>
-            <text>Advanced Land Imager</text>
+            <text>NASA Satellite Guides</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.307371</relevance>
+            <count>2</count>
+            <text>FUSE</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.270417</relevance>
+            <relevance>0.296163</relevance>
             <count>2</count>
             <text>solar system</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.259762</relevance>
-            <count>3</count>
-            <text>USGS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.250755</relevance>
-            <count>1</count>
-            <text>Johns Hopkins University</text>
-            <disambiguated>
-                <name>Johns Hopkins University</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.jhu.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Johns_Hopkins_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09kvv</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvWSZk5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Johns_Hopkins_University</yago>
-                <geonames>http://sws.geonames.org/4359528/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.250267</relevance>
-            <count>2</count>
-            <text>FUSE</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240897</relevance>
-            <count>3</count>
-            <text>Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.238193</relevance>
+            <relevance>0.283674</relevance>
             <count>1</count>
             <text>International Astronomical Union</text>
             <disambiguated>
@@ -171,94 +86,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.237494</relevance>
-            <count>1</count>
-            <text>Geophysical Research Letters</text>
-            <disambiguated>
-                <name>Geophysical Research Letters</name>
-                <subType>Journal</subType>
-                <website>http://www.agu.org/journals/gl/</website>
-                <dbpedia>http://dbpedia.org/resource/Geophysical_Research_Letters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0b05yb</freebase>
-                <yago>http://yago-knowledge.org/resource/Geophysical_Research_Letters</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.233069</relevance>
-            <count>1</count>
-            <text>Atmospheric Research</text>
-            <disambiguated>
-                <name>Atmospheric Research</name>
-                <subType>Journal</subType>
-                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
-                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
-                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.270743</relevance>
+            <count>3</count>
+            <text>USGS</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.232193</relevance>
-            <count>1</count>
-            <text>Congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.22926</relevance>
-            <count>1</count>
-            <text>Usha Lee McFarling</text>
-            <disambiguated>
-                <name>Usha Lee McFarling</name>
-                <dbpedia>http://dbpedia.org/resource/Usha_Lee_McFarling</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0czbhl2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225396</relevance>
-            <count>1</count>
-            <text>Johns Hopkins University Department of Physics and Astronomy</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225033</relevance>
-            <count>1</count>
-            <text>CIP</text>
-            <disambiguated>
-                <name>Crown International Pictures</name>
-                <subType>Company</subType>
-                <dbpedia>http://dbpedia.org/resource/Crown_International_Pictures</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03hlcrt</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.2242</relevance>
-            <count>1</count>
-            <text>Astrophysical Journal Letters</text>
-            <disambiguated>
-                <name>The Astrophysical Journal</name>
-                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.222719</relevance>
+            <relevance>0.268269</relevance>
             <count>1</count>
             <text>Cambridge University</text>
             <disambiguated>
@@ -276,8 +111,151 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.262397</relevance>
+            <count>1</count>
+            <text>Johns Hopkins University</text>
+            <disambiguated>
+                <name>Johns Hopkins University</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.jhu.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Johns_Hopkins_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09kvv</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvWSZk5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Johns_Hopkins_University</yago>
+                <geonames>http://sws.geonames.org/4359528/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.258497</relevance>
+            <count>3</count>
+            <text>Federal Aviation Administration</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.254704</relevance>
+            <count>1</count>
+            <text>Usha Lee McFarling</text>
+            <disambiguated>
+                <name>Usha Lee McFarling</name>
+                <dbpedia>http://dbpedia.org/resource/Usha_Lee_McFarling</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0czbhl2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.250854</relevance>
+            <count>2</count>
+            <text>APM</text>
+        </entity>
+        <entity>
+            <type>Technology</type>
+            <relevance>0.249719</relevance>
+            <count>1</count>
+            <text>Advanced Land Imager</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.249448</relevance>
+            <count>1</count>
+            <text>Atmospheric Research</text>
+            <disambiguated>
+                <name>Atmospheric Research</name>
+                <subType>Journal</subType>
+                <website>http://www.elsevier.com/wps/find/journaldescription.cws_home/503323/description</website>
+                <dbpedia>http://dbpedia.org/resource/Atmospheric_Research</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gxw_g</freebase>
+                <yago>http://yago-knowledge.org/resource/Atmospheric_Research</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.247839</relevance>
+            <count>1</count>
+            <text>University of Hawaii</text>
+            <disambiguated>
+                <name>University of Hawaii</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.hawaii.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Hawaii</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bn7d</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Hawaii</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.241976</relevance>
+            <count>3</count>
+            <text>Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.241353</relevance>
+            <count>1</count>
+            <text>Los Angeles Times</text>
+            <disambiguated>
+                <name>Los Angeles Times</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.latimes.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.240719</relevance>
+            <count>1</count>
+            <text>National Weather Service</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.237628</relevance>
+            <count>1</count>
+            <text>Johns Hopkins University Department of Physics and Astronomy</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.2345</relevance>
+            <count>2</count>
+            <text>ESA</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.222675</relevance>
+            <relevance>0.233485</relevance>
             <count>1</count>
             <text>Baltimore</text>
             <disambiguated>
@@ -289,7 +267,7 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.222603</relevance>
+            <relevance>0.233411</relevance>
             <count>1</count>
             <text>MD</text>
             <disambiguated>
@@ -311,50 +289,38 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.221796</relevance>
+            <relevance>0.228535</relevance>
             <count>1</count>
-            <text>Houston Chronicle</text>
+            <text>Astrophysical Journal Letters</text>
             <disambiguated>
-                <name>Houston Chronicle</name>
-                <subType>Newspaper</subType>
-                <website>http://chron.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
+                <name>The Astrophysical Journal</name>
+                <dbpedia>http://dbpedia.org/resource/The_Astrophysical_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01dqym</freebase>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.216203</relevance>
-            <count>1</count>
-            <text>Los Angeles Times</text>
-            <disambiguated>
-                <name>Los Angeles Times</name>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.latimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p06z</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r_nr0XhlAQdiZDcR77-TkdA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Los_Angeles_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.21126</relevance>
-            <count>1</count>
-            <text>black hole</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.210048</relevance>
+            <relevance>0.227013</relevance>
             <count>1</count>
             <text>Aviation Weather Center</text>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.223623</relevance>
+            <count>1</count>
+            <text>Geophysical Research Letters</text>
+            <disambiguated>
+                <name>Geophysical Research Letters</name>
+                <subType>Journal</subType>
+                <website>http://www.agu.org/journals/gl/</website>
+                <dbpedia>http://dbpedia.org/resource/Geophysical_Research_Letters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0b05yb</freebase>
+                <yago>http://yago-knowledge.org/resource/Geophysical_Research_Letters</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.205684</relevance>
+            <relevance>0.221491</relevance>
             <count>1</count>
             <text>Missouri</text>
             <disambiguated>
@@ -373,61 +339,83 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.203357</relevance>
+            <relevance>0.220269</relevance>
             <count>1</count>
-            <text>National Weather Service</text>
+            <text>CIP</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.202276</relevance>
+            <relevance>0.212939</relevance>
             <count>1</count>
-            <text>University of Hawaii</text>
+            <text>Congress</text>
             <disambiguated>
-                <name>University of Hawaii</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.hawaii.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Hawaii</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bn7d</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Hawaii</yago>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.200565</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.202529</relevance>
             <count>1</count>
-            <text>W. T. Liu</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.199891</relevance>
-            <count>1</count>
-            <text>Afghanistan</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.192645</relevance>
-            <count>1</count>
-            <text>X. Xie</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.192065</relevance>
-            <count>1</count>
-            <text>Norbert Schartel</text>
+            <text>Houston Chronicle</text>
+            <disambiguated>
+                <name>Houston Chronicle</name>
+                <subType>Newspaper</subType>
+                <website>http://chron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.18594</relevance>
+            <relevance>0.201777</relevance>
             <count>1</count>
             <text>Kansas City</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.200908</relevance>
+            <count>1</count>
+            <text>Afghanistan</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.197879</relevance>
+            <count>1</count>
+            <text>black hole</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.182574</relevance>
+            <relevance>0.196381</relevance>
+            <count>1</count>
+            <text>Norbert Schartel</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.187075</relevance>
+            <count>1</count>
+            <text>W. T. Liu</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.186915</relevance>
             <count>1</count>
             <text>Stefanie Komossa</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.178987</relevance>
+            <count>1</count>
+            <text>X. Xie</text>
         </entity>
     </entities>
 </results>

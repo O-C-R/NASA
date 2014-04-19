@@ -12,11 +12,11 @@ import rita.*;
 
 //This version uses a stop list
 
-int startYear = 1961;
+int startYear = 1958;
 int endYear = 2009;
 String dataPath = "../../Data/BucketText/";
 String outPath = "../../Data/BucketGramsAll/";
-String subBucket = "/uniqueBucketStories/";
+String subBucket = "/allBucketStories/";
 String xmlPath = "../../Data/EntityXML/";
 String masterFile = "allYears.txt";
 String[] sentences;
@@ -46,7 +46,8 @@ void setup() {
 
   for (String s:bucketList) {
     currentBucket = s;
-    /*
+
+    //*
     countSavePosYears("landing", "_series.txt");
      countSavePosYears("moon", "_series.txt");
      countSavePosYears("the moon", "_series.txt");
@@ -61,11 +62,17 @@ void setup() {
      countSavePosYears("two crazy years", "_series.txt");
      countSavePosYears("an amazing thing", "_series.txt");
      countSavePosYears("sophisticated instruments", "_series.txt");
-     */
+     //*/
+
+
+
+    //*
     countSaveEntities("Person");
     countSaveEntities("Country");
     countSaveEntities("Facility");
     countSaveEntities("FieldTerminology");
+    countSaveEntities("GeographicFeature");
+    //*/
   }
   //*/
 }
@@ -143,45 +150,44 @@ void countSaveEntities(String eType) {
         String label = null;
         //Is it disambiguated?
         if (entity.getChild("disambiguated") != null) {
-          label = entity.getChild("disambiguated/name").getContent();
+          label = RiTa.stripPunctuation(entity.getChild("disambiguated/name").getContent());
         } 
         else {
-          label = entity.getChild("text").getContent();
+          label = RiTa.stripPunctuation(entity.getChild("text").getContent());
         };
         int count = int(entity.getChild("count").getContent());
-        
+
         if (label.split(" ").length > 1) {
-        if (!entityMap.containsKey(label)) {
-          Entity e = new Entity().init();
-          e.term = label;
-          e.counts[y - startYear] = count;
-          entityMap.put(label, e);
-          allEntities.add(e);
-          e.count+= count;
-        } 
-        else {
-          Entity e = entityMap.get(label);
-          e.counts[y - startYear] = count;
-          e.count += count;
-        }
+          if (!entityMap.containsKey(label)) {
+            Entity e = new Entity().init();
+            e.term = label;
+            e.counts[y - startYear] = count;
+            entityMap.put(label, e);
+            allEntities.add(e);
+            e.count+= count;
+          } 
+          else {
+            Entity e = entityMap.get(label);
+            e.counts[y - startYear] = count;
+            e.count += count;
+          }
         }
       }
     }
-    
   }
   java.util.Collections.sort(allEntities);
   java.util.Collections.reverse(allEntities);
-  
+
   PrintWriter writer = createWriter(outPath + "/" + currentBucket + "/" + eType + ".txt");
-  
+
   for (Entity e:allEntities) {
     int c = e.count;
     if (c > threshold) {
-      String[] outs = new String[(endYear - startYear) + 1];
+      String[] outs = new String[(endYear - startYear) + 3];
       outs[0] = e.term;
       outs[1] = str(c);
-      for (int i = 2; i < outs.length; i++) {
-        outs[i] = str(e.counts[i]);
+      for (int i = 0; i < e.counts.length; i++) {
+        outs[2 + i] = str(e.counts[i]);
       }
       writer.println(join(outs, ","));
     }
@@ -189,7 +195,6 @@ void countSaveEntities(String eType) {
 
   writer.flush();
   writer.close();
-  
 }
 
 void countSavePosYears(String pos, String url) {
@@ -198,6 +203,7 @@ void countSavePosYears(String pos, String url) {
   String match = join(matchList, " ");
 
   PrintWriter writer = createWriter(outPath + "/" + currentBucket + "/" + match + url);
+  println(outPath + "/" + currentBucket + "/" + match + url);
 
   println("MASTER");
   //Get the master list
@@ -205,7 +211,7 @@ void countSavePosYears(String pos, String url) {
   IntDict counter = countPos(pos);
   println("YEARS");
   //Get the other years
-  IntDict[] yearCounters = new IntDict[endYear - startYear];
+  IntDict[] yearCounters = new IntDict[(endYear - startYear) + 1];
   for (int i = 0;i < yearCounters.length; i++) {
     int y = startYear + i;
     println(y);
@@ -219,13 +225,13 @@ void countSavePosYears(String pos, String url) {
   for (String k:counter.keys()) {
     int c = counter.get(k);
     if (c > threshold) {
-      String[] outs = new String[(endYear - startYear) + 2];
+      String[] outs = new String[(endYear - startYear) + 3];
       outs[0] = k;
       outs[1] = str(c);
       for (int i = 2; i < outs.length; i++) {
         outs[i] = nf((float) yearCounters[i - 2].get(k) / ((float) wc / matchList.length), 1, 6);//str(yearCounters[i - 2].get(k));
       }
-      writer.println(join(outs, ","));
+      if (k.charAt(0) != '0') writer.println(join(outs, ","));
     }
   }
 
@@ -265,6 +271,8 @@ IntDict countPos(String pos) {
 
   for (int i = 0; i < sentences.length; i++) {
     String s = sentences[i].toLowerCase();
+    s = s.replaceAll(" 000", "000");
+    s = s.replaceAll(",000", "000");
     String p = join(RiTa.getPosTags(s), " ");
     if (p.indexOf(match) != -1) {
       String[] sa = {
@@ -288,7 +296,15 @@ IntDict countPos(String pos) {
       if (sss.equals(match)) {
 
         String seg = join(java.util.Arrays.copyOfRange(words, i, i + matchList.length), " ");
-        counter.increment(seg);
+        try {
+          seg = RiTa.stripPunctuation(seg);
+          if (seg.length() > 0) {
+            counter.increment(seg);
+          }
+        } 
+        catch (Exception e) {
+          println("FAILED ON:" + seg);
+        }
       };
     }
   }

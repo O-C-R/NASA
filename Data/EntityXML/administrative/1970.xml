@@ -6,8 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.87505</relevance>
+            <count>25</count>
+            <text>NASA Administrator</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.819752</relevance>
+            <relevance>0.867546</relevance>
             <count>56</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,15 +34,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.817714</relevance>
-            <count>25</count>
-            <text>NASA Administrator</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.514657</relevance>
-            <count>28</count>
+            <relevance>0.574576</relevance>
+            <count>22</count>
             <text>Dr. Thomas O. Paine</text>
             <disambiguated>
                 <name>Thomas O. Paine</name>
@@ -47,53 +47,31 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.46311</relevance>
+            <relevance>0.507967</relevance>
             <count>20</count>
-            <text>space program.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.373979</relevance>
-            <count>2</count>
-            <text>NASA Deputy Associate Administrator for Planning</text>
+            <text>space program</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.353788</relevance>
+            <relevance>0.360197</relevance>
             <count>4</count>
             <text>Deputy Administrator George M. Low</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.343901</relevance>
+            <relevance>0.356714</relevance>
             <count>2</count>
-            <text>Acting NASA Administrator</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.323198</relevance>
-            <count>8</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
+            <text>NASA Deputy Associate Administrator for Planning</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.313981</relevance>
+            <relevance>0.348953</relevance>
             <count>9</count>
             <text>President</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.309152</relevance>
+            <relevance>0.344904</relevance>
             <count>11</count>
             <text>U.S.</text>
             <disambiguated>
@@ -112,8 +90,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.337567</relevance>
+            <count>2</count>
+            <text>Acting NASA Administrator</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.274371</relevance>
+            <relevance>0.31864</relevance>
             <count>6</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -140,14 +124,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.270048</relevance>
-            <count>1</count>
-            <text>NASA Hq.</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.254371</relevance>
+            <relevance>0.317474</relevance>
             <count>7</count>
             <text>New York Times</text>
             <disambiguated>
@@ -166,25 +144,78 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.253795</relevance>
+            <relevance>0.293584</relevance>
             <count>1</count>
             <text>Special Assistant to NASA Administrator</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.253795</relevance>
+            <relevance>0.293573</relevance>
             <count>1</count>
             <text>NASA Associate Administrator for Advanced Research and Technology</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.291484</relevance>
+            <count>8</count>
+            <text>Senate</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.269703</relevance>
+            <count>1</count>
+            <text>NASA Hq.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.26016</relevance>
+            <count>5</count>
+            <text>David D. Thomas</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255002</relevance>
+            <count>5</count>
+            <text>Dr. T. Keith Glennan</text>
+            <disambiguated>
+                <name>T. Keith Glennan</name>
+                <dbpedia>http://dbpedia.org/resource/T._Keith_Glennan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lk2k</freebase>
+                <yago>http://yago-knowledge.org/resource/T._Keith_Glennan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.253044</relevance>
+            <count>5</count>
+            <text>USAF</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.247025</relevance>
+            <relevance>0.246379</relevance>
             <count>1</count>
             <text>NASA Scientific</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.238211</relevance>
+            <count>1</count>
+            <text>Acting NASA</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.227875</relevance>
+            <relevance>0.232884</relevance>
             <count>3</count>
             <text>Nixon Administration</text>
             <disambiguated>
@@ -212,8 +243,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.232739</relevance>
+            <count>1</count>
+            <text>Deputy Associate Administrator for Space Science and Applications</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.229012</relevance>
+            <count>7</count>
+            <text>General Electric Co.</text>
+            <disambiguated>
+                <name>General Electric</name>
+                <subType>ProductionCompany</subType>
+                <website>http://www.ge.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
+                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.227717</relevance>
+            <relevance>0.222945</relevance>
+            <count>1</count>
+            <text>NASA Ann</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.210925</relevance>
+            <count>3</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.207868</relevance>
+            <count>1</count>
+            <text>OSSA Deputy Associate Administrator (Engineering</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.205437</relevance>
             <count>4</count>
             <text>Dr. Wernher von Braun</text>
             <disambiguated>
@@ -231,19 +301,25 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.227344</relevance>
-            <count>5</count>
-            <text>Dr. T. Keith Glennan</text>
-            <disambiguated>
-                <name>T. Keith Glennan</name>
-                <dbpedia>http://dbpedia.org/resource/T._Keith_Glennan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lk2k</freebase>
-                <yago>http://yago-knowledge.org/resource/T._Keith_Glennan</yago>
-            </disambiguated>
+            <relevance>0.202123</relevance>
+            <count>3</count>
+            <text>Academy President Mstislav V. Keldysh</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.201845</relevance>
+            <count>3</count>
+            <text>Representative</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.20177</relevance>
+            <count>3</count>
+            <text>Director.</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.215822</relevance>
+            <relevance>0.198061</relevance>
             <count>4</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -256,88 +332,72 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.213018</relevance>
-            <count>1</count>
-            <text>Deputy Associate Administrator for Space Science and Applications</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.21207</relevance>
+            <relevance>0.196472</relevance>
             <count>2</count>
             <text>nas-nrc Space Science Board</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.204022</relevance>
+            <type>JobTitle</type>
+            <relevance>0.195905</relevance>
             <count>1</count>
-            <text>NASA Ann</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.202411</relevance>
-            <count>3</count>
-            <text>Academy President Mstislav V. Keldysh</text>
+            <text>Administrator</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.198845</relevance>
-            <count>3</count>
-            <text>Chairman</text>
+            <relevance>0.192773</relevance>
+            <count>1</count>
+            <text>Director of Space</text>
+        </entity>
+        <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.190814</relevance>
+            <count>1</count>
+            <text>Gold medal</text>
+            <disambiguated>
+                <name>Gold Medal of the Royal Astronomical Society</name>
+                <website>http://www.ras.org.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/Gold_Medal_of_the_Royal_Astronomical_Society</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03j2ts</freebase>
+                <yago>http://yago-knowledge.org/resource/Gold_Medal_of_the_Royal_Astronomical_Society</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.198724</relevance>
+            <relevance>0.189732</relevance>
             <count>2</count>
             <text>msfc Director</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.198664</relevance>
-            <count>1</count>
-            <text>OSSA Deputy Associate Administrator (Engineering</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.197927</relevance>
-            <count>5</count>
-            <text>USAF</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.197082</relevance>
-            <count>7</count>
-            <text>General Electric Co.</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.194377</relevance>
+            <relevance>0.188515</relevance>
             <count>1</count>
             <text>Assistant Administrator for Industry Affairs</text>
         </entity>
         <entity>
+            <type>EntertainmentAward</type>
+            <relevance>0.188381</relevance>
+            <count>2</count>
+            <text>Nobel Prize</text>
+            <disambiguated>
+                <name>Nobel Prize</name>
+                <subType>Award</subType>
+                <website>http://nobelprize.org</website>
+                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.188192</relevance>
+            <count>1</count>
+            <text>faa Deputy Administrator</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.191527</relevance>
+            <relevance>0.188146</relevance>
             <count>2</count>
             <text>Soviet Academy of Sciences</text>
             <disambiguated>
@@ -351,24 +411,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.189327</relevance>
-            <count>2</count>
-            <text>General Dynamics Corp.</text>
+            <type>Organization</type>
+            <relevance>0.188004</relevance>
+            <count>1</count>
+            <text>Space Nuclear Propulsion Office</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.187816</relevance>
+            <count>1</count>
+            <text>Walter Cronkite</text>
             <disambiguated>
-                <name>General Dynamics</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.gd.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
+                <name>Walter Cronkite</name>
+                <subType>AwardWinner</subType>
+                <subType>HallOfFameInductee</subType>
+                <subType>Hobbyist</subType>
+                <subType>TVPersonality</subType>
+                <subType>FilmActor</subType>
+                <subType>TVActor</subType>
+                <subType>TVWriter</subType>
+                <dbpedia>http://dbpedia.org/resource/Walter_Cronkite</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.016bxh</freebase>
+                <yago>http://yago-knowledge.org/resource/Walter_Cronkite</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.186742</relevance>
+            <count>2</count>
+            <text>Thomas O&#x2019;Toole</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.186735</relevance>
+            <count>3</count>
+            <text>UPI</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.188606</relevance>
+            <relevance>0.186563</relevance>
             <count>2</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -384,141 +465,31 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.186166</relevance>
+            <relevance>0.18627</relevance>
             <count>1</count>
             <text>GE Valley Forge Space Technology Center</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.185522</relevance>
-            <count>1</count>
-            <text>Dr. Eberhard F. M. Rees</text>
-            <disambiguated>
-                <name>Eberhard Rees</name>
-                <subType>Scientist</subType>
-                <dbpedia>http://dbpedia.org/resource/Eberhard_Rees</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gvr_c</freebase>
-                <yago>http://yago-knowledge.org/resource/Eberhard_Rees</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.184742</relevance>
-            <count>2</count>
-            <text>WSJ</text>
-            <disambiguated>
-                <name>The Wall Street Journal</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.wsj.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Wall_Street_Journal</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017b3j</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Wall_Street_Journal</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.184238</relevance>
-            <count>1</count>
-            <text>Director of Space</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.183896</relevance>
-            <count>1</count>
-            <text>nuclear power</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.182503</relevance>
-            <count>1</count>
-            <text>Space Sciences</text>
-        </entity>
-        <entity>
-            <type>EntertainmentAward</type>
-            <relevance>0.180956</relevance>
-            <count>2</count>
-            <text>Nobel Prize</text>
-            <disambiguated>
-                <name>Nobel Prize</name>
-                <subType>Award</subType>
-                <website>http://nobelprize.org</website>
-                <dbpedia>http://dbpedia.org/resource/Nobel_Prize</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.059x1</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj_y5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nobel_Prize</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.179677</relevance>
-            <count>1</count>
-            <text>Space Nuclear Propulsion Office</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.178836</relevance>
-            <count>3</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.178383</relevance>
-            <count>1</count>
-            <text>Fredericton</text>
-            <disambiguated>
-                <name>Fredericton</name>
-                <subType>ConcertTour</subType>
-                <geo>45.95 -66.66666666666667</geo>
-                <website>http://www.fredericton.ca/</website>
-                <dbpedia>http://dbpedia.org/resource/Fredericton</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02w70</freebase>
-                <yago>http://yago-knowledge.org/resource/Fredericton</yago>
-                <geonames>http://sws.geonames.org/5957776/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.177624</relevance>
-            <count>2</count>
-            <text>Thomas O&#x2019;Toole</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.177519</relevance>
+            <relevance>0.185045</relevance>
             <count>1</count>
             <text>Assistant Administrator for International Affairs</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.17745</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.183566</relevance>
             <count>1</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
+            <text>nuclear power</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.176333</relevance>
-            <count>1</count>
-            <text>faa Deputy Administrator</text>
+            <relevance>0.182001</relevance>
+            <count>2</count>
+            <text>Executive</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.176286</relevance>
+            <relevance>0.180979</relevance>
             <count>2</count>
             <text>James E. Webb</text>
             <disambiguated>
@@ -529,18 +500,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.02lj_w</freebase>
                 <yago>http://yago-knowledge.org/resource/James_E._Webb</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.176121</relevance>
-            <count>1</count>
-            <text>Acting NASA</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.175634</relevance>
-            <count>2</count>
-            <text>LeRC</text>
         </entity>
     </entities>
 </results>

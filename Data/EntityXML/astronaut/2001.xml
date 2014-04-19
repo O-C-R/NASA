@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.872388</relevance>
+            <relevance>0.797153</relevance>
             <count>6</count>
             <text>ISS</text>
             <disambiguated>
@@ -20,7 +20,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.705421</relevance>
+            <relevance>0.57992</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -41,35 +41,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.46708</relevance>
-            <count>3</count>
-            <text>James S. Voss</text>
-            <disambiguated>
-                <name>James S. Voss</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_S._Voss</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0323cr</freebase>
-                <yago>http://yago-knowledge.org/resource/James_S._Voss</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.449351</relevance>
-            <count>3</count>
-            <text>Susan J. Helms</text>
-            <disambiguated>
-                <name>Susan J. Helms</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Susan_J._Helms</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02vqs4</freebase>
-                <yago>http://yago-knowledge.org/resource/Susan_J._Helms</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.433614</relevance>
+            <relevance>0.364945</relevance>
             <count>4</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -83,20 +56,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.371022</relevance>
-            <count>1</count>
-            <text>ISS Canvas</text>
+            <type>Person</type>
+            <relevance>0.322655</relevance>
+            <count>3</count>
+            <text>James S. Voss</text>
+            <disambiguated>
+                <name>James S. Voss</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_S._Voss</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0323cr</freebase>
+                <yago>http://yago-knowledge.org/resource/James_S._Voss</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.345371</relevance>
+            <relevance>0.307578</relevance>
             <count>2</count>
             <text>Mission STS-105</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.338548</relevance>
+            <relevance>0.306657</relevance>
+            <count>3</count>
+            <text>Susan J. Helms</text>
+            <disambiguated>
+                <name>Susan J. Helms</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Susan_J._Helms</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02vqs4</freebase>
+                <yago>http://yago-knowledge.org/resource/Susan_J._Helms</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.306119</relevance>
+            <count>1</count>
+            <text>ISS Canvas</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.301511</relevance>
             <count>2</count>
             <text>Daniel T. Barry</text>
             <disambiguated>
@@ -109,31 +109,43 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.329507</relevance>
+            <relevance>0.294894</relevance>
             <count>2</count>
             <text>Patrick F. Forrester</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.322706</relevance>
+            <relevance>0.266692</relevance>
             <count>3</count>
             <text>Black Holes</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.301555</relevance>
-            <count>2</count>
-            <text>Marcia Dunn</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.290066</relevance>
+            <relevance>0.264509</relevance>
             <count>1</count>
             <text>Materials International Space Station</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.259496</relevance>
+            <count>2</count>
+            <text>Marcia Dunn</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.231189</relevance>
+            <count>1</count>
+            <text>Boeing Phantom Works</text>
+            <disambiguated>
+                <name>Boeing Phantom Works</name>
+                <website>http://www.boeing.com/ids/phantom_works/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing_Phantom_Works</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06w6n2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.279465</relevance>
+            <relevance>0.231034</relevance>
             <count>1</count>
             <text>U.S</text>
             <disambiguated>
@@ -153,25 +165,25 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.264659</relevance>
+            <relevance>0.220144</relevance>
             <count>1</count>
             <text>power supply</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.255595</relevance>
+            <type>JobTitle</type>
+            <relevance>0.217083</relevance>
             <count>1</count>
-            <text>Boeing Phantom Works</text>
-            <disambiguated>
-                <name>Boeing Phantom Works</name>
-                <website>http://www.boeing.com/ids/phantom_works/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing_Phantom_Works</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06w6n2</freebase>
-            </disambiguated>
+            <text>Materials Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.212485</relevance>
+            <count>1</count>
+            <text>MISSE</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.245909</relevance>
+            <relevance>0.204537</relevance>
             <count>1</count>
             <text>Houston Chronicle</text>
             <disambiguated>
@@ -185,13 +197,13 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.24311</relevance>
+            <relevance>0.200587</relevance>
             <count>1</count>
             <text>Agence France-Presse</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.24093</relevance>
+            <relevance>0.198945</relevance>
             <count>1</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -204,40 +216,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.23717</relevance>
-            <count>1</count>
-            <text>Materials Laboratory</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.235478</relevance>
+            <relevance>0.194277</relevance>
             <count>1</count>
             <text>Kathy Sawyer</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.234621</relevance>
+            <relevance>0.193713</relevance>
             <count>1</count>
             <text>director</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.234356</relevance>
+            <relevance>0.189633</relevance>
             <count>1</count>
-            <text>MISSE</text>
+            <text>U.S. Air Force Research Library</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.227266</relevance>
+            <relevance>0.188997</relevance>
             <count>1</count>
             <text>Mark Carreau</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.206189</relevance>
-            <count>1</count>
-            <text>U.S. Air Force Research Library</text>
         </entity>
     </entities>
 </results>

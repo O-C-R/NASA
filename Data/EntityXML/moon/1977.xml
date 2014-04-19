@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.840024</relevance>
+            <relevance>0.860245</relevance>
             <count>4</count>
             <text>KSC</text>
             <disambiguated>
@@ -25,7 +25,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.506055</relevance>
+            <relevance>0.607265</relevance>
             <count>2</count>
             <text>Isaac Asimov</text>
             <disambiguated>
@@ -39,7 +39,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.398618</relevance>
+            <relevance>0.581654</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -60,21 +60,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.372775</relevance>
-            <count>1</count>
-            <text>Vehicle Assembly Building</text>
-            <disambiguated>
-                <name>Vehicle Assembly Building</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Vehicle_Assembly_Building</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01nnvg</freebase>
-                <yago>http://yago-knowledge.org/resource/Vehicle_Assembly_Building</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.366875</relevance>
+            <relevance>0.440966</relevance>
             <count>2</count>
             <text>U.S.</text>
             <disambiguated>
@@ -93,8 +80,21 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.434536</relevance>
+            <count>1</count>
+            <text>Vehicle Assembly Building</text>
+            <disambiguated>
+                <name>Vehicle Assembly Building</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Vehicle_Assembly_Building</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01nnvg</freebase>
+                <yago>http://yago-knowledge.org/resource/Vehicle_Assembly_Building</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.325305</relevance>
+            <relevance>0.390366</relevance>
             <count>1</count>
             <text>Chicago Tribune</text>
             <disambiguated>
@@ -110,25 +110,25 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.307225</relevance>
+            <relevance>0.36867</relevance>
             <count>1</count>
             <text>solar energy</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.277536</relevance>
+            <relevance>0.333044</relevance>
             <count>1</count>
             <text>writer</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.276289</relevance>
+            <relevance>0.331546</relevance>
             <count>1</count>
             <text>President Csirter</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.274051</relevance>
+            <relevance>0.308623</relevance>
             <count>1</count>
             <text>Jacksonville</text>
             <disambiguated>
@@ -144,8 +144,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.298531</relevance>
+            <count>1</count>
+            <text>Skylabs</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.251347</relevance>
+            <relevance>0.283047</relevance>
             <count>1</count>
             <text>Fla.</text>
             <disambiguated>
@@ -165,19 +171,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.247477</relevance>
-            <count>1</count>
-            <text>Skylabs</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.242035</relevance>
+            <relevance>0.269861</relevance>
             <count>1</count>
             <text>Reynolds</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.224272</relevance>
+            <relevance>0.249291</relevance>
             <count>1</count>
             <text>Smith</text>
         </entity>

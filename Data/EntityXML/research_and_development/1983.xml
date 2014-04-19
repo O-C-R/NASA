@@ -7,20 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.800279</relevance>
-            <count>7</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>National Auto Sport Association</name>
-                <website>http://www.nasaproracing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/National_Auto_Sport_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bqlsx</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.669501</relevance>
-            <count>5</count>
+            <relevance>0.866327</relevance>
+            <count>9</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -41,27 +29,43 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.399355</relevance>
+            <relevance>0.499884</relevance>
+            <count>3</count>
+            <text>NASA</text>
+            <disambiguated>
+                <name>National Auto Sport Association</name>
+                <website>http://www.nasaproracing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/National_Auto_Sport_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bqlsx</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.385251</relevance>
             <count>3</count>
             <text>ARC</text>
             <disambiguated>
-                <name>Scientology</name>
-                <subType>Religion</subType>
-                <website>http://www.scientology.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Scientology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06nzl</freebase>
-                <yago>http://yago-knowledge.org/resource/Scientology</yago>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.39519</relevance>
+            <relevance>0.383162</relevance>
             <count>2</count>
             <text>Challenger</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.341124</relevance>
+            <relevance>0.328725</relevance>
             <count>1</count>
             <text>Research Institute for Advanced Computer Science</text>
             <disambiguated>
@@ -73,7 +77,7 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.311743</relevance>
+            <relevance>0.306504</relevance>
             <count>1</count>
             <text>Cape Canaveral</text>
             <disambiguated>
@@ -90,31 +94,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.291081</relevance>
+            <relevance>0.285787</relevance>
             <count>1</count>
             <text>Lt. Gen. James A. Abrahamson</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.27312</relevance>
-            <count>1</count>
-            <text>computer science</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.272951</relevance>
-            <count>1</count>
-            <text>metal tubing</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.272819</relevance>
-            <count>1</count>
-            <text>associate administrator</text>
-        </entity>
-        <entity>
             <type>HealthCondition</type>
-            <relevance>0.270094</relevance>
+            <relevance>0.270125</relevance>
             <count>1</count>
             <text>vomiting</text>
             <disambiguated>
@@ -127,20 +113,53 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.267657</relevance>
+            <count>1</count>
+            <text>associate administrator</text>
+        </entity>
+        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.262053</relevance>
+            <relevance>0.267517</relevance>
+            <count>1</count>
+            <text>metal tubing</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.260154</relevance>
+            <count>1</count>
+            <text>computer science</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.257093</relevance>
             <count>1</count>
             <text>transportation systems</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.26035</relevance>
+            <relevance>0.255445</relevance>
             <count>1</count>
             <text>Mississippi</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.254881</relevance>
+            <count>1</count>
+            <text>Lewis Research Center</text>
+            <disambiguated>
+                <name>Glenn Research Center</name>
+                <geo>41.412843 -81.862399</geo>
+                <website>http://www.nasa.gov/glenn</website>
+                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.251716</relevance>
+            <relevance>0.248851</relevance>
             <count>1</count>
             <text>NY Times</text>
             <disambiguated>
@@ -158,8 +177,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.247247</relevance>
+            <count>1</count>
+            <text>comptroller</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.244588</relevance>
+            <count>1</count>
+            <text>Biomedical Research Division</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.249778</relevance>
+            <relevance>0.238781</relevance>
             <count>1</count>
             <text>Dr. Peter J. Denning</text>
             <disambiguated>
@@ -174,40 +205,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.249077</relevance>
+            <relevance>0.235348</relevance>
             <count>1</count>
             <text>Universities Space Research Associations</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.248053</relevance>
-            <count>1</count>
-            <text>comptroller</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.244557</relevance>
-            <count>1</count>
-            <text>Biomedical Research Division</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.244032</relevance>
-            <count>1</count>
-            <text>Lewis Research Center</text>
-            <disambiguated>
-                <name>Glenn Research Center</name>
-                <geo>41.412843 -81.862399</geo>
-                <website>http://www.nasa.gov/glenn</website>
-                <dbpedia>http://dbpedia.org/resource/Glenn_Research_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0209wt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwDS495wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Glenn_Research_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.23194</relevance>
+            <relevance>0.231966</relevance>
             <count>1</count>
             <text>Dayton</text>
             <disambiguated>
@@ -223,19 +227,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.229241</relevance>
-            <count>1</count>
-            <text>USRA</text>
-            <disambiguated>
-                <name>Universities Space Research Association</name>
-                <dbpedia>http://dbpedia.org/resource/Universities_Space_Research_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0269j0p</freebase>
-                <yago>http://yago-knowledge.org/resource/Universities_Space_Research_Association</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225661</relevance>
+            <relevance>0.225688</relevance>
             <count>1</count>
             <text>Wright State University</text>
             <disambiguated>
@@ -252,20 +244,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.224512</relevance>
-            <count>1</count>
-            <text>Director</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.222858</relevance>
+            <relevance>0.222888</relevance>
             <count>1</count>
             <text>new Biomedical Institute</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.218381</relevance>
+            <count>1</count>
+            <text>USRA</text>
+            <disambiguated>
+                <name>Universities Space Research Association</name>
+                <dbpedia>http://dbpedia.org/resource/Universities_Space_Research_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0269j0p</freebase>
+                <yago>http://yago-knowledge.org/resource/Universities_Space_Research_Association</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.216895</relevance>
+            <relevance>0.21692</relevance>
             <count>1</count>
             <text>Ohio</text>
             <disambiguated>
@@ -284,19 +282,25 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.212039</relevance>
+            <relevance>0.214183</relevance>
+            <count>1</count>
+            <text>Director</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.212065</relevance>
             <count>1</count>
             <text>scientist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.210431</relevance>
+            <relevance>0.210459</relevance>
             <count>1</count>
             <text>Dr. Nancy Daunton</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.208116</relevance>
+            <relevance>0.208142</relevance>
             <count>1</count>
             <text>JSC</text>
             <disambiguated>
@@ -308,7 +312,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.206985</relevance>
+            <relevance>0.196478</relevance>
             <count>1</count>
             <text>Purdue University.</text>
         </entity>

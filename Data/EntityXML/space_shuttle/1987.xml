@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.893279</relevance>
+            <relevance>0.889578</relevance>
             <count>11</count>
             <text>NASA Advisory Council</text>
             <disambiguated>
@@ -29,7 +29,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.268014</relevance>
+            <relevance>0.301915</relevance>
+            <count>1</count>
+            <text>National Space Technology Laboratories</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.271651</relevance>
             <count>2</count>
             <text>Rockwell International Corporation</text>
             <disambiguated>
@@ -41,12 +47,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
                 <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.255394</relevance>
-            <count>1</count>
-            <text>National Space Technology Laboratories</text>
         </entity>
         <entity>
             <type>Country</type>
@@ -72,7 +72,7 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.171013</relevance>
+            <relevance>0.172827</relevance>
             <count>1</count>
             <text>LA Times</text>
             <disambiguated>
@@ -89,22 +89,9 @@
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.159106</relevance>
+            <relevance>0.171009</relevance>
             <count>1</count>
             <text>Mississippi</text>
-            <disambiguated>
-                <name>Mississippi</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.mississippi.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Mississippi</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04tgp</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkBTpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mississippi</yago>
-            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
@@ -120,9 +107,25 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.113214</relevance>
+            <relevance>0.126396</relevance>
             <count>1</count>
             <text>Italy</text>
+            <disambiguated>
+                <name>Italy</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>41.9 12.483333333333333</geo>
+                <website>http://www.italia.it/en/home.html</website>
+                <dbpedia>http://dbpedia.org/resource/Italy</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Italy</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03rjj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjMgZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Italy</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

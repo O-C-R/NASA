@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Facility</type>
-            <relevance>0.765635</relevance>
+            <relevance>0.8419</relevance>
             <count>2</count>
             <text>NASA Manned Spacecraft Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.593247</relevance>
+            <relevance>0.684343</relevance>
             <count>6</count>
             <text>NASA</text>
             <disambiguated>
@@ -35,13 +35,19 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.503307</relevance>
+            <relevance>0.611911</relevance>
             <count>1</count>
             <text>National Multipurpose Space Station</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.492844</relevance>
+            <relevance>0.604321</relevance>
+            <count>1</count>
+            <text>usaf Manned Orbiting Laboratory</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.599216</relevance>
             <count>1</count>
             <text>Manned Spacecraft Center</text>
             <disambiguated>
@@ -55,20 +61,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.481329</relevance>
-            <count>1</count>
-            <text>usaf Manned Orbiting Laboratory</text>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.467842</relevance>
+            <relevance>0.587362</relevance>
             <count>1</count>
             <text>usae Manned Orbiting Laboratory</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.417628</relevance>
+            <relevance>0.510542</relevance>
             <count>3</count>
             <text>Houston Post</text>
             <disambiguated>
@@ -79,14 +79,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.411434</relevance>
-            <count>1</count>
-            <text>Space Co.</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.381268</relevance>
+            <relevance>0.487336</relevance>
             <count>3</count>
             <text>usaf</text>
             <disambiguated>
@@ -102,28 +96,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.330735</relevance>
-            <count>2</count>
-            <text>Emanuel Schnitzer</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.321453</relevance>
+            <type>Company</type>
+            <relevance>0.45191</relevance>
             <count>1</count>
-            <text>Lockheed</text>
-            <disambiguated>
-                <name>Lockheed Martin Space Systems</name>
-                <subType>CompanyDivision</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Martin_Space_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04ywdp</freebase>
-                <yago>http://yago-knowledge.org/resource/Lockheed_Martin_Space_Systems</yago>
-            </disambiguated>
+            <text>Space Co.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.318528</relevance>
+            <relevance>0.429826</relevance>
             <count>2</count>
             <text>Saturn</text>
             <disambiguated>
@@ -138,85 +118,117 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.292364</relevance>
+            <relevance>0.402443</relevance>
+            <count>2</count>
+            <text>Emanuel Schnitzer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.378766</relevance>
             <count>2</count>
             <text>Dr. Harold Brown</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.281463</relevance>
-            <count>1</count>
-            <text>Lockheed-CaUfornia Co.</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.280203</relevance>
-            <count>1</count>
-            <text>NASA Hq.</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.271296</relevance>
-            <count>1</count>
-            <text>Houston</text>
-            <disambiguated>
-                <name>Houston</name>
-                <website>http://www.houstontx.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03l2n</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.268349</relevance>
+            <relevance>0.372932</relevance>
             <count>1</count>
             <text>Goodyear Aerospace Corp.</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.359396</relevance>
+            <count>1</count>
+            <text>NASA Hq.</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.261756</relevance>
+            <relevance>0.33979</relevance>
             <count>1</count>
             <text>LEM</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.252548</relevance>
+            <type>Organization</type>
+            <relevance>0.335253</relevance>
             <count>1</count>
-            <text>Olympus</text>
+            <text>Lockheed</text>
+            <disambiguated>
+                <name>Lockheed Corporation</name>
+                <subType>Company</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.251208</relevance>
+            <relevance>0.329999</relevance>
             <count>1</count>
             <text>Director of dod Research</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.246671</relevance>
+            <relevance>0.322587</relevance>
             <count>1</count>
-            <text>Maloney</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.245081</relevance>
-            <count>1</count>
-            <text>Brooks afb</text>
+            <text>Thomas E. Dolan</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.244232</relevance>
-            <count>1</count>
-            <text>msc Roundup</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.242806</relevance>
+            <relevance>0.315129</relevance>
             <count>1</count>
             <text>Apollo</text>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.31464</relevance>
+            <count>1</count>
+            <text>aiaa Symposium</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.30842</relevance>
+            <count>1</count>
+            <text>Olympus</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.234325</relevance>
+            <relevance>0.305912</relevance>
+            <count>1</count>
+            <text>Tulsa Daily World</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.305881</relevance>
+            <count>1</count>
+            <text>Brooks afb</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.303052</relevance>
+            <count>1</count>
+            <text>Houston</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.299839</relevance>
+            <count>1</count>
+            <text>Pasadena</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.298797</relevance>
+            <count>1</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.294254</relevance>
+            <count>1</count>
+            <text>Administrator Dr. Robert C. Seamans</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.294174</relevance>
             <count>1</count>
             <text>Rockets</text>
             <disambiguated>
@@ -227,26 +239,39 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.234292</relevance>
-            <count>1</count>
-            <text>Administrator Dr. Robert C. Seamans</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.233947</relevance>
+            <relevance>0.291964</relevance>
             <count>1</count>
             <text>Edwards afb</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.228829</relevance>
+            <relevance>0.287571</relevance>
             <count>1</count>
-            <text>dod</text>
+            <text>House Armed Services Committee</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.227353</relevance>
+            <relevance>0.283109</relevance>
+            <count>1</count>
+            <text>Cleveland Plain Dealer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.282183</relevance>
+            <count>1</count>
+            <text>Aerospace Research Pilots School</text>
+            <disambiguated>
+                <name>U.S. Air Force Test Pilot School</name>
+                <geo>34.9171 -117.9</geo>
+                <dbpedia>http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02w7l2</freebase>
+                <yago>http://yago-knowledge.org/resource/U.S._Air_Force_Test_Pilot_School</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.27765</relevance>
             <count>1</count>
             <text>Douglas Aircraft Co.</text>
             <disambiguated>
@@ -259,51 +284,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.226109</relevance>
-            <count>1</count>
-            <text>Aerospace Research Pilots School</text>
-            <disambiguated>
-                <name>U.S. Air Force Test Pilot School</name>
-                <geo>34.9171 -117.9</geo>
-                <dbpedia>http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02w7l2</freebase>
-                <yago>http://yago-knowledge.org/resource/U.S._Air_Force_Test_Pilot_School</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.225567</relevance>
-            <count>1</count>
-            <text>Tulsa Daily World</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.222197</relevance>
+            <relevance>0.277301</relevance>
             <count>1</count>
             <text>Lt. Col. Robert S. Buchanan</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.220716</relevance>
+            <type>Person</type>
+            <relevance>0.27094</relevance>
             <count>1</count>
-            <text>Cleveland Plain Dealer</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.218401</relevance>
-            <count>1</count>
-            <text>House Armed Services Committee</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.213768</relevance>
-            <count>1</count>
-            <text>aiaa Symposium</text>
+            <text>Maloney</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.212504</relevance>
+            <relevance>0.270437</relevance>
+            <count>1</count>
+            <text>Lockheed-CaUfornia Co.</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.266602</relevance>
+            <count>1</count>
+            <text>msc Roundup</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.264327</relevance>
+            <count>1</count>
+            <text>AP</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.259217</relevance>
             <count>1</count>
             <text>General Electric Co.</text>
             <disambiguated>
@@ -317,32 +329,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.211806</relevance>
-            <count>1</count>
-            <text>AP</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.21019</relevance>
-            <count>1</count>
-            <text>Thomas E. Dolan</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.203679</relevance>
-            <count>1</count>
-            <text>Pasadena</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.196423</relevance>
+            <relevance>0.246753</relevance>
             <count>1</count>
             <text>Jr.</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.187733</relevance>
+            <relevance>0.228054</relevance>
             <count>1</count>
             <text>Martin Marietta Corp.</text>
         </entity>

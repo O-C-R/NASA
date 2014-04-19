@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.763311</relevance>
+            <relevance>0.946282</relevance>
             <count>17</count>
             <text>Wash</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.73709</relevance>
+            <relevance>0.913958</relevance>
             <count>13</count>
             <text>NYT</text>
             <disambiguated>
@@ -32,7 +32,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.542394</relevance>
+            <relevance>0.805406</relevance>
             <count>9</count>
             <text>Astronaut Eugene Cernan</text>
             <disambiguated>
@@ -47,14 +47,14 @@
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.506072</relevance>
+            <relevance>0.803891</relevance>
             <count>12</count>
             <text>AP</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.497544</relevance>
-            <count>7</count>
+            <relevance>0.781368</relevance>
+            <count>16</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -74,45 +74,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.49175</relevance>
-            <count>8</count>
-            <text>NASA</text>
-            <disambiguated>
-                <name>Lyndon B. Johnson Space Center</name>
-                <geo>29.563 -95.091</geo>
-                <website>http://www.nasa.gov/centers/johnson/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0182y2</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rNEx7gBE_QdeDgIM5lU6rOA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Lyndon_B._Johnson_Space_Center</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.483627</relevance>
-            <count>13</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.461508</relevance>
-            <count>5</count>
-            <text>Astronaut Walter M. Schirra</text>
-            <disambiguated>
-                <name>Wally Schirra</name>
-                <subType>FilmCharacter</subType>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.wallyschirra.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
-                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.457104</relevance>
+            <relevance>0.629477</relevance>
             <count>7</count>
             <text>Astronaut James Lovell</text>
             <disambiguated>
@@ -129,7 +92,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.452702</relevance>
+            <relevance>0.620567</relevance>
             <count>7</count>
             <text>Thomas P. Stafford</text>
             <disambiguated>
@@ -139,21 +102,23 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.436168</relevance>
-            <count>7</count>
-            <text>Charles A. Bassett II</text>
+            <relevance>0.576383</relevance>
+            <count>5</count>
+            <text>Astronaut Walter M. Schirra</text>
             <disambiguated>
-                <name>Charles Bassett</name>
+                <name>Wally Schirra</name>
+                <subType>FilmCharacter</subType>
                 <subType>Astronaut</subType>
                 <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Charles_Bassett</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03vqhw</freebase>
-                <yago>http://yago-knowledge.org/resource/Charles_Bassett</yago>
+                <website>http://www.wallyschirra.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Wally_Schirra</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01wzjw</freebase>
+                <yago>http://yago-knowledge.org/resource/Wally_Schirra</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.424524</relevance>
+            <relevance>0.552201</relevance>
             <count>5</count>
             <text>Astronaut M. Scott Carpenter</text>
             <disambiguated>
@@ -168,13 +133,42 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.413301</relevance>
+            <relevance>0.538516</relevance>
+            <count>13</count>
+            <text>Jr.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.525679</relevance>
             <count>5</count>
-            <text>Charles Conrad, Jr.</text>
+            <text>Frank Borman</text>
+            <disambiguated>
+                <name>Frank Borman</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://www.jsc.nasa.gov/Bios/htmlbios/borman-f.html</website>
+                <dbpedia>http://dbpedia.org/resource/Frank_Borman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0kx8g</freebase>
+                <yago>http://yago-knowledge.org/resource/Frank_Borman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.458615</relevance>
+            <count>7</count>
+            <text>Charles A. Bassett II</text>
+            <disambiguated>
+                <name>Charles Bassett</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Charles_Bassett</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03vqhw</freebase>
+                <yago>http://yago-knowledge.org/resource/Charles_Bassett</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.38485</relevance>
+            <relevance>0.456635</relevance>
             <count>6</count>
             <text>U.S.</text>
             <disambiguated>
@@ -194,7 +188,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.366105</relevance>
+            <relevance>0.442734</relevance>
             <count>6</count>
             <text>usaf</text>
             <disambiguated>
@@ -211,7 +205,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.348946</relevance>
+            <relevance>0.41546</relevance>
             <count>3</count>
             <text>ksc</text>
             <disambiguated>
@@ -229,34 +223,31 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.329213</relevance>
+            <relevance>0.40728</relevance>
             <count>5</count>
-            <text>Frank Borman</text>
-            <disambiguated>
-                <name>Frank Borman</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.jsc.nasa.gov/Bios/htmlbios/borman-f.html</website>
-                <dbpedia>http://dbpedia.org/resource/Frank_Borman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0kx8g</freebase>
-                <yago>http://yago-knowledge.org/resource/Frank_Borman</yago>
-            </disambiguated>
+            <text>Charles Conrad, Jr.</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.320871</relevance>
-            <count>3</count>
-            <text>Houston Post</text>
-            <disambiguated>
-                <name>Houston Post</name>
-                <dbpedia>http://dbpedia.org/resource/Houston_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06gjdq</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Post</yago>
-            </disambiguated>
+            <type>Person</type>
+            <relevance>0.405467</relevance>
+            <count>4</count>
+            <text>Eva</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.387954</relevance>
+            <count>1</count>
+            <text>usaf Astronaut Maneuvering Unit</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.387396</relevance>
+            <count>5</count>
+            <text>Collins</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.308758</relevance>
+            <relevance>0.381494</relevance>
             <count>1</count>
             <text>Gemini</text>
             <disambiguated>
@@ -267,32 +258,50 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.372684</relevance>
+            <count>3</count>
+            <text>Houston Post</text>
+            <disambiguated>
+                <name>Houston Post</name>
+                <dbpedia>http://dbpedia.org/resource/Houston_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06gjdq</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.370099</relevance>
+            <count>3</count>
+            <text>Moscow</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.306894</relevance>
-            <count>4</count>
-            <text>V. Parin</text>
+            <relevance>0.368369</relevance>
+            <count>3</count>
+            <text>Richard F. Gordon, Jr.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.30436</relevance>
-            <count>1</count>
-            <text>usaf Astronaut Maneuvering Unit</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.295474</relevance>
-            <count>3</count>
-            <text>Elliot M. See</text>
+            <relevance>0.3627</relevance>
+            <count>2</count>
+            <text>Congress</text>
             <disambiguated>
-                <name>Elliot See</name>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Elliot_See</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gsyc</freebase>
+                <name>United States Congress</name>
+                <subType>Dedicator</subType>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <subType>NaturalOrCulturalPreservationAgency</subType>
+                <website>http://www.house.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.289857</relevance>
+            <relevance>0.362026</relevance>
             <count>2</count>
             <text>Reuters</text>
             <disambiguated>
@@ -305,8 +314,163 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.36016</relevance>
+            <count>2</count>
+            <text>Denver Post</text>
+            <disambiguated>
+                <name>The Denver Post</name>
+                <subType>AwardWinner</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.denverpost.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Denver_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.055b_5</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Denver_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.283749</relevance>
+            <relevance>0.356574</relevance>
+            <count>3</count>
+            <text>Wilford</text>
+        </entity>
+        <entity>
+            <type>OperatingSystem</type>
+            <relevance>0.350556</relevance>
+            <count>3</count>
+            <text>windows</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.347435</relevance>
+            <count>2</count>
+            <text>faa</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.344929</relevance>
+            <count>2</count>
+            <text>Balt</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.338267</relevance>
+            <count>2</count>
+            <text>Silas Bent</text>
+            <disambiguated>
+                <name>Silas Bent</name>
+                <dbpedia>http://dbpedia.org/resource/Silas_Bent</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rsx27</freebase>
+                <yago>http://yago-knowledge.org/resource/Silas_Bent</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.337928</relevance>
+            <count>1</count>
+            <text>msc Release</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.33423</relevance>
+            <count>2</count>
+            <text>usn</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.331837</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.331255</relevance>
+            <count>3</count>
+            <text>Elliot M. See</text>
+            <disambiguated>
+                <name>Elliot See</name>
+                <subType>Astronaut</subType>
+                <dbpedia>http://dbpedia.org/resource/Elliot_See</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gsyc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.330996</relevance>
+            <count>4</count>
+            <text>V. Parin</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.329919</relevance>
+            <count>2</count>
+            <text>Denver</text>
+            <disambiguated>
+                <name>Denver</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.denvergov.org</website>
+                <dbpedia>http://dbpedia.org/resource/Denver</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02cl1</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.324617</relevance>
+            <count>2</count>
+            <text>Hines</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.324011</relevance>
+            <count>1</count>
+            <text>Martin Co</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.32381</relevance>
+            <count>1</count>
+            <text>Gemini IX</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.320158</relevance>
+            <count>1</count>
+            <text>Leningrad</text>
+            <disambiguated>
+                <name>Saint Petersburg</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>AwardWinner</subType>
+                <subType>Dedicatee</subType>
+                <website>http://eng.gov.spb.ru/</website>
+                <dbpedia>http://dbpedia.org/resource/Saint_Petersburg</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06pr6</freebase>
+                <yago>http://yago-knowledge.org/resource/Saint_Petersburg</yago>
+                <geonames>http://sws.geonames.org/498817/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.315553</relevance>
             <count>3</count>
             <text>Edwin E. Aldrin</text>
             <disambiguated>
@@ -326,69 +490,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>OperatingSystem</type>
-            <relevance>0.281475</relevance>
-            <count>3</count>
-            <text>windows</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.28083</relevance>
-            <count>4</count>
-            <text>Eva</text>
+            <type>GeographicFeature</type>
+            <relevance>0.314173</relevance>
+            <count>1</count>
+            <text>Atlantic Ocean</text>
+            <disambiguated>
+                <name>Atlantic Ocean</name>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Atlantic_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Atlantic_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0j3b</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkB0pwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.280654</relevance>
-            <count>1</count>
-            <text>space program</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.279161</relevance>
+            <relevance>0.310921</relevance>
             <count>3</count>
-            <text>Wilford</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.278225</relevance>
-            <count>1</count>
-            <text>Washington</text>
-            <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
-            </disambiguated>
+            <text>revenue passenger miles</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.276729</relevance>
-            <count>2</count>
-            <text>congress</text>
-            <disambiguated>
-                <name>United States Congress</name>
-                <subType>Dedicator</subType>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <subType>NaturalOrCulturalPreservationAgency</subType>
-                <website>http://www.house.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Congress</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t31</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwP1W2JwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Congress</yago>
-            </disambiguated>
+            <relevance>0.309588</relevance>
+            <count>1</count>
+            <text>Soviet Foreign Ministry</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.275985</relevance>
+            <relevance>0.309169</relevance>
             <count>3</count>
             <text>L. Gordon Cooper</text>
             <disambiguated>
@@ -402,155 +531,42 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.275586</relevance>
+            <type>Person</type>
+            <relevance>0.308962</relevance>
             <count>2</count>
-            <text>Balt</text>
+            <text>Capt. Gerald T. LyVere</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.273576</relevance>
-            <count>5</count>
-            <text>Collins</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.270791</relevance>
+            <relevance>0.30867</relevance>
             <count>2</count>
-            <text>usn</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.268699</relevance>
-            <count>3</count>
-            <text>Moscow</text>
+            <text>Cape Kennedy</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.26694</relevance>
-            <count>1</count>
-            <text>Gemini IX</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.265741</relevance>
-            <count>1</count>
-            <text>Space General Corp.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.264049</relevance>
-            <count>3</count>
-            <text>Richard F. Gordon, Jr.</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.263015</relevance>
-            <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.253394</relevance>
-            <count>1</count>
-            <text>Rockets</text>
-            <disambiguated>
-                <name>Rockets (band)</name>
-                <subType>MusicalArtist</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockets_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p3l0v</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.250886</relevance>
-            <count>2</count>
-            <text>McDonnell</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.248714</relevance>
-            <count>2</count>
-            <text>Denver Post</text>
-            <disambiguated>
-                <name>The Denver Post</name>
-                <subType>AwardWinner</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.denverpost.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Denver_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.055b_5</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Denver_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.248435</relevance>
-            <count>1</count>
-            <text>msc Release</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.247266</relevance>
+            <relevance>0.308086</relevance>
             <count>1</count>
             <text>NYT</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.246553</relevance>
-            <count>1</count>
-            <text>air travel</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.246199</relevance>
-            <count>1</count>
-            <text>Togging</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.245212</relevance>
-            <count>3</count>
-            <text>revenue passenger miles</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.244107</relevance>
-            <count>2</count>
-            <text>Trib.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.24373</relevance>
-            <count>1</count>
-            <text>McDonnell</text>
-            <disambiguated>
-                <name>McDonnell Aircraft</name>
-                <dbpedia>http://dbpedia.org/resource/McDonnell_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sp8g</freebase>
-                <yago>http://yago-knowledge.org/resource/McDonnell_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.243377</relevance>
+            <relevance>0.305941</relevance>
             <count>2</count>
-            <text>Dr. Boris Yegorov</text>
+            <text>Benjamin Franklin</text>
             <disambiguated>
-                <name>Boris Yegorov</name>
-                <subType>Physician</subType>
-                <subType>Astronaut</subType>
-                <dbpedia>http://dbpedia.org/resource/Boris_Yegorov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bsh_</freebase>
-                <yago>http://yago-knowledge.org/resource/Boris_Yegorov</yago>
+                <name>Benjamin Franklin</name>
+                <subType>Politician</subType>
+                <subType>AwardWinner</subType>
+                <subType>Governor</subType>
+                <subType>HonoraryDegreeRecipient</subType>
+                <subType>Inventor</subType>
+                <subType>U.S.Congressperson</subType>
+                <subType>TVCharacter</subType>
+                <website>http://www.benfranklin300.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Benjamin_Franklin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.019fz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPzUrJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Benjamin_Franklin</yago>
             </disambiguated>
         </entity>
     </entities>

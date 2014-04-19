@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.876079</relevance>
+            <relevance>0.824208</relevance>
             <count>26</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,7 +29,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.503859</relevance>
+            <relevance>0.570114</relevance>
             <count>9</count>
             <text>Federal Aviation Administration</text>
             <disambiguated>
@@ -43,7 +43,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.427581</relevance>
+            <relevance>0.406748</relevance>
             <count>7</count>
             <text>U.S.</text>
             <disambiguated>
@@ -63,7 +63,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.330892</relevance>
+            <relevance>0.343808</relevance>
             <count>3</count>
             <text>Turkish Airlines</text>
             <disambiguated>
@@ -77,14 +77,53 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>PrintMedia</type>
+            <relevance>0.328836</relevance>
+            <count>3</count>
+            <text>Washington Post</text>
+            <disambiguated>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.306234</relevance>
+            <count>2</count>
+            <text>Transportation Safety Board</text>
+            <disambiguated>
+                <name>Transportation Safety Board of Canada</name>
+                <subType>Company</subType>
+                <dbpedia>http://dbpedia.org/resource/Transportation_Safety_Board_of_Canada</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05h7pv</freebase>
+                <yago>http://yago-knowledge.org/resource/Transportation_Safety_Board_of_Canada</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.309834</relevance>
+            <relevance>0.293995</relevance>
             <count>1</count>
             <text>NASA Hq</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.286836</relevance>
+            <count>4</count>
+            <text>Aleksey Zolotov</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.285114</relevance>
+            <count>3</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.303146</relevance>
+            <relevance>0.279021</relevance>
             <count>3</count>
             <text>New York Times</text>
             <disambiguated>
@@ -102,106 +141,146 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.285797</relevance>
+            <type>Person</type>
+            <relevance>0.270748</relevance>
             <count>2</count>
-            <text>Transportation Safety Board</text>
+            <text>James C. Miller</text>
             <disambiguated>
-                <name>Transportation Safety Board of Canada</name>
-                <subType>Company</subType>
-                <dbpedia>http://dbpedia.org/resource/Transportation_Safety_Board_of_Canada</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05h7pv</freebase>
-                <yago>http://yago-knowledge.org/resource/Transportation_Safety_Board_of_Canada</yago>
+                <name>James C. Miller III</name>
+                <subType>Politician</subType>
+                <dbpedia>http://dbpedia.org/resource/James_C._Miller_III</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k5xb</freebase>
+                <yago>http://yago-knowledge.org/resource/James_C._Miller_III</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.285657</relevance>
-            <count>1</count>
-            <text>Space Technology magazine</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.284494</relevance>
+            <relevance>0.270335</relevance>
             <count>2</count>
             <text>space program</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.25841</relevance>
+            <count>2</count>
+            <text>Univ. of Conn</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.257403</relevance>
+            <count>2</count>
+            <text>scientist</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.276394</relevance>
+            <relevance>0.255669</relevance>
             <count>2</count>
             <text>DOT</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.267257</relevance>
-            <count>3</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.266927</relevance>
+            <relevance>0.255324</relevance>
             <count>4</count>
-            <text>Aleksey Zolotov</text>
+            <text>McDonnell Douglas</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.264819</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.262382</relevance>
+            <type>JobTitle</type>
+            <relevance>0.252499</relevance>
             <count>1</count>
-            <text>NOAA</text>
-            <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.261082</relevance>
-            <count>2</count>
-            <text>Kenneth L. Woodfin</text>
+            <text>reporter</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.25114</relevance>
-            <count>1</count>
-            <text>Boulder</text>
-            <disambiguated>
-                <name>Boulder, Colorado</name>
-                <subType>AdministrativeDivision</subType>
-                <website>http://www.bouldercolorado.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Boulder,_Colorado</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ncj8</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/co/counties/boulder_county/boulder</census>
-                <yago>http://yago-knowledge.org/resource/Boulder,_Colorado</yago>
-                <geonames>http://sws.geonames.org/5574991/</geonames>
-            </disambiguated>
+            <relevance>0.25021</relevance>
+            <count>2</count>
+            <text>Paris</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.251009</relevance>
+            <relevance>0.24987</relevance>
             <count>2</count>
             <text>nitric oxide</text>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.247128</relevance>
+            <count>1</count>
+            <text>Tungus taiga</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.250134</relevance>
+            <relevance>0.246271</relevance>
+            <count>1</count>
+            <text>Senate</text>
+            <disambiguated>
+                <name>United States Senate</name>
+                <subType>GovernmentalBody</subType>
+                <subType>Legislature</subType>
+                <website>http://www.senate.gov</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.2455</relevance>
+            <count>1</count>
+            <text>Space Technology magazine</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.242639</relevance>
+            <count>2</count>
+            <text>William T. Coleman</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.239859</relevance>
+            <count>1</count>
+            <text>London Sunday Times</text>
+            <disambiguated>
+                <name>The Sunday Times</name>
+                <subType>Newspaper</subType>
+                <website>http://www.sunday-times.co.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Sunday_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0732jx</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Sunday_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.238565</relevance>
+            <count>1</count>
+            <text>McDonnell Douglas</text>
+            <disambiguated>
+                <name>McDonnell Douglas</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <website>http://web.archive.org/web/*/http:/www.mdc.com/</website>
+                <dbpedia>http://dbpedia.org/resource/McDonnell_Douglas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0147vs</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwVLudJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/McDonnell_Douglas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.237688</relevance>
+            <count>1</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.237059</relevance>
             <count>1</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -218,229 +297,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.249882</relevance>
-            <count>1</count>
-            <text>Canada</text>
-            <disambiguated>
-                <name>Canada</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>AwardDiscipline</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>45.4 -75.66666666666667</geo>
-                <website>http://www.gc.ca</website>
-                <dbpedia>http://dbpedia.org/resource/Canada</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Canada</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d060g</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVimZ5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Canada</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.249129</relevance>
-            <count>1</count>
-            <text>Colo.</text>
-            <disambiguated>
-                <name>Colorado</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <geo>39.0 -105.5</geo>
-                <website>http://www.colorado.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Colorado</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n4w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViMqZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Colorado</yago>
-                <geonames>http://sws.geonames.org/5417618/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.242469</relevance>
-            <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.241583</relevance>
-            <count>2</count>
-            <text>Paris</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.241224</relevance>
-            <count>1</count>
-            <text>Smithsonian Institution</text>
-            <disambiguated>
-                <name>Smithsonian Institution</name>
-                <subType>Location</subType>
-                <subType>TouristAttraction</subType>
-                <subType>AwardWinner</subType>
-                <subType>Museum</subType>
-                <geo>38.8888 -77.026</geo>
-                <website>http://www.si.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
-                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
-                <geonames>http://sws.geonames.org/4140525/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.239763</relevance>
-            <count>1</count>
-            <text>dinitrogen pentoxide</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.238496</relevance>
-            <count>2</count>
-            <text>scientist</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.237556</relevance>
+            <relevance>0.23648</relevance>
             <count>2</count>
             <text>York Univ.</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.23748</relevance>
-            <count>1</count>
-            <text>Walter Sullivan</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.237013</relevance>
-            <count>1</count>
-            <text>Transportation</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.236273</relevance>
-            <count>1</count>
-            <text>Prof. Harold Schiff</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.23612</relevance>
-            <count>1</count>
-            <text>Aeronomy Laboratory</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.235325</relevance>
-            <count>2</count>
-            <text>James C. Miller</text>
-            <disambiguated>
-                <name>James C. Miller III</name>
-                <subType>Politician</subType>
-                <dbpedia>http://dbpedia.org/resource/James_C._Miller_III</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k5xb</freebase>
-                <yago>http://yago-knowledge.org/resource/James_C._Miller_III</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.233675</relevance>
-            <count>4</count>
-            <text>McDonnell Douglas</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.233072</relevance>
-            <count>1</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell Collins</name>
-                <website>http://www.rockwellcollins.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.232912</relevance>
+            <relevance>0.23151</relevance>
             <count>1</count>
             <text>Deputy Chief of Naval Procurement</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.232477</relevance>
-            <count>2</count>
-            <text>Conn</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.230246</relevance>
-            <count>1</count>
-            <text>Ontario</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.230068</relevance>
-            <count>1</count>
-            <text>Civil Service League</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.228029</relevance>
-            <count>2</count>
-            <text>Assistant Administrator for Procurement</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227559</relevance>
-            <count>1</count>
-            <text>Senate</text>
-            <disambiguated>
-                <name>United States Senate</name>
-                <subType>GovernmentalBody</subType>
-                <subType>Legislature</subType>
-                <website>http://www.senate.gov</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Senate</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07t58</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rG3mmKHXaQdeYnaZimuB2gw</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Senate</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227465</relevance>
-            <count>1</count>
-            <text>Dept of Commerce</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.227423</relevance>
-            <count>1</count>
-            <text>Tungus taiga</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.227172</relevance>
-            <count>2</count>
-            <text>Univ. of Conn</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.226777</relevance>
+            <relevance>0.231286</relevance>
             <count>1</count>
             <text>WSJ</text>
             <disambiguated>
@@ -454,36 +324,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.226018</relevance>
-            <count>1</count>
-            <text>Michael Collins</text>
-            <disambiguated>
-                <name>Michael Collins (astronaut)</name>
-                <subType>Astronaut</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryPerson</subType>
-                <website>http://www.jsc.nasa.gov/Bios/htmlbios/collins-m.html</website>
-                <dbpedia>http://dbpedia.org/resource/Michael_Collins_(astronaut)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0p45s</freebase>
-                <yago>http://yago-knowledge.org/resource/Michael_Collins_(astronaut)</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.226001</relevance>
-            <count>1</count>
-            <text>Smithsonian&#x2019;s Air and Space Museum</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.226001</relevance>
-            <count>2</count>
-            <text>Jr.</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.225969</relevance>
+            <relevance>0.230437</relevance>
             <count>1</count>
             <text>Md</text>
             <disambiguated>
@@ -504,8 +346,27 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.229956</relevance>
+            <count>1</count>
+            <text>Smithsonian Institution</text>
+            <disambiguated>
+                <name>Smithsonian Institution</name>
+                <subType>Location</subType>
+                <subType>TouristAttraction</subType>
+                <subType>AwardWinner</subType>
+                <subType>Museum</subType>
+                <geo>38.8888 -77.026</geo>
+                <website>http://www.si.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Smithsonian_Institution</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hfyj</freebase>
+                <yago>http://yago-knowledge.org/resource/Smithsonian_Institution</yago>
+                <geonames>http://sws.geonames.org/4140525/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.225054</relevance>
+            <relevance>0.229501</relevance>
             <count>1</count>
             <text>Bahamas</text>
             <disambiguated>
@@ -523,16 +384,135 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.229252</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.224704</relevance>
+            <relevance>0.227568</relevance>
+            <count>1</count>
+            <text>Convair</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.226142</relevance>
+            <count>2</count>
+            <text>General Dynamics</text>
+            <disambiguated>
+                <name>General Dynamics</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.gd.com/</website>
+                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
+                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.225528</relevance>
+            <count>2</count>
+            <text>Assistant Administrator for Procurement</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.225292</relevance>
+            <count>1</count>
+            <text>Tass</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.222905</relevance>
+            <count>1</count>
+            <text>Eugene A. Cernan</text>
+            <disambiguated>
+                <name>Eugene Cernan</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <website>http://marklarson.com/genecernan/</website>
+                <dbpedia>http://dbpedia.org/resource/Eugene_Cernan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01rv5w</freebase>
+                <yago>http://yago-knowledge.org/resource/Eugene_Cernan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.221543</relevance>
+            <count>1</count>
+            <text>director of product engineering</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.220696</relevance>
+            <count>2</count>
+            <text>Conn</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.220601</relevance>
+            <count>1</count>
+            <text>consultant</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.219064</relevance>
+            <count>1</count>
+            <text>DOD</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.219058</relevance>
+            <count>1</count>
+            <text>Civil Service League</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.218159</relevance>
+            <count>2</count>
+            <text>Kenneth L. Woodfin</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.217847</relevance>
+            <count>1</count>
+            <text>Rockwell International Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.217151</relevance>
             <count>2</count>
             <text>Stuart J. Evans</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.224027</relevance>
+            <type>JobTitle</type>
+            <relevance>0.217139</relevance>
             <count>1</count>
-            <text>New England Research Applications Center</text>
+            <text>administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.216151</relevance>
+            <count>1</count>
+            <text>Dept of Commerce</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.215394</relevance>
+            <count>1</count>
+            <text>chief of research</text>
         </entity>
     </entities>
 </results>

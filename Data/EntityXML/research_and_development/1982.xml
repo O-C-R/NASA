@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.791516</relevance>
+            <relevance>0.823208</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,19 +29,38 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.641323</relevance>
+            <relevance>0.478006</relevance>
             <count>2</count>
             <text>ARC</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.589293</relevance>
+            <relevance>0.462468</relevance>
+            <count>1</count>
+            <text>Kuiper airborne observatory</text>
+            <disambiguated>
+                <name>Kuiper Airborne Observatory</name>
+                <subType>AstronomicalObservatory</subType>
+                <dbpedia>http://dbpedia.org/resource/Kuiper_Airborne_Observatory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02mxrn</freebase>
+                <yago>http://yago-knowledge.org/resource/Kuiper_Airborne_Observatory</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.423303</relevance>
+            <count>1</count>
+            <text>Earth Science Advisory Committee</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.385775</relevance>
             <count>1</count>
             <text>Marshall Space Flight Center</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.574033</relevance>
+            <relevance>0.377695</relevance>
             <count>1</count>
             <text>MSFC</text>
             <disambiguated>
@@ -55,33 +74,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.524198</relevance>
+            <type>Person</type>
+            <relevance>0.367641</relevance>
             <count>1</count>
-            <text>Earth Science Advisory Committee</text>
+            <text>Administrator Dr. Burt Edelson</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.506872</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.365819</relevance>
             <count>1</count>
-            <text>Kuiper airborne observatory</text>
-            <disambiguated>
-                <name>Kuiper Airborne Observatory</name>
-                <subType>AstronomicalObservatory</subType>
-                <dbpedia>http://dbpedia.org/resource/Kuiper_Airborne_Observatory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02mxrn</freebase>
-                <yago>http://yago-knowledge.org/resource/Kuiper_Airborne_Observatory</yago>
-            </disambiguated>
+            <text>aerospace technology</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.484405</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.342285</relevance>
             <count>1</count>
-            <text>Spacelab</text>
+            <text>White Sands</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.480966</relevance>
+            <relevance>0.340206</relevance>
             <count>1</count>
             <text>Ames Research Center</text>
             <disambiguated>
@@ -98,50 +110,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.456406</relevance>
-            <count>1</count>
-            <text>Administrator Dr. Burt Edelson</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.436553</relevance>
-            <count>1</count>
-            <text>White Sands</text>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.416</relevance>
+            <relevance>0.319171</relevance>
             <count>1</count>
             <text>Earthlike</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.400324</relevance>
+            <type>City</type>
+            <relevance>0.315166</relevance>
             <count>1</count>
-            <text>solar system</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.398004</relevance>
-            <count>1</count>
-            <text>aerospace technology</text>
+            <text>Spacelab</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.385259</relevance>
+            <relevance>0.310441</relevance>
             <count>1</count>
             <text>scientist</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.382953</relevance>
+            <relevance>0.309587</relevance>
             <count>1</count>
             <text>Dr. Frank McDonald</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.307453</relevance>
+            <count>1</count>
+            <text>solar system</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.360599</relevance>
+            <relevance>0.291254</relevance>
             <count>1</count>
             <text>Washington</text>
         </entity>

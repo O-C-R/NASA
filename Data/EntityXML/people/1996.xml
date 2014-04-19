@@ -6,42 +6,8 @@
     <language>english</language>
     <entities>
         <entity>
-            <type>Person</type>
-            <relevance>0.821437</relevance>
-            <count>3</count>
-            <text>Rockwell</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.78091</relevance>
-            <count>2</count>
-            <text>Rockwell</text>
-            <disambiguated>
-                <name>Rockwell Collins</name>
-                <website>http://www.rockwellcollins.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.667824</relevance>
-            <count>1</count>
-            <text>Rockwell International Corporation</text>
-            <disambiguated>
-                <name>Rockwell International</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SoftwareDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
-                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.467139</relevance>
+            <relevance>0.804947</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -62,20 +28,54 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.779687</relevance>
+            <count>3</count>
+            <text>Rockwell</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.761292</relevance>
+            <count>2</count>
+            <text>Rockwell</text>
+            <disambiguated>
+                <name>Rockwell Collins</name>
+                <website>http://www.rockwellcollins.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_Collins</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03jwnt</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_Collins</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.71385</relevance>
+            <count>1</count>
+            <text>Rockwell International Corporation</text>
+            <disambiguated>
+                <name>Rockwell International</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SoftwareDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/Rockwell_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025sdg2</freebase>
+                <yago>http://yago-knowledge.org/resource/Rockwell_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.406793</relevance>
+            <relevance>0.497012</relevance>
             <count>1</count>
             <text>NASA Langley</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.350202</relevance>
-            <count>1</count>
-            <text>Federal prosecutors</text>
+            <type>Organization</type>
+            <relevance>0.485468</relevance>
+            <count>2</count>
+            <text>College of William</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.338869</relevance>
+            <relevance>0.413478</relevance>
             <count>1</count>
             <text>Langley</text>
             <disambiguated>
@@ -87,32 +87,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.338193</relevance>
-            <count>1</count>
-            <text>federal law</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.332888</relevance>
+            <relevance>0.406302</relevance>
             <count>1</count>
             <text>Langley</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.31781</relevance>
-            <count>2</count>
-            <text>College of William</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.310705</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.369704</relevance>
             <count>1</count>
-            <text>Otto K. Heiney</text>
+            <text>Federal prosecutors</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.297778</relevance>
+            <relevance>0.360221</relevance>
             <count>1</count>
             <text>U.S. Department of Justice</text>
             <disambiguated>
@@ -127,8 +115,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.357178</relevance>
+            <count>1</count>
+            <text>federal law</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.291307</relevance>
+            <relevance>0.355415</relevance>
             <count>1</count>
             <text>Gerald H. Johnson</text>
             <disambiguated>
@@ -138,26 +132,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.286676</relevance>
-            <count>1</count>
-            <text>Larry A. Pugh</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.286386</relevance>
-            <count>1</count>
-            <text>Donald R. Beall</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.284056</relevance>
-            <count>1</count>
-            <text>Chief Executive Officer</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.283072</relevance>
+            <relevance>0.342665</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -173,14 +149,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Region</type>
-            <relevance>0.277431</relevance>
-            <count>1</count>
-            <text>Southern California</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.275832</relevance>
+            <relevance>0.333888</relevance>
             <count>1</count>
             <text>Wall Street Journal</text>
             <disambiguated>
@@ -194,8 +164,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.324706</relevance>
+            <count>1</count>
+            <text>Otto K. Heiney</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.266453</relevance>
+            <relevance>0.322552</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -214,7 +190,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.257518</relevance>
+            <relevance>0.321952</relevance>
+            <count>1</count>
+            <text>Donald R. Beall</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.319347</relevance>
+            <count>1</count>
+            <text>Chief Executive Officer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.31171</relevance>
             <count>1</count>
             <text>Andy Pasztor</text>
             <disambiguated>
@@ -225,13 +213,19 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.253499</relevance>
+            <relevance>0.309872</relevance>
             <count>1</count>
             <text>Mary</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.308568</relevance>
+            <count>1</count>
+            <text>geologist</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.253464</relevance>
+            <relevance>0.306997</relevance>
             <count>1</count>
             <text>U.S. Department of Defense</text>
             <disambiguated>
@@ -249,21 +243,27 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.252635</relevance>
+            <relevance>0.306015</relevance>
             <count>1</count>
             <text>Mark Reed</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.252439</relevance>
-            <count>1</count>
-            <text>geologist</text>
-        </entity>
-        <entity>
             <type>GeographicFeature</type>
-            <relevance>0.246234</relevance>
+            <relevance>0.300815</relevance>
             <count>1</count>
             <text>Atlantic</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.297974</relevance>
+            <count>1</count>
+            <text>Larry A. Pugh</text>
+        </entity>
+        <entity>
+            <type>Region</type>
+            <relevance>0.292731</relevance>
+            <count>1</count>
+            <text>Southern California</text>
         </entity>
     </entities>
 </results>

@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.882327</relevance>
+            <relevance>0.96464</relevance>
             <count>13</count>
             <text>ESA</text>
             <disambiguated>
@@ -26,7 +26,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.464956</relevance>
+            <relevance>0.559188</relevance>
             <count>8</count>
             <text>NASA</text>
             <disambiguated>
@@ -47,33 +47,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.383415</relevance>
-            <count>5</count>
-            <text>GOCE</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.357804</relevance>
-            <count>2</count>
-            <text>ISRO</text>
-            <disambiguated>
-                <name>Indian Space Research Organisation</name>
-                <website>http://www.isro.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Indian_Space_Research_Organisation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03zwkz</freebase>
-                <yago>http://yago-knowledge.org/resource/Indian_Space_Research_Organisation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Facility</type>
-            <relevance>0.328702</relevance>
+            <relevance>0.408492</relevance>
             <count>1</count>
             <text>Europa Jupiter System Mission</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.373708</relevance>
+            <count>5</count>
+            <text>GOCE</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.303475</relevance>
+            <relevance>0.313463</relevance>
             <count>1</count>
             <text>NASA Jet Propulsion Laboratory</text>
             <disambiguated>
@@ -87,8 +74,37 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.29928</relevance>
+            <count>2</count>
+            <text>JPL</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.297047</relevance>
+            <count>2</count>
+            <text>ISRO</text>
+            <disambiguated>
+                <name>Indian Space Research Organisation</name>
+                <website>http://www.isro.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Indian_Space_Research_Organisation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03zwkz</freebase>
+                <yago>http://yago-knowledge.org/resource/Indian_Space_Research_Organisation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.279836</relevance>
+            <relevance>0.287573</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -108,7 +124,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.277311</relevance>
+            <relevance>0.285772</relevance>
             <count>4</count>
             <text>AIA</text>
             <disambiguated>
@@ -120,71 +136,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.275842</relevance>
-            <count>1</count>
-            <text>Color Monitor</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.27087</relevance>
-            <count>1</count>
-            <text>Sriharikota</text>
-            <disambiguated>
-                <name>Sriharikota</name>
-                <subType>GeographicFeature</subType>
-                <subType>Island</subType>
-                <dbpedia>http://dbpedia.org/resource/Sriharikota</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lz39</freebase>
-                <yago>http://yago-knowledge.org/resource/Sriharikota</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.269775</relevance>
-            <count>2</count>
-            <text>JPL</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.264022</relevance>
-            <count>1</count>
-            <text>India</text>
-            <disambiguated>
-                <name>India</name>
-                <subType>Location</subType>
-                <subType>HumanLanguage</subType>
-                <subType>Region</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <geo>21.0 78.0</geo>
-                <website>http://india.gov.in/</website>
-                <dbpedia>http://dbpedia.org/resource/India</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/India</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c6w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj7XJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/India</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.245762</relevance>
-            <count>1</count>
-            <text>ROSA</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.242846</relevance>
+            <relevance>0.250504</relevance>
             <count>1</count>
             <text>Wall Street Journal</text>
             <disambiguated>
@@ -198,24 +151,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.242718</relevance>
-            <count>1</count>
-            <text>Istanbul Technical University</text>
-            <disambiguated>
-                <name>Istanbul Technical University</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.10548 29.02365</geo>
-                <website>http://www.itu.edu.tr/en</website>
-                <dbpedia>http://dbpedia.org/resource/Istanbul_Technical_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.037m4f</freebase>
-                <yago>http://yago-knowledge.org/resource/Istanbul_Technical_University</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.241549</relevance>
+            <relevance>0.249252</relevance>
             <count>2</count>
             <text>Aerospace Industries Association</text>
             <disambiguated>
@@ -227,39 +164,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.241109</relevance>
-            <count>1</count>
-            <text>Technical University Berlin</text>
-            <disambiguated>
-                <name>Berlin Institute of Technology</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <geo>52.511944444444445 13.32638888888889</geo>
-                <website>http://www.tu-berlin.de</website>
-                <dbpedia>http://dbpedia.org/resource/Berlin_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01c0cc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.240436</relevance>
-            <count>1</count>
-            <text>UT</text>
-            <disambiguated>
-                <name>University of Toledo</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.657716 -83.61366</geo>
-                <website>http://www.utoledo.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Toledo</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02klny</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Toledo</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.238353</relevance>
+            <relevance>0.246465</relevance>
             <count>1</count>
             <text>Barack H. Obama</text>
             <disambiguated>
@@ -280,14 +186,36 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.236441</relevance>
+            <count>1</count>
+            <text>ROSA</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.233309</relevance>
+            <count>1</count>
+            <text>Istanbul Technical University</text>
+            <disambiguated>
+                <name>Istanbul Technical University</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.10548 29.02365</geo>
+                <website>http://www.itu.edu.tr/en</website>
+                <dbpedia>http://dbpedia.org/resource/Istanbul_Technical_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.037m4f</freebase>
+                <yago>http://yago-knowledge.org/resource/Istanbul_Technical_University</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.231457</relevance>
+            <relevance>0.232933</relevance>
             <count>1</count>
             <text>ISRO</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.231158</relevance>
+            <relevance>0.232372</relevance>
             <count>1</count>
             <text>Associated Press</text>
             <disambiguated>
@@ -301,20 +229,23 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.230162</relevance>
+            <type>Organization</type>
+            <relevance>0.231776</relevance>
             <count>1</count>
-            <text>Plesetsk Cosmodrome</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.226512</relevance>
-            <count>1</count>
-            <text>German Rubin</text>
+            <text>Technical University Berlin</text>
+            <disambiguated>
+                <name>Berlin Institute of Technology</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <geo>52.511944444444445 13.32638888888889</geo>
+                <website>http://www.tu-berlin.de</website>
+                <dbpedia>http://dbpedia.org/resource/Berlin_Institute_of_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01c0cc</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.223402</relevance>
+            <relevance>0.231118</relevance>
             <count>1</count>
             <text>Los Angeles Times</text>
             <disambiguated>
@@ -331,7 +262,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.223131</relevance>
+            <relevance>0.230918</relevance>
             <count>1</count>
             <text>Andy Pasztor</text>
             <disambiguated>
@@ -341,58 +272,117 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.217286</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.2255</relevance>
             <count>1</count>
-            <text>University of Wu&#x308;rzburg</text>
+            <text>Color Monitor</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.216966</relevance>
+            <relevance>0.225286</relevance>
             <count>1</count>
             <text>Obama administration</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.210744</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.220878</relevance>
             <count>1</count>
-            <text>Turkey</text>
+            <text>Plesetsk Cosmodrome</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.220272</relevance>
+            <count>1</count>
+            <text>Sriharikota</text>
+            <disambiguated>
+                <name>Sriharikota</name>
+                <subType>GeographicFeature</subType>
+                <subType>Island</subType>
+                <dbpedia>http://dbpedia.org/resource/Sriharikota</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lz39</freebase>
+                <yago>http://yago-knowledge.org/resource/Sriharikota</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.209956</relevance>
+            <relevance>0.217447</relevance>
             <count>1</count>
             <text>President</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.209883</relevance>
+            <type>Company</type>
+            <relevance>0.217348</relevance>
             <count>1</count>
-            <text>Germany</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.209729</relevance>
-            <count>1</count>
-            <text>Spacewarn Bulletin</text>
+            <text>German Rubin</text>
         </entity>
         <entity>
             <type>Continent</type>
-            <relevance>0.20816</relevance>
+            <relevance>0.215565</relevance>
             <count>1</count>
             <text>America</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.207421</relevance>
+            <relevance>0.214671</relevance>
             <count>1</count>
-            <text>Switzerland.</text>
+            <text>India</text>
+            <disambiguated>
+                <name>India</name>
+                <subType>Location</subType>
+                <subType>HumanLanguage</subType>
+                <subType>Region</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <geo>21.0 78.0</geo>
+                <website>http://india.gov.in/</website>
+                <dbpedia>http://dbpedia.org/resource/India</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/India</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c6w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj7XJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/India</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.202246</relevance>
+            <relevance>0.209929</relevance>
             <count>1</count>
             <text>John Johnson Jr.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.209856</relevance>
+            <count>1</count>
+            <text>UT</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.20806</relevance>
+            <count>1</count>
+            <text>University of Wu&#x308;rzburg</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.201785</relevance>
+            <count>1</count>
+            <text>Turkey</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.200968</relevance>
+            <count>1</count>
+            <text>Germany</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.200802</relevance>
+            <count>1</count>
+            <text>Spacewarn Bulletin</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.198593</relevance>
+            <count>1</count>
+            <text>Switzerland.</text>
         </entity>
     </entities>
 </results>

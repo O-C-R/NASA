@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Person</type>
-            <relevance>0.904967</relevance>
+            <relevance>0.846088</relevance>
             <count>7</count>
             <text>Caspar Weinberger</text>
             <disambiguated>
@@ -23,8 +23,20 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.645348</relevance>
+            <count>6</count>
+            <text>Army</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.638356</relevance>
+            <count>3</count>
+            <text>defense secretary</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.64349</relevance>
+            <relevance>0.631297</relevance>
             <count>3</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -37,26 +49,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.641135</relevance>
-            <count>6</count>
-            <text>Army</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.638991</relevance>
-            <count>3</count>
-            <text>defense secretary</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.631088</relevance>
-            <count>4</count>
-            <text>official</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.591328</relevance>
+            <relevance>0.611473</relevance>
             <count>4</count>
             <text>Mikhail Gorbachev</text>
             <disambiguated>
@@ -75,7 +69,7 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.564737</relevance>
+            <relevance>0.58458</relevance>
             <count>3</count>
             <text>Michael Heseltine</text>
             <disambiguated>
@@ -90,14 +84,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.548609</relevance>
-            <count>3</count>
-            <text>Abruzzo</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.547274</relevance>
+            <relevance>0.576789</relevance>
             <count>3</count>
             <text>U.S. National Transportation Safety Board</text>
             <disambiguated>
@@ -110,106 +98,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.540589</relevance>
-            <count>2</count>
-            <text>Aviation Week</text>
-            <disambiguated>
-                <name>Aviation Week &amp; Space Technology</name>
-                <subType>ConsumerProduct</subType>
-                <subType>Magazine</subType>
-                <website>http://www.aviationweek.com</website>
-                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
-                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.53684</relevance>
-            <count>3</count>
-            <text>Daniel Whitmire</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.532687</relevance>
+            <type>JobTitle</type>
+            <relevance>0.551257</relevance>
             <count>4</count>
-            <text>John Lehman</text>
-            <disambiguated>
-                <name>John Lehman</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/John_Lehman</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02sld7</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Lehman</yago>
-            </disambiguated>
+            <text>official</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.530732</relevance>
-            <count>2</count>
-            <text>Ben Abruzzo</text>
-            <disambiguated>
-                <name>Ben Abruzzo</name>
-                <dbpedia>http://dbpedia.org/resource/Ben_Abruzzo</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0416y1</freebase>
-                <yago>http://yago-knowledge.org/resource/Ben_Abruzzo</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.527038</relevance>
-            <count>2</count>
-            <text>Europe</text>
-            <disambiguated>
-                <name>Europe</name>
-                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
-                <yago>http://yago-knowledge.org/resource/Europe</yago>
-            </disambiguated>
+            <type>City</type>
+            <relevance>0.544549</relevance>
+            <count>3</count>
+            <text>Abruzzo</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.526786</relevance>
-            <count>2</count>
-            <text>Japan</text>
-            <disambiguated>
-                <name>Japan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MilitaryPost</subType>
-                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
-                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.524172</relevance>
-            <count>2</count>
-            <text>California</text>
-            <disambiguated>
-                <name>California</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Appellation</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>35.458606 -119.355165</geo>
-                <website>http://ca.gov</website>
-                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/California</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.516919</relevance>
+            <relevance>0.542284</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -228,8 +130,113 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.532687</relevance>
+            <count>4</count>
+            <text>John Lehman</text>
+            <disambiguated>
+                <name>John Lehman</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/John_Lehman</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02sld7</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Lehman</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.528195</relevance>
+            <count>2</count>
+            <text>Aviation Week</text>
+            <disambiguated>
+                <name>Aviation Week &amp; Space Technology</name>
+                <subType>ConsumerProduct</subType>
+                <subType>Magazine</subType>
+                <website>http://www.aviationweek.com</website>
+                <dbpedia>http://dbpedia.org/resource/Aviation_Week_&amp;_Space_Technology</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.038dww</freebase>
+                <yago>http://yago-knowledge.org/resource/Aviation_Week_&amp;_Space_Technology</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.526986</relevance>
+            <count>2</count>
+            <text>Europe</text>
+            <disambiguated>
+                <name>Europe</name>
+                <dbpedia>http://dbpedia.org/resource/Europe</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j9z</freebase>
+                <yago>http://yago-knowledge.org/resource/Europe</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.526649</relevance>
+            <count>2</count>
+            <text>Ben Abruzzo</text>
+            <disambiguated>
+                <name>Ben Abruzzo</name>
+                <dbpedia>http://dbpedia.org/resource/Ben_Abruzzo</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0416y1</freebase>
+                <yago>http://yago-knowledge.org/resource/Ben_Abruzzo</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.517938</relevance>
+            <count>2</count>
+            <text>Parliament</text>
+            <disambiguated>
+                <name>Parliament (band)</name>
+                <dbpedia>http://dbpedia.org/resource/Parliament_(band)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ql36</freebase>
+                <yago>http://yago-knowledge.org/resource/Parliament_(band)</yago>
+                <musicBrainz>http://zitgist.com/music/artist/d1947987-9614-49ae-bd36-8000e6b6f7d0</musicBrainz>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.511726</relevance>
+            <count>2</count>
+            <text>Prime Minister Margaret Thatcher</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.507285</relevance>
+            <count>2</count>
+            <text>Bolivia</text>
+            <disambiguated>
+                <name>Bolivia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <geo>-19.033333333333335 -65.25</geo>
+                <dbpedia>http://dbpedia.org/resource/Bolivia</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Bolivia</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0165v</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViQ85wpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.506651</relevance>
+            <count>2</count>
+            <text>Defense Daily</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.49735</relevance>
+            <count>3</count>
+            <text>William Kelly</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.495615</relevance>
+            <count>2</count>
+            <text>Britain</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.509838</relevance>
+            <relevance>0.493909</relevance>
             <count>2</count>
             <text>Boeing</text>
             <disambiguated>
@@ -242,82 +249,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.499416</relevance>
-            <count>2</count>
-            <text>Parliament</text>
-            <disambiguated>
-                <name>Parliament (band)</name>
-                <dbpedia>http://dbpedia.org/resource/Parliament_(band)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ql36</freebase>
-                <yago>http://yago-knowledge.org/resource/Parliament_(band)</yago>
-                <musicBrainz>http://zitgist.com/music/artist/d1947987-9614-49ae-bd36-8000e6b6f7d0</musicBrainz>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.496683</relevance>
-            <count>2</count>
-            <text>Defense Daily</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.492479</relevance>
-            <count>2</count>
-            <text>Prime Minister Margaret Thatcher</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.491238</relevance>
-            <count>3</count>
-            <text>Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.489986</relevance>
-            <count>2</count>
-            <text>Pacific</text>
-            <disambiguated>
-                <name>Pacific Ocean</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>-52.35 -68.35</geo>
-                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.477255</relevance>
-            <count>2</count>
-            <text>Britain</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.476766</relevance>
-            <count>2</count>
-            <text>Ford Aerospace</text>
-            <disambiguated>
-                <name>Ford Aerospace</name>
-                <dbpedia>http://dbpedia.org/resource/Ford_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02dr4s</freebase>
-                <yago>http://yago-knowledge.org/resource/Ford_Aerospace</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.475009</relevance>
+            <relevance>0.493294</relevance>
             <count>2</count>
             <text>New Zealand</text>
             <disambiguated>
@@ -339,65 +272,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.472399</relevance>
-            <count>1</count>
-            <text>Bolivian Andes</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.471458</relevance>
+            <relevance>0.490295</relevance>
             <count>2</count>
             <text>Edward Anders</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.466493</relevance>
-            <count>2</count>
-            <text>Bolivia</text>
-            <disambiguated>
-                <name>Bolivia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <geo>-19.033333333333335 -65.25</geo>
-                <dbpedia>http://dbpedia.org/resource/Bolivia</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Bolivia</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0165v</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViQ85wpEbGdrcN5Y29ycA</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.465074</relevance>
-            <count>2</count>
-            <text>Larry Newman</text>
-            <disambiguated>
-                <name>Larry Newman (aviator)</name>
-                <dbpedia>http://dbpedia.org/resource/Larry_Newman_(aviator)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gfhcsg</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.455365</relevance>
-            <count>3</count>
-            <text>William Kelly</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.450664</relevance>
-            <count>1</count>
-            <text>John Cabot</text>
-            <disambiguated>
-                <name>John Cabot</name>
-                <dbpedia>http://dbpedia.org/resource/John_Cabot</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.040t9</freebase>
-                <yago>http://yago-knowledge.org/resource/John_Cabot</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.449408</relevance>
+            <relevance>0.486487</relevance>
             <count>1</count>
             <text>Eastern Airlines</text>
             <disambiguated>
@@ -409,22 +291,49 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.449114</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.479405</relevance>
             <count>1</count>
-            <text>University of Southwestern Louisiana</text>
+            <text>Bolivian Andes</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.477317</relevance>
+            <count>3</count>
+            <text>Daniel Whitmire</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.475744</relevance>
+            <count>2</count>
+            <text>Japan</text>
             <disambiguated>
-                <name>University of Louisiana at Lafayette</name>
-                <subType>CollegeUniversity</subType>
-                <website>http://www.louisiana.edu</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Louisiana_at_Lafayette</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02zccd</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Louisiana_at_Lafayette</yago>
+                <name>Japan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MilitaryPost</subType>
+                <website>http://www.kantei.go.jp/foreign/index-e.html</website>
+                <dbpedia>http://dbpedia.org/resource/Japan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Japan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.03_3d</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVkCopwpEbGdrcN5Y29ycA</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.474795</relevance>
+            <count>1</count>
+            <text>Judith Kelly</text>
+            <disambiguated>
+                <name>Judith Kelly</name>
+                <dbpedia>http://dbpedia.org/resource/Judith_Kelly</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bmgd27</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.446896</relevance>
+            <relevance>0.465224</relevance>
             <count>2</count>
             <text>University of Chicago</text>
             <disambiguated>
@@ -443,25 +352,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.443621</relevance>
-            <count>1</count>
-            <text>IV Times</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.441491</relevance>
-            <count>1</count>
-            <text>Maxie Anderson</text>
-            <disambiguated>
-                <name>Maxie Anderson</name>
-                <dbpedia>http://dbpedia.org/resource/Maxie_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04crt_2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.44113</relevance>
+            <relevance>0.459701</relevance>
             <count>3</count>
             <text>NASA</text>
             <disambiguated>
@@ -482,14 +374,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.439487</relevance>
-            <count>1</count>
-            <text>Nagashima</text>
+            <type>Company</type>
+            <relevance>0.457464</relevance>
+            <count>2</count>
+            <text>Ford Aerospace</text>
+            <disambiguated>
+                <name>Ford Aerospace</name>
+                <dbpedia>http://dbpedia.org/resource/Ford_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02dr4s</freebase>
+                <yago>http://yago-knowledge.org/resource/Ford_Aerospace</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.435828</relevance>
+            <relevance>0.454744</relevance>
+            <count>3</count>
+            <text>Edward Frankie</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.454692</relevance>
+            <count>2</count>
+            <text>Navy</text>
+            <disambiguated>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.448308</relevance>
+            <count>1</count>
+            <text>crash site</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.442512</relevance>
             <count>1</count>
             <text>John Young</text>
             <disambiguated>
@@ -499,27 +424,22 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.435669</relevance>
-            <count>3</count>
-            <text>Edward Frankie</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.433861</relevance>
+            <relevance>0.440833</relevance>
             <count>1</count>
             <text>Bolivian Red Cross</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.43256</relevance>
+            <type>Company</type>
+            <relevance>0.437091</relevance>
             <count>1</count>
-            <text>Judith Kelly</text>
-            <disambiguated>
-                <name>Judith Kelly</name>
-                <dbpedia>http://dbpedia.org/resource/Judith_Kelly</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bmgd27</freebase>
-            </disambiguated>
+            <text>Heseltine</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.433796</relevance>
+            <count>2</count>
+            <text>Sen. John Warner</text>
         </entity>
         <entity>
             <type>Country</type>
@@ -531,6 +451,43 @@
                 <subType>Location</subType>
                 <dbpedia>http://dbpedia.org/resource/County_of_Sicily</dbpedia>
                 <freebase>http://rdf.freebase.com/ns/m.03yjyvt</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.431368</relevance>
+            <count>1</count>
+            <text>Strategic Defense Initiative</text>
+            <disambiguated>
+                <name>Strategic Defense Initiative</name>
+                <dbpedia>http://dbpedia.org/resource/Strategic_Defense_Initiative</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07743</freebase>
+                <yago>http://yago-knowledge.org/resource/Strategic_Defense_Initiative</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.431328</relevance>
+            <count>1</count>
+            <text>Mt</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.429264</relevance>
+            <count>1</count>
+            <text>Bernardo Guarachi</text>
+        </entity>
+        <entity>
+            <type>Holiday</type>
+            <relevance>0.429205</relevance>
+            <count>1</count>
+            <text>Christmas</text>
+            <disambiguated>
+                <name>Christmas</name>
+                <dbpedia>http://dbpedia.org/resource/Christmas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01vq3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwPfXpZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Christmas</yago>
             </disambiguated>
         </entity>
         <entity>
@@ -551,44 +508,72 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.422284</relevance>
-            <count>1</count>
-            <text>Coronado Airport</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.419884</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.418975</relevance>
             <count>2</count>
-            <text>The Washington Times</text>
+            <text>Pacific</text>
             <disambiguated>
-                <name>The Washington Times</name>
-                <subType>Company</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtontimes.com/</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07qhs</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4r5oK-mhlAQdiYEfsxTW1S_Q</opencyc>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Times</yago>
+                <name>Pacific Ocean</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>-52.35 -68.35</geo>
+                <dbpedia>http://dbpedia.org/resource/Pacific_Ocean</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Pacific_Ocean</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.05rgl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjgu5wpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.418882</relevance>
+            <count>1</count>
+            <text>U.S. Peace Corps</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.418432</relevance>
+            <relevance>0.418814</relevance>
             <count>1</count>
-            <text>Jan 17/85</text>
+            <text>John Cabot</text>
+            <disambiguated>
+                <name>John Cabot</name>
+                <dbpedia>http://dbpedia.org/resource/John_Cabot</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.040t9</freebase>
+                <yago>http://yago-knowledge.org/resource/John_Cabot</yago>
+            </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.417285</relevance>
+            <type>Organization</type>
+            <relevance>0.415279</relevance>
             <count>1</count>
-            <text>Heseltine</text>
+            <text>U.S. Strategic Defense Initiative</text>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.416599</relevance>
+            <type>Facility</type>
+            <relevance>0.414658</relevance>
             <count>1</count>
-            <text>Paris</text>
+            <text>La Paz International Airport</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.41309</relevance>
+            <count>2</count>
+            <text>California</text>
+            <disambiguated>
+                <name>California</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Appellation</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <subType>WineRegion</subType>
+                <geo>35.458606 -119.355165</geo>
+                <website>http://ca.gov</website>
+                <dbpedia>http://dbpedia.org/resource/California</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01n7q</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVj2upwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/California</yago>
+            </disambiguated>
         </entity>
     </entities>
 </results>

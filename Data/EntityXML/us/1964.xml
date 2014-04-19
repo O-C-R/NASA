@@ -6,8 +6,14 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.903962</relevance>
+            <count>23</count>
+            <text>Vandenberg afb</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.866556</relevance>
+            <relevance>0.757358</relevance>
             <count>14</count>
             <text>Air Force</text>
             <disambiguated>
@@ -18,14 +24,46 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.843412</relevance>
+            <type>Organization</type>
+            <relevance>0.671496</relevance>
             <count>12</count>
-            <text>Vandenberg AFB</text>
+            <text>Air Force Systems Command</text>
+            <disambiguated>
+                <name>Air Force Systems Command</name>
+                <subType>MilitaryUnit</subType>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Systems_Command</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05_36j</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Systems_Command</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.65818</relevance>
+            <count>17</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.64666</relevance>
+            <count>14</count>
+            <text>Wash</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.832107</relevance>
+            <relevance>0.603693</relevance>
             <count>19</count>
             <text>National Aeronautics and Space Administration</text>
             <disambiguated>
@@ -46,28 +84,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.801095</relevance>
-            <count>17</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.79129</relevance>
-            <count>17</count>
+            <relevance>0.54238</relevance>
+            <count>15</count>
             <text>usaf</text>
             <disambiguated>
                 <name>United States Air Force</name>
@@ -82,33 +101,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.785553</relevance>
-            <count>11</count>
-            <text>Air Force Systems Command</text>
-            <disambiguated>
-                <name>Air Force Systems Command</name>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Air_Force_Systems_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05_36j</freebase>
-                <yago>http://yago-knowledge.org/resource/Air_Force_Systems_Command</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.784427</relevance>
-            <count>14</count>
-            <text>Wash</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.732187</relevance>
-            <count>10</count>
-            <text>Vandenberg afb</text>
+            <type>Company</type>
+            <relevance>0.520256</relevance>
+            <count>8</count>
+            <text>usaf</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.626762</relevance>
+            <relevance>0.474452</relevance>
             <count>10</count>
             <text>United States</text>
             <disambiguated>
@@ -128,9 +128,9 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.610089</relevance>
-            <count>8</count>
-            <text>AFSC</text>
+            <relevance>0.463347</relevance>
+            <count>7</count>
+            <text>afsc</text>
             <disambiguated>
                 <name>American Friends Service Committee</name>
                 <subType>AwardWinner</subType>
@@ -143,33 +143,25 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.593179</relevance>
-            <count>6</count>
-            <text>usaf</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.573534</relevance>
-            <count>8</count>
-            <text>FAA</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.568075</relevance>
+            <relevance>0.438895</relevance>
             <count>6</count>
             <text>NYT</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.401277</relevance>
+            <count>6</count>
+            <text>Army</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.392606</relevance>
+            <count>5</count>
+            <text>Minuteman icbm</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.555734</relevance>
+            <relevance>0.385527</relevance>
             <count>8</count>
             <text>Calif.</text>
             <disambiguated>
@@ -190,120 +182,9 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.515787</relevance>
-            <count>6</count>
-            <text>Army</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.50494</relevance>
-            <count>5</count>
-            <text>North American Aviation</text>
-            <disambiguated>
-                <name>North American Aviation</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/North_American_Aviation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01gcl8</freebase>
-                <yago>http://yago-knowledge.org/resource/North_American_Aviation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.496786</relevance>
-            <count>5</count>
-            <text>Minuteman icbm</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.480069</relevance>
-            <count>5</count>
-            <text>U.S. Navy</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.476062</relevance>
-            <count>5</count>
-            <text>SAC</text>
-            <disambiguated>
-                <name>Strategic Air Command</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <dbpedia>http://dbpedia.org/resource/Strategic_Air_Command</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zqy</freebase>
-                <yago>http://yago-knowledge.org/resource/Strategic_Air_Command</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.471938</relevance>
-            <count>5</count>
-            <text>Richard Witkin</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.468725</relevance>
-            <count>11</count>
-            <text>commander</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.457343</relevance>
-            <count>5</count>
-            <text>Washington</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.456579</relevance>
-            <count>2</count>
-            <text>Edwards Air Force Base</text>
-            <disambiguated>
-                <name>Edwards Air Force Base</name>
-                <subType>Location</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Airport</subType>
-                <geo>34.90555555555556 -117.88361111111111</geo>
-                <website>http://www.edwards.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Edwards_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0q_47</freebase>
-                <yago>http://yago-knowledge.org/resource/Edwards_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/5345449/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.45005</relevance>
-            <count>3</count>
-            <text>Hughes Aircraft Company</text>
-            <disambiguated>
-                <name>Hughes Aircraft</name>
-                <subType>AircraftManufacturer</subType>
-                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
-                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.446439</relevance>
-            <count>5</count>
-            <text>dod</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.44532</relevance>
-            <count>6</count>
+            <relevance>0.384675</relevance>
+            <count>7</count>
             <text>President Lyndon B. Johnson</text>
             <disambiguated>
                 <name>Lyndon B. Johnson</name>
@@ -328,20 +209,98 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.434668</relevance>
+            <relevance>0.38234</relevance>
             <count>5</count>
-            <text>Government</text>
+            <text>U.S. Navy</text>
             <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+                <name>United States Navy</name>
+                <subType>ArmedForce</subType>
+                <subType>VideoGameDeveloper</subType>
+                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.369807</relevance>
+            <count>4</count>
+            <text>North American Aviation, Inc.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.366409</relevance>
+            <count>5</count>
+            <text>Richard Witkin</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.359617</relevance>
+            <count>6</count>
+            <text>Commander</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.359073</relevance>
+            <count>8</count>
+            <text>FAA</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.355441</relevance>
+            <count>3</count>
+            <text>Hughes Aircraft Company</text>
+            <disambiguated>
+                <name>Hughes Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
+                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.353177</relevance>
+            <count>5</count>
+            <text>Lockheed Aircraft Corporation</text>
+            <disambiguated>
+                <name>Lockheed Corporation</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>AircraftDesigner</subType>
+                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.350241</relevance>
+            <count>2</count>
+            <text>Edwards Air Force Base</text>
+            <disambiguated>
+                <name>Edwards Air Force Base</name>
+                <subType>Location</subType>
+                <subType>MilitaryPost</subType>
+                <subType>Airport</subType>
+                <geo>34.90555555555556 -117.88361111111111</geo>
+                <website>http://www.edwards.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/Edwards_Air_Force_Base</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0q_47</freebase>
+                <yago>http://yago-knowledge.org/resource/Edwards_Air_Force_Base</yago>
+                <geonames>http://sws.geonames.org/5345449/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.430861</relevance>
+            <relevance>0.339603</relevance>
             <count>6</count>
             <text>New York City</text>
             <disambiguated>
@@ -360,46 +319,55 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.430244</relevance>
-            <count>4</count>
-            <text>Richard L. Johnson</text>
-            <disambiguated>
-                <name>Lionel Johnson</name>
-                <dbpedia>http://dbpedia.org/resource/Lionel_Johnson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03c_06</freebase>
-                <yago>http://yago-knowledge.org/resource/Lionel_Johnson</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.428266</relevance>
-            <count>3</count>
-            <text>Supersonic Transport</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.427457</relevance>
-            <count>4</count>
-            <text>Boeing</text>
+            <relevance>0.339223</relevance>
+            <count>5</count>
+            <text>North American Aviation</text>
             <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
+                <name>North American Aviation</name>
                 <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
                 <subType>RocketManufacturer</subType>
                 <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+                <dbpedia>http://dbpedia.org/resource/North_American_Aviation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gcl8</freebase>
+                <yago>http://yago-knowledge.org/resource/North_American_Aviation</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.42689</relevance>
-            <count>4</count>
+            <relevance>0.333396</relevance>
+            <count>5</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.331874</relevance>
+            <count>1</count>
+            <text>USAF Air Defense Command 10th Aerospace Missile Sq.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.32868</relevance>
+            <count>5</count>
+            <text>dod</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.327521</relevance>
+            <count>2</count>
+            <text>Edwards afb</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.326539</relevance>
+            <count>5</count>
             <text>Soviet Union</text>
             <disambiguated>
                 <name>Soviet Union</name>
@@ -413,28 +381,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.415499</relevance>
-            <count>7</count>
-            <text>Scientist</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.400211</relevance>
-            <count>4</count>
-            <text>Curtis E. LeMay</text>
-            <disambiguated>
-                <name>Curtis LeMay</name>
-                <subType>Hobbyist</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Curtis_LeMay</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0hj5l</freebase>
-                <yago>http://yago-knowledge.org/resource/Curtis_LeMay</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.396017</relevance>
+            <relevance>0.324275</relevance>
             <count>4</count>
             <text>Inc.</text>
             <disambiguated>
@@ -447,14 +395,47 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.318021</relevance>
+            <count>4</count>
+            <text>Washington</text>
+            <disambiguated>
+                <name>Washington, D.C.</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>MilitaryPost</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>USCounty</subType>
+                <website>http://www.dc.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.394568</relevance>
+            <relevance>0.317578</relevance>
             <count>6</count>
-            <text>Secretary</text>
+            <text>commander</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.312812</relevance>
+            <count>4</count>
+            <text>Curtis E. LeMay</text>
+            <disambiguated>
+                <name>Curtis LeMay</name>
+                <subType>Hobbyist</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Curtis_LeMay</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0hj5l</freebase>
+                <yago>http://yago-knowledge.org/resource/Curtis_LeMay</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.392315</relevance>
+            <relevance>0.308437</relevance>
             <count>3</count>
             <text>Florida</text>
             <disambiguated>
@@ -473,159 +454,111 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.387948</relevance>
-            <count>3</count>
-            <text>Marshall Star</text>
-        </entity>
-        <entity>
             <type>PrintMedia</type>
-            <relevance>0.385658</relevance>
+            <relevance>0.305228</relevance>
             <count>3</count>
             <text>Trib.</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.38328</relevance>
+            <type>Degree</type>
+            <relevance>0.304454</relevance>
             <count>3</count>
-            <text>Calif</text>
+            <text>F-lll</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.379588</relevance>
-            <count>4</count>
-            <text>Robert S. McNamara</text>
+            <type>JobTitle</type>
+            <relevance>0.301876</relevance>
+            <count>7</count>
+            <text>Scientist</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.301661</relevance>
+            <count>1</count>
+            <text>Air Force Office of Scientific Research</text>
             <disambiguated>
-                <name>Robert McNamara</name>
-                <subType>Politician</subType>
-                <subType>AwardWinner</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OfficeHolder</subType>
-                <subType>FilmActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_McNamara</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ksjc</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_McNamara</yago>
+                <name>Air Force Research Laboratory</name>
+                <website>http://www.wpafb.af.mil/AFRL/</website>
+                <dbpedia>http://dbpedia.org/resource/Air_Force_Research_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.039h7m</freebase>
+                <yago>http://yago-knowledge.org/resource/Air_Force_Research_Laboratory</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.376993</relevance>
+            <relevance>0.300039</relevance>
+            <count>3</count>
+            <text>Marshall Star</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.295381</relevance>
             <count>3</count>
             <text>Sullivan</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.376021</relevance>
-            <count>1</count>
-            <text>USAF Air Defense Command 10th Aerospace Missile Sq.</text>
+            <type>City</type>
+            <relevance>0.293306</relevance>
+            <count>2</count>
+            <text>Balt</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.292052</relevance>
+            <count>3</count>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.290486</relevance>
+            <count>3</count>
+            <text>PMR</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.375317</relevance>
+            <relevance>0.28994</relevance>
             <count>1</count>
-            <text>Vandenberg AFB</text>
-            <disambiguated>
-                <name>Vandenberg Air Force Base</name>
-                <subType>Location</subType>
-                <subType>Airport</subType>
-                <subType>MilitaryPost</subType>
-                <subType>Spaceport</subType>
-                <geo>34.72972222222222 -120.57694444444445</geo>
-                <website>http://www.vandenberg.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0r653</freebase>
-                <yago>http://yago-knowledge.org/resource/Vandenberg_Air_Force_Base</yago>
-                <geonames>http://sws.geonames.org/6301743/</geonames>
-            </disambiguated>
+            <text>North American Aviation&#x2019;s Space</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.371923</relevance>
+            <type>Person</type>
+            <relevance>0.288343</relevance>
             <count>3</count>
-            <text>General Electric</text>
-            <disambiguated>
-                <name>General Electric</name>
-                <subType>ProductionCompany</subType>
-                <website>http://www.ge.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Electric</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03bnb</freebase>
-                <yago>http://yago-knowledge.org/resource/General_Electric</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-electric</crunchbase>
-            </disambiguated>
+            <text>Cape Kennedy</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.371538</relevance>
+            <type>City</type>
+            <relevance>0.286902</relevance>
             <count>1</count>
-            <text>Lockheed Aircraft Corporation</text>
-            <disambiguated>
-                <name>Lockheed Corporation</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>AircraftDesigner</subType>
-                <dbpedia>http://dbpedia.org/resource/Lockheed_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d8c4</freebase>
-            </disambiguated>
+            <text>Edwards AFB</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.368203</relevance>
-            <count>3</count>
-            <text>MIT</text>
+            <relevance>0.286757</relevance>
+            <count>2</count>
+            <text>NAA</text>
             <disambiguated>
-                <name>Massachusetts Institute of Technology</name>
-                <subType>Location</subType>
+                <name>North American Aviation</name>
+                <subType>AircraftManufacturer</subType>
                 <subType>Company</subType>
-                <subType>AcademicInstitution</subType>
-                <subType>PeriodicalPublisher</subType>
-                <subType>SoftwareDeveloper</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>JobTitle</subType>
-                <subType>University</subType>
-                <geo>42.35982 -71.09211</geo>
-                <website>http://web.mit.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Massachusetts_Institute_of_Technology</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04rwx</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjBwZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Massachusetts_Institute_of_Technology</yago>
-                <geonames>http://sws.geonames.org/4943351/</geonames>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/North_American_Aviation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01gcl8</freebase>
+                <yago>http://yago-knowledge.org/resource/North_American_Aviation</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.28555</relevance>
+            <count>1</count>
+            <text>Air Force Aero Propulsion Laboratory</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.365676</relevance>
-            <count>2</count>
-            <text>faa</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.363947</relevance>
+            <relevance>0.285196</relevance>
             <count>3</count>
-            <text>Information Systems Div.</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.361758</relevance>
-            <count>2</count>
-            <text>General Dynamics</text>
-            <disambiguated>
-                <name>General Dynamics</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.gd.com/</website>
-                <dbpedia>http://dbpedia.org/resource/General_Dynamics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dq23</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv-7OupwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/General_Dynamics</yago>
-                <crunchbase>http://www.crunchbase.com/company/general-dynamics</crunchbase>
-            </disambiguated>
+            <text>Supersonic Transport</text>
         </entity>
     </entities>
 </results>

@@ -7,13 +7,13 @@
     <entities>
         <entity>
             <type>Company</type>
-            <relevance>0.7528</relevance>
+            <relevance>0.904861</relevance>
             <count>7</count>
             <text>DaVinci</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.525614</relevance>
+            <relevance>0.771501</relevance>
             <count>5</count>
             <text>United States</text>
             <disambiguated>
@@ -33,29 +33,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.501708</relevance>
-            <count>4</count>
-            <text>FBIS</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.474054</relevance>
-            <count>3</count>
-            <text>Soviet Union</text>
-            <disambiguated>
-                <name>Soviet Union</name>
-                <subType>Location</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.45539</relevance>
+            <relevance>0.72165</relevance>
             <count>4</count>
             <text>NASA</text>
             <disambiguated>
@@ -76,8 +54,49 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.672783</relevance>
+            <count>3</count>
+            <text>Soviet Union</text>
+            <disambiguated>
+                <name>Soviet Union</name>
+                <subType>Location</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Soviet_Union</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05vz3zq</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjPzpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Soviet_Union</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.657193</relevance>
+            <count>4</count>
+            <text>FBIS</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.579733</relevance>
+            <count>3</count>
+            <text>NOAA</text>
+            <disambiguated>
+                <name>National Oceanic and Atmospheric Administration</name>
+                <subType>GovernmentAgency</subType>
+                <website>http://www.noaa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.567733</relevance>
+            <count>3</count>
+            <text>Vera Simons</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.448488</relevance>
+            <relevance>0.565957</relevance>
             <count>3</count>
             <text>Moscow</text>
             <disambiguated>
@@ -94,14 +113,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.432642</relevance>
-            <count>3</count>
-            <text>Vera Simons</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.415089</relevance>
+            <relevance>0.545021</relevance>
             <count>3</count>
             <text>Kansas</text>
             <disambiguated>
@@ -121,7 +134,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.406202</relevance>
+            <relevance>0.521242</relevance>
             <count>2</count>
             <text>NBC</text>
             <disambiguated>
@@ -140,8 +153,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.518525</relevance>
+            <count>2</count>
+            <text>UK</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.401627</relevance>
+            <relevance>0.515406</relevance>
             <count>2</count>
             <text>Washington Post</text>
             <disambiguated>
@@ -154,42 +173,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.396857</relevance>
-            <count>3</count>
-            <text>NOAA</text>
-            <disambiguated>
-                <name>National Oceanic and Atmospheric Administration</name>
-                <subType>GovernmentAgency</subType>
-                <website>http://www.noaa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/National_Oceanic_and_Atmospheric_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.09fyq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.388307</relevance>
-            <count>3</count>
-            <text>United Kingdom</text>
-            <disambiguated>
-                <name>United Kingdom</name>
-                <subType>Location</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>MeteorologicalService</subType>
-                <geo>51.5 -0.11666666666666667</geo>
-                <website>http://www.royal.gov.uk/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.37435</relevance>
+            <relevance>0.479859</relevance>
             <count>2</count>
             <text>Colo.</text>
             <disambiguated>
@@ -210,31 +195,103 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.367829</relevance>
+            <relevance>0.476591</relevance>
+            <count>1</count>
+            <text>Joe Engle</text>
+            <disambiguated>
+                <name>Joe Engle</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Joe_Engle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j40f</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.450825</relevance>
             <count>2</count>
             <text>Tass</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.363382</relevance>
+            <relevance>0.442203</relevance>
             <count>1</count>
-            <text>European Soviet Union</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.352733</relevance>
-            <count>1</count>
-            <text>Vertikal</text>
+            <text>Royal Aircraft Establishment</text>
+            <disambiguated>
+                <name>Royal Aircraft Establishment</name>
+                <subType>Location</subType>
+                <subType>Company</subType>
+                <subType>Facility</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>Building</subType>
+                <geo>51.279475 -0.787926</geo>
+                <dbpedia>http://dbpedia.org/resource/Royal_Aircraft_Establishment</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01l3p2</freebase>
+                <yago>http://yago-knowledge.org/resource/Royal_Aircraft_Establishment</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.344659</relevance>
+            <relevance>0.440272</relevance>
             <count>2</count>
             <text>Va.</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.437515</relevance>
+            <count>1</count>
+            <text>Richard Truly</text>
+            <disambiguated>
+                <name>Richard H. Truly</name>
+                <subType>Astronaut</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Richard_H._Truly</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02j434</freebase>
+                <yago>http://yago-knowledge.org/resource/Richard_H._Truly</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.424804</relevance>
+            <count>1</count>
+            <text>European Soviet Union</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.33063</relevance>
+            <relevance>0.423836</relevance>
+            <count>1</count>
+            <text>Kyodo</text>
+            <disambiguated>
+                <name>Kyodo News</name>
+                <website>http://home.kyodo.co.jp/</website>
+                <dbpedia>http://dbpedia.org/resource/Kyodo_News</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lh9g</freebase>
+                <yago>http://yago-knowledge.org/resource/Kyodo_News</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.423172</relevance>
+            <count>1</count>
+            <text>NY Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.421107</relevance>
             <count>1</count>
             <text>Goodyear</text>
             <disambiguated>
@@ -245,8 +302,35 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.420963</relevance>
+            <count>1</count>
+            <text>United Kingdom</text>
+            <disambiguated>
+                <name>United Kingdom</name>
+                <subType>Location</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>MeteorologicalService</subType>
+                <geo>51.5 -0.11666666666666667</geo>
+                <website>http://www.royal.gov.uk/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Kingdom</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_Kingdom</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.07ssc</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViRhJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Kingdom</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.415487</relevance>
+            <count>1</count>
+            <text>Vertikal</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.324979</relevance>
+            <relevance>0.413808</relevance>
             <count>1</count>
             <text>Wyoming</text>
             <disambiguated>
@@ -264,23 +348,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.322075</relevance>
+            <type>StateOrCounty</type>
+            <relevance>0.410056</relevance>
             <count>1</count>
-            <text>Czechoslovakia</text>
+            <text>Nebraska</text>
             <disambiguated>
-                <name>Czechoslovakia</name>
+                <name>Nebraska</name>
                 <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
                 <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Czechoslovakia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mk6</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVibGJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Czechoslovakia</yago>
+                <subType>USState</subType>
+                <website>http://www.nebraska.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Nebraska</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05fhy</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjDU5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nebraska</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.409953</relevance>
+            <count>1</count>
+            <text>PRC</text>
+            <disambiguated>
+                <name>China</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>Country</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>Kingdom</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>35.0 105.0</geo>
+                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.321684</relevance>
+            <relevance>0.409528</relevance>
             <count>1</count>
             <text>Massachusetts</text>
             <disambiguated>
@@ -299,7 +407,7 @@
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.320298</relevance>
+            <relevance>0.407521</relevance>
             <count>1</count>
             <text>Mississippi River</text>
             <disambiguated>
@@ -314,14 +422,33 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.317627</relevance>
+            <type>Person</type>
+            <relevance>0.404969</relevance>
             <count>1</count>
-            <text>Poland</text>
+            <text>Maxie Anderson</text>
+            <disambiguated>
+                <name>Maxie Anderson</name>
+                <dbpedia>http://dbpedia.org/resource/Maxie_Anderson</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04crt_2</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.403044</relevance>
+            <count>1</count>
+            <text>Japan</text>
+            <disambiguated>
+                <name>Empire of Japan</name>
+                <subType>Location</subType>
+                <subType>Kingdom</subType>
+                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
+                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>TelevisionStation</type>
-            <relevance>0.316579</relevance>
+            <relevance>0.401745</relevance>
             <count>1</count>
             <text>NBC</text>
             <disambiguated>
@@ -341,63 +468,84 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.316013</relevance>
+            <relevance>0.400799</relevance>
             <count>1</count>
             <text>major television networks</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.39756</relevance>
+            <count>1</count>
+            <text>Tokyo Kyodo</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.311597</relevance>
+            <relevance>0.394918</relevance>
             <count>1</count>
             <text>Academician S.L. Mandelshtam</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.307781</relevance>
+            <type>City</type>
+            <relevance>0.394287</relevance>
             <count>1</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.306735</relevance>
-            <count>1</count>
-            <text>NY Times</text>
+            <text>Albuquerque</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Albuquerque, New Mexico</name>
+                <geo>35.11083333333333 -106.61</geo>
+                <website>http://www.cabq.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Albuquerque,_New_Mexico</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0djd3</freebase>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/nm/counties/bernalillo_county/albuquerque</census>
+                <yago>http://yago-knowledge.org/resource/Albuquerque,_New_Mexico</yago>
+                <geonames>http://sws.geonames.org/5454711/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.306606</relevance>
+            <type>City</type>
+            <relevance>0.391761</relevance>
             <count>1</count>
-            <text>Kyodo</text>
+            <text>Boston</text>
             <disambiguated>
-                <name>Kyodo News</name>
-                <website>http://home.kyodo.co.jp/</website>
-                <dbpedia>http://dbpedia.org/resource/Kyodo_News</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lh9g</freebase>
-                <yago>http://yago-knowledge.org/resource/Kyodo_News</yago>
+                <name>Boston</name>
+                <website>http://www.cityofboston.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Boston</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01cx_</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.306532</relevance>
+            <relevance>0.388743</relevance>
             <count>1</count>
             <text>Englemann</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.386699</relevance>
+            <count>1</count>
+            <text>MSFC</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.38571</relevance>
+            <count>1</count>
+            <text>Ohio</text>
+            <disambiguated>
+                <name>Ohio</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.ohio.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Ohio</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.303733</relevance>
+            <relevance>0.385465</relevance>
             <count>1</count>
             <text>Boulder</text>
             <disambiguated>
@@ -413,7 +561,7 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.301858</relevance>
+            <relevance>0.382767</relevance>
             <count>1</count>
             <text>Denver</text>
             <disambiguated>
@@ -428,58 +576,19 @@
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.299652</relevance>
+            <relevance>0.379183</relevance>
             <count>1</count>
             <text>federal agency</text>
         </entity>
         <entity>
             <type>TelevisionStation</type>
-            <relevance>0.297662</relevance>
+            <relevance>0.377372</relevance>
             <count>1</count>
             <text>ABC</text>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.296897</relevance>
-            <count>1</count>
-            <text>Nebraska</text>
-            <disambiguated>
-                <name>Nebraska</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.nebraska.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Nebraska</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05fhy</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjDU5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nebraska</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.296672</relevance>
-            <count>1</count>
-            <text>PRC</text>
-            <disambiguated>
-                <name>China</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>Kingdom</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>35.0 105.0</geo>
-                <dbpedia>http://dbpedia.org/resource/China</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/China</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.0d05w3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.296656</relevance>
+            <relevance>0.375882</relevance>
             <count>1</count>
             <text>St. Louis</text>
             <disambiguated>
@@ -496,20 +605,55 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.375516</relevance>
+            <count>1</count>
+            <text>Czechoslovakia</text>
+            <disambiguated>
+                <name>Czechoslovakia</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <dbpedia>http://dbpedia.org/resource/Czechoslovakia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01mk6</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVibGJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Czechoslovakia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.296296</relevance>
+            <relevance>0.374833</relevance>
             <count>1</count>
             <text>St. Louis&#x2019;s Lambert Field</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.295078</relevance>
+            <relevance>0.374092</relevance>
             <count>1</count>
             <text>New England</text>
         </entity>
         <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.373784</relevance>
+            <count>1</count>
+            <text>Iowa</text>
+            <disambiguated>
+                <name>Iowa</name>
+                <subType>Location</subType>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>USState</subType>
+                <website>http://www.iowa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Iowa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03s0w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi3ipwpEbGdrcN5Y29ycA</opencyc>
+                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ia</census>
+                <yago>http://yago-knowledge.org/resource/Iowa</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.29506</relevance>
+            <relevance>0.373702</relevance>
             <count>1</count>
             <text>Denver</text>
             <disambiguated>
@@ -518,127 +662,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.0490827</freebase>
                 <yago>http://yago-knowledge.org/resource/Denver,_Illinois</yago>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.294763</relevance>
-            <count>1</count>
-            <text>Joe Engle</text>
-            <disambiguated>
-                <name>Joe Engle</name>
-                <subType>Astronaut</subType>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/Joe_Engle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02j40f</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.294184</relevance>
-            <count>1</count>
-            <text>Royal Aircraft Establishment</text>
-            <disambiguated>
-                <name>Royal Aircraft Establishment</name>
-                <subType>Location</subType>
-                <subType>Company</subType>
-                <subType>Facility</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>Building</subType>
-                <geo>51.279475 -0.787926</geo>
-                <dbpedia>http://dbpedia.org/resource/Royal_Aircraft_Establishment</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01l3p2</freebase>
-                <yago>http://yago-knowledge.org/resource/Royal_Aircraft_Establishment</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.293379</relevance>
-            <count>1</count>
-            <text>Prairie Village</text>
-            <disambiguated>
-                <name>Prairie Village, Kansas</name>
-                <geo>38.98972222222222 -94.6361111111111</geo>
-                <dbpedia>http://dbpedia.org/resource/Prairie_Village,_Kansas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0t7sm</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ks/counties/johnson_county/prairie_village</census>
-                <yago>http://yago-knowledge.org/resource/Prairie_Village,_Kansas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.292756</relevance>
-            <count>1</count>
-            <text>Maxie Anderson</text>
-            <disambiguated>
-                <name>Maxie Anderson</name>
-                <dbpedia>http://dbpedia.org/resource/Maxie_Anderson</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04crt_2</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.291661</relevance>
-            <count>1</count>
-            <text>Japan</text>
-            <disambiguated>
-                <name>Empire of Japan</name>
-                <subType>Location</subType>
-                <subType>Kingdom</subType>
-                <dbpedia>http://dbpedia.org/resource/Empire_of_Japan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0193qj</freebase>
-                <yago>http://yago-knowledge.org/resource/Empire_of_Japan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.290061</relevance>
-            <count>1</count>
-            <text>FAA</text>
-            <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.289879</relevance>
-            <count>1</count>
-            <text>director</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.288901</relevance>
-            <count>1</count>
-            <text>Dr. Rudolf J. Engelmann</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.288859</relevance>
-            <count>1</count>
-            <text>Norfolk</text>
-            <disambiguated>
-                <name>Norfolk, Virginia</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>USCounty</subType>
-                <geo>37.91 -76.20694444444445</geo>
-                <website>http://www.norfolk.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Norfolk,_Virginia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fwc0</freebase>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/va/counties/norfolk/norfolk</census>
-                <yago>http://yago-knowledge.org/resource/Norfolk,_Virginia</yago>
-                <geonames>http://sws.geonames.org/4776222/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.286766</relevance>
-            <count>1</count>
-            <text>Tokyo Kyodo</text>
         </entity>
     </entities>
 </results>

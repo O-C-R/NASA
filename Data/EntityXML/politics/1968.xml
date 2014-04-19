@@ -7,8 +7,8 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.870318</relevance>
-            <count>19</count>
+            <relevance>0.82941</relevance>
+            <count>20</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -29,13 +29,25 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.685719</relevance>
+            <relevance>0.742046</relevance>
             <count>13</count>
             <text>FY</text>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.449161</relevance>
+            <count>3</count>
+            <text>NASA Associate Administrator for Advanced Research and Technology</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.448305</relevance>
+            <count>6</count>
+            <text>Committee</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.497761</relevance>
+            <relevance>0.443924</relevance>
             <count>9</count>
             <text>United States</text>
             <disambiguated>
@@ -54,20 +66,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.473678</relevance>
-            <count>3</count>
-            <text>NASA Associate Administrator for Advanced Research and Technology</text>
+            <type>Person</type>
+            <relevance>0.43351</relevance>
+            <count>4</count>
+            <text>Vice President Hubert H. Humphrey</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.443884</relevance>
-            <count>4</count>
-            <text>House Committee</text>
+            <relevance>0.418937</relevance>
+            <count>3</count>
+            <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.429908</relevance>
+            <relevance>0.408234</relevance>
             <count>5</count>
             <text>NYT</text>
             <disambiguated>
@@ -86,31 +98,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.410166</relevance>
-            <count>3</count>
-            <text>House Committee on Science and Astronautics</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.401166</relevance>
-            <count>3</count>
-            <text>House Appropriations Committee</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.397565</relevance>
-            <count>4</count>
-            <text>Vice President Hubert H. Humphrey</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.383922</relevance>
+            <relevance>0.397679</relevance>
             <count>3</count>
             <text>House Committee on Science</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.379685</relevance>
+            <relevance>0.395538</relevance>
             <count>6</count>
             <text>Senate</text>
             <disambiguated>
@@ -125,28 +119,105 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.379197</relevance>
-            <count>6</count>
-            <text>Committee</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.373054</relevance>
-            <count>6</count>
-            <text>Chairman</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.369981</relevance>
+            <relevance>0.38505</relevance>
             <count>3</count>
             <text>Astronautics&#x2019; Advanced Research and Technology Subcommittee</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.345808</relevance>
+            <type>Organization</type>
+            <relevance>0.384372</relevance>
+            <count>3</count>
+            <text>House Appropriations Committee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.383818</relevance>
+            <count>6</count>
+            <text>Chairman</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.381557</relevance>
+            <count>4</count>
+            <text>House Committee</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.366463</relevance>
             <count>2</count>
-            <text>NASA</text>
+            <text>nasa Associate Administrator for Tracking and Data Acquisition</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.337371</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Organization and Management Harold B. Finger</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.335269</relevance>
+            <count>2</count>
+            <text>Senate Committee on Aeronautical and Space Sciences</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.329945</relevance>
+            <count>3</count>
+            <text>NYT</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.32088</relevance>
+            <count>1</count>
+            <text>nasa Assistant Administrator for Administration</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.316067</relevance>
+            <count>4</count>
+            <text>Dr. Mac C. Adams</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.311363</relevance>
+            <count>5</count>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.309296</relevance>
+            <count>2</count>
+            <text>Associate Administrator</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.303168</relevance>
+            <count>2</count>
+            <text>House Committee on Government Operations</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.300641</relevance>
+            <count>2</count>
+            <text>Vice President</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.288163</relevance>
+            <count>1</count>
+            <text>nasa</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>GovernmentAgency</subType>
@@ -166,105 +237,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.345323</relevance>
-            <count>2</count>
-            <text>Senate Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.341644</relevance>
-            <count>3</count>
-            <text>NYT</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.33049</relevance>
-            <count>4</count>
-            <text>Dr. Mac C. Adams</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.326281</relevance>
-            <count>4</count>
-            <text>World War II</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.324208</relevance>
-            <count>2</count>
-            <text>nasa Associate Administrator for Tracking and Data Acquisition</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.318808</relevance>
-            <count>2</count>
-            <text>Vice President</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.316139</relevance>
-            <count>3</count>
-            <text>dod</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.314282</relevance>
-            <count>2</count>
-            <text>House Committee on Government Operations</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.313797</relevance>
-            <count>5</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.296537</relevance>
-            <count>1</count>
-            <text>Astronautics&#x2019; Subcommittee on Advanced Research and Technology</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.292075</relevance>
-            <count>2</count>
-            <text>Associate Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.285469</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Organization and Management Harold B. Finger</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.285404</relevance>
-            <count>3</count>
-            <text>USN</text>
-            <disambiguated>
-                <name>United States Navy</name>
-                <subType>ArmedForce</subType>
-                <subType>VideoGameDeveloper</subType>
-                <dbpedia>http://dbpedia.org/resource/United_States_Navy</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07wg3</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjxdJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Navy</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.283278</relevance>
+            <relevance>0.287276</relevance>
             <count>2</count>
             <text>FAA</text>
             <disambiguated>
@@ -277,41 +250,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.274799</relevance>
-            <count>2</count>
-            <text>President Johnson</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.271755</relevance>
+            <relevance>0.286027</relevance>
             <count>1</count>
-            <text>dod Deputy Director of Defense Research and Engineering</text>
+            <text>nasa Assistant Administrator for Industry Affairs</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.271299</relevance>
+            <type>Organization</type>
+            <relevance>0.285265</relevance>
             <count>1</count>
-            <text>nasa Assistant Administrator for Administration</text>
+            <text>House Committee on Aeronautical and Space Sciences</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.270369</relevance>
-            <count>1</count>
-            <text>Czechoslovakia</text>
-            <disambiguated>
-                <name>Czechoslovakia</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <dbpedia>http://dbpedia.org/resource/Czechoslovakia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mk6</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVibGJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Czechoslovakia</yago>
-            </disambiguated>
+            <type>FieldTerminology</type>
+            <relevance>0.281715</relevance>
+            <count>4</count>
+            <text>World War II</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.265376</relevance>
+            <relevance>0.280963</relevance>
             <count>2</count>
             <text>Sen. Clinton P. Anderson</text>
             <disambiguated>
@@ -325,36 +283,20 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.265294</relevance>
-            <count>1</count>
-            <text>Richard M. Nixon</text>
-            <disambiguated>
-                <name>Richard Nixon</name>
-                <subType>FilmCharacter</subType>
-                <subType>MusicalArtist</subType>
-                <subType>Politician</subType>
-                <subType>President</subType>
-                <subType>Appointer</subType>
-                <subType>MilitaryCommander</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>PoliticalAppointer</subType>
-                <subType>TVPersonality</subType>
-                <subType>U.S.Congressperson</subType>
-                <subType>USPresident</subType>
-                <subType>USVicePresident</subType>
-                <subType>FilmActor</subType>
-                <subType>TVActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Richard_Nixon</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06c97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVizFZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Richard_Nixon</yago>
-                <musicBrainz>http://zitgist.com/music/artist/056203cf-376f-412a-86f7-3ffa80157ef4</musicBrainz>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.275841</relevance>
+            <count>5</count>
+            <text>dod</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.265185</relevance>
+            <relevance>0.272209</relevance>
+            <count>2</count>
+            <text>President Johnson</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.271761</relevance>
             <count>2</count>
             <text>Dr. Abe Silverstein</text>
             <disambiguated>
@@ -365,87 +307,127 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.261637</relevance>
-            <count>1</count>
-            <text>House Committee on Aeronautical and Space Sciences</text>
-        </entity>
-        <entity>
             <type>JobTitle</type>
-            <relevance>0.25971</relevance>
+            <relevance>0.265774</relevance>
             <count>1</count>
-            <text>nasa Assistant Administrator for Industry Affairs</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.25971</relevance>
-            <count>1</count>
-            <text>carbon dioxide</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.259633</relevance>
-            <count>2</count>
-            <text>DOD</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.256651</relevance>
-            <count>1</count>
-            <text>computer science</text>
+            <text>Assistant Administrator for Technology Utilization</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.253715</relevance>
-            <count>1</count>
-            <text>Jones</text>
+            <relevance>0.263072</relevance>
+            <count>2</count>
+            <text>Dr. Vladimir K. Zworykin</text>
+            <disambiguated>
+                <name>Vladimir K. Zworykin</name>
+                <subType>AwardWinner</subType>
+                <subType>Inventor</subType>
+                <dbpedia>http://dbpedia.org/resource/Vladimir_K._Zworykin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01jqj_</freebase>
+            </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.251666</relevance>
+            <type>JobTitle</type>
+            <relevance>0.262363</relevance>
             <count>1</count>
-            <text>Washington</text>
+            <text>Honorary Vice President of Radio Corporation of America</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.258255</relevance>
+            <count>1</count>
+            <text>Hughes Aircraft Co.</text>
             <disambiguated>
-                <name>Washington, D.C.</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>MilitaryPost</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>USCounty</subType>
-                <website>http://www.dc.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Washington,_D.C.</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0rh6k</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvpFXOpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Washington,_D.C.</yago>
+                <name>Hughes Aircraft</name>
+                <subType>AircraftManufacturer</subType>
+                <dbpedia>http://dbpedia.org/resource/Hughes_Aircraft</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01xfls</freebase>
+                <yago>http://yago-knowledge.org/resource/Hughes_Aircraft</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.251325</relevance>
+            <relevance>0.258008</relevance>
             <count>1</count>
-            <text>House Committee on Armed Services</text>
+            <text>National Academy of Engineering</text>
+            <disambiguated>
+                <name>National Academy of Engineering</name>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>MembershipOrganization</subType>
+                <dbpedia>http://dbpedia.org/resource/National_Academy_of_Engineering</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dqq7d</freebase>
+                <yago>http://yago-knowledge.org/resource/National_Academy_of_Engineering</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.24844</relevance>
+            <relevance>0.255775</relevance>
+            <count>1</count>
+            <text>Vice President and Chief Scientist of United Aircraft Corp.</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.255759</relevance>
+            <count>3</count>
+            <text>Dr. George E. Mueller</text>
+            <disambiguated>
+                <name>George Mueller (NASA)</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/George_Mueller_(NASA)</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027b62t</freebase>
+                <yago>http://yago-knowledge.org/resource/George_Mueller_(NASA)</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.254517</relevance>
+            <count>1</count>
+            <text>RCA Laboratories</text>
+            <disambiguated>
+                <name>Sarnoff Corporation</name>
+                <dbpedia>http://dbpedia.org/resource/Sarnoff_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f39z3</freebase>
+                <yago>http://yago-knowledge.org/resource/Sarnoff_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.251</relevance>
+            <count>2</count>
+            <text>Gerald M. Truszynski</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.248459</relevance>
+            <count>1</count>
+            <text>Astronautics&#x2019; Subcommittee on Advanced Research and Technology</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.248108</relevance>
             <count>1</count>
             <text>nasa Director of Aeronautical Vehicles</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.243827</relevance>
+            <type>Company</type>
+            <relevance>0.246481</relevance>
             <count>1</count>
-            <text>Corporate Vice President and Deputy Group Executive of Government Products and Services</text>
+            <text>Apollo Applications Flights</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.242573</relevance>
+            <type>JobTitle</type>
+            <relevance>0.244741</relevance>
             <count>1</count>
-            <text>Robert W. Astheimer</text>
+            <text>Vice President of IBM Federal Systems</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.244378</relevance>
+            <count>1</count>
+            <text>Vice President and General Manager</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.242532</relevance>
+            <relevance>0.243885</relevance>
             <count>1</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -463,16 +445,16 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.241838</relevance>
+            <type>Degree</type>
+            <relevance>0.242479</relevance>
             <count>1</count>
-            <text>Barnes Engineering Co.</text>
+            <text>Father of Television</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.241724</relevance>
+            <type>Organization</type>
+            <relevance>0.241136</relevance>
             <count>1</count>
-            <text>Schwartz</text>
+            <text>Sustaining University</text>
         </entity>
     </entities>
 </results>

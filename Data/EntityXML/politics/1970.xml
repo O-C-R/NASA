@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.819584</relevance>
+            <relevance>0.779717</relevance>
             <count>11</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,13 +29,13 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.614312</relevance>
+            <relevance>0.523395</relevance>
             <count>5</count>
             <text>House Committee on Science and Astronautics</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.4745</relevance>
+            <relevance>0.392382</relevance>
             <count>5</count>
             <text>aiaa</text>
             <disambiguated>
@@ -47,34 +47,38 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.379205</relevance>
+            <count>1</count>
+            <text>House Committee on Government Operations</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.373161</relevance>
+            <count>1</count>
+            <text>Vice President Spiro T. Agnew</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.391951</relevance>
+            <relevance>0.364161</relevance>
+            <count>1</count>
+            <text>NASA Deputy Associate Administrator for Advanced Research and Technology (Aeronautics</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.363803</relevance>
             <count>2</count>
             <text>Vice President</text>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.380623</relevance>
-            <count>5</count>
-            <text>USA</text>
-            <disambiguated>
-                <name>United States</name>
-                <subType>Location</subType>
-                <subType>Region</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>FilmEditor</subType>
-                <website>http://www.usa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States</yago>
-            </disambiguated>
+            <type>Organization</type>
+            <relevance>0.3621</relevance>
+            <count>2</count>
+            <text>House Committee</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.379477</relevance>
+            <relevance>0.359295</relevance>
             <count>2</count>
             <text>President Nixon</text>
             <disambiguated>
@@ -101,20 +105,67 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.377316</relevance>
+            <type>JobTitle</type>
+            <relevance>0.347784</relevance>
             <count>1</count>
-            <text>aiaa Aircraft Design</text>
+            <text>Technology Advisory Committee&#x2019;s Subcommittee on Aircraft Operating Problems</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.335288</relevance>
+            <count>5</count>
+            <text>USA</text>
+            <disambiguated>
+                <name>United States</name>
+                <subType>Location</subType>
+                <subType>Region</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>FilmEditor</subType>
+                <website>http://www.usa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/United_States</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.09c7w0</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVikKpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.362247</relevance>
-            <count>2</count>
-            <text>House Committee</text>
+            <relevance>0.334895</relevance>
+            <count>3</count>
+            <text>faa</text>
+            <disambiguated>
+                <name>Federal Aviation Administration</name>
+                <website>http://www.faa.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.307314</relevance>
+            <count>1</count>
+            <text>Vice President of rca Defense Electronics Products Div.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.30175</relevance>
+            <count>1</count>
+            <text>Government</text>
+            <disambiguated>
+                <name>Government</name>
+                <subType>FieldOfStudy</subType>
+                <subType>BuildingFunction</subType>
+                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.326845</relevance>
+            <relevance>0.300471</relevance>
             <count>2</count>
             <text>Boeing Co.</text>
             <disambiguated>
@@ -132,47 +183,32 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.317182</relevance>
-            <count>1</count>
-            <text>President F. A. Cleveland</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.31282</relevance>
-            <count>2</count>
-            <text>Seattle</text>
-            <disambiguated>
-                <name>Seattle</name>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.seattle.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Seattle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0d9jr</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.311986</relevance>
+            <relevance>0.299338</relevance>
             <count>1</count>
-            <text>House Committee on Government Operations</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.311598</relevance>
-            <count>1</count>
-            <text>Technology Advisory Committee&#x2019;s Subcommittee on Aircraft Operating Problems</text>
+            <text>House Appropriations Committee</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.309415</relevance>
+            <relevance>0.299244</relevance>
             <count>1</count>
-            <text>Lockheed Aircraft Corp</text>
+            <text>aiaa Aircraft Design</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.297671</relevance>
+            <count>1</count>
+            <text>NASA Research</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.288041</relevance>
+            <count>2</count>
+            <text>World War II</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.308823</relevance>
+            <relevance>0.28217</relevance>
             <count>2</count>
             <text>Los Angeles</text>
             <disambiguated>
@@ -189,85 +225,155 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>City</type>
+            <relevance>0.282001</relevance>
+            <count>2</count>
+            <text>Seattle</text>
+            <disambiguated>
+                <name>Seattle</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.seattle.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Seattle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0d9jr</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.308065</relevance>
+            <relevance>0.27975</relevance>
             <count>1</count>
-            <text>Vice President Spiro T. Agnew</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.305947</relevance>
-            <count>1</count>
-            <text>Conventional Aircraft Design</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.302976</relevance>
-            <count>1</count>
-            <text>Vice President of rca Defense Electronics Products Div.</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.302112</relevance>
-            <count>1</count>
-            <text>House Appropriations Committee</text>
+            <text>Maj. Jerauld R. Gentry</text>
+            <disambiguated>
+                <name>Jerauld R. Gentry</name>
+                <dbpedia>http://dbpedia.org/resource/Jerauld_R._Gentry</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06zspl8</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.301464</relevance>
+            <relevance>0.277646</relevance>
             <count>1</count>
             <text>Vice President and Director of Engineering</text>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.299716</relevance>
+            <type>Organization</type>
+            <relevance>0.265651</relevance>
             <count>1</count>
-            <text>NASA Deputy Associate Administrator for Advanced Research and Technology (Aeronautics</text>
+            <text>usaf</text>
+            <disambiguated>
+                <name>United States Air Force</name>
+                <subType>ArmedForce</subType>
+                <subType>MilitaryUnit</subType>
+                <subType>Profession</subType>
+                <website>http://www.af.mil/</website>
+                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.286871</relevance>
-            <count>2</count>
-            <text>World War II</text>
+            <relevance>0.262571</relevance>
+            <count>1</count>
+            <text>collision avoidance</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.261352</relevance>
+            <count>1</count>
+            <text>President</text>
+        </entity>
+        <entity>
+            <type>Degree</type>
+            <relevance>0.260749</relevance>
+            <count>1</count>
+            <text>Examination of Federal science</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.258745</relevance>
+            <count>1</count>
+            <text>Bill</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.275601</relevance>
+            <relevance>0.258666</relevance>
             <count>1</count>
-            <text>Government</text>
+            <text>Federal Government Accountants Assn</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.25791</relevance>
+            <count>1</count>
+            <text>Rep. Bertram L. Podell</text>
             <disambiguated>
-                <name>Government</name>
-                <subType>FieldOfStudy</subType>
-                <subType>BuildingFunction</subType>
-                <dbpedia>http://dbpedia.org/resource/Government</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.036nz</freebase>
+                <name>Bertram L. Podell</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Bertram_L._Podell</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ksm3w</freebase>
+                <yago>http://yago-knowledge.org/resource/Bertram_L._Podell</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.256165</relevance>
+            <count>1</count>
+            <text>Rep. Jerry L. Pettis</text>
+            <disambiguated>
+                <name>Jerry Pettis</name>
+                <subType>Politician</subType>
+                <subType>U.S.Congressperson</subType>
+                <dbpedia>http://dbpedia.org/resource/Jerry_Pettis</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gmvg8</freebase>
+                <yago>http://yago-knowledge.org/resource/Jerry_Pettis</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.254215</relevance>
+            <count>1</count>
+            <text>President F. A. Cleveland</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.252389</relevance>
+            <count>2</count>
+            <text>Leslie R. Groves</text>
+            <disambiguated>
+                <name>Leslie Groves</name>
+                <subType>FilmCharacter</subType>
+                <subType>MilitaryPerson</subType>
+                <subType>OperaCharacter</subType>
+                <subType>ProjectParticipant</subType>
+                <dbpedia>http://dbpedia.org/resource/Leslie_Groves</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gftz</freebase>
+                <yago>http://yago-knowledge.org/resource/Leslie_Groves</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.266706</relevance>
+            <relevance>0.249139</relevance>
             <count>1</count>
-            <text>NASA Research</text>
+            <text>Harmon International Aviation</text>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.263749</relevance>
+            <type>Person</type>
+            <relevance>0.247296</relevance>
             <count>1</count>
-            <text>Puget Sound</text>
-            <disambiguated>
-                <name>Puget Sound</name>
-                <subType>Location</subType>
-                <subType>TransportTerminus</subType>
-                <geo>47.6 -122.45</geo>
-                <dbpedia>http://dbpedia.org/resource/Puget_Sound</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05xbh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rTGEAKPygQdaWB96LrxGliw</opencyc>
-                <yago>http://yago-knowledge.org/resource/Puget_Sound</yago>
-            </disambiguated>
+            <text>Charles W. Harper</text>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.243439</relevance>
+            <count>1</count>
+            <text>Conventional Aircraft Design</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.262857</relevance>
+            <relevance>0.241999</relevance>
             <count>1</count>
             <text>NYT</text>
             <disambiguated>
@@ -286,69 +392,28 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.260896</relevance>
+            <relevance>0.241759</relevance>
             <count>1</count>
-            <text>Bill</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.25983</relevance>
-            <count>3</count>
-            <text>faa</text>
+            <text>Dr. Philip Handler</text>
             <disambiguated>
-                <name>Federal Aviation Administration</name>
-                <website>http://www.faa.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Federal_Aviation_Administration</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02_hj</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv2t1sZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Federal_Aviation_Administration</yago>
+                <name>Philip Handler</name>
+                <subType>Academic</subType>
+                <subType>AwardWinner</subType>
+                <subType>Scientist</subType>
+                <dbpedia>http://dbpedia.org/resource/Philip_Handler</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02r1_z8</freebase>
+                <yago>http://yago-knowledge.org/resource/Philip_Handler</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.258505</relevance>
+            <type>Company</type>
+            <relevance>0.241412</relevance>
             <count>1</count>
-            <text>FY</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.25501</relevance>
-            <count>1</count>
-            <text>Federal Government Accountants Assn</text>
+            <text>Aircraft Design Award</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.254404</relevance>
-            <count>2</count>
-            <text>Leslie R. Groves</text>
-            <disambiguated>
-                <name>Leslie Groves</name>
-                <subType>FilmCharacter</subType>
-                <subType>MilitaryPerson</subType>
-                <subType>OperaCharacter</subType>
-                <subType>ProjectParticipant</subType>
-                <dbpedia>http://dbpedia.org/resource/Leslie_Groves</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gftz</freebase>
-                <yago>http://yago-knowledge.org/resource/Leslie_Groves</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.251724</relevance>
-            <count>1</count>
-            <text>Rep. Jerry L. Pettis</text>
-            <disambiguated>
-                <name>Jerry Pettis</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Jerry_Pettis</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gmvg8</freebase>
-                <yago>http://yago-knowledge.org/resource/Jerry_Pettis</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.249534</relevance>
+            <relevance>0.238207</relevance>
             <count>1</count>
             <text>Sen. Clinton P. Anderson</text>
             <disambiguated>
@@ -362,57 +427,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.248894</relevance>
-            <count>1</count>
-            <text>Lowell P. Michelwait</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.243571</relevance>
-            <count>1</count>
-            <text>Maj. Jerauld R. Gentry</text>
-            <disambiguated>
-                <name>Jerauld R. Gentry</name>
-                <dbpedia>http://dbpedia.org/resource/Jerauld_R._Gentry</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06zspl8</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.242174</relevance>
-            <count>1</count>
-            <text>Dr. Theodore P. Wright</text>
-            <disambiguated>
-                <name>Theodore Paul Wright</name>
-                <dbpedia>http://dbpedia.org/resource/Theodore_Paul_Wright</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03855f</freebase>
-                <yago>http://yago-knowledge.org/resource/Theodore_Paul_Wright</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.241359</relevance>
-            <count>1</count>
-            <text>Rep. Bertram L. Podell</text>
-            <disambiguated>
-                <name>Bertram L. Podell</name>
-                <subType>Politician</subType>
-                <subType>U.S.Congressperson</subType>
-                <dbpedia>http://dbpedia.org/resource/Bertram_L._Podell</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ksm3w</freebase>
-                <yago>http://yago-knowledge.org/resource/Bertram_L._Podell</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.240802</relevance>
+            <relevance>0.23808</relevance>
             <count>1</count>
-            <text>Aircraft Design Award</text>
+            <text>Lockheed Aircraft Corp</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.234739</relevance>
+            <relevance>0.233797</relevance>
+            <count>1</count>
+            <text>Department of Defense</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.233495</relevance>
+            <count>1</count>
+            <text>executive</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.232803</relevance>
             <count>1</count>
             <text>Army Corps of Engineers</text>
             <disambiguated>
@@ -426,56 +460,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.23281</relevance>
-            <count>1</count>
-            <text>Ithaca</text>
-            <disambiguated>
-                <name>Ithaca, New York</name>
-                <website>http://www.cityofithaca.org</website>
-                <dbpedia>http://dbpedia.org/resource/Ithaca,_New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03v_5</freebase>
-                <yago>http://yago-knowledge.org/resource/Ithaca,_New_York</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.23249</relevance>
-            <count>1</count>
-            <text>Civil Aeronautics Administrator</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.231687</relevance>
-            <count>1</count>
-            <text>President</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.231284</relevance>
+            <relevance>0.232311</relevance>
             <count>1</count>
-            <text>usaf</text>
-            <disambiguated>
-                <name>United States Air Force</name>
-                <subType>ArmedForce</subType>
-                <subType>MilitaryUnit</subType>
-                <subType>Profession</subType>
-                <website>http://www.af.mil/</website>
-                <dbpedia>http://dbpedia.org/resource/United_States_Air_Force</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02rjqfl</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjyL5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_States_Air_Force</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.231182</relevance>
-            <count>1</count>
-            <text>Examination of Federal science</text>
+            <text>Logistic Management Institute</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.229092</relevance>
+            <relevance>0.227182</relevance>
             <count>1</count>
             <text>Oak Ridge</text>
             <disambiguated>
@@ -489,51 +481,44 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.227489</relevance>
+            <type>Person</type>
+            <relevance>0.224738</relevance>
             <count>1</count>
-            <text>N.Y.</text>
+            <text>Dr. Theodore P. Wright</text>
             <disambiguated>
-                <name>New York</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>43.0 -75.0</geo>
-                <website>http://www.ny.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
-                <yago>http://yago-knowledge.org/resource/New_York</yago>
+                <name>Theodore Paul Wright</name>
+                <dbpedia>http://dbpedia.org/resource/Theodore_Paul_Wright</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03855f</freebase>
+                <yago>http://yago-knowledge.org/resource/Theodore_Paul_Wright</yago>
             </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.223475</relevance>
+            <relevance>0.223297</relevance>
             <count>1</count>
-            <text>NR Aerospace Div</text>
-        </entity>
-        <entity>
-            <type>Degree</type>
-            <relevance>0.221313</relevance>
-            <count>1</count>
-            <text>Distinguished Service</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.219561</relevance>
-            <count>1</count>
-            <text>Pentagon</text>
+            <text>FY</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.219553</relevance>
+            <relevance>0.222704</relevance>
             <count>1</count>
-            <text>Harrison A. Storms</text>
+            <text>Puget Sound</text>
+            <disambiguated>
+                <name>Puget Sound</name>
+                <subType>Location</subType>
+                <subType>TransportTerminus</subType>
+                <geo>47.6 -122.45</geo>
+                <dbpedia>http://dbpedia.org/resource/Puget_Sound</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05xbh</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rTGEAKPygQdaWB96LrxGliw</opencyc>
+                <yago>http://yago-knowledge.org/resource/Puget_Sound</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.217645</relevance>
+            <count>1</count>
+            <text>Pentagon</text>
         </entity>
     </entities>
 </results>

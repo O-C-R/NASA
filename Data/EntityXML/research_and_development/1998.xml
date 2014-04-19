@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.856166</relevance>
+            <relevance>0.851874</relevance>
             <count>45</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,8 +28,24 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.345921</relevance>
+            <count>7</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.339242</relevance>
+            <relevance>0.301844</relevance>
             <count>6</count>
             <text>United States</text>
             <disambiguated>
@@ -49,7 +65,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.311548</relevance>
+            <relevance>0.266666</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -70,83 +86,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.304521</relevance>
-            <count>7</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.267996</relevance>
-            <count>2</count>
-            <text>Space Interferometry Mission</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.261891</relevance>
-            <count>2</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.243452</relevance>
-            <count>1</count>
-            <text>Universities Space Research Association</text>
-            <disambiguated>
-                <name>Universities Space Research Association</name>
-                <dbpedia>http://dbpedia.org/resource/Universities_Space_Research_Association</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0269j0p</freebase>
-                <yago>http://yago-knowledge.org/resource/Universities_Space_Research_Association</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.229484</relevance>
-            <count>3</count>
-            <text>Boeing Company</text>
-            <disambiguated>
-                <name>Boeing</name>
-                <subType>AircraftDesigner</subType>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <subType>RocketManufacturer</subType>
-                <subType>SpacecraftManufacturer</subType>
-                <website>http://www.boeing.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
-                <yago>http://yago-knowledge.org/resource/Boeing</yago>
-                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.227825</relevance>
-            <count>1</count>
-            <text>Marshall Space Flight Center</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.223813</relevance>
+            <relevance>0.263847</relevance>
             <count>4</count>
             <text>Virginia</text>
             <disambiguated>
@@ -164,62 +105,35 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.222516</relevance>
-            <count>1</count>
-            <text>Virginia Commercial Space Flight Authority</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.222465</relevance>
-            <count>2</count>
-            <text>Engineer</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.221558</relevance>
-            <count>1</count>
-            <text>ESO</text>
+            <relevance>0.26049</relevance>
+            <count>2</count>
+            <text>Jet Propulsion Laboratory</text>
             <disambiguated>
-                <name>ESO (motorcycles)</name>
-                <dbpedia>http://dbpedia.org/resource/ESO_(motorcycles)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05zkb_c</freebase>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
             </disambiguated>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.22131</relevance>
-            <count>1</count>
-            <text>European Southern Observatory</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.218671</relevance>
-            <count>3</count>
-            <text>George W. Lewis Jr.</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.217921</relevance>
-            <count>2</count>
-            <text>New York Times</text>
+            <type>Organization</type>
+            <relevance>0.252168</relevance>
+            <count>4</count>
+            <text>VLA</text>
             <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+                <name>Volunteer Lawyers for the Arts</name>
+                <dbpedia>http://dbpedia.org/resource/Volunteer_Lawyers_for_the_Arts</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b2j2c</freebase>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.217892</relevance>
+            <relevance>0.248627</relevance>
             <count>4</count>
             <text>California</text>
             <disambiguated>
@@ -240,123 +154,45 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.216897</relevance>
-            <count>1</count>
-            <text>British Aerospace</text>
+            <type>PrintMedia</type>
+            <relevance>0.241484</relevance>
+            <count>2</count>
+            <text>New York Times</text>
             <disambiguated>
-                <name>British Aerospace</name>
-                <subType>AircraftManufacturer</subType>
-                <subType>ProjectParticipant</subType>
-                <dbpedia>http://dbpedia.org/resource/British_Aerospace</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cth8</freebase>
-                <yago>http://yago-knowledge.org/resource/British_Aerospace</yago>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
             </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.239548</relevance>
+            <count>1</count>
+            <text>Universities Space Research Association</text>
+            <disambiguated>
+                <name>Universities Space Research Association</name>
+                <dbpedia>http://dbpedia.org/resource/Universities_Space_Research_Association</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0269j0p</freebase>
+                <yago>http://yago-knowledge.org/resource/Universities_Space_Research_Association</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.236337</relevance>
+            <count>1</count>
+            <text>Virginia Commercial Space Flight Authority</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.215861</relevance>
-            <count>1</count>
-            <text>Cleveland</text>
-            <disambiguated>
-                <name>Cleveland</name>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.city.cleveland.oh.us/</website>
-                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.214785</relevance>
-            <count>1</count>
-            <text>Virginia Space Flight Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.214275</relevance>
-            <count>4</count>
-            <text>VLA</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.213995</relevance>
-            <count>1</count>
-            <text>National Space Science Data Center</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.213607</relevance>
-            <count>1</count>
-            <text>National Advisory Committee for Aeronautics</text>
-            <disambiguated>
-                <name>National Advisory Committee for Aeronautics</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/National_Advisory_Committee_for_Aeronautics</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01b9vn</freebase>
-                <yago>http://yago-knowledge.org/resource/National_Advisory_Committee_for_Aeronautics</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.213333</relevance>
-            <count>2</count>
-            <text>United Press International</text>
-            <disambiguated>
-                <name>United Press International</name>
-                <website>http://www.upi.com/</website>
-                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
-                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.21329</relevance>
-            <count>1</count>
-            <text>Airbus Industrie</text>
-            <disambiguated>
-                <name>Airbus</name>
-                <subType>AircraftManufacturer</subType>
-                <website>http://www.airbus.com</website>
-                <dbpedia>http://dbpedia.org/resource/Airbus</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.015zfz</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rMWa14i9dQdiA35I-d_uJMg</opencyc>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.212035</relevance>
-            <count>2</count>
-            <text>Orbital Sciences Corporation</text>
-            <disambiguated>
-                <name>Orbital Sciences Corporation</name>
-                <subType>RocketManufacturer</subType>
-                <website>http://www.orbital.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Orbital_Sciences_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.037jwk</freebase>
-                <yago>http://yago-knowledge.org/resource/Orbital_Sciences_Corporation</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.211576</relevance>
-            <count>1</count>
-            <text>European Space Foundation</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.210883</relevance>
-            <count>1</count>
-            <text>Lewis Research Center</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.210375</relevance>
+            <relevance>0.234319</relevance>
             <count>2</count>
             <text>Socorro</text>
             <disambiguated>
@@ -370,44 +206,24 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.208448</relevance>
-            <count>1</count>
-            <text>Spain</text>
+            <type>GeographicFeature</type>
+            <relevance>0.232192</relevance>
+            <count>2</count>
+            <text>Wallops Island</text>
             <disambiguated>
-                <name>Kingdom of Spain (Napoleonic)</name>
-                <dbpedia>http://dbpedia.org/resource/Kingdom_of_Spain_(Napoleonic)</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cm9lkx</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.207714</relevance>
-            <count>1</count>
-            <text>X-38 Propulsion</text>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.206799</relevance>
-            <count>1</count>
-            <text>Ohio</text>
-            <disambiguated>
-                <name>Ohio</name>
+                <name>Wallops Island</name>
                 <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <website>http://www.ohio.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Ohio</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05kkh</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVigDJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Ohio</yago>
+                <subType>Island</subType>
+                <geo>37.85 -75.46666666666667</geo>
+                <dbpedia>http://dbpedia.org/resource/Wallops_Island</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.052yqf</freebase>
+                <yago>http://yago-knowledge.org/resource/Wallops_Island</yago>
+                <geonames>http://sws.geonames.org/4792009/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.20679</relevance>
+            <relevance>0.230327</relevance>
             <count>2</count>
             <text>New Mexico</text>
             <disambiguated>
@@ -425,20 +241,202 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.203462</relevance>
+            <type>Person</type>
+            <relevance>0.230314</relevance>
+            <count>2</count>
+            <text>Ehud Tenenbaum</text>
+            <disambiguated>
+                <name>Ehud Tenenbaum</name>
+                <dbpedia>http://dbpedia.org/resource/Ehud_Tenenbaum</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cfkkc</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.228805</relevance>
             <count>1</count>
-            <text>Boeing Co</text>
+            <text>Virginia Space Flight Center</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.202761</relevance>
+            <relevance>0.227349</relevance>
+            <count>2</count>
+            <text>Orbital Sciences Corporation</text>
+            <disambiguated>
+                <name>Orbital Sciences Corporation</name>
+                <subType>RocketManufacturer</subType>
+                <website>http://www.orbital.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Orbital_Sciences_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.037jwk</freebase>
+                <yago>http://yago-knowledge.org/resource/Orbital_Sciences_Corporation</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.223808</relevance>
             <count>1</count>
-            <text>Daimler-Benz Aerospace</text>
+            <text>Marshall Space Flight Center</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.221903</relevance>
+            <count>2</count>
+            <text>Earth.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.202579</relevance>
+            <relevance>0.220817</relevance>
+            <count>2</count>
+            <text>Space Interferometry Mission</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.220127</relevance>
+            <count>1</count>
+            <text>Jeremy Lin</text>
+            <disambiguated>
+                <name>Jeremy Lin</name>
+                <dbpedia>http://dbpedia.org/resource/Jeremy_Lin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.09k72lh</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.218721</relevance>
+            <count>2</count>
+            <text>Ames Research Center</text>
+            <disambiguated>
+                <name>Ames Research Center</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <subType>CompanyDivision</subType>
+                <subType>AircraftDesigner</subType>
+                <subType>SoftwareDeveloper</subType>
+                <geo>37.415229 -122.06265</geo>
+                <website>http://www.nasa.gov/ames</website>
+                <dbpedia>http://dbpedia.org/resource/Ames_Research_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0crzv</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.21337</relevance>
+            <count>3</count>
+            <text>Betelgeuse</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.213309</relevance>
+            <count>2</count>
+            <text>Dale A. Frail</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.208906</relevance>
+            <count>1</count>
+            <text>Malcolm W. Browne</text>
+            <disambiguated>
+                <name>Malcolm Browne</name>
+                <subType>AwardWinner</subType>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/Malcolm_Browne</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02x6h1t</freebase>
+                <yago>http://yago-knowledge.org/resource/Malcolm_Browne</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.206353</relevance>
+            <count>1</count>
+            <text>National Radio Astronomy Observatory</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.204834</relevance>
+            <count>2</count>
+            <text>United Press International</text>
+            <disambiguated>
+                <name>United Press International</name>
+                <website>http://www.upi.com/</website>
+                <dbpedia>http://dbpedia.org/resource/United_Press_International</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0bm97</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4riDT6GOhOEdmAAAACs6hcqg</opencyc>
+                <yago>http://yago-knowledge.org/resource/United_Press_International</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.200751</relevance>
+            <count>2</count>
+            <text>Engineer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.199909</relevance>
+            <count>2</count>
+            <text>ISS.</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.196423</relevance>
+            <count>1</count>
+            <text>Academia Sinica Institute</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.195034</relevance>
+            <count>1</count>
+            <text>European Space Foundation</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.194391</relevance>
+            <count>1</count>
+            <text>Albuquerque Journal</text>
+            <disambiguated>
+                <name>Albuquerque Journal</name>
+                <subType>Newspaper</subType>
+                <website>http://www.abqjournal.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Albuquerque_Journal</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08db54</freebase>
+                <yago>http://yago-knowledge.org/resource/Albuquerque_Journal</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.19216</relevance>
+            <count>1</count>
+            <text>Kelly Space</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.192152</relevance>
+            <count>1</count>
+            <text>British Aerospace</text>
+            <disambiguated>
+                <name>British Aerospace</name>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <dbpedia>http://dbpedia.org/resource/British_Aerospace</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0cth8</freebase>
+                <yago>http://yago-knowledge.org/resource/British_Aerospace</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.191971</relevance>
+            <count>1</count>
+            <text>Taiwan</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.191693</relevance>
+            <count>1</count>
+            <text>X-38 Propulsion</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.191176</relevance>
             <count>1</count>
             <text>ESO</text>
             <disambiguated>
@@ -454,91 +452,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.202339</relevance>
-            <count>1</count>
-            <text>Lockheed Martin Corp</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.202106</relevance>
-            <count>2</count>
-            <text>shut down</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.201261</relevance>
-            <count>2</count>
-            <text>ISS.</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.199954</relevance>
+            <relevance>0.191067</relevance>
             <count>1</count>
-            <text>France</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.199714</relevance>
-            <count>1</count>
-            <text>aerospace industry</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.199035</relevance>
-            <count>2</count>
-            <text>Earth.</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.198839</relevance>
-            <count>1</count>
-            <text>research director</text>
+            <text>National Space Science Data Center</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.197135</relevance>
+            <relevance>0.19057</relevance>
             <count>2</count>
             <text>Defense Daily</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.196635</relevance>
-            <count>1</count>
-            <text>European Science Foundation</text>
-            <disambiguated>
-                <name>European Science Foundation</name>
-                <website>http://www.esf.org</website>
-                <dbpedia>http://dbpedia.org/resource/European_Science_Foundation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02q7lg</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.195538</relevance>
-            <count>1</count>
-            <text>Crew-Vehicle Systems Research Facility</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.194547</relevance>
-            <count>2</count>
-            <text>Ehud Tenenbaum</text>
-            <disambiguated>
-                <name>Ehud Tenenbaum</name>
-                <dbpedia>http://dbpedia.org/resource/Ehud_Tenenbaum</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0cfkkc</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.193636</relevance>
-            <count>1</count>
-            <text>engineer</text>
+            <relevance>0.190083</relevance>
+            <count>3</count>
+            <text>George W. Lewis Jr.</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.193575</relevance>
+            <relevance>0.189876</relevance>
             <count>1</count>
             <text>FBI</text>
             <disambiguated>
@@ -554,10 +487,112 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.192258</relevance>
+            <type>Company</type>
+            <relevance>0.189673</relevance>
+            <count>3</count>
+            <text>Boeing Company</text>
+            <disambiguated>
+                <name>Boeing</name>
+                <subType>AircraftDesigner</subType>
+                <subType>AircraftManufacturer</subType>
+                <subType>ProjectParticipant</subType>
+                <subType>RocketManufacturer</subType>
+                <subType>SpacecraftManufacturer</subType>
+                <website>http://www.boeing.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Boeing</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0178g</freebase>
+                <yago>http://yago-knowledge.org/resource/Boeing</yago>
+                <crunchbase>http://www.crunchbase.com/company/boeing</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.18964</relevance>
             <count>1</count>
-            <text>Kelly Space</text>
+            <text>Interferometry Mission</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.188946</relevance>
+            <count>1</count>
+            <text>Airbus Industrie</text>
+            <disambiguated>
+                <name>Airbus</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.airbus.com</website>
+                <dbpedia>http://dbpedia.org/resource/Airbus</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.015zfz</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rMWa14i9dQdiA35I-d_uJMg</opencyc>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.187271</relevance>
+            <count>1</count>
+            <text>Roanoke Times</text>
+            <disambiguated>
+                <name>The Roanoke Times</name>
+                <subType>Newspaper</subType>
+                <website>http://www.roanoke.com/</website>
+                <dbpedia>http://dbpedia.org/resource/The_Roanoke_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06c7m6</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Roanoke_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Facility</type>
+            <relevance>0.186977</relevance>
+            <count>1</count>
+            <text>Wallops Flight Facility</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.186631</relevance>
+            <count>1</count>
+            <text>DynCorp</text>
+            <disambiguated>
+                <name>DynCorp</name>
+                <dbpedia>http://dbpedia.org/resource/DynCorp</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p3tj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.186582</relevance>
+            <count>1</count>
+            <text>James S. Gilmore III</text>
+            <disambiguated>
+                <name>Jim Gilmore</name>
+                <subType>Politician</subType>
+                <subType>BoardMember</subType>
+                <subType>Governor</subType>
+                <website>http://www.jimgilmoreforsenate.com</website>
+                <dbpedia>http://dbpedia.org/resource/Jim_Gilmore</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0361p2</freebase>
+                <yago>http://yago-knowledge.org/resource/Jim_Gilmore</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.186454</relevance>
+            <count>1</count>
+            <text>Crew-Vehicle Systems Research Facility</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.185904</relevance>
+            <count>1</count>
+            <text>Cleveland</text>
+            <disambiguated>
+                <name>Cleveland</name>
+                <subType>PoliticalDistrict</subType>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.city.cleveland.oh.us/</website>
+                <dbpedia>http://dbpedia.org/resource/Cleveland</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01sn3</freebase>
+            </disambiguated>
         </entity>
     </entities>
 </results>

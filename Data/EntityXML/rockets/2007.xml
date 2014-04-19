@@ -13,7 +13,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.75749</relevance>
+            <relevance>0.795344</relevance>
             <count>5</count>
             <text>XCOR Aerospace</text>
             <disambiguated>
@@ -28,27 +28,13 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.662407</relevance>
+            <relevance>0.62936</relevance>
             <count>2</count>
             <text>Spaceport America</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.580565</relevance>
-            <count>3</count>
-            <text>Virgin Galactic</text>
-            <disambiguated>
-                <name>Virgin Galactic</name>
-                <subType>Airline</subType>
-                <website>http://www.virgingalactic.com</website>
-                <dbpedia>http://dbpedia.org/resource/Virgin_Galactic</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.03_12v</freebase>
-                <yago>http://yago-knowledge.org/resource/Virgin_Galactic</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.496603</relevance>
+            <relevance>0.573688</relevance>
             <count>1</count>
             <text>Bigelow Aerospace</text>
             <disambiguated>
@@ -62,8 +48,28 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.561471</relevance>
+            <count>3</count>
+            <text>Virgin Galactic</text>
+            <disambiguated>
+                <name>Virgin Galactic</name>
+                <subType>Airline</subType>
+                <website>http://www.virgingalactic.com</website>
+                <dbpedia>http://dbpedia.org/resource/Virgin_Galactic</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.03_12v</freebase>
+                <yago>http://yago-knowledge.org/resource/Virgin_Galactic</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.535734</relevance>
+            <count>1</count>
+            <text>Bigelow Aerospace Corporation</text>
+        </entity>
+        <entity>
             <type>City</type>
-            <relevance>0.462012</relevance>
+            <relevance>0.445361</relevance>
             <count>2</count>
             <text>Kiruna</text>
             <disambiguated>
@@ -77,13 +83,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.456651</relevance>
-            <count>1</count>
-            <text>Bigelow Aerospace Corporation</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.443834</relevance>
+            <relevance>0.424776</relevance>
             <count>1</count>
             <text>Swedish Space Corporation</text>
             <disambiguated>
@@ -96,13 +96,19 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.437413</relevance>
+            <relevance>0.420921</relevance>
             <count>2</count>
             <text>MOU</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.416233</relevance>
+            <count>1</count>
+            <text>space tourism</text>
+        </entity>
+        <entity>
             <type>Country</type>
-            <relevance>0.42946</relevance>
+            <relevance>0.414191</relevance>
             <count>2</count>
             <text>Sweden</text>
             <disambiguated>
@@ -121,8 +127,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.384743</relevance>
+            <count>1</count>
+            <text>ISC Kosmotras Yasny Cosmodrome</text>
+        </entity>
+        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.42321</relevance>
+            <relevance>0.376915</relevance>
             <count>1</count>
             <text>New Mexico</text>
             <disambiguated>
@@ -140,60 +152,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.375021</relevance>
-            <count>1</count>
-            <text>Virgin</text>
-            <disambiguated>
-                <name>Virgin Group</name>
-                <website>http://www.virgin.com</website>
-                <dbpedia>http://dbpedia.org/resource/Virgin_Group</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01f9wm</freebase>
-                <yago>http://yago-knowledge.org/resource/Virgin_Group</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.372137</relevance>
-            <count>1</count>
-            <text>Burt Rutan</text>
-            <disambiguated>
-                <name>Burt Rutan</name>
-                <subType>AircraftDesigner</subType>
-                <subType>TVPersonality</subType>
-                <subType>FilmActor</subType>
-                <dbpedia>http://dbpedia.org/resource/Burt_Rutan</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.026nlb</freebase>
-                <yago>http://yago-knowledge.org/resource/Burt_Rutan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.359188</relevance>
-            <count>1</count>
-            <text>Las Cruces Sun News</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.354504</relevance>
-            <count>1</count>
-            <text>Eugene W. Roddenberry</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.353816</relevance>
-            <count>1</count>
-            <text>space tourism</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.349498</relevance>
-            <count>1</count>
-            <text>James M. Doohan</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.343059</relevance>
+            <relevance>0.369178</relevance>
             <count>2</count>
             <text>NASA</text>
             <disambiguated>
@@ -215,7 +175,35 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.327154</relevance>
+            <relevance>0.358283</relevance>
+            <count>1</count>
+            <text>Virgin</text>
+            <disambiguated>
+                <name>Virgin Group</name>
+                <website>http://www.virgin.com</website>
+                <dbpedia>http://dbpedia.org/resource/Virgin_Group</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01f9wm</freebase>
+                <yago>http://yago-knowledge.org/resource/Virgin_Group</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.35607</relevance>
+            <count>1</count>
+            <text>Burt Rutan</text>
+            <disambiguated>
+                <name>Burt Rutan</name>
+                <subType>AircraftDesigner</subType>
+                <subType>TVPersonality</subType>
+                <subType>FilmActor</subType>
+                <dbpedia>http://dbpedia.org/resource/Burt_Rutan</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.026nlb</freebase>
+                <yago>http://yago-knowledge.org/resource/Burt_Rutan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.355275</relevance>
             <count>1</count>
             <text>Alliant Techsystems</text>
             <disambiguated>
@@ -228,10 +216,28 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.325693</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.342015</relevance>
             <count>1</count>
-            <text>ISC Kosmotras Yasny Cosmodrome</text>
+            <text>Las Cruces Sun News</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.340193</relevance>
+            <count>1</count>
+            <text>Aleta Jackson</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.335878</relevance>
+            <count>1</count>
+            <text>UT</text>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.330868</relevance>
+            <count>1</count>
+            <text>Russia</text>
         </entity>
         <entity>
             <type>City</type>
@@ -240,64 +246,58 @@
             <text>Las Cruces</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.311128</relevance>
+            <count>1</count>
+            <text>Eugene W. Roddenberry</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.323106</relevance>
+            <relevance>0.308346</relevance>
             <count>1</count>
             <text>President</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.313468</relevance>
+            <relevance>0.306704</relevance>
             <count>1</count>
-            <text>Aleta Jackson</text>
+            <text>James M. Doohan</text>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.301849</relevance>
+            <count>1</count>
+            <text>press release</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.31136</relevance>
+            <relevance>0.295905</relevance>
             <count>1</count>
             <text>Jerry Larson</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.309102</relevance>
+            <relevance>0.293579</relevance>
             <count>1</count>
             <text>Memorandum of Understanding</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.301411</relevance>
+            <relevance>0.286392</relevance>
             <count>1</count>
             <text>Jose L. Medina</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.292754</relevance>
+            <relevance>0.27777</relevance>
             <count>1</count>
             <text>Peter B. de Selding</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.289683</relevance>
+            <relevance>0.275004</relevance>
             <count>1</count>
             <text>fly through</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.284255</relevance>
-            <count>1</count>
-            <text>UT</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.280061</relevance>
-            <count>1</count>
-            <text>Russia</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.275729</relevance>
-            <count>1</count>
-            <text>press release</text>
         </entity>
     </entities>
 </results>

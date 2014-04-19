@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.899617</relevance>
+            <relevance>0.915339</relevance>
             <count>7</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,8 +28,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Facility</type>
+            <relevance>0.449121</relevance>
+            <count>1</count>
+            <text>Space Station Freedom</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.479351</relevance>
+            <relevance>0.424616</relevance>
             <count>2</count>
             <text>NY Times</text>
             <disambiguated>
@@ -48,7 +54,7 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.402417</relevance>
+            <relevance>0.407369</relevance>
             <count>1</count>
             <text>Dyncorp</text>
             <disambiguated>
@@ -59,7 +65,24 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.368974</relevance>
+            <relevance>0.377869</relevance>
+            <count>1</count>
+            <text>Dyncorp</text>
+            <disambiguated>
+                <name>DynCorp</name>
+                <dbpedia>http://dbpedia.org/resource/DynCorp</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01p3tj</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.377382</relevance>
+            <count>1</count>
+            <text>Deputy Manager Marc Bensimon</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.373926</relevance>
             <count>1</count>
             <text>SPACEHAB</text>
             <disambiguated>
@@ -72,54 +95,43 @@
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.365497</relevance>
-            <count>1</count>
-            <text>Space Station Freedom</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.361068</relevance>
+            <relevance>0.366361</relevance>
             <count>1</count>
             <text>Goddard Space Flight Center</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.353081</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.350043</relevance>
             <count>1</count>
-            <text>Hubble</text>
+            <text>Integrated System</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.346359</relevance>
+            <count>1</count>
+            <text>SPACEHAB</text>
+            <disambiguated>
+                <name>Astrotech Corporation</name>
+                <website>http://www.spacehab.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Astrotech_Corporation</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07qb06</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.350256</relevance>
+            <relevance>0.33366</relevance>
             <count>1</count>
             <text>Space Station</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.341752</relevance>
-            <count>1</count>
-            <text>Deputy Manager Marc Bensimon</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.341233</relevance>
-            <count>1</count>
-            <text>Dyncorp</text>
-            <disambiguated>
-                <name>DynCorp</name>
-                <dbpedia>http://dbpedia.org/resource/DynCorp</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01p3tj</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.321822</relevance>
+            <relevance>0.326312</relevance>
             <count>1</count>
             <text>Centennial</text>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.313527</relevance>
+            <relevance>0.317561</relevance>
             <count>1</count>
             <text>Maryland</text>
             <disambiguated>
@@ -141,43 +153,31 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.309723</relevance>
+            <relevance>0.313956</relevance>
             <count>1</count>
-            <text>SPACEHAB</text>
-            <disambiguated>
-                <name>Astrotech Corporation</name>
-                <website>http://www.spacehab.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Astrotech_Corporation</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07qb06</freebase>
-            </disambiguated>
+            <text>Hubble</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.31212</relevance>
+            <count>1</count>
+            <text>Centennial Contractors</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.297483</relevance>
+            <relevance>0.283467</relevance>
             <count>1</count>
             <text>Technology Committee</text>
         </entity>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.284923</relevance>
-            <count>1</count>
-            <text>Integrated System</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.278454</relevance>
+            <relevance>0.282563</relevance>
             <count>1</count>
             <text>data management</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.277542</relevance>
-            <count>1</count>
-            <text>Centennial Contractors</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.227187</relevance>
+            <relevance>0.216495</relevance>
             <count>1</count>
             <text>The House</text>
         </entity>

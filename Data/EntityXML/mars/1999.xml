@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.78171</relevance>
+            <relevance>0.830598</relevance>
             <count>24</count>
             <text>NASA</text>
             <disambiguated>
@@ -29,61 +29,55 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.624958</relevance>
+            <relevance>0.594781</relevance>
             <count>3</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.44373</relevance>
+            <relevance>0.51164</relevance>
             <count>2</count>
             <text>Mars Polar Lander</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.441517</relevance>
+            <relevance>0.471432</relevance>
             <count>2</count>
             <text>Mars Global Surveyor</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.429406</relevance>
-            <count>1</count>
-            <text>Mars Express</text>
-        </entity>
-        <entity>
             <type>Technology</type>
-            <relevance>0.429058</relevance>
+            <relevance>0.439258</relevance>
             <count>1</count>
             <text>Mars Orbiter Laser Altimeter</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.428496</relevance>
+            <relevance>0.421957</relevance>
             <count>1</count>
             <text>Mars Polar Lander</text>
         </entity>
         <entity>
             <type>Facility</type>
-            <relevance>0.413896</relevance>
+            <relevance>0.414949</relevance>
             <count>1</count>
             <text>Mars Climate Orbiter</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.407343</relevance>
+            <relevance>0.383148</relevance>
             <count>2</count>
             <text>Mars Surveyor Operations Project</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.334052</relevance>
+            <type>Company</type>
+            <relevance>0.336454</relevance>
             <count>1</count>
-            <text>Mars Exploration Directorate</text>
+            <text>Mars Express</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.324565</relevance>
+            <relevance>0.327077</relevance>
             <count>8</count>
             <text>JPL</text>
             <disambiguated>
@@ -98,20 +92,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.255992</relevance>
+            <type>Organization</type>
+            <relevance>0.312537</relevance>
             <count>1</count>
-            <text>Matra Marconi Space</text>
-            <disambiguated>
-                <name>Matra Marconi Space</name>
-                <dbpedia>http://dbpedia.org/resource/Matra_Marconi_Space</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0pz0k</freebase>
-                <yago>http://yago-knowledge.org/resource/Matra_Marconi_Space</yago>
-            </disambiguated>
+            <text>Mars Exploration Directorate</text>
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.245061</relevance>
+            <relevance>0.283554</relevance>
             <count>1</count>
             <text>NASA</text>
             <disambiguated>
@@ -132,8 +120,110 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>JobTitle</type>
+            <relevance>0.23866</relevance>
+            <count>1</count>
+            <text>Global Surveyor</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.22569</relevance>
+            <count>3</count>
+            <text>Roald Amundsen</text>
+            <disambiguated>
+                <name>Roald Amundsen</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/Roald_Amundsen</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06jj7</freebase>
+                <yago>http://yago-knowledge.org/resource/Roald_Amundsen</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.214555</relevance>
+            <count>2</count>
+            <text>James W. Head III</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.213113</relevance>
+            <count>1</count>
+            <text>Malin Space Science Systems</text>
+            <disambiguated>
+                <name>Malin Space Science Systems</name>
+                <dbpedia>http://dbpedia.org/resource/Malin_Space_Science_Systems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.061z0k</freebase>
+                <yago>http://yago-knowledge.org/resource/Malin_Space_Science_Systems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.211239</relevance>
+            <count>4</count>
+            <text>Robert F. Scott</text>
+            <disambiguated>
+                <name>Robert Falcon Scott</name>
+                <subType>ChivalricOrderMember</subType>
+                <dbpedia>http://dbpedia.org/resource/Robert_Falcon_Scott</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06dlh</freebase>
+                <yago>http://yago-knowledge.org/resource/Robert_Falcon_Scott</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.210202</relevance>
+            <count>1</count>
+            <text>Houston Chronicle</text>
+            <disambiguated>
+                <name>Houston Chronicle</name>
+                <subType>Newspaper</subType>
+                <website>http://chron.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
+                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.209267</relevance>
+            <count>1</count>
+            <text>Florida Today</text>
+            <disambiguated>
+                <name>Florida Today</name>
+                <subType>Newspaper</subType>
+                <website>http://floridatoday.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
+                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.205264</relevance>
+            <count>1</count>
+            <text>Matra Marconi Space</text>
+            <disambiguated>
+                <name>Matra Marconi Space</name>
+                <dbpedia>http://dbpedia.org/resource/Matra_Marconi_Space</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0pz0k</freebase>
+                <yago>http://yago-knowledge.org/resource/Matra_Marconi_Space</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.204261</relevance>
+            <count>1</count>
+            <text>solar panels</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.20041</relevance>
+            <count>3</count>
+            <text>Paul Withers</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.240875</relevance>
+            <relevance>0.196134</relevance>
             <count>2</count>
             <text>ESA</text>
             <disambiguated>
@@ -152,100 +242,13 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.228666</relevance>
-            <count>3</count>
-            <text>Roald Amundsen</text>
-            <disambiguated>
-                <name>Roald Amundsen</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/Roald_Amundsen</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06jj7</freebase>
-                <yago>http://yago-knowledge.org/resource/Roald_Amundsen</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.226585</relevance>
+            <relevance>0.19547</relevance>
             <count>1</count>
-            <text>Matra Marconi</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.225183</relevance>
-            <count>1</count>
-            <text>Global Surveyor</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.224935</relevance>
-            <count>1</count>
-            <text>Malin Space Science Systems</text>
-            <disambiguated>
-                <name>Malin Space Science Systems</name>
-                <dbpedia>http://dbpedia.org/resource/Malin_Space_Science_Systems</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.061z0k</freebase>
-                <yago>http://yago-knowledge.org/resource/Malin_Space_Science_Systems</yago>
-            </disambiguated>
+            <text>Mark Carreau</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.218592</relevance>
-            <count>2</count>
-            <text>James W. Head III</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.21407</relevance>
-            <count>4</count>
-            <text>Robert F. Scott</text>
-            <disambiguated>
-                <name>Robert Falcon Scott</name>
-                <subType>ChivalricOrderMember</subType>
-                <dbpedia>http://dbpedia.org/resource/Robert_Falcon_Scott</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06dlh</freebase>
-                <yago>http://yago-knowledge.org/resource/Robert_Falcon_Scott</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.203418</relevance>
-            <count>2</count>
-            <text>Michael C. Malin</text>
-            <disambiguated>
-                <name>Michael C. Malin</name>
-                <subType>AwardWinner</subType>
-                <dbpedia>http://dbpedia.org/resource/Michael_C._Malin</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.027328q</freebase>
-                <yago>http://yago-knowledge.org/resource/Michael_C._Malin</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.20334</relevance>
-            <count>3</count>
-            <text>Paul Withers</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.199493</relevance>
-            <count>1</count>
-            <text>Ancient Ocean Shorelines</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.197838</relevance>
-            <count>3</count>
-            <text>Glenn E. Cunningham</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.193826</relevance>
-            <count>1</count>
-            <text>solar panels</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.189875</relevance>
+            <relevance>0.194188</relevance>
             <count>3</count>
             <text>David E. Smith</text>
             <disambiguated>
@@ -258,60 +261,38 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.189769</relevance>
+            <relevance>0.193919</relevance>
             <count>1</count>
-            <text>William J. Broad</text>
+            <text>Jack Connerney</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.19378</relevance>
+            <count>1</count>
+            <text>Larry Wheeler</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.192773</relevance>
+            <count>2</count>
+            <text>Michael C. Malin</text>
             <disambiguated>
-                <name>William Broad</name>
-                <dbpedia>http://dbpedia.org/resource/William_Broad</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.025z9kp</freebase>
-                <yago>http://yago-knowledge.org/resource/William_Broad</yago>
+                <name>Michael C. Malin</name>
+                <subType>AwardWinner</subType>
+                <dbpedia>http://dbpedia.org/resource/Michael_C._Malin</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.027328q</freebase>
+                <yago>http://yago-knowledge.org/resource/Michael_C._Malin</yago>
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.189241</relevance>
+            <type>Person</type>
+            <relevance>0.190332</relevance>
             <count>1</count>
-            <text>Brown University</text>
-            <disambiguated>
-                <name>Brown University</name>
-                <subType>Company</subType>
-                <subType>PeriodicalPublisher</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>41.826167 -71.40325</geo>
-                <website>http://www.brown.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/Brown_University</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01bm_</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjBf5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Brown_University</yago>
-                <geonames>http://sws.geonames.org/5221119/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.188306</relevance>
-            <count>1</count>
-            <text>Pioneering Polar Explorers</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.186953</relevance>
-            <count>1</count>
-            <text>Tucson</text>
-            <disambiguated>
-                <name>Tucson, Arizona</name>
-                <subType>PlaceWithNeighborhoods</subType>
-                <website>http://www.tucsonaz.gov/</website>
-                <dbpedia>http://dbpedia.org/resource/Tucson,_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0fr0t</freebase>
-                <yago>http://yago-knowledge.org/resource/Tucson,_Arizona</yago>
-                <geonames>http://sws.geonames.org/5318313/</geonames>
-            </disambiguated>
+            <text>Alfred S. McEwen</text>
         </entity>
         <entity>
             <type>PrintMedia</type>
-            <relevance>0.186536</relevance>
+            <relevance>0.190205</relevance>
             <count>1</count>
             <text>Seattle Times</text>
             <disambiguated>
@@ -326,63 +307,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.186492</relevance>
+            <type>Person</type>
+            <relevance>0.189349</relevance>
             <count>1</count>
-            <text>University of Arizona</text>
-            <disambiguated>
-                <name>University of Arizona</name>
-                <subType>Location</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>32.23166666666667 -110.95194444444445</geo>
-                <website>http://www.arizona.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Arizona</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07vyf</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rv1xql5wpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/University_of_Arizona</yago>
-            </disambiguated>
+            <text>William Hartmann</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.186085</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.187936</relevance>
             <count>1</count>
-            <text>New York Times</text>
-            <disambiguated>
-                <name>The New York Times</name>
-                <subType>Organization</subType>
-                <subType>Company</subType>
-                <subType>AwardPresentingOrganization</subType>
-                <subType>AwardWinner</subType>
-                <subType>CompanyShareholder</subType>
-                <subType>Newspaper</subType>
-                <website>http://www.nytimes.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
-                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.185763</relevance>
-            <count>1</count>
-            <text>Flight Operations Manager</text>
-        </entity>
-        <entity>
-            <type>Country</type>
-            <relevance>0.185333</relevance>
-            <count>2</count>
-            <text>Antarctica</text>
+            <text>Ancient Ocean Shorelines</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.183456</relevance>
-            <count>1</count>
-            <text>Jack Connerney</text>
+            <relevance>0.187295</relevance>
+            <count>3</count>
+            <text>Glenn E. Cunningham</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.18233</relevance>
+            <relevance>0.185916</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -402,71 +346,151 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.182292</relevance>
+            <relevance>0.185874</relevance>
+            <count>1</count>
+            <text>William J. Broad</text>
+            <disambiguated>
+                <name>William Broad</name>
+                <dbpedia>http://dbpedia.org/resource/William_Broad</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.025z9kp</freebase>
+                <yago>http://yago-knowledge.org/resource/William_Broad</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.185353</relevance>
+            <count>1</count>
+            <text>Brown University</text>
+            <disambiguated>
+                <name>Brown University</name>
+                <subType>Company</subType>
+                <subType>PeriodicalPublisher</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>41.826167 -71.40325</geo>
+                <website>http://www.brown.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/Brown_University</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01bm_</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjBf5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Brown_University</yago>
+                <geonames>http://sws.geonames.org/5221119/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.185221</relevance>
+            <count>1</count>
+            <text>Pioneering Polar Explorers</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.184449</relevance>
+            <count>1</count>
+            <text>Valles Marineris</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.184214</relevance>
+            <count>1</count>
+            <text>Tucson</text>
+            <disambiguated>
+                <name>Tucson, Arizona</name>
+                <subType>PlaceWithNeighborhoods</subType>
+                <website>http://www.tucsonaz.gov/</website>
+                <dbpedia>http://dbpedia.org/resource/Tucson,_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0fr0t</freebase>
+                <yago>http://yago-knowledge.org/resource/Tucson,_Arizona</yago>
+                <geonames>http://sws.geonames.org/5318313/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.18376</relevance>
+            <count>1</count>
+            <text>University of Arizona</text>
+            <disambiguated>
+                <name>University of Arizona</name>
+                <subType>Location</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>32.23166666666667 -110.95194444444445</geo>
+                <website>http://www.arizona.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Arizona</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07vyf</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rv1xql5wpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/University_of_Arizona</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.182735</relevance>
             <count>1</count>
             <text>Arthur Stephenson</text>
         </entity>
         <entity>
+            <type>Country</type>
+            <relevance>0.18253</relevance>
+            <count>2</count>
+            <text>Antarctica</text>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.182377</relevance>
+            <count>1</count>
+            <text>Crater Counts</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.182086</relevance>
+            <count>1</count>
+            <text>New York Times</text>
+            <disambiguated>
+                <name>The New York Times</name>
+                <subType>Organization</subType>
+                <subType>Company</subType>
+                <subType>AwardPresentingOrganization</subType>
+                <subType>AwardWinner</subType>
+                <subType>CompanyShareholder</subType>
+                <subType>Newspaper</subType>
+                <website>http://www.nytimes.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_New_York_Times</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.07k2d</freebase>
+                <yago>http://yago-knowledge.org/resource/The_New_York_Times</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.182055</relevance>
+            <count>1</count>
+            <text>Rick Callahan</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.179522</relevance>
+            <count>1</count>
+            <text>Matra Marconi</text>
+        </entity>
+        <entity>
             <type>JobTitle</type>
-            <relevance>0.182102</relevance>
+            <relevance>0.179269</relevance>
             <count>1</count>
             <text>Project Manager</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.181996</relevance>
+            <relevance>0.178722</relevance>
             <count>1</count>
-            <text>Principal Investigator</text>
+            <text>Principal Investigator for MOLA</text>
         </entity>
         <entity>
-            <type>PrintMedia</type>
-            <relevance>0.181615</relevance>
+            <type>Facility</type>
+            <relevance>0.177116</relevance>
             <count>1</count>
-            <text>Houston Chronicle</text>
-            <disambiguated>
-                <name>Houston Chronicle</name>
-                <subType>Newspaper</subType>
-                <website>http://chron.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Houston_Chronicle</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01lcyw</freebase>
-                <yago>http://yago-knowledge.org/resource/Houston_Chronicle</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.180839</relevance>
-            <count>1</count>
-            <text>Florida Today</text>
-            <disambiguated>
-                <name>Florida Today</name>
-                <subType>Newspaper</subType>
-                <website>http://floridatoday.com/</website>
-                <dbpedia>http://dbpedia.org/resource/Florida_Today</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.06jjgy</freebase>
-                <yago>http://yago-knowledge.org/resource/Florida_Today</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.178382</relevance>
-            <count>1</count>
-            <text>Rick Callahan</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.176809</relevance>
-            <count>1</count>
-            <text>geologist</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.17647</relevance>
-            <count>1</count>
-            <text>Deputy Director</text>
+            <text>Goddard Space Flight Center</text>
         </entity>
         <entity>
             <type>GeographicFeature</type>
-            <relevance>0.175976</relevance>
+            <relevance>0.176412</relevance>
             <count>1</count>
             <text>Long Island</text>
             <disambiguated>
@@ -479,47 +503,6 @@
                 <freebase>http://rdf.freebase.com/ns/m.04n3l</freebase>
                 <opencyc>http://sw.opencyc.org/concept/Mx4rvps-EZwpEbGdrcN5Y29ycA</opencyc>
             </disambiguated>
-        </entity>
-        <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.175874</relevance>
-            <count>1</count>
-            <text>NY</text>
-            <disambiguated>
-                <name>New York</name>
-                <subType>Location</subType>
-                <subType>PoliticalDistrict</subType>
-                <subType>AdministrativeDivision</subType>
-                <subType>Country</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>USState</subType>
-                <subType>WineRegion</subType>
-                <geo>43.0 -75.0</geo>
-                <website>http://www.ny.gov</website>
-                <dbpedia>http://dbpedia.org/resource/New_York</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01mf5p</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViNs5wpEbGdrcN5Y29ycA</opencyc>
-                <census>http://www.rdfabout.com/rdf/usgov/geo/us/ny</census>
-                <yago>http://yago-knowledge.org/resource/New_York</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.174031</relevance>
-            <count>1</count>
-            <text>Principal Investigator for MOLA</text>
-        </entity>
-        <entity>
-            <type>Facility</type>
-            <relevance>0.173573</relevance>
-            <count>1</count>
-            <text>South Pole</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.172777</relevance>
-            <count>1</count>
-            <text>Richard A. Cook</text>
         </entity>
     </entities>
 </results>

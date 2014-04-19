@@ -7,14 +7,14 @@
     <entities>
         <entity>
             <type>Technology</type>
-            <relevance>0.918096</relevance>
+            <relevance>0.913754</relevance>
             <count>27</count>
             <text>Mars</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.612431</relevance>
-            <count>22</count>
+            <relevance>0.588519</relevance>
+            <count>23</count>
             <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
@@ -35,7 +35,7 @@
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.327954</relevance>
+            <relevance>0.325797</relevance>
             <count>8</count>
             <text>U.S.S.R.</text>
             <disambiguated>
@@ -49,8 +49,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.318822</relevance>
+            <count>1</count>
+            <text>Mars chasm</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.286494</relevance>
+            <relevance>0.252207</relevance>
             <count>5</count>
             <text>NYT</text>
             <disambiguated>
@@ -68,32 +74,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.253219</relevance>
-            <count>1</count>
-            <text>Mars chasm</text>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.235053</relevance>
+            <relevance>0.236155</relevance>
             <count>3</count>
             <text>Tass</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.231062</relevance>
-            <count>3</count>
-            <text>Tass</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.225172</relevance>
-            <count>3</count>
-            <text>carbon dioxide</text>
         </entity>
         <entity>
             <type>Country</type>
-            <relevance>0.19877</relevance>
+            <relevance>0.204996</relevance>
             <count>3</count>
             <text>U.S.</text>
             <disambiguated>
@@ -112,31 +100,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.193178</relevance>
-            <count>2</count>
-            <text>solar system</text>
+            <type>Organization</type>
+            <relevance>0.20187</relevance>
+            <count>3</count>
+            <text>Tass</text>
         </entity>
         <entity>
-            <type>Facility</type>
-            <relevance>0.190477</relevance>
+            <type>GeographicFeature</type>
+            <relevance>0.199322</relevance>
             <count>1</count>
-            <text>Kennedy Space Center</text>
-            <disambiguated>
-                <name>Kennedy Space Center</name>
-                <subType>Location</subType>
-                <subType>Spaceport</subType>
-                <subType>Building</subType>
-                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
-                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
-            </disambiguated>
+            <text>Asteroid Belt</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.189087</relevance>
+            <relevance>0.192502</relevance>
+            <count>2</count>
+            <text>Wilford</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.187767</relevance>
             <count>2</count>
             <text>Harold Masursky</text>
             <disambiguated>
@@ -148,20 +131,38 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.182327</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.185147</relevance>
             <count>2</count>
-            <text>Dr. Immanuel Velikovsky</text>
+            <text>solar system</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.179486</relevance>
+            <count>2</count>
+            <text>Moscow</text>
             <disambiguated>
-                <name>Immanuel Velikovsky</name>
-                <dbpedia>http://dbpedia.org/resource/Immanuel_Velikovsky</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01f5by</freebase>
-                <yago>http://yago-knowledge.org/resource/Immanuel_Velikovsky</yago>
+                <name>Moscow</name>
+                <subType>AdministrativeDivision</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>AwardWinner</subType>
+                <website>http://www.mos.ru</website>
+                <dbpedia>http://dbpedia.org/resource/Moscow</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swd</freebase>
+                <yago>http://yago-knowledge.org/resource/Moscow</yago>
+                <geonames>http://sws.geonames.org/524901/</geonames>
             </disambiguated>
         </entity>
         <entity>
             <type>StateOrCounty</type>
-            <relevance>0.176493</relevance>
+            <relevance>0.176731</relevance>
+            <count>2</count>
+            <text>Calif</text>
+        </entity>
+        <entity>
+            <type>StateOrCounty</type>
+            <relevance>0.172937</relevance>
             <count>1</count>
             <text>Alaska</text>
             <disambiguated>
@@ -180,14 +181,25 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.17513</relevance>
-            <count>2</count>
-            <text>Wilford</text>
+            <type>Facility</type>
+            <relevance>0.171091</relevance>
+            <count>1</count>
+            <text>Kennedy Space Center</text>
+            <disambiguated>
+                <name>Kennedy Space Center</name>
+                <subType>Location</subType>
+                <subType>Spaceport</subType>
+                <subType>Building</subType>
+                <website>http://www.nasa.gov/centers/kennedy/home/index.html</website>
+                <dbpedia>http://dbpedia.org/resource/Kennedy_Space_Center</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.045z8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQwuPZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Kennedy_Space_Center</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.17174</relevance>
+            <relevance>0.170965</relevance>
             <count>1</count>
             <text>Tass</text>
             <disambiguated>
@@ -198,20 +210,73 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>City</type>
-            <relevance>0.171512</relevance>
+            <type>FieldTerminology</type>
+            <relevance>0.170739</relevance>
+            <count>3</count>
+            <text>carbon dioxide</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.169884</relevance>
             <count>2</count>
-            <text>Moscow</text>
+            <text>Dr. Immanuel Velikovsky</text>
+            <disambiguated>
+                <name>Immanuel Velikovsky</name>
+                <dbpedia>http://dbpedia.org/resource/Immanuel_Velikovsky</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01f5by</freebase>
+                <yago>http://yago-knowledge.org/resource/Immanuel_Velikovsky</yago>
+            </disambiguated>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.167133</relevance>
+            <relevance>0.169646</relevance>
             <count>1</count>
-            <text>65&#xB0;</text>
+            <text>LA</text>
+            <disambiguated>
+                <name>Los Angeles</name>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>OlympicBiddingCity</subType>
+                <subType>OlympicHostCity</subType>
+                <subType>PlaceWithNeighborhoods</subType>
+                <subType>FilmScreeningVenue</subType>
+                <geo>34.05 -118.25</geo>
+                <website>http://www.lacity.org/</website>
+                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+            </disambiguated>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.166835</relevance>
+            <relevance>0.167649</relevance>
+            <count>1</count>
+            <text>frc</text>
+            <disambiguated>
+                <name>Federal Radio Commission</name>
+                <subType>GovernmentAgency</subType>
+                <dbpedia>http://dbpedia.org/resource/Federal_Radio_Commission</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0gsrd</freebase>
+                <yago>http://yago-knowledge.org/resource/Federal_Radio_Commission</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.164541</relevance>
+            <count>1</count>
+            <text>Jet Propulsion Laboratory</text>
+            <disambiguated>
+                <name>Jet Propulsion Laboratory</name>
+                <subType>Location</subType>
+                <subType>Facility</subType>
+                <website>http://www.jpl.nasa.gov</website>
+                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
+                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
+                <geonames>http://sws.geonames.org/5332811/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.16367</relevance>
             <count>1</count>
             <text>Massachusetts Institute of Technology</text>
             <disambiguated>
@@ -234,36 +299,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>StateOrCounty</type>
-            <relevance>0.165409</relevance>
-            <count>2</count>
-            <text>Calif</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.16531</relevance>
-            <count>1</count>
-            <text>Jet Propulsion Laboratory</text>
-            <disambiguated>
-                <name>Jet Propulsion Laboratory</name>
-                <subType>Location</subType>
-                <subType>Facility</subType>
-                <website>http://www.jpl.nasa.gov</website>
-                <dbpedia>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0467p</freebase>
-                <yago>http://yago-knowledge.org/resource/Jet_Propulsion_Laboratory</yago>
-                <geonames>http://sws.geonames.org/5332811/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.162892</relevance>
-            <count>1</count>
-            <text>Soviet Academy of Sciences Institute of Space Studies</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.161925</relevance>
+            <relevance>0.161162</relevance>
             <count>1</count>
             <text>Institute of High Energy Physics</text>
             <disambiguated>
@@ -275,38 +312,34 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.161301</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.160635</relevance>
             <count>1</count>
-            <text>Asteroid Belt</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.160824</relevance>
-            <count>1</count>
-            <text>Anatoly A. Blagonravov</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.157828</relevance>
-            <count>1</count>
-            <text>LA</text>
+            <text>Washington Post</text>
             <disambiguated>
-                <name>Los Angeles</name>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>OlympicBiddingCity</subType>
-                <subType>OlympicHostCity</subType>
-                <subType>PlaceWithNeighborhoods</subType>
-                <subType>FilmScreeningVenue</subType>
-                <geo>34.05 -118.25</geo>
-                <website>http://www.lacity.org/</website>
-                <dbpedia>http://dbpedia.org/resource/Los_Angeles</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.030qb3t</freebase>
+                <name>The Washington Post</name>
+                <subType>Newspaper</subType>
+                <website>http://www.washingtonpost.com</website>
+                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
+                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.160633</relevance>
+            <count>1</count>
+            <text>Automatic Microbiological Laboratory</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.159499</relevance>
+            <count>1</count>
+            <text>cataclysms</text>
+        </entity>
+        <entity>
             <type>Facility</type>
-            <relevance>0.157422</relevance>
+            <relevance>0.156655</relevance>
             <count>1</count>
             <text>Goldstone Tracking Station</text>
             <disambiguated>
@@ -320,73 +353,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>OperatingSystem</type>
-            <relevance>0.156852</relevance>
-            <count>1</count>
-            <text>windows</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.151131</relevance>
-            <count>1</count>
-            <text>frc</text>
-            <disambiguated>
-                <name>Federal Radio Commission</name>
-                <subType>GovernmentAgency</subType>
-                <dbpedia>http://dbpedia.org/resource/Federal_Radio_Commission</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0gsrd</freebase>
-                <yago>http://yago-knowledge.org/resource/Federal_Radio_Commission</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.148096</relevance>
-            <count>1</count>
-            <text>Automatic Microbiological Laboratory</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.147786</relevance>
-            <count>1</count>
-            <text>cataclysms</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.147579</relevance>
-            <count>1</count>
-            <text>Washington Post</text>
-            <disambiguated>
-                <name>The Washington Post</name>
-                <subType>Newspaper</subType>
-                <website>http://www.washingtonpost.com</website>
-                <dbpedia>http://dbpedia.org/resource/The_Washington_Post</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0px38</freebase>
-                <yago>http://yago-knowledge.org/resource/The_Washington_Post</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>City</type>
-            <relevance>0.146335</relevance>
-            <count>1</count>
-            <text>Serpukhov</text>
-            <disambiguated>
-                <name>Serpukhov</name>
-                <website>http://serpuhov.ru/</website>
-                <dbpedia>http://dbpedia.org/resource/Serpukhov</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02167x</freebase>
-                <yago>http://yago-knowledge.org/resource/Serpukhov</yago>
-                <geonames>http://sws.geonames.org/496527/</geonames>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.144929</relevance>
-            <count>1</count>
-            <text>U.S.S.R.&#x2019;s Radio Physics Institute</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.143656</relevance>
+            <relevance>0.154406</relevance>
             <count>1</count>
             <text>El Centro</text>
             <disambiguated>
@@ -400,57 +368,101 @@
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.14251</relevance>
+            <relevance>0.15411</relevance>
             <count>1</count>
-            <text>Izvestia</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.141752</relevance>
-            <count>1</count>
-            <text>Holden</text>
-        </entity>
-        <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.138978</relevance>
-            <count>1</count>
-            <text>Old Testament</text>
+            <text>65&#xB0;</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.138731</relevance>
+            <relevance>0.153436</relevance>
             <count>1</count>
             <text>Ames Research Center&#x2019;s Biotechnology and Planetary Biology</text>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.150564</relevance>
+            <count>1</count>
+            <text>Old Testament</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.147644</relevance>
+            <count>1</count>
+            <text>Anatoly A. Blagonravov</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.136024</relevance>
+            <relevance>0.147341</relevance>
             <count>1</count>
             <text>Defense Joint Parachute Test Facility</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.135341</relevance>
-            <count>1</count>
-            <text>V. Moroz</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.131607</relevance>
+            <relevance>0.147043</relevance>
             <count>1</count>
             <text>Leninskoye Znamya</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.131361</relevance>
+            <relevance>0.145577</relevance>
+            <count>1</count>
+            <text>Serpukhov</text>
+            <disambiguated>
+                <name>Serpukhov</name>
+                <website>http://serpuhov.ru/</website>
+                <dbpedia>http://dbpedia.org/resource/Serpukhov</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02167x</freebase>
+                <yago>http://yago-knowledge.org/resource/Serpukhov</yago>
+                <geonames>http://sws.geonames.org/496527/</geonames>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>OperatingSystem</type>
+            <relevance>0.143993</relevance>
+            <count>1</count>
+            <text>windows</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.143257</relevance>
+            <count>1</count>
+            <text>Izvestia</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.142933</relevance>
             <count>1</count>
             <text>San Jose</text>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.142013</relevance>
+            <count>1</count>
+            <text>U.S.S.R.&#x2019;s Radio Physics Institute</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.140796</relevance>
+            <count>1</count>
+            <text>Soviet Academy of Sciences Institute of Space Studies</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.128055</relevance>
+            <relevance>0.136088</relevance>
+            <count>1</count>
+            <text>V. Moroz</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.128802</relevance>
             <count>1</count>
             <text>L. Ksanfomaliti</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.128508</relevance>
+            <count>1</count>
+            <text>Holden</text>
         </entity>
     </entities>
 </results>

@@ -7,21 +7,15 @@
     <entities>
         <entity>
             <type>FieldTerminology</type>
-            <relevance>0.808774</relevance>
+            <relevance>0.757743</relevance>
             <count>2</count>
             <text>nuclear energy</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.664031</relevance>
-            <count>1</count>
-            <text>Space Program</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.614391</relevance>
+            <relevance>0.637415</relevance>
             <count>2</count>
-            <text>nasa</text>
+            <text>NASA</text>
             <disambiguated>
                 <name>NASA</name>
                 <subType>Company</subType>
@@ -40,8 +34,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.605047</relevance>
+            <count>1</count>
+            <text>Space Program</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.586159</relevance>
+            <relevance>0.538901</relevance>
             <count>1</count>
             <text>American Nuclear Society</text>
             <disambiguated>
@@ -54,8 +54,8 @@
         </entity>
         <entity>
             <type>Company</type>
-            <relevance>0.564478</relevance>
-            <count>2</count>
+            <relevance>0.507073</relevance>
+            <count>1</count>
             <text>Boeing Co.</text>
             <disambiguated>
                 <name>Boeing</name>
@@ -73,19 +73,39 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.506188</relevance>
-            <count>1</count>
-            <text>NASA Associate Administrator for Advanced Research</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.478946</relevance>
+            <relevance>0.503587</relevance>
             <count>1</count>
             <text>msfc Director</text>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.502761</relevance>
+            <count>1</count>
+            <text>Boeing</text>
+            <disambiguated>
+                <name>Spirit AeroSystems</name>
+                <subType>AircraftManufacturer</subType>
+                <website>http://www.spiritaero.com/</website>
+                <dbpedia>http://dbpedia.org/resource/Spirit_AeroSystems</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.08dd2d</freebase>
+                <yago>http://yago-knowledge.org/resource/Spirit_AeroSystems</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.493893</relevance>
+            <count>1</count>
+            <text>NASA Associate Administrator for Advanced Research</text>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.441138</relevance>
+            <relevance>0.488316</relevance>
+            <count>1</count>
+            <text>Raymond Loewy/William Snaith</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.461462</relevance>
             <count>1</count>
             <text>Dr. Wernher von Braun</text>
             <disambiguated>
@@ -102,14 +122,47 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.440284</relevance>
+            <type>Company</type>
+            <relevance>0.418678</relevance>
             <count>1</count>
-            <text>Raymond Loewy/William Snaith</text>
+            <text>Reuters</text>
+            <disambiguated>
+                <name>Reuters</name>
+                <website>http://www.reuters.com</website>
+                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
+                <yago>http://yago-knowledge.org/resource/Reuters</yago>
+                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>FieldTerminology</type>
+            <relevance>0.412948</relevance>
+            <count>1</count>
+            <text>power systems</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.404693</relevance>
+            <count>1</count>
+            <text>James M. Beggs</text>
+            <disambiguated>
+                <name>James M. Beggs</name>
+                <subType>MilitaryPerson</subType>
+                <dbpedia>http://dbpedia.org/resource/James_M._Beggs</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02lj25</freebase>
+                <yago>http://yago-knowledge.org/resource/James_M._Beggs</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.39764</relevance>
+            <count>1</count>
+            <text>Research and Technology</text>
         </entity>
         <entity>
             <type>City</type>
-            <relevance>0.425355</relevance>
+            <relevance>0.391034</relevance>
             <count>1</count>
             <text>Washington</text>
             <disambiguated>
@@ -128,46 +181,19 @@
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.422984</relevance>
+            <relevance>0.385349</relevance>
             <count>1</count>
             <text>Executive Secretary</text>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.42236</relevance>
-            <count>1</count>
-            <text>Reuters</text>
-            <disambiguated>
-                <name>Reuters</name>
-                <website>http://www.reuters.com</website>
-                <dbpedia>http://dbpedia.org/resource/Reuters</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0ps53</freebase>
-                <yago>http://yago-knowledge.org/resource/Reuters</yago>
-                <crunchbase>http://www.crunchbase.com/company/reuters</crunchbase>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Person</type>
-            <relevance>0.417381</relevance>
+            <relevance>0.380273</relevance>
             <count>1</count>
             <text>Dr. Edward C. Welsh</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.414417</relevance>
-            <count>1</count>
-            <text>James M. Beggs</text>
-            <disambiguated>
-                <name>James M. Beggs</name>
-                <subType>MilitaryPerson</subType>
-                <dbpedia>http://dbpedia.org/resource/James_M._Beggs</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02lj25</freebase>
-                <yago>http://yago-knowledge.org/resource/James_M._Beggs</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.413076</relevance>
+            <relevance>0.379718</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -186,26 +212,14 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>JobTitle</type>
-            <relevance>0.407942</relevance>
-            <count>1</count>
-            <text>Research and Technology</text>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.400899</relevance>
+            <relevance>0.365948</relevance>
             <count>1</count>
             <text>solar system</text>
         </entity>
         <entity>
-            <type>FieldTerminology</type>
-            <relevance>0.392704</relevance>
-            <count>1</count>
-            <text>power systems</text>
-        </entity>
-        <entity>
             <type>StateOrCounty</type>
-            <relevance>0.388316</relevance>
+            <relevance>0.354959</relevance>
             <count>1</count>
             <text>D.C.</text>
         </entity>

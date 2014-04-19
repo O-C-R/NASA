@@ -6,8 +6,25 @@
     <language>english</language>
     <entities>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.856167</relevance>
+            <count>4</count>
+            <text>Nile River</text>
+            <disambiguated>
+                <name>Nile</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <subType>River</subType>
+                <geo>-2.2822 29.3312</geo>
+                <dbpedia>http://dbpedia.org/resource/Nile</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.05b5w</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi1xpwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Nile</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.792294</relevance>
+            <relevance>0.823157</relevance>
             <count>8</count>
             <text>NASA</text>
             <disambiguated>
@@ -28,31 +45,26 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.705593</relevance>
-            <count>4</count>
-            <text>Nile River</text>
-            <disambiguated>
-                <name>Nile</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <subType>River</subType>
-                <geo>-2.2822 29.3312</geo>
-                <dbpedia>http://dbpedia.org/resource/Nile</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.05b5w</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVi1xpwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Nile</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>FieldTerminology</type>
-            <relevance>0.515089</relevance>
+            <relevance>0.63351</relevance>
             <count>1</count>
             <text>satellite system</text>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.430705</relevance>
+            <count>2</count>
+            <text>Great Bend</text>
+        </entity>
+        <entity>
             <type>Organization</type>
-            <relevance>0.358236</relevance>
+            <relevance>0.430013</relevance>
+            <count>1</count>
+            <text>Spaceborne Imaging Radar</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.389392</relevance>
             <count>2</count>
             <text>GSFC</text>
             <disambiguated>
@@ -69,33 +81,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.355189</relevance>
-            <count>1</count>
-            <text>Spaceborne Imaging Radar</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.354349</relevance>
-            <count>2</count>
-            <text>Great Bend</text>
-        </entity>
-        <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.317702</relevance>
-            <count>1</count>
-            <text>Sahara Desert</text>
-            <disambiguated>
-                <name>Sahara</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Sahara</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.01w1vt</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rwQCEnJwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Sahara</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.299397</relevance>
+            <relevance>0.36302</relevance>
             <count>3</count>
             <text>JPL</text>
             <disambiguated>
@@ -110,67 +96,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Country</type>
-            <relevance>0.294444</relevance>
-            <count>1</count>
-            <text>Sudan</text>
-            <disambiguated>
-                <name>Sudan</name>
-                <subType>Location</subType>
-                <subType>GovernmentalJurisdiction</subType>
-                <subType>BoardMember</subType>
-                <geo>15.633055555555556 32.533055555555556</geo>
-                <website>http://www.sudan.gov.sd/en</website>
-                <dbpedia>http://dbpedia.org/resource/Sudan</dbpedia>
-                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sudan</ciaFactbook>
-                <freebase>http://rdf.freebase.com/ns/m.06tw8</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvViKUZwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Sudan</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.286034</relevance>
-            <count>1</count>
-            <text>Dallas</text>
-            <disambiguated>
-                <name>Dallas</name>
-                <website>http://www.dallascityhall.com</website>
-                <dbpedia>http://dbpedia.org/resource/Dallas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0f2rq</freebase>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Continent</type>
-            <relevance>0.283474</relevance>
-            <count>1</count>
-            <text>Africa</text>
-            <disambiguated>
-                <name>Africa</name>
-                <subType>Location</subType>
-                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
-                <yago>http://yago-knowledge.org/resource/Africa</yago>
-            </disambiguated>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.282116</relevance>
-            <count>1</count>
-            <text>University of Texas</text>
-            <disambiguated>
-                <name>University of Texas at Dallas</name>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <website>http://www.utdallas.edu/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_Texas_at_Dallas</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.02mt2n</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_Texas_at_Dallas</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.272983</relevance>
+            <relevance>0.36085</relevance>
             <count>1</count>
             <text>European Space Agency</text>
             <disambiguated>
@@ -188,42 +115,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>GeographicFeature</type>
-            <relevance>0.271047</relevance>
-            <count>1</count>
-            <text>Mediterranean Sea</text>
-            <disambiguated>
-                <name>Mediterranean Sea</name>
-                <subType>Location</subType>
-                <subType>BodyOfWater</subType>
-                <geo>35.0 18.0</geo>
-                <dbpedia>http://dbpedia.org/resource/Mediterranean_Sea</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.04swx</freebase>
-                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjs6pwpEbGdrcN5Y29ycA</opencyc>
-                <yago>http://yago-knowledge.org/resource/Mediterranean_Sea</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.263918</relevance>
-            <count>1</count>
-            <text>Science magazine</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.249851</relevance>
-            <count>1</count>
-            <text>Diane L. Evans</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.24004</relevance>
-            <count>1</count>
-            <text>International Ultraviolet Explorer</text>
-        </entity>
-        <entity>
             <type>Country</type>
-            <relevance>0.234268</relevance>
+            <relevance>0.359283</relevance>
             <count>1</count>
             <text>U.S.</text>
             <disambiguated>
@@ -242,34 +135,141 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.355714</relevance>
+            <count>1</count>
+            <text>Sahara Desert</text>
+            <disambiguated>
+                <name>Sahara</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Sahara</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.01w1vt</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rwQCEnJwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Sahara</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Country</type>
+            <relevance>0.330692</relevance>
+            <count>1</count>
+            <text>Sudan</text>
+            <disambiguated>
+                <name>Sudan</name>
+                <subType>Location</subType>
+                <subType>GovernmentalJurisdiction</subType>
+                <subType>BoardMember</subType>
+                <geo>15.633055555555556 32.533055555555556</geo>
+                <website>http://www.sudan.gov.sd/en</website>
+                <dbpedia>http://dbpedia.org/resource/Sudan</dbpedia>
+                <ciaFactbook>http://www4.wiwiss.fu-berlin.de/factbook/resource/Sudan</ciaFactbook>
+                <freebase>http://rdf.freebase.com/ns/m.06tw8</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvViKUZwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Sudan</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>GeographicFeature</type>
+            <relevance>0.328473</relevance>
+            <count>1</count>
+            <text>Mediterranean Sea</text>
+            <disambiguated>
+                <name>Mediterranean Sea</name>
+                <subType>Location</subType>
+                <subType>BodyOfWater</subType>
+                <geo>35.0 18.0</geo>
+                <dbpedia>http://dbpedia.org/resource/Mediterranean_Sea</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.04swx</freebase>
+                <opencyc>http://sw.opencyc.org/concept/Mx4rvVjs6pwpEbGdrcN5Y29ycA</opencyc>
+                <yago>http://yago-knowledge.org/resource/Mediterranean_Sea</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.321674</relevance>
+            <count>1</count>
+            <text>Dallas</text>
+            <disambiguated>
+                <name>Dallas</name>
+                <website>http://www.dallascityhall.com</website>
+                <dbpedia>http://dbpedia.org/resource/Dallas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0f2rq</freebase>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Continent</type>
+            <relevance>0.318725</relevance>
+            <count>1</count>
+            <text>Africa</text>
+            <disambiguated>
+                <name>Africa</name>
+                <subType>Location</subType>
+                <dbpedia>http://dbpedia.org/resource/Africa</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.0dg3n1</freebase>
+                <yago>http://yago-knowledge.org/resource/Africa</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.304447</relevance>
+            <count>1</count>
+            <text>University of Texas</text>
+            <disambiguated>
+                <name>University of Texas at Dallas</name>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <website>http://www.utdallas.edu/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_Texas_at_Dallas</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.02mt2n</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_Texas_at_Dallas</yago>
+            </disambiguated>
+        </entity>
+        <entity>
             <type>Person</type>
-            <relevance>0.232004</relevance>
+            <relevance>0.301665</relevance>
             <count>1</count>
-            <text>Mohamed Gamal</text>
+            <text>Diane L. Evans</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.292627</relevance>
+            <count>1</count>
+            <text>Science magazine</text>
         </entity>
         <entity>
             <type>JobTitle</type>
-            <relevance>0.22366</relevance>
-            <count>1</count>
-            <text>Project Manager</text>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.219086</relevance>
+            <relevance>0.291229</relevance>
             <count>1</count>
             <text>Astronomy Research Council</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.213825</relevance>
+            <type>PrintMedia</type>
+            <relevance>0.2893</relevance>
             <count>1</count>
-            <text>Robert J. Stern</text>
+            <text>International Ultraviolet Explorer</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.278443</relevance>
+            <count>1</count>
+            <text>Mohamed Gamal</text>
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.205243</relevance>
+            <relevance>0.272842</relevance>
             <count>1</count>
             <text>United Kingdom</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.269581</relevance>
+            <count>1</count>
+            <text>Project Manager</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.257169</relevance>
+            <count>1</count>
+            <text>Robert J. Stern</text>
         </entity>
     </entities>
 </results>

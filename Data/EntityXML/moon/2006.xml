@@ -7,7 +7,7 @@
     <entities>
         <entity>
             <type>Organization</type>
-            <relevance>0.930741</relevance>
+            <relevance>0.938943</relevance>
             <count>4</count>
             <text>ESA</text>
             <disambiguated>
@@ -26,7 +26,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.909708</relevance>
+            <relevance>0.765622</relevance>
             <count>5</count>
             <text>NASA</text>
             <disambiguated>
@@ -48,37 +48,55 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.623774</relevance>
+            <relevance>0.529352</relevance>
             <count>2</count>
             <text>Imke de Pater</text>
         </entity>
         <entity>
+            <type>Person</type>
+            <relevance>0.487749</relevance>
+            <count>1</count>
+            <text>Harvey B. Richer</text>
+        </entity>
+        <entity>
+            <type>Organization</type>
+            <relevance>0.482188</relevance>
+            <count>1</count>
+            <text>University of British Columbia</text>
+            <disambiguated>
+                <name>University of British Columbia</name>
+                <subType>Location</subType>
+                <subType>Neighborhood</subType>
+                <subType>CollegeUniversity</subType>
+                <subType>University</subType>
+                <geo>49.266666666666666 -123.25</geo>
+                <website>http://www.ubc.ca/</website>
+                <dbpedia>http://dbpedia.org/resource/University_of_British_Columbia</dbpedia>
+                <freebase>http://rdf.freebase.com/ns/m.017cy9</freebase>
+                <yago>http://yago-knowledge.org/resource/University_of_British_Columbia</yago>
+            </disambiguated>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.468747</relevance>
+            <count>2</count>
+            <text>Nix</text>
+        </entity>
+        <entity>
             <type>Company</type>
-            <relevance>0.551502</relevance>
+            <relevance>0.466078</relevance>
+            <count>1</count>
+            <text>Nix</text>
+        </entity>
+        <entity>
+            <type>Company</type>
+            <relevance>0.465272</relevance>
             <count>2</count>
             <text>New Horizons</text>
         </entity>
         <entity>
-            <type>Person</type>
-            <relevance>0.512554</relevance>
-            <count>1</count>
-            <text>Matthew S. Tiscareno</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.481528</relevance>
-            <count>2</count>
-            <text>Nix</text>
-        </entity>
-        <entity>
-            <type>Company</type>
-            <relevance>0.478693</relevance>
-            <count>1</count>
-            <text>Nix</text>
-        </entity>
-        <entity>
             <type>Organization</type>
-            <relevance>0.465849</relevance>
+            <relevance>0.454689</relevance>
             <count>2</count>
             <text>International Astronomical Union</text>
             <disambiguated>
@@ -89,8 +107,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Organization</type>
+            <relevance>0.424591</relevance>
+            <count>1</count>
+            <text>Lake of Excellence</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.434814</relevance>
+            <relevance>0.42278</relevance>
             <count>1</count>
             <text>New York Times</text>
             <disambiguated>
@@ -108,14 +132,8 @@
             </disambiguated>
         </entity>
         <entity>
-            <type>Company</type>
-            <relevance>0.429295</relevance>
-            <count>1</count>
-            <text>Orion Crew Exploration Vehicle Prime Contractor</text>
-        </entity>
-        <entity>
             <type>Continent</type>
-            <relevance>0.42862</relevance>
+            <relevance>0.41655</relevance>
             <count>1</count>
             <text>Europe</text>
             <disambiguated>
@@ -126,8 +144,14 @@
             </disambiguated>
         </entity>
         <entity>
+            <type>Company</type>
+            <relevance>0.415667</relevance>
+            <count>1</count>
+            <text>Orion Crew Exploration Vehicle Prime Contractor</text>
+        </entity>
+        <entity>
             <type>PrintMedia</type>
-            <relevance>0.425532</relevance>
+            <relevance>0.413047</relevance>
             <count>1</count>
             <text>Daily Telegraph</text>
             <disambiguated>
@@ -141,7 +165,7 @@
         </entity>
         <entity>
             <type>Organization</type>
-            <relevance>0.420882</relevance>
+            <relevance>0.40888</relevance>
             <count>1</count>
             <text>University of California</text>
             <disambiguated>
@@ -152,73 +176,49 @@
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.413845</relevance>
+            <relevance>0.401564</relevance>
             <count>1</count>
             <text>Robert Sanders</text>
         </entity>
         <entity>
-            <type>Organization</type>
-            <relevance>0.410995</relevance>
-            <count>1</count>
-            <text>Lake of Excellence</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.401665</relevance>
-            <count>1</count>
-            <text>Harvey B. Richer</text>
-        </entity>
-        <entity>
-            <type>Person</type>
-            <relevance>0.400255</relevance>
-            <count>1</count>
-            <text>Nic Fleming</text>
-        </entity>
-        <entity>
-            <type>Organization</type>
-            <relevance>0.400088</relevance>
-            <count>1</count>
-            <text>University of British Columbia</text>
-            <disambiguated>
-                <name>University of British Columbia</name>
-                <subType>Location</subType>
-                <subType>Neighborhood</subType>
-                <subType>CollegeUniversity</subType>
-                <subType>University</subType>
-                <geo>49.266666666666666 -123.25</geo>
-                <website>http://www.ubc.ca/</website>
-                <dbpedia>http://dbpedia.org/resource/University_of_British_Columbia</dbpedia>
-                <freebase>http://rdf.freebase.com/ns/m.017cy9</freebase>
-                <yago>http://yago-knowledge.org/resource/University_of_British_Columbia</yago>
-            </disambiguated>
-        </entity>
-        <entity>
-            <type>JobTitle</type>
-            <relevance>0.397304</relevance>
-            <count>1</count>
-            <text>official</text>
-        </entity>
-        <entity>
-            <type>PrintMedia</type>
-            <relevance>0.396009</relevance>
-            <count>1</count>
-            <text>Berkeley press</text>
-        </entity>
-        <entity>
-            <type>City</type>
-            <relevance>0.393502</relevance>
-            <count>1</count>
-            <text>London</text>
-        </entity>
-        <entity>
             <type>Company</type>
-            <relevance>0.383488</relevance>
+            <relevance>0.396916</relevance>
             <count>1</count>
             <text>Advanced Research</text>
         </entity>
         <entity>
             <type>Person</type>
-            <relevance>0.375195</relevance>
+            <relevance>0.387481</relevance>
+            <count>1</count>
+            <text>Nic Fleming</text>
+        </entity>
+        <entity>
+            <type>JobTitle</type>
+            <relevance>0.386581</relevance>
+            <count>1</count>
+            <text>official</text>
+        </entity>
+        <entity>
+            <type>PrintMedia</type>
+            <relevance>0.383728</relevance>
+            <count>1</count>
+            <text>Berkeley press</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.38259</relevance>
+            <count>1</count>
+            <text>Matthew S. Tiscareno</text>
+        </entity>
+        <entity>
+            <type>City</type>
+            <relevance>0.381458</relevance>
+            <count>1</count>
+            <text>London</text>
+        </entity>
+        <entity>
+            <type>Person</type>
+            <relevance>0.363863</relevance>
             <count>1</count>
             <text>Kenneth Chang</text>
         </entity>
