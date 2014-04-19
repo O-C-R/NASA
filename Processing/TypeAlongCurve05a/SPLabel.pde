@@ -110,7 +110,7 @@ class SpLabel {
 
     makeOrderedLists(this, distributionType);
 
-    println("done making divisions");
+    println("done making divisions for splabel " + bucketName);
   } // end blendSPLabelSplinesVertically 
 
 
@@ -118,25 +118,53 @@ class SpLabel {
 
   // TO DO FUNCTIONS
   //
-  public Label makeCharLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
-    return makeLabel(label, textAlign, targetDistance, wiggleRoom, s, false, true);
+  public Label makeCharLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, false, true);
   } // end makeCharLabel
 
   //
   // unfinished
-  public Label makeStraightLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
-    return makeLabel(label, textAlign, targetDistance, wiggleRoom, s, true, false);
+  public Label makeStraightLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, true, false);
   } // end makeStrighLabel 
 
   //
-  private Label makeLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+  private Label makeLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+    //println("in makeLabel for label: " + label + " at targetDistance: " + targetDistance + " and align: " + textAlign);
+    Label newLabel = new Label(label, textAlign, labelAlignVertical);
+    boolean validLabel = false;
+
+    if (!varySize) {
+    }
+    // or do the character assignment if !straightText and varySize
+    else {
+      //newLabel.assignSplineAndLocation(s, buddySplineTop, buddySplineBottom, (targetDistance / s.totalDistance));
+      newLabel.assignSplineAndLocation(s, (targetDistance / s.totalDistance));
+      newLabel.makeLetters(-1); // -1 for variable sizing
+      validLabel = true;
+    }
+
+    //if it is the middle line and skipMiddleLine is on, then return null
+    if (isMiddleSpLabel && skipMiddleLine) {
+      // check the curve points to see about equality since when they are read in they are separate obects
+      int sameCount = 0; // tally similar points
+      int minSameCount = 5; // thresh for determining same spline
+      for (int i = 0; i < minSameCount; i++) {
+        if (!s.useUpHeight) break; // skip out if its going down anyways because the middle one will be going up
+        if (s.curvePoints.get(i).x == middleMain.get(1).curvePoints.get(i).x && s.curvePoints.get(i).y == middleMain.get(1).curvePoints.get(i).y) {
+          sameCount++;
+        }
+      }
+      if (sameCount == minSameCount) {
+        validLabel = false;
+      }
+    }
+
+    if (validLabel) return newLabel;
+    else return null;
+
     /*
-    // if it is the middle line and skipMiddleLine is on, then return null
-     if (isMiddleSpLabel && skipMiddleLine && middleSplines.size() > 0) {
-     if (s == middleSplines.get(floor((float)middleSplines.size() / 2))) {
-     return null;
-     }
-     }
+    //
      
      Label newLabel = new Label(label, textAlign);
      */
@@ -205,7 +233,7 @@ class SpLabel {
      if (validLabel) return newLabel;
      else return null;
      */
-    return null;
+    //return null;
   } // end makeLabel
 
     //
@@ -217,12 +245,13 @@ class SpLabel {
   //
   // this will check whether or not a starting distance and ending distance are free for population
   boolean spacingIsOpen(Spline targetSpline, float startDistance, float endDistance) {
-    if (startDistance < 0) return false;
-    if (endDistance > targetSpline.totalDistance) return false;
+    if (startDistance <= 0) return false;
+    if (endDistance >= targetSpline.totalDistance) return false;
     for (Label l : labels) {
       if (l.spline == targetSpline) {
         if ((l.startDistance >= startDistance && l.startDistance <= endDistance) || (l.endDistance >= startDistance && l.endDistance <= endDistance)) return false;
         if ((l.startDistance <= startDistance && l.endDistance >= endDistance)) return false;
+        if ((l.startDistance >= startDistance && l.endDistance <= endDistance)) return false;
       }
     } 
     return true;
@@ -315,18 +344,6 @@ class SpLabel {
       middleMain.get(1).display();
     }    
 
-    /*
-    if (middleTops != null) {
-     for (ArrayList<Spline> tops : middleTops) {
-     for (Spline s : tops) s.display();
-     }
-     }
-     if (middleBottoms != null) {
-     for (ArrayList<Spline> bottoms : middleBottoms) {
-     for (Spline s : bottoms) s.display();
-     }
-     }
-     */
     if (orderedTopSplines != null) {
       for (ArrayList<Spline> tops : orderedTopSplines) {
         for (Spline s : tops) s.display();

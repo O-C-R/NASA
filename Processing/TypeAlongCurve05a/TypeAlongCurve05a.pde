@@ -8,16 +8,29 @@ import java.util.Map;
 import processing.pdf.*;
 
 
+// visual controls
+boolean facetsOn = false;
+boolean splinesOn = true;
+boolean variationOn = false;
+boolean shiftIsDown = false;
+boolean debugOn = false;
+boolean displayHeightsOn = false;
+// ****** //
+boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
+// ****** //
+
+
 // *** main spline numbers *** //
 float splineMinAngleInDegrees = .07f; // .02 for high
 float splineMinDistance = 13f; // minimum distance between makeing a facet
-int splineDivisionAmount = 150; // how many divisions should initially be made
+int splineDivisionAmount = 170; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 
 // *** child spline numbers *** // 
 float minimumSplineSpacing = 7f; // 4f is a good ht; // *** change this to set the minimum spline ht
-float maximumPercentSplineSpacing = .25;
+float maximumPercentSplineSpacing = .20;
 float childMaxPercentMultiplier = 1.95; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
 
@@ -25,7 +38,7 @@ float testSplineSpacing = minimumSplineSpacing;
 
 boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
 float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
-boolean skipMiddleLine = false; // if on it will make it so that text cannot go on this middle line
+boolean skipMiddleLine = true; // if on it will make it so that text cannot go on this middle line
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   //140f, 400f, 140f, 350f // for draft
@@ -46,11 +59,11 @@ int[] yearRange = {
 int[] constrainRange = {
   yearRange[0], 
   yearRange[1]
-};
+}; // inclusive
 float[] constrainRangeX = {
   0f, 
   0f
-};
+}; 
 
 
 // placeholder vars
@@ -65,11 +78,11 @@ String[] bucketsToUse = {
   //"administrative", 
   //"astronaut", 
   //"mars", 
-  //"moon", // *
+  "moon", // *
   //"people", 
   //"politics", 
-  //"research_and_development", // * 
-  //"rockets", // * 
+  "research_and_development", // * 
+  "rockets", // * 
   "russia", 
   "satellites", 
   "space_shuttle", 
@@ -87,6 +100,7 @@ String[] posesToUse = {
   "jj vbg nns", 
   "jj vbg", 
   "vbg nns", 
+  "dt jj jj nn", 
   //"nn",
 
   // skip these:
@@ -135,14 +149,6 @@ HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, H
 
 
 
-// visual controls
-boolean facetsOn = false;
-boolean splinesOn = true;
-boolean variationOn = false;
-boolean shiftIsDown = false;
-boolean debugOn = false;
-boolean displayHeightsOn = true;
-boolean disableSplineMaking = true; // also disables export
 
 // other stuff
 String timeStamp = "";
@@ -153,9 +159,9 @@ void setup() {
   //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
 
-  //size(4800, 1200); // good
+  size(4800, 1200); // good
   ///size(1200, 500); // small for debug
-  size(2200, 800); // small for debug
+  //size(2200, 800); // small for debug
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
@@ -186,6 +192,14 @@ void setup() {
   makeMasterSpLabels();
 
   // then press 'm' or 'n' to make or read in the splines
+
+    // temp
+  if (autoLoadSplines) readInSplinesForSpLabels();
+  
+  // debug
+  constrainRange[0] = 1976;
+  constrainRange[1] = 1980;
+  setConstrainRange();
 } // end setup
 
 //
@@ -196,7 +210,7 @@ void draw() {
     println("starting export to PDF");
   }
 
-  //  background(bgColor);
+  background(bgColor);
 
 
 
@@ -260,22 +274,17 @@ void keyReleased() {
 
 
   if (key == 'p') {
+    println("saving frame");
     timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
     saveFrame("output/" + timeStamp + ".png");
+    println("end of saveFrame");
     //exportNow = true;
+    loop();
   }
   if (keyCode == UP || keyCode == DOWN) {
   }
   if (key == ' ') {
-
-    //boolean didPlace = populateBiggestSpaceAlongX(mouseX, splabels.get((random(1) > .5 ? 1 :0)), makeRandomPhrase(), minLabelSpacing, wiggleRoom);
-    /*
-     for (int i = 0; i < 80; i++) {
-     //boolean didPlace = populateBiggestSpaceAlongX(mouseX, splabels.get(0), makeRandomPhrase(), minLabelSpacing, wiggleRoom);
-     boolean didPlace = populateBiggestSpaceAlongX(random(padding[3], width - padding[1]), splabels.get((int)random(splabels.size())), makeRandomPhrase(), minLabelSpacing, wiggleRoom);
-     print(i + (didPlace ? "-" : "x"));
-     }
-     */
+    doPopulate(1);
   }
 
   if (key >= '0' && key <= '9') {
@@ -359,7 +368,7 @@ void keyReleased() {
   if (key == 'x') {
     if (disableSplineMaking) {
       println("disableSplineMaking set to true, will NOT export");
-     return;
+      return;
     } 
     exportSplines();
   }
@@ -372,7 +381,7 @@ void keyReleased() {
   }
 
 
-  if (keyCode != TAB && keyCode != CONTROL) {
+  if (key == 'r') {
     loop();
   }
 } // end keyReleased
@@ -420,13 +429,13 @@ void doPopulate(int toMake) {
   int counter = 0;
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
-    //for (int i = 0; i < bucketsAL.size(); i++) {
-    //Bucket b = bucketsAL.get(i);
-    //println("NAME: " + b.name);
-    Bucket b = bucketsAL.get(0);
-    status = tryToPopulateBucketWithNextTerm(b);
-    if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
-    //}
+    for (int i = 0; i < bucketsAL.size(); i++) {
+      Bucket b = bucketsAL.get(i);
+      //Bucket b = bucketsAL.get(0);
+      //println("NAME: " + b.name);
+      status = tryToPopulateBucketWithNextTerm(b);
+      if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
+    }
     counter++;
     int thisPercent = (int)(100 * ((float)counter / toMake));
     if (thisPercent != lastPercent) {
@@ -443,6 +452,8 @@ void doPopulate(int toMake) {
 
   timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
   //exportNow = true;
+
+  loop();
 } // end doPopulate
 
 //

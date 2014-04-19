@@ -8,9 +8,10 @@ class Label {
   String baseText = "";
   ArrayList<Letter> letters = new ArrayList<Letter>();
   int labelAlign = LABEL_ALIGN_LEFT;
+  int labelAlignVertical = LABEL_VERTICAL_ALIGN_BASELINE;
   Spline spline = null;
-  Spline aboveSpline = null;
-  Spline belowSpline = null;
+  //Spline aboveSpline = null;
+  //Spline belowSpline = null;
   float splinePercent = .5f; // where the text should be .. either left, center, or right
   float startDistance = 0f; // keep track of where this label starts and stops
   float endDistance = 0f;
@@ -19,16 +20,18 @@ class Label {
 
 
   //
-  Label(String baseText, int labelAlign) {
+  Label(String baseText, int labelAlign, int labelAlignVertical) {
     this.baseText = baseText;
     this.labelAlign = labelAlign;
+    this.labelAlignVertical = labelAlignVertical;
   } // end constructor
 
   //
-  void assignSplineAndLocation(Spline spline, Spline aboveSpline, Spline belowSpline, float splinePercent) {
+  //void assignSplineAndLocation(Spline spline, Spline aboveSpline, Spline belowSpline, float splinePercent) {
+  void assignSplineAndLocation(Spline spline, float splinePercent) {
     this.spline = spline;
-    this.aboveSpline = aboveSpline;
-    this.belowSpline = belowSpline;
+    //this.aboveSpline = aboveSpline;
+    //this.belowSpline = belowSpline;
     this.splinePercent = splinePercent;
   } // end assignSplineAndLocation
 
@@ -51,7 +54,7 @@ class Label {
         float letterHt = getLetterHeight(letterHeight, newPoint);
         textSize(letterHt);
         PVector forwardRotation = spline.getPointByDistance(distanceMarker + thinkAheadRotationDistance * textWidth(baseText.charAt(i) + "")).get(1);
-        Letter newLetter = new Letter(baseText.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, labelAlign);
+        Letter newLetter = new Letter(baseText.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, labelAlign, labelAlignVertical);
         letters.add(newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -69,7 +72,7 @@ class Label {
         float letterHt = getLetterHeight(letterHeight, newPoint);
         textSize(letterHt);
         PVector forwardRotation = spline.getPointByDistance(distanceMarker + thinkAheadRotationDistance * textWidth(baseText.charAt(i) + "")).get(1);
-        Letter newLetter = new Letter(rightHalf.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, LABEL_ALIGN_LEFT);
+        Letter newLetter = new Letter(rightHalf.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, LABEL_ALIGN_LEFT, labelAlignVertical);
         letters.add(newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -78,14 +81,14 @@ class Label {
       }
       distanceMarker = splinePercent * totalLength;
       if (leftHalf.length() - 1 >= 0) {
-        Letter spacerLetter = new Letter(leftHalf.charAt(leftHalf.length() - 1) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), labelAlign);
+        Letter spacerLetter = new Letter(leftHalf.charAt(leftHalf.length() - 1) + "", getLetterHeight(letterHeight, newPoint), newPoint.get(0), newPoint.get(1), labelAlign, labelAlignVertical);
         distanceMarker -= spacerLetter.getLetterWidth() / 4;
         for (int i = leftHalf.length() - 1; i >= 0; i--) {
           newPoint = spline.getPointByDistance(distanceMarker);
           float letterHt = getLetterHeight(letterHeight, newPoint);
           textSize(letterHt);
           PVector forwardRotation = spline.getPointByDistance(distanceMarker - thinkAheadRotationDistance * textWidth(baseText.charAt(i) + "")).get(1);
-          Letter newLetter = new Letter(leftHalf.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, LABEL_ALIGN_RIGHT);
+          Letter newLetter = new Letter(leftHalf.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, LABEL_ALIGN_RIGHT, labelAlignVertical);
           letters.add(0, newLetter);
           //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
           //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -101,7 +104,7 @@ class Label {
         float letterHt = getLetterHeight(letterHeight, newPoint);
         textSize(letterHt);
         PVector forwardRotation = spline.getPointByDistance(distanceMarker - thinkAheadRotationDistance * textWidth(baseText.charAt(i) + "")).get(1);
-        Letter newLetter = new Letter(baseText.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, labelAlign);
+        Letter newLetter = new Letter(baseText.charAt(i) + "", letterHt, newPoint.get(0), forwardRotation, labelAlign, labelAlignVertical);
         letters.add(0, newLetter);
         //if (letters.size() == 1) distanceMarker += newLetter.getLetterWidth();
         //else distanceMarker += newLetter.getAdjustedLetterWidth(letters.get(letters.size() - 2));
@@ -122,90 +125,17 @@ class Label {
   //
   // spline stuff only occurs when letterHeightIn < 0
   float getLetterHeight(float letterHeightIn, ArrayList<PVector> splineComponents) {
+    float topIntersectionHeight = minimumSplineSpacing;
     if (letterHeightIn >= 0) return letterHeightIn;
     else {
-      // go find the intersection heights
-      float topIntersectionHeight = -1;
-      float bottomIntersectionHeight = -1; // skip this for now.. and just assume that it is looking up
-      ArrayList<PVector>  intersection = null;
-      PVector lineStart = null;
-      PVector lineEnd = null;
-
-      // to prevent out of control letter heights, do a sort of sweep
-      float sweepingAngle = PI/2; // half of this counter clockwise, half of this clockwise
-      float totalSweepCount = 5; // how many pings to sweep on
-      float smallestHeight = 0f;
-
-      for (int k = 0; k < totalSweepCount; k++) {
-        if (splineComponents.get(0) != null && splineComponents.get(2) != null) {
-          lineStart = splineComponents.get(0);
-          lineEnd = lineStart.get();
-          //lineEnd.add(splineComponents.get(1));
-
-          PVector rotatedEnd = rotateUnitVector(splineComponents.get(2), map(k, 0, totalSweepCount - 1, -sweepingAngle, sweepingAngle), blankLetter); 
-          lineEnd.add(rotatedEnd);
-
-          if (aboveSpline != null && lineStart != null && lineEnd != null) {
-            intersection = (aboveSpline.getPointByIntersection(lineStart, lineEnd)); 
-            //if (intersection != null && intersection.size() != 0) topIntersectionHeight = intersection.get(0).dist(lineStart);
-            if (intersection != null) topIntersectionHeight = intersection.get(0).dist(lineStart);
-          }
-
-          // if the aboveSpline is null, then use the bottom spline but slightly smaller
-          else if (aboveSpline == null && lineStart != null && lineEnd != null) {
-            float slightlySmallerFactor = .6;  
-            intersection = (belowSpline.getPointByIntersection(lineStart, lineEnd)); 
-            //if (intersection != null && intersection.size() != 0) topIntersectionHeight = intersection.get(0).dist(lineStart) * slightlySmallerFactor;
-            if (intersection != null) topIntersectionHeight = intersection.get(0).dist(lineStart) * slightlySmallerFactor;
-          }
-
-          /*
-        if (belowSpline != null) {
-           intersection = (belowSpline.getPointByIntersection(lineStart, lineEnd)).get(0);
-           if (intersection != null) bottomIntersectionHeight = intersection.dist(lineStart);
-           }
-           */
-
-          //println("k: " + k + " topIntersectionHeight: " + topIntersectionHeight);
-          if ((topIntersectionHeight > 0 && topIntersectionHeight < smallestHeight) || k == 0) {
-            smallestHeight = (topIntersectionHeight > 0 ? topIntersectionHeight : 0);
-          }
-        }
-      }
-
-      // adjust ..
-      /*
-      if (topIntersectionHeight > 0 && bottomIntersectionHeight == -1) bottomIntersectionHeight = topIntersectionHeight;
-       else if (topIntersectionHeight == -1 && bottomIntersectionHeight > 0) topIntersectionHeight = bottomIntersectionHeight;
-       else if (topIntersectionHeight == -1 && bottomIntersectionHeight == -1) topIntersectionHeight = bottomIntersectionHeight = defaultFontSize / 2f;
-       */
-      //if (topIntersectionHeight == -1) topIntersectionHeight = defaultFontSize;
-      topIntersectionHeight = smallestHeight;
-      //println("              going with height of: " + smallestHeight); 
-
-      // add the two up and make that the resultant size
-      //return (topIntersectionHeight + bottomIntersectionHeight) / 2; // DIVIDE BY TWO!!
-
-      // ****** //
-      //topIntersectionHeight = 26; // manual override
-      // ****** //
-
-
-      return topIntersectionHeight;
+      // option 3 of the splineComponents it the height position
+      float thisDist = splineComponents.get(0).dist(splineComponents.get(3));
+      topIntersectionHeight = (thisDist > minimumSplineSpacing ? thisDist : minimumSplineSpacing);
     }
+    return topIntersectionHeight;
   } // end getLetterHeight
 
     //
-  PVector rotateUnitVector(PVector a, float angleIn, Letter l) {
-    PVector rotated = a.get();
-    float currentAngle = l.getAdjustedRotation(rotated);
-    currentAngle += angleIn;
-    rotated.set(cos(currentAngle), sin(currentAngle));
-    return rotated;
-  } // end rotateUnitVector
-
-
-  //
   // this will return the height of the letter closest to the given point.  useful to measure how tall a Label option is at a given point
   float getApproxLetterHeightAtPoint(PVector ptIn) {
     float ht = defaultFontSize;
@@ -221,6 +151,7 @@ class Label {
   } // getApproxLetterHeightAtPoint
 
     //
+  // this will just get the smallest letter height for the label
   float getMinimumLetterHeight() {
     float minHt = 0f;
     for (int i = 0; i < letters.size(); i++) {
@@ -236,13 +167,6 @@ class Label {
     //
   void display() {
     for (Letter l : letters) l.display();
-
-    /*
-    PVector pt = spline.getPointByDistance(startDistance).get(0);
-     ellipse(pt.x, pt.y, 3, 3);
-     pt = spline.getPointByDistance(endDistance).get(0);
-     ellipse(pt.x, pt.y, 3, 3);
-     */
   } // end display
 } // end class Label
 
@@ -258,6 +182,7 @@ class Letter {
   PVector rotation = new PVector();
   float rotationF = 0f;
   int letterAlign = LABEL_ALIGN_LEFT;
+  int letterVerticalAlign = LABEL_VERTICAL_ALIGN_BASELINE;
 
   Letter previousLetter = null;
   Letter nextLetter = null;
@@ -269,12 +194,13 @@ class Letter {
   } // end blank constructor
 
     //
-  Letter(String letter, float size, PVector pos, PVector rotation, int letterAlign) {
+  Letter(String letter, float size, PVector pos, PVector rotation, int letterAlign, int letterVerticalAlign) {
     this.letter = letter;
     this.size = size;
     this.pos = pos;
     this.rotation = rotation;
     this.letterAlign = letterAlign;
+    this.letterVerticalAlign = letterVerticalAlign;
     rotationF = getAdjustedRotation(rotation);
   } // end constructor
 
@@ -296,9 +222,10 @@ class Letter {
   //
   void display() {
     textFont(font, size);
-    if (letterAlign == LABEL_ALIGN_RIGHT)  textAlign(RIGHT);
-    else if (letterAlign == LABEL_ALIGN_CENTER)  textAlign(CENTER);
-    else textAlign(LEFT);
+    textAlign(letterAlign, letterVerticalAlign);
+    //if (letterAlign == LABEL_ALIGN_RIGHT)  textAlign(RIGHT);
+    //else if (letterAlign == LABEL_ALIGN_CENTER)  textAlign(CENTER);
+    //else textAlign(LEFT);
 
     float rotationToUse = rotationF;
 

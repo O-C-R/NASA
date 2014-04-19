@@ -37,7 +37,7 @@ void makeSpLabelHeights(SpLabel sp) {
       println("done");
     }
     if (i == 2) {
-      println("MANUAL BREAK FOR HEIGHT TOP");
+      //println("MANUAL BREAK FOR HEIGHT TOP");
       //break;
     }
   }
@@ -65,7 +65,7 @@ void makeSpLabelHeights(SpLabel sp) {
       println("done");
     }
     if (i == 2) {
-      println("MANUAL BREAK FOR HEIGHT BOTTOM");
+      //println("MANUAL BREAK FOR HEIGHT BOTTOM");
       //break;
     }
   }
