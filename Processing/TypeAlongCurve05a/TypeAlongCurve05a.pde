@@ -17,20 +17,20 @@ boolean debugOn = false;
 boolean displayHeightsOn = false;
 // ****** //
 boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
-boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
+boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
 // ****** //
 
 
 // *** main spline numbers *** //
 float splineMinAngleInDegrees = .07f; // .02 for high
-float splineMinDistance = 13f; // minimum distance between makeing a facet
+float splineMinDistance = 10f; // minimum distance between makeing a facet
 int splineDivisionAmount = 170; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 
 // *** child spline numbers *** // 
-float minimumSplineSpacing = 7f; // 4f is a good ht; // *** change this to set the minimum spline ht
-float maximumPercentSplineSpacing = .20;
+float minimumSplineSpacing = 10f; // 4f is a good ht; // *** change this to set the minimum spline ht
+float maximumPercentSplineSpacing = .18; // .2 is ok..
 float childMaxPercentMultiplier = 1.95; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
 
@@ -42,7 +42,7 @@ boolean skipMiddleLine = true; // if on it will make it so that text cannot go o
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   //140f, 400f, 140f, 350f // for draft
-  40f, 100f, 40f, 100f
+  100f, 100f, 100f, 100f
 };
 
 float minLabelSpacing = 10f; // the minimum spacing between labels along a spline
@@ -78,7 +78,7 @@ String[] bucketsToUse = {
   //"administrative", 
   //"astronaut", 
   //"mars", 
-  "moon", // *
+  "moon", //   
   //"people", 
   //"politics", 
   "research_and_development", // * 
@@ -86,6 +86,7 @@ String[] bucketsToUse = {
   "russia", 
   "satellites", 
   "space_shuttle", 
+
   //"spacecraft", 
   //"us",
 };
@@ -195,11 +196,11 @@ void setup() {
 
     // temp
   if (autoLoadSplines) readInSplinesForSpLabels();
-  
+
   // debug
-  constrainRange[0] = 1976;
-  constrainRange[1] = 1980;
-  setConstrainRange();
+  //constrainRange[0] = 1970;
+  //constrainRange[1] = 1990;
+  //setConstrainRange();
 } // end setup
 
 //
@@ -305,6 +306,7 @@ void keyReleased() {
   if (key == 's') splinesOn = !splinesOn;
   if (key == 'v') variationOn = !variationOn;
   if (key == 'd') debugOn = !debugOn;
+  if (key == 'h') displayHeightsOn = !displayHeightsOn;
 
   if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
     if (keyCode == RIGHT) {
@@ -353,7 +355,7 @@ void keyReleased() {
      if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
      */
   }
-  if (key == 'h') {
+  if (key == 'b') {
     if (disableSplineMaking) {
       println("disableSplineMaking set to true, will NOT make new heights");
       return;
@@ -365,6 +367,15 @@ void keyReleased() {
       //break; // debug break;
     }
   }
+  if (key == 'c') {
+    if (disableSplineMaking) {
+      println("disableSplineMaking set to true, will NOT clip splabel splines");
+      return;
+    }
+    println("clipping SpLabel splines to years: " + constrainRange[0] + " to " + constrainRange[1]);
+    debugClipSpLabelsByConstrainRange();
+  }
+
   if (key == 'x') {
     if (disableSplineMaking) {
       println("disableSplineMaking set to true, will NOT export");
@@ -421,6 +432,23 @@ void setConstrainRange() {
 } // end setConstrainRange
 
 //
+void debugClipSpLabelsByConstrainRange() {
+  println("in debugClipSpLabelsByConstrainRange");
+  for (int i = 0; i < splabels.size(); i++) {
+    splabels.get(i).topSpline = clipByX(splabels.get(i).topSpline, constrainRangeX[0], constrainRangeX[1]);
+    splabels.get(i).bottomSpline = clipByX(splabels.get(i).bottomSpline, constrainRangeX[0], constrainRangeX[1]);
+  }
+} // end debugClipSpLabelsByConstrainRange
+Spline clipByX(Spline s, float xLow, float xHigh) {
+  Spline clipped = new Spline();
+  for (PVector p : s.curvePoints) {
+    if (p.x >= xLow - 10 && p.x <= xHigh + 10) clipped.addCurvePoint(p);
+  }
+  clipped.makeFacetPoints(splineMinAngleInDegrees, splineMinDistance, splineDivisionAmount, splineFlipUp);
+  return clipped;
+} // end clipByX
+
+//
 void doPopulate(int toMake) {
   println("in doPopulate.  trying to make: " + toMake);
   long startTime = millis();
@@ -431,7 +459,7 @@ void doPopulate(int toMake) {
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
       Bucket b = bucketsAL.get(i);
-      //Bucket b = bucketsAL.get(0);
+      //Bucket b = bucketsAL.get(1);
       //println("NAME: " + b.name);
       status = tryToPopulateBucketWithNextTerm(b);
       if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
@@ -440,6 +468,7 @@ void doPopulate(int toMake) {
     int thisPercent = (int)(100 * ((float)counter / toMake));
     if (thisPercent != lastPercent) {
       print("_" + thisPercent + "_");
+      lastPercent = thisPercent;
     }
   }
   println("_");

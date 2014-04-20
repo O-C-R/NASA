@@ -54,16 +54,6 @@ class SpLabel {
 
   //
   void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing, int distributionType) {
-    /*
-    if (variationSpline == null) {
-     middleSplines = blendSplinesVertically(topSpline, bottomSpline, count, splineCPDistance);
-     println("made middleSplines size of: " + middleSplines.size());
-     }
-     else {
-     middleSplines = blendSplinesVerticallyWithWeight(topSpline, bottomSpline, count, splineCPDistance, variationSpline);
-     println("made middleSplines size of: " + middleSplines.size());
-     }
-     */
 
     middleMain = middleMakerVertical(topSpline, bottomSpline, splineCPDistance, maximumPercentSplineSpacing);
 
@@ -160,80 +150,30 @@ class SpLabel {
       }
     }
 
+    // check that the label doesnt go above the top or below the bottom spline
+    if (validLabel) {
+      ArrayList<PVector> startHeightAR = s.getPointByDistance(newLabel.startDistance);
+      ArrayList<PVector> endHeightAR = s.getPointByDistance(newLabel.startDistance);
+      if (startHeightAR != null && endHeightAR != null) {
+        PVector startHeight = startHeightAR.get(0);
+        PVector endHeight = endHeightAR.get(0);
+        if (s.useUpHeight) {
+          ArrayList<PVector> topClosestARStart = topSpline.getPointByClosestPoint(startHeight);
+          ArrayList<PVector> topClosestAREnd = topSpline.getPointByClosestPoint(endHeight);
+          if (topClosestARStart != null) if (startHeight.y < topClosestARStart.get(0).y + minLabelSpacing / 2) validLabel = false; 
+          if (topClosestAREnd != null) if (endHeight.y < topClosestAREnd.get(0).y + minLabelSpacing / 2) validLabel = false;
+        }
+        else {
+          ArrayList<PVector> bottomClosestARStart = bottomSpline.getPointByClosestPoint(startHeight);
+          ArrayList<PVector> bottomClosestAREnd = bottomSpline.getPointByClosestPoint(endHeight);
+          if (bottomClosestARStart != null) if (startHeight.y > bottomClosestARStart.get(0).y - minLabelSpacing / 12) validLabel = false;
+          if (bottomClosestAREnd != null) if (endHeight.y > bottomClosestAREnd.get(0).y - minLabelSpacing / 12) validLabel = false;
+        }
+      }
+    }
+
     if (validLabel) return newLabel;
     else return null;
-
-    /*
-    //
-     
-     Label newLabel = new Label(label, textAlign);
-     */
-
-    /*
-    // first determine which splines are above and below the given one
-     Spline buddySplineTop = null;
-     Spline buddySplineBottom = null;
-     if (s == topSpline) {
-     buddySplineTop = topNeighborSpline;
-     if (middleSplines.size() > 0) buddySplineBottom = middleSplines.get(0);
-     else buddySplineBottom = bottomSpline;
-     }
-     else if (s == bottomSpline) {
-     buddySplineBottom = bottomNeighborSpline;
-     if (middleSplines.size() > 0) buddySplineTop = middleSplines.get(middleSplines.size() - 1);
-     else buddySplineTop = topSpline;
-     }
-     else {
-     for (int i = 0; i < middleSplines.size(); i++) {
-     if (middleSplines.get(i) == s) {
-     if (i == 0) {
-     buddySplineTop = topSpline;
-     if (i < middleSplines.size() - 1) buddySplineBottom = middleSplines.get(i + 1);
-     else buddySplineBottom = bottomSpline;
-     }
-     else if (i == middleSplines.size() - 1) {
-     buddySplineBottom = bottomSpline;
-     if (i > 0) {
-     buddySplineTop = middleSplines.get(i - 1);
-     }
-     else buddySplineTop = topSpline;
-     }
-     else {
-     // check for a dividing middle spline
-     if (isMiddleSpLabel && middleAdjustSpline != null && i == (floor((float)middleSplines.size() / 2))) {
-     buddySplineTop = middleAdjustSpline;
-     }
-     else {
-     buddySplineTop = middleSplines.get(i - 1);
-     buddySplineBottom = middleSplines.get(i + 1);
-     }
-     }
-     break;
-     }
-     }
-     }
-     */
-
-
-    /*
-
-     boolean validLabel = false;
-     // then go through and find the maximum or minimum heights to use if !varySize
-     if (!varySize) {
-     }
-     // or do the character assignment if !straightText and varySize
-     else {
-     newLabel.assignSplineAndLocation(s, buddySplineTop, buddySplineBottom, (targetDistance / s.totalDistance));
-     newLabel.makeLetters(-1); // -1 for variable sizing
-     validLabel = true;
-     }
-     
-     //if (validLabel) labels.add(newLabel);
-     
-     if (validLabel) return newLabel;
-     else return null;
-     */
-    //return null;
   } // end makeLabel
 
     //

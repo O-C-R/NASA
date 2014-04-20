@@ -86,7 +86,7 @@ void readInSplinesForSpLabels() {
       }
 
       if (json.hasKey("topSpline")) sp.topSpline = new Spline(json.getJSONObject("topSpline"));
-      if (json.hasKey("bottomSpline")) sp.topSpline = new Spline(json.getJSONObject("bottomSpline"));
+      if (json.hasKey("bottomSpline")) sp.bottomSpline = new Spline(json.getJSONObject("bottomSpline"));
 
       println("  done reading in " + sp.bucketName + " orderedTopSplines: " + sp.orderedTopSplines.size() + " orderedBottomSplines: " + sp.orderedBottomSplines.size());
     }

@@ -151,8 +151,8 @@ void makeHeightsFromSplineArray(Spline targetSpline, ArrayList<Spline> otherSpli
         intersection = other.getPointByIntersection(targetFacetPoint, lineEnd);
 
         if (intersection != null) {
+          // check if it is going in the 'right' direction.  if it is then add it to the collection
           intersectionPoints.add(intersection.get(0));
-
           intersectionDistances.add(intersection.get(0).dist(targetFacetPoint));
         }
       }
@@ -164,7 +164,7 @@ void makeHeightsFromSplineArray(Spline targetSpline, ArrayList<Spline> otherSpli
     boolean started = false;
     if (intersectionPoints.size() > 0) {
       for (int j = 0; j < intersectionPoints.size(); j++) {
-        if (!started || intersectionDistances.get(j) < closestDist) {
+        if (!started || (intersectionDistances.get(j) < closestDist && intersectionDistances.get(j) > -1)) {
           closest = intersectionPoints.get(j);
           closestDist = intersectionDistances.get(j);
           started = true;
@@ -190,52 +190,6 @@ void makeHeightsFromSplineArray(Spline targetSpline, ArrayList<Spline> otherSpli
     }
   } // end i facetPoints
   // go back through and find any null points.  average them out
-
-  //
-  /*
-  float lastGoodHeight = -1;
-   int lastGoodIndex = 0;
-   boolean atStart = true;
-   for (int i = 0; i < targetSpline.facetHeights.length; i++) {
-   if (targetSpline.facetHeights[i] == -1) {
-   // check first one
-   if (atStart) {
-   for (int j = i + 1; j < targetSpline.facetHeights.length; j++) {
-   if (targetSpline.facetHeights[j] > 0) {
-   targetSpline.facetHeights[i] = targetSpline.facetHeights[j];
-   lastGoodHeight = targetSpline.facetHeights[j];
-   if (atStart) atStart = false;
-   }
-   }
-   }
-   else {
-   float nextHeight = -1f;
-   int count = 0;
-   int nextGoodIndex = 0;
-   for (int j = i + 1; j < targetSpline.facetHeights.length; j++) {
-   count++;
-   if (targetSpline.facetHeights[j] > 0) {
-   nextHeight = targetSpline.facetHeights[j];
-   nextGoodIndex = j;
-   break;
-   }
-   }
-   if (nextHeight == -1) {
-   // meaning no other value was found, use last value
-   targetSpline.facetHeights[i] = lastGoodHeight;
-   }
-   else {
-   //println("i: " + i + " lastGoodHeight: " + lastGoodHeight + " lastGoodIndex: "+ lastGoodIndex + " count: " + count + " nextHeight: " + nextHeight);
-   targetSpline.facetHeights[i] = ((((float)(nextGoodIndex - lastGoodIndex) - count) * nextHeight) / (nextGoodIndex - lastGoodIndex) + (float)(count) * lastGoodHeight / (nextGoodIndex - lastGoodIndex));
-   }
-   }
-   }
-   else {
-   lastGoodHeight = targetSpline.facetHeights[i];
-   lastGoodIndex = i;
-   }
-   }
-   */
 } // end makeHeights
 
 
@@ -257,9 +211,10 @@ void makeOrderedLists(SpLabel sp, int distributionType) {
         sp.orderedTopSplines.add(splineList);
       }
     }
-    splineList = new ArrayList<Spline>();
-    splineList.add(sp.topSpline);
-    sp.orderedTopSplines.add(splineList);
+    // skip top
+    //splineList = new ArrayList<Spline>();
+    //splineList.add(sp.topSpline);
+    //sp.orderedTopSplines.add(splineList);
 
     // make the orderedBottomSplines.  start from the middle and go down.  make a copy of the bottom middle spline
     splineList = new ArrayList<Spline>();
@@ -272,9 +227,10 @@ void makeOrderedLists(SpLabel sp, int distributionType) {
         sp.orderedBottomSplines.add(splineList);
       }
     }
-    splineList = new ArrayList<Spline>();
-    splineList.add(sp.bottomSpline);
-    sp.orderedBottomSplines.add(splineList);
+    // skip bottom
+    //splineList = new ArrayList<Spline>();
+    //splineList.add(sp.bottomSpline);
+    //sp.orderedBottomSplines.add(splineList);
   }
   else if (distributionType == MAKE_SPLINES_TOP_ONLY) { // meaning it will make the height lines go from the bottom up
     // bottom
