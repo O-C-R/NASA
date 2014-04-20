@@ -2,8 +2,10 @@
 void makeMasterSpLabels() {
   if (bucketDataPoints.length <= 1) return; // needs at least two buckets
 
+  int manualLayerControlUpIndex = 0; // when doing things manually, this will tell the system when to stop going up and go down instead
+
   // reorder the buckets by max value?
-  if (reorderBucketsByMaxHeight) {
+  if (!manualLayerControl) {
     // reorder the bucket data points and the bucketsAL
     ArrayList<float[]> newBucketDataPointsAL = new ArrayList<float[]>();
     ArrayList<Bucket> newBucketsAL = new ArrayList<Bucket>();
@@ -39,6 +41,23 @@ void makeMasterSpLabels() {
       bucketDataPoints[i] = newBucketDataPointsAL.get(i);
     }
   }
+  else {
+    int middleIndex = floor((float)bucketsAL.size() / 2);
+    if (manualMiddleBucketName.length() > 0) { // if manually defing the bucket in the middle...
+      for (int i = 0; i < bucketsAL.size(); i++) {
+        if (bucketsAL.get(i).name.equals(manualMiddleBucketName)) {
+          middleIndex = i;
+          break;
+        }
+      }
+    }
+    ArrayList<Bucket> newBucketsAL = new ArrayList<Bucket>();
+    newBucketsAL.add(bucketsAL.get(middleIndex));
+    manualLayerControlUpIndex = middleIndex;
+    for (int i = middleIndex - 1; i >= 0; i--) newBucketsAL.add(bucketsAL.get(i));
+    for (int i = middleIndex + 1; i < bucketsAL.size(); i++) newBucketsAL.add(bucketsAL.get(i));
+    bucketsAL = newBucketsAL;
+  }
 
   // first find the max sum of data assuming they all have same number of points
   float maxDataSum = 0;
@@ -61,6 +80,8 @@ void makeMasterSpLabels() {
   // make the actual splines
   ArrayList<SpLabel> topSpLabels = new ArrayList<SpLabel>();
   ArrayList<SpLabel> bottomSpLabels = new ArrayList<SpLabel>();
+
+
 
   for (int i = 0; i < bucketDataPoints.length; i++) {
     Bucket targetBucket = bucketsAL.get(i);
@@ -88,7 +109,7 @@ void makeMasterSpLabels() {
       sp.isOnTop = true;
       sp.isOnBottom = true;
       sp.data = bucketDataPoints[i];
-      
+
       // mark this one as the middle one in case the divide is employed later
       sp.isMiddleSpLabel = true;
     }
@@ -113,7 +134,7 @@ void makeMasterSpLabels() {
         bottomMax = (bottomMax > thisSum ? bottomMax : thisSum);
       }
 
-      if (topMax > bottomMax) {
+      if ((!manualLayerControl && topMax > bottomMax) || (manualLayerControl && i > manualLayerControlUpIndex)) {
         //println("doing bottom");
         Spline top = bottomSpLabels.get(bottomSpLabels.size() - 1).bottomSpline;
         Spline bottom = new Spline();
@@ -130,7 +151,7 @@ void makeMasterSpLabels() {
         sp.isOnTop = false;
         sp.isOnBottom = true;
       }
-      else {
+      else if ((!manualLayerControl && topMax <= bottomMax) || (manualLayerControl && i <= manualLayerControlUpIndex)) {
         //println("doing top");
         Spline top = new Spline();
         Spline bottom = topSpLabels.get(topSpLabels.size() - 1).topSpline;

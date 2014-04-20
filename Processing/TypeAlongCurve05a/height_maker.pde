@@ -26,7 +26,7 @@ void makeSpLabelHeights(SpLabel sp) {
     if (i < sp.orderedTopSplines.size() - 1) otherList = (ArrayList<Spline>)sp.orderedTopSplines.get(i + 1).clone();
     // do something about the 0 spline position.. // add half?
     if (i == 0) {
-      for (int j = i + 2; j < floor((float)sp.orderedTopSplines.size() / 2); j ++) {
+        for (int j = i + 2; j < floor((float)sp.orderedTopSplines.size()); j ++) {
         otherList.addAll(sp.orderedTopSplines.get(j));
       }
     }
@@ -54,7 +54,7 @@ void makeSpLabelHeights(SpLabel sp) {
     if (i < sp.orderedBottomSplines.size() - 1) otherList = (ArrayList<Spline>)sp.orderedBottomSplines.get(i + 1).clone();
 
     if (i == 0) {
-      for (int j = i + 2; j < floor((float)sp.orderedBottomSplines.size() / 2); j ++) {
+        for (int j = i + 2; j < floor((float)sp.orderedBottomSplines.size()); j ++) {
         otherList.addAll(sp.orderedBottomSplines.get(j));
       }
     }

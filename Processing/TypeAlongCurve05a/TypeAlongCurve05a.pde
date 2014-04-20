@@ -15,10 +15,13 @@ boolean variationOn = false;
 boolean shiftIsDown = false;
 boolean debugOn = false;
 boolean displayHeightsOn = false;
+boolean displayLabels = true;
 // ****** //
-boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean disableSplineMaking = false; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
 boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
 // ****** //
+boolean manualLayerControl = true; // will make it so that the stack goes in the order that the buckets are read in as opposed to calculating and balancing things out
+String manualMiddleBucketName = "research_and_development"; // if you want to manually define the emiddle bucket
 
 
 // *** main spline numbers *** //
@@ -36,8 +39,8 @@ float testSplineSpacing = minimumSplineSpacing;
 
 
 
-boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel
-float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by
+boolean addMiddleDivide = true; // whether or not to split up the middle SpLabel   // FIX THIS
+float middleDivideDistance = 40f; // if dividing the middle SpLabel, how much to divide it by   // FIX THIS
 boolean skipMiddleLine = true; // if on it will make it so that text cannot go on this middle line
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
@@ -50,7 +53,6 @@ float wiggleRoom = 48f; // how much the word can move around instead of being pr
 
 // when divding up the splabels into the middlesplines
 float maxSplineHeight = 19f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
-//float splineCurvePointDistance = 10f; // the approx distance between curve points
 
 int[] yearRange = {
   1958, 
@@ -77,20 +79,20 @@ String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
   //"astronaut", 
-  //"mars", 
+  //"mars",
+  "satellites", 
   "moon", //   
   //"people", 
   //"politics", 
   "research_and_development", // * 
-  "rockets", // * 
-  "russia", 
-  "satellites", 
+  "rockets", // *
   "space_shuttle", 
-
+  "russia", 
   //"spacecraft", 
   //"us",
 };
 HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called from setup(), done in AbucketReader
+int currentBucketIndex = 0; // selectively fill the buckets
 
 
 // only these Pos files will be used, others will be skipped
@@ -126,7 +128,7 @@ float entityToNormalRatio = .75; // this determines roughly how many entity term
 
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
-boolean reorderBucketsByMaxHeight = true;
+//boolean reorderBucketsByMaxHeight = false;
 
 //
 int bucketDataPointInputMethod = 0; // defined in setup
@@ -155,14 +157,19 @@ HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, H
 String timeStamp = "";
 boolean exportNow = false;
 
+// blockImage
+PGraphics blockImage; // the one that holds the lable letter blocks for comparison
+boolean skipLabelsDueToBlockImage = true; // when true will consult the blockImage while making each label.  if it comes to a mark that already exists then will stop and return null in Label
+color blockImageColor = color(0, 255, 127);
+
 //
 void setup() {
   //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
 
-  size(4800, 1200); // good
+  //size(4800, 1200); // good
   ///size(1200, 500); // small for debug
-  //size(2200, 800); // small for debug
+  size(2200, 800); // small for debug
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
@@ -192,14 +199,20 @@ void setup() {
   println("making masterSpLabels");
   makeMasterSpLabels();
 
+  // create the image that will hold the block images for each letter, this way a label won't appear on top of another label.. hopefully
+  blockImage = createGraphics(width, height);
+  blockImage.beginDraw();
+  blockImage.background(255);
+
   // then press 'm' or 'n' to make or read in the splines
 
-    // temp
+  // temp
   if (autoLoadSplines) readInSplinesForSpLabels();
 
   // debug
-  //constrainRange[0] = 1970;
-  //constrainRange[1] = 1990;
+
+  //constrainRange[0] = 1990;
+  //constrainRange[1] = 2000;
   //setConstrainRange();
 } // end setup
 
@@ -270,10 +283,11 @@ void keyPressed() {
 void keyReleased() {  
   if (key == 'a') {
     snap();
-    populateFullForDebug(); // will fill up the thing with random phrases
+    //populateFullForDebug(); // will fill up the thing with random phrases
+    // use this to fill gaps at the end
   }
 
-
+  // save out stuff
   if (key == 'p') {
     println("saving frame");
     timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
@@ -282,12 +296,18 @@ void keyReleased() {
     //exportNow = true;
     loop();
   }
-  if (keyCode == UP || keyCode == DOWN) {
+
+  if (key == ';') {
+    println("saving out the block image"); 
+    blockImage.save("blockImage/blockImage.png");
+    println("done saving out the block image");
   }
+
+
+  // population controls
   if (key == ' ') {
     doPopulate(1);
   }
-
   if (key >= '0' && key <= '9') {
     int value = Character.getNumericValue(key);
     doPopulate(value * 10);
@@ -307,7 +327,26 @@ void keyReleased() {
   if (key == 'v') variationOn = !variationOn;
   if (key == 'd') debugOn = !debugOn;
   if (key == 'h') displayHeightsOn = !displayHeightsOn;
+  if (key == 'l') displayLabels = !displayLabels;
 
+
+
+
+
+  if (keyCode == UP || keyCode == DOWN) {
+    // use up and down to select which splabel will get populated
+    if (keyCode == UP) {
+      currentBucketIndex++;
+    }
+    else {
+      currentBucketIndex--;
+    }
+    if (currentBucketIndex < 0) currentBucketIndex = bucketsAL.size();
+    else if (currentBucketIndex > bucketsAL.size()) currentBucketIndex = 0;
+
+    if (currentBucketIndex < bucketsAL.size()) println("Changing the target bucket to : " + bucketsAL.get(currentBucketIndex).name);
+    else println("changing to ALL BUCKETS");
+  }
   if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
     if (keyCode == RIGHT) {
       if (shiftIsDown) constrainRange[1] += 5;
@@ -362,6 +401,7 @@ void keyReleased() {
     }
     println("making HEIGHTS");
     for (SpLabel sp : splabels) {
+      //if (!sp.bucketName.equals("russia")) continue; // debug
       makeSpLabelHeights(sp); 
       println("done with making heights for: " + sp.bucketName);
       //break; // debug break;
@@ -458,9 +498,10 @@ void doPopulate(int toMake) {
   int lastPercent = -1;
   for (int j = 0; j < toMake; j++) {
     for (int i = 0; i < bucketsAL.size(); i++) {
+      if (currentBucketIndex < bucketsAL.size()) {
+        if (i != currentBucketIndex) continue;
+      }
       Bucket b = bucketsAL.get(i);
-      //Bucket b = bucketsAL.get(1);
-      //println("NAME: " + b.name);
       status = tryToPopulateBucketWithNextTerm(b);
       if (status.equals(POPULATE_STATUS_SUCCESS)) positivePlacements++;
     }

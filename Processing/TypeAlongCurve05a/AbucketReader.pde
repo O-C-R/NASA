@@ -105,6 +105,17 @@ void readInBucketData() {
     bucketsAL.add(newBucket);
     bucketsHM.put(newBucketName, newBucket);
   }
+  
+  // if manual listing then reorder the buckets by the order of the bucketsToUse
+  if (manualLayerControl) {
+    ArrayList<Bucket> newBucketsAL = new ArrayList<Bucket>(); 
+    for (String s : bucketsToUse) {
+     for (Bucket b : bucketsAL) {
+      if (b.name.equals(s)) newBucketsAL.add(b);
+     } 
+    }
+    bucketsAL = newBucketsAL;
+  }
 } // end readInBucketData
 
 

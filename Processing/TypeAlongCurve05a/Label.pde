@@ -17,8 +17,6 @@ class Label {
   float endDistance = 0f;
 
 
-
-
   //
   Label(String baseText, int labelAlign, int labelAlignVertical) {
     this.baseText = baseText;
@@ -168,6 +166,11 @@ class Label {
   void display() {
     for (Letter l : letters) l.display();
   } // end display
+  
+  //
+  void displayBlock(PGraphics pg) {
+    for (Letter l : letters) l.displayBlock(pg);
+  } // end displayBlock
 } // end class Label
 
 
@@ -223,45 +226,44 @@ class Letter {
   void display() {
     textFont(font, size);
     textAlign(letterAlign, letterVerticalAlign);
-    //if (letterAlign == LABEL_ALIGN_RIGHT)  textAlign(RIGHT);
-    //else if (letterAlign == LABEL_ALIGN_CENTER)  textAlign(CENTER);
-    //else textAlign(LEFT);
 
     float rotationToUse = rotationF;
 
+    /*
     // this should make it so that the rotation is smoothed out a bit
-    if (angleSmoothingOn) {
-      PVector newRotation = rotation.get();
-      float thisRotationPercent = .95;
-      float otherRotationPercent = .05;
-      if (previousLetter != null && nextLetter == null) {
-        newRotation.mult(thisRotationPercent);
-        PVector otherRotation = previousLetter.rotation.get();
-        otherRotation.mult(otherRotationPercent);
-        newRotation.add(otherRotation);
-        rotationToUse = getAdjustedRotation(newRotation);
-      }
-      else if (nextLetter != null & previousLetter == null) {
-        newRotation.mult(thisRotationPercent);
-        PVector otherRotation = nextLetter.rotation.get();
-        otherRotation.mult(otherRotationPercent);
-        newRotation.add(otherRotation);
-        rotationToUse = getAdjustedRotation(newRotation);
-      }
-      else if (nextLetter == null && previousLetter == null) {
-        rotationToUse = getAdjustedRotation(newRotation);
-      }
-      else {
-        newRotation.mult(thisRotationPercent - otherRotationPercent);
-        PVector otherRotation = nextLetter.rotation.get();
-        otherRotation.mult(otherRotationPercent);
-        newRotation.add(otherRotation);
-        otherRotation = previousLetter.rotation.get();
-        otherRotation.mult(otherRotationPercent);
-        newRotation.add(otherRotation);
-        rotationToUse = getAdjustedRotation(newRotation);
-      }
-    }
+     if (angleSmoothingOn) {
+     PVector newRotation = rotation.get();
+     float thisRotationPercent = .95;
+     float otherRotationPercent = .05;
+     if (previousLetter != null && nextLetter == null) {
+     newRotation.mult(thisRotationPercent);
+     PVector otherRotation = previousLetter.rotation.get();
+     otherRotation.mult(otherRotationPercent);
+     newRotation.add(otherRotation);
+     rotationToUse = getAdjustedRotation(newRotation);
+     }
+     else if (nextLetter != null & previousLetter == null) {
+     newRotation.mult(thisRotationPercent);
+     PVector otherRotation = nextLetter.rotation.get();
+     otherRotation.mult(otherRotationPercent);
+     newRotation.add(otherRotation);
+     rotationToUse = getAdjustedRotation(newRotation);
+     }
+     else if (nextLetter == null && previousLetter == null) {
+     rotationToUse = getAdjustedRotation(newRotation);
+     }
+     else {
+     newRotation.mult(thisRotationPercent - otherRotationPercent);
+     PVector otherRotation = nextLetter.rotation.get();
+     otherRotation.mult(otherRotationPercent);
+     newRotation.add(otherRotation);
+     otherRotation = previousLetter.rotation.get();
+     otherRotation.mult(otherRotationPercent);
+     newRotation.add(otherRotation);
+     rotationToUse = getAdjustedRotation(newRotation);
+     }
+     }
+     */
 
     pushMatrix();
     translate(pos.x, pos.y);
@@ -271,11 +273,87 @@ class Letter {
   } // end display
 
   //
+  void displayBlock(PGraphics pg) {
+    textFont(font, size);
+    textAlign(letterAlign, letterVerticalAlign);
+
+    float letterWidth = textWidth(letter);
+    float letterHeight = size;
+
+    float heightOffset = 0f;
+    float widthOffset = 0;
+    float blockWidth = letterWidth;
+    if (letterAlign == RIGHT) {
+      widthOffset = -blockWidth;
+    }
+    else if (letterAlign == CENTER) {
+      widthOffset = -blockWidth / 2;
+    }
+    if (letterVerticalAlign == BASELINE) {
+      heightOffset = .18 * size;
+    }
+    else if (letterVerticalAlign == TOP) {
+      heightOffset = size;
+    }
+
+    pg.fill(blockImageColor);
+    pg.noStroke();
+    pg.pushMatrix();
+    pg.translate(pos.x, pos.y);
+    pg.rotate(rotationF);
+    pg.translate(widthOffset, heightOffset);
+    pg.rect(0, 0, blockWidth, -size * .85);
+    pg.popMatrix();
+  } // end displayBlock
+
+  //
+  PVector getLetterCenter() {
+    // approx center of the letter, not exact
+    textFont(font, size);
+    float blockWidth = textWidth(letter);
+    PVector right = new PVector(-rotation.y, rotation.x);
+    right.normalize();
+    float rightMultiplier = 0f;
+    if (letterAlign == LABEL_ALIGN_RIGHT) {
+      rightMultiplier = -blockWidth/2;
+    }
+    else if (letterAlign == LABEL_ALIGN_CENTER) {
+      rightMultiplier = 0;
+    }
+    else if (letterAlign == LABEL_ALIGN_LEFT) {
+      rightMultiplier = blockWidth/2;
+    }
+    right.mult(rightMultiplier);
+    //right.mult(0);
+    float offsetMultiplier = size/2;
+    if (letterVerticalAlign == LABEL_VERTICAL_ALIGN_BASELINE) {
+      offsetMultiplier -= .28 * size;
+    }
+    else if (letterVerticalAlign == LABEL_VERTICAL_ALIGN_TOP) {
+      offsetMultiplier -= size;
+    }
+    
+    PVector letterCenter = rotation.get();
+    letterCenter.normalize();
+    letterCenter.mult(offsetMultiplier);
+    letterCenter.add(pos);
+    letterCenter.add(right);
+    return letterCenter;
+  } // end getLetterCenter
+
+    //
   float getAdjustedRotation(PVector rotationIn) {
     float newRotationF = 0f;
     if (rotationIn.x != 0) newRotationF = atan(rotationIn.y / rotationIn.x);
     else newRotationF = -HALF_PI;
-    if (rotationIn.x < 0) newRotationF += PI;
+    if (rotationIn.x <= 0) {
+      if (rotationIn.x < 0) newRotationF += PI;
+      else {
+        if (rotationIn.y > 0) {
+          newRotationF += PI;
+        }
+      }
+    }
     newRotationF += HALF_PI;
     return newRotationF;
   } // end getAdjustedRoation

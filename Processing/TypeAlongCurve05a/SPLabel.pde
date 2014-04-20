@@ -134,8 +134,21 @@ class SpLabel {
       validLabel = true;
     }
 
+    // check vs the blockImage
+    if (validLabel && skipLabelsDueToBlockImage) {
+      for (Letter l : newLabel.letters) {
+        PVector centerPt = l.getLetterCenter();
+        color blockColor = blockImage.get((int)centerPt.x, (int)centerPt.y);
+        if (blockColor == blockImageColor) {
+          validLabel = false;
+          break;
+        }
+      }
+    }
+
+
     //if it is the middle line and skipMiddleLine is on, then return null
-    if (isMiddleSpLabel && skipMiddleLine) {
+    if (validLabel && isMiddleSpLabel && skipMiddleLine) {
       // check the curve points to see about equality since when they are read in they are separate obects
       int sameCount = 0; // tally similar points
       int minSameCount = 5; // thresh for determining same spline
@@ -179,6 +192,8 @@ class SpLabel {
     //
   public void addLabel(Label labelIn) {
     labels.add(labelIn);
+    // save out the lable block image too
+    labelIn.displayBlock(blockImage);
   } // end addLabel
 
 
