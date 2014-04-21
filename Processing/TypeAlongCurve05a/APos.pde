@@ -32,7 +32,14 @@ class Pos {
       if (t.series != null && t.series.length > 0) {
         if (seriesSum == null) seriesSum = t.series;
         else {
-          for (int i = 0; i < seriesSum.length; i++) seriesSum[i] += t.series[i];
+          for (int i = 0; i < seriesSum.length; i++) {
+            if (i < t.series.length) { // hack
+              seriesSum[i] += t.series[i];
+            }
+            else {
+              println("mismatch of t.series.length vs seriesSum.length");
+            }
+          }
         }
       }
 

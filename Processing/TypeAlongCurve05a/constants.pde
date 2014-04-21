@@ -19,9 +19,11 @@ final int INPUT_DATA_DEBUG = 10; // assign an static number
 final int INPUT_DATA_NOISE = 11; // just noise, not data
 
 // the different types of label alignments
-final int LABEL_ALIGN_LEFT = 0;
-final int LABEL_ALIGN_CENTER = 1;
-final int LABEL_ALIGN_RIGHT = 2;
+final int LABEL_ALIGN_LEFT = LEFT;
+final int LABEL_ALIGN_CENTER = CENTER;
+final int LABEL_ALIGN_RIGHT = RIGHT;
+final int LABEL_VERTICAL_ALIGN_BASELINE = BASELINE;
+final int LABEL_VERTICAL_ALIGN_TOP = TOP;
 
 // color stuff
 final int dateColor = #4D489F;

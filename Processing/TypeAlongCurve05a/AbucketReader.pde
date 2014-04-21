@@ -52,6 +52,9 @@ void readInBucketData() {
       Pos newPos = new Pos(newPosName);
 
       String[] allLines = loadStrings(thisFile);
+
+      println("file: " + thisFile + " allLines.length: " + allLines.length);
+
       for (int i = 0; i < allLines.length; i++) {
 
         String[] broken = split(allLines[i], ",");
@@ -63,8 +66,14 @@ void readInBucketData() {
         int nameIndices = 0;
 
         int manualBreak = 0;
+        boolean badLine = false;
         while (true) {
           try {
+            manualBreak++;
+            if (manualBreak > 10000) {
+              badLine = true;
+              break;
+            }
             int test = Integer.parseInt(broken[nameIndices + 1]);
             break;
           }
@@ -73,6 +82,12 @@ void readInBucketData() {
           }
         }
 
+
+        // skip the bad line
+        if (badLine) {
+          println("badLine");
+          continue;
+        }
 
         for (int j = 0; j < broken.length; j++) {          
           if (j <= nameIndices) {
@@ -101,9 +116,24 @@ void readInBucketData() {
       if (isPos) newBucket.addPos(newPos);
       else if (isEntity) newBucket.addEntity(newPos);
     }
+
+    println("going to tally for bucket: " + newBucket.name);
     newBucket.tallyThings();
+    println(" tallied");
     bucketsAL.add(newBucket);
     bucketsHM.put(newBucketName, newBucket);
+    println(" added new bucket");
+  }
+
+  // if manual listing then reorder the buckets by the order of the bucketsToUse
+  if (manualLayerControl) {
+    ArrayList<Bucket> newBucketsAL = new ArrayList<Bucket>(); 
+    for (String s : bucketsToUse) {
+      for (Bucket b : bucketsAL) {
+        if (b.name.equals(s)) newBucketsAL.add(b);
+      }
+    }
+    bucketsAL = newBucketsAL;
   }
 } // end readInBucketData
 

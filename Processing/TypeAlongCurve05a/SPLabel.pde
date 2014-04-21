@@ -54,16 +54,6 @@ class SpLabel {
 
   //
   void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing, int distributionType) {
-    /*
-    if (variationSpline == null) {
-     middleSplines = blendSplinesVertically(topSpline, bottomSpline, count, splineCPDistance);
-     println("made middleSplines size of: " + middleSplines.size());
-     }
-     else {
-     middleSplines = blendSplinesVerticallyWithWeight(topSpline, bottomSpline, count, splineCPDistance, variationSpline);
-     println("made middleSplines size of: " + middleSplines.size());
-     }
-     */
 
     middleMain = middleMakerVertical(topSpline, bottomSpline, splineCPDistance, maximumPercentSplineSpacing);
 
@@ -110,7 +100,7 @@ class SpLabel {
 
     makeOrderedLists(this, distributionType);
 
-    println("done making divisions");
+    println("done making divisions for splabel " + bucketName);
   } // end blendSPLabelSplinesVertically 
 
 
@@ -118,111 +108,126 @@ class SpLabel {
 
   // TO DO FUNCTIONS
   //
-  public Label makeCharLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
-    return makeLabel(label, textAlign, targetDistance, wiggleRoom, s, false, true);
+  public Label makeCharLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, false, true);
   } // end makeCharLabel
 
   //
   // unfinished
-  public Label makeStraightLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s) {
-    return makeLabel(label, textAlign, targetDistance, wiggleRoom, s, true, false);
+  public Label makeStraightLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, true, false);
   } // end makeStrighLabel 
 
   //
-  private Label makeLabel(String label, int textAlign, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
-    /*
-    // if it is the middle line and skipMiddleLine is on, then return null
-     if (isMiddleSpLabel && skipMiddleLine && middleSplines.size() > 0) {
-     if (s == middleSplines.get(floor((float)middleSplines.size() / 2))) {
-     return null;
-     }
-     }
-     
-     Label newLabel = new Label(label, textAlign);
-     */
+  private Label makeLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+    //println("in makeLabel for label: " + label + " at targetDistance: " + targetDistance + " and align: " + textAlign);
+    
+    long debugTime = millis();
+    //print(" makeLabel::  " );
+    
+    Label newLabel = new Label(label, textAlign, labelAlignVertical);
+    boolean validLabel = false;
+    
+    
+   // print(" aa ::  " + (millis() - debugTime));
+    debugTime = millis();
 
-    /*
-    // first determine which splines are above and below the given one
-     Spline buddySplineTop = null;
-     Spline buddySplineBottom = null;
-     if (s == topSpline) {
-     buddySplineTop = topNeighborSpline;
-     if (middleSplines.size() > 0) buddySplineBottom = middleSplines.get(0);
-     else buddySplineBottom = bottomSpline;
-     }
-     else if (s == bottomSpline) {
-     buddySplineBottom = bottomNeighborSpline;
-     if (middleSplines.size() > 0) buddySplineTop = middleSplines.get(middleSplines.size() - 1);
-     else buddySplineTop = topSpline;
-     }
-     else {
-     for (int i = 0; i < middleSplines.size(); i++) {
-     if (middleSplines.get(i) == s) {
-     if (i == 0) {
-     buddySplineTop = topSpline;
-     if (i < middleSplines.size() - 1) buddySplineBottom = middleSplines.get(i + 1);
-     else buddySplineBottom = bottomSpline;
-     }
-     else if (i == middleSplines.size() - 1) {
-     buddySplineBottom = bottomSpline;
-     if (i > 0) {
-     buddySplineTop = middleSplines.get(i - 1);
-     }
-     else buddySplineTop = topSpline;
-     }
-     else {
-     // check for a dividing middle spline
-     if (isMiddleSpLabel && middleAdjustSpline != null && i == (floor((float)middleSplines.size() / 2))) {
-     buddySplineTop = middleAdjustSpline;
-     }
-     else {
-     buddySplineTop = middleSplines.get(i - 1);
-     buddySplineBottom = middleSplines.get(i + 1);
-     }
-     }
-     break;
-     }
-     }
-     }
-     */
+    if (!varySize) {
+    }
+    // or do the character assignment if !straightText and varySize
+    else {
+      //newLabel.assignSplineAndLocation(s, buddySplineTop, buddySplineBottom, (targetDistance / s.totalDistance));
+      newLabel.assignSplineAndLocation(s, (targetDistance / s.totalDistance));
+      newLabel.makeLetters(-1); // -1 for variable sizing
+      validLabel = true;
+      //print(" bb ::  " + (millis() - debugTime));
+    debugTime = millis();
+    }
+
+    // check vs the blockImage
+    if (validLabel && skipLabelsDueToBlockImage) {
+      for (Letter l : newLabel.letters) {
+        PVector centerPt = l.getLetterCenter();
+        color blockColor = blockImage.get((int)centerPt.x, (int)centerPt.y);
+        if (blockColor == blockImageColor) {
+          validLabel = false;
+          break;
+        }
+      }
+      //print(" cc ::  " + (millis() - debugTime));
+    debugTime = millis();
+    }
 
 
-    /*
+    //if it is the middle line and skipMiddleLine is on, then return null
+    if (validLabel && isMiddleSpLabel && skipMiddleLine) {
+      // check the curve points to see about equality since when they are read in they are separate obects
+      int sameCount = 0; // tally similar points
+      int minSameCount = 5; // thresh for determining same spline
+      for (int i = 0; i < minSameCount; i++) {
+        if (!s.useUpHeight) break; // skip out if its going down anyways because the middle one will be going up
+        if (s.curvePoints.get(i).x == middleMain.get(1).curvePoints.get(i).x && s.curvePoints.get(i).y == middleMain.get(1).curvePoints.get(i).y) {
+          sameCount++;
+        }
+      }
+      if (sameCount == minSameCount) {
+        validLabel = false;
+      }
+      //print(" dd ::  " + (millis() - debugTime));
+    debugTime = millis();
+    }
 
-     boolean validLabel = false;
-     // then go through and find the maximum or minimum heights to use if !varySize
-     if (!varySize) {
-     }
-     // or do the character assignment if !straightText and varySize
-     else {
-     newLabel.assignSplineAndLocation(s, buddySplineTop, buddySplineBottom, (targetDistance / s.totalDistance));
-     newLabel.makeLetters(-1); // -1 for variable sizing
-     validLabel = true;
-     }
-     
-     //if (validLabel) labels.add(newLabel);
-     
-     if (validLabel) return newLabel;
-     else return null;
-     */
-    return null;
+
+    // check that the label doesnt go above the top or below the bottom spline
+    if (validLabel) {
+      ArrayList<PVector> startHeightAR = s.getPointByDistance(newLabel.startDistance);
+      ArrayList<PVector> endHeightAR = s.getPointByDistance(newLabel.startDistance);
+      if (startHeightAR != null && endHeightAR != null) {
+        PVector startHeight = startHeightAR.get(0);
+        PVector endHeight = endHeightAR.get(0);
+        if (s.useUpHeight) {
+          ArrayList<PVector> topClosestARStart = topSpline.getPointByClosestPoint(startHeight);
+          ArrayList<PVector> topClosestAREnd = topSpline.getPointByClosestPoint(endHeight);
+          if (topClosestARStart != null) if (startHeight.y < topClosestARStart.get(0).y + minLabelSpacing / 2) validLabel = false; 
+          if (topClosestAREnd != null) if (endHeight.y < topClosestAREnd.get(0).y + minLabelSpacing / 2) validLabel = false;
+        }
+        else {
+          ArrayList<PVector> bottomClosestARStart = bottomSpline.getPointByClosestPoint(startHeight);
+          ArrayList<PVector> bottomClosestAREnd = bottomSpline.getPointByClosestPoint(endHeight);
+          if (bottomClosestARStart != null) if (startHeight.y > bottomClosestARStart.get(0).y - minLabelSpacing / 12) validLabel = false;
+          if (bottomClosestAREnd != null) if (endHeight.y > bottomClosestAREnd.get(0).y - minLabelSpacing / 12) validLabel = false;
+        }
+      }
+      //print(" ee ::  " + (millis() - debugTime));
+    debugTime = millis();
+    }
+
+//println("___");
+    if (validLabel) return newLabel;
+    else {
+      newLabel = null;
+      return null;
+    }
   } // end makeLabel
 
     //
   public void addLabel(Label labelIn) {
     labels.add(labelIn);
+    // save out the lable block image too
+    labelIn.displayBlock(blockImage);
   } // end addLabel
 
 
   //
   // this will check whether or not a starting distance and ending distance are free for population
   boolean spacingIsOpen(Spline targetSpline, float startDistance, float endDistance) {
-    if (startDistance < 0) return false;
-    if (endDistance > targetSpline.totalDistance) return false;
+    if (startDistance <= 0) return false;
+    if (endDistance >= targetSpline.totalDistance) return false;
     for (Label l : labels) {
       if (l.spline == targetSpline) {
         if ((l.startDistance >= startDistance && l.startDistance <= endDistance) || (l.endDistance >= startDistance && l.endDistance <= endDistance)) return false;
         if ((l.startDistance <= startDistance && l.endDistance >= endDistance)) return false;
+        if ((l.startDistance >= startDistance && l.endDistance <= endDistance)) return false;
       }
     } 
     return true;
@@ -240,7 +245,7 @@ class SpLabel {
     }
     else {
       skipZones.put(skipX, textWidth);
-      //println("marked newskip zone.  skipZones.size(): " + skipZones.size());
+      //println("marked new skip zone.  skipZones.size(): " + skipZones.size());
     }
   } // end markSkipZone
 
@@ -315,18 +320,6 @@ class SpLabel {
       middleMain.get(1).display();
     }    
 
-    /*
-    if (middleTops != null) {
-     for (ArrayList<Spline> tops : middleTops) {
-     for (Spline s : tops) s.display();
-     }
-     }
-     if (middleBottoms != null) {
-     for (ArrayList<Spline> bottoms : middleBottoms) {
-     for (Spline s : bottoms) s.display();
-     }
-     }
-     */
     if (orderedTopSplines != null) {
       for (ArrayList<Spline> tops : orderedTopSplines) {
         for (Spline s : tops) s.display();
