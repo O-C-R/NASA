@@ -1,7 +1,7 @@
 
 
 
-
+ArrayList<PVector> newPoint = new ArrayList<PVector>();  // for use in making the letters... to reduce memory?
 
 //
 class Label {
@@ -35,10 +35,13 @@ class Label {
 
   //
   // pass in -1 for letterHeight if the characters will take on the spline height
+  
   void makeLetters(float letterHeight) {
+    //long debugTime = millis();
+    //print("    in makeLetters.  ");
     letters = new ArrayList<Letter>();
     splinePercent = constrain(splinePercent, 0, 1);
-    ArrayList<PVector> newPoint = new ArrayList<PVector>();
+    newPoint = new ArrayList<PVector>();
     float letterWidth = 0f;
     float totalLength = spline.totalDistance;
     float distanceMarker = splinePercent * totalLength;

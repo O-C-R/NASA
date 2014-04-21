@@ -121,8 +121,16 @@ class SpLabel {
   //
   private Label makeLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
     //println("in makeLabel for label: " + label + " at targetDistance: " + targetDistance + " and align: " + textAlign);
+    
+    long debugTime = millis();
+    //print(" makeLabel::  " );
+    
     Label newLabel = new Label(label, textAlign, labelAlignVertical);
     boolean validLabel = false;
+    
+    
+   // print(" aa ::  " + (millis() - debugTime));
+    debugTime = millis();
 
     if (!varySize) {
     }
@@ -132,6 +140,8 @@ class SpLabel {
       newLabel.assignSplineAndLocation(s, (targetDistance / s.totalDistance));
       newLabel.makeLetters(-1); // -1 for variable sizing
       validLabel = true;
+      //print(" bb ::  " + (millis() - debugTime));
+    debugTime = millis();
     }
 
     // check vs the blockImage
@@ -144,6 +154,8 @@ class SpLabel {
           break;
         }
       }
+      //print(" cc ::  " + (millis() - debugTime));
+    debugTime = millis();
     }
 
 
@@ -161,7 +173,10 @@ class SpLabel {
       if (sameCount == minSameCount) {
         validLabel = false;
       }
+      //print(" dd ::  " + (millis() - debugTime));
+    debugTime = millis();
     }
+
 
     // check that the label doesnt go above the top or below the bottom spline
     if (validLabel) {
@@ -183,10 +198,16 @@ class SpLabel {
           if (bottomClosestAREnd != null) if (endHeight.y > bottomClosestAREnd.get(0).y - minLabelSpacing / 12) validLabel = false;
         }
       }
+      //print(" ee ::  " + (millis() - debugTime));
+    debugTime = millis();
     }
 
+//println("___");
     if (validLabel) return newLabel;
-    else return null;
+    else {
+      newLabel = null;
+      return null;
+    }
   } // end makeLabel
 
     //
@@ -224,7 +245,7 @@ class SpLabel {
     }
     else {
       skipZones.put(skipX, textWidth);
-      //println("marked newskip zone.  skipZones.size(): " + skipZones.size());
+      //println("marked new skip zone.  skipZones.size(): " + skipZones.size());
     }
   } // end markSkipZone
 

@@ -1,3 +1,32 @@
+/**
+ INSTRUCTIONS FOR USE
+ make sure the settings are correct:
+ Set the size of the sketch
+ Order the buckets as they should be
+ get the spline info all righta nd such
+ 
+ 
+ when running for the first time
+ run, verify that the main splines are where they should be
+ press 'n' to generate the middle splines
+ press 'r' to refresh the screen and verify that the splines are cool
+ press 'b' to generate the heights
+ press 'x' to export the splines
+ RESTART THE PROGRAM
+ press 'z' to load the splines
+ press 'v' to shift the top half up
+ if everything's cool, then 
+ press 'x' to re-export the splines
+ switch the 'disableSplineMaking' to true so that you don't accidentally make new splines or export over your old version
+ and also switch 'autoLoadSplines' to true so that it will automatically load things upon startup  
+ 
+ now, whenever you want to run it
+ press 'z' to import all of the splines and go from there
+ 
+ 
+ */
+
+
 import rita.*;
 
 import ocrUtils.maths.*;
@@ -17,23 +46,25 @@ boolean debugOn = false;
 boolean displayHeightsOn = false;
 boolean displayLabels = true;
 // ****** //
-boolean disableSplineMaking = false; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
-boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
+boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
 // ****** //
+
+// manual layout of bucket control
 boolean manualLayerControl = true; // will make it so that the stack goes in the order that the buckets are read in as opposed to calculating and balancing things out
 String manualMiddleBucketName = "research_and_development"; // if you want to manually define the emiddle bucket
 
 
 // *** main spline numbers *** //
-float splineMinAngleInDegrees = .07f; // .02 for high
+float splineMinAngleInDegrees = .05f; // .02 for high
 float splineMinDistance = 10f; // minimum distance between makeing a facet
 int splineDivisionAmount = 170; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 
 // *** child spline numbers *** // 
-float minimumSplineSpacing = 10f; // 4f is a good ht; // *** change this to set the minimum spline ht
-float maximumPercentSplineSpacing = .18; // .2 is ok..
+float minimumSplineSpacing = 7f; // 4f is a good ht; // *** change this to set the minimum spline ht
+float maximumPercentSplineSpacing = .2; // .2 is ok..
 float childMaxPercentMultiplier = 1.95; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
 
@@ -45,9 +76,10 @@ boolean skipMiddleLine = true; // if on it will make it so that text cannot go o
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   //140f, 400f, 140f, 350f // for draft
-  100f, 100f, 100f, 100f
+  120f, 150f, 120f, 150f
 };
 
+// *** label numbers
 float minLabelSpacing = 10f; // the minimum spacing between labels along a spline
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 
@@ -73,7 +105,8 @@ Letter blankLetter = new Letter();
 Term blankTerm = new Term(); // blank term used to gather x position.  used main for series length which is copied over as buckets are read in
 
 // bucket vars
-String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
+//String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
+String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAllCLEAN";
 //String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
 String[] bucketsToUse = {
   //"debug", 
@@ -147,6 +180,7 @@ float minCharHeight = 2; // minimum height for the middle of the label.  anythin
 
 // keep track of the used terms so that they only appear once throughout the entire diagram
 HashMap<String, Term> usedTerms = new HashMap<String, Term>(); // the ones that were succesfully placed
+HashMap<String, Term> usedTermsSimple = new HashMap<String, Term>(); // same as used terms but prefixed with the bucket name
 // keep track of terms used at different x locations
 HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); 
 
@@ -167,9 +201,9 @@ void setup() {
   //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
 
-  //size(4800, 1200); // good
+  size(5000, 1200); // good
   ///size(1200, 500); // small for debug
-  size(2200, 800); // small for debug
+  //size(2200, 800); // small for debug
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
@@ -210,10 +244,11 @@ void setup() {
   if (autoLoadSplines) readInSplinesForSpLabels();
 
   // debug
-
-  //constrainRange[0] = 1990;
-  //constrainRange[1] = 2000;
-  //setConstrainRange();
+  /*
+  constrainRange[0] = 1960;
+   constrainRange[1] = 1970;
+   setConstrainRange();
+   */
 } // end setup
 
 //
@@ -296,10 +331,19 @@ void keyReleased() {
     //exportNow = true;
     loop();
   }
+  if (key == '\\') {
+    println("saving PDF & frame...");
+    timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
+    saveFrame("output/" + timeStamp + ".png");
+    println("end of saveFrame");
+    exportNow = true;
+    loop();
+  }
+
 
   if (key == ';') {
     println("saving out the block image"); 
-    blockImage.save("blockImage/blockImage.png");
+    blockImage.save("blockImage/" + OCRUtils.getTimeStampWithDate() + ".png");
     println("done saving out the block image");
   }
 
@@ -324,12 +368,18 @@ void keyReleased() {
 
   if (key == 'f') facetsOn = !facetsOn;
   if (key == 's') splinesOn = !splinesOn;
-  if (key == 'v') variationOn = !variationOn;
+  //if (key == 'v') variationOn = !variationOn;
   if (key == 'd') debugOn = !debugOn;
   if (key == 'h') displayHeightsOn = !displayHeightsOn;
   if (key == 'l') displayLabels = !displayLabels;
 
-
+  if (key == 'g') {
+    println(" used memory: " + Runtime.getRuntime().freeMemory());
+    println(" free memory: " + Runtime.getRuntime().totalMemory());
+    System.gc();
+    println(" used memory: " + Runtime.getRuntime().freeMemory());
+    println(" free memory: " + Runtime.getRuntime().totalMemory());
+  }
 
 
 
@@ -386,13 +436,7 @@ void keyReleased() {
       println("disableSplineMaking set to true, will NOT make new splines");
       return;
     }
-
     splitMasterSpLabelsVertically(maxSplineHeight, minimumSplineSpacing, maximumPercentSplineSpacing); // this will generate the middleSplines for each splabel by straight up vertical
-
-    /*
-     // do the great divide
-     if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
-     */
   }
   if (key == 'b') {
     if (disableSplineMaking) {
@@ -407,6 +451,16 @@ void keyReleased() {
       //break; // debug break;
     }
   }
+  if (key == 'v') {
+    if (disableSplineMaking) {
+      println("disableSplineMaking set to true, will NOT shift splines up");
+      return;
+    }
+    println("shifting splines up");
+    splitMiddleSpLabel(middleDivideDistance);
+    println("done shifting splines up");
+  }
+
   if (key == 'c') {
     if (disableSplineMaking) {
       println("disableSplineMaking set to true, will NOT clip splabel splines");
@@ -425,10 +479,7 @@ void keyReleased() {
   }
   if (key == 'z') {
     readInSplinesForSpLabels();
-    /* ????????     
-     // do the great divide
-     if (addMiddleDivide) splitMiddleSpLabel(middleDivideDistance);
-     */
+    loop();
   }
 
 
@@ -514,7 +565,7 @@ void doPopulate(int toMake) {
   }
   println("_");
 
-  println("  placed " + positivePlacements + " terms of " + (toMake * bucketsAL.size()) + " possible with time of: " + (millis() - startTime));
+  println("  placed " + positivePlacements + " terms of " + (currentBucketIndex < bucketsAL.size() ? toMake : toMake * bucketsAL.size()) + " possible with time of: " + ceil((float)(millis() - startTime) / 1000) + " seconds");
   println(" remaining options: ");
   for (Bucket b : bucketsAL) {
     println ( "   b.name: " + b.name + " options remaining: " + b.bucketTermsRemainingAL.size());

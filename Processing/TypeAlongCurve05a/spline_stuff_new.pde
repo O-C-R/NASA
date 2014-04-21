@@ -74,13 +74,13 @@ ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, floa
       println(" null intersection ptB");
     }
 
-/*
+    /*
     stroke(0, 127, 0, 100);
-    noFill();
-    ellipse(ptA.x, ptA.y, 14, 14);
-    stroke(127, 0, 127, 100);
-    ellipse(ptB.x, ptB.y, 14, 14);
-    */
+     noFill();
+     ellipse(ptA.x, ptA.y, 14, 14);
+     stroke(127, 0, 127, 100);
+     ellipse(ptB.x, ptB.y, 14, 14);
+     */
 
     if (intersection == null || ptB == null) {
       if (wiggleCounter < wiggleLimit) {
@@ -99,10 +99,10 @@ ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, floa
     midBottomPts.add(tempMidPts.get(1));
     facetStartIndex++;
 
-/*
+    /*
     stroke(100, 127);
-    line(ptA.x, ptA.y, tempMidPts.get(0).x, tempMidPts.get(0).y);
-    */
+     line(ptA.x, ptA.y, tempMidPts.get(0).x, tempMidPts.get(0).y);
+     */
 
     count++;
     if (facetStartIndex == a.facetPoints.length - 1) break; // end of while
@@ -263,7 +263,20 @@ ArrayList<Spline> makeCutoffSplines2(Spline boundary, Spline parent, float minHe
 
 
 
-
+//
+boolean isSameSpline(Spline a, Spline b, int curvePointCheckSkip) {
+  int sameCount = 0; // tally similar points
+  for (int i = 0; i < a.curvePoints.size(); i += curvePointCheckSkip) {
+    
+    if (a.curvePoints.get(i).x == b.curvePoints.get(i).x && a.curvePoints.get(i).y == b.curvePoints.get(i).y) {
+      sameCount++;
+    }
+  }
+  if (sameCount >= (float)a.curvePoints.size() / (1 + curvePointCheckSkip)) {
+    return true;
+  }
+  return false;
+} // end isSameSpline
 
 //
 //
