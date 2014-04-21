@@ -269,7 +269,7 @@ void draw() {
 
   for (SpLabel sp : splabels) {
     fill(sp.c);
-    sp.display();
+    if (displayLabels) sp.display();
 
     if (splinesOn) sp.displaySplines();
     if (facetsOn) sp.displayFacetPoints();
