@@ -429,6 +429,16 @@ ArrayList<Spline> blendSplinesVerticallyWithWeight(Spline a, Spline b, int total
   return newSplines;
 } // end blendSplinesVerticallyWithWeight
 
+//
+float getAvgSplineHeight(Spline s) {
+  float avg = 0;
+  if (s.facetHeights.length == 0) return avg;
+  
+  for (float f : s.facetHeights) avg += f;
+  avg /= s.facetHeights.length;
+  return avg;
+} // end getAvgSplineHeight
+
 
 
 

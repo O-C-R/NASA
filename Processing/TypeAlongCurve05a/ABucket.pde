@@ -7,6 +7,12 @@ class Bucket {
   HashMap<String, Pos> entitiesHM = new HashMap<String, Pos>();
   ArrayList<Pos> entitiesAL = new ArrayList<Pos>();
 
+  // filler will be treated as a separate pos series too
+  HashMap<String, Pos> fillersHM = new HashMap<String, Pos>();
+  ArrayList<Pos> fillersAL = new ArrayList<Pos>(); // a list of all of the poses for the fillers
+  ArrayList<Term> fillersTermsAL = new ArrayList<Term>(); // simply all of the terms in the fillersAL pos
+  ArrayList<Term> fillersTermsRemainingAL = new ArrayList<Term>(); // the ones that will be used for placement
+
   // tally stuff for regular pos
   float highCount = 0f;
   float totalSeriesSum = 0; // total from all of the terms within all of the poses
@@ -62,6 +68,12 @@ class Bucket {
   } // end addEntity
 
     //
+  void addFiller(Pos filler) {
+    fillersHM.put(filler.pos, filler);
+    fillersAL.add(filler);    
+  } // end addFiller
+
+    //
   void tallyThings() {
     // tally things for both the regular pos and for the entity pos values
     for (Map.Entry me : posesHM.entrySet()) {
@@ -71,7 +83,7 @@ class Bucket {
       if (p.seriesSum != null && p.seriesSum.length > 0) {
         if (seriesSum == null) seriesSum = p.seriesSum;
         else {
-          for (int i = 0; i < seriesSum.length; i++) seriesSum[i] += .000000001 + p.seriesSum[i]; // add in at least something so that it doesnt 0 out. ****** BUG ****** 
+          for (int i = 0; i < seriesSum.length; i++) seriesSum[i] += .000000001 + p.seriesSum[i]; // add in at least something so that it doesnt 0 out. ****** BUG ******
         }
       }
 
@@ -127,6 +139,14 @@ class Bucket {
 
     for (float f : seriesSumEntity) maxPosSeriesNumberEntity = (maxPosSeriesNumberEntity > f ? maxPosSeriesNumberEntity : f);
 
+
+    // make the fillersTermAL
+    for (Pos p : fillersAL) {
+      fillersTermsAL.addAll(p.termsAL);
+      fillersTermsRemainingAL.addAll(p.termsAL);
+    }
+
+
     println("bucket: " + name + " ENTITY STUFF: " );
     println(" highestSeriesCountEntity: " + highestSeriesCountEntity);
     println(" highestSeriesTermStringEntity: " + highestSeriesTermStringEntity);
@@ -181,6 +201,7 @@ class Bucket {
       if (bucketTermsAL.size() == 0 && bucketTermsEntitiesAL.size() == 0) break;
     } 
 
+    
 
     println(" done.  with " + bucketTermsRemainingAL.size() + " options");
     println(testOutput);
@@ -200,6 +221,11 @@ class Bucket {
           bucketTermsRemainingAL.remove(i);
         }
       }
+    }
+
+    // also take out from filler terms if for some reason it is in there
+    for (int i = fillersTermsRemainingAL.size() - 1; i >= 0; i--) {
+      if ( fillersTermsRemainingAL.get(i).term.equals(t.term)) fillersTermsRemainingAL.remove(i);
     }
   } // end takeOutTerm
 

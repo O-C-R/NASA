@@ -16,9 +16,13 @@ class Label {
   float startDistance = 0f; // keep track of where this label starts and stops
   float endDistance = 0f;
 
+  float fillAlpha = random(1);
+  Term term = null;
+
 
   //
-  Label(String baseText, int labelAlign, int labelAlignVertical) {
+  Label(Term term, String baseText, int labelAlign, int labelAlignVertical) {
+    this.term = term;
     this.baseText = baseText;
     this.labelAlign = labelAlign;
     this.labelAlignVertical = labelAlignVertical;
@@ -166,7 +170,8 @@ class Label {
   } // end getMinimumLetterHeight
 
     //
-  void display() {
+  void display(color c) {
+    fill(c, map(fillAlpha, 0, 1, minimumFillAlpha, maximumFillAlpha));
     for (Letter l : letters) l.display();
   } // end display
   

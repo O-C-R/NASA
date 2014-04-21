@@ -82,6 +82,8 @@ float[] padding = { // essentially the bounds to work in... note: the program wi
 // *** label numbers
 float minLabelSpacing = 10f; // the minimum spacing between labels along a spline
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
+float maximumFillAlpha = 255f;
+float minimumFillAlpha = 50f;
 
 // when divding up the splabels into the middlesplines
 float maxSplineHeight = 19f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
@@ -113,8 +115,8 @@ String[] bucketsToUse = {
   //"administrative", 
   //"astronaut", 
   //"mars",
-  "satellites", 
-  "moon", //   
+  "satellites", // * 
+  "moon", // *
   //"people", 
   //"politics", 
   "research_and_development", // * 
@@ -155,9 +157,13 @@ String[] entitiesToUse = {
   "Person",
 };
 
+String[] fillersToUse = {
+  "vbg",
+};
+
 // ******ENTITY MULTIPLIER****** //
 float entityMultiplier = .0001; // .0001 seems pretty even.  this multiplier brings down the entity totals so that they can be factored into the spline defining equatio
-float entityToNormalRatio = .75; // this determines roughly how many entity terms to put in compared to the other pos entries.  this : 1
+float entityToNormalRatio = .45; // this determines roughly how many entity terms to put in compared to the other pos entries.  this : 1
 
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
@@ -182,7 +188,8 @@ float minCharHeight = 2; // minimum height for the middle of the label.  anythin
 HashMap<String, Term> usedTerms = new HashMap<String, Term>(); // the ones that were succesfully placed
 HashMap<String, Term> usedTermsSimple = new HashMap<String, Term>(); // same as used terms but prefixed with the bucket name
 // keep track of terms used at different x locations
-HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); 
+HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); // save the exact x locations of the terms
+HashMap<Integer, HashMap<String, Integer>> usedFillerTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); // for the filler, save the approx year and String
 
 
 
@@ -244,11 +251,12 @@ void setup() {
   if (autoLoadSplines) readInSplinesForSpLabels();
 
   // debug
-  /*
-  constrainRange[0] = 1960;
-   constrainRange[1] = 1970;
-   setConstrainRange();
-   */
+
+
+  constrainRange[0] = 1962;
+  constrainRange[1] = 1977;
+  setConstrainRange();
+  
 } // end setup
 
 //
@@ -260,9 +268,6 @@ void draw() {
   }
 
   background(bgColor);
-
-
-
 
   // draw dates
   drawDates();
@@ -316,11 +321,6 @@ void keyPressed() {
 
 //
 void keyReleased() {  
-  if (key == 'a') {
-    snap();
-    //populateFullForDebug(); // will fill up the thing with random phrases
-    // use this to fill gaps at the end
-  }
 
   // save out stuff
   if (key == 'p') {
@@ -364,6 +364,16 @@ void keyReleased() {
   if (key == 'q') doPopulate(3);
 
 
+  if (key == 'a') {    
+    for (int i = 0; i < bucketsAL.size(); i++) {
+      if (currentBucketIndex < bucketsAL.size()) {
+        if (i != currentBucketIndex) continue;
+      }
+      Bucket b = bucketsAL.get(i);
+      fillInTheGapsForBucket(b);
+    }
+    loop();
+  }
 
 
   if (key == 'f') facetsOn = !facetsOn;

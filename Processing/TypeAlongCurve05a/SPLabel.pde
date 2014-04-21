@@ -108,28 +108,28 @@ class SpLabel {
 
   // TO DO FUNCTIONS
   //
-  public Label makeCharLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
-    return makeLabel(label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, false, true);
+  public Label makeCharLabel(Term term, String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(term, label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, false, true);
   } // end makeCharLabel
 
   //
   // unfinished
-  public Label makeStraightLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
-    return makeLabel(label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, true, false);
+  public Label makeStraightLabel(Term term, String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s) {
+    return makeLabel(term, label, textAlign, labelAlignVertical, targetDistance, wiggleRoom, s, true, false);
   } // end makeStrighLabel 
 
   //
-  private Label makeLabel(String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
+  private Label makeLabel(Term term, String label, int textAlign, int labelAlignVertical, float targetDistance, float wiggleRoom, Spline s, boolean straightText, boolean varySize) {
     //println("in makeLabel for label: " + label + " at targetDistance: " + targetDistance + " and align: " + textAlign);
-    
+
     long debugTime = millis();
     //print(" makeLabel::  " );
-    
-    Label newLabel = new Label(label, textAlign, labelAlignVertical);
+
+    Label newLabel = new Label(term, label, textAlign, labelAlignVertical);
     boolean validLabel = false;
-    
-    
-   // print(" aa ::  " + (millis() - debugTime));
+
+
+    // print(" aa ::  " + (millis() - debugTime));
     debugTime = millis();
 
     if (!varySize) {
@@ -141,7 +141,7 @@ class SpLabel {
       newLabel.makeLetters(-1); // -1 for variable sizing
       validLabel = true;
       //print(" bb ::  " + (millis() - debugTime));
-    debugTime = millis();
+      debugTime = millis();
     }
 
     // check vs the blockImage
@@ -155,7 +155,7 @@ class SpLabel {
         }
       }
       //print(" cc ::  " + (millis() - debugTime));
-    debugTime = millis();
+      debugTime = millis();
     }
 
 
@@ -174,7 +174,7 @@ class SpLabel {
         validLabel = false;
       }
       //print(" dd ::  " + (millis() - debugTime));
-    debugTime = millis();
+      debugTime = millis();
     }
 
 
@@ -199,10 +199,10 @@ class SpLabel {
         }
       }
       //print(" ee ::  " + (millis() - debugTime));
-    debugTime = millis();
+      debugTime = millis();
     }
 
-//println("___");
+    //println("___");
     if (validLabel) return newLabel;
     else {
       newLabel = null;
@@ -232,6 +232,37 @@ class SpLabel {
     } 
     return true;
   } // end spacingIsOpen
+
+  //
+  ArrayList<Label> getLabelsOnSpline(Spline targetSpline) {
+    ArrayList<Label> labelsOnSpline = new ArrayList<Label>();
+    for (Label l : labels) {
+      if (l.spline == targetSpline) {
+        labelsOnSpline.add(l);
+      }
+    }
+    return labelsOnSpline;
+  } // end getTermsOnSpline
+
+    //
+  ArrayList<Label> getOrderedLabelsOnSpline(Spline targetSpline) {
+    ArrayList<Label>  labelsOnSpline = getLabelsOnSpline(targetSpline);
+    ArrayList<Label> ordered = new ArrayList<Label>();
+    for (int i = 0; i < labelsOnSpline.size(); i++) {
+      boolean foundSpot = false;
+      for (int j = 0; j < ordered.size(); j++) {
+        if (labelsOnSpline.get(i).startDistance < ordered.get(j).startDistance) {
+          ordered.add(j, labelsOnSpline.get(i));
+          foundSpot = true;
+          break;
+        }
+      }
+      if (!foundSpot) {
+        ordered.add(labelsOnSpline.get(i));
+      }
+    }
+    return ordered;
+  } // end getOrderedLabelsOnSpline
 
   //
   void markSkipZone(float x, float textWidth) {
@@ -299,7 +330,7 @@ class SpLabel {
     //
   void display() {
     for (Label l : labels) {
-      l.display();
+      l.display(c);
     }
   } // end display
 

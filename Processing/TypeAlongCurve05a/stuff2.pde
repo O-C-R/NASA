@@ -114,6 +114,12 @@ float getXFromYear(int yearIn, Term t) {
   return x;
 } // end getXFromYear
 
+//
+float getYearFromX(float xIn) {
+  float year = map(xIn, padding[3], width - padding[1], yearRange[0], yearRange[1]);
+  return year;
+} // end getYearFromX
+
 
 // mark the x locations of phrases
 boolean termIsAlreadyAtX(int x, Term t) {
@@ -132,6 +138,27 @@ void markTermAtX(int x, Term t) {
   oldHM.put(t.term, 0);
   usedTermsAtX.put(x, oldHM);
 } // end markTermAtX
+
+//  for simplicity it will check the year
+boolean fillerTermIsAlreadyAtX(int year, Term t) {
+  if (!usedFillerTermsAtX.containsKey(year)) return false;
+  else {
+    HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedFillerTermsAtX.get(year);
+    if (oldHM.containsKey(t.term)) {
+      return true;
+    }
+    else return false;
+  }
+} // end fillerTermIsAlreadyAtX
+
+//
+void markFillerTermAtX(int year, Term t) {
+  if (!usedFillerTermsAtX.containsKey(year)) usedFillerTermsAtX.put(year, new HashMap<String, Integer>());
+  HashMap<String, Integer> oldHM = (HashMap<String, Integer>) usedFillerTermsAtX.get(year);
+  oldHM.put(t.term, 0);
+  usedFillerTermsAtX.put(year, oldHM);
+  //println(" ____marking term " + t.term + " at year: " + year);
+} // end markFillerTermAtX
 
 //
 void drawDates() {

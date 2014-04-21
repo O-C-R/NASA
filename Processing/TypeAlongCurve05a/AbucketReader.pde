@@ -45,9 +45,13 @@ void readInBucketData() {
 
       boolean isPos = false;
       boolean isEntity = false;
-      for (String s : posesToUse) if (newPosName.contains(s)) isPos = true;
+      boolean isFiller = false;
+      //for (String s : posesToUse) if (newPosName.contains(s)) isPos = true;
+      if (newPosName.contains("_")) newPosName = split(newPosName, "_")[0];
+      for (String s : posesToUse) if (newPosName.equals(s)) isPos = true;
       for (String s : entitiesToUse) if (newPosName.contains(s)) isEntity = true;
-      if (!isPos && !isEntity) continue;
+      for (String s : fillersToUse) if (newPosName.equals(s)) isFiller = true;
+      if (!isPos && !isEntity && !isFiller) continue;
 
       Pos newPos = new Pos(newPosName);
 
@@ -115,6 +119,7 @@ void readInBucketData() {
       }
       if (isPos) newBucket.addPos(newPos);
       else if (isEntity) newBucket.addEntity(newPos);
+      else if (isFiller) newBucket.addFiller(newPos);
     }
 
     println("going to tally for bucket: " + newBucket.name);
