@@ -112,8 +112,8 @@ Term blankTerm = new Term(); // blank term used to gather x position.  used main
 
 // bucket vars
 //String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
-//String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAllCLEAN";
-String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
+String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAllCLEAN";
+//String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAllCLEAN";
 String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
@@ -310,6 +310,9 @@ void draw() {
   noLoop();
 
   if (exportNow) {
+    println("saving frame");
+    saveFrame("output/" + timeStamp + ".png");
+    println("done saving frame");
     endRecord(); 
     exportNow = false;
     println("ending export to PDF");
@@ -589,7 +592,6 @@ void doPopulate(int toMake) {
   // ****** //
   runFillInStuff();
   exportNow = true;
-  saveFrame("output/" + timeStamp + ".png");
   // ****** //
 
   loop();
