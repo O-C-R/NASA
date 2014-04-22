@@ -37,7 +37,7 @@ void makeTermAlpha(Term t, float positionInAr, String bucketName) {
   
   t.fillAlphaPercent = constrain(map(ratio, 0, 1, 0, 1), 0, 1);
 
-  println(t.term + " count: " + termCountOverall + " termCountThisBucket: " + termCountThisBucket + " ratio: " + ratio + " alpha: " + t.fillAlphaPercent);
+  //println(t.term + " count: " + termCountOverall + " termCountThisBucket: " + termCountThisBucket + " ratio: " + ratio + " alpha: " + t.fillAlphaPercent);
 } // end makeTermAlpha
 
 

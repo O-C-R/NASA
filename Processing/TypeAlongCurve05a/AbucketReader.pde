@@ -9,8 +9,8 @@ void setupHexColors() {
   hexColors.put("research_and_development", #BDEEFF);
   hexColors.put("rockets", #FFDFA8);
   hexColors.put("russia", #E50C30);
-  hexColors.put("satellites", #FF7E0D);
-  hexColors.put("space_shuttle", #FF450D);
+  hexColors.put("satellites", #FF450D);
+  hexColors.put("space_shuttle", #FF7E0D);
   hexColors.put("spacecraft", #333333);
   hexColors.put("us", #0022ff);
 } // end setupHexColors

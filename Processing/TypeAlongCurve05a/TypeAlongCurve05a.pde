@@ -39,7 +39,7 @@ import processing.pdf.*;
 
 // visual controls
 boolean facetsOn = false;
-boolean splinesOn = true;
+boolean splinesOn = false;
 boolean variationOn = false;
 boolean shiftIsDown = false;
 boolean debugOn = false;
@@ -48,6 +48,7 @@ boolean displayLabels = true;
 // ****** //
 boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
 boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
+boolean disableManualImport = true; // so that you don't erase everything
 // ****** //
 
 // manual layout of bucket control
@@ -111,8 +112,8 @@ Term blankTerm = new Term(); // blank term used to gather x position.  used main
 
 // bucket vars
 //String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAll";
-String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAllCLEAN";
-//String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
+//String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAllCLEAN";
+String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAll";
 String[] bucketsToUse = {
   //"debug", 
   //"administrative", 
@@ -130,7 +131,7 @@ String[] bucketsToUse = {
   //"us",
 };
 HashMap<String, Integer> hexColors = new HashMap<String, Integer>(); // called from setup(), done in AbucketReader
-int currentBucketIndex = 0; // selectively fill the buckets
+int currentBucketIndex = bucketsToUse.length; // selectively fill the buckets.  default set to all
 
 
 // only these Pos files will be used, others will be skipped
@@ -257,11 +258,11 @@ void setup() {
 
   // debug
 
-/*
+  /*
   constrainRange[0] = 1962;
-  constrainRange[1] = 1977;
-  setConstrainRange();
-  */
+   constrainRange[1] = 1977;
+   setConstrainRange();
+   */
 } // end setup
 
 //
@@ -370,13 +371,7 @@ void keyReleased() {
 
 
   if (key == 'a') {    
-    for (int i = 0; i < bucketsAL.size(); i++) {
-      if (currentBucketIndex < bucketsAL.size()) {
-        if (i != currentBucketIndex) continue;
-      }
-      Bucket b = bucketsAL.get(i);
-      fillInTheGapsForBucket(b);
-    }
+    runFillInStuff();
     loop();
   }
 
@@ -389,11 +384,7 @@ void keyReleased() {
   if (key == 'l') displayLabels = !displayLabels;
 
   if (key == 'g') {
-    println(" used memory: " + Runtime.getRuntime().freeMemory());
-    println(" free memory: " + Runtime.getRuntime().totalMemory());
-    System.gc();
-    println(" used memory: " + Runtime.getRuntime().freeMemory());
-    println(" free memory: " + Runtime.getRuntime().totalMemory());
+    clearGC();
   }
 
 
@@ -493,6 +484,10 @@ void keyReleased() {
     exportSplines();
   }
   if (key == 'z') {
+    if (disableManualImport) {
+      println("disableManualImport set to true.  so will NOT import");
+      return;
+    }
     readInSplinesForSpLabels();
     loop();
   }
@@ -576,6 +571,7 @@ void doPopulate(int toMake) {
     if (thisPercent != lastPercent) {
       print("_" + thisPercent + "_");
       lastPercent = thisPercent;
+      if (thisPercent % 5 == 0) clearGC();
     }
   }
   println("_");
@@ -587,10 +583,40 @@ void doPopulate(int toMake) {
   }
 
   timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-  //exportNow = true;
+  
+  
+  // for overnight exporting!
+  // ****** //
+  runFillInStuff();
+  exportNow = true;
+  saveFrame("output/" + timeStamp + ".png");
+  // ****** //
 
   loop();
 } // end doPopulate
+
+// 
+void runFillInStuff() {
+  for (int i = 0; i < bucketsAL.size(); i++) {
+    if (currentBucketIndex < bucketsAL.size()) {
+      if (i != currentBucketIndex) continue;
+    }
+    Bucket b = bucketsAL.get(i);
+    fillInTheGapsForBucket(b);
+    clearGC();
+  }
+} // end runFillInStuff
+
+//
+void clearGC() {
+  println("\n used memory: " + Runtime.getRuntime().freeMemory());
+  println(" free memory: " + Runtime.getRuntime().totalMemory());
+  System.gc();
+  println(" used memory: " + Runtime.getRuntime().freeMemory());
+  println(" free memory: " + Runtime.getRuntime().totalMemory());
+} // end clearGC
+
+
 
 //
 //
