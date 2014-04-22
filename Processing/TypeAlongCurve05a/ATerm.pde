@@ -6,8 +6,8 @@ class Term {
   int totalCount = 0;
 
   float seriesSum = 0f;
-
-
+  
+  float fillAlphaPercent = 1f; // between 0 and 1.  used in label to go between minimumFillAlpha and maximumFillAlpha.  assigned in makeAlphaValuesForTerms()
 
   // put the things into order
   int[] seriesOrderedIndices = new int[0];

@@ -176,7 +176,7 @@ boolean placeNextTermForBucket(Bucket b, Term t) {
     boolean shouldSkip = splabel.shouldSkip(x, basicTextSize);
 
     if (!shouldSkip) {
-      didPlace = populateBiggestSpaceAlongX(x, splabel, t.term, minLabelSpacing, wiggleRoom);
+      didPlace = populateBiggestSpaceAlongX(x, splabel, t, t.term, minLabelSpacing, wiggleRoom);
       seriesTries++;
     }
     else {
@@ -229,7 +229,7 @@ boolean placeNextTermForBucket(Bucket b, Term t) {
 ArrayList<PVector> intersectionPointAr = new ArrayList<PVector>();
 PVector intersectionPoint = new PVector();
 //
-boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, float spacing, float wiggleRoom) {
+boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, Term term, String text, float spacing, float wiggleRoom) {
   long startTime = millis();
   //println("in populateBiggestSpaceAlongX for splabel: " + splabel.bucketName + " and xIn: " + xIn);
 
@@ -287,7 +287,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
 
 
 
-    Label centerLabel = splabel.makeCharLabel(text, LABEL_ALIGN_CENTER, (splineToUse.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), distanceToUse, wiggleRoom, splineToUse);
+    Label centerLabel = splabel.makeCharLabel(term, text, LABEL_ALIGN_CENTER, (splineToUse.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), distanceToUse, wiggleRoom, splineToUse);
     //println("    time taken to MAKE center label: " + (debugTime2 - millis()) + "ms");
     //debugTime2 = millis();
     float centerLabelHeight = 0f;
@@ -327,7 +327,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
       float rightDistanceToUse = rightLabelExisting.startDistance - spacing;
       // check that the rightDistanceToUse is within the wiggle room
       if (rightDistanceToUse < centerEndDistance + wiggleRoom) {
-        rightSideLabel = splabel.makeCharLabel(text, LABEL_ALIGN_RIGHT, (splineToUse.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), rightDistanceToUse, wiggleRoom, splineToUse);
+        rightSideLabel = splabel.makeCharLabel(term, text, LABEL_ALIGN_RIGHT, (splineToUse.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), rightDistanceToUse, wiggleRoom, splineToUse);
         //println("    time taken to MAKE right label: " + (debugTime2 - millis()) + "ms");
         //debugTime2 = millis();
         //rightSideLabel = null;
@@ -353,7 +353,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, String text, floa
       float lefttDistanceToUse = leftLabelExisting.endDistance + spacing;
       // check that the rightDistanceToUse is within the wiggle room
       if (lefttDistanceToUse > centerStartDistance - wiggleRoom) {
-        leftSideLabel = splabel.makeCharLabel(text, LABEL_ALIGN_LEFT, (splineToUse.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), lefttDistanceToUse, wiggleRoom, splineToUse);
+        leftSideLabel = splabel.makeCharLabel(term, text, LABEL_ALIGN_LEFT, (splineToUse.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), lefttDistanceToUse, wiggleRoom, splineToUse);
         //println("    time taken to MAKE left label: " + (debugTime2 - millis()) + "ms");
         //debugTime2 = millis();
         if (leftSideLabel != null) leftSideWillFit = splabel.spacingIsOpen(splineToUse, leftSideLabel.startDistance, leftSideLabel.endDistance + spacing);

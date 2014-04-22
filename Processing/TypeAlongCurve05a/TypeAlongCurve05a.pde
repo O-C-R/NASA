@@ -63,7 +63,7 @@ boolean splineFlipUp = true; // whether or not to flip the thing
 
 
 // *** child spline numbers *** // 
-float minimumSplineSpacing = 7f; // 4f is a good ht; // *** change this to set the minimum spline ht
+float minimumSplineSpacing = 5f; // 4f is a good ht; // *** change this to set the minimum spline ht
 float maximumPercentSplineSpacing = .2; // .2 is ok..
 float childMaxPercentMultiplier = 1.95; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
@@ -83,7 +83,10 @@ float[] padding = { // essentially the bounds to work in... note: the program wi
 float minLabelSpacing = 10f; // the minimum spacing between labels along a spline
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 float maximumFillAlpha = 255f;
-float minimumFillAlpha = 50f;
+float minimumFillAlpha = 30f;
+HashMap<String, ArrayList<String>> termSimpleCount = new HashMap<String, ArrayList<String>>(); // when loading the terms keep track of how many times they appear
+int maximumTermOverallCount = 0;
+int maximumTermSingleBucketCount = 0;
 
 // when divding up the splabels into the middlesplines
 float maxSplineHeight = 19f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
@@ -194,6 +197,7 @@ HashMap<Integer, HashMap<String, Integer>> usedFillerTermsAtX = new HashMap<Inte
 
 
 
+
 // other stuff
 String timeStamp = "";
 boolean exportNow = false;
@@ -208,7 +212,7 @@ void setup() {
   //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
 
-  size(5000, 1200); // good
+  size(5300, 1400); // good
   ///size(1200, 500); // small for debug
   //size(2200, 800); // small for debug
   OCRUtils.begin(this);
@@ -216,7 +220,7 @@ void setup() {
   randomSeed(1667);
 
   //font = createFont("Helvetica", defaultFontSize);
-  font = createFont("Knockout-HTF31-JuniorMiddlewt", defaultFontSize);
+  font = createFont("Knockout-HTF31-JuniorMiddlewt", defaultFontSize); // use this one
   //font = createFont("UniversLTStd", defaultFontSize);
   //font = createFont("Gotham-Medium", defaultFontSize);
   //font = createFont("Gotham-Book", defaultFontSize);
@@ -236,6 +240,7 @@ void setup() {
 
   orderBucketTerms(); // this will not only order the terms in each bucket by their seriesSum, but will also do the same for each bucket's Pos and also make the ordered indices for each term
 
+  makeAlphaValuesForTerms(); // this will assign alpha values to each term  
 
   println("making masterSpLabels");
   makeMasterSpLabels();
@@ -252,11 +257,11 @@ void setup() {
 
   // debug
 
-
+/*
   constrainRange[0] = 1962;
   constrainRange[1] = 1977;
   setConstrainRange();
-  
+  */
 } // end setup
 
 //

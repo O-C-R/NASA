@@ -103,7 +103,7 @@ void fillInTheGapsForBucket(Bucket b) {
         for (int k = 0; k < optionTries; k++) {
           if (k >= termOptions.size()) break;
           targetTerm = termOptions.get(k);
-          Label newLabel = targetSpLabel.makeLabel(targetTerm.term, LABEL_ALIGN_LEFT, (s.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), startDistance, 0f, s, false, true);
+          Label newLabel = targetSpLabel.makeLabel(targetTerm, targetTerm.term, LABEL_ALIGN_LEFT, (s.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), startDistance, 0f, s, false, true);
           if (newLabel != null) {
             if (newLabel.endDistance < s.totalDistance) {
               successfulLabel = newLabel;
@@ -126,7 +126,7 @@ void fillInTheGapsForBucket(Bucket b) {
         for (int k = 0; k < optionTries; k++) {
           if (k >= termOptions.size()) break;
           targetTerm = termOptions.get(k);
-          Label newLabel = targetSpLabel.makeLabel(targetTerm.term, LABEL_ALIGN_LEFT, (s.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), startDistance, 0f, s, false, true);
+          Label newLabel = targetSpLabel.makeLabel(targetTerm, targetTerm.term, LABEL_ALIGN_LEFT, (s.useUpHeight ? LABEL_VERTICAL_ALIGN_BASELINE : LABEL_VERTICAL_ALIGN_TOP), startDistance, 0f, s, false, true);
           if (newLabel != null) {
             float distToNext = currentNextLabel.startDistance - newLabel.endDistance;
             if (distToNext > minLabelSpacing) {
@@ -170,7 +170,7 @@ void fillInTheGapsForBucket(Bucket b) {
 
 
       // if a good label was made, then record it
-      if (successfulLabel != null) {
+      if (successfulLabel != null && doesntIntersectWithBlockImage(successfulLabel)) {
         currentLastLabel = successfulLabel;
         targetSpLabel.addLabel(successfulLabel);
         // take out of bucket options
@@ -205,12 +205,28 @@ void fillInTheGapsForBucket(Bucket b) {
     }
     // manualBreak
     //if (i == 6) break;
-    println("done with spline " + (1 + i) + " of " + orderedSplines.size());
+    println("    done with filling spline " + (1 + i) + " of " + orderedSplines.size());
   } 
 
-  println("done filling in the gaps, placed " + count + " terms, total time taken: " + ((float)(millis() - startTime) / 1000));
+  println("done filling in the gaps, placed " + count + " terms, total time taken: " + ((float)(millis() - startTime) / 1000) + " seconds");
 } // end fillInTheGapsForBucket
 
+
+//
+boolean doesntIntersectWithBlockImage(Label newLabel) {
+  boolean validLabel = true;
+  if (skipLabelsDueToBlockImage) {
+    for (Letter l : newLabel.letters) {
+      PVector centerPt = l.getLetterCenter();
+      color blockColor = blockImage.get((int)centerPt.x, (int)centerPt.y);
+      if (blockColor == blockImageColor) {
+        validLabel = false;
+        break;
+      }
+    }
+  }
+  return validLabel;
+} // end doestnIntersectWithBlockImage
 
 
 //

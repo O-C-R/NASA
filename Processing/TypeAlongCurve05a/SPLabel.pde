@@ -155,7 +155,7 @@ class SpLabel {
         }
       }
       //print(" cc ::  " + (millis() - debugTime));
-      debugTime = millis();
+      //debugTime = millis();
     }
 
 

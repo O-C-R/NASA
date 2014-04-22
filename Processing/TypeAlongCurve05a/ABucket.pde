@@ -39,6 +39,8 @@ class Bucket {
   ArrayList<Term> bucketTermsAL = new ArrayList<Term>();
   HashMap<String, Term> bucketTermsHM = new HashMap<String, Term>();
   ArrayList<Term> bucketTermsRemainingAL = new ArrayList<Term>();
+  
+  ArrayList<Term> bucketTermsEntitiesAL = new ArrayList<Term>();
 
 
 
@@ -163,19 +165,25 @@ class Bucket {
     }
     bucketTermsAL = OCRUtils.sortObjectArrayListSimple(bucketTermsAL, "seriesSum");
     bucketTermsAL = OCRUtils.reverseArrayList(bucketTermsAL);
+    
+    ArrayList<Term> bucketTermsALCopy = (ArrayList<Term>)bucketTermsAL.clone();
+    
     for (Term t : bucketTermsAL) {
       if (!bucketTermsHM.containsKey(t.term)) bucketTermsHM.put(t.term, t);
       else println("bucket " + name + " already has: " + t.term);
       //bucketTermsRemainingAL.add(t); // keep a copy
     }
 
-    ArrayList<Term>bucketTermsEntitiesAL = new ArrayList<Term>();
+    bucketTermsEntitiesAL = new ArrayList<Term>();
     for (Pos p : entitiesAL) {
       p.orderTerms();
       bucketTermsEntitiesAL.addAll(p.termsAL);
     }
     bucketTermsEntitiesAL = OCRUtils.sortObjectArrayListSimple(bucketTermsEntitiesAL, "seriesSum");
     bucketTermsEntitiesAL = OCRUtils.reverseArrayList(bucketTermsEntitiesAL);
+    
+    ArrayList<Term>bucketTermsEntitiesALCopy = (ArrayList<Term>)bucketTermsEntitiesAL.clone();
+    
     for (Term t : bucketTermsEntitiesAL) {
       if (!bucketTermsHM.containsKey(t.term)) bucketTermsHM.put(t.term, t);
       else println("bucket " + name + " already has: " + t.term);
@@ -201,7 +209,9 @@ class Bucket {
       if (bucketTermsAL.size() == 0 && bucketTermsEntitiesAL.size() == 0) break;
     } 
 
-    
+    // reestablish the overall ALs
+    bucketTermsAL = bucketTermsALCopy;
+    bucketTermsEntitiesAL = bucketTermsEntitiesALCopy;
 
     println(" done.  with " + bucketTermsRemainingAL.size() + " options");
     println(testOutput);

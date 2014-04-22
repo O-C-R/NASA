@@ -4,13 +4,13 @@ void setupHexColors() {
   hexColors.put("administrative", #66ffff);
   hexColors.put("astronaut", #ff331f);
   hexColors.put("mars", #cc1166);
-  hexColors.put("moon", #FF450D);
+  hexColors.put("moon", #FFB914);
   hexColors.put("people", #f5a3cf);
-  hexColors.put("research_and_development", #FFB914);
+  hexColors.put("research_and_development", #BDEEFF);
   hexColors.put("rockets", #FFDFA8);
   hexColors.put("russia", #E50C30);
-  hexColors.put("satellites", #BDEEFF);
-  hexColors.put("space_shuttle", #FF7E0D);
+  hexColors.put("satellites", #FF7E0D);
+  hexColors.put("space_shuttle", #FF450D);
   hexColors.put("spacecraft", #333333);
   hexColors.put("us", #0022ff);
 } // end setupHexColors
@@ -112,6 +112,21 @@ void readInBucketData() {
 
         Term newTerm = new Term(term, termCount, breakdown);
         newPos.addTerm(newTerm);
+
+        // save this term to the termSimpleCount
+        if (!termSimpleCount.containsKey(term)) termSimpleCount.put(term, new ArrayList<String>());
+        ArrayList<String> newCount = (ArrayList<String>)termSimpleCount.get(term);
+        newCount.add(newBucketName);
+        termSimpleCount.put(term, newCount);
+        if (newCount.size() > maximumTermOverallCount) {
+          maximumTermOverallCount = newCount.size();
+        }
+        // find count of buckets
+        int bucketCount = 0;
+        for (String s : newCount) if (s.equals(newBucketName)) bucketCount++;
+        if (bucketCount > maximumTermSingleBucketCount) {
+          maximumTermSingleBucketCount = bucketCount;
+        }
 
         // check and overwrite blankTerm
         if (blankTerm.series == null) blankTerm.series = new float[0];

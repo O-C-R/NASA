@@ -171,7 +171,7 @@ class Label {
 
     //
   void display(color c) {
-    fill(c, map(fillAlpha, 0, 1, minimumFillAlpha, maximumFillAlpha));
+    fill(c, map(term.fillAlphaPercent, 0, 1, minimumFillAlpha, maximumFillAlpha));
     for (Letter l : letters) l.display();
   } // end display
   
