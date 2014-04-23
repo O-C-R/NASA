@@ -1,5 +1,6 @@
 class Term {
   String term = "";
+  String posName = "";
   String[] theseTermWords = new String[0];
   //String[] posTermWords = new String[0];
   float[] series = null;
@@ -17,11 +18,12 @@ class Term {
   } // end blank constructor
 
   //
-  Term(String term, int totalCount, float[] series) {
+  Term(String term, int totalCount, float[] series, String posName) {
     this.term = term;
     theseTermWords = split(term, " ");
     this.totalCount = totalCount;
     this.series = series;
+    this.posName = posName;
   } // end constructor
 
 
@@ -37,6 +39,7 @@ class Term {
     for (String s : theseTermWords) t.theseTermWords = (String[])append(t.theseTermWords, s);
     t.fillAlphaPercent = fillAlphaPercent;
     for (int i : seriesOrderedIndices) t.seriesOrderedIndices = (int[])append(t.seriesOrderedIndices, i);
+    t.posName = posName;
     return t;
   } // end copy
 

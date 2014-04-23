@@ -43,6 +43,7 @@ import ocrUtils.ocr3D.*;
 
 import java.util.Map;
 import processing.pdf.*;
+import java.util.Arrays;
 
 
 // ****** //
@@ -219,7 +220,7 @@ int flareLayers = 3; // the number of layers to use.. will make for some overlap
 float fullGrayColor = 70; // lightest gray for the primary verbs
 float lowestGrayColor = 30; // darkest gray for the other verbs
 float minimumFlareHeight = defaultFontSize; // minimum potential height of the text at the start
-float maximumFlareHeight = defaultFontSize * 2; // maximum potential height of the text at the ends
+float maximumFlareHeight = defaultFontSize * 1.5; // maximum potential height of the text at the ends
 
 
 // other stuff
@@ -351,6 +352,7 @@ void draw() {
     endRecord(); 
     exportNow = false;
     println("ending export to PDF");
+    outputSpLabels();
   }
 
   println("end of draw.  frame: " + frameCount);
@@ -376,7 +378,7 @@ void keyReleased() {
     loop();
   }
   if (key == '\\') {
-    println("saving PDF & frame...");
+    println("saving PDF & frame & labels...");
     timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
     saveFrame("output/" + timeStamp + ".png");
     println("end of saveFrame");
@@ -522,7 +524,6 @@ void keyReleased() {
     makeEdgeFlares();
   }
   if (key == 'q') {
-    
   }
 
   if (key == 'w') {
@@ -624,7 +625,7 @@ void doPopulate(int toMake) {
     if (thisPercent != lastPercent) {
       print("_" + thisPercent + "_");
       lastPercent = thisPercent;
-      if (thisPercent % 5 == 0) clearGC();
+      //if (thisPercent % 5 == 0) clearGC();
     }
   }
   println("_");

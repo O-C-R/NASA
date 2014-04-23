@@ -112,9 +112,10 @@ void readInBucketData() {
 
         // ****** //
         if (term.length() <= 2) continue; // skip if it is 2 or fewer characters
+        term = doSpecialNeeds(term);
         // ****** //
 
-        Term newTerm = new Term(term, termCount, breakdown);
+        Term newTerm = new Term(term, termCount, breakdown, newPosName);
         newPos.addTerm(newTerm);
 
         // save this term to the termSimpleCount

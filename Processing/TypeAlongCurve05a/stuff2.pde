@@ -183,6 +183,147 @@ void drawDates() {
 
 
 
+
+
+
+// special needs
+// this is for special cases.. such as soviet >> Soviet
+String[] capitalizeList = {
+  "president",
+  "presidential",
+  "socialist",
+  "atlantic",
+  "pacific",
+  "communist",
+  "congress",
+  "contressional",
+  "apollo",
+  "american",
+  "americans",
+  "soviet",
+  "general motors",
+  "virgin islands",
+  "great plains",
+  "great lakes",
+  "grand rapids",
+  "the royal astronomical society",
+  "the southern polar region",
+  "pacific ocean",
+  "atlantic ocean",
+};
+String[] capitalizeAll = { // terms to be all caps  gps >> GPS
+  "gps",
+  "grb",
+};
+String doSpecialNeeds(String term) {
+  if (Arrays.asList(capitalizeList).contains(term.toLowerCase())) term = capitalizeFirstLetter(term);
+  else if (Arrays.asList(capitalizeAll).contains(term.toLowerCase())) term = term.toUpperCase();
+  if (term.contains("nasa")) term = term.replace("nasa", "NASA");
+  if (term.contains("jpl")) term = term.replace("jpl", "JPL");
+  if (term.contains("usa")) term = term.replace("usa", "USA");
+  if (term.contains("soviet")) term = term.replace("soviet", "Soviet");
+  if (term.contains("french")) term = term.replace("french", "French");
+  if (term.contains("american")) term = term.replace("american", "American");
+  if (term.contains("venus")) term = term.replace("venus", "Venus");
+  if (term.contains("jupiter")) term = term.replace("jupiter", "Jupiter");
+  return term;
+} // end doSpecialNeeds
+
+//
+String capitalizeFirstLetter(String s){
+  if (s.length() == 0) return "";
+  String[] split = split(s, " ");
+  String[] rejoin = new String[0];
+  for (int i = 0; i < split.length; i++) if (split[i].length() > 0) rejoin = (String[])append(rejoin, Character.toUpperCase(split[i].charAt(0)) + split[i].substring(1));
+  return join(rejoin, " ");
+} // end capitalizeFirstLetter
+
+
+//
+//
+//
+//
+
+
+
+
+
+
+
+//
+void outputSpLabels() {
+  println("exporting out bucket text");
+  for (SpLabel sp : splabels) {
+    
+    ArrayList<OutputLabelHelper> outputLabels = new ArrayList<OutputLabelHelper>();
+    for (Label l : sp.labels) {
+      Letter firstLetter = l.letters.get(0);
+      String term = l.baseText;
+      float approxYear = getYearFromX(firstLetter.pos.x);
+      float middleSize = firstLetter.size;
+      float fillAlpha = l.fillAlpha;
+      String possiblePosName = l.term.posName;
+      int horizAlign = l.labelAlign;
+      OutputLabelHelper o = new OutputLabelHelper(term, approxYear, middleSize, fillAlpha, possiblePosName, horizAlign);
+      outputLabels.add(o);
+    }
+    outputLabels = OCRUtils.sortObjectArrayListSimple(outputLabels, "approxYear");
+    PrintWriter output = createWriter("bucketTextUsed/" + timeStamp + "/" + sp.bucketName + "-byYear.txt");
+    if (outputLabels.size() > 0) output.println(outputLabels.get(0).printHeader());
+    for (OutputLabelHelper o : outputLabels) output.println(o);
+    output.flush();
+    output.close();
+    output = createWriter("bucketTextUsed/" + timeStamp + "/" + sp.bucketName + "-bySize.txt");
+    outputLabels = OCRUtils.sortObjectArrayListSimple(outputLabels, "middleSize");
+    outputLabels = OCRUtils.reverseArrayList(outputLabels);
+    if (outputLabels.size() > 0) output.println(outputLabels.get(0).printHeader());
+    for (OutputLabelHelper o : outputLabels) output.println(o);
+    output.flush();
+    output.close();
+    output = createWriter("bucketTextUsed/" + timeStamp + "/" + sp.bucketName + "-byPos.txt");
+    outputLabels = OCRUtils.sortObjectArrayListSimple(outputLabels, "possiblePosName");
+    outputLabels = OCRUtils.reverseArrayList(outputLabels);
+    if (outputLabels.size() > 0) output.println(outputLabels.get(0).printHeader());
+    for (OutputLabelHelper o : outputLabels) output.println(o);
+    output.flush();
+    output.close();
+  }
+  println("end of exporting out bucket text");
+} // end outputSpLabels
+
+//
+class OutputLabelHelper {
+  String term = "";
+  float approxYear = 0f;
+  float middleSize = 0f;
+  float fillAlpha = 0f;
+  String possiblePosName = "";
+  int horizAlign;
+  String horizAlignS;
+  // 
+  OutputLabelHelper(String term, float approxYear, float middleSize, float fillAlpha, String possiblePosName , int horizAlign) {
+    this.term = term;
+    this.approxYear = approxYear;
+    this.middleSize = middleSize;
+    this.fillAlpha = fillAlpha;
+    this.possiblePosName = possiblePosName;
+    this.horizAlign = horizAlign;
+    if (horizAlign == LABEL_ALIGN_LEFT) horizAlignS = "left";
+    else if (horizAlign == LABEL_ALIGN_CENTER) horizAlignS = "center";
+    else if (horizAlign == LABEL_ALIGN_RIGHT) horizAlignS = "right";
+  } // end constructor
+
+  //
+  String printHeader() {
+    return "approx year, term, approx size, fill alpha percent, possible pos name, horiz align";
+  } // end printHeader
+
+  //
+  String toString() {
+    return nf(approxYear, 0, 1) +","+ term +","+ middleSize +","+ fillAlpha +","+ possiblePosName +","+ horizAlignS;
+  } // end toString
+} // end class OutputLabel
+
 //
 //
 //
