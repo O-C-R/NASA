@@ -48,9 +48,9 @@ import java.util.Arrays;
 
 // ****** //
 // MAIN CONTROLS //
-boolean disableSplineMaking = false; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
-boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
-boolean disableManualImport = false; // so that you don't erase everything
+boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
+boolean disableManualImport = true; // so that you don't erase everything
 boolean disableFlareMaking = false; // so that you can't make flares!
 boolean debugQuickLoader = false; // when this is set to true, will only read in 1/4 of the actual data
 // ****** //
@@ -58,8 +58,8 @@ boolean debugQuickLoader = false; // when this is set to true, will only read in
 
 // visual controls
 boolean facetsOn = false;
-boolean splinesOn = true;
-boolean flareSplinesOn = true;
+boolean splinesOn = false;
+boolean flareSplinesOn = false;
 boolean variationOn = false;
 boolean shiftIsDown = false;
 boolean debugOn = false;
@@ -93,7 +93,7 @@ boolean skipMiddleLine = true; // if on it will make it so that text cannot go o
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   //140f, 400f, 140f, 350f // for draft
-  120f, 150f, 120f, 150f
+  270f, 150f, 270f, 150f
 };
 
 // *** label numbers
@@ -132,10 +132,10 @@ String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAl
 //String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAllCLEAN";
 String[] bucketsToUse = {
   "satellites", // * 
-  //"moon", // *
-  //"research_and_development", // * 
+  "moon", // *
+  "research_and_development", // * 
   "rockets", // *
-  //"space_shuttle", // * 
+  "space_shuttle", // * 
   "russia", 
 
 
@@ -237,9 +237,9 @@ void setup() {
   //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
 
-  //size(5300, 1400); // good
+  size(5300, 1700); // good
   ///size(1200, 500); // small for debug
-  size(2200, 800); // small for debug
+  //size(2200, 800); // small for debug
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
@@ -641,10 +641,12 @@ void doPopulate(int toMake) {
 
   // for overnight exporting!
   // ****** //
-  /*
+
   runFillInStuff();
-   exportNow = true;
-   */
+  makeEdgeFlares(); // remake flare splines
+  populateFlares(); // populate flare splines
+  exportNow = true;
+
   // ****** //
 
   loop();
