@@ -20,10 +20,25 @@ class Term {
   Term(String term, int totalCount, float[] series) {
     this.term = term;
     theseTermWords = split(term, " ");
-    //for (String s : theseTermWords) posTermWords = (String[])append(posTermWords, RiTa.getPosTags(s)[0]); // skip for now, not used
     this.totalCount = totalCount;
     this.series = series;
   } // end constructor
+
+
+  // 
+  Term get() {
+    Term t = new Term();
+    t.term = term;
+    t.totalCount = totalCount;
+    if (series != null) {
+      t.series = new float[0];
+      for (float f : series) t.series = (float[])append(t.series, f);
+    }
+    for (String s : theseTermWords) t.theseTermWords = (String[])append(t.theseTermWords, s);
+    t.fillAlphaPercent = fillAlphaPercent;
+    for (int i : seriesOrderedIndices) t.seriesOrderedIndices = (int[])append(t.seriesOrderedIndices, i);
+    return t;
+  } // end copy
 
   //
   void tallyThings() {

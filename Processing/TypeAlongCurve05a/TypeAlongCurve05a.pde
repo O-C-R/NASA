@@ -15,13 +15,21 @@
  RESTART THE PROGRAM
  press 'z' to load the splines
  press 'v' to shift the top half up
+ press 'e' to make the flare lines
  if everything's cool, then 
  press 'x' to re-export the splines
  switch the 'disableSplineMaking' to true so that you don't accidentally make new splines or export over your old version
  and also switch 'autoLoadSplines' to true so that it will automatically load things upon startup  
  
  now, whenever you want to run it
- press 'z' to import all of the splines and go from there
+ press 'z' to import all of the splines and go from there, 
+ or set autoLoadSplines to true to auto load them all
+ 
+ press a number or t, u, i, o to populate the splabels [see below for which key does what number]
+ press 'a' to run the filler verbage
+ then press 'w' to populate the flares
+ 
+ press UP or DOWN to select individual buckets or ALL buckets to populate
  
  
  */
@@ -37,19 +45,26 @@ import java.util.Map;
 import processing.pdf.*;
 
 
+// ****** //
+// MAIN CONTROLS //
+boolean disableSplineMaking = false; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
+boolean disableManualImport = false; // so that you don't erase everything
+boolean disableFlareMaking = false; // so that you can't make flares!
+boolean debugQuickLoader = false; // when this is set to true, will only read in 1/4 of the actual data
+// ****** //
+
+
 // visual controls
 boolean facetsOn = false;
-boolean splinesOn = false;
+boolean splinesOn = true;
+boolean flareSplinesOn = true;
 boolean variationOn = false;
 boolean shiftIsDown = false;
 boolean debugOn = false;
 boolean displayHeightsOn = false;
 boolean displayLabels = true;
-// ****** //
-boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
-boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
-boolean disableManualImport = true; // so that you don't erase everything
-// ****** //
+
 
 // manual layout of bucket control
 boolean manualLayerControl = true; // will make it so that the stack goes in the order that the buckets are read in as opposed to calculating and balancing things out
@@ -115,18 +130,20 @@ Term blankTerm = new Term(); // blank term used to gather x position.  used main
 String mainDiretoryPath = "/Applications/MAMP/htdocs/OCR/NASA/Data/BucketGramsAllCLEAN";
 //String mainDiretoryPath = "C:\\Users\\OCR\\Documents\\GitHub\\NASA\\Data\\BucketGramsAllCLEAN";
 String[] bucketsToUse = {
+  "satellites", // * 
+  //"moon", // *
+  //"research_and_development", // * 
+  "rockets", // *
+  //"space_shuttle", // * 
+  "russia", 
+
+
   //"debug", 
   //"administrative", 
   //"astronaut", 
   //"mars",
-  "satellites", // * 
-  "moon", // *
   //"people", 
   //"politics", 
-  "research_and_development", // * 
-  "rockets", // *
-  "space_shuttle", 
-  "russia", 
   //"spacecraft", 
   //"us",
 };
@@ -196,7 +213,13 @@ HashMap<Integer, HashMap<String, Integer>> usedTermsAtX = new HashMap<Integer, H
 HashMap<Integer, HashMap<String, Integer>> usedFillerTermsAtX = new HashMap<Integer, HashMap<String, Integer>>(); // for the filler, save the approx year and String
 
 
-
+// Flares
+ArrayList<Flare> flares = new ArrayList<Flare>();
+int flareLayers = 3; // the number of layers to use.. will make for some overlap.  layer 0 will be the brightest, layer n will be the dimmest.  layer 0 will be drawn last and on top
+float fullGrayColor = 70; // lightest gray for the primary verbs
+float lowestGrayColor = 30; // darkest gray for the other verbs
+float minimumFlareHeight = defaultFontSize; // minimum potential height of the text at the start
+float maximumFlareHeight = defaultFontSize * 2; // maximum potential height of the text at the ends
 
 
 // other stuff
@@ -213,9 +236,9 @@ void setup() {
   //size(5300, 1800); // for draft version sent to PopSci
   //size(5300, 1000);
 
-  size(5300, 1400); // good
+  //size(5300, 1400); // good
   ///size(1200, 500); // small for debug
-  //size(2200, 800); // small for debug
+  size(2200, 800); // small for debug
   OCRUtils.begin(this);
   background(bgColor);
   randomSeed(1667);
@@ -256,13 +279,13 @@ void setup() {
   // temp
   if (autoLoadSplines) readInSplinesForSpLabels();
 
-  // debug
 
-  /*
+  // debug clip
+
+
   constrainRange[0] = 1962;
-   constrainRange[1] = 1977;
-   setConstrainRange();
-   */
+  constrainRange[1] = 1974;
+  setConstrainRange();
 } // end setup
 
 //
@@ -278,13 +301,25 @@ void draw() {
   // draw dates
   drawDates();
 
+  // draw splabels
   for (SpLabel sp : splabels) {
     fill(sp.c);
     if (displayLabels) sp.display();
-
+    //sp.topSpline.displayCurvePoints(); // just to test the dates.  seems good
     if (splinesOn) sp.displaySplines();
     if (facetsOn) sp.displayFacetPoints();
     if (displayHeightsOn) sp.displayHeights();
+  }
+
+  // draw Flares
+  for (Flare f : flares) {
+    if (f != null) {
+      if (displayLabels) f.display();
+      noFill();
+      if (flareSplinesOn) f.displaySplines();
+      if (facetsOn && flareSplinesOn) f.displayFacetPoints();
+      if (displayHeightsOn && flareSplinesOn) f.displayHeights();
+    }
   }
 
 
@@ -370,7 +405,7 @@ void keyReleased() {
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
   if (key == 't') doPopulate(350);
-  if (key == 'q') doPopulate(3);
+
 
 
   if (key == 'a') {    
@@ -386,9 +421,15 @@ void keyReleased() {
   if (key == 'h') displayHeightsOn = !displayHeightsOn;
   if (key == 'l') displayLabels = !displayLabels;
 
-  if (key == 'g') {
-    clearGC();
+  if (key == ',') flareSplinesOn = !flareSplinesOn;
+
+  if (key == '.') {
+    println("clearing all flares");
+    usedTerms.clear(); // might overlap a bit.. but its ok for now
+    flares.clear();
   }
+
+  if (key == 'g') clearGC();
 
 
 
@@ -406,39 +447,33 @@ void keyReleased() {
     if (currentBucketIndex < bucketsAL.size()) println("Changing the target bucket to : " + bucketsAL.get(currentBucketIndex).name);
     else println("changing to ALL BUCKETS");
   }
+  /*
   if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
-    if (keyCode == RIGHT) {
-      if (shiftIsDown) constrainRange[1] += 5;
-      else constrainRange[1]++;
-    }
-    else if (keyCode == LEFT) {
-      if (shiftIsDown) constrainRange[1] -= 5;
-      else constrainRange[1]--;
-    }
-
-    if (constrainRange[1] <= constrainRange[0]) constrainRange[1] = constrainRange[0] + 1;
-    else if (constrainRange[1] > yearRange[1]) constrainRange[1] = yearRange[1];
-
-    if (key == '.') {
-      if (shiftIsDown) constrainRange[0] += 5;
-      else constrainRange[0]++;
-    }
-    else if (key == ',') {
-      if (shiftIsDown) constrainRange[0] -= 5;
-      else constrainRange[0]--;
-    }
-    if (constrainRange[0] >= constrainRange[1]) constrainRange[0] = constrainRange[1] - 1;
-    else if (constrainRange[0] < yearRange[0]) constrainRange[0] = yearRange[0];
-
-    println("changed year range to: " + constrainRange[0] + " to " + constrainRange[1]);
-    setConstrainRange();
-    //repopulateFromFailedHM();
-  }
-
-  if (key == SHIFT) {
-    shiftIsDown = false;
-  }
-
+   if (keyCode == RIGHT) {
+   if (shiftIsDown) constrainRange[1] += 5;
+   else constrainRange[1]++;
+   }
+   else if (keyCode == LEFT) {
+   if (shiftIsDown) constrainRange[1] -= 5;
+   else constrainRange[1]--;
+   }
+   
+   if (constrainRange[1] <= constrainRange[0]) constrainRange[1] = constrainRange[0] + 1;
+   else if (constrainRange[1] > yearRange[1]) constrainRange[1] = yearRange[1];
+   
+   
+   if (constrainRange[0] >= constrainRange[1]) constrainRange[0] = constrainRange[1] - 1;
+   else if (constrainRange[0] < yearRange[0]) constrainRange[0] = yearRange[0];
+   
+   println("changed year range to: " + constrainRange[0] + " to " + constrainRange[1]);
+   setConstrainRange();
+   //repopulateFromFailedHM();
+   }
+   
+   if (key == SHIFT) {
+   shiftIsDown = false;
+   }
+   */
   // MAKE OR READ IN THE SPLINES
   if (key == 'n') {
     if (disableSplineMaking) {
@@ -478,6 +513,21 @@ void keyReleased() {
     println("clipping SpLabel splines to years: " + constrainRange[0] + " to " + constrainRange[1]);
     debugClipSpLabelsByConstrainRange();
   }
+
+  if (key == 'e') {
+    if (disableFlareMaking) {
+      println("disableFlareMaking is set to true, will NOT make new flare lines");
+      return;
+    }
+    makeEdgeFlares();
+  }
+  if (key == 'q') {
+    
+  }
+
+  if (key == 'w') {
+    populateFlares();
+  } 
 
   if (key == 'x') {
     if (disableSplineMaking) {
@@ -586,14 +636,14 @@ void doPopulate(int toMake) {
   }
 
   timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-  
-  
+
+
   // for overnight exporting!
   // ****** //
   /*
   runFillInStuff();
-  exportNow = true;
-  */
+   exportNow = true;
+   */
   // ****** //
 
   loop();

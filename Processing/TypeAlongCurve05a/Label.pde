@@ -22,7 +22,7 @@ class Label {
 
   //
   Label(Term term, String baseText, int labelAlign, int labelAlignVertical) {
-    this.term = term;
+    this.term = term.get();
     this.baseText = baseText;
     this.labelAlign = labelAlign;
     this.labelAlignVertical = labelAlignVertical;
@@ -175,12 +175,15 @@ class Label {
     for (Letter l : letters) l.display();
   } // end display
   
-  //
+  // 
   void displayBlock(PGraphics pg) {
-    for (Letter l : letters) l.displayBlock(pg);
+    displayBlock(pg, blockImageColor);
+  } // end displayBlock
+  //
+  void displayBlock(PGraphics pg, color c) {
+    for (Letter l : letters) l.displayBlock(pg, c);
   } // end displayBlock
 } // end class Label
-
 
 
 
@@ -237,42 +240,6 @@ class Letter {
 
     float rotationToUse = rotationF;
 
-    /*
-    // this should make it so that the rotation is smoothed out a bit
-     if (angleSmoothingOn) {
-     PVector newRotation = rotation.get();
-     float thisRotationPercent = .95;
-     float otherRotationPercent = .05;
-     if (previousLetter != null && nextLetter == null) {
-     newRotation.mult(thisRotationPercent);
-     PVector otherRotation = previousLetter.rotation.get();
-     otherRotation.mult(otherRotationPercent);
-     newRotation.add(otherRotation);
-     rotationToUse = getAdjustedRotation(newRotation);
-     }
-     else if (nextLetter != null & previousLetter == null) {
-     newRotation.mult(thisRotationPercent);
-     PVector otherRotation = nextLetter.rotation.get();
-     otherRotation.mult(otherRotationPercent);
-     newRotation.add(otherRotation);
-     rotationToUse = getAdjustedRotation(newRotation);
-     }
-     else if (nextLetter == null && previousLetter == null) {
-     rotationToUse = getAdjustedRotation(newRotation);
-     }
-     else {
-     newRotation.mult(thisRotationPercent - otherRotationPercent);
-     PVector otherRotation = nextLetter.rotation.get();
-     otherRotation.mult(otherRotationPercent);
-     newRotation.add(otherRotation);
-     otherRotation = previousLetter.rotation.get();
-     otherRotation.mult(otherRotationPercent);
-     newRotation.add(otherRotation);
-     rotationToUse = getAdjustedRotation(newRotation);
-     }
-     }
-     */
-
     pushMatrix();
     translate(pos.x, pos.y);
     rotate(rotationToUse);
@@ -281,7 +248,7 @@ class Letter {
   } // end display
 
   //
-  void displayBlock(PGraphics pg) {
+  void displayBlock(PGraphics pg, color c) {
     textFont(font, size);
     textAlign(letterAlign, letterVerticalAlign);
 
@@ -304,7 +271,7 @@ class Letter {
       heightOffset = size;
     }
 
-    pg.fill(blockImageColor);
+    pg.fill(c);
     pg.noStroke();
     pg.pushMatrix();
     pg.translate(pos.x, pos.y);
@@ -317,6 +284,17 @@ class Letter {
   //
   PVector getLetterCenter() {
     // approx center of the letter, not exact
+    ArrayList<PVector> corners = getLetterCorners();
+    PVector letterCenter = new PVector();
+    for (PVector p : corners) letterCenter.add(p);
+    letterCenter.div(corners.size());
+    return letterCenter;
+  } // end getLetterCenter
+
+    //
+  ArrayList<PVector> getLetterCorners() {
+    ArrayList<PVector> corners = new ArrayList<PVector>();
+    // approx corners of the letter, not exact
     textFont(font, size);
     float blockWidth = textWidth(letter);
     PVector right = new PVector(-rotation.y, rotation.x);
@@ -324,30 +302,58 @@ class Letter {
     float rightMultiplier = 0f;
     if (letterAlign == LABEL_ALIGN_RIGHT) {
       rightMultiplier = -blockWidth/2;
+      right.mult(rightMultiplier);
     }
     else if (letterAlign == LABEL_ALIGN_CENTER) {
       rightMultiplier = 0;
     }
     else if (letterAlign == LABEL_ALIGN_LEFT) {
       rightMultiplier = blockWidth/2;
+      right.mult(rightMultiplier);
     }
-    right.mult(rightMultiplier);
+    
     //right.mult(0);
     float offsetMultiplier = size/2;
     if (letterVerticalAlign == LABEL_VERTICAL_ALIGN_BASELINE) {
-      offsetMultiplier -= .28 * size;
+      offsetMultiplier -= .18 * size;
     }
     else if (letterVerticalAlign == LABEL_VERTICAL_ALIGN_TOP) {
       offsetMultiplier -= size;
     }
-    
+
     PVector letterCenter = rotation.get();
     letterCenter.normalize();
     letterCenter.mult(offsetMultiplier);
     letterCenter.add(pos);
     letterCenter.add(right);
-    return letterCenter;
-  } // end getLetterCenter
+    
+    // adjust for center again
+    if (letterAlign == LABEL_ALIGN_CENTER) {
+      rightMultiplier = blockWidth/2;
+      right.mult(rightMultiplier);
+    }
+    
+    PVector up = rotation.get();
+    up.mult(size / 2);
+    
+    PVector corner = letterCenter.get();
+    corner.sub(up);
+    corner.sub(right);
+    corners.add(corner);
+    corner = letterCenter.get();
+    corner.sub(up);
+    corner.add(right);
+    corners.add(corner);
+    corner = letterCenter.get();
+    corner.add(up);
+    corner.add(right);
+    corners.add(corner);
+    corner = letterCenter.get();
+    corner.add(up);
+    corner.sub(right);
+    corners.add(corner);
+    return corners;
+  } // end getLetterCorners
 
     //
   float getAdjustedRotation(PVector rotationIn) {

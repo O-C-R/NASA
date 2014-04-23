@@ -749,16 +749,23 @@ class Spline {
     PVector[] facetPointsNew = new PVector[0]; 
     PVector[] facetUpsNew = new PVector[0]; // which way is 'up' for each facetPoint.  normalized
     PVector[] facetRightsNew = new PVector[0]; // which way is 'right' for each facetPoint.  normalized
+    float[] facetHeightsNew = new float[0];
     for (int i = curvePoints.size() - 1; i >= 0; i--) curvePointsNew.add(curvePoints.get(i));
     for (int i = facetPoints.length - 1; i >= 0; i--) {
       facetPointsNew = (PVector[])append(facetPointsNew, facetPoints[i]);
       facetUpsNew = (PVector[])append(facetUpsNew, facetUps[i]);
       facetRightsNew = (PVector[])append(facetRightsNew, facetRights[i]);
     }
+    if (facetHeights.length == facetPoints.length) {
+     for (int i = facetPoints.length - 1; i >= 0; i--) {
+      facetHeightsNew = (float[])append(facetHeightsNew, facetHeights[i]);
+     } 
+    }
     curvePoints = curvePointsNew;
     facetPoints = facetPointsNew;
     facetUps = facetUpsNew;
     facetRights = facetRightsNew;
+    facetHeights = facetHeightsNew;
     makeDistances();
   } // end reverse
 
@@ -852,7 +859,11 @@ class Spline {
       PVector up = facetUps[i].get();
       up.mult(30);
       up.add(facetPoints[i]);
-      line(facetPoints[i].x, facetPoints[i].y, up.x, up.y);
+      //line(facetPoints[i].x, facetPoints[i].y, up.x, up.y);
+      PVector rt = facetRights[i].get();
+      rt.mult(100);
+      rt.add(facetPoints[i]);
+      line(facetPoints[i].x, facetPoints[i].y, rt.x, rt.y);
     }
   } // end displayFacetPoints
 
@@ -884,7 +895,7 @@ class Spline {
     for (int i = 0; i < facetUps.length; i++) jar.setJSONObject(i, getPVectorJSON(facetUps[i]));
     json.setJSONArray("facetUps", jar);
     jar = new JSONArray();
-    for (int i = 0; i < facetRights.length; i++) jar.setJSONObject(i, getPVectorJSON(facetUps[i]));
+    for (int i = 0; i < facetRights.length; i++) jar.setJSONObject(i, getPVectorJSON(facetRights[i]));
     json.setJSONArray("facetRights", jar);
     jar = new JSONArray();
     for (int i = 0; i < distances.length; i++) jar.setFloat(i, distances[i]);

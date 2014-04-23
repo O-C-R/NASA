@@ -60,7 +60,11 @@ void readInBucketData() {
       println("file: " + thisFile + " allLines.length: " + allLines.length);
 
       for (int i = 0; i < allLines.length; i++) {
-
+        // ****** QUICK LOADER ****** //
+        if (debugQuickLoader) {
+          if (i > (float)allLines.length / 4) break;
+        }
+        // ****** QUICK LOADER ****** //
         String[] broken = split(allLines[i], ",");
         String term = "";
         int termCount = 0;

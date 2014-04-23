@@ -35,12 +35,23 @@ void exportSplines() {
       }
     }
 
-
     String exportName = "splines-"+ splabels.get(k).bucketName + "-" + width + "-" + height;
     saveJSONObject(json, "splines/" + exportName + ".json");
     println(" finished exporting splabel: " + exportName);
   }
   println("done exporting splabel splines");
+
+
+  // save the flares
+  if (flares != null && flares.size() > 0) {
+    println("exporting flares");
+    for (Flare f : flares) {
+      JSONObject flareJSON = f.getJSON();
+      String exportName = "flares-"+ f.name + "-" + width + "-" + height;
+      saveJSONObject(flareJSON, "splines/" + exportName + ".json");
+    }
+    println("done exporting flares");
+  }
 } // end exportSplines
 
 
@@ -50,7 +61,6 @@ void readInSplinesForSpLabels() {
   for (SpLabel sp : splabels) {
     String targetJSONFile = "splines/splines-"+ sp.bucketName + "-" + width + "-" + height + ".json";
     try {
-
       JSONObject json = loadJSONObject(targetJSONFile);
       println("  reading in for " + sp.bucketName);
       sp.orderedTopSplines = new ArrayList<ArrayList<Spline>>();
@@ -93,7 +103,29 @@ void readInSplinesForSpLabels() {
     catch (Exception e) {
       println("could not load/find " + targetJSONFile);
     }
-  } 
+  }
+
+  // try to read in the flares
+  // not that there are only two:
+  String[] flareNames = {
+    "topFlare", 
+    "bottomFlare"
+  };
+  flares.clear();
+  for (String s : flareNames) {
+    String targetJSONFile = "splines/flares-"+ s + "-" + width + "-" + height + ".json";
+    try {
+      JSONObject json = loadJSONObject(targetJSONFile);
+      Flare f = new Flare(json);
+      flares.add(f);
+      int tempCount = 0;
+      for (ArrayList<FlareSpline> fss : f.flareSplines) tempCount+=fss.size();
+      println("loaded flare: " + f.name + " with " + tempCount + " flareSplines");
+    }
+    catch (Exception e) {
+      println("could not load/find " + targetJSONFile);
+    }
+  }
 } // end readInSplinesForSpLabels
 
 

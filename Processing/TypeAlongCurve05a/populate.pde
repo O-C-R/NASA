@@ -446,14 +446,18 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, Term term, String
     // clean it all up?
     if (currentFavorite != null) {
       for (int i = 0; i < options.length; i++) {
-        if (options[i] != currentFavorite) options[i] = null;
+        if (options[i] != currentFavorite) {
+          for (Letter l : options[i].letters) l = null;
+          options[i] = null;
+        }
       }
     }
+    optionScores = null;
+    options = null;
 
     if (currentFavorite != null) {
       splabel.addLabel(currentFavorite);
       //println("ADDING TERM");
-
       return true;
     }
     else return false;

@@ -175,8 +175,11 @@ void fillInTheGapsForBucket(Bucket b) {
         targetSpLabel.addLabel(successfulLabel);
         // take out of bucket options
         b.takeOutTerm(targetTerm);
+        
         // also somehow mark the x location...
         markFillerTermAtX(floor(getYearFromX((successfulLabel.spline.getPointByDistance(successfulLabel.startDistance)).get(0).x)), targetTerm);
+        // and mark it in the overall
+        usedTerms.put(targetTerm.term, targetTerm);
       }
       else {
         if (isAtEnd) break; // SKIP OUT IF REACHED THE END
