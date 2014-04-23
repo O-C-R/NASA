@@ -282,11 +282,11 @@ void setup() {
 
 
   // debug clip
-
-
-  constrainRange[0] = 1962;
-  constrainRange[1] = 1974;
-  setConstrainRange();
+  /*
+constrainRange[0] = 1962;
+   constrainRange[1] = 1974;
+   setConstrainRange();
+   */
 } // end setup
 
 //
@@ -338,11 +338,10 @@ void draw() {
     text(constrainRange[0], x1, 55);
     line(x2, 0, x2, 50);
     text(constrainRange[1], x2, 55);
-
-
     // print the frame
     text("frame: " + frameCount, 20, 20);
   }
+  
   noLoop();
 
   if (exportNow) {
@@ -380,8 +379,6 @@ void keyReleased() {
   if (key == '\\') {
     println("saving PDF & frame & labels...");
     timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-    saveFrame("output/" + timeStamp + ".png");
-    println("end of saveFrame");
     exportNow = true;
     loop();
   }
@@ -407,8 +404,6 @@ void keyReleased() {
   if (key == 'u') doPopulate(1500);
   if (key == 'y') doPopulate(750);
   if (key == 't') doPopulate(350);
-
-
 
   if (key == 'a') {    
     runFillInStuff();
@@ -450,7 +445,7 @@ void keyReleased() {
     else println("changing to ALL BUCKETS");
   }
   /*
-  if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
+   if (keyCode == RIGHT || keyCode == LEFT || key == ',' || key == '.') {
    if (keyCode == RIGHT) {
    if (shiftIsDown) constrainRange[1] += 5;
    else constrainRange[1]++;
@@ -523,9 +518,7 @@ void keyReleased() {
     }
     makeEdgeFlares();
   }
-  if (key == 'q') {
-  }
-
+  
   if (key == 'w') {
     populateFlares();
   } 
