@@ -234,7 +234,7 @@ class Label {
 
   //
   void spaceLettersFromCenter() {
-    println("in spaceLettersFromCenter for " + baseText + " which as " + letters.size() + " letters");
+    //println("in spaceLettersFromCenter for " + baseText + " which was " + letters.size() + " letters");
     int centerIndex = floor((int)letters.size() / 2);
     Letter centerLetter = letters.get(centerIndex);
     Letter lastLetter = centerLetter;
@@ -252,7 +252,9 @@ class Label {
     // ****** //
     // ****** //
     // ****** //
-    float smallLetterMultiplier = 8.0;
+    float smallLetterMultiplier = 6.0;
+    //float smallLetterMultiplier = 1.0;
+    //if(getMinimumLetterHeight() < 3 * minCharHeight) smallLetterMultiplier = 6f;
     // ****** //
     // ****** //// ****** //
     // ****** //
@@ -288,8 +290,8 @@ class Label {
     translate(centerLetter.pos.x, centerLetter.pos.y);
     rotate(centerLetter.rotationF);
     for (PVector p : edges) {
-      stroke(255, 0, 0, 100);
-      ellipse(p.x, p.y, 13, 13); 
+      //stroke(255, 0, 0, 100);
+      //ellipse(p.x, p.y, 13, 13); 
       //println("p.x: " + p.x + " p.y: " + p.y);
     }
     popMatrix();
@@ -300,12 +302,12 @@ class Label {
     float targetSpacing = 0f;
     float targetSpacingWiggleRoom = 0f; // will be maybe .25 * targetSpacing
     float newShiftAmount = 0f;
-    int breakoutLimit = 20;
+    int breakoutLimit = 25;
     PVector dir = lastLetter.direction.get();
     float neighborDistance = 0f;
 
     // cheat by replaceing all spaces with a symbol
-    for (Letter l : letters) if (l.letter.equals(" ")) l.letter = "*";
+    //for (Letter l : letters) if (l.letter.equals(" ")) l.letter = "*";
 
     while (true) {
       textSize(lastLetter.size);
@@ -367,7 +369,7 @@ class Label {
     }
 
     // cheat by replaceing all spaces with a symbol
-    for (Letter l : letters) if (l.letter.equals("*")) l.letter = " ";
+    //for (Letter l : letters) if (l.letter.equals("*")) l.letter = " ";
 
     // then go back and unmultiply if required
     // ********* //
@@ -375,7 +377,7 @@ class Label {
     // ********* //
     // ********* //
     if (smallLetterMultiplier != 1) {
-      println("going to shrink the text");
+      //println("going to shrink the text");
 
       // divide all of the letter sizes
       for (int i = 0; i < letters.size(); i++) letters.get(i).size /= smallLetterMultiplier;
@@ -400,6 +402,9 @@ class Label {
     // update the different positions for this Label
     startDistance = letters.get(0).distanceMarker;
     endDistance = letters.get(letters.size() - 1).distanceMarker;
+
+    // DRAW BLOCKS
+    displayBlock(blockImage);
 
     // set the cleaned boolean
     cleaned = true;
@@ -597,10 +602,22 @@ class Letter {
 
     float rotationToUse = rotationF;
 
+    // ****** //
+    // replace the letters using replacementLetters
+    String letterToUse = letter;
+    for (Map.Entry me : replacementLetters.entrySet()) {
+      String origTerm = (String)me.getKey();
+      String replacementTerm = (String)me.getValue();
+      if (letterToUse.equals(replacementTerm)) {
+        letterToUse = origTerm;
+        break;
+      }
+    }
+
     pushMatrix();
     translate(pos.x, pos.y);
     rotate(rotationToUse);
-    text(letter, 0, 0);
+    text(letterToUse, 0, 0);
     popMatrix();
   } // end display
 

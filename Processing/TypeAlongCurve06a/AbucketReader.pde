@@ -45,13 +45,15 @@ void readInBucketData() {
 
       boolean isPos = false;
       boolean isEntity = false;
+      boolean isPerson = false;
       boolean isFiller = false;
       //for (String s : posesToUse) if (newPosName.contains(s)) isPos = true;
       if (newPosName.contains("_")) newPosName = split(newPosName, "_")[0];
       for (String s : posesToUse) if (newPosName.equals(s)) isPos = true;
       for (String s : entitiesToUse) if (newPosName.contains(s)) isEntity = true;
+      for (String s : personFileToUse) if (newPosName.contains(s)) isPerson = true;
       for (String s : fillersToUse) if (newPosName.equals(s)) isFiller = true;
-      if (!isPos && !isEntity && !isFiller) continue;
+      if (!isPos && !isEntity && !isFiller && !isPerson) continue;
 
       Pos newPos = new Pos(newPosName);
 
@@ -115,6 +117,12 @@ void readInBucketData() {
         term = doSpecialNeeds(term);
         // add in an extra space
         //term = term.replace(" ", "  "); // take this out now... in light of new spacing exercise
+        // replace the letters using replacementLetters
+        for (Map.Entry me : replacementLetters.entrySet()) {
+          String origTerm = (String)me.getKey();
+          String replacementTerm = (String)me.getValue();
+          term = term.replace(origTerm, replacementTerm);
+        }
         // ****** //
 
         Term newTerm = new Term(term, termCount, breakdown, newPosName);
@@ -141,6 +149,7 @@ void readInBucketData() {
       }
       if (isPos) newBucket.addPos(newPos);
       else if (isEntity) newBucket.addEntity(newPos);
+      else if (isPerson) newBucket.addPerson(newPos);
       else if (isFiller) newBucket.addFiller(newPos);
     }
 

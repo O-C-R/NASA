@@ -73,8 +73,8 @@ PVector[] getEdges(Letter l, boolean leftSide, float angle) {
 //
 float getDistanceToNeighbor(PVector[] edges, PVector direction, Letter l, Letter neighbor) {
   float neighborDistance = -1f;
-  float anglesToTry = 4;
-  float angleVariation = PI/2.4;
+  float anglesToTry = 5;
+  float angleVariation = PI/3.4;
   float[] rotationAngles = new float[0];
   float directionF = OCR3D.getAdjustedRotation(direction);
   for (float i = -anglesToTry; i <= anglesToTry; i++) {

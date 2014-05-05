@@ -26,8 +26,8 @@
  or set autoLoadSplines to true to auto load them all
  
  press a number or t, u, i, o to populate the splabels [see below for which key does what number]
- press 'a' to run the filler verbage
- then press 'w' to populate the flares
+ press 'a' to run the filler verbage - this will fill in the lines with verbage
+ then press 'w' to populate the flares - this will put verbage on the flare splines
  
  press UP or DOWN to select individual buckets or ALL buckets to populate
  
@@ -53,7 +53,7 @@ boolean autoLoadSplines = true; // will auto load the splines [assuming they are
 boolean disableManualImport = true; // so that you don't erase everything
 boolean disableLabelExporting = false; // so that you can't export labels
 boolean disableLabelImporting = false; // so that you can't import labels
-boolean disableFlareMaking = true; // so that you can't make flares!
+boolean disableFlareMaking = false; // so that you can't make flares!
 boolean debugQuickLoader = false; // when this is set to true, will only read in 1/4 of the actual data
 // ****** //
 
@@ -75,16 +75,16 @@ String manualMiddleBucketName = "research_and_development"; // if you want to ma
 
 
 // *** main spline numbers *** //
-float splineMinAngleInDegrees = .07f; // .02 for high
+float splineMinAngleInDegrees = .08f; // .02 for high, but .08 is good
 float splineMinDistance = 10f; // minimum distance between makeing a facet
 int splineDivisionAmount = 170; // how many divisions should initially be made
 boolean splineFlipUp = true; // whether or not to flip the thing
 
 
 // *** child spline numbers *** // 
-float minimumSplineSpacing = 5f; // 4f is a good ht; // *** change this to set the minimum spline ht
+float minimumSplineSpacing = 8f; // 4f is a good ht; // *** change this to set the minimum spline ht
 float maximumPercentSplineSpacing = .2; // .2 is ok..
-float childMaxPercentMultiplier = 1.95; // 2 would be the same as the parent // *** change this to alter falloff of children size
+float childMaxPercentMultiplier = 1.97; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
 
 
@@ -98,8 +98,10 @@ float[] padding = { // essentially the bounds to work in... note: the program wi
   270f, 150f, 270f, 150f // for production
 };
 
-// *** label numbers
-float minLabelSpacing = 10f; // the minimum spacing between labels along a spline
+// *** label numbers and stuff
+float minLabelSpacing = 20f; // the minimum spacing between labels along a spline
+String minLabelSpacingString = "i0";
+HashMap<String, String> replacementLetters = new HashMap<String, String>(); // to replace things like spaces and periods for the kerning.  defined in setup.  target letter, replacement letter
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 float maximumFillAlpha = 255f;
 float minimumFillAlpha = 30f;
@@ -178,9 +180,12 @@ String[] entitiesToUse = {
   //"Country", 
   //"Facility", 
   "FieldTerminology", 
-  "GeographicFeature", 
-  "Person",
+  "GeographicFeature",
 };
+
+String[] personFileToUse = {
+  "Person",
+}; // taken out of entities
 
 String[] fillersToUse = {
   "vbg",
@@ -188,7 +193,9 @@ String[] fillersToUse = {
 
 // ******ENTITY MULTIPLIER****** //
 float entityMultiplier = .0001; // .0001 seems pretty even.  this multiplier brings down the entity totals so that they can be factored into the spline defining equatio
-float entityToNormalRatio = .45; // this determines roughly how many entity terms to put in compared to the other pos entries.  this : 1
+float normalRatio = 1f;
+float entityRatio = .75; // this determines roughly how many entity terms to put in compared to the other pos entries.  this : 1
+float personRatio = .33; // approx the number of persons to go into the mix
 
 
 float[][] bucketDataPoints = new float[bucketsToUse.length][0];
@@ -223,8 +230,8 @@ ArrayList<Flare> flares = new ArrayList<Flare>();
 int flareLayers = 3; // the number of layers to use.. will make for some overlap.  layer 0 will be the brightest, layer n will be the dimmest.  layer 0 will be drawn last and on top
 float fullGrayColor = 70; // lightest gray for the primary verbs
 float lowestGrayColor = 30; // darkest gray for the other verbs
-float minimumFlareHeight = defaultFontSize; // minimum potential height of the text at the start
-float maximumFlareHeight = defaultFontSize * 1.5; // maximum potential height of the text at the ends
+float minimumFlareHeight = 7f;//minCharHeight + 2; // minimum potential height of the text at the start
+float maximumFlareHeight = 12f;//minCharHeight * 1.5 + 1; // maximum potential height of the text at the ends
 
 
 // other stuff
@@ -238,10 +245,7 @@ color blockImageColor = color(0, 255, 127);
 
 //
 void setup() {
-  //size(5300, 1800); // for draft version sent to PopSci
-  //size(5300, 1000);
-
-  size(5300, 1700); // good
+  size(5300, 1700); // production
   //size(2200, 800); // small for debug
 
   OCRUtils.begin(this);
@@ -255,6 +259,10 @@ void setup() {
   //font = createFont("Gotham-Book", defaultFontSize);
   //font = createFont("TheOnlyException", defaultFontSize); // awesome
   //font = createFont("The Only Exception", defaultFontSize); // awesome PC
+
+  // setup the replacementLetters
+  replacementLetters.put(" ", "}");
+  replacementLetters.put(".", "|");
 
 
   setConstrainRange(); // for setting the boundaries of the the year stuff so you don't manually move it too far
@@ -287,8 +295,8 @@ void setup() {
 
   // debug clip
   /*
-  constrainRange[0] = 1962;
-   constrainRange[1] = 1974;
+  constrainRange[0] = 1958;
+   constrainRange[1] = 1977;
    setConstrainRange();
    */
 } // end setup
@@ -667,13 +675,14 @@ void doPopulate(int toMake) {
 
   // for overnight exporting!
   // ****** //
-  /*
+
   runFillInStuff();
-   makeEdgeFlares(); // remake flare splines
-   populateFlares(); // populate flare splines
-   exportNow = true;
-   */
-  // ****** //
+  makeEdgeFlares(); // remake flare splines
+  populateFlares(); // populate flare splines
+  exportNow = true;
+  exportLabels(); // save out these label positions
+
+    // ****** //
 
   loop();
 } // end doPopulate
@@ -697,6 +706,7 @@ void spaceLetters() {
   long startTime = millis();
   Bucket b = null;
   SpLabel sp = null;
+  ArrayList<Label> labelsToClean = new ArrayList<Label>();
   for (int i = 0; i < bucketsAL.size(); i++) {
     if (currentBucketIndex < bucketsAL.size()) {
       if (i != currentBucketIndex) continue;
@@ -705,19 +715,34 @@ void spaceLetters() {
     for (SpLabel spA : splabels) {
       if (spA.bucketName.equals(b.name)) sp = spA;
     }
-    println("  doing spacing for bucket: " + sp.bucketName);
+    //println("  doing spacing for bucket: " + sp.bucketName);
     for (int j = 0; j < sp.labels.size(); j++) {
       Label l = sp.labels.get(j);
+      //if (l.cleaned || l.getMinimumLetterHeight() < 1.35 * defaultFontSize) {
       if (l.cleaned || l.getMinimumLetterHeight() < 1.35 * defaultFontSize) {
-        println("term: " + l.baseText + " of bucket: " + sp.bucketName + " already cleaned or too small");
+        //println("term: " + l.baseText + " of bucket: " + sp.bucketName + " already cleaned or too small");
         continue;
       }
-      println("going to space term: " + l.baseText + " of bucket: " + sp.bucketName);
-      l.spaceLettersFromCenter();
-      spacerCount++;
+      //println("going to space term: " + l.baseText + " of bucket: " + sp.bucketName);
+      //l.spaceLettersFromCenter();
+      labelsToClean.add(l);
+      //spacerCount++;
     }
   }
-  println("end of spaceLetters.  spaced " + spacerCount + " labes in " + (int)(((float)millis() - startTime)/1000) +  " seconds");
+
+  String oldBucketName = "";
+  println("total to space: " + labelsToClean.size());
+  for (Label l : labelsToClean) {
+    if (!l.bucketName.equals(oldBucketName)) {
+      oldBucketName = l.bucketName;
+      println("__");
+      println("trying to space letters for bucket: " + l.bucketName);
+    }
+    l.spaceLettersFromCenter();
+    print(l.baseText + " " + spacerCount + "_");
+    spacerCount++;
+  }
+  println("end of spaceLetters.  spaced " + spacerCount + " labelss in " + (int)(((float)millis() - startTime)/1000) +  " seconds");
 } // end spaceLetters
 
 //

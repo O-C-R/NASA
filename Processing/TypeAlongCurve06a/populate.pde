@@ -225,10 +225,11 @@ boolean placeNextTermForBucket(Bucket b, Term t) {
  
  returns true if it placed a new label, false otherwise
  */
- // an attempt to reuse these things
+// an attempt to reuse these things
 ArrayList<PVector> intersectionPointAr = new ArrayList<PVector>();
 PVector intersectionPoint = new PVector();
 //
+// NOTE: spacing here is useless in the new context because it gets redefined below
 boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, Term term, String text, float spacing, float wiggleRoom) {
   long startTime = millis();
   //println("in populateBiggestSpaceAlongX for splabel: " + splabel.bucketName + " and xIn: " + xIn);
@@ -296,10 +297,15 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, Term term, String
       centerLabelHeight = centerLabel.getApproxLetterHeightAtPoint(intersectionPoint);
       centerLabelSmallestHeight = centerLabel.getMinimumLetterHeight();
     }
-    
+
     //println("    time taken to get center label numbers: " + (debugTime2 - millis()) + "ms");
     //debugTime2 = millis();
-    
+
+    // redefine what spacing is based off of the general height of the text
+    textFont(font, centerLabelHeight);
+    spacing = textWidth(minLabelSpacingString);
+
+
     // keep track of the center spacing to use for the wiggle room when finding valid left and right side Labels
     float centerEndDistance = 0f;
     if (centerLabel != null) centerEndDistance = centerLabel.endDistance + spacing;
@@ -308,7 +314,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, Term term, String
 
     // verify that center will fit
     boolean centerWillFit = splabel.spacingIsOpen(splineToUse, centerStartDistance, centerEndDistance);
-    
+
     //println("    time taken to check center label will fit: " + (debugTime2 - millis()) + "ms");
     //debugTime2 = millis();
 
@@ -426,7 +432,7 @@ boolean populateBiggestSpaceAlongX(float xIn, SpLabel splabel, Term term, String
 
   // check the option scores, if any, and pick the one with the lowest score
 
-  for (int k = 0; k < optionScores.length; k++) {
+    for (int k = 0; k < optionScores.length; k++) {
     //println(" k: " + k + " -- score: " + optionScores[k] + " for optionScores.length: " + optionScores.length);
   }
   // lastly take the one with the lowest score

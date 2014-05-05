@@ -87,7 +87,7 @@ class Flare {
         index = i;
         float powNumber = .3;
         flareSplineColor = map(pow(randomValue, powNumber), 0, pow(totalOptions, powNumber), fullGrayColor, lowestGrayColor);
-        heightMultiplier = map(pow(randomValue, powNumber), 0, pow(totalOptions, powNumber), 2, .75);
+        heightMultiplier = map(pow(randomValue, powNumber), 0, pow(totalOptions, powNumber), 3, 1.25);
         break;
       }
     }

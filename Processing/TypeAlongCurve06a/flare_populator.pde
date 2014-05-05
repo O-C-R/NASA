@@ -3,6 +3,7 @@ void populateFlares() {
   println("in populateFlares");
   long startTime = millis();
 
+
   HashMap<String, Term> freeVerbageHM = new HashMap<String, Term>();
   ArrayList<Term> freeVerbageAL = new ArrayList<Term>();
 
@@ -76,6 +77,8 @@ void populateFlares() {
         roundsToUse = floor(currentLevel * roundsPerLevel * roundsToUseMultiplier);
       }
     }
+
+    //if (manualBreakout++ >= 30) break;
   } // end while
 
 

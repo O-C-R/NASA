@@ -153,7 +153,7 @@ void exportLabels() {
   }
   json.setJSONArray("splabels", splabelsAR);
 
-  saveJSONObject(json, "labels/labels.json");
+  saveJSONObject(json, "labels/labels-" + width + "-" + height + ".json");
 
 
   println("done exporting " + goodExports + " labels in " + (int)(((float)millis() - startTime) / 1000) + " seconds");
@@ -175,7 +175,7 @@ void importLabels() {
 
   println("in importLabels");
   try {
-    JSONObject json = loadJSONObject("labels/labels.json");
+    JSONObject json = loadJSONObject("labels/labels-" + width + "-" + height + ".json");
 
     JSONArray splabelsAR = json.getJSONArray("splabels");
     for (int k = 0; k < splabelsAR.size(); k++) {

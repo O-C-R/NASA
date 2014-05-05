@@ -7,6 +7,10 @@ class Bucket {
   HashMap<String, Pos> entitiesHM = new HashMap<String, Pos>();
   ArrayList<Pos> entitiesAL = new ArrayList<Pos>();
 
+  // since the people entities should be few and far between, make a new category for them
+  HashMap<String, Pos> personsHM = new HashMap<String, Pos>();
+  ArrayList<Pos> personsAL = new ArrayList<Pos>();
+
   // filler will be treated as a separate pos series too
   HashMap<String, Pos> fillersHM = new HashMap<String, Pos>();
   ArrayList<Pos> fillersAL = new ArrayList<Pos>(); // a list of all of the poses for the fillers
@@ -34,13 +38,24 @@ class Bucket {
   float[] seriesSumEntity = null;
   float maxPosSeriesNumberEntity = 0f;
 
+  // tally stuff for person pos
+  float highCountPerson = 0f;
+  float totalSeriesSumPerson = 0; // total from all of the terms within all of the poses
+  int totalTermCountPerson = 0; // total terms from all of the poses
+  float highestSeriesCountPerson = 0; // max count for a term
+  String highestSeriesTermStringPerson = "";
+  Term highestSeriesTermPerson;
+  float[] seriesSumPerson = null;
+  float maxPosSeriesNumberPerson = 0f;
+
 
   // keep a specific list of the terms .. from all of the poses
   ArrayList<Term> bucketTermsAL = new ArrayList<Term>();
   HashMap<String, Term> bucketTermsHM = new HashMap<String, Term>();
   ArrayList<Term> bucketTermsRemainingAL = new ArrayList<Term>();
-  
+
   ArrayList<Term> bucketTermsEntitiesAL = new ArrayList<Term>();
+  ArrayList<Term> bucketTermsPersonsAL = new ArrayList<Term>();
 
 
 
@@ -72,8 +87,14 @@ class Bucket {
     //
   void addFiller(Pos filler) {
     fillersHM.put(filler.pos, filler);
-    fillersAL.add(filler);    
+    fillersAL.add(filler);
   } // end addFiller
+
+    //
+  void addPerson(Pos person) {
+    personsHM.put(person.pos, person);
+    personsAL.add(person);
+  } // end addPerson
 
     //
   void tallyThings() {
@@ -99,7 +120,7 @@ class Bucket {
     }
 
 
-    for (float f : seriesSum) maxPosSeriesNumber = (maxPosSeriesNumber > f ? maxPosSeriesNumber : f);
+    if (seriesSum != null)for (float f : seriesSum) maxPosSeriesNumber = (maxPosSeriesNumber > f ? maxPosSeriesNumber : f);
 
     println("bucket: " + name + " REGULAR POS STUFF: " );
     println(" highestSeriesCount: " + highestSeriesCount);
@@ -139,7 +160,52 @@ class Bucket {
       }
     }
 
-    for (float f : seriesSumEntity) maxPosSeriesNumberEntity = (maxPosSeriesNumberEntity > f ? maxPosSeriesNumberEntity : f);
+    if (seriesSumEntity != null) for (float f : seriesSumEntity) maxPosSeriesNumberEntity = (maxPosSeriesNumberEntity > f ? maxPosSeriesNumberEntity : f);
+
+    println("bucket: " + name + " ENTITY STUFF: " );
+    println(" highestSeriesCountEntity: " + highestSeriesCountEntity);
+    println(" highestSeriesTermStringEntity: " + highestSeriesTermStringEntity);
+    println(" maxPosSeriesNumberEntity: " + maxPosSeriesNumberEntity);
+
+
+
+    // person pos stuff
+    for (Map.Entry me : personsHM.entrySet()) {
+      Pos p = (Pos)me.getValue();
+      p.tallyThings();
+
+      if (p.seriesSum != null && p.seriesSum.length > 0) {
+        if (seriesSumPerson == null) seriesSumPerson = p.seriesSum;
+        else {
+          for (int i = 0; i < seriesSumPerson.length; i++) {
+            if (i < seriesSumPerson.length && i < p.seriesSum.length) seriesSumPerson[i] += p.seriesSum[i];
+          }
+        }
+      }
+
+      // do a check to make sure that the seriesSumPerson.length == seriesSum.length.  if the seriesSum has more then add empty spots to the seriesSumPerson
+      if (seriesSum.length > seriesSumPerson.length) {
+        while (true) {
+          seriesSumPerson = (float[])append(seriesSumPerson, 0f);
+          if (seriesSum.length == seriesSumPerson.length) break;
+        }
+      }
+
+      totalSeriesSumPerson += p.totalSeriesSum;
+      totalTermCountPerson += p.totalTermCount;
+      if (p.totalSeriesSum > highestSeriesCountPerson) {
+        highestSeriesCountPerson = p.totalSeriesSum;
+        highestSeriesTermStringPerson = p.highestSeriesTermString;
+        highestSeriesTermPerson = p.highestSeriesTerm;
+      }
+    }
+
+    if (seriesSumPerson != null) for (float f : seriesSumPerson) maxPosSeriesNumberPerson = (maxPosSeriesNumberPerson > f ? maxPosSeriesNumberPerson : f);
+
+    println("bucket: " + name + " PERSON STUFF: " );
+    println(" highestSeriesCountPerson: " + highestSeriesCountPerson);
+    println(" highestSeriesTermStringPerson: " + highestSeriesTermStringPerson);
+    println(" maxPosSeriesNumberPerson: " + maxPosSeriesNumberPerson);
 
 
     // make the fillersTermAL
@@ -147,17 +213,11 @@ class Bucket {
       fillersTermsAL.addAll(p.termsAL);
       fillersTermsRemainingAL.addAll(p.termsAL);
     }
-
-
-    println("bucket: " + name + " ENTITY STUFF: " );
-    println(" highestSeriesCountEntity: " + highestSeriesCountEntity);
-    println(" highestSeriesTermStringEntity: " + highestSeriesTermStringEntity);
-    println(" maxPosSeriesNumberEntity: " + maxPosSeriesNumberEntity);
   } // end tallyThings
 
   //
   void orderTerms() {
-    // goal here is to order first the normal pos terms, then the entity terms.  then order both by highest count, then splice the two lists together according to the entityToNormalRatio
+    // goal here is to order first the normal pos terms, then the entity terms.  then order both by highest count, then splice the two lists together according to the entityRatio
     println("orderTerms for bucket " + name);
     for (Pos p : posesAL) {
       p.orderTerms();
@@ -165,9 +225,9 @@ class Bucket {
     }
     bucketTermsAL = OCRUtils.sortObjectArrayListSimple(bucketTermsAL, "seriesSum");
     bucketTermsAL = OCRUtils.reverseArrayList(bucketTermsAL);
-    
+
     ArrayList<Term> bucketTermsALCopy = (ArrayList<Term>)bucketTermsAL.clone();
-    
+
     for (Term t : bucketTermsAL) {
       if (!bucketTermsHM.containsKey(t.term)) bucketTermsHM.put(t.term, t);
       else println("bucket " + name + " already has: " + t.term);
@@ -181,20 +241,40 @@ class Bucket {
     }
     bucketTermsEntitiesAL = OCRUtils.sortObjectArrayListSimple(bucketTermsEntitiesAL, "seriesSum");
     bucketTermsEntitiesAL = OCRUtils.reverseArrayList(bucketTermsEntitiesAL);
-    
+
     ArrayList<Term>bucketTermsEntitiesALCopy = (ArrayList<Term>)bucketTermsEntitiesAL.clone();
-    
+
+
+    bucketTermsPersonsAL = new ArrayList<Term>();
+    for (Pos p : personsAL) {
+      p.orderTerms();
+      bucketTermsPersonsAL.addAll(p.termsAL);
+    }
+    bucketTermsPersonsAL = OCRUtils.sortObjectArrayListSimple(bucketTermsPersonsAL, "seriesSum");
+    bucketTermsPersonsAL = OCRUtils.reverseArrayList(bucketTermsPersonsAL);
+
+    ArrayList<Term>bucketTermsPersonsALCopy = (ArrayList<Term>)bucketTermsPersonsAL.clone();
+
     for (Term t : bucketTermsEntitiesAL) {
       if (!bucketTermsHM.containsKey(t.term)) bucketTermsHM.put(t.term, t);
       else println("bucket " + name + " already has: " + t.term);
       //bucketTermsRemainingAL.add(t); // keep a copy
-    }    
+    }
+    for (Term t : bucketTermsPersonsAL) {
+      if (!bucketTermsHM.containsKey(t.term)) bucketTermsHM.put(t.term, t);
+      else println("bucket " + name + " already has: " + t.term);
+    }
 
     // lastly splice the two lists together into the bucketTermsRemainingAL;
     ArrayList<String> testOutput = new ArrayList<String>();
     while (true) {
-      float rando = random(1 + entityToNormalRatio);
-      if ((rando < entityToNormalRatio  || bucketTermsAL.size() == 0) && bucketTermsEntitiesAL.size() > 0) {
+      float rando = random(normalRatio + entityRatio + personRatio);
+      if ((rando > (normalRatio + entityRatio)) && bucketTermsPersonsAL.size() > 0) {
+        bucketTermsRemainingAL.add(bucketTermsPersonsAL.get(0));
+        bucketTermsPersonsAL.remove(0);
+        testOutput.add("p");
+      }
+      else if ((rando > normalRatio && rando <= normalRatio + entityRatio) && bucketTermsEntitiesAL.size() > 0) {
         bucketTermsRemainingAL.add(bucketTermsEntitiesAL.get(0));
         bucketTermsEntitiesAL.remove(0);
         testOutput.add("e");
@@ -203,10 +283,25 @@ class Bucket {
         if (bucketTermsAL.size() > 0) {
           bucketTermsRemainingAL.add(bucketTermsAL.get(0));
           bucketTermsAL.remove(0);
-          testOutput.add("p");
+          testOutput.add("n");
         }
       }
-      if (bucketTermsAL.size() == 0 && bucketTermsEntitiesAL.size() == 0) break;
+
+      /*
+      if ((rando < entityRatio  || bucketTermsAL.size() == 0) && bucketTermsEntitiesAL.size() > 0) {
+       bucketTermsRemainingAL.add(bucketTermsEntitiesAL.get(0));
+       bucketTermsEntitiesAL.remove(0);
+       testOutput.add("e");
+       }
+       else {
+       if (bucketTermsAL.size() > 0) {
+       bucketTermsRemainingAL.add(bucketTermsAL.get(0));
+       bucketTermsAL.remove(0);
+       testOutput.add("p");
+       }
+       }
+       */
+      if (bucketTermsAL.size() == 0 && bucketTermsEntitiesAL.size() == 0 && bucketTermsPersonsAL.size() == 0) break;
     } 
 
     // reestablish the overall ALs

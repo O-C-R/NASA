@@ -159,6 +159,7 @@ class SpLabel {
     }
 
 
+
     //if it is the middle line and skipMiddleLine is on, then return null
     if (validLabel && isMiddleSpLabel && skipMiddleLine) {
       // check the curve points to see about equality since when they are read in they are separate obects
@@ -179,28 +180,32 @@ class SpLabel {
 
 
     // check that the label doesnt go above the top or below the bottom spline
-    if (validLabel) {
-      ArrayList<PVector> startHeightAR = s.getPointByDistance(newLabel.startDistance);
-      ArrayList<PVector> endHeightAR = s.getPointByDistance(newLabel.startDistance);
-      if (startHeightAR != null && endHeightAR != null) {
-        PVector startHeight = startHeightAR.get(0);
-        PVector endHeight = endHeightAR.get(0);
-        if (s.useUpHeight) {
-          ArrayList<PVector> topClosestARStart = topSpline.getPointByClosestPoint(startHeight);
-          ArrayList<PVector> topClosestAREnd = topSpline.getPointByClosestPoint(endHeight);
-          if (topClosestARStart != null) if (startHeight.y < topClosestARStart.get(0).y + minLabelSpacing / 2) validLabel = false; 
-          if (topClosestAREnd != null) if (endHeight.y < topClosestAREnd.get(0).y + minLabelSpacing / 2) validLabel = false;
-        }
-        else {
-          ArrayList<PVector> bottomClosestARStart = bottomSpline.getPointByClosestPoint(startHeight);
-          ArrayList<PVector> bottomClosestAREnd = bottomSpline.getPointByClosestPoint(endHeight);
-          if (bottomClosestARStart != null) if (startHeight.y > bottomClosestARStart.get(0).y - minLabelSpacing / 12) validLabel = false;
-          if (bottomClosestAREnd != null) if (endHeight.y > bottomClosestAREnd.get(0).y - minLabelSpacing / 12) validLabel = false;
-        }
-      }
-      //print(" ee ::  " + (millis() - debugTime));
-      debugTime = millis();
-    }
+    // ... this is screwing things up by cutting off the top labels for some reason... 20140504
+    /*
+    if (validLabel) { 
+     
+     ArrayList<PVector> startHeightAR = s.getPointByDistance(newLabel.startDistance);
+     ArrayList<PVector> endHeightAR = s.getPointByDistance(newLabel.startDistance);
+     if (startHeightAR != null && endHeightAR != null) {
+     PVector startHeight = startHeightAR.get(0);
+     PVector endHeight = endHeightAR.get(0);
+     if (s.useUpHeight) {
+     ArrayList<PVector> topClosestARStart = topSpline.getPointByClosestPoint(startHeight);
+     ArrayList<PVector> topClosestAREnd = topSpline.getPointByClosestPoint(endHeight);
+     if (topClosestARStart != null) if (startHeight.y < topClosestARStart.get(0).y + minLabelSpacing / 2) validLabel = false; 
+     if (topClosestAREnd != null) if (endHeight.y < topClosestAREnd.get(0).y + minLabelSpacing / 2) validLabel = false;
+     }
+     else {
+     ArrayList<PVector> bottomClosestARStart = bottomSpline.getPointByClosestPoint(startHeight);
+     ArrayList<PVector> bottomClosestAREnd = bottomSpline.getPointByClosestPoint(endHeight);
+     if (bottomClosestARStart != null) if (startHeight.y > bottomClosestARStart.get(0).y - minLabelSpacing / 12) validLabel = false;
+     if (bottomClosestAREnd != null) if (endHeight.y > bottomClosestAREnd.get(0).y - minLabelSpacing / 12) validLabel = false;
+     }
+     }
+     //print(" ee ::  " + (millis() - debugTime));
+     debugTime = millis();
+     }
+     */
 
     //println("___");
     if (validLabel) return newLabel;
@@ -334,7 +339,7 @@ class SpLabel {
     }
   } // end display
 
-    //
+  //
   void displaySplines() {
     noFill();
     stroke(c, 100);
