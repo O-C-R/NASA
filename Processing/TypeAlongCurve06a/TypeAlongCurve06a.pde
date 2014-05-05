@@ -99,8 +99,8 @@ float[] padding = { // essentially the bounds to work in... note: the program wi
 };
 
 // *** label numbers and stuff
-float minLabelSpacing = 20f; // the minimum spacing between labels along a spline
-String minLabelSpacingString = "i0";
+float minLabelSpacing = 9f; // the minimum spacing between labels along a spline
+String minLabelSpacingString = "i"; // spacing between labels
 HashMap<String, String> replacementLetters = new HashMap<String, String>(); // to replace things like spaces and periods for the kerning.  defined in setup.  target letter, replacement letter
 float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
 float maximumFillAlpha = 255f;
