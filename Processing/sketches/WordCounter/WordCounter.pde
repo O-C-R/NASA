@@ -1,6 +1,7 @@
 import ocrUtils.maths.*;
 import ocrUtils.*;
 import ocrUtils.ocr3D.*;
+import rita.*;
 
 String directory = "../../../Data/PDFsAsJSON/";
 
@@ -14,7 +15,7 @@ void setup() {
   output.println("year,story count,word count, avg word per story");
   output.println("  xxxx as a simple graph of the word count");
   output.println("  oooo as a simple graph of the story count");
-  
+
   OCRUtils.begin(this);
 
   int allWords = 0;
@@ -34,7 +35,8 @@ void setup() {
       totalStories = jar.size();
       for (int j = 0; j < jar.size(); j++) {
         String story = jar.getJSONObject(j).getString("story");
-        totalWordCount += split(story, " ").length;
+        //totalWordCount += split(story, " ").length;
+        totalWordCount += RiTa.getWordCount(story);//split(story, " ").length;
       }
       //println("year: " + fileYear + " totalStories: " + nf(totalStories, 4) + " totalWords: " + nf(totalWordCount, 6));
 

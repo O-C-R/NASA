@@ -29,6 +29,11 @@
  press 'a' to run the filler verbage - this will fill in the lines with verbage
  then press 'w' to populate the flares - this will put verbage on the flare splines
  
+ press 'X' to export all of the labels
+ 
+ press 'Z' later to import all of the labels if you want
+ press 'A' to sort of space the larger labels' letters out to a certain degree
+ 
  press UP or DOWN to select individual buckets or ALL buckets to populate
  
  
@@ -48,19 +53,19 @@ import java.util.Arrays;
 
 // ****** //
 // MAIN CONTROLS //
-boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
-boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
-boolean disableManualImport = true; // so that you don't erase everything
+boolean disableSplineMaking = false; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
+boolean disableManualImport = false; // so that you don't erase everything
 boolean disableLabelExporting = false; // so that you can't export labels
 boolean disableLabelImporting = false; // so that you can't import labels
 boolean disableFlareMaking = false; // so that you can't make flares!
-boolean debugQuickLoader = false; // when this is set to true, will only read in 1/4 of the actual data
+boolean debugQuickLoader = true; // when this is set to true, will only read in 1/4 of the actual data
 // ****** //
 
 
 // visual controls
 boolean facetsOn = false;
-boolean splinesOn = true;
+boolean splinesOn = false;
 boolean flareSplinesOn = false;
 boolean variationOn = false;
 boolean shiftIsDown = false;
@@ -68,6 +73,9 @@ boolean debugOn = false;
 boolean displayHeightsOn = false;
 boolean displayLabels = true;
 
+
+// other controls
+boolean runAutoSpaceAuto = false;
 
 // manual layout of bucket control
 boolean manualLayerControl = true; // will make it so that the stack goes in the order that the buckets are read in as opposed to calculating and balancing things out
@@ -82,7 +90,8 @@ boolean splineFlipUp = true; // whether or not to flip the thing
 
 
 // *** child spline numbers *** // 
-float minimumSplineSpacing = 8f; // 4f is a good ht; // *** change this to set the minimum spline ht
+//float minimumSplineSpacing = 8f; // 4f is a good ht; // *** change this to set the minimum spline ht  2014_05_05
+float minimumSplineSpacing = 10.5f; // 4f is a good ht; // *** change this to set the minimum spline ht  2014_05_07
 float maximumPercentSplineSpacing = .2; // .2 is ok..
 float childMaxPercentMultiplier = 1.97; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
@@ -95,16 +104,19 @@ boolean skipMiddleLine = true; // if on it will make it so that text cannot go o
 
 float[] padding = { // essentially the bounds to work in... note: the program will not shift the thing up or down, but will assume that the first one is centered
   //40f, 40f, 40f, 40f // for draft
-  270f, 150f, 270f, 150f // for production
+  //270f, 150f, 270f, 150f // for production 2014_05_05
+  290f, 276f, 290f, 256f // for production 2014_05_07
 };
 
 // *** label numbers and stuff
 float minLabelSpacing = 9f; // the minimum spacing between labels along a spline
 String minLabelSpacingString = "i"; // spacing between labels
 HashMap<String, String> replacementLetters = new HashMap<String, String>(); // to replace things like spaces and periods for the kerning.  defined in setup.  target letter, replacement letter
-float wiggleRoom = 48f; // how much the word can move around instead of being precisely on the x point
-float maximumFillAlpha = 255f;
-float minimumFillAlpha = 30f;
+float wiggleRoom = 88f; // how much the word can move around instead of being precisely on the x point
+//float maximumFillAlpha = 255f;
+//float minimumFillAlpha = 30f;
+float maximumFillAlpha = 1f; // for lerping the color.  full color of bucket
+float minimumFillAlpha = .48f; // closer to white
 HashMap<String, ArrayList<String>> termSimpleCount = new HashMap<String, ArrayList<String>>(); // when loading the terms keep track of how many times they appear
 int maximumTermOverallCount = 0;
 int maximumTermSingleBucketCount = 0;
@@ -228,8 +240,10 @@ HashMap<Integer, HashMap<String, Integer>> usedFillerTermsAtX = new HashMap<Inte
 // Flares
 ArrayList<Flare> flares = new ArrayList<Flare>();
 int flareLayers = 3; // the number of layers to use.. will make for some overlap.  layer 0 will be the brightest, layer n will be the dimmest.  layer 0 will be drawn last and on top
-float fullGrayColor = 70; // lightest gray for the primary verbs
-float lowestGrayColor = 30; // darkest gray for the other verbs
+//float fullGrayColor = 70; // lightest gray for the primary verbs
+//float lowestGrayColor = 30; // darkest gray for the other verbs
+float fullGrayColorPercent = .95; // lightest gray for the primary verbs
+float lowestGrayColorPercent = .25; // darkest gray for the other verbs
 float minimumFlareHeight = 7f;//minCharHeight + 2; // minimum potential height of the text at the start
 float maximumFlareHeight = 12f;//minCharHeight * 1.5 + 1; // maximum potential height of the text at the ends
 
@@ -245,7 +259,8 @@ color blockImageColor = color(0, 255, 127);
 
 //
 void setup() {
-  size(5300, 1700); // production
+  //size(5300, 1700); // for production 2014_05_05
+  size(5531, 2105); // for production 2014_05_07
   //size(2200, 800); // small for debug
 
   OCRUtils.begin(this);
@@ -296,7 +311,7 @@ void setup() {
   // debug clip
   /*
   constrainRange[0] = 1958;
-   constrainRange[1] = 1977;
+   constrainRange[1] = 1962;
    setConstrainRange();
    */
 } // end setup
@@ -364,6 +379,15 @@ void draw() {
     exportNow = false;
     println("ending export to PDF");
     outputSpLabels();
+  }
+
+  // for overnight auto doing it
+  if (runAutoSpaceAuto) {
+    spaceLetters();
+    runAutoSpaceAuto = false;
+    timeStamp = nf(year(), 4) + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
+    exportNow = true;
+    loop();
   }
 
   println("end of draw.  frame: " + frameCount);
@@ -681,8 +705,9 @@ void doPopulate(int toMake) {
   populateFlares(); // populate flare splines
   exportNow = true;
   exportLabels(); // save out these label positions
+  runAutoSpaceAuto = true;
 
-    // ****** //
+  // ****** //
 
   loop();
 } // end doPopulate
@@ -719,7 +744,7 @@ void spaceLetters() {
     for (int j = 0; j < sp.labels.size(); j++) {
       Label l = sp.labels.get(j);
       //if (l.cleaned || l.getMinimumLetterHeight() < 1.35 * defaultFontSize) {
-      if (l.cleaned || l.getMinimumLetterHeight() < 1.35 * defaultFontSize) {
+      if (l.cleaned || l.getMinimumLetterHeight() < 1.8 * defaultFontSize) {
         //println("term: " + l.baseText + " of bucket: " + sp.bucketName + " already cleaned or too small");
         continue;
       }
