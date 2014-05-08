@@ -171,7 +171,7 @@ void drawDates() {
   float linePadding = 30f;
   float centerY = height / 2 - (addMiddleDivide ? middleDivideDistance / 2f : 0f);
   strokeWeight(2);
-  stroke(lerpColor(dateColor, color(255), .5));
+  stroke(lerpColor(dateColor, color(127), .5));
   fill(dateColor);
   textFont(font);
   textSize(12);

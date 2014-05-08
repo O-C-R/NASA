@@ -53,13 +53,13 @@ import java.util.Arrays;
 
 // ****** //
 // MAIN CONTROLS //
-boolean disableSplineMaking = false; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
-boolean autoLoadSplines = false; // will auto load the splines [assuming they are generated already] in the setup
-boolean disableManualImport = false; // so that you don't erase everything
+boolean disableSplineMaking = true; // disable the generation of splines [as to not overwrite whatever if it's already made] also disables export
+boolean autoLoadSplines = true; // will auto load the splines [assuming they are generated already] in the setup
+boolean disableManualImport = true; // so that you don't erase everything
 boolean disableLabelExporting = false; // so that you can't export labels
 boolean disableLabelImporting = false; // so that you can't import labels
 boolean disableFlareMaking = false; // so that you can't make flares!
-boolean debugQuickLoader = true; // when this is set to true, will only read in 1/4 of the actual data
+boolean debugQuickLoader = false; // when this is set to true, will only read in 1/4 of the actual data
 // ****** //
 
 
