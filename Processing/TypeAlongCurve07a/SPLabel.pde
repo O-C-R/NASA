@@ -53,15 +53,15 @@ class SpLabel {
   } // end saveMaxHeight
 
   //
-  void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing, int distributionType) {
+  void blendSPLabelSplinesVertically(int count, float splineCPDistance, float maximumPercentSplineSpacing, int distributionType, float maxLineHeight) {
 
-    middleMain = middleMakerVertical(topSpline, bottomSpline, splineCPDistance, maximumPercentSplineSpacing);
+    middleMain = middleMakerVertical(topSpline, bottomSpline, splineCPDistance, maximumPercentSplineSpacing, maxLineHeight);
 
     // do the top and the bottom
     // bottom first
 
 
-    ArrayList<Spline> lastGeneration = makeCutoffSplines2(bottomSpline, middleMain.get(1), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+    ArrayList<Spline> lastGeneration = makeCutoffSplines2(bottomSpline, middleMain.get(1), minimumSplineSpacing, maxLineHeight, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
     if (lastGeneration != null) {
       if (middleBottoms == null) middleBottoms = new ArrayList<ArrayList<Spline>>();
       middleBottoms.add(lastGeneration);
@@ -70,7 +70,7 @@ class SpLabel {
     for (int k = 0; k < 200; k++) { // arbitrary limit
       ArrayList<Spline> temp = new ArrayList<Spline>();
       for (int i = 0; i < lastGeneration.size(); i++) {
-        ArrayList<Spline> newGeneration = makeCutoffSplines2(bottomSpline, lastGeneration.get(i), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+        ArrayList<Spline> newGeneration = makeCutoffSplines2(bottomSpline, lastGeneration.get(i), minimumSplineSpacing, maxLineHeight, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
         temp.addAll(newGeneration);
       }
       middleBottoms.add(temp);
@@ -81,7 +81,7 @@ class SpLabel {
 
 
 
-    lastGeneration = makeCutoffSplines2(topSpline, middleMain.get(0), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+    lastGeneration = makeCutoffSplines2(topSpline, middleMain.get(0), minimumSplineSpacing, maxLineHeight, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
     if (lastGeneration != null) {
       if (middleTops == null) middleTops = new ArrayList<ArrayList<Spline>>();
       middleTops.add(lastGeneration);
@@ -89,7 +89,7 @@ class SpLabel {
     for (int k = 0; k < 200; k++) { // arbitrary limit
       ArrayList<Spline> temp = new ArrayList<Spline>();
       for (int i = 0; i < lastGeneration.size(); i++) {
-        ArrayList<Spline> newGeneration = makeCutoffSplines2(topSpline, lastGeneration.get(i), minimumSplineSpacing, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
+        ArrayList<Spline> newGeneration = makeCutoffSplines2(topSpline, lastGeneration.get(i), minimumSplineSpacing, maxLineHeight, childMaxPercentMultiplier * maximumPercentSplineSpacing, false);
         temp.addAll(newGeneration);
       }
       middleTops.add(temp);

@@ -93,7 +93,8 @@ boolean splineFlipUp = true; // whether or not to flip the thing
 //float minimumSplineSpacing = 8f; // 4f is a good ht; // *** change this to set the minimum spline ht  2014_05_05
 float minimumSplineSpacing = 10.5f; // 4f is a good ht; // *** change this to set the minimum spline ht  2014_05_07
 float maximumPercentSplineSpacing = .2; // .2 is ok..
-float childMaxPercentMultiplier = 1.97; // 2 would be the same as the parent // *** change this to alter falloff of children size
+float maxSplineHeight = 50f; // this is the maximum height allowed for the spacing between a spline.  when the maxPercent * the dist exceeds the, then this value is used
+float childMaxPercentMultiplier = 1.9;//1.97; // 2 would be the same as the parent // *** change this to alter falloff of children size
 float testSplineSpacing = minimumSplineSpacing;
 
 
@@ -121,8 +122,7 @@ HashMap<String, ArrayList<String>> termSimpleCount = new HashMap<String, ArrayLi
 int maximumTermOverallCount = 0;
 int maximumTermSingleBucketCount = 0;
 
-// when divding up the splabels into the middlesplines
-float maxSplineHeight = 19f; // when dividing up the splines to generate the middleSplines this is the maximum height allowed
+
 
 int[] yearRange = {
   1958, 
@@ -311,7 +311,7 @@ void setup() {
   // debug clip
   /*
   constrainRange[0] = 1958;
-   constrainRange[1] = 1962;
+   constrainRange[1] = 1987;
    setConstrainRange();
    */
 } // end setup
@@ -744,7 +744,7 @@ void spaceLetters() {
     for (int j = 0; j < sp.labels.size(); j++) {
       Label l = sp.labels.get(j);
       //if (l.cleaned || l.getMinimumLetterHeight() < 1.35 * defaultFontSize) {
-      if (l.cleaned || l.getMinimumLetterHeight() < 1.8 * defaultFontSize) {
+      if (l.cleaned || l.getMinimumLetterHeight() < 2.1 * defaultFontSize) {
         //println("term: " + l.baseText + " of bucket: " + sp.bucketName + " already cleaned or too small");
         continue;
       }
@@ -763,6 +763,7 @@ void spaceLetters() {
       println("__");
       println("trying to space letters for bucket: " + l.bucketName);
     }
+    
     l.spaceLettersFromCenter();
     print(l.baseText + " " + spacerCount + "_");
     spacerCount++;

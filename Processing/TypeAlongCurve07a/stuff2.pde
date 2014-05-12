@@ -32,7 +32,7 @@ void splitMasterSpLabelsVertically(float maxLineHeight, float splineCPDistance, 
     if (sp.isOnTop && sp.isOnBottom) distributionType = MAKE_SPLINES_MIXED; 
     else if (sp.isOnTop) distributionType = MAKE_SPLINES_TOP_ONLY;
     else if (sp.isOnBottom) distributionType = MAKE_SPLINES_BOTTOM_ONLY;
-    sp.blendSPLabelSplinesVertically(dividingNumber, splineCPDistance, maximumPercentSplineSpacing, distributionType);
+    sp.blendSPLabelSplinesVertically(dividingNumber, splineCPDistance, maximumPercentSplineSpacing, distributionType, maxLineHeight);
   }
 } // end splitMasterSpLabelsVertical
 

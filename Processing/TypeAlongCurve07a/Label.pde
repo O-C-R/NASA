@@ -243,6 +243,11 @@ class Label {
   //
   void spaceLettersFromCenter() {
     //println("in spaceLettersFromCenter for " + baseText + " which was " + letters.size() + " letters");
+    //println("spline is null?? " + (spline == null));
+    if (spline == null) {
+      print("n");
+      return;
+    }
     int centerIndex = floor((int)letters.size() / 2);
     Letter centerLetter = letters.get(centerIndex);
     Letter lastLetter = centerLetter;
@@ -306,7 +311,7 @@ class Label {
 
 
     String spacingLetter = "i"; // should this be an o?
-    float spacerMultiplier = .25; // this times the letterwidth of the spacing letter is the goal for what to space
+    float spacerMultiplier = .33;//.25; // this times the letterwidth of the spacing letter is the goal for what to space
     float targetSpacing = 0f;
     float targetSpacingWiggleRoom = 0f; // will be maybe .25 * targetSpacing
     float newShiftAmount = 0f;

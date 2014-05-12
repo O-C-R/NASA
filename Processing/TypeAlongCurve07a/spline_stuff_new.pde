@@ -1,6 +1,6 @@
 // **** MIDDLE MAKER **** //
 //
-ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, float maxHeightPercent) {
+ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, float maxHeightPercent, float maxLineHeight) {
   if (!a.facetsMade || !b.facetsMade) return null;
 
   int wiggleCounter = 0;
@@ -35,7 +35,7 @@ ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, floa
 
   if (ptB == null) return null;
 
-  ArrayList<PVector> tempMidPts = makeMidPoints(ptA, ptB, minHeight, maxHeightPercent);
+  ArrayList<PVector> tempMidPts = makeMidPoints(ptA, ptB, minHeight, maxHeightPercent, maxLineHeight, true);
 
   ArrayList<PVector> midTopPts = new ArrayList<PVector>();
   ArrayList<PVector> midBottomPts = new ArrayList<PVector>();
@@ -94,7 +94,7 @@ ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, floa
     }
 
     // otherwise
-    tempMidPts = makeMidPoints(ptA, ptB, minHeight, maxHeightPercent);
+    tempMidPts = makeMidPoints(ptA, ptB, minHeight, maxHeightPercent, maxLineHeight, true);
     midTopPts.add(tempMidPts.get(0));
     midBottomPts.add(tempMidPts.get(1));
     facetStartIndex++;
@@ -130,7 +130,7 @@ ArrayList<Spline> middleMakerVertical (Spline a, Spline b, float minHeight, floa
 
 //
 // this simply finds the VERTICAL midpoints.  does not do perpendicular calcs because I didn't want to right now... 
-ArrayList<PVector> makeMidPoints(PVector a, PVector b, float minHeight, float maxHeightPercent) {
+ArrayList<PVector> makeMidPoints(PVector a, PVector b, float minHeight, float maxHeightPercent, float maxLineHeight, boolean isMainMiddle) {
   ArrayList<PVector> midPts = new ArrayList<PVector>();
   float dist = a.dist(b);
   PVector dir = PVector.sub(b, a);
@@ -138,13 +138,18 @@ ArrayList<PVector> makeMidPoints(PVector a, PVector b, float minHeight, float ma
   float distA = 0f;
   float distB = 1f;
 
-  if (dist * maxHeightPercent >= minHeight) {
+  if (dist * maxHeightPercent >= minHeight && dist * maxHeightPercent <= maxLineHeight) {
     // everything's cool
     distA = .5 - maxHeightPercent / 2;
     distB = .5 + maxHeightPercent / 2;
   } 
-  else if (dist < minHeight) {
+  else if (dist < minHeight && dist * maxHeightPercent <= maxLineHeight) {
     // do nothing
+  }
+  else if (dist * maxHeightPercent >= maxLineHeight) {
+    // greater than maxLineHeight
+    distA = .5 - (maxLineHeight / dist) / 2;
+    distB = .5 + (maxLineHeight / dist) / 2;
   }
   else {
     // % height is smaller than min height, so use min height
@@ -163,17 +168,20 @@ ArrayList<PVector> makeMidPoints(PVector a, PVector b, float minHeight, float ma
 
 //
 // this simply finds the VERTICAL weighted point, nextled on a, targeted towards b
-PVector makeWeightedPoint(PVector a, PVector b, float minHeight, float maxHeightPercent) {
+PVector makeWeightedPoint(PVector a, PVector b, float minHeight, float maxHeight, float maxHeightPercent) {
   PVector newPt = a.get();
   float dist = a.dist(b);
   PVector dir = PVector.sub(b, a);
   dir.normalize();
   float distA = 0f;
 
-  if (dist * maxHeightPercent >= minHeight) {
+  if (dist * maxHeightPercent >= minHeight && dist * maxHeightPercent <= maxHeight) {
     // everything's cool
     distA = maxHeightPercent * dist;
   } 
+  else if (dist * maxHeightPercent >= maxHeight) {
+    distA = maxHeight;
+  }
   else if (dist < minHeight) {
     // do nothing
     newPt = null;
@@ -195,8 +203,8 @@ PVector makeWeightedPoint(PVector a, PVector b, float minHeight, float maxHeight
 
 // **** CUTOFF MAKER **** // 
 //
-// assum 2d
-ArrayList<Spline> makeCutoffSplines2(Spline boundary, Spline parent, float minHeight, float maxHeightPercent, boolean goingUp) {
+// assume 2d
+ArrayList<Spline> makeCutoffSplines2(Spline boundary, Spline parent, float minHeight, float maxHeight, float maxHeightPercent, boolean goingUp) {
   ArrayList<Spline> children = new ArrayList<Spline>();
 
   boolean foundFirstSpot = false;
@@ -227,7 +235,7 @@ ArrayList<Spline> makeCutoffSplines2(Spline boundary, Spline parent, float minHe
         continue;
       }
 
-      PVector newPt = makeWeightedPoint(closestPtOnSpline.get(0), intersection.get(0), minHeight, maxHeightPercent);
+      PVector newPt = makeWeightedPoint(closestPtOnSpline.get(0), intersection.get(0), minHeight, maxHeight, maxHeightPercent);
       //ellipse(newPt.x, newPt.y, 3, 3);
       //line(newPt.x, newPt.y, closestPtOnSpline.get(0).x, closestPtOnSpline.get(0).y);
 
@@ -267,7 +275,7 @@ ArrayList<Spline> makeCutoffSplines2(Spline boundary, Spline parent, float minHe
 boolean isSameSpline(Spline a, Spline b, int curvePointCheckSkip) {
   int sameCount = 0; // tally similar points
   for (int i = 0; i < a.curvePoints.size(); i += curvePointCheckSkip) {
-    
+
     if (a.curvePoints.get(i).x == b.curvePoints.get(i).x && a.curvePoints.get(i).y == b.curvePoints.get(i).y) {
       sameCount++;
     }
