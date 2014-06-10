@@ -1,6 +1,8 @@
 import processing.pdf.*;
 
-String budgetFile = "../../../Data/NASAbudget.csv";
+//String budgetFile = "../../../Data/NASAbudget.csv";
+String budgetFile = "revisedData/nasa_numbers.csv";
+
 
 boolean exportToPDF = false;
 
@@ -23,20 +25,25 @@ int[] markerYears = {
 //
 void setup() {
   size(1200, 600);
+  //size(1809, 543);
   String[] allLines = loadStrings(budgetFile);
-  for (int i = 2; i < allLines.length; i++) {
-    String[] broken = split(allLines[i], ";");
+  for (int i = 1; i < allLines.length; i++) {
+    //String[] broken = split(allLines[i], ";");
+    String[] broken = split(allLines[i], ",");
     //println(broken);
     try {
       println(allLines[i]);
       int year = Integer.parseInt(broken[0].replace("\"", "").replace(",", "").trim());
       if (year < yearRange[0]) continue;
-      float dollars = Float.parseFloat(broken[3].replace("\"", "").replace(",", "").trim());
-      float percentFedBudget = Float.parseFloat(broken[2].replace("\"", "").replace("%", "").replace(",", "").trim());
-      Year yr = new Year(year, dollars, percentFedBudget);
+      //float dollars = Float.parseFloat(broken[3].replace("\"", "").replace(",", "").trim());
+      float dollars = Float.parseFloat(broken[1].replace("\"", "").replace(",", "").trim());
+      //float percentFedBudget = Float.parseFloat(broken[2].replace("\"", "").replace("%", "").replace(",", "").trim());
+      //Year yr = new Year(year, dollars, percentFedBudget);
+      Year yr = new Year(year, dollars, .5);
       years.add(yr);
       maxDollars = (maxDollars > dollars ? maxDollars : dollars);
-      maxPercent = (maxPercent > percentFedBudget ? maxPercent : percentFedBudget);
+      //maxPercent = (maxPercent > percentFedBudget ? maxPercent : percentFedBudget);
+      maxPercent = .5;
       if (year >= yearRange[1]) {
         break;
       }
@@ -55,7 +62,7 @@ void setup() {
 void draw() {
 
   if (exportToPDF) {
-    beginRecord(PDF, "pdf/budget.pdf");
+    beginRecord(PDF, "pdf/budgetNew.pdf");
     println("starting export");
   }
   background(255);
