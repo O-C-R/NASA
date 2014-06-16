@@ -1,0 +1,139 @@
+body {
+	line-height: 1;
+	color: black;
+	background: #1c2245;
+	/*background:#302;*/
+	margin: 0;
+	height: 300px;
+	/*overflow: auto;*/
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+#nasamap area {
+	outline: none;
+}
+#mainImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 0;
+	padding: 0;
+}
+
+#focal {
+	margin-top: -20px;
+}
+
+#bus {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	left: 245px;
+	top: 20px;
+	z-index: 1300;
+}
+
+#nerdLabel {
+	margin: 0;
+	padding: 0;
+	width: 35px;
+	height: 110px;
+	opacity: .9;
+}
+
+#busContent {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 245px;
+	left: -245px;
+	top: 0px;
+	opacity: .9;
+}
+
+#cat {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 140px;
+	z-index: 1299;
+	color: #fff;
+}
+
+#catLabel {
+	margin: 0px;
+	padding: 0px;
+	width: 35px;
+	height: 125px;
+	opacity: .9;
+}
+
+#catContent {
+	position: absolute;
+	display: block margin :0px;
+	padding: 0px;
+	width: 300px;
+	left: -300px;
+	top: 0px;
+	opacity: .5;
+}
+
+.reset {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 130px;
+	left: -130px;
+	opacity: 0;
+	top: 275px;
+	z-index: 1299;
+}
+
+#loaderScreen {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: .98;
+	z-index: 3102;
+	background: #1c2245;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#loaderImage {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+	opacity:.2;
+}
+
+#loaderImageBackground {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -900px;
+	margin-top: -600px;
+	opacity:.6;
+}
+
+section {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.panzoom-parent {
+	border: none;
+}
+.panzoom-parent .panzoom {
+	border: none;
+}
+.panzoom {
+	text-align: center;
+}

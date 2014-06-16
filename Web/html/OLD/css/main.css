@@ -1,0 +1,68 @@
+body {
+	line-height: 1;
+	color: black;
+	background: #1c2245;
+	/*background:#302;*/
+	margin: 0;
+	height: 300px;
+	/*overflow: auto;*/
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+#nasamap area {
+	outline: none;
+}
+#mainImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 0;
+	padding: 0;
+}
+
+#focal {
+	margin-top: -20px;
+}
+
+#bus {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 20px;
+	z-index: 1300;
+}
+
+#nerdLabel {
+	margin:0;
+	padding:0;
+	width:35px;
+	height:110px;
+	opacity:.9;
+}
+
+#busContent {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 245px;
+	left: -245px;
+	top: 0px;
+	opacity: 0;
+}
+
+section {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.panzoom-parent {
+	border: none;
+}
+.panzoom-parent .panzoom {
+	border: none;
+}
+.panzoom {
+	text-align: center;
+}

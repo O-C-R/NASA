@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Demo 2</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.panzoom.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/inobounce.min.js"></script>
+		<script src="js/lightbox.js"></script>
+
+		<!-- throw in overflow: hidden?? How will this affect the inobounce? -->
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" name="viewport" content = "width = device-width, initial-scale = 1, minimum-scale=1.0, maxium-scale=1.0, user-scalable = no" />
+
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<link href="css/lightbox.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<section id="focal">
+			<div class="panzoom-parent">
+				<img class="panzoom" src="scale.jpg" width="4268" height="3200" alt="" usemap="#nasamap">
+				<a href="http://www.google.com">test link</a>
+
+			</div>
+			<map name = "nasamap" id = "nasamap">
+				<area shape="poly" coords = "303,295,280,305,310,351,331,344" id = "exporting" href = "images/stories/exporting.png" alt = "exporting" data-lightbox="exporting" data-title = ""/>
+				<area shape="poly" coords = "1694,643,1701,634,1719,623,1732,617,1751,619,1759,623,1771,633,1781,644,1782,649,1773,653,1761,644,1750,637,1742,632,1730,632,1720,639,1704,649,1700,652" id = "lunar_materials" href = "images/stories/lunar_materials.png" alt = "lunar_materials" data-lightbox="lunar_materials" data-title = ""/>
+				<area shape="poly" coords = "249,345,273,391,298,378,271,321" id = "drowning" href = "images/stories/drowning.png" alt = "drowning" data-lightbox="drowning" data-title = ""/>
+				<area shape="poly" coords = "694,281,665,314,650,324,616,322,593,329,575,336,585,352,607,346,647,347,668,332,708,289" id = "president_johnson" href = "images/stories/president_johnson.png" alt = "president_johnson" data-lightbox="president_johnson" data-title = ""/>
+				<area shape="poly" coords = "1224,573,1240,591,1272,575,1307,579,1347,598,1381,615,1389,591,1341,563,1340,563,1270,538,1249,547" id = "roving_vehicle" href = "images/stories/roving_vehicle.png" alt = "roving_vehicle" data-lightbox="roving_vehicle" data-title = ""/>
+				<area shape="poly" coords = "2491,670,2494,680,2514,676,2527,675,2533,672,2534,663,2521,662,2509,663,2504,664" id = "8_inches" href = "images/stories/8_inches.png" alt = "8_inches" data-lightbox="8_inches" data-title = ""/>
+				<area shape="poly" coords = "151,242,160,272,171,297,193,292,173,230" id = "gyrating" href = "images/stories/gyrating.png" alt = "gyrating" data-lightbox="gyrating" data-title = ""/>
+			</map>
+
+			<style>
+				#focal .panzoom {
+					width: 100%;
+					height: 100%;
+				}
+			</style>
+
+			<script>
+				/*
+				 (function() {
+				 var $section = $('#focal');
+				 $section.find('.panzoom').panzoom({
+				 //$zoomIn: $section.find(".zoom-in"),
+				 //$zoomOut: $section.find(".zoom-out"),
+				 //$zoomRange: $section.find(".zoom-range"),
+				 //$reset: $section.find(".reset"),
+				 startTransform : 'scale(1)',
+				 increment : 0.1,
+				 minScale : 1,
+				 contain : 'invert'
+				 }).panzoom('zoom');
+				 })();
+
+				 */
+				(function() {
+					var $section = $('#focal');
+					var $panzoom = $section.find('.panzoom').panzoom();
+
+					$panzoom.parent().on('mousewheel.focal', function(e) {
+						e.preventDefault();
+						var delta = e.delta || e.originalEvent.wheelDelta;
+						var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+
+						$panzoom.panzoom('zoom', zoomOut, {
+							increment : 0.07,
+							focal : e,
+						});
+					});
+
+					$panzoom.panzoom('option', {
+						//animate : false,
+						minScale : 1,
+						maxScale : 3,
+						contain : 'invert',
+					}).panzoom('zoom');
+
+				})();
+
+				$('.panzoom area').on('mousedown touchstart', function(e) {
+					e.stopImmediatePropagation();
+				});
+
+			</script>
+		</section>
+	</body>
+</html>
+
+<!--
+cd public_html/duckduckpenguin/ocr/NASA/iPad
+lcd /Applications/MAMP/htdocs/OCR/NASA/Web/html/iPad
+-->
+

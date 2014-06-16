@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Demo 3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.panzoom.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/inobounce.min.js"></script>
+		<script src="js/lightbox.js"></script>
+
+		<!-- http://www.jqeasy.com/jquery-slide-panel-plugin/ -->
+
+		<!--
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" name="viewport" content = "width = device-width, initial-scale = 1, minimum-scale=1.0, maxium-scale=1.0, user-scalable = no" />
+		-->
+		<meta http-Equiv="Cache-Control" Content="no-cache">
+		<meta http-Equiv="Pragma" Content="no-cache">
+		<meta http-Equiv="Expires" Content="0">
+
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<link href="css/lightbox.css" rel="stylesheet" />
+
+	</head>
+	<body>
+
+		<!-- main image -->
+
+		<!--<section id="panzoom-parent" style="position:absolute; left:0px; top:0px; width:100%; height:100%">-->
+		<section id="panzoom-parent" style="position:absolute; left:0px; top:0px; width:110%; height:110%">
+			<!--<div class="awesome" style="position:absolute; left:0px; top:0px; width: 100%; height:100%">-->
+			<div class="awesome" style="position:absolute; left:0px; top:0px;width: 100%; height:100%">
+				<!--<img  class = "panzoom" src="scale2.jpg" width="4268" height="3200"  alt="" usemap="#nasamap" >-->
+				<!--<img  class = "panzoom" src="scale2.jpg" alt="" usemap="#nasamap" >-->
+				<img  class = "panzoom" src="images/main/GraphicLarge.jpg" lt="" usemap="#nasamap" >
+				<map name = "nasamap" id = "nasamap">
+
+					<area shape="poly" coords = "1795,877,1795,916,1847,919,1903,896,1954,842,1973,818,1946,802,1874,867" id = "pacific_ocean" href = "images/stories/pacific_ocean.png" alt = "pacific_ocean" data-lightbox="pacific_ocean" data-title = ""/>
+					<area shape="poly" coords = "2517,1150,2506,1193,2623,1240,2707,1289,2799,1253,2764,1220,2711,1225,2591,1158" id = "northern_lights" href = "images/stories/northern_lights.png" alt = "northern_lights" data-lightbox="northern_lights" data-title = ""/>
+					<area shape="poly" coords = "4075,1202,4047,1237,4182,1302,4425,1273,4425,1203,4191,1214" id = "solar_power" href = "images/stories/solar_power.png" alt = "solar_power" data-lightbox="solar_power" data-title = ""/>
+					<area shape="poly" coords = "5281,1683,5303,1713,5393,1674,5486,1751,5522,1723,5436,1633,5357,1628" id = "electronic_mail" href = "images/stories/electronic_mail.png" alt = "electronic_mail" data-lightbox="electronic_mail" data-title = ""/>
+					<area shape="poly" coords = "6829,1943,6807,1980,6966,2014,6964,1967" id = "3_rockets" href = "images/stories/3_rockets.png" alt = "3_rockets" data-lightbox="3_rockets" data-title = ""/>
+					<area shape="poly" coords = "8279,1811,8316,1856,8410,1765,8475,1746,8537,1770,8597,1878,8634,1865,8543,1689,8474,1663,8400,1692" id = "global_positioning_system" href = "images/stories/global_positioning_system.png" alt = "global_positioning_system" data-lightbox="global_positioning_system" data-title = ""/>
+					<area shape="poly" coords = "9412,1733,9408,1782,9753,1863,9768,1809" id = "mario_dario_grossi" href = "images/stories/mario_dario_grossi.png" alt = "mario_dario_grossi" data-lightbox="mario_dario_grossi" data-title = ""/>
+					<area shape="poly" coords = "10347,1843,10344,1895,10469,1897,10589,1853,10566,1815,10443,1838" id = "arctic_circle" href = "images/stories/arctic_circle.png" alt = "arctic_circle" data-lightbox="arctic_circle" data-title = ""/>
+				</map>
+
+			</div>
+		</section>
+
+		<!-- side panel -->
+		<div id="bus" >
+			<p>
+				Hello dynamo via a panel.
+			</p>
+			<div id = "busContent">
+				This is content. This is content. This is content. This is content. This is content.
+			</div>
+		</div>
+
+		<!-- loader -->
+
+		<!-- scripts -->
+		<script>
+			// panzoom
+			(function() {
+				var $section = $('#panzoom-parent');
+				var $panzoom = $section.find('.panzoom').panzoom();
+
+				$panzoom.parent().on('mousewheel.focal', function(e) {
+					e.preventDefault();
+					var delta = e.delta || e.originalEvent.wheelDelta;
+					var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+
+					$panzoom.panzoom('zoom', zoomOut, {
+						increment : 0.07,
+						focal : e,
+					});
+				});
+
+				$panzoom.panzoom('option', {
+					minScale : .3,
+					maxScale : 1,
+					contain : 'invert',
+				}).panzoom('zoom');
+
+			})();
+
+			$('.panzoom area a').on('mousedown touchstart', function(e) {
+				e.stopImmediatePropagation();
+			});
+
+			// set the initial pan and zoom
+			// zoom
+			$('#panzoom-parent').find('.panzoom').panzoom("zoom", .3, {
+				silent : true
+			});
+			// pan
+			$('#panzoom-parent').find('.panzoom').panzoom("pan", 0, -100, {
+				relative : true
+			});
+
+			// side panel part:
+			// test button alert
+			$('#bus').click(function() {
+				var base = 0;
+				var farLeft = 500;
+				var animationTime = 400;
+
+				var currentLeft = $('#bus').css('left');
+				if (currentLeft == '0px') {
+					$('#bus').animate({
+						left : $('#busContent').css('width')
+					}, animationTime);
+					$('#busContent').animate({
+						opacity : '1'
+					}, animationTime);
+				} else {
+					$('#bus').animate({
+						left : '0px'
+					}, animationTime);
+					$('#busContent').animate({
+						opacity : '0'
+					}, animationTime);
+				}
+				//alert("test");
+			});
+
+			// other stuff
+			// fade out when clicking image?
+			$('.awesome').click(function() {
+				//$('#lightbox').fadeOut(1130); // weird looking .. when clicking on another area
+			});
+		</script>
+	</body>
+</html>
+
+<!--
+cd public_html/duckduckpenguin/ocr/NASA/iPad
+lcd /Applications/MAMP/htdocs/OCR/NASA/Web/html/iPad
+-->
+

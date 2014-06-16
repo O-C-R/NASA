@@ -1,0 +1,82 @@
+[Katie's notes, including print typesetting parameters, in brackets.]
+
+[ Legend ]
+Story topics
+Satellites
+Moon
+Research & Development
+Rockets
+Space Shuttle
+Russia
+[ Flama condensed, all caps, tracked at +100]
+
+[ Axis labels ]
+NASA’s budget as a percentage of the federal budget
+0 0.5% 1.0% 1.5% 2.0% 2.5% 3.0% 3.5% 4.0% 4.5% 5.0%
+NASA’s budget in millions of inflation-adjusted 2007 dollars
+0 $5,000 $10,000 $15,000 $20,000 $25,000 $30,000 $35,000
+[ Flama condensed, all caps, tracked at +50]
+
+[ Milestones ]
+October 11, 1958 
+NASA launches its first spacecraft, >>Pioneer 1<<.
+April 12, 1961
+Aboard the Soviet >>Vostok 1<<, Yury Gagarin becomes the first human in space.
+
+May 25, 1961
+President Kennedy calls for a lunar landing by the end of the 1960s.
+In a May 12, 1963, news story
+“The question is, which kind of philosophy, democratic or Communist, will dominate outer space? I, for one, don’t want to go to bed by the light of a Communist moon,” said Vice President Lyndon B. Johnson.
+Late 1960s
+News stories about the shuttle program begin to appear in the NASA reports.
+July 20, 1969
+>>Apollo 11<<
+astronaut Neil Armstrong walks on the moon.
+December 7–19, 1972 
+With the >>Apollo 17<< mission, humans stand on the moon for the last time (so far).
+July 17–19, 1975 
+On the nations’ first joint mission, U.S. and Soviet crafts dock in space for 44 hours.
+September 5, 1977
+>>Voyager 1<<, destined to be the first craft to leave the solar system, takes off on its tour.
+February 22, 1978
+The first test satellite of the Global Positioning System, Navstar 1, heads for high orbit.
+April 12, 1981
+The first space shuttle, >>Columbia<<, launches from Cape Canaveral.
+January 28, 1986
+The >>Challenger<< space shuttle explodes 73 seconds after takeoff.
+Late 1980s
+In the years leading up to the USSR’s breakup, fewer stories about the Soviet space program appear in the NASA histories.
+April 24, 1990
+The Hubble Space Telescope launches from the shuttle >>Discovery<<.
+In a May 18, 1992, news story 
+>>The New York Times<< wrote that shuttle commander Daniel Brandenstein “said a strong space program [is] needed to inspire young people to high achievement and hopes for the future.” 
+February 3–11, 1994
+Sergei Krikalev becomes the first cosmonaut to ride on a U.S. mission.
+July 4, 1997
+The airbag-encased Pathfinder lander bounces onto the Martian surface.
+November 2, 2000
+The International Space Station welcomes its first crew.
+February 1, 2003
+The shuttle >>Columbia<< breaks up as it re-enters Earth’s atmosphere.
+June 21, 2004
+>>SpaceShipOne<< completes the first privately funded suborbital flight.
+[ Flama semicondensed, tracked at +5. Dates in bold, text in basic.]
+
+[ "Nerd Box" caption ]
+Nerd box: The designers pulled news stories from the NASA reports if they fell into one of six topic areas (represented by color), based on key words therein—a story that uses the word >>Mir<<, for example, is about Russia. Then they pulled the most relevant phrases from the stories. The number of phrases in each topic each year determines the graphic’s shape. Terms that appear more often in the reports are larger. Brighter words occur repeatedly in a single topic area—>>Project Apollo<< is brighter than >>John F. Kennedy<< because it appears almost exclusively in stories about the moon, while JFK appears in stories about several topics. The background contains “-ing” words (in purple) pulled from the reports. The white dots represent NASA’s budget.
+[ Flama semicondensed, tracked at +5. "Nerd box" is in bold, text is in book. ]
+
+
+
+Our ideal for web/iPad implementation is to do a single aspect ratio, but at two different resolutions. 
+– iPad: 2048 pixels wide and 1536 tall
+– Web: same aspect ratio but 898 pixels wide instead
+Can you adjust the total width reasonably easily, keeping the same design, and send two web pages? 
+
+One possible roadblock is that the size limit for the iPad version is ~20 megs. The issue is that because the web page shows up as a blank rectangle in the iPad app while it loads into memory, we have to keep things small for UX reasons. But I realize 20 megs may be simply impossibly small, given the screen resolution. Let me know what you think is possible. Because this has the potential to look so spectacular on the iPad, I'd love to make it work. But ultimately it can't be at the expense of the web implementation, which will get wider circulation.
+
+The title, credits, and introduction will appear separate from the interactive. If the interactive could include the NASA-timeline sentences, that'd be great. Also, would it be possible to include the Nerd Box text in a sticky manner such that the user can expand that explanatory paragraph from whatever view they're currently on (but most the time it's hidden)? I also liked the sticky axis labels and color labels from the original wireframe.
+
+Attached is the final text elements from the print version that I'd like to appear in the interactive. I included how I typeset them. Words that should be set in italics are set apart with double angle brackets (>>ital word<<). It would be nice if the interactive typesetting matched the print version reasonably well but if using custom fonts is problematic, I understand. There's flexibility here. I attached the Flama font in case.
+
+I also attached a .csv of the revised constant-2007-dollars NASA budget figures, which I generated using our preferred inflation-adjustment methodology—so you can re-generate that bottom dotted line, too.

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>ipad 2</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.panzoom.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	<body>
+
+		<section id="panzoom-parent">
+			<div class="panzoom" style="background-color:#aa0">
+				<!--
+				<img src="http://blog.millermedeiros.com/wp-content/uploads/2010/04/awesome_tiger.svg" width="900" height="900"/>
+				-->
+				<img src="http://blog.millermedeiros.com/wp-content/uploads/2010/04/awesome_tiger.svg" width="1000" height="1000"/>
+			</div>
+		</section>
+	
+
+		<script>
+			$(".panzoom").panzoom({
+				/*
+				 $zoomIn: $(".zoom-in"),
+				 $zoomOut: $(".zoom-out"),
+				 $zoomRange: $(".zoom-range"),
+				 $reset: $(".reset"),
+				 */
+				contain : "invert",
+				minScale : 2
+			}).panzoom("zoom");
+		</script>
+	</body>
+</html>

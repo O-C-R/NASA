@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+	<head>
+		<title>NASA full</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.panzoom.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/inobounce.min.js"></script>
+		<script src="js/lightbox.js"></script>
+
+		<meta http-Equiv="Cache-Control" Content="no-cache">
+		<meta http-Equiv="Pragma" Content="no-cache">
+		<meta http-Equiv="Expires" Content="0">
+
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<link href="css/lightbox.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<!-- loading overlay -->
+		<div id="loaderScreen">
+			<img id="loaderImageBackground" src="images/overlay/Graphic8kOverlay.jpg">
+			<img id="loaderImage" src="img/loading.gif">
+		</div>
+
+		<!-- main image -->
+		<section id="panzoom-parent" style="position:absolute; left:0px; top:0px; width:100%; height:100%">
+			<div class="panzoom" style="position:absolute; left:0px; top:0px;width: 100%; height:100%">
+
+				<img src = "images/tiles100/0001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:1px; top:1px">
+				<img src = "images/tiles100/1001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:1001px; top:1px">
+				<img src = "images/tiles100/2001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:2001px; top:1px">
+				<img src = "images/tiles100/3001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:3001px; top:1px">
+				<img src = "images/tiles100/4001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:4001px; top:1px">
+				<img src = "images/tiles100/5001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:5001px; top:1px">
+				<img src = "images/tiles100/6001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:6001px; top:1px">
+				<img src = "images/tiles100/7001-0001.jpg" style="display:block; z-index:2000; position:absolute; left:7001px; top:1px">
+				<img src = "images/tiles100/0001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:1px; top:1001px">
+				<img src = "images/tiles100/1001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:1001px; top:1001px">
+				<img src = "images/tiles100/2001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:2001px; top:1001px">
+				<img src = "images/tiles100/3001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:3001px; top:1001px">
+				<img src = "images/tiles100/4001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:4001px; top:1001px">
+				<img src = "images/tiles100/5001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:5001px; top:1001px">
+				<img src = "images/tiles100/6001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:6001px; top:1001px">
+				<img src = "images/tiles100/7001-1001.jpg" style="display:block; z-index:2000; position:absolute; left:7001px; top:1001px">
+				<img src = "images/tiles100/0001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:1px; top:2001px">
+				<img src = "images/tiles100/1001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:1001px; top:2001px">
+				<img src = "images/tiles100/2001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:2001px; top:2001px">
+				<img src = "images/tiles100/3001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:3001px; top:2001px">
+				<img src = "images/tiles100/4001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:4001px; top:2001px">
+				<img src = "images/tiles100/5001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:5001px; top:2001px">
+				<img src = "images/tiles100/6001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:6001px; top:2001px">
+				<img src = "images/tiles100/7001-2001.jpg" style="display:block; z-index:2000; position:absolute; left:7001px; top:2001px">
+				<img src = "images/tiles100/0001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:1px; top:3001px">
+				<img src = "images/tiles100/1001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:1001px; top:3001px">
+				<img src = "images/tiles100/2001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:2001px; top:3001px">
+				<img src = "images/tiles100/3001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:3001px; top:3001px">
+				<img src = "images/tiles100/4001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:4001px; top:3001px">
+				<img src = "images/tiles100/5001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:5001px; top:3001px">
+				<img src = "images/tiles100/6001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:6001px; top:3001px">
+				<img src = "images/tiles100/7001-3001.jpg" style="display:block; z-index:2000; position:absolute; left:7001px; top:3001px">
+
+				<!-- overlay image for the nasa map -->
+				<img id="mapBlank" src="images/blank.png"  width="8000" height="3086" usemap="#nasamap" style="z-index:2000; position:absolute; left:0px; top:0px; opacity:1">
+
+				<img  width="16000" height="11086" style="opacity:0; z-index:0; position:absolute; left:-4000px; top:-4000px; opacity:0; border:0px; margin:0px">
+
+			</div>
+		</section>
+
+		<!-- note: this comes after the section -->
+		<map name = "nasamap" id = "nasamap">
+			<area shape="poly" coords = "1192,576,1186,617,1268,613,1318,544,1293,526,1248,569" id = "pacific_ocean" href = "images/stories/pacific_ocean.png" alt = "pacific_ocean" data-lightbox="pacific_ocean" data-title = ""/>
+			<area shape="poly" coords = "1673,763,1667,798,1720,817,1778,848,1814,861,1849,842,1860,827,1843,809,1811,819,1781,808,1744,787,1716,770" id = "northern_lights" href = "images/stories/northern_lights.png" alt = "northern_lights" data-lightbox="northern_lights" data-title = ""/>
+			<area shape="poly" coords = "2719,798,2702,810,2691,825,2734,854,2803,868,2873,863,2927,854,2952,846,2946,800,2882,805,2807,812" id = "solar_power" href = "images/stories/solar_power.png" alt = "solar_power" data-lightbox="solar_power" data-title = ""/>
+			<area shape="poly" coords = "3515,1121,3528,1139,3560,1119,3592,1115,3611,1122,3638,1146,3655,1161,3671,1145,3645,1110,3612,1085,3575,1080,3550,1088" id = "electronic_mail" href = "images/stories/electronic_mail.png" alt = "electronic_mail" data-lightbox="electronic_mail" data-title = ""/>
+			<area shape="poly" coords = "4537,1293,4526,1316,4570,1334,4635,1335,4629,1310" id = "3_rockets" href = "images/stories/3_rockets.png" alt = "3_rockets" data-lightbox="3_rockets" data-title = ""/>
+			<area shape="poly" coords = "5509,1208,5528,1234,5592,1180,5633,1155,5658,1164,5678,1184,5716,1246,5739,1235,5700,1151,5663,1114,5634,1105,5601,1118,5559,1154" id = "global_positioning_system" href = "images/stories/global_positioning_system.png" alt = "global_positioning_system" data-lightbox="global_positioning_system" data-title = ""/>
+			<area shape="poly" coords = "6261,1152,6258,1185,6489,1237,6495,1203,6299,1156" id = "mario_dario_grossi" href = "images/stories/mario_dario_grossi.png" alt = "mario_dario_grossi" data-lightbox="mario_dario_grossi" data-title = ""/>
+			<area shape="poly" coords = "6893,1221,6881,1259,6943,1259,7006,1247,7040,1229,7023,1207,6952,1227" id = "arctic_circle" href = "images/stories/arctic_circle.png" alt = "arctic_circle" data-lightbox="arctic_circle" data-title = ""/>
+			<area shape="poly" coords = "599,1379,597,1399,659,1395,742,1354,731,1331,683,1359,640,1375" id = "dwight_d_eisenhower" href = "images/stories/dwight_d_eisenhower.png" alt = "dwight_d_eisenhower" data-lightbox="dwight_d_eisenhower" data-title = ""/>
+			<area shape="poly" coords = "455,1422,455,1449,605,1446,603,1425,496,1422" id = "premier_khrushchev" href = "images/stories/premier_khrushchev.png" alt = "premier_khrushchev" data-lightbox="premier_khrushchev" data-title = ""/>
+			<area shape="poly" coords = "1042,1098,1064,1144,1173,1118,1270,1094,1330,1055,1370,1032,1409,1023,1419,965,1363,961,1327,980,1306,1008,1250,1018,1148,1044,1081,1074" id = "project_apollo" href = "images/stories/project_apollo.png" alt = "project_apollo" data-lightbox="project_apollo" data-title = ""/>
+			<area shape="poly" coords = "2192,915,2181,968,2268,969,2340,946,2366,898,2344,870,2285,909,2234,918" id = "56_days" href = "images/stories/56_days.png" alt = "56_days" data-lightbox="56_days" data-title = ""/>
+			<area shape="poly" coords = "3127,1193,3105,1207,3145,1243,3183,1245,3223,1223,3230,1210,3214,1193,3183,1212,3170,1217" id = "isaac_asimov" href = "images/stories/isaac_asimov.png" alt = "isaac_asimov" data-lightbox="isaac_asimov" data-title = ""/>
+			<area shape="poly" coords = "3966,1306,3962,1329,4035,1332,4091,1348,4092,1326,4043,1313,3993,1310" id = "sea_of_smyth" href = "images/stories/sea_of_smyth.png" alt = "sea_of_smyth" data-lightbox="sea_of_smyth" data-title = ""/>
+			<area shape="poly" coords = "4983,1351,4987,1376,5057,1370,5124,1356,5143,1345,5134,1324,5078,1336,5020,1348" id = "unmanned_flights" href = "images/stories/unmanned_flights.png" alt = "unmanned_flights" data-lightbox="unmanned_flights" data-title = ""/>
+			<area shape="poly" coords = "6280,1310,6266,1341,6338,1346,6498,1365,6499,1341,6299,1313" id = "jupiters_volcanic_moon" href = "images/stories/jupiters_volcanic_moon.png" alt = "jupiters_volcanic_moon" data-lightbox="jupiters_volcanic_moon" data-title = ""/>
+			<area shape="poly" coords = "7498,1329,7494,1349,7550,1363,7619,1361,7640,1357,7634,1332,7560,1337,7506,1325" id = "new_programs" href = "images/stories/new_programs.png" alt = "new_programs" data-lightbox="new_programs" data-title = ""/>
+			<area shape="poly" coords = "597,1464,596,1484,744,1478,743,1462,663,1463" id = "president_eisenhower" href = "images/stories/president_eisenhower.png" alt = "president_eisenhower" data-lightbox="president_eisenhower" data-title = ""/>
+			<area shape="poly" coords = "1209,1584,1205,1643,1356,1654,1462,1646,1455,1570,1280,1581" id = "600_lbs" href = "images/stories/600_lbs.png" alt = "600_lbs" data-lightbox="600_lbs" data-title = ""/>
+			<area shape="poly" coords = "2416,1398,2417,1459,2767,1455,2763,1405,2672,1401,2567,1401,2468,1398" id = "white_sands" href = "images/stories/white_sands.png" alt = "white_sands" data-lightbox="white_sands" data-title = ""/>
+			<area shape="poly" coords = "3132,1574,3138,1618,3187,1618,3243,1637,3247,1647,3268,1651,3339,1641,3443,1605,3443,1574,3328,1586,3280,1595,3175,1575" id = "jimmy_carter" href = "images/stories/jimmy_carter.png" alt = "jimmy_carter" data-lightbox="jimmy_carter" data-title = ""/>
+			<area shape="poly" coords = "3954,1440,3956,1470,4195,1469,4188,1436,4028,1432" id = "computer_science" href = "images/stories/computer_science.png" alt = "computer_science" data-lightbox="computer_science" data-title = ""/>
+			<area shape="poly" coords = "4704,1556,4704,1576,4765,1580,4838,1577,4837,1558" id = "energy_storage" href = "images/stories/energy_storage.png" alt = "energy_storage" data-lightbox="energy_storage" data-title = ""/>
+			<area shape="poly" coords = "5310,1439,5310,1469,5476,1470,5486,1476,5500,1470,5512,1469,5512,1444,5414,1442,5315,1439" id = "climate_change" href = "images/stories/climate_change.png" alt = "climate_change" data-lightbox="climate_change" data-title = ""/>
+			<area shape="poly" coords = "6172,1561,6172,1561,6171,1583,6224,1587,6304,1590,6305,1571,6195,1563" id = "new_images" href = "images/stories/new_images.png" alt = "new_images" data-lightbox="new_images" data-title = ""/>
+			<area shape="poly" coords = "7493,1562,7493,1590,7612,1583,7608,1561,7528,1562" id = "black_hole" href = "images/stories/black_hole.png" alt = "black_hole" data-lightbox="black_hole" data-title = ""/>
+			<area shape="poly" coords = "885,1711,867,1726,896,1754,952,1795,1046,1824,1056,1791,1001,1779,939,1750,908,1726" id = "cape_canaveral" href = "images/stories/cape_canaveral.png" alt = "cape_canaveral" data-lightbox="cape_canaveral" data-title = ""/>
+			<area shape="poly" coords = "1858,1827,1857,1827,1863,1875,2141,1878,2140,1820,2022,1820,1900,1820" id = "nitric_oxide" href = "images/stories/nitric_oxide.png" alt = "nitric_oxide" data-lightbox="nitric_oxide" data-title = ""/>
+			<area shape="poly" coords = "3086,1758,3098,1784,3148,1771,3172,1770,3218,1807,3242,1783,3191,1736,3165,1726,3121,1730,3097,1745" id = "atlas_centaur" href = "images/stories/atlas_centaur.png" alt = "atlas_centaur" data-lightbox="atlas_centaur" data-title = ""/>
+			<area shape="poly" coords = "4462,1790,4476,1801,4449,1846,4428,1900,4405,1892,4423,1841,4456,1796" id = "the_commission" href = "images/stories/the_commission.png" alt = "the_commission" data-lightbox="the_commission" data-title = ""/>
+			<area shape="poly" coords = "1077,2084,1060,2110,1148,2165,1243,2238,1259,2214,1165,2140,1110,2099" id = "peaceful_purposes" href = "images/stories/peaceful_purposes.png" alt = "peaceful_purposes" data-lightbox="peaceful_purposes" data-title = ""/>
+			<area shape="poly" coords = "2822,2293,2817,2307,2859,2325,2902,2325,2954,2309,2994,2289,2980,2267,2905,2292,2861,2297,2832,2287" id = "a_joint_manned_mission" href = "images/stories/a_joint_manned_mission.png" alt = "a_joint_manned_mission" data-lightbox="a_joint_manned_mission" data-title = ""/>
+			<area shape="poly" coords = "5254,2081,5252,2102,5342,2122,5392,2119,5435,2101,5493,2083,5492,2057,5423,2068,5385,2087,5308,2089,5283,2085" id = "the_former_soviet_union" href = "images/stories/the_former_soviet_union.png" alt = "the_former_soviet_union" data-lightbox="the_former_soviet_union" data-title = ""/>
+			<area shape="poly" coords = "6593,1919,6576,1947,6620,1976,6688,1989,6751,1946,6740,1927,6701,1948,6659,1948,6624,1933" id = "kyoto_protocol" href = "images/stories/kyoto_protocol.png" alt = "kyoto_protocol" data-lightbox="kyoto_protocol" data-title = ""/>
+			<area shape="poly" coords = "2901,2369,2903,2421,3016,2403,3035,2377,3088,2296,3065,2278,3021,2327,2980,2354" id = "bering_strait" href = "images/stories/bering_strait.png" alt = "bering_strait" data-lightbox="bering_strait" data-title = ""/>
+			<area shape="poly" coords = "6188,1929,6163,1952,6216,2000,6252,2011,6315,2004,6316,1976,6260,1971,6220,1955" id = "boris_yeltsin" href = "images/stories/boris_yeltsin.png" alt = "boris_yeltsin" data-lightbox="boris_yeltsin" data-title = ""/>
+			<area shape="poly" coords = "1259,2242,1271,2221,1319,2251,1385,2275,1425,2252,1478,2180,1494,2189,1454,2269,1422,2300,1391,2314,1340,2309,1289,2272" id = "baikonur_cosmodrome" href = "images/stories/baikonur_cosmodrome.png" alt = "baikonur_cosmodrome" data-lightbox="baikonur_cosmodrome" data-title = ""/>
+			<area shape="poly" coords = "2591,2166,2615,2194,2714,2117,2737,2119,2837,2169,2925,2161,2920,2109,2852,2109,2754,2064,2720,2062,2682,2077" id = "general_dynamics" href = "images/stories/general_dynamics.png" alt = "general_dynamics" data-lightbox="general_dynamics" data-title = ""/>
+			<area shape="poly" coords = "3750,1836,3763,1859,3815,1842,3869,1837,3929,1850,3937,1854,3954,1832,3904,1806,3859,1801,3804,1808,3774,1820" id = "okinawa_island" href = "images/stories/okinawa_island.png" alt = "okinawa_island" data-lightbox="okinawa_island" data-title = ""/>
+			<area shape="poly" coords = "5418,1898,5424,1917,5489,1905,5522,1909,5600,1955,5612,1933,5529,1884,5482,1882,5440,1890" id = "state_run_media" href = "images/stories/state_run_media.png" alt = "state_run_media" data-lightbox="state_run_media" data-title = ""/>
+			<area shape="poly" coords = "6702,1785,6702,1785,6713,1812,6784,1800,6826,1803,6873,1854,6891,1839,6867,1808,6831,1776,6789,1766,6745,1773" id = "three_spacewalks" href = "images/stories/three_spacewalks.png" alt = "three_spacewalks" data-lightbox="three_spacewalks" data-title = ""/>
+			<area shape="poly" coords = "3459,1887,3467,1921,3486,1919,3534,1943,3582,1964,3635,1938,3625,1912,3583,1924,3537,1909,3486,1881" id = "space_shuttle" href = "images/stories/space_shuttle.png" alt = "space_shuttle" data-lightbox="space_shuttle" data-title = ""/>
+			<area shape="poly" coords = "7479,1640,7481,1651,7562,1645,7640,1637,7638,1625,7531,1631" id = "eugene_w_roddenberry" href = "images/stories/eugene_w_roddenberry.png" alt = "eugene_w_roddenberry" data-lightbox="eugene_w_roddenberry" data-title = ""/>
+			<area shape="poly" coords = "5892,1631,5885,1646,5936,1658,5985,1655,6028,1643,6082,1633,6076,1617,6030,1623,5991,1633,5949,1640" id = "a_potential_ongoing_problem" href = "images/stories/a_potential_ongoing_problem.png" alt = "a_potential_ongoing_problem" data-lightbox="a_potential_ongoing_problem" data-title = ""/>
+			<area shape="poly" coords = "6424,1634,6427,1651,6547,1644,6544,1627" id = "lunar_landing_spot" href = "images/stories/lunar_landing_spot.png" alt = "lunar_landing_spot" data-lightbox="lunar_landing_spot" data-title = ""/>
+			<area shape="poly" coords = "5095,1700,5087,1714,5189,1782,5267,1783,5352,1755,5348,1728,5264,1749,5195,1755,5104,1707" id = "a_commercial_suborbital_rocket" href = "images/stories/a_commercial_suborbital_rocket.png" alt = "a_commercial_suborbital_rocket" data-lightbox="a_commercial_suborbital_rocket" data-title = ""/>
+			<area shape="poly" coords = "4639,1683,4641,1702,4691,1707,4752,1710,4749,1691,4682,1682" id = "soviet_icbms" href = "images/stories/soviet_icbms.png" alt = "soviet_icbms" data-lightbox="soviet_icbms" data-title = ""/>
+			<area shape="poly" coords = "1858,1210,1881,1249,1981,1199,2018,1201,2115,1234,2169,1249,2182,1187,2065,1151,2010,1127,1975,1128" id = "lunar_landing" href = "images/stories/lunar_landing.png" alt = "lunar_landing" data-lightbox="lunar_landing" data-title = ""/>
+			<area shape="poly" coords = "2228,2080,2219,2117,2274,2135,2301,2164,2330,2200,2350,2181,2302,2114" id = "bank_loans" href = "images/stories/bank_loans.png" alt = "bank_loans" data-lightbox="bank_loans" data-title = ""/>
+			<area shape="poly" coords = "2932,2095,2955,2150,3013,2128,3120,2051,3166,2040,3179,1990,3136,1976,3082,2010,3042,2052" id = "rockwell_intl" href = "images/stories/rockwell_intl.png" alt = "rockwell_intl" data-lightbox="rockwell_intl" data-title = ""/>
+		</map>
+
+		<!-- side panel -->
+		<div id="bus" >
+			<div id="nerdLabel">
+				<img src="images/nerdBox/NerdBoxLabel.png">
+			</div>
+			<div id = "busContent">
+				<img src="images/nerdBox/NerdBoxText.png">
+			</div>
+		</div>
+		<!-- categories panel -->
+		<div id ="cat">
+			<div id = "catLabel">
+				<img src="images/nerdBox/CategoriesLabel.png">
+			</div>
+			<div id = "catContent">
+				<img src="images/nerdBox/CategoriesText.png">
+			</div>
+		</div>
+
+		<!-- reset -->
+		<div class="reset" id="resetFull" onclick="resetMap(this.id)">
+			<img src="images/nerdBox/ResetLabel.png">
+		</div>
+
+		<!-- scripts -->
+		<script>
+			// panzoom
+			(function() {
+				var $section = $('#panzoom-parent');
+				var $panzoom = $section.find('.panzoom').panzoom();
+
+				$panzoom.parent().on('mousewheel.focal', function(e) {
+					e.preventDefault();
+					var delta = e.delta || e.originalEvent.wheelDelta;
+					var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+
+					$panzoom.panzoom('zoom', zoomOut, {
+						increment : 0.07,
+						focal : e,
+					});
+				});
+
+				$panzoom.panzoom('option', {
+					minScale : .35,
+					maxScale : 1,
+					//contain : 'invert',
+				}).panzoom('zoom');
+
+			})();
+
+			/*
+			$('.panzoom area a').on('mousedown touchstart', function(e) {
+			e.stopImmediatePropagation();
+			});
+			*/
+
+			// set the initial pan and zoom
+			// zoom
+			$('#panzoom-parent').find('.panzoom').panzoom("zoom", .3, {
+				silent : true
+			});
+			// pan
+			$('#panzoom-parent').find('.panzoom').panzoom("pan", -433, -250, {
+				relative : false
+			});
+
+			// loader screen
+			$(window).load(function() {
+				$('#loaderScreen').animate({
+					opacity : '0'
+				}, 300, "linear", function() {
+					$(this).remove();
+				})
+			});
+
+		</script>
+
+		<!-- do the sticky stuff -->
+		<script src="js/sticky.js"></script>
+		<script src="js/resetButton.js"></script>
+
+	</body>
+</html>
+
+<!--
+cd public_html/duckduckpenguin/ocr/NASA/HTML/
+lcd /Applications/MAMP/htdocs/OCR/NASA/Web/html/HTML/
+-->
+
